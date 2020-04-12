@@ -1,0 +1,100 @@
+site_name: DevOps笔记
+site_description: DevOps笔记
+site_author: 高远志
+site_url: https://github.com/yuanzhigao/devops-notes
+theme:
+  name: 'material'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  language: 'zh'
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - admonition
+  
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/yuanzhigao'
+    - type: 'envelope-open'
+      link: 'mailto:gaopeng0214@126.com'
+  search:
+    tokenizer: '[\s\-\.]+'   
+plugins:
+  - search
+  - git-revision-date-localized
+nav:
+  - Linux:
+    - '常用命令': 'linux/linux_commands.md'
+    - '文本处理三剑客': 'linux/文本处理三剑客.md'
+    - '常用服务': 'linux/service.md'
+    - 'IPtables': 'linux/iptables.md'
+    - 'VIM': 'linux/vim.md'
+  - 数据库:
+    - mysql: 
+      - '基础知识': 'databases/MySQL/MySQL基础知识.md'
+      - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
+      - 'MySQL操作': 'databases/MySQL/MySQL操作.md'
+  - 应用软件:
+    - Web:
+      - 'Nginx': 'software/web/nginx.md'
+      - 'Tomcat': 'software/web/tomcat.md'
+    - 中间件:
+      - 'RabbitMQ': 'software/middleware/rabbitmq.md'
+  - 编程语言:
+    - Shell: 
+      - 'Shell': 'language/shell/shell.md'
+    - Python:
+      - 基础:
+        - '简介': 'language/python/基础/python简介.md'
+        - '整数与字符串': 'language/python/基础/数值类型和字符串.md'
+        - '数据结构': 'language/python/基础/数据结构.md'
+        - '逻辑控制': 'language/python/基础/逻辑控制.md'
+        - '函数': 'language/python/基础/函数.md'
+        - '生成器与迭代器': 'language/python/基础/生成器与迭代器.md'
+        - '面向对象': 'language/python/基础/面向对象.md'
+        - '包和模块': 'language/python/基础/包和模块.md'
+        - '文件处理': 'language/python/基础/文件处理.md'
+        - '异常处理': 'language/python/基础/异常处理.md'
+      - 进阶:
+        - '常用模块': 'language/python/进阶/常用模块.md'
+        - '进程与协程': 'language/python/进阶/线程与协程.md'
+        - '网络编程': 'language/python/进阶/网络编程.md'
+        - '数据库编程': 'language/python/进阶/数据库编程.md'
+        - 'office编程': 'language/python/进阶/office.md'
+      - WEB:
+        - Web基础:
+          - 'HTML': 'language/python/web/html.md'
+          - 'CSS': 'language/python/web/css.md'
+          - 'JS': 'language/python/web/JavaScript.md'
+          - 'jQuery': 'language/python/web/jQuery.md'
+        - HTTP:    
+          - 'HTTP协议': 'language/python/web/HTTP协议.md'
+        - 模板语言:    
+          - 'Jinja2': 'language/python/web/Jinja2.md'   
+        - Web框架:    
+          - 'web框架': 'language/python/web/web框架.md'
+          - 'Django': 'language/python/web/Django.md'
+          - 'Flask': 'language/python/web/Flask.md'
+  - 云与容器:
+    - Docker:
+      - 'Docker基础': 'cloud&container/Docker/Docker基础.md'
+    - Kubernetes:
+      - 'Kubernetes基础':   'cloud&container/Kubernetes/k8s基础.md'
+  - CI&CD:
+    - 版本控制:
+      - 'Git': 'CI&CD/Git/Git.md' 
+    - Ansible: 
+      - 'Ansible基础': 'CI&CD/Ansible/ansible.md'
+    - Jenkins: 
+      - 'Jenkins基础': 'CI&CD/Jenkins/Jenkins基础.md'  
+
+    
