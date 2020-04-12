@@ -129,7 +129,7 @@ git clone https://gitee.com/gaoyuanzhi/python3-notes.git
 
 ## 四、文件管理
 
-![文件状态](../img/git/filestatus.png)
+![文件状态](../../images/git/filestatus.png)
 
 ### 1. 查看当前文件状态
 
