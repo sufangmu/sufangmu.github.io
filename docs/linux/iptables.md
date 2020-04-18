@@ -1,11 +1,14 @@
 # 一、iptables概念
 
-## 1. iptable与Netfilter
+## 1.iptable与Netfilter
 
 1. **Netfilter**是用来实现Linux内核中防火墙的Linux内核空间程序代码段。
-2. **iptables**是用户管理Netfilter防火墙的用户程序。
+2. **Hook potnt**: 数据包在Netfilter中的挂载点
+3. **iptables**是用户管理Netfilter防火墙的用户程序。
 
-### 2. iptables的组成
+![1587213311645](../images/netfilter_iptables.png)
+
+### 2.iptables的组成
 
 #### 1. 表
 
@@ -18,6 +21,7 @@
 #### 2. 链
 
 表是由几个默认链组成的。
+
 1. PREROUTING：存在于raw,mangle,nat
 2. INPUT:存在于mangle,filter,nat
 3. OUTPUT: 存在于mangle,filter
@@ -29,11 +33,11 @@
 
 包的过滤是基于规则的。规则由条件和target组成。很据匹配条件来匹配每一个流经此处的报文，一旦匹配成功则交给后面的target进行处理。
 
-##### 1.条件
+##### 1. 条件
 
 包的来源、类型(ICMP、TCP、UDP)、目标端口
 
-##### 2.目标
+##### 2. 目标
 
 1. 内建target
 
@@ -55,29 +59,29 @@
 
 ![iptables工作流程](https://www.frozentux.net/iptables-tutorial/images/tables_traverse.jpg)
 
-# 二、iptables操作
+## 二、iptables操作
 
 ## 1. 查
 
 ### 1. 查看表的规则
 
-    语法：iptables -t 表名 -L
+语法：iptables -t 表名 -L
 
 ```bash
 # iptables -t filter -L
 Chain INPUT (policy ACCEPT)
-target     prot opt source               destination         
+target     prot opt source               destination
 
 Chain FORWARD (policy ACCEPT)
-target     prot opt source               destination         
+target     prot opt source               destination
 
 Chain OUTPUT (policy ACCEPT)
-target     prot opt source               destination    
+target     prot opt source               destination
 ```
 
 ### 2. 查看表中指定链的规则
 
-    语法：iptables -t 表名 -L 链名
+语法：iptables -t 表名 -L 链名
 
 ```bash
 # iptables -t filter -L INPUT
@@ -103,7 +107,7 @@ prot：规则对应的协议
 opt：规则对应的选项
 in：数据包从哪个接口流入
 out：数据包从哪个接口流出
-source：源地址              
+source：源地址
 destination：目标地址
 
 -n：不对IP地址反解
@@ -140,27 +144,26 @@ num   pkts bytes target     prot opt in     out     source               destina
 
 1. 插入一条规则(默认插入到第一行)
 
-```
 语法：iptables -t 表名 -I 链名 匹配条件 -j 动作
-```
 
 ```bash
 # iptables -t filter -I INPUT -s 172.16.10.102 -j DROP
 ```
+
 -t：操作的表
 -I：插入指定的链
 -s：源地址
 -j：匹配条件满足后执行的target(动作)
 
-
 指定插入到某一行
+
 ```bash
 # iptables -t filter -A INPUT 3 -s 172.16.10.103 -j ACCEPT
 ```
 
 2. 追加一条规则(追加到最后一行)
 
-```
+``` 
 语法：iptables -t 表名 -A 链名 匹配条件 -j 动作
 ```
 
@@ -169,26 +172,31 @@ num   pkts bytes target     prot opt in     out     source               destina
 ```
 
 此时filter表的状态
+
 ```bash
 # iptables -nvL INPUT
 Chain INPUT (policy ACCEPT 27 packets, 2764 bytes)
- pkts bytes target     prot opt in     out     source               destination         
-  203 17052 DROP       all  --  *      *       172.16.10.102        0.0.0.0/0           
+ pkts bytes target     prot opt in     out     source               destination
+  203 17052 DROP       all  --  *      *       172.16.10.102        0.0.0.0/0
     0     0 ACCEPT     all  --  *      *       172.16.10.102        0.0.0.0/0  
-```    
+```
 
 **规则匹配顺序**：从上到下匹配，如果前面的规则匹配成功就不会执行后面的规则了。
 
 ## 3. 删
 
 ```
+
 语法：iptables -t 表名 -D 链名 匹配条件 -j 动作
+
 ```
 
 1. 根据规则的编号删除
 
 ```
+
     语法：# iptables -t filter -D INPUT 编号
+
 ```
 示例：
 ```bash
@@ -210,10 +218,9 @@ Chain INPUT (policy ACCEPT 27 packets, 2764 bytes)
 
 -F:flush 冲刷(删除)指定链中的所有规则
 
-
 ## 4. 改
 
-```
+``` 
 语法：iptables -t 表名 -R 链名 规则序号 规则原来的匹配条件 -j 动作
 ```
 
@@ -255,9 +262,7 @@ target     prot opt source               destination
 
 ubuntu系统参考：https://help.ubuntu.com/community/IptablesHowTo
 
-
 # 三、匹配条件 
-
 
 ## 1. 基本匹配
 
@@ -304,14 +309,13 @@ ubuntu系统参考：https://help.ubuntu.com/community/IptablesHowTo
 -i: 只能用于PREROUING、INPUT、FORWARD
 -o: 只能用于FORWARD、OUTPUT、POSTROUTING
 
-## 2.扩展匹配
+## 2. 扩展匹配
 
 扩展匹配条件使用时需要依赖一些扩展模块
 
 ### 2.1 tcp模块
 
 1. 目标端口 --dport
-
 
 ```bash
 # iptables -t filter -I INPUT -s 172.16.10.102 -m tcp -p tcp --dport 22 -j REJECT
@@ -341,7 +345,7 @@ ubuntu系统参考：https://help.ubuntu.com/community/IptablesHowTo
 ```
 
 --tcp-flags 需要两个参数 
---tcp-flags SYN,ACK,FIN,RST,URG,PSH    SYN
+--tcp-flags SYN, ACK, FIN, RST, URG, PSH    SYN
 --tcp-flags 需要匹配TCP头中的哪些标志位    在第一部分的标志位列表中，哪些标志位必须为1
 
 ### 2.2 multiport模块(多个不连续的端口)
@@ -404,6 +408,7 @@ state模块可以实现连接追踪机制
 # INPUT链的默认策略改为DROP
 # iptables -P INPUT DROP
 ```
+
 不建议把默认策略设置为DROP，一旦执行iptables -F，任何包都进不去，ssh就会断开
 
 优化方法
@@ -414,7 +419,6 @@ state模块可以实现连接追踪机制
 # 其他都拒绝
 # iptables -A INPUT -j REJECT
 ```
-
 
 # 五、自定义链
 
@@ -490,8 +494,6 @@ REJECT     all  --  172.16.10.100        anywhere             reject-with icmp-p
 # iptables -X WEB
 ```
 
-
-
 # 六、动作(target)
 
 ## 1. 基础动作
@@ -500,10 +502,9 @@ REJECT     all  --  172.16.10.100        anywhere             reject-with icmp-p
 
 ### 2. DROP
 
-
 ## 2. 扩展动作
 
-### 2.1.  REJECT
+### 2.1. REJECT
 
 常用选项：--reject-with　可以设置对方被拒绝时的提示信息
 
@@ -515,7 +516,6 @@ icmp-proto-unreachabe
 icmp-net-prohibited
 icmp-admin-prohibited
 
-
 ### 2.2. LOG
 
 将符合条件的报文的相关信息记录到日志中
@@ -524,6 +524,7 @@ icmp-admin-prohibited
 
 --log-level: [emerg|alert|crit|error|warning|notice|info|debug]
 --log-prefix: 信息前缀（29个字符以内）
+
 ```bash
 # 把想要主动连接22端口的报文及相关信息记录到日志中
 # iptables -I INPUT -p tcp --dport 22 -m state --state NEW -j LOG --log-prefix "want-in-from-port-22"
@@ -541,8 +542,6 @@ icmp-admin-prohibited
 -j: 使用 SNAT 动作
 --to-source: 把匹配到的报文修改为指定地址
 
-
-
 ### 2.4 SNAT
 
 ```bash
@@ -557,7 +556,6 @@ icmp-admin-prohibited
 # iptables -t nat -A POSTROUTING -s 10.1.0.0/16 -o eth0 -j MASQUERADE
 ```
 
-
 ### 2.6 REDIRECT
 
 在本机进程端口映射
@@ -565,7 +563,6 @@ icmp-admin-prohibited
 ```bash
 # iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8080
 ```
-
 
 使用NAT需要开启转发：
 
@@ -579,8 +576,6 @@ icmp-admin-prohibited
 
 https://wiki.archlinux.org/index.php/iptables
 
-
-
 ## 拒绝与禁止一个数据包的区别
 
 拒绝：丢弃数据包的同时给发送者返回一会ICMP错误消息
@@ -588,6 +583,8 @@ https://wiki.archlinux.org/index.php/iptables
 丢弃：数据包直接丢弃不返回任何通知
 
 为了安全，通常直接丢弃，原因有3：
+
 1. 发送错误消息会使通信量加倍
 2. 响应的数据包可能是拒绝服务工具
 3. 即使一个错误的消息都会给攻击者提供潜在的有用信息
+
