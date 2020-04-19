@@ -1,9 +1,11 @@
+# MySQL基础运维
+
 ## 一、安装
 
 安装环境
 
 ```bash
-root@gp:~# cat /etc/os-release 
+root@gp:~# cat /etc/os-release
 NAME="Ubuntu"
 VERSION="18.04.4 LTS (Bionic Beaver)"
 ID=ubuntu
@@ -20,9 +22,9 @@ UBUNTU_CODENAME=bionic
 
 ### 1. 下载二进制包
 
-官方下载地址： https://downloads.mysql.com/archives/community/ 
+官方下载地址：[https://downloads.mysql.com/archives/community/](https://downloads.mysql.com/archives/community/)
 
-清华源下载地址： https://mirrors.tuna.tsinghua.edu.cn/mysql/downloads/MySQL-5.7/ 
+清华源下载地址：[https://mirrors.tuna.tsinghua.edu.cn/mysql/downloads/MySQL-5.7/](https://mirrors.tuna.tsinghua.edu.cn/mysql/downloads/MySQL-5.7/)
 
 下载版本：`mysql-5.7.28-linux-glibc2.12-x86_64.tar.gz`
 
@@ -88,7 +90,7 @@ root@gp:/data/mysql# tree -LF 1 /data/mysql
 └── sys/
 ```
 
-### 7. 安装出现的错误：
+### 7. 安装出现的错误
 
 ```bash
 root@gp:/app/mysql# mysqld --initialize --user=mysql --basedir=/app/mysql --datadir=/data/mysql
@@ -100,7 +102,7 @@ root@gp:/app/mysql# apt -y install libaio-dev
 ### 8. 配置文件
 
 ```bash
-root@gp:~# cat /etc/my.cnf 
+root@gp:~# cat /etc/my.cnf
 [mysqld]
 user=mysql
 basedir=/app/mysql
@@ -150,15 +152,40 @@ root@gp:~# mysqladmin -u root -p password
 3 rows in set (0.00 sec)
 ```
 
+### 2. 用户白名单
 
+支持的方式：
 
+```sql
+username@'10.0.0.%'
+username@'%'
+username@'10.0.0.100'
+username@'localhost'
+username@'www.example.com'
+username@'10.0.0.5%'
+username@'10.0.0.%'
+username@'10.0.0.0/255.255.254.0'
+```
 
+#### 3. 用户创建
 
+```mysql
+3306 [(none)]>create user yuanzhi@'10.0.0.%' identified by '123456';
+Query OK, 0 rows affected (0.00 sec)
+```
 
+#### 4. 修改用户密码
 
+```mysql
+3306 [(none)]>alter user yuanzhi@'10.0.0.%' identified by 'yuanzhi';
+Query OK, 0 rows affected (0.00 sec)
+```
 
+#### 5. 删除用户
 
-
+```mysql
+3306 [(none)]>drop user yuanzhi@'10.0.0.%';
+Query OK, 0 rows affected (0.00 sec)
+```
 
 老男孩MySQL视频学习笔记（ https://www.bilibili.com/video/BV1qJ411R7CW?p=5 ）
-

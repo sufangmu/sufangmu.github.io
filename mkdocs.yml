@@ -40,6 +40,7 @@ nav:
     - 'IPtables': 'linux/iptables.md'
     - 'VIM': 'linux/vim.md'
   - 数据库:
+    - '数据库基础': 'databases/数据库基础.md'
     - mysql: 
       - '基础知识': 'databases/MySQL/MySQL基础知识.md'
       - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
