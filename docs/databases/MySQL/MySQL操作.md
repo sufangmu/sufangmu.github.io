@@ -1,4 +1,4 @@
-# 一、数据库的基本操作
+## 一、数据库的基本操作
 
 1. 查看数据库
 `mysql> SHOW DATABASES;`
@@ -12,13 +12,13 @@
 4. 查看默认存储引擎
 `mysql> SHOW VARIABLES LIKE 'default_storage_engine'; `
 
-# 二、数据表的基本操作
+## 二、数据表的基本操作
 
-## 1 查看数据表结构
+### 1 查看数据表结构
 
 表结构包含的信息：字段名、字段数据类型、是否为空，是否主外键、默认值、额外信息
 
-### 1.1 查看表基本结构
+#### 1.1 查看表基本结构
 
 语法结构
 
@@ -44,7 +44,7 @@ mysql> DESC users;
 
 
 
-### 2.2 查看表详细结构
+#### 2.2 查看表详细结构
 
 语法结构
 
@@ -71,9 +71,9 @@ Create Table: CREATE TABLE `users` (
 
 
 
-## 2. 创建表
+### 2. 创建表
 
-### 2.1 语法规则
+#### 2.1 语法规则
 ```mysql
 CREATE TABLE 表名(
 			 字段名1 数据类型[完整的约束条件] [默认值],
@@ -83,16 +83,17 @@ CREATE TABLE 表名(
 			 );
 ```
 
-### 2.2 主键约束
+#### 2.2 主键约束
 
 主键是表中一列或多列的组合，主键能够唯一地标识表中的一条记录，可以结合外键来定义不同数据表之间的关系，并且可以加快数据库查询的速度，主键有两种类型，单字段主键和多字段联合主键。
 使用条件：主键列的数据唯一，不允许为空
 
-#### 1. 单字段主键
+##### 2.2.1 单字段主键
 
 语法规则
 
-1. 在定义列的同时指定主键
+1 在定义列的同时指定主键
+
 ```mysql
 # 字段名 数据类型 PRIMARY KEY [默认值]
 mysql> CREATE TABLE users
@@ -103,7 +104,8 @@ mysql> CREATE TABLE users
     -> );
 ```
 
-2. 在定义完所有列之后指定主键
+2 在定义完所有列之后指定主键
+
 ```mysql
 #  [CONSTRAINT <约束名>] PRIMARY KEY [字段名]
 mysql> CREATE TABLE users
@@ -115,7 +117,7 @@ mysql> CREATE TABLE users
     -> );
 ```
 
-#### 2. 多字段联合主键
+##### 2.2.2 多字段联合主键
 
 语法规则
 ```mysql
@@ -133,7 +135,7 @@ mysql> CREATE TABLE users(
     -> );
 ```
 
-### 2.3 外键约束
+#### 2.3 外键约束
 
 外键用来在两个表的数据之间建立连接，它可以是一列或者多列。一个表可以有一个或多个外键。一个表的外键可以为空，若不为空，则每一个外键值必须等于另一个表中主键的某个值。
 
@@ -170,9 +172,7 @@ mysql> CREATE table users(
 1. 字表的外键必须关联父表的主键，且关联字段的数据类型必须匹配
 ```
 
-
-
-### 2.4 非空约束
+#### 2.4 非空约束
 
  对于使用了非空约束的字段，如果在添加数据时没有指定值，数据库系统会报错。
 
@@ -190,13 +190,11 @@ mysql> CREATE table users(
     -> );
 ```
 
-
-
-### 2.5 唯一性约束
+#### 2.5 唯一性约束
 
 要求该列唯一，允许为空，但只能出现一个控制。唯一约束可以确保一列或几列不出现重复值
 
-##### 1.  在定义完列之后指定唯一约束
+##### 2.5.1  在定义完列之后指定唯一约束
 
 语法规则
 
@@ -215,9 +213,7 @@ mysql> CREATE table users(
     -> );
 ```
 
-
-
-##### 2. 在定义完所有列之后指定唯一约束
+##### 2.5.2 在定义完所有列之后指定唯一约束
 
 语法规则
 
@@ -238,7 +234,7 @@ mysql> CREATE table users(
 
 
 
-### 2.6 默认约束
+#### 2.6 默认约束
 
 
 
@@ -261,7 +257,7 @@ mysql> CREATE table users(
     -> );
 ```
 
-### 2.7 表的属性值自动增加
+#### 2.7 表的属性值自动增加
 
 一个表只能有一个字段使用自增约束，且该字段必须为主键的一部分。初始值为1
 
@@ -291,9 +287,9 @@ mysql> alter table accounts AUTO_INCREMENT=1;
 
 
 
-## 3. 修改表
+### 3. 修改表
 
-### 3.1 修改表名
+#### 3.1 修改表名
 
 语法规则
 
@@ -308,7 +304,7 @@ ALERT TABLE <旧表名> RENAME [TO] <新表名>;
 mysql> ALTER TABLE users RENAME accounts;
 ```
 
-### 3.2 修改字段的数据类型
+#### 3.2 修改字段的数据类型
 
 语法规则
 
@@ -324,7 +320,7 @@ mysql> ALTER TABLE accounts MODIFY username VARCHAR(100);
 
 
 
-### 3.3 修改字段名
+#### 3.3 修改字段名
 
 语法规则
 
@@ -350,7 +346,7 @@ mysql> DESC accounts;
 
 
 
-### 3.4 添加字段
+#### 3.4 添加字段
 
 语法规则
 
@@ -396,7 +392,7 @@ mysql> DESC accounts;
 
 
 
-### 3.5 删除字段
+#### 3.5 删除字段
 
 语法规则
 
@@ -410,9 +406,7 @@ ALTER TABLE <表名> DROP <字段名>;
 mysql> ALTER TABLE accounts DROP role;
 ```
 
-
-
-### 3.6 修改字段的排序位置
+#### 3.6 修改字段的排序位置
 
 语法结构
 
@@ -428,7 +422,7 @@ mysql> ALTER TABLE accounts MODIFY email VARCHAR(30) AFTER create_time;
 
 
 
-### 3.7 删除表的外键约束
+#### 3.7 删除表的外键约束
 
 语法规则
 
@@ -438,7 +432,7 @@ ALTER TABLE <表名> DROP FOREiGN KEY  <外键约束名>
 
 
 
-### 3.8 修改表的存储引擎
+#### 3.8 修改表的存储引擎
 
 实例
 
@@ -448,9 +442,9 @@ mysql> ALTER TABLE accounts ENGINE=MyISAM;
 
 
 
-## 4. 删除数据表
+### 4. 删除数据表
 
-### 4.1 删除没有被关联的表
+#### 4.1 删除没有被关联的表
 
 语法规则：
 
@@ -458,7 +452,7 @@ mysql> ALTER TABLE accounts ENGINE=MyISAM;
 DROP TABLE [IF EXISTS] 表1,表2,...表n;
 ```
 
-### 4.2 删除被其他表关联的的主表
+4.2 删除被其他表关联的的主表
 
 删除步骤：
 
@@ -467,9 +461,9 @@ DROP TABLE [IF EXISTS] 表1,表2,...表n;
 
 
 
-# 三、数据操作
+## 三、数据操作
 
-## 1. 查询
+### 1. 查询
 
  基本查询语言
 
@@ -486,24 +480,28 @@ FROM {表或视图}
 WHERE [查询条件];
 ```
 
-### 1.1 单表查询
+#### 1.1 单表查询
 
-1. 查询所有字段
+1.1.1 查询所有字段
+
 ```mysql
 SELECT * FROM 表名;
 ```
 
-2. 查询指定字段
+1.1.2 查询指定字段
+
 ```mysql
 SELECT 字段名 FROM 表名;
 ```
 
-3. 查询多个字段
+1.1.3 查询多个字段
+
 ```mysql
 SELECT 字段名1,字段名2,...字段名n FROM 表名;
 ```
 
-4. 查询指定记录
+1.1.4 查询指定记录
+
 ```mysql
 SELECT 字段名1,字段名2,...字段名n 
 FROM 表名
@@ -514,42 +512,50 @@ WHERE 查询条件;
 mysql> SELECT username,sex FROM accounts WHERE sex='男';
 ```
 
-5. 带IN关键词的查询
+1.1.5 带IN关键词的查询
+
 ```mysql
 mysql>SELECT * FROM employee WHERE d_id [NOT] IN(1001,1002);
 ```
 
-6. 带BETWEEN AND的范围查询
+1.1.6 带BETWEEN AND的范围查询
+
 ```mysql
 mysql>SELECT * FROM employee WHERE age [NOT] BETWEEN 15 AND 25;
 ```
 
-7. 带LIKE的字符匹配查询
+1.1.7 带LIKE的字符匹配查询
+
 ```mysql
 mysql>SELECT * FROM employee WHERE name [NOT] like 'Aric';
 ```
 
-8. 查询空值
+1.1.8 查询空值
+
 ```mysql
 mysql>SELECT * FROM accounts WHERE email IS [NOT] NULL;
 ```
 
-9. 带AND的多条件查询
+1.1.9 带AND的多条件查询
+
 ```mysql
 mysql>SELECT * FROM employee WHERE d_id=1001 AND sex like '男';
 ```
 
-10. 带OR的多条件查询
+1.1.10 带OR的多条件查询
+
 ```mysql
 mysql>SELECT * FROM employee WHERE d_id=1001 OR sex like '男';
 ```
 
-11. 查询结果不重复
+1.1.11 查询结果不重复
+
 ```mysql
 mysql>SELECT DESTINCT d_id FROM employee;
 ```
 
-12. 对查询结果排序
+1.1.12 对查询结果排序
+
 ```mysql
 # 1. 单列排序
 mysql>SELECT username FROM accounts ORDER BY username;
@@ -559,7 +565,7 @@ mysql>SELECT username FROM accounts,email ORDER BY username,email;
 mysql>SELECT  * FROM employee ORDER BY d_id ASC , age DESC;
 ```
 
-### 1.2 分组查询
+#### 1.2 分组查询
 
 分组查询是对数据安装某个或多个字段进行分组，字段中值相等的为一组。mysql中实用GROUP BY 关键字对数据进行分组，通常和集合函数(MAX(),MIN(),COUTN(),SUM(),AVG)一起使用。
 
@@ -652,7 +658,7 @@ LIMIT [位置偏移量,] 行数
 ```
 
 这里使用的数据库例子不是很合理，主要是为了说明语法规则
-### 1.3 聚合函数查询
+#### 1.3 聚合函数查询
 1. COUNT()
 统计数据表中包含记录行的总数
 ```mysql
@@ -681,9 +687,9 @@ SELECT MAX(age) FROM accounts;
 SELECT MIN(age) FROM accounts;
 ```
 
-### 1.4 连接查询
+#### 1.4 连接查询
 
-#### 1.4.1 内连接查询
+##### 1.4.1 内连接查询
 
 使用比较运算符进行表见某些列数据的比较操作，并列出表中与连接条件相匹配的数据，组合成新记录。在内连接查询中，只有满足条件的记录才能出现在结果关系中。
 
@@ -693,7 +699,7 @@ SELECT hostname,machines.asset_id,name,size FROM machines,disks where disks.asse
 SELECT hostname,machines.asset_id,name,size FROM machines INNER JOIN disks ON disks.asset_id = machines.asset_id;  
 ```
 
-#### 1.4.2 外连接查询
+##### 1.4.2 外连接查询
 
 左连接：返回包括左表中所有记录和右表中连接字段相等的记录
 右连接：返回包括右表中所有记录和左表中连接字段相等的记录
@@ -707,12 +713,12 @@ SELECT hostname,machines.asset_id,name,size FROM machines LEFT  OUTER JOIN disks
 ```mysql
  SELECT hostname,machines.asset_id,name,size FROM machines RIGHT  OUTER JOIN disks ON disks.asset_id = machines.asset_id;
 ```
-#### 1.4.3 复合条件连接查询
+##### 1.4.3 复合条件连接查询
 在连接查询的过程中，添加过滤条件，限制查询的结果，使查询的结果更加准确。
 ```mysql
 SELECT hostname,machines.asset_id,name,size FROM machines INNER JOIN disks ON disks.asset_id = machines.asset_id AND size > 200; 
 ```
-### 1.5 子查询
+#### 1.5 子查询
 
 子查询是指一个查询语句嵌套在另一个查询语句内部的查询。在SELECT子句中先计算子查询，子查询的结果作为外层另一个查询的过滤条件，查询可以基于一个表或者多个表。
 
@@ -745,7 +751,7 @@ mysql>SELECT * FROM employee WHERE d_id IN ( SELECT d_id FROM department);
 ```mysql
 mysql>SELECT id,score FROM computer_stu WHERE score>= (SELECT score FROM scholarship WHERE level=1 );
 ```
-### 1.6 合并查询结果
+#### 1.6 合并查询结果
 
 把多个SELECT的结果组合成单个结果集，合并时，两个表对应的列和数据类型必须相同。
 
@@ -759,12 +765,12 @@ SELECT 字段1,字段2,... FROM 表2;
 UNION：执行的时候删除重复的记录，返回的行都是唯一的
 UNION ALL：不删除重复的行，也不对结果进行自动排序
 
-### 1.7 使用正则表达式查询
+#### 1.7 使用正则表达式查询
 ```mysql
 mysql>SELECT * FROM info WHERE name REGEXP '^L';
 ```
 
-### 1.8 为表和字段取别名
+#### 1.8 为表和字段取别名
 
 1. 为表取别名
 语法规则
@@ -784,27 +790,27 @@ mysql>SELECT * FROM department d WHERE d.d_id=1001;
 SELECT d_id AS department, d_name AS department_name FROM department;
 ```
 
-## 2. 插入
-### 2.1 为表的所有字段插入数据
+### 2. 插入
+#### 2.1 为表的所有字段插入数据
 
 ```mysql
 INSERT INTO 表名 VALUES (值1,值2,...值n);
 ```
 
-### 2.2 为表的指定字段插入数据
+#### 2.2 为表的指定字段插入数据
 
 ```mysql
 # 要保证每个插入的值得类型和对应类的数据类型匹配
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n);
 ```
 
-### 2.3 同时插入多条记录
+#### 2.3 同时插入多条记录
 
 ```mysql
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n),(值1,值2,...值n);
 ```
 
-### 2.4 将查询结果插入到表中
+#### 2.4 将查询结果插入到表中
 
 ```mysql
 INSERT INTO 表名1(字段1,字段2,...字段n)
@@ -812,25 +818,25 @@ SELECT 字段1,字段2,...字段n
 FROM 表2;
 ```
 
-## 3. 更新
+### 3. 更新
 
 ```mysql
 UPDATE 表名 SET 字段1=值1, 字段2=值2,... WHERE 条件;
 ```
 
-## 4. 删除
+### 4. 删除
 
 ```mysql
 DELETE FROM 表名 [WHERE 条件];
 ```
 
 
-# 四、索引
+## 四、索引
 
-## 1. 索引介绍
+### 1. 索引介绍
 
 索引是一个单独的、存在磁盘上的数据库结构，它们包含着对数据表里所有记录的引用指针。使用索引可以快速的找出某个或多个列中有一特定值的行如果没有索引，MySQL必须从第一行开始读完整个表，直到找出相关的行。表越大，花费的时间越多。。
-## 2. 索引优缺点
+### 2. 索引优缺点
 
 **优点：**
 1. 通过创建唯一索引，可以保证数据库中每一行数据的唯一性
@@ -843,7 +849,7 @@ DELETE FROM 表名 [WHERE 条件];
 2. 索引需要占磁盘空间
 3. 对表中的数据进行增加、删除、修改时，索引也要动态的维护，降低了数据的维护速度
 
-## 3. 索引的分类
+### 3. 索引的分类
 
 1. 普通索引
 	基本索引类型，允许在定义索引的列中插入重复值和空值，其作用只是加快数据的访问速度。
@@ -858,16 +864,16 @@ DELETE FROM 表名 [WHERE 条件];
 6. 空间索引
 	只能在MyISAM存储引擎支持
 	
-## 4. 设计原则
+### 4. 设计原则
 
 1. 索引不是越多越好，一个表中如有大量的索引，不仅占用磁盘空间，而且会影响INSERT、DELETE、UPDATE等语句的性能
 2. 避免对经常更新的表进行过多的索引。并且索引中的列尽可能少
 3. 数据量小的表最好不要使用索引。
 4. 当唯一性时某种数据本身的特征时，指定唯一索引
 
-## 5. 创建索引
+### 5. 创建索引
 
-### 1. 创建表的时候创建索引
+#### 1. 创建表的时候创建索引
 
 语法规则
 ```mysql
@@ -924,7 +930,7 @@ INDEX user(username,email)
 );                        
 ```
 
-### 2.  在已经存在的表上创建索引
+#### 2.  在已经存在的表上创建索引
 
 1. 使用ALTER TABLE语句创建索引
 语法规则
@@ -946,9 +952,9 @@ CREATE [UNIQUE|FULLTEXT|SPATIAL] INDEX 索引名 ON 表名 (字段名 [(长度)]
 CREATE UNIQUE INDEX user on accounts (username);
 ```
 
-## 6. 删除索引
+### 6. 删除索引
 
-### 6.1 使用ALTER TABLE删除索引
+#### 6.1 使用ALTER TABLE删除索引
 
 语法规则
 
@@ -956,7 +962,7 @@ CREATE UNIQUE INDEX user on accounts (username);
 ALTER TABLE 表名 DROP INDEX 索引名;
 ```
 
-### 6.2 使用DROP INDEX语句删除索引
+#### 6.2 使用DROP INDEX语句删除索引
 
 ```mysql
 DROP INDEX 索引名 ON 表名;
@@ -964,7 +970,7 @@ DROP INDEX 索引名 ON 表名;
 
 
 
-# 五、视图
+## 五、视图
 
 
 
@@ -972,7 +978,7 @@ DROP INDEX 索引名 ON 表名;
 
 
 
-# 六、存储过程与函数
+## 六、存储过程与函数
 
 存储过程：一条或者多条SQL语句的集合
 
@@ -980,7 +986,7 @@ DROP INDEX 索引名 ON 表名;
 
 
 
-# 七、触发器
+## 七、触发器
 
 
 
@@ -988,4 +994,4 @@ DROP INDEX 索引名 ON 表名;
 
 
 
-# 八、优化
+## 八、优化

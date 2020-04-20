@@ -138,7 +138,9 @@ root@gp:~# mysqladmin -u root -p password
 
 ## 二、用户管理
 
-### 1. 查看当前用户
+### 1. 账户管理
+
+#### 1.1 查看当前用户
 
 ```bash
 3306 [(none)]>select user,authentication_string,host from mysql.user;
@@ -152,7 +154,7 @@ root@gp:~# mysqladmin -u root -p password
 3 rows in set (0.00 sec)
 ```
 
-### 2. 用户白名单
+#### 1.2 用户白名单
 
 支持的方式：
 
@@ -167,25 +169,128 @@ username@'10.0.0.%'
 username@'10.0.0.0/255.255.254.0'
 ```
 
-#### 3. 用户创建
+#### 1.3 用户创建
 
 ```mysql
 3306 [(none)]>create user yuanzhi@'10.0.0.%' identified by '123456';
 Query OK, 0 rows affected (0.00 sec)
 ```
 
-#### 4. 修改用户密码
+#### 1.4 修改用户密码
 
 ```mysql
 3306 [(none)]>alter user yuanzhi@'10.0.0.%' identified by 'yuanzhi';
 Query OK, 0 rows affected (0.00 sec)
 ```
 
-#### 5. 删除用户
+#### 1.5 删除用户
 
 ```mysql
 3306 [(none)]>drop user yuanzhi@'10.0.0.%';
 Query OK, 0 rows affected (0.00 sec)
 ```
+
+### 2. 权限管理
+
+#### 2.1 授权
+
+1 授予所有权限
+
+```mysql
+3306 [(none)]>grant all on *.* to root@'10.0.0.%' identified by 'root';
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+```
+
+2 授予指定权限
+
+```mysql
+3306 [(none)]>grant select,update,insert,delete on wordpress.* to wordpress@'10.0.0.%' identified by 'wordpress';
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+```
+
+#### 2.2 查看权限
+
+```bash
+3306 [(none)]>show grants for 'wordpress'@'10.0.0.%';
++---------------------------------------------------------------------------------+
+| Grants for wordpress@10.0.0.%                                                   |
++---------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'wordpress'@'10.0.0.%'                                    |
+| GRANT SELECT, INSERT, UPDATE, DELETE ON `wordpress`.* TO 'wordpress'@'10.0.0.%' |
++---------------------------------------------------------------------------------+
+2 rows in set (0.00 sec)
+```
+
+#### 2.3 回收权限
+
+```mysql
+3306 [(none)]>revoke delete on wordpress.* from wordpress@'10.0.0.%';
+Query OK, 0 rows affected (0.00 sec)
+```
+
+### 3. root密码丢失处理
+
+```bash
+# 1.关闭数据库服务
+root@gp:/app/mysql/support-files# ./mysql.server stop
+Shutting down MySQL
+.... *
+# 2.mysqld_safe 启动（关闭认证，关闭TCP/IP连接）
+root@gp:/app/mysql/support-files# mysqld_safe --skip-grant-tables --skip-networking &
+[1] 3991
+root@gp:/app/mysql/support-files# 2020-04-20T15:32:55.026585Z mysqld_safe Logging to '/data/mysql/gp.err'.
+2020-04-20T15:32:55.060397Z mysqld_safe Starting mysqld daemon with databases from /data/mysql
+# 3.修改密码
+root@gp:/app/mysql/support-files# mysql -uroot
+...
+3306 [(none)]>flush privileges;
+Query OK, 0 rows affected (0.01 sec)
+
+3306 [(none)]>alter user root@'localhost' identified by 'root';
+Query OK, 0 rows affected (0.00 sec)
+```
+
+## 三、MySQL连接
+
+#### 1. socket连接
+
+```bash
+# 默认使用socket连接 -S /tmp/mysql.sock可以不加
+root@gp:/app/mysql/support-files# mysql -uroot -p -S /tmp/mysql.sock
+```
+
+#### 2. TCP/IP连接
+
+```bash
+root@gp:~# mysql -h 10.0.0.131 -P 3306 -uroot -p
+```
+
+#### 3. 免交互执行SQL语句
+
+```bash
+root@gp:~# mysql -u root -proot -e "show databases;"
+```
+
+## 四、初始化配置
+
+#### 1.初始化配置的方法：
+
+1. 预编译
+2. **配置文件**
+3. 命令行（仅限于mysqld和mysqld_safe）
+
+#### 2. 初始化配置文件
+
+配置文件读取顺序
+
+```bash
+root@gp:~# mysqld --help --verbose | grep my.cnf
+/etc/my.cnf /etc/mysql/my.cnf /usr/local/mysql/etc/my.cnf ~/.my.cnf
+                      my.cnf, $MYSQL_TCP_PORT, /etc/services, built-in default
+```
+
+如果--defaults-file指定了配置文件，以上文件都不会被读取。
+
+参考：
 
 老男孩MySQL视频学习笔记（ https://www.bilibili.com/video/BV1qJ411R7CW?p=5 ）
