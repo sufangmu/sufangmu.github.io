@@ -555,3 +555,9 @@ set-window-option -g utf8 on
 - space 选择
 - Enter结束选择
 - Ctrl-b + ] 粘贴
+
+## 附：
+
+![vim1](../assets/images/vim/vim1.png)
+
+![](../assets/images/vim/vim2.png)

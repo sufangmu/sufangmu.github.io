@@ -105,14 +105,15 @@ root@gp:/app/mysql# apt -y install libaio-dev
 root@gp:~# cat /etc/my.cnf
 [mysqld]
 user=mysql
-basedir=/app/mysql
-datadir=/data/mysql
-server_id=1
+basedir=/app/mysql # mysql软件所在位置
+datadir=/data/mysql # mysql数据存放路径
+server_id=1 # 1-65535
 port=3306
-socket=/tmp/mysql.sock
+log_error=/var/log/mysql/mysql.err # 错误日志文件位置，注意给目录赋权
+socket=/tmp/mysql.sock # 套接字文件位置
 [mysql]
 socket=/tmp/mysql.sock
-prompt=3306 [\\d]>
+prompt=mysql [\\d]> # 连接到mysql时显示的名称'3306 [(none)]>'
 ```
 
 ### 9. 启动与停止
@@ -291,6 +292,17 @@ root@gp:~# mysqld --help --verbose | grep my.cnf
 
 如果--defaults-file指定了配置文件，以上文件都不会被读取。
 
+配置文件格式：
+
+```ini
+[标签]
+配置项=值
+# 标签类型：服务端、客户端
+# 服务端标签：[mysqld]、[mysqld_safe]、[server]
+# 客户端标签：[mysql]、[mysqldump]、[client]
+```
+
 参考：
 
 老男孩MySQL视频学习笔记（ https://www.bilibili.com/video/BV1qJ411R7CW?p=5 ）
+
