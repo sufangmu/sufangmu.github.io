@@ -1,5 +1,9 @@
 # 常用SQL
 
+mysql官方提供的实例数据库 https://dev.mysql.com/doc/index-other.html 
+
+https://downloads.mysql.com/docs/world.sql.zip
+
 ## 一、DDL
 
 ### 1.库
@@ -339,13 +343,83 @@ SELECT GROUP_CONCAT(USER,"@",HOST) FROM mysql.user;
 
 ```
 
-### 2. 单表子句
+### 2. 单表子句 -- FROM
 
+#### 2.1 查询所有字段
 
+```mysql
+SELECT * FROM 表名;
+```
 
+不要对大表进行操作
 
+#### 2.2 查询指定字段
 
+```mysql
+SELECT 字段名 FROM 表名;
+```
 
+#### 2.3 查询多个字段
+
+```mysql
+SELECT 字段名1,字段名2,...字段名n FROM 表名;
+```
+
+### 3. 单表字句 -- WHERE
+
+```mysql
+SELECT 字段名1,字段名2,...字段名n 
+FROM 表名
+WHERE 查询条件;
+```
+
+#### 3.1 WHERE配合等值查询（=）
+
+```mysql
+# 查询中国的城市
+SELECT * FROM city WHERE CountryCode='CHN';
+# 查询湖北的城市
+SELECT * FROM city WHERE District='HuBei';
+```
+
+#### 3.2 WHERE配合比较操作符（<> 、!=、 <、 <=、 >、 >=）
+
+```mysql
+# 查询人口小于100的城市
+SELECT * FROM city WHERE Population < 100;
+```
+
+#### 3.3 WHERE配合逻辑运算符（AND、OR）
+
+```mysql
+# 查询中国人口大于500万的城市
+SELECT * FROM city WHERE CountryCode='CHN' AND Population > 5000000;
+# 查询中国和美国的城市信息
+SELECT * FROM city WHERE CountryCode='CHN' OR CountryCode='USA';
+```
+
+#### 3.4 WHERE配合模糊查询（LIKE）
+
+```mysql
+# 名字以guang开头的省
+SELECT * FROM city WHERE District LIKE 'guang%'
+```
+
+`%`不能放在前面，因为不走索引
+
+#### 3.5 WHERE配置`IN`语句
+
+```mysql
+# 查询中国和美国的城市信息,与OR类似
+SELECT * FROM city WHERE CountryCode IN ('CHN','USA');
+```
+
+#### 3.6 WHERE配合`BETREEN AND`
+
+```mysql
+# 查询人口大于100万小于200万城市信息
+SELECT * FROM city WHERE Population BETWEEN 1000000 AND 2000000;
+```
 
 
 
@@ -466,91 +540,6 @@ SELECT {*|<字段列表>}
 SELECT [字段1,字段2,...,字段n]
 FROM {表或视图}
 WHERE [查询条件];
-```
-
-#### 1.1 单表查询
-
-1.1.1 查询所有字段
-
-```mysql
-SELECT * FROM 表名;
-```
-
-1.1.2 查询指定字段
-
-```mysql
-SELECT 字段名 FROM 表名;
-```
-
-1.1.3 查询多个字段
-
-```mysql
-SELECT 字段名1,字段名2,...字段名n FROM 表名;
-```
-
-1.1.4 查询指定记录
-
-```mysql
-SELECT 字段名1,字段名2,...字段名n 
-FROM 表名
-WHERE 查询条件;
-```
-示例
-```mysql
-mysql> SELECT username,sex FROM accounts WHERE sex='男';
-```
-
-1.1.5 带IN关键词的查询
-
-```mysql
-mysql>SELECT * FROM employee WHERE d_id [NOT] IN(1001,1002);
-```
-
-1.1.6 带BETWEEN AND的范围查询
-
-```mysql
-mysql>SELECT * FROM employee WHERE age [NOT] BETWEEN 15 AND 25;
-```
-
-1.1.7 带LIKE的字符匹配查询
-
-```mysql
-mysql>SELECT * FROM employee WHERE name [NOT] like 'Aric';
-```
-
-1.1.8 查询空值
-
-```mysql
-mysql>SELECT * FROM accounts WHERE email IS [NOT] NULL;
-```
-
-1.1.9 带AND的多条件查询
-
-```mysql
-mysql>SELECT * FROM employee WHERE d_id=1001 AND sex like '男';
-```
-
-1.1.10 带OR的多条件查询
-
-```mysql
-mysql>SELECT * FROM employee WHERE d_id=1001 OR sex like '男';
-```
-
-1.1.11 查询结果不重复
-
-```mysql
-mysql>SELECT DESTINCT d_id FROM employee;
-```
-
-1.1.12 对查询结果排序
-
-```mysql
-# 1. 单列排序
-mysql>SELECT username FROM accounts ORDER BY username;
-# 2. 多列排序
-mysql>SELECT username FROM accounts,email ORDER BY username,email;
-# 3. 指定排序方向 ASC：升序；DESC：降序
-mysql>SELECT  * FROM employee ORDER BY d_id ASC , age DESC;
 ```
 
 #### 1.2 分组查询
