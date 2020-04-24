@@ -2,7 +2,9 @@
 
 ## 一、DDL
 
-### 1. 数据库创建
+### 1.库
+
+#### 1.1 数据库创建
 
 ```mysql
 mysql> CREATE DATABASE 数据库名称;
@@ -74,7 +76,7 @@ collation末尾带ci的字符集都是大小写不敏感的。使用`SHOW COLLAT
 2. 不能以数字开头
 3. 建库时需要加字符集
 
-### 2. 数据库修改
+#### 1.2 数据库修改
 
 1 查看数据库创建语句
 
@@ -88,92 +90,16 @@ mysql> ALTER DATABASE 数据库名称 CHARSET utf8;
 
 修改前的字符集应该是修改后字符前的子集
 
-### 3. 数据库删除
+#### 1.3 数据库删除
 
 ```mysql
 mysql> DROP DATABASE 数据库名称;
 ```
 
+### 2. 表
 
+#### 2.1 表定义
 
-
-
-## 一、数据库的基本操作
-
-1. 查看数据库
-`mysql> SHOW DATABASES;`
-
-2. 创建数据库
-`mysql> CREATE DATABASE test_db;`
-
-3. 删除数据库
-`mysql> DROP DATABASE test_db;`
-
-4. 查看默认存储引擎
-`mysql> SHOW VARIABLES LIKE 'default_storage_engine'; `
-
-## 二、数据表的基本操作
-
-### 1 查看数据表结构
-
-表结构包含的信息：字段名、字段数据类型、是否为空，是否主外键、默认值、额外信息
-
-#### 1.1 查看表基本结构
-
-语法结构
-
-```mysql
-DESCRIBE 表名;
-# 或
-DESC 表名
-```
-
-实例
-
-```mysql
-mysql> DESC users;
-+----------+-------------+------+-----+---------+----------------+
-| Field    | Type        | Null | Key | Default | Extra          |
-+----------+-------------+------+-----+---------+----------------+
-| id       | int(10)     | NO   | PRI | NULL    | auto_increment |
-| username | varchar(25) | YES  |     | NULL    |                |
-| password | varchar(20) | YES  |     | NULL    |                |
-+----------+-------------+------+-----+---------+----------------+
-3 rows in set (0.00 sec)
-```
-
-
-
-#### 2.2 查看表详细结构
-
-语法结构
-
-```mysql
-SHOW CREATE TABLE <表名>;
-# 或
-SHOW CREATE TABLE <表名>\G
-```
-
-实例
-
-```mysql
-mysql> SHOW CREATE TABLE users\G
-*************************** 1. row ***************************
-       Table: users
-Create Table: CREATE TABLE `users` (
-  `id` int(10) NOT NULL AUTO_INCREMENT,
-  `username` varchar(25) DEFAULT NULL,
-  `password` varchar(20) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1
-1 row in set (0.00 sec)
-```
-
-
-
-### 2. 创建表
-
-#### 2.1 语法规则
 ```mysql
 CREATE TABLE 表名(
 			 字段名1 数据类型[完整的约束条件] [默认值],
@@ -183,381 +109,343 @@ CREATE TABLE 表名(
 			 );
 ```
 
-#### 2.2 主键约束
-
-主键是表中一列或多列的组合，主键能够唯一地标识表中的一条记录，可以结合外键来定义不同数据表之间的关系，并且可以加快数据库查询的速度，主键有两种类型，单字段主键和多字段联合主键。
-使用条件：主键列的数据唯一，不允许为空
-
-##### 2.2.1 单字段主键
-
-语法规则
-
-1 在定义列的同时指定主键
-
-```mysql
-# 字段名 数据类型 PRIMARY KEY [默认值]
-mysql> CREATE TABLE users
-    -> (
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25),
-    -> password VARCHAR(20)
-    -> );
-```
-
-2 在定义完所有列之后指定主键
-
-```mysql
-#  [CONSTRAINT <约束名>] PRIMARY KEY [字段名]
-mysql> CREATE TABLE users
-    -> (
-    -> id INT(10),
-    -> username VARCHAR(25),
-    -> password VARCHAR(20),
-    -> PRIMARY KEY(id)
-    -> );
-```
-
-##### 2.2.2 多字段联合主键
-
-语法规则
-```mysql
-PRIMARY KEY [字段1, 字段2,...字段n]
-```
-
-实例：
-```mysql
-mysql> CREATE TABLE users(
-    -> id INT(20),
-    -> username VARCHAR(25),
-    -> email VARCHAR(50),
-    -> password VARCHAR(20),
-    -> PRIMARY KEY(username,email)
-    -> );
-```
-
-#### 2.3 外键约束
-
-外键用来在两个表的数据之间建立连接，它可以是一列或者多列。一个表可以有一个或多个外键。一个表的外键可以为空，若不为空，则每一个外键值必须等于另一个表中主键的某个值。
-
-作用：保证数据一致性、完整性，定义外键后，不允许删除在另一个表中具有关联关系的行
-
-父表：对于两个具有关联关系的表而言，相关联字段中主键所在的那个表即是主表
-子表：对于两个具有关联关系的表而言，相关联字段中外键键所在的那个表即是子表
-
-语法规则：
-```mysql
-[CONSTRAINT <外键名>] FOREIGN KEY 字段名1 [,字段名2,...]
-PEFERENCES <主表名> 主键列1 [,主键列2,...]
-```
-
-实例：
-```mysql
-# 角色表
-mysql> CREATE TABLE roles(
-    -> id INT(5) PRIMARY KEY,
-    -> role VARCHAR(10),
-    -> description VARCHAR(50)
-    -> );
-# 用户表
-# 把用户表的role作为外键关联到roles的主键id
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25),
-    -> password VARCHAR(20),
-    -> role INT(5),
-    -> CONSTRAINT fk_roles FOREIGN KEY(role) REFERENCES roles(id)
-    -> );
-	
-外键的关联条件：
-1. 字表的外键必须关联父表的主键，且关联字段的数据类型必须匹配
-```
-
-#### 2.4 非空约束
-
- 对于使用了非空约束的字段，如果在添加数据时没有指定值，数据库系统会报错。
-
-语法规则
-```mysql
-字段名 数据类型 NOT NULL
-```
-
-实例：
-```mysql
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25) NOT NULL,
-    -> password VARCHAR(20)
-    -> );
-```
-
-#### 2.5 唯一性约束
-
-要求该列唯一，允许为空，但只能出现一个控制。唯一约束可以确保一列或几列不出现重复值
-
-##### 2.5.1  在定义完列之后指定唯一约束
-
-语法规则
-
-```mysql
-字段名 数据类型 UNIQUE
-```
-
 实例：
 
 ```mysql
-# 指定用户名不能为空
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25) UNIQUE,
-    -> password VARCHAR(20)
-    -> );
+CREATE TABLE students(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '学号',
+	name VARCHAR(255) NOT NULL COMMENT '姓名',
+	age TINYINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '年龄',
+	sex ENUM('f','m','n') NOT NULL DEFAULT 'n' COMMENT '性别',
+	id_card CHAR(18) NOT NULL UNIQUE COMMENT '身份证',
+	enrollment_time TIMESTAMP NOT NULL DEFAULT NOW() COMMENT '报名时间'
+) ENGINE=INNODB CHARSET=utf8 COMMENT '学生表'
 ```
 
-##### 2.5.2 在定义完所有列之后指定唯一约束
+建表规范：
 
-语法规则
+1. 表名小写
+2. 不能数字开头
+3. 注意字符集和存储引擎
+4. 表名和业务有关
+5. 每个列都要有注释
+6. 选择合适的数据类型
+
+#### 2.2 修改表
+
+DDL会引起数据库锁表，可以使用在线DDL工具pt-osc(pt-online-schema-change)解决
+
+
+
+##### 1. 添加字段
+
+1.2.1 在末尾添加字段
 
 ```mysql
-[CONSTRAINT <约束名>] UNIQUE(<字段名>)
+ALTER TABLE students ADD qq VARCHAR(20) NOT NULL UNIQUE COMMENT 'QQ号';
 ```
 
-实例
+1.2.2 在指定字段后添加字段
 
 ```mysql
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25),
-    -> password VARCHAR(20),
-    -> CONSTRAINT name UNIQUE(username)
-    -> );
+ALTER TABLE students ADD wechat VARCHAR(20) NOT NULL UNIQUE COMMENT '微信号' AFTER name;
 ```
 
-
-
-#### 2.6 默认约束
-
-
-
-指定某列的默认值
-
-语法规则
+1.2.3 在第一列前添加字段
 
 ```mysql
-字段名 数据类型 DEFAULT 默认值
+ALTER TABLE students ADD num INT NOT NULL  COMMENT '数字' FIRST;
 ```
 
-实例
+##### 2. 删除字段
 
 ```mysql
-# 默认密码定义为123456
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY,
-    -> username VARCHAR(25),
-    -> password VARCHAR(20) DEFAULT '123456'
-    -> );
+ALTER TABLE students DROP num;
 ```
 
-#### 2.7 表的属性值自动增加
+##### 3. 修改字段属性
 
-一个表只能有一个字段使用自增约束，且该字段必须为主键的一部分。初始值为1
-
-语法规则
+修改时把所有需要的属性都加上
 
 ```mysql
-字段名 数据类型 AUTO_INCREMEN
+ALTER TABLE students MODIFY name VARCHAR(128) NOT NULL;
 ```
 
-实例：
+##### 4. 修改字段名称
+
+名称和属性都可以修改
 
 ```mysql
-mysql> CREATE table users(
-    -> id INT(10) PRIMARY KEY AUTO_INCREMENT,
-    -> username VARCHAR(25),
-    -> password VARCHAR(20)
-    -> );
+ALTER TABLE students CHANGE qq email VARCHAR(125);
 ```
 
-
-
-如果自增ID增到5，当把表清空以后，继续插入数据，自增ID会以6开始，如果需要重新从1开始，可以执行下面的语句
+#### 2.3 删除表
 
 ```mysql
-mysql> alter table accounts AUTO_INCREMENT=1;
+DROP TABLE 表名;
 ```
 
+#### 2.4 查看表
 
-
-### 3. 修改表
-
-#### 3.1 修改表名
-
-语法规则
+1 查看表结构
 
 ```mysql
-ALERT TABLE <旧表名> RENAME [TO] <新表名>;
-# TO 为可选参数
+mysql> DESC students;
++-----------------+---------------------+------+-----+-------------------+----------------+
+| Field           | Type                | Null | Key | Default           | Extra          |
++-----------------+---------------------+------+-----+-------------------+----------------+
+| id              | int(11)             | NO   | PRI | NULL              | auto_increment |
+| name            | varchar(255)        | NO   |     | NULL              |                |
+| age             | tinyint(3) unsigned | NO   |     | 0                 |                |
+| sex             | enum('f','m','n')   | NO   |     | n                 |                |
+| id_card         | char(18)            | NO   | UNI | NULL              |                |
+| enrollment_time | timestamp           | NO   |     | CURRENT_TIMESTAMP |                |
++-----------------+---------------------+------+-----+-------------------+----------------+
+6 rows in set (0.00 sec)
 ```
 
-实例
+2 查看建表语句
 
 ```mysql
-mysql> ALTER TABLE users RENAME accounts;
+mysql> SHOW CREATE TABLE students\G;
+*************************** 1. row ***************************
+       Table: students
+Create Table: CREATE TABLE `students` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '学号',
+  `name` varchar(255) NOT NULL COMMENT '姓名',
+  `age` tinyint(3) unsigned NOT NULL DEFAULT '0' COMMENT '年龄',
+  `sex` enum('f','m','n') NOT NULL DEFAULT 'n' COMMENT '性别',
+  `id_card` char(18) NOT NULL COMMENT '身份证',
+  `enrollment_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '报名时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_card` (`id_card`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='学生表'
+1 row in set (0.00 sec)
+
+ERROR:
+No query specified
+
 ```
 
-#### 3.2 修改字段的数据类型
+## 二、DML
 
-语法规则
+对表的增删改查
+
+### 1. 插入
+
+#### 1.1 为表的所有字段插入数据
 
 ```mysql
-ALTER TABLE <表名> MODIFY <字段名> <数据类型>
+INSERT INTO 表名 VALUES (值1,值2,...值n);
 ```
 
-实例
+#### 1.2 为表的指定字段插入数据
 
 ```mysql
-mysql> ALTER TABLE accounts MODIFY username VARCHAR(100);
+# 要保证每个插入的值得类型和对应类的数据类型匹配
+INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n);
 ```
 
-
-
-#### 3.3 修改字段名
-
-语法规则
+#### 1.3 同时插入多条记录
 
 ```mysql
-ALTER TABLE <表名> CHANGE <旧字段名> <新字段名> <新数据类型>;
+INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n),(值1,值2,...值n);
 ```
 
-实例
+### 2. 更新
 
 ```mysql
-mysql> ALTER TABLE accounts CHANGE password passwd VARCHAR(30);
-# 把原字段password修改为passwd
-mysql> DESC accounts;
-+----------+--------------+------+-----+---------+----------------+
-| Field    | Type         | Null | Key | Default | Extra          |
-+----------+--------------+------+-----+---------+----------------+
-| id       | int(10)      | NO   | PRI | NULL    | auto_increment |
-| username | varchar(100) | YES  |     | NULL    |                |
-| passwd   | varchar(30)  | YES  |     | NULL    |                |
-+----------+--------------+------+-----+---------+----------------+
-3 rows in set (0.00 sec)
+UPDATE students SET name='zhangsan' WHERE id=3;
 ```
 
+必须要加where条件
 
+### 3. 删除
 
-#### 3.4 添加字段
-
-语法规则
+#### 3.1 按条件删除
 
 ```mysql
-ALTER TABLE <表名> ADD <新字段名> <数据类型>
-[约束条件] [FIRST |AFTER 已存在字段名];
-# FIRST:将新添加的字段设置为表的第一个字段
-# AFTER 已存在字段名:将新添加的字段加在“已存在字段”后面
+DELETE FROM students WHERE age=0;
 ```
 
-实例
+只是逻辑删除，不会回收物理空间
 
-1. 添加一个无完整性约束条件的字段
-```mysql
-# 会在表的末尾添加一个字段
-mysql> ALTER TABLE accounts ADD create_time DATETIME;
-```
-
-2. 添加有完整性约束条件的字段
-```mysql
-mysql> ALTER TABLE accounts ADD role INT(5) NOT NULL;
-```
-
-3. 在表的指定列之后添加一个字段
-```mysql
-mysql> ALTER TABLE accounts ADD email VARCHAR(20) AFTER username;
-```
-
-最后的结果
-```mysql
-mysql> DESC accounts;
-+-------------+--------------+------+-----+---------+----------------+
-| Field       | Type         | Null | Key | Default | Extra          |
-+-------------+--------------+------+-----+---------+----------------+
-| id          | int(10)      | NO   | PRI | NULL    | auto_increment |
-| username    | varchar(100) | YES  |     | NULL    |                |
-| email       | varchar(20)  | YES  |     | NULL    |                |
-| passwd      | varchar(30)  | YES  |     | NULL    |                |
-| create_time | datetime     | YES  |     | NULL    |                |
-| role        | int(5)       | NO   |     | NULL    |                |
-+-------------+--------------+------+-----+---------+----------------+
-```
-
-
-
-#### 3.5 删除字段
-
-语法规则
+#### 3.2 全表删除
 
 ```mysql
-ALTER TABLE <表名> DROP <字段名>;
+DELETE FROM students;
 ```
 
-实例
+DML操作，逻辑性删除，逐行删除，速度慢
 
 ```mysql
-mysql> ALTER TABLE accounts DROP role;
+TRUNCATE TABLE students;
 ```
 
-#### 3.6 修改字段的排序位置
+DDL操作，表段保留，数据页被清空，速度快
 
-语法结构
+#### 3.3 伪删除
+
+添加一个状态字段，用来标识是否删除
 
 ```mysql
-ALTER TABLE <表名> MODIFY <字段1> <数据类型> FIRST|AFTER <字段2>;
+# 添加状态字段
+ALTER TABLE students ADD state TINYINT NOT NULL DEFAULT 1;
+# 用UPDATE代替DELETE
+UPDATE students SET state=0 WHERE id=6;
+# 业务查询
+SELECT * FROM students WHERE state=1;
 ```
 
-实例
+## 三、DQL
+
+### 1. 单独使用
+
+#### 1.1 查看系统参数
 
 ```mysql
-mysql> ALTER TABLE accounts MODIFY email VARCHAR(30) AFTER create_time;
+ SELECT @@port;
+ SELECT @@basedir;
+ SELECT @@datadir;
+ SELECT @@socket;
 ```
 
-
-
-#### 3.7 删除表的外键约束
-
-语法规则
+#### 1.2 使用内置函数
 
 ```mysql
-ALTER TABLE <表名> DROP FOREiGN KEY  <外键约束名>
+SELECT USER();
+SELECT NOW();
+SELECT CONCAT(USER,"@",HOST) FROM mysql.user;
++-------------------------+
+| CONCAT(USER,"@",HOST)   |
++-------------------------+
+| root@10.0.0.%           |
+| wordpress@10.0.0.%      |
+| root@192.168.1.%        |
+| mysql.session@localhost |
+| mysql.sys@localhost     |
+| root@localhost          |
++-------------------------+
+6 rows in set (0.00 sec)
+
+#显示为一行
+SELECT GROUP_CONCAT(USER,"@",HOST) FROM mysql.user;
++--------------------------------------------------------------------------------------------------------------+
+| GROUP_CONCAT(USER,"@",HOST)                                                                                  |
++--------------------------------------------------------------------------------------------------------------+
+| root@10.0.0.%,wordpress@10.0.0.%,root@192.168.1.%,mysql.session@localhost,mysql.sys@localhost,root@localhost |
++--------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
 ```
 
-
-
-#### 3.8 修改表的存储引擎
-
-实例
-
-```mysql
-mysql> ALTER TABLE accounts ENGINE=MyISAM;
-```
+### 2. 单表子句
 
 
 
-### 4. 删除数据表
 
-#### 4.1 删除没有被关联的表
 
-语法规则：
 
-```mysql
-DROP TABLE [IF EXISTS] 表1,表2,...表n;
-```
 
-4.2 删除被其他表关联的的主表
 
-删除步骤：
 
-1. 先删除与它关联的子表，或将关联表的外键约束条件取消
-2. 然后再删除父表
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -891,24 +779,7 @@ SELECT d_id AS department, d_name AS department_name FROM department;
 ```
 
 ### 2. 插入
-#### 2.1 为表的所有字段插入数据
 
-```mysql
-INSERT INTO 表名 VALUES (值1,值2,...值n);
-```
-
-#### 2.2 为表的指定字段插入数据
-
-```mysql
-# 要保证每个插入的值得类型和对应类的数据类型匹配
-INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n);
-```
-
-#### 2.3 同时插入多条记录
-
-```mysql
-INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n),(值1,值2,...值n);
-```
 
 #### 2.4 将查询结果插入到表中
 
@@ -918,17 +789,6 @@ SELECT 字段1,字段2,...字段n
 FROM 表2;
 ```
 
-### 3. 更新
-
-```mysql
-UPDATE 表名 SET 字段1=值1, 字段2=值2,... WHERE 条件;
-```
-
-### 4. 删除
-
-```mysql
-DELETE FROM 表名 [WHERE 条件];
-```
 
 
 ## 四、索引

@@ -98,5 +98,6 @@ nav:
       - 'Ansible基础': 'CI&CD/Ansible/ansible.md'
     - Jenkins: 
       - 'Jenkins基础': 'CI&CD/Jenkins/Jenkins基础.md'  
-
-    
+  - 中药:
+    - '单味药': 'zhongyao/danweiyao.md'
+    - '中成药': 'zhongyao/zhongchengyao.md'
