@@ -938,7 +938,7 @@ $ rabbitmqctl set_user_tags admin administrator
 
 4. 登陆管理界面
    http://serverip:15672
-   ![rabbitmq web](../../images/rabbitmq/rabbitmq_web.jpeg)
+   ![rabbitmq web](../../assets/images/rabbitmq/rabbitmq_web.jpeg)
 
 5. 关闭插件
 
@@ -1389,7 +1389,7 @@ tcp        0      0 0.0.0.0:5672            0.0.0.0:*               LISTEN
 
 ##### 3. 验证
 
-![haproxy stats](../../images/rabbitmq/haproxy_stats.jpeg)
+![haproxy stats](../../assets/images/rabbitmq/haproxy_stats.jpeg)
 
 #### 3. keepalived实现高可用+负载均衡
 

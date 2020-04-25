@@ -6,7 +6,7 @@
 2. **Hook potnt**: 数据包在Netfilter中的挂载点
 3. **iptables**是用户管理Netfilter防火墙的用户程序。
 
-![1587213311645](../images/netfilter_iptables.png)
+![1587213311645](../assets/images/netfilter_iptables.png)
 
 ### 2.iptables的组成
 
