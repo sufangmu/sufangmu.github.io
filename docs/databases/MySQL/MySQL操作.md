@@ -303,9 +303,11 @@ SELECT * FROM students WHERE state=1;
 
 ## 三、DQL
 
-### 1. 单独使用
+### 1. 单表查询
 
-#### 1.1 查看系统参数
+#### 1.1 SELECT单独使用
+
+##### 1.1.1 查看系统参数
 
 ```mysql
  SELECT @@port;
@@ -314,7 +316,7 @@ SELECT * FROM students WHERE state=1;
  SELECT @@socket;
 ```
 
-#### 1.2 使用内置函数
+##### 1.1.2 使用内置函数
 
 ```mysql
 SELECT USER();
@@ -343,9 +345,9 @@ SELECT GROUP_CONCAT(USER,"@",HOST) FROM mysql.user;
 
 ```
 
-### 2. 单表子句 -- FROM
+### 1.2  单表子句 -- FROM
 
-#### 2.1 查询所有字段
+##### 1.2.1 查询所有字段
 
 ```mysql
 SELECT * FROM 表名;
@@ -353,19 +355,21 @@ SELECT * FROM 表名;
 
 不要对大表进行操作
 
-#### 2.2 查询指定字段
+##### 1.2.2 查询指定字段
 
 ```mysql
 SELECT 字段名 FROM 表名;
 ```
 
-#### 2.3 查询多个字段
+##### 1.2.3 查询多个字段
 
 ```mysql
 SELECT 字段名1,字段名2,...字段名n FROM 表名;
 ```
 
-### 3. 单表字句 -- WHERE
+### 1.3 单表子句 -- WHERE
+
+格式：
 
 ```mysql
 SELECT 字段名1,字段名2,...字段名n 
@@ -373,7 +377,7 @@ FROM 表名
 WHERE 查询条件;
 ```
 
-#### 3.1 WHERE配合等值查询（=）
+##### 1.3.1 WHERE配合等值查询（=）
 
 ```mysql
 # 查询中国的城市
@@ -382,14 +386,14 @@ SELECT * FROM city WHERE CountryCode='CHN';
 SELECT * FROM city WHERE District='HuBei';
 ```
 
-#### 3.2 WHERE配合比较操作符（<> 、!=、 <、 <=、 >、 >=）
+##### 1.3.2 WHERE配合比较操作符（<> 、!=、 <、 <=、 >、 >=）
 
 ```mysql
 # 查询人口小于100的城市
 SELECT * FROM city WHERE Population < 100;
 ```
 
-#### 3.3 WHERE配合逻辑运算符（AND、OR）
+##### 1.3.3 WHERE配合逻辑运算符（AND、OR）
 
 ```mysql
 # 查询中国人口大于500万的城市
@@ -398,7 +402,7 @@ SELECT * FROM city WHERE CountryCode='CHN' AND Population > 5000000;
 SELECT * FROM city WHERE CountryCode='CHN' OR CountryCode='USA';
 ```
 
-#### 3.4 WHERE配合模糊查询（LIKE）
+##### 1.3.4 WHERE配合模糊查询（LIKE）
 
 ```mysql
 # 名字以guang开头的省
@@ -407,234 +411,238 @@ SELECT * FROM city WHERE District LIKE 'guang%'
 
 `%`不能放在前面，因为不走索引
 
-#### 3.5 WHERE配置`IN`语句
+##### 1.3.5 WHERE配置`IN`语句
 
 ```mysql
 # 查询中国和美国的城市信息,与OR类似
 SELECT * FROM city WHERE CountryCode IN ('CHN','USA');
 ```
 
-#### 3.6 WHERE配合`BETREEN AND`
+##### 1.3.6 WHERE配合`BETREEN AND`
 
 ```mysql
 # 查询人口大于100万小于200万城市信息
 SELECT * FROM city WHERE Population BETWEEN 1000000 AND 2000000;
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 三、数据操作
-
-### 1. 查询
-
- 基本查询语言
-
-```mysql
-SELECT {*|<字段列表>}
-    FROM <表1>,<表2>...
-    [WHERE <表达式>]
-    [GROUP BY <group by definition>]
-    [HAVING <expressioin> [{<operator> <expression>}...]]
-    [ORDER BY <order by definitioin>]
-    [LIMIT [<offset>,] <row count>]
-SELECT [字段1,字段2,...,字段n]
-FROM {表或视图}
-WHERE [查询条件];
-```
-
-#### 1.2 分组查询
+### 2. 分组查询
 
 分组查询是对数据安装某个或多个字段进行分组，字段中值相等的为一组。mysql中实用GROUP BY 关键字对数据进行分组，通常和集合函数(MAX(),MIN(),COUTN(),SUM(),AVG)一起使用。
 
+#### 2.1 单表子句-GROUP BY
 
-
-语法规则
-```mysql
-[GROUP BY 字段] [HAVING <条件表达式>]
-```
-
-1. 创建分组
-```mysql
-# 根据性别进行分组，注意：字段上不要加引号
-SELECT sex, COUNT(*)  FROM accounts GROUP BY sex;
-+-----+----------+
-| sex | COUNT(*) |
-+-----+----------+
-| 0   | 3        |
-| 1   | 2        |
-+-----+----------+
-2 rows in set
-Time: 0.010s
-```
+例1：统计city表中每个国家的总人口数
 
 ```mysql
-# 显示出具体的username
-SELECT sex, GROUP_CONCAT(username)  FROM accounts GROUP BY sex; 
-+-----+-------------------------------+
-| sex | GROUP_CONCAT(username)        |
-+-----+-------------------------------+
-| 0   | yuanzhi,wangzihan,zhaojianguo |
-| 1   | admin,zhangsan                |
-+-----+-------------------------------+
-2 rows in set
-Time: 0.010s
+SELECT CountryCode, SUM(Population) 
+FROM city 
+GROUP BY CountryCode;
 ```
 
-2. 使用HAVING过滤分组
+例2：统计中国每个省的总人口数
+
 ```mysql
-# 过滤出某一项
-SELECT sex, GROUP_CONCAT(username)  FROM accounts GROUP BY sex HAVING COUNT(sex) > 2;                
-+-----+-------------------------------+
-| sex | GROUP_CONCAT(username)        |
-+-----+-------------------------------+
-| 0   | yuanzhi,wangzihan,zhaojianguo |
-+-----+-------------------------------+
-1 row in set
-Time: 0.019s
+SELECT District, SUM(Population)
+FROM city
+WHERE CountryCode='CHN'
+GROUP BY District;
 ```
 
-3. 使用WITH ROLLUP
-使用WITH ROLLUP关键字之后，在所有查询出的分组记录之后添加一条记录，该记录计算查询出所有记录的总和，即统计记录数量
+例3：统计世界上每个国家的城市个数
+
 ```mysql
-SELECT sex, COUNT(username)  FROM accounts GROUP BY sex WITH ROLLUP;
-+--------+-----------------+
-| sex    | COUNT(username) |
-+--------+-----------------+
-| 0      | 3               |
-| 1      | 2               |
-| <null> | 5               |
-+--------+-----------------+
-3 rows in set
-Time: 0.011s
+SELECT CountryCode, COUNT(name)
+FROM city
+GROUP BY CountryCode;
 ```
 
-4. 多字段分组
+例4：统计中国每个省的城市名字列表
+
 ```mysql
-SELECT role,sex FROM accounts GROUP BY role,sex;
+SELECT District, GROUP_CONCAT(name)
+FROM city
+WHERE CountryCode='CHN'
+GROUP BY District;
 ```
 
-5. GROUP BY 与 ORDER BY 一起使用
+#### 2.2 单表子句-HAVING
+
+后过滤，用在GROUP BY之后，HAVING条件是不走索引的，一般可以用临时表解决。
+
+例1：统计中国每个省的总人口数，只打印总人口数小于100w的信息
+
 ```mysql
-SELECT role,sex FROM accounts GROUP BY role,sex ORDER BY sex;
-+------+-----+
-| role | sex |
-+------+-----+
-| 2    | 0   |
-| 1    | 0   |
-| 1    | 1   |
-| 0    | 1   |
-+------+-----+
-4 rows in set
-Time: 0.014s
+SELECT district, SUM(Population)
+FROM city
+WHERE CountryCode='CHN'
+GROUP BY District
+HAVING SUM(Population)<1000000;
 ```
 
-6. 使用LIMIT限制查询结果的数量
+#### 2.3 单表子句-ORDER BY
+
+用来排序，用在HAVING之后
+
+例1：查询中国的城市信息，并按人口数量从大到小排序
+
 ```mysql
-LIMIT [位置偏移量,] 行数
-# 偏移量从0开始
+SELECT * FROM city
+WHERE CountryCode='CHN'
+ORDER BY Population DESC;
 ```
 
-这里使用的数据库例子不是很合理，主要是为了说明语法规则
+例2：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。
+
+```mysql
+SELECT district, SUM(Population)
+FROM city
+WHERE CountryCode='CHN'
+GROUP BY District
+HAVING SUM(Population)<1000000;
+```
+
+#### 2.4 单表子句-LIMIT
+
+例1：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。显示前3名
+
+```mysql
+SELECT  District, SUM(Population) FROM city
+WHERE CountryCode='CHN'
+GROUP BY District
+HAVING SUM(Population) > 5000000
+ORDER BY SUM(Population) DESC
+LIMIT 3;
+```
+
+例2：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。显示6到10名
+
+```mysql
+SELECT  District, SUM(Population) FROM city
+WHERE CountryCode='CHN'
+GROUP BY District
+HAVING SUM(Population) > 5000000
+ORDER BY SUM(Population) DESC
+LIMIT 5,5; # 跳过5行，显示5行
+```
+
+#### 2.5 去重-DISTINCT
+
+```mysql
+SELECT DISTINCT(countrycode) FROM city;
+```
+
+#### 2.6 联合查询-UNION [ALL]
+
+把两个结果集合并
+
+```mysql
+SELECT * FROM city WHERE CountryCode='CHN'
+UNION ALL
+SELECT * FROM city WHERE CountryCode='USA';
+```
+
+一般情况下，将IN或OR的语句改写成UNION ALL来提高性能。
+
+UNION :去重复
+
+UNION ALL：不去重
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 1.3 聚合函数查询
 1. COUNT()
 统计数据表中包含记录行的总数
