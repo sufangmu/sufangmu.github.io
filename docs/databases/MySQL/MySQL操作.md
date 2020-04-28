@@ -547,248 +547,74 @@ UNION :去重复
 
 UNION ALL：不去重
 
+### 3. 连接查询
 
+例1：查找世界上人口数量小于100人的城市所在国家名和国土面积
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 1.3 聚合函数查询
-1. COUNT()
-统计数据表中包含记录行的总数
 ```mysql
-# 统计用户总数
-SELECT COUNT(username) AS total_user FROM accounts;
-```
-2. SUM()
-返回指定列的总和
-```mysql
-SELECT SUM(age) FROM accounts; 
-```
-3. AVG()
-求平均值
-```mysql
- SELECT AVG(age) FROM accounts;
-```
-4. MAX()
-返回列中的最大值
-```mysql
-SELECT MAX(age) FROM accounts;
+SELECT city.name, country.name, country.SurfaceArea
+FROM city JOIN country
+ON city.countrycode=country.code
+WHERE city.Population<100;
 ```
 
-5. MIN()
-返回列中的最小值
+### 4. 别名
+
+#### 4.1 字段别名
+
 ```mysql
-SELECT MIN(age) FROM accounts;
+SELECT
+city.name AS 城市, 
+country.name AS 国家, 
+country.SurfaceArea  AS 面积,
+city.Population AS 城市人口
+FROM city JOIN country
+ON city.CountryCode=country.Code
+WHERE  .name='shenyang';
 ```
 
-#### 1.4 连接查询
-
-##### 1.4.1 内连接查询
-
-使用比较运算符进行表见某些列数据的比较操作，并列出表中与连接条件相匹配的数据，组合成新记录。在内连接查询中，只有满足条件的记录才能出现在结果关系中。
+#### 4.2 表别名
 
 ```mysql
-SELECT hostname,machines.asset_id,name,size FROM machines,disks where disks.asset_id = machines.asset_id; 
-#或
-SELECT hostname,machines.asset_id,name,size FROM machines INNER JOIN disks ON disks.asset_id = machines.asset_id;  
+SELECT
+a.name AS 城市, 
+b.name AS 国家, 
+b.SurfaceArea  AS 面积,
+a.Population AS 城市人口
+FROM city AS a JOIN country AS b
+ON a.CountryCode=b.Code
+WHERE a.name='shenyang';
 ```
 
-##### 1.4.2 外连接查询
+## 四 SHOW语句
 
-左连接：返回包括左表中所有记录和右表中连接字段相等的记录
-右连接：返回包括右表中所有记录和左表中连接字段相等的记录
-
-1. 左连接（LEFT  OUTER JOIN）
-```mysql
-SELECT hostname,machines.asset_id,name,size FROM machines LEFT  OUTER JOIN disks ON disks.asset_id = machines.asset_id; 
-```
-
-2. 右连接（RIGHT  OUTER JOIN）
-```mysql
- SELECT hostname,machines.asset_id,name,size FROM machines RIGHT  OUTER JOIN disks ON disks.asset_id = machines.asset_id;
-```
-##### 1.4.3 复合条件连接查询
-在连接查询的过程中，添加过滤条件，限制查询的结果，使查询的结果更加准确。
-```mysql
-SELECT hostname,machines.asset_id,name,size FROM machines INNER JOIN disks ON disks.asset_id = machines.asset_id AND size > 200; 
-```
-#### 1.5 子查询
-
-子查询是指一个查询语句嵌套在另一个查询语句内部的查询。在SELECT子句中先计算子查询，子查询的结果作为外层另一个查询的过滤条件，查询可以基于一个表或者多个表。
-
-1. 带ANY、SOME关键字的子查询
-   ANY和SOME关键词是同义词，表示满足其中任一条件，她们运行创建一个表达式对子查询的返回值列表进行比较，只要满足内查询中的任何一个比较条件，就返回一个结果作为外层查询的条件
-```mysql
-mysql>SELECT * FROM computer_stu WHERE score>=ANY (SELECT score FROM scholarship);
-```
-
-2. 带ALL关键词的子查询
-使用ALL时需要同时满足所有内层查询的条件
-```mysql
-mysql>SELECT * FROM computer_stu WHERE score>=ALL (SELECT score FROM scholarship);
-```
-
-3. 带EXISTS关键字的子查询
-EXISTS关键字后面的参数是一个任意的子查询，系统对子查询进行运算以判断它是否返回行，如果至少返回一行，那么EXISTS的结果为true，此时外层查询语句将进行查询，如果子查询没有返回任何行，那么EXISTS返回的结果是false，此时外层语句将不进行查询
-```mysql
-mysql>SELECT * FROM employee WHERE EXISTS ( SELECT d_name FROM department WHERE d_id=103);
-```
-
-4. 带IN关键字的子查询
-内层查询语句仅仅返回一个数据列，这个数据列里的值将提供给外层查询语句进行比较
-```mysql
-mysql>SELECT * FROM employee WHERE d_id IN ( SELECT d_id FROM department);
-```
-
-5. 带比较运算符的子查询
-<、 <=、 =、 >=、 !=
-```mysql
-mysql>SELECT id,score FROM computer_stu WHERE score>= (SELECT score FROM scholarship WHERE level=1 );
-```
-#### 1.6 合并查询结果
-
-把多个SELECT的结果组合成单个结果集，合并时，两个表对应的列和数据类型必须相同。
-
-语法规则
-```mysql
-SELECT 字段1,字段2,... FROM 表1
-UNION [ALL]
-SELECT 字段1,字段2,... FROM 表2;
-```
-
-UNION：执行的时候删除重复的记录，返回的行都是唯一的
-UNION ALL：不删除重复的行，也不对结果进行自动排序
-
-#### 1.7 使用正则表达式查询
-```mysql
-mysql>SELECT * FROM info WHERE name REGEXP '^L';
-```
-
-#### 1.8 为表和字段取别名
-
-1. 为表取别名
-语法规则
-```mysql
-表名 [AS] 表别名
-```
-```mysql
-mysql>SELECT * FROM department d WHERE d.d_id=1001;
-```
-
-2. 为字段取别名
-语法规则
-```mysql
-字段名 [AS] 字段别名
-```
-```mysql
-SELECT d_id AS department, d_name AS department_name FROM department;
-```
-
-### 2. 插入
-
-
-#### 2.4 将查询结果插入到表中
+常用SHOW命令
 
 ```mysql
-INSERT INTO 表名1(字段1,字段2,...字段n)
-SELECT 字段1,字段2,...字段n
-FROM 表2;
+SHOW DATABASES;
+SHOW TABLES;
+SHOW CREATE DATABASE world;
+SHOW CREATE TABLE city;
+SHOW CHARSET;
+show COLLATION;
+SHOW ENGINES;
+SHOW PROCESSLIST;
+SHOW VARIABLES;
+SHOW VARIABLES LIKE '%log%';
+SHOW STATUS;
+SHOW STATUS LIKE '%lock%';
+SHOW INDEX FROM world.city;
+SHOW ENGINE INNODB IN 'xxx';
+SHOW BINARY LOGS;
+SHOW BINLOG EVENTS IN 'xxx';
+SHOW MASTER STATUS;
+SHOW SLAVE STATUS\G;
+SHOW GRANTS FOR root@'localhost';
 ```
 
 
 
-## 四、索引
+## 五、索引
 
 ### 1. 索引介绍
 
@@ -808,19 +634,7 @@ FROM 表2;
 
 ### 3. 索引的分类
 
-1. 普通索引
-	基本索引类型，允许在定义索引的列中插入重复值和空值，其作用只是加快数据的访问速度。
-2. 唯一索引
-	索引列的值必须唯一，可以允许有空值，可以减少查询索引列操作的时间，尤其是对比较庞大的数据表
-3. 单列索引
-	一个索引只包含单个列，一个表可以有多个单列索引
-4. 组合索引
-	在表的多个字段上组个创建索引，只有在查询条件中使用了这些字段的左边字段时，索引才会被使用
-5. 全文索引
-	只能在MyISAM存储引擎支持
-6. 空间索引
-	只能在MyISAM存储引擎支持
-	
+1. 
 ### 4. 设计原则
 
 1. 索引不是越多越好，一个表中如有大量的索引，不仅占用磁盘空间，而且会影响INSERT、DELETE、UPDATE等语句的性能
@@ -926,29 +740,3 @@ DROP INDEX 索引名 ON 表名;
 ```
 
 
-
-## 五、视图
-
-
-
-
-
-
-
-## 六、存储过程与函数
-
-存储过程：一条或者多条SQL语句的集合
-
-
-
-
-
-## 七、触发器
-
-
-
-
-
-
-
-## 八、优化

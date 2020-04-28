@@ -190,237 +190,110 @@ COMMENT：注释
 
 大小写是否敏感
 
-## 一、存储引擎
+## 六、视图库
 
-数据库存储引擎是数据库底层软件组件，数据库管理系统使用存储引擎进行创建、查询、更新和删除数据操作。不同的存储引擎提供不同的存储机制、索引技巧、锁定水平等功能。
+存放了一些元数据
 
-## 二、MySQL存储引擎
+### 1. information_schema
 
-查看mysql支持的存储引擎
-```sql
-mysql> SHOW ENGINES;
-+--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
-| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
-+--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
-| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
-| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
-| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
-| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
-| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
-| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
-| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
-| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
-| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
-+--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+#### 1.1 TABLES表
+
+数据库中表的属性
+
+例1：查询整个数据库中所有库和对应的表信息
+
+```mysql
+SELECT TABLE_SCHEMA, GROUP_CONCAT(TABLE_NAME)
+FROM information_schema.TABLES
+GROUP BY TABLE_SCHEMA;
 ```
 
-### 1. InnoDB存储引擎
+例2：统计所有库下表的个数
 
-事务型数据库首选引擎，支持事物安全表，支持行锁定和外键
-
-#### 1. 表空间文件组成结构
-
-1. 段
-2. 簇：一个簇是物理上连续分配的一段空间，一般是64个页面
-3. 页：一个页面默认16KB，是段所管理的最小单位，数据库文件管理的最小单位，也是文件中空间分配的最小单位。
-
-
-
-#### 主要特性
-
-1. 提供了具有提交、回滚和崩溃恢复能力的事物安全存储引擎
-2. 为处理巨大数据量的最大性能设计
-3. 在主内存中缓存数据和索引来维持它自己的缓冲池，InnoDB将它的表和索引存储在一个逻辑表空间中，表空间可以包含数个文件
-4. 支持外键完整性约束(FOREIGN KEY)
-5. 被用在众多需要高性能的大型数据库站点上
-
-使用InnoDB时，MySQL将在数据目录下创建一个名为ibdata1的10M大小的自动扩展数据文件，以及两个名为ib_logfile0和ib_logfile1的5M大小的日志文件。
-
-```bash
-[root@localhost ~]# ls /var/lib/mysql/ib*
-/var/lib/mysql/ib_buffer_pool  /var/lib/mysql/ib_logfile1 /var/lib/mysql/ibdata1         /var/lib/mysql/ibtmp1 /var/lib/mysql/ib_logfile0
+```mysql
+SELECT TABLE_SCHEMA, COUNT(TABLE_NAME)
+FROM information_schema.TABLES
+GROUP BY TABLE_SCHEMA;
 ```
 
-### 2. MyISAM存储引擎
-MyISAM拥有较高的插入、查询速度，但不支持事物
-主要特性：
-1. 支持大文件
-2. 每个字符列可以有不同的字符集
-...
+例3：查询所有InnoDB引擎的表及所在库
 
-使用MyISAM引擎创建数据库，将产生3个文件。文件的名字以表的名字开始，扩展名指出文件类型：frm文件存储表定义，数据文件扩展名为.MYData，索引文件的扩展名是.MyISAM
+```mysql
+SELECT TABLE_SCHEMA, TABLE_NAME, ENGINE
+FROM information_schema.`TABLES`
+WHERE `ENGINE`='innoDB';
+```
 
+例4：统计world库下每张表的磁盘空间占用
 
-### 3. MEMORY存储引擎
-把表中的数据存储到内存中，为查询和引用其他表的数据提供快速访问。
-主要特性：
-1. 每个表可以达32个索引，每个索引16列，以及500B的最大键长度
-2. 可以在一个MEMORY表中有非唯一键
+```mysql
+SELECT table_schema, table_name, TABLE_ROWS*AVG_ROW_LENGTH+INDEX_LENGTH
+FROM information_schema.TABLES
+WHERE TABLE_SCHEMA='world;
+```
 
+例5：统计所有数据库的总的磁盘占用
 
+```mysql
+SELECT table_schema, table_name, TABLE_ROWS*AVG_ROW_LENGTH+INDEX_LENGTH
+FROM information_schema.TABLES;
+```
 
+## 七、索引
 
+索引是一个单独的、存在磁盘上的数据库结构，它们包含着对数据表里所有记录的引用指针。
 
-## 2. 运算符
+### 1. 索引作用
 
+提供了类似于书中目录的作用，目的是为了简化查询
 
+### 2. 索引的种类
 
-### 1. 算数运算符
+#### 2.1 按算法分
 
-| 运算符 | 作用 |
-| ------ | ---- |
-| +      | 加   |
-| -      | 减   |
-| *      | 乘   |
-| /      | 除   |
-| %      | 取余 |
+1. B树索引
+2. Hash索引
+3. R树
+4. Full text
+5. GIS 
 
+![](../../assets/images/Btree.jpg)
 
+#### 2.2 按功能分
 
-### 2. 比较运算符
+##### 2.2.1 聚簇索引
 
-| 运算符      | 作用                                               |
-| ----------- | -------------------------------------------------- |
-| =           | 等于                                               |
-| <=>         | 安全的等于，可以对NULL进行判读                     |
-| <>(!=)      | 不等于                                             |
-| <=          | 小于等于                                           |
-| >=          | 大于等于                                           |
-| >           | 大于                                               |
-| IS NULL     | 判断一个值是否为空                                 |
-| ISNULL      | 判断一个值是否为空                                 |
-| IS NOT NULL | 判断一个值是否不为空                               |
-| LEAST       | 当有两个或两个以上参数时，返回最小值               |
-| GREATEST    | 当有两个或两个以上参数时，返回最大值               |
-| BETWEEN AND | 判断一个值是否落在两个值之间                       |
-| IN          | 判读一个值是IN列表中的任意一个值                   |
-| NOT IN      | 判读一个值不是IN列表中的任意一个值                 |
-| LIKE        | 通配符匹配，%：匹配任意数目的字符；_：匹配一个字符 |
-| REGEXP      | 正则匹配                                           |
+##### 2.2.2 辅助索引（二级索引）
 
+辅助索引和 聚簇索引的区别
 
+1.  聚簇索引只能有一个，非空唯一，一般是主键
+2. 辅助索引可以有多个，是配合聚簇索引使用的
+3. 聚簇索引叶节点就是磁盘数据行存储的数据页
+4. MySQL根据聚簇索引组织存储结构，数据存储时就是按照聚簇索引的顺序进行存储数据
+5. 辅助索引只会提取索引键值进行自动排序生成B树
 
-### 3. 逻辑运算符
+### 3. 辅助索引的分类
 
-| 运算符     | 作用     |
-| ---------- | -------- |
-| NOT 或 !   | 逻辑非   |
-| AND 或 &&  | 逻辑与   |
-| OR 或 \|\| | 逻辑或   |
-| XOR        | 逻辑异或 |
+#### 3.1 普通索引
 
+基本索引类型，允许在定义索引的列中插入重复值和空值，其作用只是加快数据的访问速度。
 
+#### 3.2 唯一索引
 
-### 4. 位操作运算符
+索引列的值必须唯一，可以允许有空值，可以减少查询索引列操作的时间，尤其是对比较庞大的数据表
 
-| 运算符 | 作用   |
-| ------ | ------ |
-| \|     | 位或   |
-| &      | 位与   |
-| ^      | 位异或 |
-| <<     | 位左移 |
-| >>     | 位右移 |
-| ~      | 位取反 |
+#### 3.3 单列索引
 
+一个索引只包含单个列，一个表可以有多个单列索引
 
+#### 3.4 组合索引
 
-## 四、函数
+在表的多个字段上组个创建索引，只有在查询条件中使用了这些字段的左边字段时，索引才会被使用
 
+### 4. 索引树高度的影响因素
 
-
-## 1. 数学函数
-
-
-
-| 函数          | 作用                                         | 示例                    |
-| ------------- | -------------------------------------------- | ----------------------- |
-| ABS(x)        | 返回x的绝对值                                | SELECT ABS(-3);         |
-| PI()          | 返回圆周率π                                  | SELECT PI();            |
-| SQRT(x)       | 返回x的二次平方根                            | SELECT SQRT(9);         |
-| MOD(x)        | 求余函数                                     | SELECT MOD(10,3);       |
-| CEIL(x)       | 返回不小于x的最小整数                        | SELECT CEIL(3.35);      |
-| CEILING(x)    | 返回不小于x的最小整数                        | SELECT CEILING(3.35);   |
-| RANG(x)       | 返回一个随机浮点数[0,1.0]，x为随机种子(可选) | SELECT RAND(4);         |
-| ROUND(x)      | 返回接近x的整数，对x值进行四舍五入           | SELECT ROUND(4.3);      |
-| ROUND(x,y)    | 结果保留小数点后y位                          | SELECT ROUND(3.1415,2); |
-| TRUNCATE(x,y) | 返回被舍去至小数点后y位的数字x               |                         |
-| SIGN(x)       | 返回参数的符号。结果为-1或0或1               |                         |
-| POW(x,y)      | 返回x的y次方的结果值                         |                         |
-| POWER(x,y)    | 返回x的y次方的结果值                         |                         |
-| EXP(x)        | 返回e的x乘方后的值                           |                         |
-| LOG(x)        | 返回x的自然对数                              |                         |
-| LOG10(x)      | 返回x的基数为10的对数                        |                         |
-| RADIANS(x)    | 角度转化为弧度                               |                         |
-| DEGREES(x)    | 弧度转化为角度                               |                         |
-| SIN(x)        | 返回x正弦                                    |                         |
-| ASIN(x)       | 返回x的反正弦                                |                         |
-| COS(x)        | 返回x的余弦                                  |                         |
-| ACOS(x)       | 返回x的反余弦                                |                         |
-| TAN(x)        | 返回x的正切                                  |                         |
-| ATAN(x)       | 返回x的反正切                                |                         |
-| COT(x)        | 返回x的余切                                  |                         |
-
-## 2. 字符串函数
-
-| 函数                   | 作用                                      | 示例                                   |
-| ---------------------- | ----------------------------------------- | -------------------------------------- |
-| CHAR_LENGTH(str)       | 返回字符串个数                            | SELECT CHAR_LENGTH('hello');           |
-| CONCAT(s1,s2,...)      | 拼接字符串                                | SELECT CONCAT('hello','world');        |
-| CONCAT_WS(x,s1,s2,...) | 指定拼接分隔符                            | SELECT CONCAT_WS('+','hello','world'); |
-| INSERT(s1,x,len,s2)    | 用s2替换s1从x开始len长度的字符            |                                        |
-| LOWER(str)             | 大写转小写                                |                                        |
-| LCASE(str)             | 大写转小写                                |                                        |
-| UPPER(str)             | 小写转大写                                |                                        |
-| UCASE(str)             | 小写转大写                                |                                        |
-| LEFT(s,n)              | 返回字符串s最左边的n个字符                |                                        |
-| RIGHT(s,n)             | 返回字符串s最右边的n个字符                |                                        |
-| LPAD(s1,len,s2)        | 指定字符串s1长度为len，不够用s2在左边填充 |                                        |
-| RPAD(s1,len,s2)        | 指定字符串s1长度为len，不够用s2在右边填充 |                                        |
-| LTRIM(s)               | 删除字符串左边空格                        |                                        |
-| RTRIM(s)               | 删除字符串右边空格                        |                                        |
-| TRIM(s)                | 删除字符串两边空格                        |                                        |
-| 。。。                 |                                           |                                        |
-
-
-
-## 3. 日期和时间函数
-
-| 函数            | 作用                    | 示例 |
-| --------------- | ----------------------- | ---- |
-| CURRENT_DATE()  | 返回当前日期:YYYY-MM-DD |      |
-| CUR_DATE()      | 返回当前日期:YYYY-MM-DD |      |
-| CURRENT_TIME(); | 返回当前时间 :HH:MM:SS  |      |
-| CUR_TIME();     |                         |      |
-|                 |                         |      |
-|                 |                         |      |
-|                 |                         |      |
-|                 |                         |      |
-|                 |                         |      |
-
-
-
-## 4. 条件判断函数
-
-
-
-### 5. 系统信息函数
-
-| 函数                         | 作用                   |
-| ---------------------------- | ---------------------- |
-| SELECT VERSION();            | 查看数据库版本         |
-| SELECT CONNECTION_ID();      | 查看当前用户的连接数   |
-| SHOW PROCESSLIST;            | 查看当前用户的连接信息 |
-| SELECT SYSTEM_USER(),USER(); | 获取用户名             |
-| SELECT LAST_INSERT_ID();     | 最后一条记录的ID       |
-
-### 6.加密/解密函数
-
-| 函数            | 作用 | 示例                           |
-| --------------- | ---- | ------------------------------ |
-| PASSWORD('pwd') |      | SELECT PASSWORD('Admin@123!'); |
-|                 |      |                                |
-|                 |      |                                |
-|                 |      |                                |
-
-
+1. 数据量级，解决方法：分库，分表，分布式
+2. 索引列值过长，解决方法：前缀索引
+3. 数据类型
 
