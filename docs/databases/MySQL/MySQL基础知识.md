@@ -32,7 +32,7 @@
 
 ## 三、MySQL的物理结构
 
-### 1. 库
+### 1.库
 
 用文件系统的目录来存储
 
@@ -59,7 +59,7 @@ root@gp:/data/mysql# tree -FL 1
 
 ```
 
-### 2. 表
+### 2.表
 
 #### 2.1 MYISAM表的存储
 
@@ -157,7 +157,7 @@ L：列值的实际长度
 
 常用约束：一般建表时加
 
-```
+```txt
 PRIMARY KEY：主键约束，主键在一个表中只能有一个
 NOT NULL：非空约束，列值不能为空
 UNIQUE KEY：唯一键
@@ -166,7 +166,7 @@ UNSIGNED：无符号，针对数字列
 
 其他属性：根据需要后期加
 
-```
+```txt
 KEY：索引
 DEFAULT：默认值
 AUTO_INCREMENT：针对数字列，顺序的自动填充数据（默认从1开始）
@@ -255,9 +255,9 @@ FROM information_schema.TABLES;
 2. Hash索引
 3. R树
 4. Full text
-5. GIS 
+5. GIS
 
-![](../../assets/images/Btree.jpg)
+![Btree](../../assets/images/Btree.jpg)
 
 #### 2.2 按功能分
 
@@ -267,7 +267,7 @@ FROM information_schema.TABLES;
 
 辅助索引和 聚簇索引的区别
 
-1.  聚簇索引只能有一个，非空唯一，一般是主键
+1. 聚簇索引只能有一个，非空唯一，一般是主键
 2. 辅助索引可以有多个，是配合聚簇索引使用的
 3. 聚簇索引叶节点就是磁盘数据行存储的数据页
 4. MySQL根据聚簇索引组织存储结构，数据存储时就是按照聚簇索引的顺序进行存储数据
@@ -305,10 +305,10 @@ FROM information_schema.TABLES;
 
 ```mysql
 CREATE TABLE 表名(字段名 数据类型 [完整性约束条件],
-[UNIQUE | FULLTEXT | SPATIAL ] INDEX | KEY 
+[UNIQUE | FULLTEXT | SPATIAL ] INDEX | KEY
 [别名] (字段名 [(长度)] [ASC | DESC ] )
 );
-						
+
 UNIQUE:唯一性索引
 FULLTEXT：全文索引
 SPATIAL：空间索引
@@ -320,45 +320,45 @@ ASC | DESC ： 升序或降序的索引值存储
 ##### 5.1.1 创建普通索引
 
 ```mysql
-CREATE TABLE accounts( 
+CREATE TABLE accounts(
             id int PRIMARY KEY AUTO_INCREMENT,
-            username VARCHAR(20), 
-            password VARCHAR(20), 
-            INDEX(username) 
-            );                                
+            username VARCHAR(20),
+            password VARCHAR(20),
+            INDEX(username)
+            );
 ```
 
 ##### 5.1.2 创建唯一索引
 
 ```mysql
-CREATE TABLE accounts( 
-            id int PRIMARY KEY AUTO_INCREMENT, 
-            username VARCHAR(20), 
-            password VARCHAR(20), 
-            UNIQUE INDEX(username) 
-            );                                 
+CREATE TABLE accounts(
+            id int PRIMARY KEY AUTO_INCREMENT,
+            username VARCHAR(20),
+            password VARCHAR(20),
+            UNIQUE INDEX(username)
+            );
 ```
 
 ##### 5.1.3 创建单列索引
 
 ```mysql
-CREATE TABLE accounts( 
+CREATE TABLE accounts(
             id int PRIMARY KEY AUTO_INCREMENT,
-            username VARCHAR(20), 
-            password VARCHAR(20), 
-            UNIQUE INDEX user(username) 
-            );                                
+            username VARCHAR(20),
+            password VARCHAR(20),
+            UNIQUE INDEX user(username)
+            );
 ```
 
 ##### 5.1.4 创建组合索引
 
 ```mysql
-CREATE TABLE accounts( 
-username VARCHAR(20), 
-email VARCHAR(50), 
-password VARCHAR(20), 
+CREATE TABLE accounts(
+username VARCHAR(20),
+email VARCHAR(50),
+password VARCHAR(20),
 INDEX user(username,email)
-);                        
+);
 ```
 
 #### 5.2.  在已经存在的表上创建索引
@@ -411,6 +411,14 @@ DROP INDEX 索引名 ON 表名;
 SHOW INDEX FROM city;
 ```
 
+### 8. 索引建立原则
+
+1. 建表时一定要有主键，一般是一个无关列
+2. 选择唯一性索引
+3. 限制所有的数目
+4. 大表加索引需要在业务不繁忙期间操作
+5. 尽量少在经常更新值得列上创建索引
+
 ## 八、执行计划
 
 ### 1. 获取执行计划
@@ -428,7 +436,7 @@ mysql> DESC SELECT name,population FROM city WHERE name='ChongQing';
 
 ### 2. 关键字段
 
-#### 2.1 table	查询的表
+#### 2.1 table查询的表
 
 #### 2.2  type 查询的类型:全表，索引
 
@@ -461,7 +469,7 @@ DESC SELECT * FROM city WHERE id <> 10;
 
 ```mysql
 # 1. 查询需要获取整个索引树中的值时
-mysql> DESC SELECT countrycode FROM city;       
+mysql> DESC SELECT countrycode FROM city;
 +----+-------------+-------+------------+-------+---------------+-------------+---------+------+------+----------+-------------+
 | id | select_type | table | partitions | type  | possible_keys | key         | key_len | ref  | rows | filtered | Extra       |
 +----+-------------+-------+------------+-------+---------------+-------------+---------+------+------+----------+-------------+
@@ -472,11 +480,9 @@ mysql> DESC SELECT countrycode FROM city;
 SELECT * FROM t1 WHERE b
 ```
 
-
-
 ##### 2.2.3 RANGE 索引范围扫描
 
-1. 辅助索引：>、 >=、 <、 <= 、LIKE、 IN、 OR 
+1. 辅助索引：>、 >=、 <、 <= 、LIKE、 IN、 OR
 2. 主键：<>、 NOT IN
 
 例：
@@ -496,11 +502,11 @@ mysql> DESC SELECT * FROM city WHERE id<5;
 ##### 2.2.4 ref 非唯一性索引，等值查询
 
 ```mysql
-mysql> ALTER TABLE city ADD INDEX  idx_c_p(countrycode, population); 
+mysql> ALTER TABLE city ADD INDEX  idx_c_p(countrycode, population);
 Query OK, 0 rows affected (0.19 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> DESC SELECT * FROM city WHERE countrycode='CHN'; 
+mysql> DESC SELECT * FROM city WHERE countrycode='CHN';
 +----+-------------+-------+------------+------+---------------------+-------------+---------+-------+------+----------+-------+
 | id | select_type | table | partitions | type | possible_keys       | key         | key_len | ref   | rows | filtered | Extra |
 +----+-------------+-------+------------+------+---------------------+-------------+---------+-------+------+----------+-------+
@@ -508,8 +514,6 @@ mysql> DESC SELECT * FROM city WHERE countrycode='CHN';
 +----+-------------+-------+------------+------+---------------------+-------------+---------+-------+------+----------+-------+
 1 row in set, 1 warning (0.00 sec)
 ```
-
-
 
 ##### 2.2.5 eq_ref 在多表连接时，连接条件使用了唯一索引
 
@@ -527,8 +531,6 @@ mysql> DESC SELECT city.name, country.name, country.SurfaceArea
 2 rows in set, 1 warning (0.00 sec)
 ```
 
-
-
 ##### 2.2.6 system,const 唯一索引的等值查询
 
 ```mysql
@@ -540,8 +542,6 @@ mysql> DESC SELECT * FROM city WHERE id=5;
 +----+-------------+-------+------------+-------+---------------+---------+---------+-------+------+----------+-------+
 1 row in set, 1 warning (0.01 sec)
 ```
-
-
 
 #### 2.3 possible_keys 可能会用到的索引
 
@@ -583,3 +583,39 @@ mysql> DESC SELECT * FROM city WHERE countrycode='CHN' ORDER BY population;
 观察需要排序（ORDER BY，GROUP BY，DISTINCT）的条件有没有索引
 
 根据子句的指向顺序去创建联合索引
+
+## 九、存储引擎
+
+### 1. 简介
+
+相对于Linux的文件系统
+
+### 2. 功能
+
+1. 数据读写
+2. 数据安全和一致性
+3. 提高性能
+4. 热备份
+5. 自动故障恢复
+6. 高可用方面的支持
+
+### 3. 存储引擎的种类
+
+```mysql
+mysql> show engines;
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
+| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
+| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
+| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
+| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
+| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
+| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
+| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
+| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+9 rows in set (0.00 sec)
+```
+

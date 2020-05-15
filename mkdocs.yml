@@ -45,7 +45,7 @@ nav:
     - mysql: 
       - '基础知识': 'databases/MySQL/MySQL基础知识.md'
       - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
-      - 'MySQL操作': 'databases/MySQL/MySQL操作.md'
+      - '常用SQL': 'databases/MySQL/常用SQL.md'
   - 应用软件:
     - Web:
       - 'Nginx': 'software/web/nginx.md'
@@ -100,7 +100,7 @@ nav:
     - Jenkins: 
       - 'Jenkins基础': 'CI&CD/Jenkins/Jenkins基础.md'
   - Docs:
-      - '': 'resource/docs.md'
+      - '文档': 'resource/docs.md'
   - 其他:    
     - 中药:
       - '单味药': 'zhongyao/danweiyao.md'

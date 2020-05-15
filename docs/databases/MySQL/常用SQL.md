@@ -106,23 +106,23 @@ mysql> DROP DATABASE 数据库名称;
 
 ```mysql
 CREATE TABLE 表名(
-			 字段名1 数据类型[完整的约束条件] [默认值],
-			 字段名2 数据类型[完整的约束条件] [默认值],
-			 ...
-			 [表级别的约束条件]
-			 );
+            字段名1 数据类型[完整的约束条件] [默认值],
+            字段名2 数据类型[完整的约束条件] [默认值],
+            ...
+            [表级别的约束条件]
+            );
 ```
 
 实例：
 
 ```mysql
 CREATE TABLE students(
-	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '学号',
-	name VARCHAR(255) NOT NULL COMMENT '姓名',
-	age TINYINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '年龄',
-	sex ENUM('f','m','n') NOT NULL DEFAULT 'n' COMMENT '性别',
-	id_card CHAR(18) NOT NULL UNIQUE COMMENT '身份证',
-	enrollment_time TIMESTAMP NOT NULL DEFAULT NOW() COMMENT '报名时间'
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '学号',
+    name VARCHAR(255) NOT NULL COMMENT '姓名',
+    age TINYINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '年龄',
+    sex ENUM('f','m','n') NOT NULL DEFAULT 'n' COMMENT '性别',
+    id_card CHAR(18) NOT NULL UNIQUE COMMENT '身份证',
+    enrollment_time TIMESTAMP NOT NULL DEFAULT NOW() COMMENT '报名时间'
 ) ENGINE=INNODB CHARSET=utf8 COMMENT '学生表'
 ```
 
@@ -138,8 +138,6 @@ CREATE TABLE students(
 #### 2.2 修改表
 
 DDL会引起数据库锁表，可以使用在线DDL工具pt-osc(pt-online-schema-change)解决
-
-
 
 ##### 1. 添加字段
 
@@ -347,7 +345,7 @@ SELECT GROUP_CONCAT(USER,"@",HOST) FROM mysql.user;
 
 ### 1.2  单表子句 -- FROM
 
-##### 1.2.1 查询所有字段
+#### 1.2.1 查询所有字段
 
 ```mysql
 SELECT * FROM 表名;
@@ -355,13 +353,13 @@ SELECT * FROM 表名;
 
 不要对大表进行操作
 
-##### 1.2.2 查询指定字段
+#### 1.2.2 查询指定字段
 
 ```mysql
 SELECT 字段名 FROM 表名;
 ```
 
-##### 1.2.3 查询多个字段
+#### 1.2.3 查询多个字段
 
 ```mysql
 SELECT 字段名1,字段名2,...字段名n FROM 表名;
@@ -372,12 +370,12 @@ SELECT 字段名1,字段名2,...字段名n FROM 表名;
 格式：
 
 ```mysql
-SELECT 字段名1,字段名2,...字段名n 
+SELECT 字段名1,字段名2,...字段名n
 FROM 表名
 WHERE 查询条件;
 ```
 
-##### 1.3.1 WHERE配合等值查询（=）
+#### 1.3.1 WHERE配合等值查询（=）
 
 ```mysql
 # 查询中国的城市
@@ -434,8 +432,8 @@ SELECT * FROM city WHERE Population BETWEEN 1000000 AND 2000000;
 例1：统计city表中每个国家的总人口数
 
 ```mysql
-SELECT CountryCode, SUM(Population) 
-FROM city 
+SELECT CountryCode, SUM(Population)
+FROM city
 GROUP BY CountryCode;
 ```
 
@@ -564,8 +562,8 @@ WHERE city.Population<100;
 
 ```mysql
 SELECT
-city.name AS 城市, 
-country.name AS 国家, 
+city.name AS 城市,
+country.name AS 国家,
 country.SurfaceArea  AS 面积,
 city.Population AS 城市人口
 FROM city JOIN country
@@ -577,8 +575,8 @@ WHERE  .name='shenyang';
 
 ```mysql
 SELECT
-a.name AS 城市, 
-b.name AS 国家, 
+a.name AS 城市,
+b.name AS 国家,
 b.SurfaceArea  AS 面积,
 a.Population AS 城市人口
 FROM city AS a JOIN country AS b
@@ -611,5 +609,3 @@ SHOW MASTER STATUS;
 SHOW SLAVE STATUS\G;
 SHOW GRANTS FOR root@'localhost';
 ```
-
-

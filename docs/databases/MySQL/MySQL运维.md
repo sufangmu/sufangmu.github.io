@@ -1,4 +1,4 @@
-# MySQL基础运维
+# MySQL运维
 
 ## 一、安装
 
@@ -253,20 +253,20 @@ Query OK, 0 rows affected (0.00 sec)
 
 ## 三、MySQL连接
 
-#### 1. socket连接
+### 1. socket连接
 
 ```bash
 # 默认使用socket连接 -S /tmp/mysql.sock可以不加
 root@gp:/app/mysql/support-files# mysql -uroot -p -S /tmp/mysql.sock
 ```
 
-#### 2. TCP/IP连接
+### 2. TCP/IP连接
 
 ```bash
 root@gp:~# mysql -h 10.0.0.131 -P 3306 -uroot -p
 ```
 
-#### 3. 免交互执行SQL语句
+### 3. 免交互执行SQL语句
 
 ```bash
 root@gp:~# mysql -u root -proot -e "show databases;"
@@ -274,13 +274,13 @@ root@gp:~# mysql -u root -proot -e "show databases;"
 
 ## 四、初始化配置
 
-#### 1.初始化配置的方法：
+### 1.初始化配置的方法
 
 1. 预编译
 2. **配置文件**
 3. 命令行（仅限于mysqld和mysqld_safe）
 
-#### 2. 初始化配置文件
+### 2. 初始化配置文件
 
 配置文件读取顺序
 
@@ -305,4 +305,3 @@ root@gp:~# mysqld --help --verbose | grep my.cnf
 参考：
 
 老男孩MySQL视频学习笔记（ https://www.bilibili.com/video/BV1qJ411R7CW?p=5 ）
-
