@@ -43,9 +43,9 @@ nav:
   - 数据库:
     - '数据库基础': 'databases/数据库基础.md'
     - mysql: 
-      - '基础知识': 'databases/MySQL/MySQL基础知识.md'
+      - 'MySQL基础': 'databases/MySQL/MySQL基础.md'
+      - 'MySQL高级': 'databases/MySQL/MySQL高级.md'
       - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
-      - '常用SQL': 'databases/MySQL/常用SQL.md'
   - 应用软件:
     - Web:
       - 'Nginx': 'software/web/nginx.md'
