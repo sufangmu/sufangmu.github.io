@@ -100,5 +100,4 @@ nav:
   - Docs:
       - '文档': 'resource/docs.md'
   - 其他:    
-    - other:
-      - '中药': 'zhongyao/zhongyao.md'
+      - '中药': 'other/zhongyao.md'
