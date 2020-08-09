@@ -100,6 +100,5 @@ nav:
   - Docs:
       - '文档': 'resource/docs.md'
   - 其他:    
-    - 中药:
-      - '单味药': 'zhongyao/danweiyao.md'
-      - '中成药': 'zhongyao/zhongchengyao.md'
+    - other:
+      - '中药': 'zhongyao/zhongyao.md'
