@@ -44,13 +44,17 @@ nav:
     - '数据库基础': 'databases/数据库基础.md'
     - mysql: 
       - 'MySQL基础': 'databases/MySQL/MySQL基础.md'
-      - 'MySQL高级': 'databases/MySQL/MySQL高级.md'
+      - 'MySQL进阶': 'databases/MySQL/MySQL进阶.md'
       - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
-  - 应用软件:
-    - Web:
-      - 'Nginx': 'software/web/nginx.md'
-      - 'Tomcat': 'software/web/tomcat.md'
-    - 中间件:
+  - WEB:
+      - 'HTTP协议': 'web/HTTP.md'      
+      - 'HTML': 'web/html.md'
+      - 'CSS': 'web/CSS.md'
+      - 'JavaScript': 'web/JavaScript.md'
+      - 'jQuery': 'web/jQuery.md'   
+      - 'Nginx': 'web/Nginx.md'
+      - 'Tomcat': 'web/Tomcat.md'
+  - 中间件:
       - 'RabbitMQ': 'software/middleware/rabbitmq.md'
   - 编程语言:
     - Shell: 
@@ -71,33 +75,21 @@ nav:
         - '并行编程': 'language/python/进阶/02-并行编程.md'
         - '网络编程': 'language/python/进阶/03-网络编程.md'
         - '数据库编程': 'language/python/进阶/04-数据库编程.md'
-      - WEB:
-        - Web基础:
-          - 'HTML': 'language/python/web/html.md'
-          - 'CSS': 'language/python/web/css.md'
-          - 'JS': 'language/python/web/JavaScript.md'
-          - 'jQuery': 'language/python/web/jQuery.md'
-        - HTTP:    
-          - 'HTTP协议': 'language/python/web/HTTP协议.md'
-        - 模板语言:    
-          - 'Jinja2': 'language/python/web/Jinja2.md'   
-        - Web框架:    
-          - 'web框架': 'language/python/web/web框架.md'
-          - 'Django': 'language/python/web/Django.md'
-          - 'Flask': 'language/python/web/Flask.md'
-  - 云与容器:
+        - web编程:    
+          - 'Jinja2': 'language/python/进阶/web/Jinja2.md'   
+          - 'Django': 'language/python/进阶/web/Django.md'
+          - 'Flask': 'language/python/进阶/web/Flask.md'
+  - 虚拟化:
     - Docker:
-      - 'Docker基础': 'cloud&container/Docker/Docker基础.md'
+      - 'Docker基础': 'Virtualization/Docker/Docker基础.md'
     - Kubernetes:
-      - 'Kubernetes基础':   'cloud&container/Kubernetes/k8s基础.md'
+      - 'Kubernetes基础':   'Virtualization/Kubernetes/k8s基础.md'
   - CI&CD:
     - 版本控制:
-      - 'Git': 'CI&CD/Git/Git.md' 
+      - 'Git': 'CICD/Git/Git.md' 
     - Ansible: 
-      - 'Ansible基础': 'CI&CD/Ansible/ansible.md'
+      - 'Ansible基础': 'CICD/Ansible/ansible.md'
     - Jenkins: 
-      - 'Jenkins基础': 'CI&CD/Jenkins/Jenkins基础.md'
+      - 'Jenkins基础': 'CICD/Jenkins/Jenkins基础.md'
   - Docs:
       - '文档': 'resource/docs.md'
-  - 其他:    
-      - '中药': 'other/zhongyao.md'
