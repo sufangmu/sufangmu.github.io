@@ -36,12 +36,11 @@ nav:
   - '主页': 'index.md'
   - Linux:
     - '常用命令': 'linux/linux_commands.md'
-    - '文本处理三剑客': 'linux/文本处理三剑客.md'
-    - '常用服务': 'linux/service.md'
-    - 'IPtables': 'linux/iptables.md'
-    - 'VIM': 'linux/vim.md'
+    - '文本处理三剑客': 'linux/grep_sed_awk.md'
+    - '服务': 'linux/service.md'
+    - '网络': 'linux/network/iptables.md'
+    - '编辑器': 'linux/vim.md'
   - 数据库:
-    - '数据库基础': 'databases/数据库基础.md'
     - mysql: 
       - 'MySQL基础': 'databases/MySQL/MySQL基础.md'
       - 'MySQL进阶': 'databases/MySQL/MySQL进阶.md'
@@ -58,7 +57,9 @@ nav:
       - 'RabbitMQ': 'software/middleware/rabbitmq.md'
   - 编程语言:
     - Shell: 
-      - 'Shell': 'language/shell/shell.md'
+      - 'Shell基础': 'language/shell/shell基础.md'
+      - 'Shell进阶': 'language/shell/shell进阶.md'
+      - 'Shell进阶': 'language/shell/shell规范.md'
     - Python:
       - 基础:
         - 'python简介': 'language/python/基础/01-python简介.md'
