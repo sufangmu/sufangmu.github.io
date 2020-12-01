@@ -79,6 +79,10 @@ root@gp:/data/mysql/mysql# ls time_zone.* -l
 -rw-r----- 1 mysql mysql 98304 Apr 18 22:15 time_zone.ibd # 存数据和索引
 ```
 
+
+
+
+
 ## 四、数据类型
 
 ### 1. 整数类型
@@ -239,15 +243,30 @@ SELECT table_schema, table_name, TABLE_ROWS*AVG_ROW_LENGTH+INDEX_LENGTH
 FROM information_schema.TABLES;
 ```
 
-# 常用SQL
+## 第二部分 SQL
+
+对数据库进行查询和修改操作的语言叫SQL(Structured Quary Language, 结构化查询语言)。
+
+SQL主要有三个标准
+
+1. ANSI SQL
+2. SQL-92
+3. SQl-99
+
+SQL主要包含以下4个部分：
+
+1. 数据定义语言（DDL）：DROP、CREATE、ALTER等
+2. 数据操作语言（DML）：INSERT、UPDATE、DELETE
+3. 数据查询语言（DQL）：SELECT
+4. 数据控制语言（DCL）：GRANT、REOVKE、COMMIT、ROLLBACK等
 
 mysql官方提供的实例数据库 https://dev.mysql.com/doc/index-other.html 
 
 https://downloads.mysql.com/docs/world.sql.zip
 
-## 一、DDL
+### 一、DDL
 
-### 1.库
+### 1. 库
 
 #### 1.1 数据库创建
 
@@ -392,21 +411,18 @@ ALTER TABLE students ADD qq VARCHAR(20) NOT NULL UNIQUE COMMENT 'QQ号';
 
 ```mysql
 ALTER TABLE students ADD wechat VARCHAR(20) NOT NULL UNIQUE COMMENT '微信号' AFTER name;
-
 ```
 
 1.2.3 在第一列前添加字段
 
 ```mysql
 ALTER TABLE students ADD num INT NOT NULL  COMMENT '数字' FIRST;
-
 ```
 
 ##### 2. 删除字段
 
 ```mysql
 ALTER TABLE students DROP num;
-
 ```
 
 ##### 3. 修改字段属性
@@ -415,7 +431,6 @@ ALTER TABLE students DROP num;
 
 ```mysql
 ALTER TABLE students MODIFY name VARCHAR(128) NOT NULL;
-
 ```
 
 ##### 4. 修改字段名称
@@ -474,75 +489,66 @@ Create Table: CREATE TABLE `students` (
 
 ERROR:
 No query specified
-
-
 ```
 
-## 二、DML
+### 二、DML
 
 对表的增删改查
 
-### 1. 插入
+#### 1. 插入
 
-#### 1.1 为表的所有字段插入数据
+##### 1.1 为表的所有字段插入数据
 
 ```mysql
 INSERT INTO 表名 VALUES (值1,值2,...值n);
-
 ```
 
-#### 1.2 为表的指定字段插入数据
+##### 1.2 为表的指定字段插入数据
 
 ```mysql
 # 要保证每个插入的值得类型和对应类的数据类型匹配
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n);
-
 ```
 
-#### 1.3 同时插入多条记录
+##### 1.3 同时插入多条记录
 
 ```mysql
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n),(值1,值2,...值n);
-
 ```
 
-### 2. 更新
+#### 2. 更新
 
 ```mysql
 UPDATE students SET name='zhangsan' WHERE id=3;
-
 ```
 
 必须要加where条件
 
-### 3. 删除
+#### 3. 删除
 
-#### 3.1 按条件删除
+##### 3.1 按条件删除
 
 ```mysql
 DELETE FROM students WHERE age=0;
-
 ```
 
 只是逻辑删除，不会回收物理空间
 
-#### 3.2 全表删除
+##### 3.2 全表删除
 
 ```mysql
 DELETE FROM students;
-
 ```
 
 DML操作，逻辑性删除，逐行删除，速度慢
 
 ```mysql
 TRUNCATE TABLE students;
-
 ```
 
 DDL操作，表段保留，数据页被清空，速度快
 
-#### 3.3 伪删除
+##### 3.3 伪删除
 
 添加一个状态字段，用来标识是否删除
 
@@ -553,26 +559,24 @@ ALTER TABLE students ADD state TINYINT NOT NULL DEFAULT 1;
 UPDATE students SET state=0 WHERE id=6;
 # 业务查询
 SELECT * FROM students WHERE state=1;
-
 ```
 
-## 三、DQL
+### 三、DQL
 
-### 1. 单表查询
+#### 1. 单表查询
 
-#### 1.1 SELECT单独使用
+##### 1.1 `SELECT`单独使用
 
-##### 1.1.1 查看系统参数
+###### 1.1.1 查看系统参数
 
 ```mysql
  SELECT @@port;
  SELECT @@basedir;
  SELECT @@datadir;
  SELECT @@socket;
-
 ```
 
-##### 1.1.2 使用内置函数
+###### 1.1.2 使用内置函数
 
 ```mysql
 SELECT USER();
@@ -598,36 +602,31 @@ SELECT GROUP_CONCAT(USER,"@",HOST) FROM mysql.user;
 | root@10.0.0.%,wordpress@10.0.0.%,root@192.168.1.%,mysql.session@localhost,mysql.sys@localhost,root@localhost |
 +--------------------------------------------------------------------------------------------------------------+
 1 row in set (0.00 sec)
-
-
 ```
 
-### 1.2  单表子句 -- FROM
+##### 1.2  单表子句 -- `FROM`
 
-#### 1.2.1 查询所有字段
+###### 1.2.1 查询所有字段
 
 ```mysql
 SELECT * FROM 表名;
-
 ```
 
 不要对大表进行操作
 
-#### 1.2.2 查询指定字段
+###### 1.2.2 查询指定字段
 
 ```mysql
 SELECT 字段名 FROM 表名;
-
 ```
 
-#### 1.2.3 查询多个字段
+###### 1.2.3 查询多个字段
 
 ```mysql
 SELECT 字段名1,字段名2,...字段名n FROM 表名;
-
 ```
 
-### 1.3 单表子句 -- WHERE
+##### 1.3 单表子句 -- `WHERE`
 
 格式：
 
@@ -635,68 +634,61 @@ SELECT 字段名1,字段名2,...字段名n FROM 表名;
 SELECT 字段名1,字段名2,...字段名n
 FROM 表名
 WHERE 查询条件;
-
 ```
 
-#### 1.3.1 WHERE配合等值查询（=）
+###### 1.3.1 WHERE配合等值查询（=）
 
 ```mysql
 # 查询中国的城市
 SELECT * FROM city WHERE CountryCode='CHN';
 # 查询湖北的城市
 SELECT * FROM city WHERE District='HuBei';
-
 ```
 
-##### 1.3.2 WHERE配合比较操作符（<> 、!=、 <、 <=、 >、 >=）
+###### 1.3.2 WHERE配合比较操作符（<> 、!=、 <、 <=、 >、 >=）
 
 ```mysql
 # 查询人口小于100的城市
 SELECT * FROM city WHERE Population < 100;
-
 ```
 
-##### 1.3.3 WHERE配合逻辑运算符（AND、OR）
+###### 1.3.3 WHERE配合逻辑运算符（AND、OR）
 
 ```mysql
 # 查询中国人口大于500万的城市
 SELECT * FROM city WHERE CountryCode='CHN' AND Population > 5000000;
 # 查询中国和美国的城市信息
 SELECT * FROM city WHERE CountryCode='CHN' OR CountryCode='USA';
-
 ```
 
-##### 1.3.4 WHERE配合模糊查询（LIKE）
+###### 1.3.4 WHERE配合模糊查询（LIKE）
 
 ```mysql
 # 名字以guang开头的省
 SELECT * FROM city WHERE District LIKE 'guang%'
-
 ```
 
 `%`不能放在前面，因为不走索引
 
-##### 1.3.5 WHERE配置`IN`语句
+###### 1.3.5 WHERE配合`IN`语句
 
 ```mysql
 # 查询中国和美国的城市信息,与OR类似
 SELECT * FROM city WHERE CountryCode IN ('CHN','USA');
-
 ```
 
-##### 1.3.6 WHERE配合`BETREEN AND`
+###### 1.3.6 WHERE配合`BETREEN AND`
 
 ```mysql
 # 查询人口大于100万小于200万城市信息
 SELECT * FROM city WHERE Population BETWEEN 1000000 AND 2000000;
-
 ```
 
-### 2. 分组查询
+#### 2. 分组查询
 
 分组查询是对数据安装某个或多个字段进行分组，字段中值相等的为一组。mysql中实用GROUP BY 关键字对数据进行分组，通常和集合函数(MAX(),MIN(),COUTN(),SUM(),AVG)一起使用。
 
-#### 2.1 单表子句-GROUP BY
+##### 2.1 单表子句-`GROUP BY`
 
 例1：统计city表中每个国家的总人口数
 
@@ -704,7 +696,6 @@ SELECT * FROM city WHERE Population BETWEEN 1000000 AND 2000000;
 SELECT CountryCode, SUM(Population)
 FROM city
 GROUP BY CountryCode;
-
 ```
 
 例2：统计中国每个省的总人口数
@@ -714,7 +705,6 @@ SELECT District, SUM(Population)
 FROM city
 WHERE CountryCode='CHN'
 GROUP BY District;
-
 ```
 
 例3：统计世界上每个国家的城市个数
@@ -736,7 +726,7 @@ GROUP BY District;
 
 ```
 
-#### 2.2 单表子句-HAVING
+##### 2.2 单表子句-`HAVING`
 
 后过滤，用在GROUP BY之后，HAVING条件是不走索引的，一般可以用临时表解决。
 
@@ -751,7 +741,7 @@ HAVING SUM(Population)<1000000;
 
 ```
 
-#### 2.3 单表子句-ORDER BY
+##### 2.3 单表子句-`ORDER BY`
 
 用来排序，用在HAVING之后
 
@@ -775,7 +765,7 @@ HAVING SUM(Population)<1000000;
 
 ```
 
-#### 2.4 单表子句-LIMIT
+##### 2.4 单表子句-`LIMIT`
 
 例1：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。显示前3名
 
@@ -801,14 +791,14 @@ LIMIT 5,5; # 跳过5行，显示5行
 
 ```
 
-#### 2.5 去重-DISTINCT
+##### 2.5 去重-`DISTINCT`
 
 ```mysql
 SELECT DISTINCT(countrycode) FROM city;
 
 ```
 
-#### 2.6 联合查询-UNION [ALL]
+##### 2.6 联合查询-`UNION [ALL]`
 
 把两个结果集合并
 
@@ -825,7 +815,7 @@ UNION :去重复
 
 UNION ALL：不去重
 
-### 3. 连接查询
+#### 3. 连接查询
 
 例1：查找世界上人口数量小于100人的城市所在国家名和国土面积
 
@@ -837,9 +827,9 @@ WHERE city.Population<100;
 
 ```
 
-### 4. 别名
+#### 4. 别名
 
-#### 4.1 字段别名
+##### 4.1 字段别名
 
 ```mysql
 SELECT
@@ -853,7 +843,7 @@ WHERE  .name='shenyang';
 
 ```
 
-#### 4.2 表别名
+##### 4.2 表别名
 
 ```mysql
 SELECT
@@ -867,7 +857,7 @@ WHERE a.name='shenyang';
 
 ```
 
-## 四 SHOW语句
+### 四 SHOW语句
 
 常用SHOW命令
 
