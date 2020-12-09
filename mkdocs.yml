@@ -42,10 +42,16 @@ nav:
     - '编辑器': 'linux/vim.md'
   - 数据库:
     - mysql: 
-      - 'MySQL基础': 'databases/MySQL/MySQL基础.md'
-      - 'MySQL进阶': 'databases/MySQL/MySQL进阶.md'
-      - 'MySQL运维': 'databases/MySQL/MySQL运维.md'
-  - WEB:
+      - '基础': 'databases/MySQL/基础.md'
+      - 'SQL': 'databases/MySQL/SQL.md'
+      - '存储过程和函数': 'databases/MySQL/存储过程和函数.md'
+      - '索引': 'databases/MySQL/索引.md'
+      - '执行计划': 'databases/MySQL/执行计划.md'
+      - '日志': 'databases/MySQL/日志.md'
+      - '优化': 'databases/MySQL/优化.md'
+      - '运维': 'databases/MySQL/运维.md'
+
+  - 前端:
       - 'HTTP协议': 'web/HTTP.md'      
       - 'HTML': 'web/html.md'
       - 'CSS': 'web/CSS.md'
@@ -68,12 +74,12 @@ nav:
         - '函数': 'language/python/基础/04-函数.md'
         - '面向对象': 'language/python/基础/05-面向对象.md'
         - '包和模块': 'language/python/基础/06-包和模块.md'
-        - '生成器与迭代器': 'language/python/基础/07-生成器与迭代器.md'
+        - '迭代和推导': 'language/python/基础/07-迭代和推导.md'
         - '文件处理': 'language/python/基础/08-文件处理.md'
         - '异常处理': 'language/python/基础/09-异常与测试.md'
       - 进阶:
         - '内置模块': 'language/python/进阶/01-内置模块.md'
-        - '并行编程': 'language/python/进阶/02-并行编程.md'
+        - '并行编程': 'language/python/进阶/02-并发编程.md'
         - '网络编程': 'language/python/进阶/03-网络编程.md'
         - '数据库编程': 'language/python/进阶/04-数据库编程.md'
         - web编程:    
