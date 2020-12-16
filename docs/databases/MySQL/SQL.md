@@ -24,9 +24,9 @@
 2. 每句话用`;`或`\g`结尾
 3. 每条命令根据需要，各子句一般分行写，关键字不能缩写也不能分行
 4. 注释
-   - 单行注释：`# 注释文字`
-   - 单行注释：`-- 注释文字（要有空格）`
-   - 多行注释：`/* 注释文字 */`
+	1. 单行注释：`# 注释文字`	
+	2. 单行注释：`-- 注释文字（要有空格）`
+	3. 多行注释：`/* 注释文字 */`
 
 ### 4. SQL语句的执行过程
 
@@ -59,7 +59,7 @@
 #### 1.1 数据库创建
 
 ```mysql
-mysql> CREATE DATABASE 数据库名称;
+mysql> CREATE DATABASE IF NOT EXISTS 数据库名称;
 # 或
 mysql> CREATE SCHEMA 数据库名称;
 # 创建数据时同时指定字符集
@@ -71,53 +71,7 @@ mysql> CREATE DATABASE test CHARSET utf8mb4 COLLATE utf8mb4_bin;
 查看支持的字符集
 
 ```mysql
-mysql> SHOW CHARSET;
-+----------+---------------------------------+---------------------+--------+
-| Charset  | Description                     | Default collation   | Maxlen |
-+----------+---------------------------------+---------------------+--------+
-| big5     | Big5 Traditional Chinese        | big5_chinese_ci     |      2 |
-| dec8     | DEC West European               | dec8_swedish_ci     |      1 |
-| cp850    | DOS West European               | cp850_general_ci    |      1 |
-| hp8      | HP West European                | hp8_english_ci      |      1 |
-| koi8r    | KOI8-R Relcom Russian           | koi8r_general_ci    |      1 |
-| latin1   | cp1252 West European            | latin1_swedish_ci   |      1 |
-| latin2   | ISO 8859-2 Central European     | latin2_general_ci   |      1 |
-| swe7     | 7bit Swedish                    | swe7_swedish_ci     |      1 |
-| ascii    | US ASCII                        | ascii_general_ci    |      1 |
-| ujis     | EUC-JP Japanese                 | ujis_japanese_ci    |      3 |
-| sjis     | Shift-JIS Japanese              | sjis_japanese_ci    |      2 |
-| hebrew   | ISO 8859-8 Hebrew               | hebrew_general_ci   |      1 |
-| tis620   | TIS620 Thai                     | tis620_thai_ci      |      1 |
-| euckr    | EUC-KR Korean                   | euckr_korean_ci     |      2 |
-| koi8u    | KOI8-U Ukrainian                | koi8u_general_ci    |      1 |
-| gb2312   | GB2312 Simplified Chinese       | gb2312_chinese_ci   |      2 |
-| greek    | ISO 8859-7 Greek                | greek_general_ci    |      1 |
-| cp1250   | Windows Central European        | cp1250_general_ci   |      1 |
-| gbk      | GBK Simplified Chinese          | gbk_chinese_ci      |      2 |
-| latin5   | ISO 8859-9 Turkish              | latin5_turkish_ci   |      1 |
-| armscii8 | ARMSCII-8 Armenian              | armscii8_general_ci |      1 |
-| utf8     | UTF-8 Unicode                   | utf8_general_ci     |      3 |
-| ucs2     | UCS-2 Unicode                   | ucs2_general_ci     |      2 |
-| cp866    | DOS Russian                     | cp866_general_ci    |      1 |
-| keybcs2  | DOS Kamenicky Czech-Slovak      | keybcs2_general_ci  |      1 |
-| macce    | Mac Central European            | macce_general_ci    |      1 |
-| macroman | Mac West European               | macroman_general_ci |      1 |
-| cp852    | DOS Central European            | cp852_general_ci    |      1 |
-| latin7   | ISO 8859-13 Baltic              | latin7_general_ci   |      1 |
-| utf8mb4  | UTF-8 Unicode                   | utf8mb4_general_ci  |      4 |
-| cp1251   | Windows Cyrillic                | cp1251_general_ci   |      1 |
-| utf16    | UTF-16 Unicode                  | utf16_general_ci    |      4 |
-| utf16le  | UTF-16LE Unicode                | utf16le_general_ci  |      4 |
-| cp1256   | Windows Arabic                  | cp1256_general_ci   |      1 |
-| cp1257   | Windows Baltic                  | cp1257_general_ci   |      1 |
-| utf32    | UTF-32 Unicode                  | utf32_general_ci    |      4 |
-| binary   | Binary pseudo charset           | binary              |      1 |
-| geostd8  | GEOSTD8 Georgian                | geostd8_general_ci  |      1 |
-| cp932    | SJIS for Windows Japanese       | cp932_japanese_ci   |      2 |
-| eucjpms  | UJIS for Windows Japanese       | eucjpms_japanese_ci |      3 |
-| gb18030  | China National Standard GB18030 | gb18030_chinese_ci  |      4 |
-+----------+---------------------------------+---------------------+--------+
-41 rows in set (0.00 sec)
+SHOW CHARSET;
 ```
 
 collation末尾带ci的字符集都是大小写不敏感的。使用`SHOW COLLATION;`可以查询大小写名的字符集。
@@ -130,14 +84,8 @@ collation末尾带ci的字符集都是大小写不敏感的。使用`SHOW COLLAT
 
 #### 1.2 数据库修改
 
-1 查看数据库创建语句
-
 ```mysql
-mysql> SHOW CREATE DATABASE 数据库名称;
-```
-
-```mysql
-mysql> ALTER DATABASE 数据库名称 CHARSET utf8;
+ALTER DATABASE 数据库名称 CHARSET utf8;
 ```
 
 修改前的字符集应该是修改后字符前的子集
@@ -145,7 +93,7 @@ mysql> ALTER DATABASE 数据库名称 CHARSET utf8;
 #### 1.3 数据库删除
 
 ```mysql
-mysql> DROP DATABASE 数据库名称;
+DROP DATABASE IF EXISTS 数据库名称;
 ```
 
 ### 2. 表
@@ -171,7 +119,7 @@ CREATE TABLE students(
     sex ENUM('f','m','n') NOT NULL DEFAULT 'n' COMMENT '性别',
     id_card CHAR(18) NOT NULL UNIQUE COMMENT '身份证',
     enrollment_time TIMESTAMP NOT NULL DEFAULT NOW() COMMENT '报名时间'
-) ENGINE=INNODB CHARSET=utf8 COMMENT '学生表'
+) ENGINE=INNODB CHARSET=utf8 COMMENT '学生表';
 ```
 
 建表规范：
@@ -227,14 +175,12 @@ ALTER TABLE students MODIFY name VARCHAR(128) NOT NULL;
 
 ```mysql
 ALTER TABLE students CHANGE qq email VARCHAR(125);
-
 ```
 
 #### 2.3 删除表
 
 ```mysql
 DROP TABLE 表名;
-
 ```
 
 #### 2.4 查看表
@@ -279,62 +225,157 @@ ERROR:
 No query specified
 ```
 
+#### 2.5 复制表
+
+##### 2.5.1 仅复制表结构
+
+```mysql
+CREATE TABLE stu1 LIKE students;
+```
+
+##### 2.5.2 复制表结构和全部数据
+
+```mysql
+CREATE TABLE stu2 SELECT * FROM students;
+```
+
+##### 2.5.2 复制表结构和部分数据
+
+```mysql
+CREATE TABLE stu3 SELECT * FROM students WHERE id > 5;
+```
+
 ## 二、DML
 
-对表的增删改查
+对表的增删改
 
 ### 1. 插入
 
-#### 1.1 为表的所有字段插入数据
+#### 1.1方式一
+
+##### 1.1.1 为表的所有字段插入数据
 
 ```mysql
 INSERT INTO 表名 VALUES (值1,值2,...值n);
 ```
 
-#### 1.2 为表的指定字段插入数据
+##### 1.1.2 为表的指定字段插入数据
 
 ```mysql
 # 要保证每个插入的值得类型和对应类的数据类型匹配
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n);
 ```
 
-#### 1.3 同时插入多条记录
+##### 1.1.3 同时插入多条记录
 
 ```mysql
 INSERT INTO 表名(字段1,字段2,...字段n) VALUES (值1,值2,...值n),(值1,值2,...值n);
 ```
 
-### 2. 更新
+#### 1.2 方式二
+
+##### 1.2.1  为表的指定字段插入数据
 
 ```mysql
-UPDATE students SET name='zhangsan' WHERE id=3;
+INSERT INTO 表名 SET 字段1 = 值1,
+字段2 = 值2,
+字段3 = 值3;
 ```
 
-必须要加where条件
+两种方式的区别：
+
+1.  方式1支持插入多行，但是方式2不支持 
+2.  方式1支持子查询，方式2不支持 
+
+### 2. 修改
+
+#### 2.1 修改单表的记录
+
+```mysql
+UPDATE 表名
+SET 列=新值，列=新值…
+WHERE 筛选条件；
+```
+
+#### 2.2 修改多表的记录
+
+sql92语法
+
+```mysql
+UPDATE 表1 别名，表2 别名
+SET 列=值…
+WHERE 筛选条件
+AND 筛选条件；
+```
+
+ sql99语法： 
+
+```mysql
+UPDATE 表1 别名
+[INNER|LEFT|RIGHT] JOIN 表2 别名
+ON 连接条件
+SET 列=值，…
+WHERE 筛选条件；
+```
 
 ### 3. 删除
 
-#### 3.1 按条件删除
+#### 3.1 `DELETE`
+
+##### 3.1.1 单表删除
 
 ```mysql
-DELETE FROM students WHERE age=0;
+DELETE FROM 表名 WHERE 筛选条件;
 ```
 
-只是逻辑删除，不会回收物理空间
+##### 3.1.2 多表删除
 
-#### 3.2 全表删除
+sql92语法
+
+```mysql
+DELETE 别名（要删哪个表就写哪个表的别名，都删就都写）
+FROM 表1 别名，表2 别名
+WHERE 连接条件
+AND 筛选条件
+LIMIT 条目数；
+```
+
+ sql99语法
+
+```mysql
+DELETE 别名（要删哪个表就写哪个表的别名，都删就都写）
+FROM 表1 别名
+[INNER|LEFT|RIGHT] JOIN 表2 别名 
+ON 连接条件
+WHERE 筛选条件
+LIMIT 条目数；
+```
+
+##### 3.1.2 全表删除
+
+语法：
 
 ```mysql
 DELETE FROM students;
+# DML操作，逻辑性删除，逐行删除，速度慢
 ```
 
-DML操作，逻辑性删除，逐行删除，速度慢
+#### 3.2 `TRUNCATE`
+
+语法：
 
 ```mysql
 TRUNCATE TABLE students;
+# DDL操作，表段保留，数据页被清空，速度快
 ```
 
-DDL操作，表段保留，数据页被清空，速度快
+`DELETE`和`TRUNCATE`的区别：
+
+1. delete可以加where条件，truncate不可以
+2. truncate删除效率高一些
+3. 假如要删除的表中有自增长列，如果用delete删除后，再插入数据，自增长列的值从断点开始，而truncate删除后，再插入数据，自增长列的值从1开始。
+4. truncate删除没有返回值，delete删除有返回值
+5. truncate删除不能回滚，delete删除可以回滚
 
 #### 3.3 伪删除
 
@@ -532,12 +573,13 @@ ORDER BY Population DESC;
 **语法**
 
 ```mysql
-select 分组函数，列（要求出现在group by的后面）
-from 表
-[where 筛选条件]
-group by 分组的列表
-[having 分组后的筛选]
-[order by 子句]
+SELECT子句 分组函数，列（要求出现在group by的后面）
+FROM 表
+[WHERE 筛选条件]
+GROUP BY 分组列表
+[HAVING 分组后的筛选]
+[ORDER BY 排序列表]
+# 执行顺序：FROM->WHERE->GROUP BY子句->HAVING子句->SELECT子句->ORDER BY子句
 ```
 
  注意：查询列表比较特殊，要求是分组函数和group by后出现的字段 
@@ -546,149 +588,180 @@ group by 分组的列表
 
 1. 分组查询中的筛选条件分为两类：
 
- 数据源 位置 关键字
+	- 分组前筛选 基于原始表筛选，在`group by`子句的前面，使用关键词`where`
 
-分组前筛选 原始表 group by子句的前面 where
+	- 分组后筛选 基于分组后的结果集筛选，在`group by`子句的后面 使用关键词`having`
 
-分组后筛选 分组后的结果集 group by子句的后面 having
+2. 分组函数做条件肯定是放在having子句中
 
-- 分组函数做条件肯定是放在having子句中
-- 能用分组前筛选的，就优先考虑使用分组前筛选
-- group by子句支持单个字段分组，多个字段分组（多个字段之间用逗号隔开没有顺序要求），表达式或函数（用得较少）
-- 也可以添加排序（排序放在整个分组查询最后位置）
+3. 能用分组前筛选的，就优先考虑使用分组前筛选
 
+4. group by子句支持单个字段分组，多个字段分组（多个字段之间用逗号隔开没有顺序要求），表达式或函数（用得较少）
 
+5. 也可以添加排序（排序放在整个分组查询最后位置）
 
+#### 4.1 简单分组
 
-
-#### 2.1 单表子句-`GROUP BY`
-
-**语法**
+例  查询每个工种的最高工资
 
 ```mysql
-
+SELECT 
+  MAX(salary),
+  job_id 
+FROM
+  employees 
+GROUP BY job_id ;
 ```
 
-1. 
+#### 4.2 分组前筛选
 
-
-例1：统计city表中每个国家的总人口数
+例 查询每个领导手下有奖金的员工的平均工资
 
 ```mysql
-SELECT CountryCode, SUM(Population)
-FROM city
-GROUP BY CountryCode;
+SELECT AVG(salary) 平均工资,manager_id
+FROM employees
+WHERE commission_pct IS NOT NULL
+GROUP BY manager_id;
 ```
 
-例2：统计中国每个省的总人口数
+查询结果
 
 ```mysql
-SELECT District, SUM(Population)
-FROM city
-WHERE CountryCode='CHN'
-GROUP BY District;
++--------------+------------+
+| 平均工资     | manager_id |
++--------------+------------+
+| 12200.000000 |        100 |
+|  8500.000000 |        145 |
+|  8500.000000 |        146 |
+|  7766.666667 |        147 |
+|  8650.000000 |        148 |
+|  8333.333333 |        149 |
++--------------+------------+
 ```
 
-例3：统计世界上每个国家的城市个数
-
-```mysql
-SELECT CountryCode, COUNT(name)
-FROM city
-GROUP BY CountryCode;
-```
-
-例4：统计中国每个省的城市名字列表
-
-```mysql
-SELECT District, GROUP_CONCAT(name)
-FROM city
-WHERE CountryCode='CHN'
-GROUP BY District;
-```
-
-#### 2.2 单表子句-`HAVING`
+#### 4.3 分组后筛选
 
 后过滤，用在GROUP BY之后，HAVING条件是不走索引的，一般可以用临时表解决。
 
-例1：统计中国每个省的总人口数，只打印总人口数小于100w的信息
+例1 查询哪个部门的员工个数>5
 
 ```mysql
-SELECT district, SUM(Population)
-FROM city
-WHERE CountryCode='CHN'
-GROUP BY District
-HAVING SUM(Population)<1000000;
-
+SELECT COUNT(*) 员工个数,department_id
+FROM employees
+GROUP BY department_id
+HAVING  COUNT(*)>5;
 ```
 
-#### 2.3 单表子句-`ORDER BY`
-
-用来排序，用在HAVING之后
-
-例1：
+查询结果
 
 ```mysql
-
-
++--------------+---------------+
+| 员工个数     | department_id |
++--------------+---------------+
+|            6 |            30 |
+|           45 |            50 |
+|           34 |            80 |
+|            6 |           100 |
++--------------+---------------+
 ```
 
-例2：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。
+例2 每个工种有奖金的员工的最高工资>12000的工种编号和最高工资
 
 ```mysql
-SELECT district, SUM(Population)
-FROM city
-WHERE CountryCode='CHN'
-GROUP BY District
-HAVING SUM(Population)<1000000;
-
+SELECT job_id,MAX(salary)
+FROM employees
+WHERE commission_pct  IS NOT NULL
+GROUP BY job_id
+HAVING MAX(salary)>12000;
 ```
 
-#### 2.4 单表子句-`LIMIT`
-
-例1：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。显示前3名
+查询结果
 
 ```mysql
-SELECT  District, SUM(Population) FROM city
-WHERE CountryCode='CHN'
-GROUP BY District
-HAVING SUM(Population) > 5000000
-ORDER BY SUM(Population) DESC
-LIMIT 3;
-
++--------+-------------+
+| job_id | MAX(salary) |
++--------+-------------+
+| SA_MAN |    14000.00 |
++--------+-------------+
 ```
 
-例2：统计中国每个省的总人口，找出大于500w的，并按总人口从大到小排序。显示6到10名
+#### 4.4  分组后排序
+
+例 查询没有奖金的员工的最高工资>6000的工种编号和最高工资,按最高工资升序
 
 ```mysql
-SELECT  District, SUM(Population) FROM city
-WHERE CountryCode='CHN'
-GROUP BY District
-HAVING SUM(Population) > 5000000
-ORDER BY SUM(Population) DESC
-LIMIT 5,5; # 跳过5行，显示5行
+# 第一步：按工种分组，查询每个工种有奖金的员工的最高工资
+SELECT MAX(salary) 最高工资,job_id
+FROM employees
+WHERE commission_pct IS  NULL
+GROUP BY job_id
+HAVING MAX(salary)>6000   # 第二步：筛选刚才的结果，看哪个最高工资>6000
+ORDER BY MAX(salary) ASC; # 第三步：按最高工资升序
 ```
 
-#### 2.5 去重-`DISTINCT`
+查询结果
 
 ```mysql
-SELECT DISTINCT(countrycode) FROM city;
++--------------+------------+
+| 最高工资     | job_id     |
++--------------+------------+
+|      6500.00 | HR_REP     |
+|      8200.00 | ST_MAN     |
+|      8300.00 | AC_ACCOUNT |
+|      9000.00 | FI_ACCOUNT |
+|      9000.00 | IT_PROG    |
+|     10000.00 | PR_REP     |
+|     11000.00 | PU_MAN     |
+|     12000.00 | FI_MGR     |
+|     12000.00 | AC_MGR     |
+|     13000.00 | MK_MAN     |
+|     17000.00 | AD_VP      |
+|     24000.00 | AD_PRES    |
++--------------+------------+
 ```
 
-#### 2.6 联合查询-`UNION [ALL]`
+#### 4.5 按多个字段分组
 
-把两个结果集合并
+例  查询每个部门每个工种的员工的平均工资 
 
 ```mysql
-SELECT * FROM city WHERE CountryCode='CHN'
-UNION ALL
-SELECT * FROM city WHERE CountryCode='USA';
+SELECT 
+  AVG(salary),
+  department_id,
+  job_id 
+FROM
+  employees 
+GROUP BY department_id, job_id ;
 ```
 
-一般情况下，将IN或OR的语句改写成UNION ALL来提高性能。
+#### 4.6  按表达式或函数分组 
 
-UNION :去重复
+例  按员工姓名的长度分组，查询每一组的员工个数，筛选员工个数>5的有哪些
 
-UNION ALL：不去重
+```mysql
+SELECT 
+  COUNT(*) 员工个数,
+  LENGTH(last_name) 姓名长度 
+FROM
+  employees 
+GROUP BY 姓名长度     # 查询每个长度的员工个数 
+HAVING 员工个数 > 5 ; # 添加筛选条件
+```
+
+查询结果
+
+```mysql
++--------------+--------------+
+| 员工个数     | 姓名长度     |
++--------------+--------------+
+|           11 |            4 |
+|           29 |            5 |
+|           28 |            6 |
+|           15 |            7 |
+|            7 |            8 |
+|            8 |            9 |
++--------------+--------------+
+```
 
 ### 3. 连接查询
 
@@ -696,22 +769,20 @@ UNION ALL：不去重
 
 **笛卡尔积现象**：当两张表进行连接查询的时候，没有任何条件进行限制，最终的查询结果条数是两张表记录条数的乘积。
 
-使用[myemployees](./example/myemployees.sql)数据库作为实例
-
 #### 3.1 分类
 
 1. 按年代分类
-   - SQL92标准： 仅支持内连接 
-   - SQL99标准：推荐使用，支持内连接、外连接（左外和右外）、交叉连接
+	- SQL92标准： 仅支持内连接 
+	- SQL99标准：推荐使用，支持内连接、外连接（左外和右外）、交叉连接
 2. 按连接方式分类
-   1. 内连接
-      1. 等值连接
-      2. 非等值连接
-      3. 自连接
-   2. 外连接
-      1. 左外连接
-      2. 右外连接
-      3. 全外连接（MySQL不支持）
+	1. 内连接
+		1. 等值连接
+		2. 非等值连接
+		3. 自连接
+	2. 外连接
+		1. 左外连接
+		2. 右外连接
+		3. 全外连接（MySQL不支持）
    3. 交叉连接
 
 #### 3.2 SQL92语法
@@ -830,7 +901,7 @@ GROUP BY job_title
 ORDER BY 个数 DESC ;
 ```
 
-1.7 三表连接
+###### 1.7 三表连接
 
 ```mysql
 # 查询员工名、部门名和所在的城市
@@ -864,23 +935,30 @@ WHERE salary BETWEEN g.lowest_sal
 
 ```mysql
 # 查询员工名和上级的名称
+SELECT e.employee_id,e.last_name,m.employee_id,m.last_name
+FROM employees e,employees m
+WHERE e.`manager_id`=m.`employee_id`;
 ```
 
 
 
 #### 3.3 SQL99语法
 
+SQL92和SQL99的区别：
+
+​        SQL99，使用JOIN关键字代替了之前的逗号，并且将连接条件和筛选条件进行了分离，提高阅读性
+
 语法：
 
 ```mysql
-select 查询列表
-from 表1 别名 [连接类型]
-join 表2 别名
-on 连接条件
-[where 筛选条件]
-[group by 分组]
-[having 筛选条件]
-[order by 排序列表]
+SELECT  查询列表
+FROM  表1 别名 [连接类型]
+JOIN 表2 别名
+ON   连接条件
+[WHERE  筛选条件]
+[GROUP BY 分组]
+[HAVING  筛选条件]
+[ORDER BY 排序列表]
 # 连接类型
 # 内连接：inner
 # 外连接
@@ -1068,15 +1146,386 @@ WHERE e.`employee_id` IS NULL ;
 
 ### 4.子查询
 
-1. 含义：出现在其他语句中的select语句，称为子查询或内查询；外部的查询语句，称为主查询或外查询 。
+当一个查询语句中又嵌套了另一个完整的select语句，则被嵌套的select语句称为子查询或内查询，外面的select语句称为主查询或外查询。
 
-2. 嵌套在其他语句内部的select语句称为子查询或内查询
+分类：
 
-3. 外面的语句可以是insert、update、delete、select等，一般select作为外面语句较多
+1. 按子查询出现的位置：
 
-4. 外面如果为select语句，则此语句称为外查询或主查询
+    - select后面：要求子查询的结果为单行单列（称为标量子查询）
+    - from后面：要求子查询的结果可以为多行多列
+    - where或having后面：要求子查询的结果必须为单列（单列又分为单行子查询和多行子查询）
+    - exists后面（相关子查询）：要求子查询结果必须为单列（相关子查询）
 
-### 4. 别名
+2. 按功能、结果集的行列数不同：
+
+    - 标量子查询（结果集只有一行一列）
+    - 列子查询（结果集只有一列多行）
+    - 行子查询（结果集有一行多列）
+    - 表子查询（结果集一般为多行多列）
+
+特点：
+
+1. 子查询放在条件中，要求必须放在条件的右侧
+2. 子查询一般放在小括号中
+3. 子查询的执行优先于主查询
+4. 单行子查询搭配单行操作符：`> < >= <= = <>`
+5. 多行子查询搭配多行操作符：`any/some  all in   `
+
+#### 4.1 where或HAVING后面
+
+##### 4.1.1 标量子查询（单行子查询）
+
+例1：谁的工资比 Abel 高
+
+```mysql
+SELECT last_name,salary
+FROM employees
+WHERE salary>(
+	SELECT salary
+	FROM employees
+	WHERE last_name  = 'Abel'
+
+);
+```
+
+例2：返回job_id与141号员工相同，salary比143员工多的员工，姓名，job_id，工资 
+
+①查询141号员工的job_id
+
+```mysql
+SELECT job_id
+FROM employees
+WHERE employee_id = 141;
+```
+
+查询结果
+
+```mysql
++----------+
+| job_id   |
++----------+
+| ST_CLERK |
++----------+
+```
+
+②查询143号员工的salary
+
+```mysql
+SELECT salary
+FROM employees
+WHERE employee_id = 143;
+```
+
+查询结果
+
+```mysql
++---------+
+| salary  |
++---------+
+| 2600.00 |
++---------+
+```
+
+③查询job_id=① and salary>②的信息
+
+```mysql
+SELECT last_name,job_id,salary
+FROM employees
+WHERE job_id = (
+	SELECT job_id
+	FROM employees
+	WHERE employee_id = 141
+) AND salary>(
+
+	SELECT salary
+	FROM employees
+	WHERE employee_id = 143
+);
+```
+
+查询结果
+
+```mysql
++-------------+----------+---------+
+| last_name   | job_id   | salary  |
++-------------+----------+---------+
+| Nayer       | ST_CLERK | 3200.00 |
+| Mikkilineni | ST_CLERK | 2700.00 |
+| Bissot      | ST_CLERK | 3300.00 |
+| Atkinson    | ST_CLERK | 2800.00 |
+| Mallin      | ST_CLERK | 3300.00 |
+| Rogers      | ST_CLERK | 2900.00 |
+| Ladwig      | ST_CLERK | 3600.00 |
+| Stiles      | ST_CLERK | 3200.00 |
+| Seo         | ST_CLERK | 2700.00 |
+| Rajs        | ST_CLERK | 3500.00 |
+| Davies      | ST_CLERK | 3100.00 |
++-------------+----------+---------+
+```
+
+例3：返回公司工资最少的员工的last_name,job_id和salary
+
+```mysql
+SELECT last_name,job_id,salary
+FROM employees
+WHERE salary=(
+	SELECT MIN(salary)
+	FROM employees
+);
+```
+
+例4：查询最低工资大于50号部门最低工资的部门id和其最低工资
+
+```mysql
+SELECT MIN(salary),department_id
+FROM employees
+GROUP BY department_id
+HAVING MIN(salary)>(
+
+	SELECT MIN(salary)
+	FROM employees
+	WHERE department_id = 50
+);
+```
+
+##### 4.1.2 列子查询（多行子查询）
+
+ 多行比较操作符： 
+
+1. `IN`/`NOT IN`：等于列表中的任意一个
+
+2. `ANY`|`SOME`：和子查询返回的某一个值比较，用的较少
+
+3. `ALL`：和子查询返回的所有值比较
+
+其中IN和NOT IN用的比较多，其他两个用的比较少，因为其可读性较差，可以用其他方式来替代。比如以下：
+
+```mysql
+# 1. any/some:判断某字段的值是否满足其中任意一个
+x>any(10,30,50) 可以用 x>min(10,30,50) 替代
+x=any(10,30,50) 可以用 x in(10,30,50) 替代
+
+# 2. all:判断某字段的值是否满足里面所有的
+x >all(10,30,50) 可以用 x >max(10,30,50) 替代
+```
+
+例1：返回location_id是1400或1700的部门中的所有员工姓名
+
+```mysql
+SELECT last_name
+FROM employees
+WHERE department_id IN(
+	SELECT DISTINCT department_id
+	FROM departments
+	WHERE location_id IN(1400,1700)
+);
+```
+
+ 例2：返回其他工种中比job_id为‘IT_PROG’工种任一工资低的员工的员工号、姓名、job_id以及salary 
+
+```mysql
+SELECT employee_id,last_name,job_id,salary
+FROM employees
+WHERE salary<ANY(
+	SELECT DISTINCT salary
+	FROM employees
+	WHERE job_id = 'IT_PROG'
+);
+# 用max代替any
+SELECT employee_id,last_name,job_id,salary
+FROM employees
+WHERE salary<(
+	SELECT MAX(salary)
+	FROM employees
+	WHERE job_id = 'IT_PROG'
+);
+```
+
+ 例3：返回其他工种中比job_id为‘IT_PROG’工种所有工资都低的员工的员工号、姓名、job_id以及salary 
+
+```mysql
+SELECT employee_id,last_name,job_id,salary
+FROM employees
+WHERE salary<ALL(
+	SELECT DISTINCT salary
+	FROM employees
+	WHERE job_id = 'IT_PROG'
+);
+# 用min代替all
+SELECT employee_id,last_name,job_id,salary
+FROM employees
+WHERE salary<(
+	SELECT MIN(salary)
+	FROM employees
+	WHERE job_id = 'IT_PROG'
+);
+```
+
+##### 4.1.3 行子查询（一行多累或多行多列）
+
+ 例1：查询员工编号最小并且工资最高的员工信息 
+
+```mysql
+SELECT 
+  * 
+FROM
+  employees 
+WHERE (employee_id, salary) = (
+    SELECT MIN(employee_id),MAX(salary) 
+    FROM employees
+) ;
+```
+
+用的情况较少
+
+#### 4.2 select后面
+
+ 例1：查询每个部门的员工个数 
+
+```mysql
+SELECT d.*,
+  (SELECT COUNT(*) 
+  FROM  employees e 
+  WHERE e.department_id = d.department_Id) 个数 
+FROM
+  departments d ;
+```
+
+#### 4.3 from后面
+
+例：查询每个部门的平均工资的工资级别
+
+```mysql
+SELECT 
+  ag_dep.*,
+  g.`grade_level` 
+FROM
+  (SELECT 
+    AVG(salary) ag,
+    department_id 
+  FROM
+    employees 
+  GROUP BY department_id) ag_dep 
+  INNER JOIN job_grades g 
+    ON ag_dep.ag BETWEEN g.`lowest_sal` 
+    AND g.`highest_sal` ;
+```
+
+ 将子查询结果充当一张表，要求必须起别名 
+
+#### 4.4 exists后面
+
+语法：` exists（完整的查询语句） `，查询有结果返回1，否则返回0
+
+ 例1：查询有员工的部门名 
+
+```mysql
+SELECT 
+  department_name 
+FROM
+  departments d 
+WHERE EXISTS 
+  (SELECT 
+    * 
+  FROM
+    employees e 
+  WHERE d.`department_id` = e.`department_id`) ;
+# 用in更简单
+SELECT 
+  department_name 
+FROM
+  departments d 
+WHERE d.`department_id` IN 
+  (SELECT 
+    department_id 
+  FROM
+    employees e) ;
+```
+
+> 可以用其他方式代替，用的较少
+
+### 5. 分页查询
+
+应用场景：当要显示的数据，一页显示不全，需要分页提交sql请求 
+
+语法：
+
+```mysql
+select 查询列表
+from 表
+[join type] join 表2
+on 连接条件
+where 筛选条件
+group by 分组字段
+having 分组后的筛选
+order by 排序的字段】
+limit [offset，] size；
+# offset：要显示条目的起始索引（不写从0开始）
+# size：要显示的条目个数
+```
+
+公式：
+
+```mysql
+select 查询列表
+from 表
+limit (page - 1)* size， size；
+# 要显示的页数page，每页的条目数size
+```
+
+ 例1：查询前5条员工信息 
+
+```mysql
+SELECT * FROM employees LIMIT 0, 5;
+或者
+SELECT * FROM employees LIMIT 5;
+```
+
+例2：查询第11条-第25条
+
+```mysql
+SELECT * FROM employees LIMIT 10, 15;
+```
+
+### 6. 联合查询
+
+`union`：将多条查询语句的结果合并成一个结果 
+
+语法：
+
+```mysql
+查询语句1
+union [ALL]
+查询语句2
+union [ALL]
+```
+
+ 应用场景：要查询的结果来自于多个表，且多个表没有直接的连接关系，但查询的信息一致 。
+
+特点：
+
+1. 要求多条查询语句的查询列数是一致的
+2. 要求多条查询语句的查询的每一列的类型和顺序最好是一致的
+3. union关键字默认去重，如果使用union all可以包含重复项
+
+ 例：查询部门编号>90或邮箱包含a的员工信息 
+
+```mysql
+SELECT 
+  * 
+FROM
+  employees 
+WHERE email LIKE "%a%" 
+UNION
+SELECT 
+  * 
+FROM
+  employees 
+WHERE department_id > 90;
+```
+
+### 7. 别名
 
 作用：
 
@@ -1084,7 +1533,7 @@ WHERE e.`employee_id` IS NULL ;
 2.  区分多个重名的字段 
 3.  如果为表起了别名，则查询 的字段就不能使用原始的表明去限定 
 
-#### 4.1 字段别名
+#### 7.1 字段别名
 
 ```mysql
 SELECT
@@ -1108,7 +1557,7 @@ WHERE  city.name='shenyang';
 1 row in set (0.01 sec)
 ```
 
-#### 4.2 表别名
+#### 7.2 表别名
 
 ```mysql
 SELECT
@@ -1135,7 +1584,7 @@ WHERE a.name='shenyang';
 >
 > 如果别名有特殊符号要加双引号
 
-### 四 SHOW语句
+## 四 SHOW语句
 
 常用SHOW命令
 
@@ -1161,29 +1610,7 @@ SHOW SLAVE STATUS\G;
 SHOW GRANTS FOR root@'localhost';
 ```
 
-### 2. 分组查询
+用到的数据库：
 
-**语法**
+[myemployees](./example/myemployees.sql)数据库
 
-```mysql
-SELECT 分组函数，列（要求出现在group by的后面）
-FROM 表
-[WHERE 筛选条件]
-GROUP BY 分组的列表
-[HAVING 分组后的筛选]
-[GROUP BY 子句]
-```
-
-**注意**： 查询列表比较特殊，要求是分组函数和group by后出现的字段 
-
-**特点**：
-
-1.  分组查询中的筛选条件分为两类： 
-    - 分组前筛选：原始表`group by`子句的前面 `where`
-
-    - 分组后筛选：分组后的结果集`group by`子句的后面`having`
-
-2.  分组函数做条件肯定是放在`having`子句中 
-3.  能用分组前筛选的，就优先考虑使用分组前筛选 
-4.  group by子句支持单个字段分组，多个字段分组（多个字段之间用逗号隔开没有顺序要求），表达式或函数（用得较少）
-5.  也可以添加排序（排序放在整个分组查询最后位置） 
