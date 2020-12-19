@@ -1,4 +1,4 @@
-# SQL
+SQL
 
 ## SQL简介
 
@@ -1498,7 +1498,6 @@ SELECT * FROM employees LIMIT 10, 15;
 查询语句1
 union [ALL]
 查询语句2
-union [ALL]
 ```
 
  应用场景：要查询的结果来自于多个表，且多个表没有直接的连接关系，但查询的信息一致 。
@@ -1584,7 +1583,358 @@ WHERE a.name='shenyang';
 >
 > 如果别名有特殊符号要加双引号
 
-## 四 SHOW语句
+## 四、TCL
+
+### 1. 事务
+
+#### 1.1 事务的含义
+
+ 一个或一组sql语句组成一个执行单元，这个执行单元要么全部执行，要么全部不执行。
+
+#### 1.2  事务的ACID属性 
+
+1. 原子性（Atomicity）：原子性是指事务是一个不可分割的工作单位，事务中的操作要么都发生，要么都不发生。
+2. 一致性（Consistency）：事务必须使数据库从一个一致性状态变换到另外一个一致性状态。
+3. 隔离性（Isolation）：事务的隔离性是指一个事务的执行不能被其他事务干扰，即一个事务内部的操作及使用的数据对并发的其他事务是隔离的，并发执行的各个事务之间不能互相干扰。
+4. 持久性（Durability）：持久性是指一个事务一旦被提交，它对数据库中数据的改变就是永久性的，接下来的其他操作和数据库故障不应该对其有任何影响。
+
+### 1.2 事务的分类
+
+1. 隐式事务：事务没有明显的开启和结束的标记。比如insert、update、delete语句
+2. 显式事务：事务具有明显的开启和结束的标记
+
+### 1.3 事务的创建
+
+##### 1.3.1  开启事务
+
+```mysql
+SET autocommit=0; # 先设置自动提交功能为禁用 
+START TRANSACTION;（可选）
+```
+
+##### 1.3.2  编写事务中的sql语句
+
+包括`select`，`insert`，`update`，`delete`（只有增删改查，不包括DDL语言）
+
+##### 1.3.3 结束事务
+
+有两种结束事务的方式
+
+1. `commit`；提交事务
+
+2. `rollback`；回滚事务
+
+### 2. 数据库的隔离级别
+
+#### 2.1 没有隔离带来的问题
+
+对于同时运行的多个事务，当这些事务访问数据库中相同的数据时，如果没有采取必要的隔离机制，就会导致各种并发问题： 
+
+1. **脏读**：对于两个事务T1，T2。T1读取了已经被T2更新但还没有被提交的字段之后，若T2回滚，T1读取的内容就是临时且无效的。主要是其他事务**更新**的数据
+2. **不可重复读**：对于两个事务T1，T2。T1读取了一个字段，然后T2更新了该字段之后，T1再次读取同一个字段，值就不同了。
+3. **幻读**：对于两个事务T1，T2。T1从一个表中读取了一个字段，然后T2在该表中插入了一些新的行之后，如果T1再次读取同一个表，就会多出几行。主要是其他事务**插入**的数据
+
+**数据库事务的隔离性**：数据库系统必须具有隔离并发运行各个事务的能力，使他们不会相互影响，避免各种并发问题。
+
+#### 2.2 隔离级别
+
+**一个事务与其他事务隔离的程度称为隔离级别。**数据库规定了多种事务隔离级别，不同隔离级别对应不同的干扰程度，隔离级别越高，数据一致性就越好，但并发性弱。
+
+ **数据库提供的4种事务隔离级别：**
+
+| 隔离级别                       | 描述                                                         |
+| ------------------------------ | ------------------------------------------------------------ |
+| READ UNCOMMITTED(读未提交数据) | 允许事务读取未被其他事务提交的变更。脏读，不可重复读和幻读的问题都会出现。 |
+| READ COMMITED(读已提交数据)    | 只允许事务读取已经被其他事务提交的变更。可以避免脏读，但不可重复读和幻读问题仍然可能出现。 |
+| REPEATABLE READ(可重复读)      | 确保事务可以多次从一个字段中读取相同的值。在这个事务持续期间，禁止其他事务对这个字段进行更新。可以避免脏读和不可重复读，但幻读的问题仍然存在。 |
+| SERIALLIZABLE(串行化)          | 确保事务可以从一个表中读取相同的行，在这个事务持续期间，禁止其他事务对该表执行插入，更新和删除操作。所有并发问题都可以避免，但性能十分低下。 |
+
+Oracle支持2种事务隔离级别：READ COMMITED，SERIALIZABLE。Oracle默认的事务隔离级别是：READ COMMITED。
+
+Mysql支持4种事务隔离级别。Mysql默认的事务隔离级别为：REPEATABLE READ。
+
+每启动一个mysql程序，就会获得一个单独的数据库连接，每个数据库连接都有一个全局变量`@@tx_isolation`，表示当前事务隔离级别。
+
+查看当前的隔离级别：`select @@tx_isolation;`
+
+设置当前mysql连接的隔离级别：`set transaction isolation level read committed;`
+
+设置数据库系统的全局的隔离级别：`set global transaction isolation level read committed;`
+
+## 五、常见约束
+
+含义：一种限制，用于限制表中的数据，为了保证表中的数据的准确和可靠性
+
+#### 1. 分类
+
+##### 1.1  按作用分类
+
+1. not null：非空，用于保证该字段的值不能为空。比如姓名、学号等。
+2. default：默认，用于保证该字段有默认值。比如性别。
+3. primary key：主键，用于保证该字段的值具有唯一性，并且非空。比如学号、员工编号等。
+4. unique：唯一，用于保证该字段的值具有唯一性，可以为空。比如座位号。
+5. check：检查约束（**mysql中不支持**）。比如年龄、性别。
+6. foreign key：外键，用于限制两个表的关系，用于保证该字段的值必须来自于主表的关联列的值。在从表添加外键约束，用于应用主表中某列的值。比如学生表的专业编号，员工表的部门编号，员工表的工种编号。
+
+##### 1.2 按位置分类
+
+1.  列级约束：六大约束语法上都支持，但外键约束没有效果 
+2.  表级约束：除了非空、默认，其他的都支持 
+
+| 约束类型 | 位置         | 支持的约束类型               | 是否可以起约束名                        |
+| -------- | ------------ | ---------------------------- | --------------------------------------- |
+| 列级约束 | 列的后面     | 语法都支持，但外键没有效果   | 不可以                                  |
+| 表级约束 | 所有列的下面 | 默认和非空不支持，其他都支持 | 可以（主键没有效果，默认名字是PRIMARY） |
+
+##### 主键和唯一的区别
+
+| 约束 | 保证唯一性 | 是否允许为空 | 一个表中可以有多少个 | 是否允许组合（多个列组合成一个主键/唯一） |
+| ---- | ---------- | ------------ | -------------------- | ----------------------------------------- |
+| 主键 | 是         | 否           | 至多一个             | 可以，但不推荐                            |
+| 唯一 | 是         | 是           | 可以有多个           | 可以，但不推荐                            |
+
+##### 外键特点
+
+1. 要求在从表设置外键关系
+
+2. 从表的外键列的类型和主表的关联列的类型要求一致或兼容，名称无要求
+
+3. 主表的关联列必须是一个key（一般是主键或唯一）
+
+4. 插入数据时，先插入主表，再插入从表
+
+5. 删除数据时，先删除从表，再删除主表
+
+		方式一：级联删除
+		
+		```mysql
+		ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE CASCADE;
+		```
+		
+		方式二：级联置空
+		
+		```mysql
+		ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE SET NULL;
+		# 删除的时候，主表对应的行被删除了，从表引入的地方变为空值null。
+		```
+
+#### 2. 添加约束
+
+##### 2.1 创建表时添加约束
+
+###### 2.1.1 添加列级约束
+
+语法：
+
+```mysql
+直接在字段名和类型后面追加约束类型即可。
+只支持：默认、非空、主键、唯一（除了外键都支持）
+```
+
+```mysql
+CREATE DATABASE students;
+USE students;
+
+CREATE TABLE stuinfo (
+  id INT PRIMARY KEY,
+  stuname VARCHAR (20) NOT NULL,	# 非空
+  gender CHAR(1) CHECK (gender = '男' 
+    OR gender = '女'),  # CHECK在mysql中不生效
+  seat INT UNIQUE,	# 唯一
+  age INT DEFAULT 18,	# 默认
+  majorID INT REFERENCES major (id) # 语法不报错，但是没有效果
+) ;
+
+CREATE TABLE major (
+  id INT PRIMARY KEY,
+  majorName VARCHAR (20)
+) ;
+
+DESC stuinfo; # 查看表结构
+SHOW INDEX FROM stuinfo;
+```
+
+###### 2.1.2 添加表级约束
+
+语法：
+
+```mysql
+# 在各个字段的最下面
+[ CONSTRAINT  约束名] 约束类型 (字段名)
+# 除了非空、默认，其他的都支持
+```
+
+```mysql
+CREATE TABLE stuinfo(
+id INT,
+stuname VARCHAR(20),
+gender CHAR(1),
+seat INT,
+age INT,
+majorid INT,
+
+CONSTRAINT pk PRIMARY KEY(id), # 主键的名字是PRIMARY，起别名没效果
+CONSTRAINT uq UNIQUE(seat),
+CONSTRAINT ck CHECK(gender='男' OR gender='女'),
+CONSTRAINT fk_stuinfo_major FOREIGN KEY(majorid) REFERENCES major(id)
+);
+
+SHOW INDEX FROM stuinfo;
+```
+
+查询结果
+
+```mysql
++---------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table   | Non_unique | Key_name         | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++---------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| stuinfo |          0 | PRIMARY          |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| stuinfo |          0 | uq               |            1 | seat        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| stuinfo |          1 | fk_stuinfo_major |            1 | majorid     | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++---------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+
+```
+
+###### 2.1.3 通用写法
+
+```mysql
+CREATE TABLE IF NOT EXISTS stuinfo (
+  id INT PRIMARY KEY,
+  stuname VARCHAR (20) NOT NULL,
+  gender CHAR(1),
+  seat INT UNIQUE,
+  age INT DEFAULT 18,
+  majorID INT,
+  CONSTRAINT fk_stuinfo_major FOREIGN KEY (majorid) REFERENCES major (id)
+) ;
+```
+
+##### 2.2 修改表时添加约束
+
+###### 2.2.1  添加非空约束 
+
+```mysql
+ALTER TABLE stuinfo MODIFY COLUMN stuname VARCHAR(20) NOT NULL;
+```
+
+###### 2.2.2 添加默认约束
+
+```mysql
+ALTER TABLE stuinfo MODIFY COLUMN age INT DEFAULT 18;
+```
+
+###### 2.2.3 添加主键约束
+
+```mysql
+# 列级约束的写法
+ALTER TABLE stuinfo MODIFY COLUMN id INT PRIMARY KEY;
+# 表级约束的写法
+ALTER TABLE stuinfo ADD PRIMARY KEY(id);
+```
+
+2.2.4 添加唯一约束
+
+```mysql
+# 列级约束的写法
+ALTER TABLE stuinfo MODIFY COLUMN seat INT UNIQUE;
+# 表级约束的写法
+ALTER TABLE stuinfo ADD UNIQUE(seat);
+```
+
+###### 2.2.5 添加外键约束
+
+```mysql
+ALTER TABLE (CONSTRAINT fk_stuinfo_major) stuinfo ADD FOREIGN KEY(majorid) REFERENCES major(id);
+```
+
+#### 3. 删除约束
+
+##### 3.1 修改表时删除约束
+
+###### 3.1.1 删除非空约束
+
+```mysql
+ALTER TABLE stuinfo MODIFY COLUMN stuname VARCHAR(20) NULL;
+```
+
+###### 3.1.2 删除默认约束
+
+```mysql
+ALTER TABLE stuinfo MODIFY COLUMN age INT;
+```
+
+###### 3.1.3 删除主键
+
+```mysql
+ALTER TABLE stuinfo DROP PRIMARY KEY;
+```
+
+###### 3.1.4 删除唯一
+
+```mysql
+ALTER TABLE stuinfo DROP INDEX seat;
+```
+
+###### 3.1.5 删除外键
+
+```mysql
+ALTER TABLE stuinfo DROP FOREIGN KEY fk_stuinfo_major;
+```
+
+#### 4. 标识列
+
+##### 4.1 含义
+
+又称为自增长列,可以不用手动的插入值，系统提供默认的序列值
+
+##### 4.2 特点
+
+1. 标识列必须和主键搭配吗？不一定，但要求是一个key。
+2. 一个表可以有几个标识列？至多一个。
+3. 标识列的类型？只能是数值型（int（一般是int），float，double）
+4. 标识列可以通过`SET auto_increment_increment = 1;`设置步长；可以通过手动插入值设置起始值。
+
+##### 4.3  创建表时设置标识列
+
+语法：
+
+```mysql
+CREATE TABLE 表(
+  字段名 字段类型 约束 AUTO_INCREMENT
+);
+```
+
+例：
+
+```mysql
+CREATE TABLE tab_identity (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  NAME VARCHAR(20)
+) ;
+```
+
+##### 4.4  创建表时设置标识列
+
+```mysql
+ALTER TABLE tab_identity MODIFY COLUMN id INT PRIMARY KEY AUTO_INCREMENT;
+```
+
+##### 4.5  修改表时删除标识列 
+
+```mysql
+ALTER TABLE tab_identity MODIFY COLUMN id INT;
+```
+
+##### 4.6 设置标识列的步长
+
+```mysql
+SHOW VARIABLES LIKE '%auto_increment%';
+SET auto_increment_increment = 3;
+```
+
+##### 
+
+## SHOW语句
 
 常用SHOW命令
 
