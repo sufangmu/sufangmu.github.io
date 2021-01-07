@@ -1,19 +1,38 @@
 ## 一、CSS 简介：
 
-　　CSS 指层叠样式表 (Cascading Style Sheets)，用来设置HTML的格式。
+CSS 指层叠样式表 (Cascading Style Sheets)，用来设置HTML的格式。
 
-　　语法：`选择器 {属性:值;属性:值}`
+语法：
 
-　　注释：`//注释内容` 或`/*注释内容*/`
+```css
+选择器 
+	{
+        属性:值;
+        属性:值
+	}
+```
+
+注释：
+
+```css
+// 单行注释
+/*多行注释*/
+```
 
 ## 二、CSS的引入方式：行内嵌、嵌入式、链接式、导入式
 
 ### 1.行内嵌：
 
 ```css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
 <body>
     <p style="color: red">hello world</p>
 </body>
+</html>
 ```
 
 ### 2.嵌入式：
@@ -24,7 +43,7 @@
     <head>
         <style>
             p {
-            	color: green;
+            	color: red;
             }
         </style>
     </head>
@@ -48,9 +67,10 @@
 </html>
 ```
 
-css文件中的内容
+css文件
 
 ```css
+// filename: mystyle.css
 p {
 	color: red;
 }
@@ -72,8 +92,14 @@ p {
 </html>
 ```
 
-**样式优先级：**
-　　（内联样式）Inline style > （内部样式）Internal style sheet >（外部样式）External style sheet > 浏览器默认样式
+css文件
+
+```css
+// filename: mystyle.css
+p {
+	color: red;
+}
+```
 
 ## 三、选择器
 
@@ -82,40 +108,42 @@ p {
 #### 1.1 通用选择器
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    	<style>
+            {#html页面的所有元素#}
             * {
             	color: red;
             }
         </style>
-    </head>
-    <body>
-        <h>hello</p>
-        <p>world</p>
-    </body>
+</head>
+<body>
+    <h1>hello</h1>
+    <p>world</p>
+</body>
 </html>
 ```
-
- 
 
 #### 1.2 标签选择器
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-    <style>
-        p {
-        	color: red;
-        }
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    	<style>
+            {#给所有的p标签指定样式#}
+            p {
+                color: red;
+            }
         </style>
-    </head>
-    <body>
-        <h1>hello</h1>
-        <p>world</p>
-    </body>
+</head>
+<body>
+    <h1>hello</h1>
+    <p>world</p>
+</body>
 </html>
 ```
 
@@ -123,44 +151,44 @@ p {
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="zh">
     <head>
-    <style>
-        #name {
-        	color: red;
-        }
+        <meta charset="UTF-8">
+        <style>
+            {# 为id为name的HTML元素指定特定的样式。#}
+            #name {
+                color: red;
+            }
         </style>
     </head>
     <body>
         <p>hello</p>
         <p id="name">诸葛孔明</p>
     </body>
-</html> 
+</html>
 ```
-
- 
 
 ####  1.4 class选择器
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    	<style>
             .name {
             	color: red;
             }
         </style>
-    </head>
-    <body>
-        <p class="name">诸葛孔明</p>
-        <p class="name">诸葛子瑜</p>
-        <p class="name">诸葛公休</p>
-    </body>
+</head>
+<body>
+    <h3>诸葛兄弟</h3>
+    <p class="name">诸葛孔明</p>
+    <p class="name">诸葛子瑜</p>
+    <p class="name">诸葛公休</p>
+</body>
 </html>
 ```
-
- 
 
 ### 2.组合选择
 
@@ -169,22 +197,22 @@ p {
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
+    <head lang="en">
+        <meta charset="UTF-8">
         <style type="text/css">
             #food p{
             	color: green;
-            }
-            #food div{
-            	font-size: 20px; 
             }
         </style>
     </head>
     <body>
         <div id="food">
+            <p>水果：</p>
             <div class="fruits">
                 <p>苹果</p>
                 <p>香蕉</p>
             </div>
+            <p>甜品：</p>
             <div class="dessert">
                 <p>蛋糕</p>
                 <p>巧克力</p>

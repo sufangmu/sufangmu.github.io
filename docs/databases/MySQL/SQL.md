@@ -1621,8 +1621,17 @@ START TRANSACTION;（可选）
 有两种结束事务的方式
 
 1. `commit`；提交事务
-
 2. `rollback`；回滚事务
+
+#### 1.4  设置保存点
+
+`savepoint 结点名`
+
+```mysql
+
+```
+
+
 
 ### 2. 数据库的隔离级别
 
@@ -1705,18 +1714,18 @@ Mysql支持4种事务隔离级别。Mysql默认的事务隔离级别为：REPEAT
 
 5. 删除数据时，先删除从表，再删除主表
 
-		方式一：级联删除
-		
-		```mysql
-		ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE CASCADE;
-		```
-		
-		方式二：级联置空
-		
-		```mysql
-		ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE SET NULL;
-		# 删除的时候，主表对应的行被删除了，从表引入的地方变为空值null。
-		```
+方式一：级联删除
+
+```mysql
+ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE CASCADE;
+```
+
+方式二：级联置空
+
+```mysql
+ALTER TABLE stuinfo ADD CONSTRAINT fk_stu_major FOREIGN KEY(majorid) REFERENCES major(id) ON DELETE SET NULL;
+# 删除的时候，主表对应的行被删除了，从表引入的地方变为空值null。
+```
 
 #### 2. 添加约束
 
@@ -1932,33 +1941,7 @@ SHOW VARIABLES LIKE '%auto_increment%';
 SET auto_increment_increment = 3;
 ```
 
-##### 
-
-## SHOW语句
-
-常用SHOW命令
-
-```mysql
-SHOW DATABASES;
-SHOW TABLES;
-SHOW CREATE DATABASE world;
-SHOW CREATE TABLE city;
-SHOW CHARSET;
-show COLLATION;
-SHOW ENGINES;
-SHOW PROCESSLIST;
-SHOW VARIABLES;
-SHOW VARIABLES LIKE '%log%';
-SHOW STATUS;
-SHOW STATUS LIKE '%lock%';
-SHOW INDEX FROM world.city;
-SHOW ENGINE INNODB IN 'xxx';
-SHOW BINARY LOGS;
-SHOW BINLOG EVENTS IN 'xxx';
-SHOW MASTER STATUS;
-SHOW SLAVE STATUS\G;
-SHOW GRANTS FOR root@'localhost';
-```
+## 
 
 用到的数据库：
 

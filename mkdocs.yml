@@ -83,8 +83,16 @@ nav:
         - '网络编程': 'language/python/进阶/03-网络编程.md'
         - '数据库编程': 'language/python/进阶/04-数据库编程.md'
         - web编程:    
-          - 'Jinja2': 'language/python/进阶/web/Jinja2.md'   
-          - 'Django': 'language/python/进阶/web/Django.md'
+          - 'Jinja2': 'language/python/进阶/web/Jinja2.md'
+          - Django: 
+            - '安装': 'language/python/进阶/web/Django/install.md'
+            - '请求响应三板斧': 'language/python/进阶/web/Django/response.md'
+            - '路由层': 'language/python/进阶/web/Django/urls.md'
+            - '视图层': 'language/python/进阶/web/Django/view.md'
+            - '模板层': 'language/python/进阶/web/Django/template.md'
+            - '模型层': 'language/python/进阶/web/Django/model.md'
+            - '中间件': 'language/python/进阶/web/Django/middleware.md'
+            
           - 'Flask': 'language/python/进阶/web/Flask.md'
   - 虚拟化:
     - Docker:
