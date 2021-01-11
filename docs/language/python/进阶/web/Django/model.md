@@ -26,6 +26,25 @@ DATABASES = {
         'CHARSET': 'utf8'
     }
 }
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console':{
+            'level':'DEBUG',
+            'class':'logging.StreamHandler',
+        },
+    },
+    # 在控制台打印ORM执行的SQL语句
+    'loggers': {
+        'django.db.backends': {
+            'handlers': ['console'],
+            'propagate': True,
+            'level':'DEBUG',
+        },
+    }
+}
 ```
 
 #### 2. 修改默认的mysql模块
@@ -70,6 +89,8 @@ python manage.py migrate
 
 ## 二、创建表
 
+orm创建的表自动加了前缀，前缀是应用的名称，防止多个应用表名冲突。
+
 ### 1. 独立表
 
 ```python
@@ -84,7 +105,7 @@ class User(models.Model):
     age = models.IntegerField()
 ```
 
-### 2.关系表
+### 2. 关系表
 
 表与表之间的关系：
 
@@ -130,12 +151,6 @@ class AuthorDetail(models.Model):
     addr = models.CharField(max_length=32, verbose_name="通讯地址")
 ```
 
-
-
-
-
-
-
 > 在django1.X版本中外键默认都是级联更新删除的
 
 ## 三、ORM操作
@@ -170,6 +185,43 @@ class AuthorDetail(models.Model):
     user_obj.save()
 ```
 
+#### 1.2 多表
+
+##### 1.2.1 一对一、一对多
+
+方式一：直接写外键字段id
+
+```python
+models.Book.objects.create(title='数据结构C语言版', price=35.00, publish_id=1)
+```
+
+方式二：通过对象创建
+
+```python
+publish_obj = models.Publish.objects.filter(pk=1).first()  # Publish object
+models.Book.objects.create(title='数据结构题集C语言版', price=29.0, publish=publish_obj)
+```
+
+##### 1.2.2 多对多
+
+方式一：通过主键值添加
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+book_obj.authors.add(2, 3)   # book_obj.authors相当于已经定位到第三张关系表
+```
+
+方式二：通过对象添加
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+author_obj1 = models.Author.objects.filter(pk=2).first()
+author_obj2 = models.Author.objects.filter(pk=3).first()
+book_obj.authors.add(author_obj1, author_obj2)
+```
+
+
+
 
 
 ### 2. 查
@@ -189,20 +241,69 @@ class AuthorDetail(models.Model):
     print(user_obj)
 ```
 
-
+##### 2.1.2 按条件筛选
 
 `filter`括号内可以写多个参数，查询的时候默认是and关系
 
 ```python
     user_obj = models.User.objects.filter(age=16)
-    print(user_obj) # <QuerySet [<User: User object>, <User: User object>]>
+    print(user_obj) # <QuerySet [<User: User object>]>
+    user_obj = models.User.objects.get(age=16)
+    print(user_obj) # User object
+    # get方法返回的直接就是当前数据对象，但是如果数据不存在该方法会直接报错。而filter则不会，所以建议使用filter
+```
+
+> ```
+> user_obj = models.User.objects.filter(pk=2)
+> pk会自动查找到当前表的主键字段,指代的就是当前表的主键字段.用了pk之后就不需要知道当前表的主键字段具体的名字可。
+> ```
+
+##### 2.1.3 查询结果再处理
+
+```python
+order_by()        　# 对结果排序
+reverse()        　 # 对查询结果反向排序,前提是数据已经排过序
+exists()        　　# 如果QuerySet包含数据，就返回True，否则返回False
+distinct()      　　# 从返回结果中剔除重复纪录
+values()        　　# 返回字典序列，每一行的数据以字典的形式返回
+values_list()   　　# 返回元组序列，每一行的数据以元组的形式返回
+count()             # 返回数据库中匹配查询(QuerySet)的对象数量。
+first()            # 返回第一条记录
+last()             # 返回最后一条记录
+```
+
+##### 2.1.4 条件过滤
+
+```python
+    res = models.User.objects.filter(age__gt=16)
+    print(res) # <QuerySet [<User: User object>, <User: User object>]>
+```
+
+常用条件
+
+```python
+__gt    # 大于
+__lt    # 小于
+__gte   # 大于或小于
+__lte   # 小于或等于
+__contains # 包含，对大小写敏感
+__icontains # 包含，对大小写不敏感
+__startwith 
+__endwith
+__istartwith 
+__iendwith
+__in=[] 
+__range[start,end]  # 在start和end之间，包含start和end
+__isnull
 ```
 
 
 
 ### 3. 改
 
-#### 3.1 方法一：`update()`
+#### 3.1 单表
+
+##### 3.1 方法一：`update()`
 
 ```python
     # user_obj 是 <class 'django.db.models.query.QuerySet'>
@@ -210,7 +311,7 @@ class AuthorDetail(models.Model):
     user_obj.update(age=20)
 ```
 
-#### 3.2 方法二：`save()`
+##### 3.2 方法二：`save()`
 
 ```python
     # user_obj 是 <class 'app.models.User'>
@@ -219,12 +320,49 @@ class AuthorDetail(models.Model):
     user_obj.save()
 ```
 
+#### 3.2 多表
+
+##### 3.2.1 一对一、一对多
+
+方式一：直接写外键字段id
+
+```python
+models.Book.objects.filter(pk=1).update(publish_id=2)
+```
+
+方式二：通过对象修改
+
+```python
+publish_obj = models.Publish.objects.filter(pk=1).first()
+models.Book.objects.filter(pk=1).update(publish=publish_obj)
+```
+
+
+
 ### 4. 删
+
+#### 4.1 单表
 
 ```python
     user_obj = models.User.objects.filter(username='Jack')
     user_obj.delete()
 ```
 
+#### 4.2 多表
 
+##### 4.2.1 一对一，一对多
+
+方法同单表，删除是级联删除
+
+### 5. 事务
+
+
+
+## 四、常用字段和参数
+
+## 五、数据库查询优化
+
+### 1. only与defer
+
+### 2. select_related与prefetch_related
 
