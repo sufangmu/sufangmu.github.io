@@ -226,7 +226,14 @@ book_obj.authors.add(author_obj1, author_obj2)
 
 ### 2. 查
 
-返回的结果是一个querySet对象，可以把它看成是一个列表套数据对象。支持索引和切片操作，但是不支持负数，并且不推荐使用索引。
+返回的结果是一个`QuerySet`对象，可以把它看成是一个列表套数据对象。支持索引和切片操作，但是不支持负数，并且不推荐使用索引。
+
+正反向查询：
+
+1. 正向查询：从有外键字段的表向没有外键字段的表查
+2. 反向查询：从没有外键字段的表向有外键字段的表查询
+
+> 正向查询按字段，反向查询按表名小写
 
 #### 2.1 单表查询
 
@@ -297,7 +304,135 @@ __range[start,end]  # 在start和end之间，包含start和end
 __isnull
 ```
 
+#### 2.2 多表查询
 
+
+
+##### 2.2.1 基于对象的跨表查询
+
+###### 1. 正向查询
+
+```python
+# 查询书籍主键为1的出版社
+book_obj = models.Book.objects.filter(pk=1).first()
+res = book_obj.publish
+print(res) # Publish object
+print(res.name) # 清华大学出版社
+# 查询书籍主键为2的作者
+book_obj = models.Book.objects.filter(pk=1).first()
+res = book_obj.authors.all()
+print(res) # <QuerySet [<Author: Author object>, <Author: Author object>]>
+```
+
+###### 2. 反向查询
+
+```python
+# 查询主键为1的出版社出版的书
+publish_obj = models.Publish.objects.filter(pk=1).first()
+res = publish_obj.book_set.all()
+print(res) # <QuerySet [<Book: Book object>, <Book: Book object>]>
+
+author_detail_obj = models.AuthorDetail.objects.filter(addr__contains='清华大学').first()
+res = author_detail_obj.author
+print(res.name)
+```
+
+> 基于对象反向查询的时候：当查询结果可以有多个的时候就必须加`_set.all()`；当的结果只有一个的时候不需要加`_set.all()`
+
+##### 2.2.2 基于双下划线的跨表查询
+
+###### 1. 正向查询
+
+```python
+# 查作者详情
+res = models.Author.objects.filter(name='严蔚敏').values('author_detail__email ', 'name') # 小写第三张表名__字段名
+print(res) # <QuerySet [{'author_detail__email': 'yanweimin@126.com', 'name': '严蔚敏'}]>
+
+# 连续跨表查书籍主键是1的作者的邮箱
+# book-->中间表-->author_detail
+res = models.Book.objects.filter(pk=1).values('authors__author_detail__email')
+print(res) # <QuerySet [{'authors__author_detail__email': 'yanweimin@126.com'}, {'authors__author_detail__email': 'wuweimin@163.com'}]>
+
+```
+
+###### 2. 反向查询
+
+```python
+# 查作者详情
+res = models.AuthorDetail.objects.filter(author__name='严蔚敏').values('email', 'author__name')
+print(res) # <QuerySet [{'email': 'yanweimin@126.com', 'author__name': '严蔚敏'}]>
+```
+
+#### 2.3 聚合查询和分组查询
+
+聚合查询`aggregate`通常情况下都是配合分组一起使用的
+
+```python
+from django.db.models import Max, Min, Sum, Count, Avg
+
+res = models.Book.objects.annotate(author_num=Count('authors')).values('title', 'author_num')  # author_num相当于字段的别名
+print(res)
+res = models.Book.objects.aggregate(Max('price'), Min('price'), Sum('price'), Count('pk'), Avg('price'))
+print(res) # {'price__max': Decimal('35.00'), 'price__min': Decimal('29.00'), 'price__sum': Decimal('64.00'), 'pk__count': 2, 'price__avg': 32.0}
+
+```
+
+#### 2.5 F查询
+
+能够直接获取到表中某个字段对应的数据
+
+###### 1.  加、减、乘、除、取模以及幂运算等算术操作
+
+```python
+from django.db.models import F
+
+res = models.Book.objects.update(price=F('price') - 5)
+print(res) # 执行的SQL：UPDATE `app_book` SET `price` = (`app_book`.`price` - 5);
+```
+
+###### 2.  拼接字符串
+
+```python
+from django.db.models import F
+from django.db.models.functions import Concat
+from django.db.models import Value
+
+models.Book.objects.update(title=Concat(F('title'), Value('(热销)')))
+# 如果不用concat，字段下所有值都会变为空
+```
+
+#### 2.6 Q查询
+
+实现复杂的条件查询
+
+```python
+from django.db.models import Q
+
+res = models.Book.objects.filter(Q(price__gt=20), Q(price__lt=30))  # Q包裹逗号分割 还是and关系
+print(res)  # <QuerySet [<Book: Book object>]>
+res = models.Book.objects.filter(Q(price__gt=30) | Q(price__lt=20))  # | or关系
+print(res)  # <QuerySet [<Book: Book object>]>
+res = models.Book.objects.filter(~Q(price__gt=30))  # ~ not关系
+print(res)  # # <QuerySet [<Book: Book object>]>
+# 对应的SQL
+# SELECT `app_book`.`id`, `app_book`.`title`, `app_book`.`price`, `app_book`.`publish_id` FROM `app_book` WHERE (`app_book`.`price` > 20 AND `app_book`.`price` < 30) LIMIT 21;
+# SELECT `app_book`.`id`, `app_book`.`title`, `app_book`.`price`, `app_book`.`publish_id` FROM `app_book` WHERE (`app_book`.`price` > 30 OR `app_book`.`price` < 20) LIMIT 21;
+# SELECT `app_book`.`id`, `app_book`.`title`, `app_book`.`price`, `app_book`.`publish_id` FROM `app_book` WHERE NOT (`app_book`.`price` > 30) LIMIT 21;
+```
+
+Q的高阶用法：能够将查询条件的左边也变成字符串的形式
+
+```python
+from django.db.models import Q
+
+q = Q()
+q.connector = 'and' # 如果不指定连接父，默认是and关系
+q.children.append(('price__gt', 20))
+q.children.append(('price__lt', 30))
+res = models.Book.objects.filter(q)  
+print(res) # <QuerySet [<Book: Book object>]>
+# SELECT `app_book`.`id`, `app_book`.`title`, `app_book`.`price`, `app_book`.`publish_id` FROM `app_book` WHERE (`app_book`.`price` > 20 and `app_book`.`price` < 30) LIMIT 21;
+```
 
 ### 3. 改
 
@@ -337,6 +472,31 @@ publish_obj = models.Publish.objects.filter(pk=1).first()
 models.Book.objects.filter(pk=1).update(publish=publish_obj)
 ```
 
+##### 3.2.2 多表
+
+方式一：
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+book_obj.authors.set([2]) # 括号内必须给一个可迭代对象
+```
+
+方式二：
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+author_obj1 = models.Author.objects.filter(pk=2).first()
+author_obj2 = models.Author.objects.filter(pk=3).first()
+book_obj.authors.set([author_obj1, author_obj2]) # 括号内必须给一个可迭代对象
+```
+
+清空第三张关系表
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+book_obj.authors.clear() # 括号内不要加任何参数
+```
+
 
 
 ### 4. 删
@@ -354,15 +514,58 @@ models.Book.objects.filter(pk=1).update(publish=publish_obj)
 
 方法同单表，删除是级联删除
 
+##### 4.2.2 多对多
+
+方式一：根据外键值删除
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+book_obj.authors.remove(2, 3)
+# DELETE FROM `app_book_authors` WHERE (`app_book_authors`.`book_id` = 1 AND `app_book_authors`.`author_id` IN (2, 3));
+```
+
+方式二：通过对象删除
+
+```python
+book_obj = models.Book.objects.filter(pk=1).first()
+author_obj1 = models.Author.objects.filter(pk=2).first()
+author_obj2 = models.Author.objects.filter(pk=3).first()
+book_obj.authors.remove(author_obj1, author_obj2)
+#  remove括号内既可以传数字也可以传对象 并且都支持多个
+```
+
+
+
 ### 5. 事务
 
-
+```python
+from django.db import transaction
+try:
+    with transaction.atomic():
+        # sql1
+        # sql2
+        ...
+        # 在with代码快内书写的所有orm操作都是属于同一个事务
+except Exception as e:
+    print(e)
+```
 
 ## 四、常用字段和参数
+
+https://www.cnblogs.com/Dominic-Ji/p/9203990.html
 
 ## 五、数据库查询优化
 
 ### 1. only与defer
 
+` only()`结果是一个列表套多个对象，这些对象默认只有only括号内的属性，但是也可以点击括号内没有的属性，只是需要额外的走数据库操作。
+
+`defer()`跟only刚好相反，对象里面唯独没有括号内指定的属性。
+
 ### 2. select_related与prefetch_related
 
+ `select_related(`内部的本质是联表操作（`inner join`），括号内只能放外键字段并且多对多不行。括号内可以放多个外键字段（`select_related(外键字段1__外键字段2__外键字段3__...`)，将联表之后的结果全部查询出来封装到对象里面，之后对象在点击表的字段的时候都无需再走数据库。
+
+ `prefetch_related()`内部本质是子查询，内部通过子查询的方式将多张的表数据也封装到对象中，这样用户在使用的时候也是感觉不出来的。
+
+ 上述两种方式，在不同的场景下效率各有千秋
