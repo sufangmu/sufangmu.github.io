@@ -153,6 +153,50 @@ class AuthorDetail(models.Model):
 
 > 在django1.X版本中外键默认都是级联更新删除的
 
+### 3. 多对多三种创建方式
+
+#### 1. 全自动
+
+自动创建第三张关系表，但是扩展性差，没有办法添加额外字段。可以用ORM提供的第三张关系表的方法，如add,remove,clear,set等方法。
+
+#### 2. 全手动
+
+自己创建第三张表，自己建外键。扩展性高，但是无法利用orm提供的简便的查询方法。
+
+```python
+class Book(models.Model):
+    name = models.CharField(max_length=32)
+    
+class Author(models.Model):
+    name = models.CharField(max_length=32)
+  
+class Book2Author(models.Model):
+    book_id = models.ForeignKey(to='Book')
+    author_id = models.ForeignKey(to='Author')
+```
+
+#### 3. 半自动
+
+实际项目用此方法，扩展性好。可以使用orm的正反向查询，但是没法使用add,set,remove,clear这四个方法
+
+```python
+class Book(models.Model):
+    name = models.CharField(max_length=32)
+    authors = models.ManyToManyField(to='Author',
+                                     through='Book2Author', # 告诉ORM通过Book2Author来关联关系
+                                     through_fields=('book','author') # 告诉ORM哪两个字段来确定关联关系（通过第三张表查询当前BOOK表是通过book字段，所以book字段在前，author在后）
+                                     )
+class Author(models.Model):
+    name = models.CharField(max_length=32)
+
+    
+class Book2Author(models.Model):
+    book = models.ForeignKey(to='Book')
+    author = models.ForeignKey(to='Author')
+```
+
+
+
 ## 三、ORM操作
 
 ### 1. 增
