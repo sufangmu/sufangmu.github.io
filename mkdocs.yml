@@ -54,6 +54,7 @@ nav:
 
   - 前端:
       - 'HTTP': 'web/HTTP.md'      
+      - 'RESTful': 'web/RESTful.md'      
       - 'HTML': 'web/html.md'
       - 'CSS': 'web/CSS.md'
       - 'JavaScript': 'web/JavaScript.md'
@@ -88,6 +89,8 @@ nav:
         - '表单': 'language/python/Django/forms.md'
         - 'auth模块': 'language/python/Django/auth.md'
         - 'cookie和session': 'language/python/Django/cookie&session.md'
+        - 'DjangoRESTframework':
+          - '安装': 'language/python/Django/DjangoRESTframework/install.md'
   - 虚拟化:
     - Docker:
       - 'Docker基础': 'Virtualization/Docker/Docker基础.md'
