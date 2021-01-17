@@ -1,7 +1,7 @@
-site_name: DevOps笔记
-site_description: DevOps笔记
-site_author: 高远志
-site_url: https://github.com/yuanzhigao/devops-notes
+site_name: 苏方木的笔记
+site_description: 苏方木的笔记
+site_author: 苏方木
+site_url: https://github.com/sufangmu/notes
 theme:
   name: 'material'
   font:
@@ -11,29 +11,30 @@ theme:
   feature:
     tabs: true
     instant: true
+
 markdown_extensions:
   - codehilite:
       guess_lang: false
       linenums: true
   - toc:
       permalink: true
-  - admonition
-  
+
 extra:
   manifest: 'manifest.webmanifest'
   social:
     - type: 'github'
-      link: 'https://github.com/yuanzhigao'
+      link: 'https://github.com/sufangmu'
     - type: 'envelope-open'
-      link: 'mailto:gaopeng0214@126.com'
+      link: 'mailto:sufangmu8377@163.com'
   search:
-    tokenizer: '[\s\-\.]+'   
+    tokenizer: '[\s\-\.]+' 
+    prebuild_index: true  
 plugins:
   - search
   - progress
   - git-revision-date-localized
 nav:
-  - '主页': 'index.md'
+  - '首页': 'index.md'
   - Linux:
     - '常用命令': 'linux/linux_commands.md'
     - '文本处理三剑客': 'linux/grep_sed_awk.md'
@@ -52,48 +53,43 @@ nav:
       - '运维': 'databases/MySQL/运维.md'
 
   - 前端:
-      - 'HTTP协议': 'web/HTTP.md'      
+      - 'HTTP': 'web/HTTP.md'      
       - 'HTML': 'web/html.md'
       - 'CSS': 'web/CSS.md'
       - 'JavaScript': 'web/JavaScript.md'
       - 'jQuery': 'web/jQuery.md'   
       - 'Nginx': 'web/Nginx.md'
       - 'Tomcat': 'web/Tomcat.md'
-  - 中间件:
-      - 'RabbitMQ': 'software/middleware/rabbitmq.md'
   - 编程语言:
     - Shell: 
       - 'Shell基础': 'language/shell/shell基础.md'
       - 'Shell进阶': 'language/shell/shell进阶.md'
-      - 'Shell进阶': 'language/shell/shell规范.md'
     - Python:
-      - 基础:
-        - 'python简介': 'language/python/基础/01-python简介.md'
-        - '基本数据类型': 'language/python/基础/02-基本数据类型.md'
-        - '逻辑控制': 'language/python/基础/03-逻辑控制.md'
-        - '函数': 'language/python/基础/04-函数.md'
-        - '面向对象': 'language/python/基础/05-面向对象.md'
-        - '包和模块': 'language/python/基础/06-包和模块.md'
-        - '迭代和推导': 'language/python/基础/07-迭代和推导.md'
-        - '文件处理': 'language/python/基础/08-文件处理.md'
-        - '异常处理': 'language/python/基础/09-异常与测试.md'
-      - 进阶:
-        - '内置模块': 'language/python/进阶/01-内置模块.md'
-        - '并行编程': 'language/python/进阶/02-并发编程.md'
-        - '网络编程': 'language/python/进阶/03-网络编程.md'
-        - '数据库编程': 'language/python/进阶/04-数据库编程.md'
-        - web编程:    
-          - 'Jinja2': 'language/python/进阶/web/Jinja2.md'
-          - Django: 
-            - '安装': 'language/python/进阶/web/Django/install.md'
-            - '请求响应三板斧': 'language/python/进阶/web/Django/response.md'
-            - '路由层': 'language/python/进阶/web/Django/urls.md'
-            - '视图层': 'language/python/进阶/web/Django/view.md'
-            - '模板层': 'language/python/进阶/web/Django/template.md'
-            - '模型层': 'language/python/进阶/web/Django/model.md'
-            - '中间件': 'language/python/进阶/web/Django/middleware.md'
-            
-          - 'Flask': 'language/python/进阶/web/Flask.md'
+      - 'python简介': 'language/python/01-python简介.md'
+      - '基本数据类型': 'language/python/02-基本数据类型.md'
+      - '逻辑控制': 'language/python/03-逻辑控制.md'
+      - '函数': 'language/python/04-函数.md'
+      - '面向对象': 'language/python/05-面向对象.md'
+      - '包和模块': 'language/python/06-包和模块.md'
+      - '迭代和推导': 'language/python/07-迭代和推导.md'
+      - '文件处理': 'language/python/08-文件处理.md'
+      - '异常处理': 'language/python/09-异常与测试.md'
+      - '内置模块': 'language/python/01-内置模块.md'
+      - '并行编程': 'language/python/02-并发编程.md'
+      - '网络编程': 'language/python/03-网络编程.md'
+      - '数据库编程': 'language/python/04-数据库编程.md' 
+      - 'Jinja2': 'language/python/Jinja2.md'
+      - Django: 
+        - '安装': 'language/python/Django/install.md'
+        - '请求响应三板斧': 'language/python/Django/response.md'
+        - '路由层': 'language/python/Django/urls.md'
+        - '视图层': 'language/python/Django/view.md'
+        - '模板层': 'language/python/Django/template.md'
+        - '模型层': 'language/python/Django/model.md'
+        - '中间件': 'language/python/Django/middleware.md'
+        - '表单': 'language/python/Django/forms.md'
+        - 'auth模块': 'language/python/Django/auth.md'
+        - 'cookie和session': 'language/python/Django/cookie&session.md'
   - 虚拟化:
     - Docker:
       - 'Docker基础': 'Virtualization/Docker/Docker基础.md'
@@ -106,5 +102,7 @@ nav:
       - 'Ansible基础': 'CICD/Ansible/ansible.md'
     - Jenkins: 
       - 'Jenkins基础': 'CICD/Jenkins/Jenkins基础.md'
-  - Docs:
-      - '文档': 'resource/docs.md'
+  - 资源:
+      - '资源': 'resource/docs.md'
+  - 音乐:
+      - '音乐': 'music/music.md'
