@@ -61,9 +61,7 @@ nav:
       - 'Nginx': 'web/Nginx.md'
       - 'Tomcat': 'web/Tomcat.md'
   - 编程语言:
-    - Shell: 
-      - 'Shell基础': 'language/shell/shell基础.md'
-      - 'Shell进阶': 'language/shell/shell进阶.md'
+    - 'Shell': 'language/ShellScript.md'
     - Python:
       - 'python简介': 'language/python/01-python简介.md'
       - '基本数据类型': 'language/python/02-基本数据类型.md'
@@ -105,4 +103,4 @@ nav:
   - 资源:
       - '资源': 'resource/docs.md'
   - 音乐:
-      - '音乐': 'music/music.md'
+      - 'music/music.md'
