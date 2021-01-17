@@ -264,9 +264,16 @@ author_obj2 = models.Author.objects.filter(pk=3).first()
 book_obj.authors.add(author_obj1, author_obj2)
 ```
 
+#### 1.3 批量插入`bulk_create()`
 
-
-
+```python
+book_list = []
+for i in range(5):
+    book_obj = models.Book(title='第%s本书' % i, price=20, publish_id=1)
+    book_list.append(book_obj)
+models.Book.objects.bulk_create(book_list)
+# 执行的SQL:INSERT INTO `app_book` (`title`, `price`, `publish_id`) VALUES ('第0本书', '20.00', 1), ('第1本书', '20.00', 1), ('第2本书', '20.00', 1), ('第3本书', '20.00', 1), ('第4本书', '20.00', 1);
+```
 
 ### 2. 查
 
@@ -350,8 +357,6 @@ __isnull
 
 #### 2.2 多表查询
 
-
-
 ##### 2.2.1 基于对象的跨表查询
 
 ###### 1. 正向查询
@@ -396,7 +401,6 @@ print(res) # <QuerySet [{'author_detail__email': 'yanweimin@126.com', 'name': '�
 # book-->中间表-->author_detail
 res = models.Book.objects.filter(pk=1).values('authors__author_detail__email')
 print(res) # <QuerySet [{'authors__author_detail__email': 'yanweimin@126.com'}, {'authors__author_detail__email': 'wuweimin@163.com'}]>
-
 ```
 
 ###### 2. 反向查询
@@ -541,8 +545,6 @@ book_obj = models.Book.objects.filter(pk=1).first()
 book_obj.authors.clear() # 括号内不要加任何参数
 ```
 
-
-
 ### 4. 删
 
 #### 4.1 单表
@@ -577,8 +579,6 @@ author_obj2 = models.Author.objects.filter(pk=3).first()
 book_obj.authors.remove(author_obj1, author_obj2)
 #  remove括号内既可以传数字也可以传对象 并且都支持多个
 ```
-
-
 
 ### 5. 事务
 
