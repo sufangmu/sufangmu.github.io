@@ -90,14 +90,14 @@ nav:
         - 'auth模块': 'language/python/Django/auth.md'
         - 'cookie和session': 'language/python/Django/cookie&session.md'
       - DjangoRESTframework:
-        - '安装': 'language/python/Django/DjangoRESTframework/install.md'
-        - '序列化': 'language/python/Django/DjangoRESTframework/序列化.md'
-        - '请求和响应': 'language/python/Django/DjangoRESTframework/请求和响应.md'
-        - '视图': 'language/python/Django/DjangoRESTframework/视图.md'
-        - '路由': 'language/python/Django/DjangoRESTframework/路由.md'
-        - '认证、权限和频率': 'language/python/Django/DjangoRESTframework/认证、权限和频率.md'
-        - '过滤、排序、异常处理': 'language/python/Django/DjangoRESTframework/过滤、排序、异常处理.md'
-        - '自定义response': 'language/python/Django/DjangoRESTframework/自定义response.md'
+        - '安装': 'language/python/DjangoRESTframework/install.md'
+        - '序列化': 'language/python/DjangoRESTframework/序列化.md'
+        - '请求和响应': 'language/python/DjangoRESTframework/请求和响应.md'
+        - '视图': 'language/python/DjangoRESTframework/视图.md'
+        - '路由': 'language/python/DjangoRESTframework/路由.md'
+        - '认证、权限和频率': 'language/python/DjangoRESTframework/认证、权限和频率.md'
+        - '过滤、排序、异常处理': 'language/python/DjangoRESTframework/过滤、排序、异常处理.md'
+        - '自定义response': 'language/python/DjangoRESTframework/自定义response.md'
   - 虚拟化:
     - Docker:
       - 'Docker基础': 'Virtualization/Docker/Docker基础.md'
