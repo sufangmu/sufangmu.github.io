@@ -106,6 +106,8 @@ nav:
         - '认证、权限和频率': 'language/python/DjangoRESTframework/认证、权限和频率.md'
         - '过滤、排序、异常处理': 'language/python/DjangoRESTframework/过滤、排序、异常处理.md'
         - '自定义response': 'language/python/DjangoRESTframework/自定义response.md'
+      - Flask:
+        - '简介与安装': 'language/python/Flask/install.md'
   - 虚拟化:
     - Docker:
       - '实现': 'Virtualization/Docker/安装.md'
@@ -122,4 +124,8 @@ nav:
   - 资源:
       - '资源': 'resource/docs.md'
   - 音乐:
-      - 'music/music.md'
+      - '箫': 'music/xiao.md'
+      - '笛': 'music/zhudi.md'
+      - '古琴': 'music/guqin.md'
+      - '琵琶': 'music/pipa.md'
+      - '二胡': 'music/erhu.md'
