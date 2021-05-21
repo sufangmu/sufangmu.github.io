@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
 
 
-## 二、安装
+## 二、简单实用
 
 ```python
 from flask import Flask

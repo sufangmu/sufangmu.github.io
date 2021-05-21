@@ -39,10 +39,11 @@ nav:
     - '常用命令': 'linux/linux_commands.md'
     - '文本处理三剑客': 'linux/grep_sed_awk.md'
     - '服务': 'linux/service.md'
+    - 'Shell': 'language/ShellScript.md'
     - 网络: 
       - 'TCP/IP': 'linux/network/TCP.md'
       - 'Iptables': 'linux/network/iptables.md'
-    - '编辑器': 'linux/vim.md'
+    - 'VIM': 'linux/vim.md'
   - 数据库:
     - mysql: 
       - '基础': 'databases/MySQL/基础.md'
@@ -68,7 +69,6 @@ nav:
         - 'Nginx': 'web/软件/Nginx.md'
         - 'Tomcat': 'web/软件/Tomcat.md'
   - 编程语言:
-    - 'Shell': 'language/ShellScript.md'
     - Python:
       - 基础:
         - 'python简介': 'language/python/基础/01-python简介.md'
