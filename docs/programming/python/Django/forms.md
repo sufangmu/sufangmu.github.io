@@ -92,7 +92,7 @@ def index(request):
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    {% load static %}
+    {% \load static %}
     <script src="{% static 'jquery.min.js' %}"></script>
 </head>
 <body>
