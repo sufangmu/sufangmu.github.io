@@ -1,6 +1,114 @@
-# Linux 常用命令
+# Linux命令行
 
-## 命令行快捷键
+## 一、系统管理
+
+### 1.用户管理
+
+`passwd`
+
+`useradd`
+
+`userdel`
+
+`groupadd`
+
+`groupdel`
+
+`uesrmod`
+
+`groupmod`
+
+`whoami`
+
+`who`
+
+`id`
+
+### 2.时间管理
+
+`date`
+
+## 二、文件管理
+
+`cd`
+
+`touch`
+
+`cat`
+
+`head`
+
+`tail`
+
+`less`
+
+`more`
+
+`file`
+
+`chown`
+
+`chmod`
+
+`rm`
+
+`mv`
+
+`cp`
+
+`mkdir`
+
+`rmdir`
+
+## 三、磁盘管理
+
+`df`
+
+`fdisk`
+
+`lsblk`
+
+`du`
+
+`mount`
+
+`umount`
+
+`tree`
+
+`mkfs`
+
+## 四、网络管理
+
+`ping`
+
+`ipconfig`
+
+`ip`
+
+`telnet`
+
+## 五、备份压缩
+
+`zip`
+
+`unzip`
+
+`tar`
+
+## 六、进程管理
+
+`ps`
+
+`kill`
+
+`pkill`
+
+`killall`
+
+`nohup`
+
+## 附、命令行快捷键
 
 ### 1. 光标移动
 
@@ -65,32 +173,3 @@
 | -------- | -------------------------- |
 | `Ctrl+m` | 执行当前行命令，相当于回车 |
 | `Ctrl+o` | 执行当前行命令，相当于回车 |
-
-
-
-## 文件查找
-
-### 1. `find`
-
-语法格式：
-
-`find [路径] [选项] [操作]`
-
-选项参数对照表
-
-| 选项           | 含义                 |
-| -------------- | -------------------- |
-| `-name`        | 根据文件名查找       |
-| `-perm`        | 根据文件权限操作     |
-| `-prune`       | 排出查找目录         |
-| `-user`        | 根据文件属主查找     |
-| `-group`       | 根据属组操作         |
-| `-mtime -n|+n` | 根据文件更改时间查找 |
-| `-nogroup` | 查找无有效属组的文件 |
-| `-nouser` | 查找无有效属主的文件 |
-| `-newer file1 ! file2` | 查找更改时间比file1新但比file2旧的文件 |
-| `-type` | 按文件类型查找 |
-| `-size -n|+n` | 按文件大小查找 |
-| `-mindepth n` | 从n级子目录开始搜索 |
-| `-maxdepth n` | 最多搜索到n级子目录 |
-
