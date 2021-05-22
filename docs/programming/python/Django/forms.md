@@ -86,13 +86,13 @@ def index(request):
 
 模板层：
 
-```django
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    {% \load static %}
+    {% load static %}
     <script src="{% static 'jquery.min.js' %}"></script>
 </head>
 <body>
@@ -161,7 +161,7 @@ def index(request):
 
 模板层：
 
-```django
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -211,7 +211,7 @@ class MyForm(forms.Form):
                              })
 ```
 
-## 5. 钩子函数 
+## 5. 钩子函数
 
 ```python
 class MyForm(forms.Form):
@@ -244,7 +244,7 @@ class MyForm(forms.Form):
 ## 6. forms组件常用参数
 
 ```python
-label		# 字段名
+label # 字段名
 error_messages  # 自定义报错信息
 initial  # 默认值
 required  # 控制字段是否必填
@@ -254,6 +254,7 @@ validators=[
         ]  # 正则校验 from django.core.validators import RegexValidator
 widget=forms.widgets.PasswordInput(attrs={'class':'form-control c1 c2'})  # attrs 这是属性，比如添加bootstrap样式
 ```
+
 不同类型的`input`:
 
 ```python
@@ -292,4 +293,3 @@ hobby2 = forms.MultipleChoiceField(
     widget=forms.widgets.CheckboxSelectMultiple()
 )
 ```
-
