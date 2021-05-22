@@ -34,11 +34,11 @@ plugins:
   - progress
   - git-revision-date-localized
 nav:
-  - '首页': 'index.md'
+  - 首页: 'index.md'
   - Linux:
-    - '常用命令': 'linux/command-line'
+    - '命令行': 'linux/command-line.md'
     - '文本处理': 'linux/grep_sed_awk.md'
-    - 'ShellScript': 'language/ShellScript.md'
+    - 'ShellScript': 'linux/ShellScript.md'
     - 'VIM': 'linux/vim.md'
     - 网络: 
       - 'TCP/IP': 'linux/network/TCP.md'
