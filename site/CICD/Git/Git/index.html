@@ -1,0 +1,3693 @@
+
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="苏方木的笔记">
+      
+      
+        <link rel="canonical" href="https://github.com/sufangmu/notes/CICD/Git/Git/">
+      
+      
+        <meta name="author" content="苏方木">
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="ja">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-\.]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Git - 苏方木的笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.adb8469c.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700%7CUbuntu+Mono&display=fallback">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" type="application/manifest+json" href="../../../manifest.webmanifest" crossorigin="use-credentials">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#git" tabindex="0" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://github.com/sufangmu/notes" title="苏方木的笔记" aria-label="苏方木的笔记" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              苏方木的笔记
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Git
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." class="md-tabs__link">
+        首页
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../linux/linux_commands/" class="md-tabs__link">
+          Linux
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../databases/MySQL/%E5%9F%BA%E7%A1%80/" class="md-tabs__link">
+          数据库
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../web/%E5%8D%8F%E8%AE%AE/HTTP/" class="md-tabs__link">
+          前端
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../language/python/%E5%9F%BA%E7%A1%80/01-python%E7%AE%80%E4%BB%8B/" class="md-tabs__link">
+          编程语言
+        </a>
+      
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../Virtualization/Docker/%E5%AE%89%E8%A3%85/" class="md-tabs__link">
+          虚拟化
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" class="md-tabs__link md-tabs__link--active">
+          CI&CD
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../resource/docs/" class="md-tabs__link">
+          资源
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../music/xiao/" class="md-tabs__link">
+          音乐
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://github.com/sufangmu/notes" title="苏方木的笔记" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    苏方木的笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="首页" class="md-nav__link">
+      首页
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Linux
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Linux
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/linux_commands/" title="常用命令" class="md-nav__link">
+      常用命令
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/grep_sed_awk/" title="文本处理三剑客" class="md-nav__link">
+      文本处理三剑客
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/service/" title="服务" class="md-nav__link">
+      服务
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/ShellScript/" title="Shell" class="md-nav__link">
+      Shell
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      网络
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        网络
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/network/TCP/" title="TCP/IP" class="md-nav__link">
+      TCP/IP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/network/iptables/" title="Iptables" class="md-nav__link">
+      Iptables
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../linux/vim/" title="VIM" class="md-nav__link">
+      VIM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      数据库
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        数据库
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      mysql
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        mysql
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E5%9F%BA%E7%A1%80/" title="基础" class="md-nav__link">
+      基础
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/SQL/" title="SQL" class="md-nav__link">
+      SQL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BD%E6%95%B0/" title="存储过程和函数" class="md-nav__link">
+      存储过程和函数
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E7%B4%A2%E5%BC%95/" title="索引" class="md-nav__link">
+      索引
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92/" title="执行计划" class="md-nav__link">
+      执行计划
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E6%97%A5%E5%BF%97/" title="日志" class="md-nav__link">
+      日志
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E4%BC%98%E5%8C%96/" title="优化" class="md-nav__link">
+      优化
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../databases/MySQL/%E8%BF%90%E7%BB%B4/" title="运维" class="md-nav__link">
+      运维
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      前端
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        前端
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      协议
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        协议
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E5%8D%8F%E8%AE%AE/HTTP/" title="HTTP" class="md-nav__link">
+      HTTP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E5%8D%8F%E8%AE%AE/RESTful/" title="RESTful" class="md-nav__link">
+      RESTful
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      语言
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        语言
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E8%AF%AD%E8%A8%80/html/" title="HTML" class="md-nav__link">
+      HTML
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E8%AF%AD%E8%A8%80/CSS/" title="CSS" class="md-nav__link">
+      CSS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E8%AF%AD%E8%A8%80/JavaScript/" title="JavaScript" class="md-nav__link">
+      JavaScript
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      框架
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        框架
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E6%A1%86%E6%9E%B6/jQuery/" title="jQuery" class="md-nav__link">
+      jQuery
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+    
+    <label class="md-nav__link" for="nav-4-4">
+      软件
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        软件
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E8%BD%AF%E4%BB%B6/Nginx/" title="Nginx" class="md-nav__link">
+      Nginx
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web/%E8%BD%AF%E4%BB%B6/Tomcat/" title="Tomcat" class="md-nav__link">
+      Tomcat
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      编程语言
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        编程语言
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Python
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        Python
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1-1" type="checkbox" id="nav-5-1-1">
+    
+    <label class="md-nav__link" for="nav-5-1-1">
+      基础
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-1">
+        基础
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/01-python%E7%AE%80%E4%BB%8B/" title="python简介" class="md-nav__link">
+      python简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/02-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" title="基本数据类型" class="md-nav__link">
+      基本数据类型
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/03-%E9%80%BB%E8%BE%91%E6%8E%A7%E5%88%B6/" title="逻辑控制" class="md-nav__link">
+      逻辑控制
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/04-%E5%87%BD%E6%95%B0/" title="函数" class="md-nav__link">
+      函数
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/05-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" title="面向对象" class="md-nav__link">
+      面向对象
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/06-%E5%8C%85%E5%92%8C%E6%A8%A1%E5%9D%97/" title="包和模块" class="md-nav__link">
+      包和模块
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/07-%E8%BF%AD%E4%BB%A3%E5%92%8C%E6%8E%A8%E5%AF%BC/" title="迭代和推导" class="md-nav__link">
+      迭代和推导
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/08-%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86/" title="文件处理" class="md-nav__link">
+      文件处理
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/09-%E5%BC%82%E5%B8%B8%E4%B8%8E%E6%B5%8B%E8%AF%95/" title="异常处理" class="md-nav__link">
+      异常处理
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/01-%E5%86%85%E7%BD%AE%E6%A8%A1%E5%9D%97/" title="内置模块" class="md-nav__link">
+      内置模块
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/02-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="并行编程" class="md-nav__link">
+      并行编程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/03-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" title="网络编程" class="md-nav__link">
+      网络编程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/%E5%9F%BA%E7%A1%80/04-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/" title="数据库编程" class="md-nav__link">
+      数据库编程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Jinja2/" title="Jinja2" class="md-nav__link">
+      Jinja2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1-2" type="checkbox" id="nav-5-1-2">
+    
+    <label class="md-nav__link" for="nav-5-1-2">
+      Django
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-2">
+        Django
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/install/" title="安装" class="md-nav__link">
+      安装
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/response/" title="请求响应三板斧" class="md-nav__link">
+      请求响应三板斧
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/urls/" title="路由层" class="md-nav__link">
+      路由层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/view/" title="视图层" class="md-nav__link">
+      视图层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/template/" title="模板层" class="md-nav__link">
+      模板层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/model/" title="模型层" class="md-nav__link">
+      模型层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/middleware/" title="中间件" class="md-nav__link">
+      中间件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/forms/" title="表单" class="md-nav__link">
+      表单
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/auth/" title="auth模块" class="md-nav__link">
+      auth模块
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/cookie%26session/" title="cookie和session" class="md-nav__link">
+      cookie和session
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Django/admin/" title="admin" class="md-nav__link">
+      admin
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1-3" type="checkbox" id="nav-5-1-3">
+    
+    <label class="md-nav__link" for="nav-5-1-3">
+      DjangoRESTframework
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-3">
+        DjangoRESTframework
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/install/" title="安装" class="md-nav__link">
+      安装
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E5%BA%8F%E5%88%97%E5%8C%96/" title="序列化" class="md-nav__link">
+      序列化
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/" title="请求和响应" class="md-nav__link">
+      请求和响应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%A7%86%E5%9B%BE/" title="视图" class="md-nav__link">
+      视图
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%B7%AF%E7%94%B1/" title="路由" class="md-nav__link">
+      路由
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%AE%A4%E8%AF%81%E3%80%81%E6%9D%83%E9%99%90%E5%92%8C%E9%A2%91%E7%8E%87/" title="认证、权限和频率" class="md-nav__link">
+      认证、权限和频率
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%BF%87%E6%BB%A4%E3%80%81%E6%8E%92%E5%BA%8F%E3%80%81%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/" title="过滤、排序、异常处理" class="md-nav__link">
+      过滤、排序、异常处理
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/DjangoRESTframework/%E8%87%AA%E5%AE%9A%E4%B9%89response/" title="自定义response" class="md-nav__link">
+      自定义response
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1-4" type="checkbox" id="nav-5-1-4">
+    
+    <label class="md-nav__link" for="nav-5-1-4">
+      Flask
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-4">
+        Flask
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../language/python/Flask/install/" title="简介与安装" class="md-nav__link">
+      简介与安装
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      虚拟化
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        虚拟化
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1">
+    
+    <label class="md-nav__link" for="nav-6-1">
+      Docker
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-1">
+        Docker
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Virtualization/Docker/%E5%AE%89%E8%A3%85/" title="实现" class="md-nav__link">
+      实现
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+    
+    <label class="md-nav__link" for="nav-7">
+      CI&CD
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        CI&CD
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1" checked>
+    
+    <label class="md-nav__link" for="nav-7-1">
+      版本控制
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-1">
+        版本控制
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Git
+      </label>
+    
+    <a href="./" title="Git" class="md-nav__link md-nav__link--active">
+      Git
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    一、git基本概念
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-3" class="md-nav__link">
+    1. 3个区域
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-3" class="md-nav__link">
+    2. 3个对象
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-3" class="md-nav__link">
+    3. 3种状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-git" class="md-nav__link">
+    4. Git基本的工作流程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-git" class="md-nav__link">
+    5. Git工作区目录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_2" class="md-nav__link">
+    二、Git配置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git" class="md-nav__link">
+    1. Git配置文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-git" class="md-nav__link">
+    2. 查看git当前配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 常用配置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 用户名称与邮件地址
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 配置默认文本编辑器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    3. 查看具体某一项配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 别名
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 其他配置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    三、仓库管理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git_1" class="md-nav__link">
+    1. 新建Git仓库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git_2" class="md-nav__link">
+    1. 在当前目录初始化Git仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-git_1" class="md-nav__link">
+    2. 新建一个目录并将其初始化为Git仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-git" class="md-nav__link">
+    3. 克隆一个Git仓库
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    四、文件管理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    1. 查看当前文件状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    2. 添加内容到暂存区
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    清除工作区
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    3. 忽略文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    差异
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    4. 移除文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    5. 移动文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    保存工作进度
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    五、提交更新
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    1. 提交更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    2. 查看历史提交
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    六、远程仓库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    1. 查看远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    2. 添加远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_3" class="md-nav__link">
+    3. 拉取远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_2" class="md-nav__link">
+    4. 推送到远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    5. 重命名远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 删除远程仓库
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    七、标签
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_4" class="md-nav__link">
+    1. 标签的分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_4" class="md-nav__link">
+    2. 查看标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_4" class="md-nav__link">
+    3. 创建标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_3" class="md-nav__link">
+    4. 共享标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_3" class="md-nav__link">
+    5. 检出标签
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    八、分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_5" class="md-nav__link">
+    1. 本地分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_6" class="md-nav__link">
+    1. 创建分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_5" class="md-nav__link">
+    2. 查看分支列表
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_5" class="md-nav__link">
+    3. 切换分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_4" class="md-nav__link">
+    4. 合并分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_4" class="md-nav__link">
+    5. 删除分支
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_6" class="md-nav__link">
+    2.远程分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_7" class="md-nav__link">
+    1. 查看远程分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_7" class="md-nav__link">
+    2. 更新远程仓库的引用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_6" class="md-nav__link">
+    3. 合并分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_5" class="md-nav__link">
+    4. 基于远程跟踪分支创建本地分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_5" class="md-nav__link">
+    5. 修改正在跟踪的上游分支或设置已有的本地分支跟踪一个刚刚拉取下来的远程分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    6. 删除远程分支
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_7" class="md-nav__link">
+    3.合并分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_8" class="md-nav__link">
+    1. 合并算法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    变基
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_3" class="md-nav__link">
+    Git原理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    底层命名
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git-rev-parse" class="md-nav__link">
+    1. git rev-parse
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-lfs" class="md-nav__link">
+    Git LFS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-2" type="checkbox" id="nav-7-2">
+    
+    <label class="md-nav__link" for="nav-7-2">
+      Jenkins
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-2">
+        Jenkins
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Jenkins/jenkins-pipeline-syntax/" title="pipeline-syntax" class="md-nav__link">
+      pipeline-syntax
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Jenkins/jenkinsfile/" title="jenkinsfile" class="md-nav__link">
+      jenkinsfile
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-3" type="checkbox" id="nav-7-3">
+    
+    <label class="md-nav__link" for="nav-7-3">
+      Ansible
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-3">
+        Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Ansible/ansible/" title="Ansible基础" class="md-nav__link">
+      Ansible基础
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-4" type="checkbox" id="nav-7-4">
+    
+    <label class="md-nav__link" for="nav-7-4">
+      Jenkins
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-4">
+        Jenkins
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Jenkins/Jenkins%E5%9F%BA%E7%A1%80/" title="Jenkins基础" class="md-nav__link">
+      Jenkins基础
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      资源
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        资源
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../resource/docs/" title="资源" class="md-nav__link">
+      资源
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      音乐
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        音乐
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../music/xiao/" title="箫" class="md-nav__link">
+      箫
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../music/zhudi/" title="笛" class="md-nav__link">
+      笛
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../music/guqin/" title="古琴" class="md-nav__link">
+      古琴
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../music/pipa/" title="琵琶" class="md-nav__link">
+      琵琶
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../music/erhu/" title="二胡" class="md-nav__link">
+      二胡
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    一、git基本概念
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-3" class="md-nav__link">
+    1. 3个区域
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-3" class="md-nav__link">
+    2. 3个对象
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-3" class="md-nav__link">
+    3. 3种状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-git" class="md-nav__link">
+    4. Git基本的工作流程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-git" class="md-nav__link">
+    5. Git工作区目录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_2" class="md-nav__link">
+    二、Git配置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git" class="md-nav__link">
+    1. Git配置文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-git" class="md-nav__link">
+    2. 查看git当前配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 常用配置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 用户名称与邮件地址
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 配置默认文本编辑器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    3. 查看具体某一项配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 别名
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 其他配置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    三、仓库管理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git_1" class="md-nav__link">
+    1. 新建Git仓库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git_2" class="md-nav__link">
+    1. 在当前目录初始化Git仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-git_1" class="md-nav__link">
+    2. 新建一个目录并将其初始化为Git仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-git" class="md-nav__link">
+    3. 克隆一个Git仓库
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    四、文件管理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    1. 查看当前文件状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    2. 添加内容到暂存区
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    清除工作区
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    3. 忽略文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    差异
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    4. 移除文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    5. 移动文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    保存工作进度
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    五、提交更新
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    1. 提交更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    2. 查看历史提交
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    六、远程仓库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    1. 查看远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    2. 添加远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_3" class="md-nav__link">
+    3. 拉取远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_2" class="md-nav__link">
+    4. 推送到远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    5. 重命名远程仓库
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 删除远程仓库
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    七、标签
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_4" class="md-nav__link">
+    1. 标签的分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_4" class="md-nav__link">
+    2. 查看标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_4" class="md-nav__link">
+    3. 创建标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_3" class="md-nav__link">
+    4. 共享标签
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_3" class="md-nav__link">
+    5. 检出标签
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    八、分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_5" class="md-nav__link">
+    1. 本地分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_6" class="md-nav__link">
+    1. 创建分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_5" class="md-nav__link">
+    2. 查看分支列表
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_5" class="md-nav__link">
+    3. 切换分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_4" class="md-nav__link">
+    4. 合并分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_4" class="md-nav__link">
+    5. 删除分支
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_6" class="md-nav__link">
+    2.远程分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_7" class="md-nav__link">
+    1. 查看远程分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_7" class="md-nav__link">
+    2. 更新远程仓库的引用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_6" class="md-nav__link">
+    3. 合并分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_5" class="md-nav__link">
+    4. 基于远程跟踪分支创建本地分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_5" class="md-nav__link">
+    5. 修改正在跟踪的上游分支或设置已有的本地分支跟踪一个刚刚拉取下来的远程分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    6. 删除远程分支
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_7" class="md-nav__link">
+    3.合并分支
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_8" class="md-nav__link">
+    1. 合并算法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    变基
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_3" class="md-nav__link">
+    Git原理
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    底层命名
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-git-rev-parse" class="md-nav__link">
+    1. git rev-parse
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-lfs" class="md-nav__link">
+    Git LFS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h1>
+<p>2014由Linus Torvalds开发的分支管理系统。</p>
+<h2 id="git_1">一、git基本概念<a class="headerlink" href="#git_1" title="Permanent link">&para;</a></h2>
+<h3 id="1-3">1. 3个区域<a class="headerlink" href="#1-3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>工作区：<code>.git</code>版本库所在的目录</li>
+<li>暂存区：也叫缓存区，或索引(<code>.git/index</code>)。是一个文件，保存了下次将提交的文件列表信息，一般在 Git 仓库目录中</li>
+<li>版本库：用来保存项目的元数据和对象数据库的地方，<code>.git</code>目录就是版本库。</li>
+</ol>
+<h3 id="2-3">2. 3个对象<a class="headerlink" href="#2-3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>git对象</li>
+<li>树对象</li>
+<li>提交对象</li>
+</ol>
+<h3 id="3-3">3. 3种状态<a class="headerlink" href="#3-3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>已修改（modified）：表示修改了文件，但还没保存到数据库中。</li>
+<li>已暂存（staged）：表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。</li>
+<li>已提交（committed）：表示数据已经安全的保存在本地数据库中。</li>
+</ol>
+<h3 id="4-git">4. Git基本的工作流程<a class="headerlink" href="#4-git" title="Permanent link">&para;</a></h3>
+<ol>
+<li>在工作目录中修改文件。</li>
+<li>暂存文件，将文件的快照放入暂存区域。</li>
+<li>提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录。</li>
+</ol>
+<h3 id="5-git">5. Git工作区目录<a class="headerlink" href="#5-git" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ tree -FL <span class="m">1</span> .git
+.git
+├── branches/
+├── config      <span class="c1"># 项目特有的配置项</span>
+├── description <span class="c1"># 对仓库的描述信息</span>
+├── HEAD        <span class="c1"># 目前被检出的分支</span>
+├── hooks/      <span class="c1"># 包含客户端或服务端的钩子脚本</span>
+├── info/       <span class="c1"># 包含全局性的排出文件</span>
+├── objects/    <span class="c1"># 存储所有的数据内容</span>
+├── index       <span class="c1"># 包含文件索引的目录树，记录了文件名和文件的状态信息（时间戳和文件长度等）</span>
+└── refs/       <span class="c1"># 存储指向数据（分支）提交对象的指针</span>
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="git_2">二、Git配置<a class="headerlink" href="#git_2" title="Permanent link">&para;</a></h2>
+<h3 id="1-git">1. Git配置文件<a class="headerlink" href="#1-git" title="Permanent link">&para;</a></h3>
+<p>配置文件的三个存储位置</p>
+<ol>
+<li><code>/etc/gitconfig</code> ：针对所有用户的通用配置，使用<code>git config --system</code>配置</li>
+<li><code>~/.gitconfig</code> 或 <code>~/.config/git/config</code> ：针对当前用户，使用<code>git config --global</code>配置</li>
+<li><code>.git/config</code>：针对本仓库，使用<code>git config --local</code>配置</li>
+</ol>
+<blockquote>
+<p>这三个配置文件的优先级由低到高</p>
+</blockquote>
+<h3 id="2-git">2. 查看git当前配置<a class="headerlink" href="#2-git" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git config --list
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="3">3. 常用配置<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<h4 id="1">1. 用户名称与邮件地址<a class="headerlink" href="#1" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git config --global user.name <span class="s1">&#39;yuanzhigao&#39;</span>
+git config --global user.email <span class="err">&#39;</span>gaopeng0214@126.com
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="2">2. 配置默认文本编辑器<a class="headerlink" href="#2" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git config --global core.editor vim
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="3_1">3. 查看具体某一项配置<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git config user.name
+yuanzhigao
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="4">4. 别名<a class="headerlink" href="#4" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="5">5. 其他配置<a class="headerlink" href="#5" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 解决中文名的显示问题</span>
+git config --global core.quotepath <span class="nb">false</span>
+<span class="c1"># 输出中开启颜色显示</span>
+git config --global color.ui <span class="nb">true</span>
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_1">三、仓库管理<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="1-git_1">1. 新建Git仓库<a class="headerlink" href="#1-git_1" title="Permanent link">&para;</a></h3>
+<h4 id="1-git_2">1. 在当前目录初始化Git仓库<a class="headerlink" href="#1-git_2" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git init
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="2-git_1">2. 新建一个目录并将其初始化为Git仓库<a class="headerlink" href="#2-git_1" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git init Demo
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="3-git">3. 克隆一个Git仓库<a class="headerlink" href="#3-git" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># git协议</span>
+git clone git@gitee.com:gaoyuanzhi/Demo.git
+<span class="c1"># https协议</span>
+git clone https://gitee.com/gaoyuanzhi/python3-notes.git
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_2">四、文件管理<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><img alt="文件状态" src="../../../assets/images/git/filestatus.png" /></p>
+<h3 id="1_1">1. 查看当前文件状态<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 详细状态</span>
+$ git status
+<span class="c1"># 简短状态</span>
+$ git status -s
+M README            <span class="c1"># 文件被修改了并放入了暂存区</span>
+A lib/git.rb        <span class="c1"># 新添加到暂存区中的文件</span>
+ M lib/simplegit.rb <span class="c1"># 文件被修改了但是还没放入暂存区</span>
+?? LICENSE.txt      <span class="c1"># 新添加的未跟踪文件</span>
+</code></pre></div>
+</td></tr></table>
+
+<p><code>git status</code> 的几种状态</p>
+<ol>
+<li>changes to be commited(被提交的修改)：下次提交中被纳入版本库中的被修改的文件。</li>
+<li>changed but not updated(不会被更新的修改)：已经被修改但尚未注册到下次提交中的文件。</li>
+<li>untracked files(未被跟踪的文件)：新增文件</li>
+</ol>
+<blockquote>
+<p>当执行<code>git status</code> 或<code>git diff</code>扫描工作区改动的时候，先依据.git/index文件中记录的时间戳，长度等信息判断工作区文件是否改变，如果工作区文件的时间戳改变了，说明文件的内容可能被变了，需要打开文件，读取文件内容，与更改前的原始文件相比较，判断文件是否改变。如果文件内容没有改变，则将文件新的时间戳记录到.git/index文件中。</p>
+</blockquote>
+<h3 id="2_1">2. 添加内容到暂存区<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 添加指定文件到暂存区，一次可以添加多个文件</span>
+$ git add <span class="o">[</span>file1<span class="o">]</span> <span class="o">[</span>file2<span class="o">]</span>
+<span class="c1"># 添加指定目录到暂存区</span>
+$ git add <span class="o">[</span>dir<span class="o">]</span>
+<span class="c1"># 添加当前目录下的所有文件到暂存区</span>
+$ git add .
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="_3">清除工作区<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 清除工作区当前的改动</span>
+git clean -df
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="3_2">3. 忽略文件<a class="headerlink" href="#3_2" title="Permanent link">&para;</a></h3>
+<p>一般我们总会有些文件无需纳入 Git 的管理，也不希望它们总出现在未跟踪文件列表。 通常 都是些自动生成的文件，比如日志文件，或者编译过程中创建的临时文件等。 在这种情况 下，我们可以创建一个名为 .gitignore 的文件，列出要忽略的文件模式。</p>
+<p>文件 .gitignore 的格式规范如下：</p>
+<ol>
+<li>所有空行或者以 <code>＃</code>开头的行都会被 Git 忽略。</li>
+<li>可以使用shell 所使用的简化了的正则表达式的模式匹配。</li>
+<li>匹配模式可以以（<code>/</code>）开头防止递归。</li>
+<li>匹配模式可以以（<code>/</code>）结尾指定目录。</li>
+<li>要忽略指定模式以外的文件或目录，可以在模式前加上惊叹号（<code>!</code>）取反。</li>
+</ol>
+<blockquote>
+<p>https://github.com/github/gitignore 有十种项目及语言的 .gitignore 文件列表</p>
+</blockquote>
+<h3 id="_4">差异<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 工作区和暂存区中的差异</span>
+git diff
+<span class="c1"># 暂存区和版本库中的差异</span>
+git diff --cached
+<span class="c1"># 工作区和HEAD（当前工作分支）的差异</span>
+git diff HEAD
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="4_1">4. 移除文件<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 同时删除暂存区和工作区的文件</span>
+$ git rm <span class="o">[</span>file<span class="o">]</span>
+<span class="c1"># 从暂存区域移除但是在工作区保留</span>
+$ git rm --cached <span class="o">[</span>file<span class="o">]</span>
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="5_1">5. 移动文件<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 重命名或移动文件</span>
+$ git mv &lt;src&gt; &lt;dest&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="_5">保存工作进度<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git stash
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_6">五、提交更新<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="1_2">1. 提交更新<a class="headerlink" href="#1_2" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 启动文本编辑器以便输入本次提交的说明</span>
+$ git commit
+<span class="c1"># 将提交信息与命令放在同一行</span>
+$ git commit -m <span class="s2">&quot;Story 182: Fix benchmarks for speed&quot;</span>
+<span class="c1"># 把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤</span>
+$ git commit -a -m <span class="s1">&#39;added new benchmarks&#39;</span>
+<span class="c1"># 从新提交</span>
+$ git commit --amend
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="2_2">2. 查看历史提交<a class="headerlink" href="#2_2" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 查看历史提交</span>
+$ git log
+</code></pre></div>
+</td></tr></table>
+
+<p>常用选项</p>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>-p</code></td>
+<td>按补丁格式显示每个更新之间的差异</td>
+</tr>
+<tr>
+<td><code>--stat</code></td>
+<td>显示每次更新的文件修改统计信息。</td>
+</tr>
+<tr>
+<td><code>--shortstat</code></td>
+<td>只显示 --stat 中最后的行数修改添加移除统计</td>
+</tr>
+<tr>
+<td><code>--name-only</code></td>
+<td>仅在提交信息后显示已修改的文件清单。</td>
+</tr>
+<tr>
+<td><code>--name- status</code></td>
+<td>显示新增、修改、删除的文件清单</td>
+</tr>
+<tr>
+<td><code>--relative-date</code></td>
+<td>使用较短的相对时间显示（比如，“2 weeks ago”）</td>
+</tr>
+<tr>
+<td><code>--graph</code></td>
+<td>显示 ASCII 图形表示的分支合并历史</td>
+</tr>
+<tr>
+<td><code>--pretty</code></td>
+<td>使用其他格式显示历史提交信息。可用的选项包括 oneline，short， full，fuller 和 format（后跟指定格式）</td>
+</tr>
+<tr>
+<td><code>--decorate</code></td>
+<td>查看各个分支当前所指的对象</td>
+</tr>
+<tr>
+<td><code>-(n)</code></td>
+<td>仅显示最近的 n 条提交</td>
+</tr>
+<tr>
+<td><code>--since</code> ,<code>--after</code></td>
+<td>仅显示指定时间之后的提交</td>
+</tr>
+<tr>
+<td><code>--until</code> , <code>--before</code></td>
+<td>仅显示指定时间之前的提交</td>
+</tr>
+<tr>
+<td><code>--author</code></td>
+<td>仅显示指定作者相关的提交</td>
+</tr>
+<tr>
+<td><code>--committer</code></td>
+<td>仅显示指定提交者相关的提交</td>
+</tr>
+<tr>
+<td><code>--grep</code></td>
+<td>仅显示含指定关键字的提交</td>
+</tr>
+<tr>
+<td><code>-S</code></td>
+<td>仅显示添加或移除了某个关键字的提交</td>
+</tr>
+</tbody>
+</table>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 例</span>
+$ git log --since<span class="o">=</span><span class="s1">&#39;2020-2-10&#39;</span> --until<span class="o">=</span><span class="s1">&#39;2020-2-15&#39;</span> --pretty<span class="o">=</span>oneline
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_7">六、远程仓库<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="1_3">1. 查看远程仓库<a class="headerlink" href="#1_3" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git remote
+<span class="c1"># 显示远程仓库URL</span>
+$ git remote -v
+<span class="c1"># 查看更多信息，URL和分支等</span>
+$ git remote show origin
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="2_3">2. 添加远程仓库<a class="headerlink" href="#2_3" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 添加远程仓库并起一个别名</span>
+$ git remote add python3-notes git@gitee.com:gaoyuanzhi/python3-notes.git
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="3_3">3. 拉取远程仓库<a class="headerlink" href="#3_3" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 方法一</span>
+$ git pull
+<span class="c1"># 方法二</span>
+$ git fetch &lt;remote_name&gt;
+$ git merge
+</code></pre></div>
+</td></tr></table>
+
+<blockquote>
+<p>两种方式的区别：</p>
+<ol>
+<li>当 <code>git fetch</code> 命令从服务器上抓取本地没有的数据时，它并不会修改工作目录中的内容。 它只会获取数据然后让你自己合并。2.</li>
+<li><code>git pull</code> 在大多数情况下它的含义是一个 <code>git fetch</code> 紧接着一个 <code>git merge</code> 命令，<code>git pull</code> 会查找当前分支所跟踪的服务器与分支，从服务器上抓取数据然后尝试合并入那个远程分支。</li>
+</ol>
+</blockquote>
+<h3 id="4_2">4. 推送到远程仓库<a class="headerlink" href="#4_2" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git push origin &lt;分支名称&gt;
+<span class="c1"># git会将&lt;分支名称&gt;展开refs/heads/&lt;分支名称&gt;:refs/heads/&lt;分支名称&gt;</span>
+<span class="c1"># 如果本地分支和远程分支名字不同，可以写成如下方式</span>
+$ git push origin &lt;本地分支名称&gt;:&lt;远程分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="5_2">5. 重命名远程仓库<a class="headerlink" href="#5_2" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git remote rename old_name new_name
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="6">6. 删除远程仓库<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>git remote rm python3-notes
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_8">七、标签<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="1_4">1. 标签的分类<a class="headerlink" href="#1_4" title="Permanent link">&para;</a></h3>
+<ol>
+<li>轻量标签：一个轻量标签很像一个不会改变的分支，它只是一个特定提交的引用</li>
+<li>附注标签：存储在Git数据库中的一个完整对象</li>
+</ol>
+<blockquote>
+<p>附注标签包含打标签者的名字、电子邮件地址、日期时间；还有一个标签信息；并且可以使用 GNU Privacy Guard （GPG）签名与验证。
+轻量标签本质上是将提交校验和存储到一个文 件中 - 没有保存任何其他信息</p>
+</blockquote>
+<h3 id="2_4">2. 查看标签<a class="headerlink" href="#2_4" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 列出所有标签</span>
+$ git tag
+<span class="c1"># 查看标签的详细信息</span>
+git show v1.4
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="3_4">3. 创建标签<a class="headerlink" href="#3_4" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 创建附注标签</span>
+$ git tag -a v1.4 -m <span class="s1">&#39;my version 1.4&#39;</span>
+<span class="c1"># 创建轻量标签</span>
+git tag v1.4-lw
+<span class="c1"># 给之前的提交打标签</span>
+$ git tag -a v1.2 9fceb02
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="4_3">4. 共享标签<a class="headerlink" href="#4_3" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 把指定标签推送的远程仓库</span>
+$ git push origin <span class="o">[</span>tagname<span class="o">]</span>
+<span class="c1"># 推送所有不在远程仓库服务器上的标签</span>
+$ git push origin --tags
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="5_3">5. 检出标签<a class="headerlink" href="#5_3" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 并不能真的检出一个标签，只能在特定的标签上创建一个新分支</span>
+$ git checkout -b version2 v2.0.0
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="_9">八、分支<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<h3 id="1_5">1. 本地分支<a class="headerlink" href="#1_5" title="Permanent link">&para;</a></h3>
+<h4 id="1_6">1. 创建分支<a class="headerlink" href="#1_6" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 创建分支</span>
+$ git branch &lt;分支名称&gt; <span class="c1"># 在当前所在的提交对象上创建一个指针</span>
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="2_5">2. 查看分支列表<a class="headerlink" href="#2_5" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git branch
+  gh-pages
+* master <span class="c1"># `*`表示当前分支</span>
+<span class="c1"># 查看每一个分支的最后一次提交</span>
+$ git branch -v
+<span class="c1"># 要查看哪些分支已经合并到当前分支</span>
+$ git branch --merged
+<span class="c1"># 查看所有包含未合并工作的分支</span>
+$ git branch --no-merged
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="3_5">3. 切换分支<a class="headerlink" href="#3_5" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git checkout &lt;分支名称&gt; <span class="c1"># HEAD 指向当前分支</span>
+<span class="c1"># 新建一个分支并 同时切换到那个分支上</span>
+$ git checkout -b iss53
+</code></pre></div>
+</td></tr></table>
+
+<blockquote>
+<p><code>git checkout master</code>做了两件事：1.是使 HEAD 指回 master 分支，2、将工作目录恢复成 master 分支所指向的快照内容</p>
+</blockquote>
+<h4 id="4_4">4. 合并分支<a class="headerlink" href="#4_4" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git merge &lt;分支名称&gt;
+<span class="c1"># 合并远程分支到当前分支</span>
+$ git merge origin/&lt;远程分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="5_4">5. 删除分支<a class="headerlink" href="#5_4" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 删除分支</span>
+$ git branch -d &lt;分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="2_6">2.远程分支<a class="headerlink" href="#2_6" title="Permanent link">&para;</a></h3>
+<p>远程引用：是对远程仓库的引用（指针），包括分支、标签等等。</p>
+<p>远程跟踪分支：是远程分支状态的引用，以 <code>(remote)/(branch)</code> 形式命名</p>
+<h4 id="1_7">1. 查看远程分支<a class="headerlink" href="#1_7" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git remote
+<span class="c1"># 查看所有的跟踪分支</span>
+$ git branch -vv
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="2_7">2. 更新远程仓库的引用<a class="headerlink" href="#2_7" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 从远处仓库拉取</span>
+$ git fetch &lt;远程仓库名&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="3_6">3. 合并分支<a class="headerlink" href="#3_6" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 合并分支</span>
+$ git merge origin/&lt;远程分支名&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="4_5">4. 基于远程跟踪分支创建本地分支<a class="headerlink" href="#4_5" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>$ git checkout -b &lt;分支名称&gt; origin/&lt;分支名称&gt;
+<span class="c1"># 或者使用</span>
+$ git checkout --track origin/&lt;分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="5_5">5. 修改正在跟踪的上游分支或设置已有的本地分支跟踪一个刚刚拉取下来的远程分支<a class="headerlink" href="#5_5" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1">#</span>
+$ git branch -u origin/&lt;分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h4 id="6_1">6. 删除远程分支<a class="headerlink" href="#6_1" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 删除远程分支</span>
+$ git push origin --delete &lt;分支名称&gt;
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="3_7">3.合并分支<a class="headerlink" href="#3_7" title="Permanent link">&para;</a></h3>
+<h4 id="1_8">1. 合并算法<a class="headerlink" href="#1_8" title="Permanent link">&para;</a></h4>
+<ol>
+<li>递归算法</li>
+<li>3路算法</li>
+<li>“octpus”算法</li>
+</ol>
+<h2 id="_10">变基<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>将提交到某一分支上的所有修改都移至另一分支上</p>
+<h2 id="git_3">Git原理<a class="headerlink" href="#git_3" title="Permanent link">&para;</a></h2>
+<p>git的核心是一个对象数据库，该数据库可以用来存储文本或二进制数据。</p>
+<h3 id="_11">底层命名<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<h4 id="1-git-rev-parse">1. <code>git rev-parse</code><a class="headerlink" href="#1-git-rev-parse" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 显示版本库目录所在位置</span>
+$ git rev-parse --git-dir
+E:/notes/python3-notes/.git
+<span class="c1"># 显示工作区根目录</span>
+$ git rev-parse --show-toplevel
+E:/notes/python3-notes
+<span class="c1"># 显示相对于跟目录的相对目录</span>
+$ git rev-parse --show-prefix
+docs/img/
+<span class="c1"># 显示从当前目录后退到工作目录的深度</span>
+$ git rev-parse --show-cdup
+../../
+</code></pre></div>
+</td></tr></table>
+
+<p>执行<code>git add</code>操作时，暂存区的目录树将被更新，同时工作区修改的文件内容会被写入到对象库中的一个新的对象中。</p>
+<p>当执行<code>git commit</code>时，暂存区的目录树会写入到版本库中，master分支会做相应的更新，即master最新指向的目录树就是提交时原暂存区的目录树。</p>
+<p>当执行<code>git reset HEAD</code>时，暂存区的目录树会被重新，会被master分支指向的目录树所替换，工作区不受影响。</p>
+<p>当执行<code>git rm --cached &lt;file&gt;</code>时，会直接从暂存区删除文件，工作区则不做出改变。</p>
+<p>当执行<code>git checkout .</code>或<code>git checkout -- &lt;file&gt;</code>时，会用暂存区全部的文件或指定的文件替换工作区的文件。</p>
+<p>当执行<code>git checkout HEAD .</code>或<code>git checkout HEAD &lt;file&gt;</code>时，会用HEAD指向的master分支中的全部或部分文件替换暂存区和工作区中的文件。</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 显示HEAD指向的目录树</span>
+$ git ls-tree -l HEAD
+<span class="m">100644</span> blob 4eeb754bb5131ccbe8de9cd73907a5215901aa15      <span class="m">15</span>    .gitignore
+<span class="m">040000</span> tree 46fee821db1551e8341cf406271062eff4718c64       -    docs
+<span class="m">100644</span> blob 38d625ec66862f756ebe09b4af1a9b057f226e54    <span class="m">1249</span>    mkdocs.yml
+<span class="c1">#文件属性 blob对象 SHA1格式的ID值                         文件大小  文件名</span>
+</code></pre></div>
+</td></tr></table>
+
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># 显示暂存区目录树</span>
+$ git ls-files -s
+<span class="m">100644</span> 4eeb754bb5131ccbe8de9cd73907a5215901aa15 <span class="m">0</span>       .gitignore
+<span class="m">100644</span> 5c53539c2d6ec00fe3335ba9b86339ab2cdbc705 <span class="m">0</span>       docs/about.md
+                                            暂存区编号
+</code></pre></div>
+</td></tr></table>
+
+<p>Git对象</p>
+<h2 id="git-lfs">Git LFS<a class="headerlink" href="#git-lfs" title="Permanent link">&para;</a></h2>
+                
+                  
+                
+                
+                  
+                  <hr>
+                  <div class="md-source-date">
+                    <small>
+                      
+                        最后更新: 2020年11月15日
+                      
+                    </small>
+                  </div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../../Virtualization/Docker/%E5%AE%89%E8%A3%85/" title="实现" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                实现
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Jenkins/jenkins-pipeline-syntax/" title="pipeline-syntax" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                pipeline-syntax
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/sufangmu" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="mailto:sufangmu8377@163.com" target="_blank" rel="noopener" title="envelope-open" class="md-footer-social__link fa fa-envelope-open"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.c33a9706.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.ja.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.1",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
