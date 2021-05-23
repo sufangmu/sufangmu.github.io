@@ -48,19 +48,12 @@ extra_javascript:
   - javascripts/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css      
-#   - codehilite:
-#       guess_lang: false
-#       linenums: true
 
-#   manifest: 'manifest.webmanifest'
 
-#   search:
-#     tokenizer: '[\s\-\.]+' 
-#     prebuild_index: true  
 plugins:
   - search
-#   - progress
-#   - git-revision-date-localized
+    tokenizer: '[\s\-\.]+' 
+    prebuild_index: true  
 nav:
   - 首页: 'index.md'
   - Linux:
