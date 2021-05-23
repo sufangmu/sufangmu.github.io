@@ -52,7 +52,7 @@ extra_css:
 
 plugins:
   - search:
-      tokenizer: '[\s\-\.]+' 
+      separator: '[\s\-\.]+' 
       prebuild_index: true  
 nav:
   - 首页: 'index.md'
