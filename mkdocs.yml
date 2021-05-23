@@ -4,35 +4,63 @@ site_author: 苏方木
 site_url: https://github.com/sufangmu/notes
 theme:
   name: 'material'
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: blue grey    
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue grey   
   font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
-  programming: 'zh'
-  feature:
-    tabs: true
-    instant: true
+    text: Ubuntu
+    code: Ubuntu Mono
+  programming: zh
+  features:
+    - toc.integrate # 左侧显示大纲
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - search.suggest # 查询建议
+    - search.highlight
+    - header.autohide
 
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
-      linenums: true
   - toc:
       permalink: true
-
+  - pymdownx.highlight:
+      linenums: true    
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets    
 extra:
-  manifest: 'manifest.webmanifest'
   social:
-    - type: 'github'
-      link: 'https://github.com/sufangmu'
-    - type: 'envelope-open'
-      link: 'mailto:sufangmu8377@163.com'
-  search:
-    tokenizer: '[\s\-\.]+' 
-    prebuild_index: true  
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:sufangmu8377@163.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/sufangmu
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - javascripts/config.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css      
+#   - codehilite:
+#       guess_lang: false
+#       linenums: true
+
+#   manifest: 'manifest.webmanifest'
+
+#   search:
+#     tokenizer: '[\s\-\.]+' 
+#     prebuild_index: true  
 plugins:
   - search
-  - progress
-  - git-revision-date-localized
+#   - progress
+#   - git-revision-date-localized
 nav:
   - 首页: 'index.md'
   - Linux:
