@@ -51,9 +51,9 @@ extra_css:
 
 
 plugins:
-  - search
-    tokenizer: '[\s\-\.]+' 
-    prebuild_index: true  
+  - search:
+      tokenizer: '[\s\-\.]+' 
+      prebuild_index: true  
 nav:
   - 首页: 'index.md'
   - Linux:
