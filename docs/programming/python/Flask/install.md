@@ -4,10 +4,8 @@
 
 官方文档：[https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
 
-相比于Django这种大而全的框架，Flask短小精悍，有很强可扩展性以及丰富的第三方组件。
-
 ```bash
-$ pip install flask
+$ pip install flask==1.1.2
 $ pipdeptree -p flask
 Flask==1.1.2
   - click [required: >=5.1, installed: 7.0]
@@ -25,6 +23,8 @@ Flask==1.1.2
 - ItsDangerous 保证数据完整性的安全标志数据，用于保护 Flask 的 session cookie. 
 - Click 是一个命令行应用的框架。用于提供 flask 命令，并允许添加自定义管理命令。 
 
+通过werkzeug启动一个http服务：
+
 ```python
 from werkzeug.serving import run_simple
 from werkzeug.wrappers import Response, Request
@@ -39,9 +39,7 @@ if __name__ == '__main__':
     run_simple('localhost', 8000, index)
 ```
 
-
-
-## 二、简单实用
+## 二、第一个Flask程序
 
 ```python
 from flask import Flask

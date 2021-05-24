@@ -1,84 +1,57 @@
-# 配置文件
+# 配置
 
-## 方式一
-
-```python
-from flask import Flask
-
-app = Flask(__name__)
-# 配置方式一
-app.config['debug'] = True
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+配置本质是通过`Flask`对象的`config`属性来配置的。
 
 
-if __name__ == '__main__':
-    app.run()
-```
 
-## 方式二
+
+
+## 一、通过字典的方式配置
 
 ```python
 from flask import Flask
 
 app = Flask(__name__)
+app['DEBUG'] = True
 
-# 从外部文件导入
-app.config.from_pyfile('settings.py')
 
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-
-if __name__ == '__main__':
-    app.run()
+def index():
+    return "Hello World!"
 ```
 
-```python
-# filename: settings.py
-debug = True
-```
-
-## 方式三
+使用`update()`方法同时配置多个值
 
 ```python
 from flask import Flask
 
 app = Flask(__name__)
-
-app.config.from_object('settings.DevelopmentConfig')
+app.config.update(
+    DEBUG=True,
+    SECRET_KEY='_5#y2L"F4Q8z\n\xec]/',
+)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-
-if __name__ == '__main__':
-    app.run()
+def index():
+    return "Hello World!"
 ```
 
+
+
+## 二、通过Flask对象属性的方式配置
+
+有少数的几个配置项可以通过Flask对象属性的方式配置
+
 ```python
-# filename: settings.py
-class Config(object):
-    DEBUG = False
-    TESTING = False
-    DATABASE_URI = 'sqlite:///:memory:'
+from flask import Flask
+
+app = Flask(__name__)
+app.debug = True
 
 
-class ProductionConfig(Config):
-    DATABASE_URI = 'mysql://user@localhost/foo'
-
-
-class DevelopmentConfig(Config):
-    DEBUG = True
-
-
-class TestingConfig(Config):
-    TESTING = True
-
+@app.route('/')
+def index():
+    return "Hello World!"
 ```
 
