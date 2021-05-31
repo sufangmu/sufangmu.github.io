@@ -1,113 +1,120 @@
 # 路由
 
+## 一、路由的作用
+
+用来处理URL和函数之间的关系。
+
+## 二、路由的创建
+
+### 1. 通过装饰器创建
+
 ```python
 from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/', methods=['GET', 'POST'], endpoint='index')
+# endpoint，给路由起别名，默认值是函数名
+def index():
+    return "Hello World!"
+```
+
+`app.route()`源码分析
+
+```python
+class Flask(_PackageBoundObject):
+
+    def route(self, rule, **options):
+        def decorator(f):
+            # 通过route方法，把rule和options参数传递进来，进行一些处理（绑定路由关系）
+            endpoint = options.pop("endpoint", None)
+            self.add_url_rule(rule, endpoint, f, **options)
+            return f # 将被装饰的视图函数原封不动的返回
+
+        return decorator
+```
+
+```python
+@app.route('/', methods=['GET', 'POST'], endpoint='index')
+def index():
+    return "Hello World!"
+
+# ==> index=app.route('/', methods=['GET', 'POST'], endpoint='index')(index)
+# ==> index=decorator(index)
+```
+
+### 2. 通过`add_url_rule()`方法创建
+
+通过分析`route()`装饰器的源码可知，路由关系其实是通过`add_url_rule()`方法来创建的。
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+
+def index():
+    return "Hello World!"
+
+
+app.add_url_rule('/', 'index', index, methods=['GET', 'POST'])
+
+```
+
+## 三、`url_for()`
+
+用途：反向生成URL
+
+```python
+from flask import Flask, url_for
 
 app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'], endpoint='root')
-def hello_world():
-    return 'Hello, World!'
+def index():
+    return "Hello World!"
 
 
-if __name__ == '__main__':
-    app.run()
-
+@app.route('/page')
+def page():
+    print("root path: %s" % format(url_for('root')))
+    return "page"
 ```
 
 
+##   四、路由转换器
+
+### 1. 内置转换器
+
+| 类型   | 作用                             |
+| ------ | -------------------------------- |
+| string | 缺省值，接收任何不包含斜杠的文本 |
+| int    | 接收正整数                       |
+| float  | 接受正浮点数                     |
+| path   | 类似string，但可以包含斜杠       |
+| uuid   | 接受UUID字符串                   |
 
 ```python
-① @app.route('/', methods=['GET', 'POST'], endpoint='root')
-    # route源码
-    def route(self, rule, **options):
-        # rule = '/'
-        # options = {methods=['GET', 'POST'], endpoint='root'}
-        def decorator(f):
-            endpoint = options.pop("endpoint", None)
-            self.add_url_rule(rule, endpoint, f, **options) # 核心
-            return f
-
-        return decorator
-        # decorator = app.route('/', methods=['GET', 'POST'], endpoint='root')
-② @decorator
-	decorator(index)
-```
-
-
-
-```python
-from flask import Flask
+from flask import Flask, url_for
 
 app = Flask(__name__)
 
 
-def login():
-    return 'Login'
+@app.route('/', methods=['GET', 'POST'], endpoint='root')
+def index():
+    return "Hello World!"
 
 
-app.add_url_rule('/login', 'lgn', login, methods=['GET', 'POST'])
-
-if __name__ == '__main__':
-    app.run()
-
+@app.route('/user/<int:id>')
+def user(id):
+    user_id = str(id)
+    print(type(id)) # <class 'int'>
+    return str(user_id)
 ```
 
-
-
-路由本质是通过add_url_rule来实现的。
-
-
-
-CBV
-
-```python
-from flask import Flask, views
-
-app = Flask(__name__)
-
-
-def auth(func):
-    def inner(*args, **kwargs):
-        result = func(*args, **kwargs)
-        return result
-    return inner
-
-
-class IndexView(views.MethodView):
-    methods = ['GET', 'POST']
-    decorators = [auth, ]
-
-    def get(self):
-        return 'Index GET'
-
-    def post(self):
-        return 'Index POST'
-
-
-app.add_url_rule('/index', view_func=IndexView.as_view(name='index'))
-
-if __name__ == '__main__':
-    app.run()
-
-```
-
-
-
-```python
-add_url_rule(options)
-参数：https://werkzeug.palletsprojects.com/en/1.0.x/routing/#werkzeug.routing.Rule
-    
-defaults
-subdomain
-strict_slashes
-redirect_to
-```
-
-
-
-自定义转换器
+### 2. 自定义转换器
 
 ```python
 from flask import Flask, views
@@ -133,7 +140,7 @@ class RegexConverter(BaseConverter):
 
     def to_url(self, value):
         """
-        使用url_for反向生成URL时，传递的参数经过该方法处理，反之的值用于生成URL中的参数
+        使用url_for反向生成URL时，传递的参数经过该方法处理，返回的值用于生成URL中的参数
         :param value:
         :return:
         """
@@ -154,4 +161,13 @@ if __name__ == '__main__':
     app.run()
 
 ```
+
+## 五、`route()`参数
+
+1. `defaults`：给视图函数提供默认参数。`defaults={'page':1}`
+2. `strict_slashes`：对URL后的`/`是否严格要求。`strict_slashes=False`
+3. `redirect_to`：重定向。`redirect_to='http://www.baidu.com'`
+4. `subdomain`：获取被访问URL的子域名。`subdomain='<subdomain_name>'`
+
+> 完整参数在werkzeug.routing.Rule
 

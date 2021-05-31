@@ -45,7 +45,7 @@ if __name__ == '__main__':
 from flask import Flask
 
 app = Flask(__name__)  # app是一个Flask类的对象
-
+# __name__ 决定了程序的根目录，用来确定程序的位置，从而找到模板文件和静态文件的位置。
 
 @app.route('/')
 def hello_world():

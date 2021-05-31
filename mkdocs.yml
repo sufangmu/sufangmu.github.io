@@ -64,7 +64,7 @@ nav:
     - 网络: 
       - 'TCP/IP': 'linux/network/TCP.md'
       - 'Iptables': 'linux/network/iptables.md'
-    - '文档': 'linux/docs/docs.md'  
+    - '文档': 'linux/docs.md'  
   - 数据库:
     - mysql: 
       - '安装': 'databases/MySQL/安装.md'
