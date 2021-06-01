@@ -35,7 +35,7 @@ def index():
 每次请求之前运行，运行顺序按代码的顺序执行。
 
 ```python
-from flask import Flask, session
+from flask import Flask
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'UxlucZVeYToAjpMULTNOEw=='
@@ -56,13 +56,56 @@ def index():
     print("视图函数")
     return "Hello World"
 
+# 请求之前 part1
+# 请求之前 part2
+# 视图函数
 ```
 
-
+如果`before_request`装饰的函数中有`return`，跳过后续的`before_request`和视图函数，`after_request`
 
 #### 2. `before_first_request`
 
+程序启动后，只有第一个请求会执行。
+
 #### 3. `after_request`
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'UxlucZVeYToAjpMULTNOEw=='
+
+
+@app.before_request
+def before_part1():
+    print("请求之前 part1")
+    # 在此处有return ，会跳过视图函数，直接执行after_request
+    return "请求之前 part1"
+
+
+@app.after_request
+def after_part1(response):
+    print("请求之后 part1")
+    return response
+
+
+@app.after_request
+def after_part1(response):
+    print("请求之后 part2")
+    return response
+
+
+@app.route('/')
+def index():
+    print("视图函数")
+    return "Hello World"
+
+# 请求之前 part1
+# 请求之后 part2
+# 请求之后 part1
+```
+
+`after_request`可以叠加多个，执行顺序按代码顺序倒序执行。
 
 #### 4. `teardown_request`
 
@@ -147,58 +190,29 @@ def index():
     return 'Hello World!'
 ```
 
+## 三、自定义错误页面
 
-
-## 请求扩展
-
-1. `@app.before_request`
-
-可以有返回
+通过`app.errorhandler`装饰器自定义错误页面。
 
 ```python
-func(*args, **kwargs)
-    pass
-```
+from flask import Flask, render_template
+
+app = Flask(__name__)
 
 
-
-```python
-# 设置白名单
-if request.path == '/login':
-    return None
-```
-
-可以叠加多个，执行顺序按代码顺序执行
+@app.route('/')
+def index():
+    return "Hello World"
 
 
-
-`@app.before_first_request`
-
-
-
-2.`@app.after_request`
-
-```python
-func(response):
-    pass
-    return response
-```
-
-可以叠加多个，执行顺序按代码顺序倒序执行。
-
-请求拦截后所有的response都会执行。
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 
+@app.errorhandler(500)
+def page_not_found(e):
+    return render_template('500.html'), 500
 
- 
-
-  
-
-定制404
-
-```python
-@app.errorhander(404)
-def error_404(arg):
-    return "404了。。。"
 ```
 
