@@ -1,27 +1,14 @@
-# Session
+## Session源码分析
 
-## 一、使用
+Flask程序启动之后，如果有请求到来，就是执行app中的`__call__()`方法。
 
 ```python
-from flask import Flask, session
-
-app = Flask(__name__)
-app.config['SECRET_KEY'] = 'UxlucZVeYToAjpMULTNOEw=='
-
-
-@app.route('/login')
-def login():
-    session['user'] = 'root'
-    return "Login"
-
-
-@app.route('/')
-def index():
-    return session['user']
-
+class Flask(_PackageBoundObject):
+    def __call__(self, environ, start_response):
+        return self.wsgi_app(environ, start_response)
 ```
 
-## 二、源码分析
+
 
 1. 请求到来之后，执行app对象的`__call__()`方法
 
@@ -69,28 +56,29 @@ def index():
    ```
 
 5. 请求处理完之后执行`ctx.push()`
-    ```python
-    class Flask(_PackageBoundObject):
-        def wsgi_app(self, environ, start_response):
-            ctx = self.request_context(environ)
-            # 请求内容被封装
-            error = None
-            try:
-                try:
-                    ctx.push()
-                    response = self.full_dispatch_request()
-                except Exception as e:
-                    error = e
-                    response = self.handle_exception(e)
-                except:  # noqa: B001
-                    error = sys.exc_info()[1]
-                    raise
-                return response(environ, start_response)
-            finally:
-                if self.should_ignore_error(error):
-                    error = None
-                ctx.auto_pop(error)
-    ```
+
+   ```python
+   class Flask(_PackageBoundObject):
+       def wsgi_app(self, environ, start_response):
+           ctx = self.request_context(environ)
+           # 请求内容被封装
+           error = None
+           try:
+               try:
+                   ctx.push()
+                   response = self.full_dispatch_request()
+               except Exception as e:
+                   error = e
+                   response = self.handle_exception(e)
+               except:  # noqa: B001
+                   error = sys.exc_info()[1]
+                   raise
+               return response(environ, start_response)
+           finally:
+               if self.should_ignore_error(error):
+                   error = None
+               ctx.auto_pop(error)
+   ```
 
 6. 执行`SecureCookieSessionInterface`中的`open_session()`方法
 
@@ -110,7 +98,6 @@ def index():
                self.match_request()
    
    ```
-   
 
 7. 第一次请求时cookie中没有session，返回一个session类。
 
@@ -212,3 +199,4 @@ def index():
 
    
 
+## 

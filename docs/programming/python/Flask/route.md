@@ -14,10 +14,10 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET', 'POST'], endpoint='index')
-# endpoint，给路由起别名，默认值是函数名
+@app.route('/')
 def index():
     return "Hello World!"
+
 ```
 
 `app.route()`源码分析
@@ -83,8 +83,21 @@ def page():
     return "page"
 ```
 
+## 四、`route()`参数
 
-##   四、路由转换器
+1. `endpoint`：对应视图函数，默认是视图函数名
+2. `methods`：允许请求的方式。`methods = ["GET","POST"]`
+
+1. `defaults`：给视图函数提供默认参数。`defaults={'page':1}`
+2. `strict_slashes`：对URL后的`/`是否严格要求。strict_slashes=False`
+3. `redirect_to`：308永久重定向，没有进入视图，直接跳转。`redirect_to='http://www.baidu.com'`
+4. `subdomain`：获取被访问URL的子域名。`subdomain='<subdomain_name>'`
+
+> 完整参数在werkzeug.routing.Rule
+
+
+
+##   五、动态路由
 
 ### 1. 内置转换器
 
@@ -161,13 +174,4 @@ if __name__ == '__main__':
     app.run()
 
 ```
-
-## 五、`route()`参数
-
-1. `defaults`：给视图函数提供默认参数。`defaults={'page':1}`
-2. `strict_slashes`：对URL后的`/`是否严格要求。`strict_slashes=False`
-3. `redirect_to`：重定向。`redirect_to='http://www.baidu.com'`
-4. `subdomain`：获取被访问URL的子域名。`subdomain='<subdomain_name>'`
-
-> 完整参数在werkzeug.routing.Rule
 
