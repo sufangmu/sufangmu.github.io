@@ -7,6 +7,7 @@
 - [Flask1.1.x文档（英文版）](python/flask-palletsprojects-com-en-1.1.x.pdf)
 - [Flask1.1.x文档（中文版）](python/flask-palletsprojects-com-zh-1.1.x.pdf)
 - [Flask Web开发：基于Python的Web应用开发实战.第2版](python/Flask Web开发：基于Python的Web应用开发实战.第2版.pdf)
+- [bottle-docs](python/bottle-docs.pdf)
 - [Jinja2.11x文档](python/jinja-palletsprojects-com-en-2.11.x.pdf)
 
 ## - 数据库
