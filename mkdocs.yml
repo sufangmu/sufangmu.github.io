@@ -20,7 +20,6 @@ theme:
     code: Ubuntu Mono
   programming: zh
   features:
-    - toc.integrate # 左侧显示大纲
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
