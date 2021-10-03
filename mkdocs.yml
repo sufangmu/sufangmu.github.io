@@ -108,7 +108,7 @@ nav:
         - 'auth模块': 'programming/python/Django/auth.md'
         - 'cookie和session': 'programming/python/Django/cookie&session.md'
         - 'admin': programming/python/Django/admin.md
-      - DjangoRESTframework:
+      - DRF:
         - '安装': 'programming/python/DjangoRESTframework/install.md'
         - '序列化': 'programming/python/DjangoRESTframework/序列化.md'
         - '请求和响应': 'programming/python/DjangoRESTframework/请求和响应.md'
@@ -130,6 +130,9 @@ nav:
         - '面向对象（二）': 'programming/java/基础/面向对象（二）.md'
         - '面向对象（三）': 'programming/java/基础/面向对象（三）.md'
         - 'equals()和==': 'programming/java/基础/equals()和==.md'
+        - '异常处理': 'programming/java/基础/异常处理.md'
+      - 高级:
+        - '多线程': 'programming/java/高级/多线程.md'
   - 虚拟化:
     - Docker:
       - '实现': 'Virtualization/Docker/安装.md'
@@ -146,8 +149,4 @@ nav:
   - 资源:
       - '资源': 'resource/docs.md'
   - 音乐:
-      - '箫': 'music/xiao.md'
-      - '笛': 'music/zhudi.md'
-      - '古琴': 'music/guqin.md'
-      - '琵琶': 'music/pipa.md'
-      - '二胡': 'music/erhu.md'
+      - 'music': 'music.md'
