@@ -51,8 +51,7 @@ extra_css:
 
 plugins:
   - search:
-      separator: '[\s\-\.]+' 
-      prebuild_index: true  
+      separator: '[\s\-\.]+'   
 nav:
   - 首页: 'index.md'
   - Linux:
@@ -60,6 +59,7 @@ nav:
     - '文本处理': 'linux/grep_sed_awk.md'
     - 'ShellScript': 'linux/ShellScript.md'
     - 'VIM': 'linux/vim.md'
+    - '服务': 'linux/service.md'
     - 网络: 
       - 'TCP/IP': 'linux/network/TCP.md'
       - 'Iptables': 'linux/network/iptables.md'
@@ -74,12 +74,18 @@ nav:
       - '索引': 'databases/MySQL/索引.md'
       - '执行计划': 'databases/MySQL/执行计划.md'
   - 前端:
+    - 协议:
       - 'HTTP': 'web/协议/HTTP.md'      
-      - 'RESTful': 'web/协议/RESTful.md'  
+      - 'RESTful': 'web/协议/RESTful.md' 
+    - 语言:
       - 'HTML': 'web/语言/html.md'
       - 'CSS': 'web/语言/CSS.md'
       - 'JavaScript': 'web/语言/JavaScript.md'
+    - 框架:
       - 'jQuery': 'web/框架/jQuery.md'
+    - 软件:
+      - 'Nginx': 'web/软件/Nginx.md'
+      - 'Tomcat': 'web/软件/Tomcat.md'
   - 编程语言:
     - Python:
       - 基础:
@@ -109,17 +115,34 @@ nav:
         - 'cookie和session': 'programming/python/Django/cookie&session.md'
         - 'admin': programming/python/Django/admin.md
       - DRF:
-        - '安装': 'programming/python/DjangoRESTframework/install.md'
-        - '序列化': 'programming/python/DjangoRESTframework/序列化.md'
-        - '请求和响应': 'programming/python/DjangoRESTframework/请求和响应.md'
-        - '视图': 'programming/python/DjangoRESTframework/视图.md'
-        - '路由': 'programming/python/DjangoRESTframework/路由.md'
-        - '认证、权限和频率': 'programming/python/DjangoRESTframework/认证、权限和频率.md'
-        - '过滤、排序、异常处理': 'programming/python/DjangoRESTframework/过滤、排序、异常处理.md'
-        - '自定义response': 'programming/python/DjangoRESTframework/自定义response.md'
+        - '安装': 'programming/python/DRF/install.md'
+        - '序列化': 'programming/python/DRF/序列化.md'
+        - '请求和响应': 'programming/python/DRF/请求和响应.md'
+        - '视图': 'programming/python/DRF/视图.md'
+        - '路由': 'programming/python/DRF/路由.md'
+        - '认证、权限和频率': 'programming/python/DRF/认证、权限和频率.md'
+        - '过滤、排序、异常处理': 'programming/python/DRF/过滤、排序、异常处理.md'
+        - '自定义response': 'programming/python/DRF/自定义response.md'
       - Flask:
         - '简介与安装': 'programming/python/Flask/install.md'
+        - '配置': 'programming/python/Flask/configure.md'
+        - '请求和响应': 'programming/python/Flask/request&response.md'
+        - '路由': 'programming/python/Flask/route.md'
+        - '模板': 'programming/python/Flask/template.md'
+        - '视图': 'programming/python/Flask/view.md'
+        - 'cookie和session': 'programming/python/Flask/cookie&session.md'
+        - '蓝图': 'programming/python/Flask/blueprint.md'
+        - '上下文': 'programming/python/Flask/context.md'
+        - '闪现': 'programming/python/Flask/flashing.md'
+        - '中间件': 'programming/python/Flask/middleware.md'
+        - 扩展:
+          - 'flask-session': 'programming\python\Flask\extention\flask-session.md'
+        - 源码:
+          - 'Local': 'programming/python/Flask/sourcecode/Local.md'
+          - 'Session': 'programming/python/Flask/sourcecode/session.md'
+          - 'Context': 'programming/python/Flask/sourcecode/context.md'
       - 'Jinja2': 'programming/python/Jinja2.md'
+      - '数据分析': 'programming/python/数据分析/数据分析.md'
       - '数据结构和算法': 'programming/python/数据结构和算法.md'
     - Java:
       - 基础:
@@ -133,6 +156,16 @@ nav:
         - '异常处理': 'programming/java/基础/异常处理.md'
       - 高级:
         - '多线程': 'programming/java/高级/多线程.md'
+        - '常用类': 'programming/java/高级/常用类.md'
+        - '枚举类': 'programming/java/高级/枚举类.md'
+        - '泛型': 'programming/java/高级/泛型.md'
+        - '集合': 'programming/java/高级/集合.md'
+        - '反射': 'programming/java/高级/反射.md'
+        - '注解': 'programming/java/高级/注解.md'
+        - 'IO流': 'programming/java/高级/IO流.md'
+        - '网络编程': 'programming/java/高级/网络编程.md'
+        - '新特性': 'programming/java/高级/新特性.md'
+      - 设计模式: 'programming/java/设计模式.md'  
   - 虚拟化:
     - Docker:
       - '实现': 'Virtualization/Docker/安装.md'
@@ -144,9 +177,12 @@ nav:
       - 'jenkinsfile': 'CICD/Jenkins/jenkinsfile.md'
     - Ansible: 
       - 'Ansible基础': 'CICD/Ansible/ansible.md'
+      - 'AnsibleAPI': 'CICD/Ansible/AnsibleAPI.md'
     - Jenkins: 
       - 'Jenkins基础': 'CICD/Jenkins/Jenkins基础.md'
+  - 其他:
+    - 中间件:
+      - 'RabbitMQ': 'middleware/rabbitmq.md'
   - 资源:
       - '资源': 'resource/docs.md'
-  - 音乐:
-      - 'music': 'music.md'
+  - 音乐: 'music/music.md'

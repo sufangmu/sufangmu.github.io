@@ -199,4 +199,5 @@ class Flask(_PackageBoundObject):
 
    
 
-## 
+![](images/FlaskSession.svg)
+

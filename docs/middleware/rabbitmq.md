@@ -113,8 +113,6 @@ http://www.rabbitmq.com/
 
 信道，建立在Connection上的虚拟连接
 
-
-
 #### 4. 工作流程
 
 ##### 1. 生产者发送消息
@@ -140,8 +138,6 @@ http://www.rabbitmq.com/
 5. Rabbitmq从队列中删除已经被确认的消息
 6. 关闭信道
 7. 关闭连接
-
-
 
 ### 3. AMQP协议
 
@@ -938,7 +934,7 @@ $ rabbitmqctl set_user_tags admin administrator
 
 4. 登陆管理界面
    http://serverip:15672
-   ![rabbitmq web](../../assets/images/rabbitmq/rabbitmq_web.jpeg)
+   ![rabbitmq web](./images/rabbitmq_web.jpeg)
 
 5. 关闭插件
 
@@ -1224,7 +1220,6 @@ ubuntu@node2:~$ rabbitmqctl change_cluster_node_type {disc|ram}
 
 ```
 $ rabbitmqctl cluster_status
-
 ```
 
 2. 修改集群节点类型
@@ -1232,21 +1227,18 @@ $ rabbitmqctl cluster_status
 ```bash
 # 需要现停止rabbitmq应用：rabbitmqctl stop_app
 $ rabbitmqctl change_cluster_node_type {disc|ram}
-
 ```
 
 3. 将节点从集群中删除
 
 ```bash
 $ rabbitmqctl forget_cluster_node {节点名称}
-
 ```
 
 4. 启动前咨询集群节点的最新信息
 
 ```bash
 rabbitmqctl update_cluster_nodes {节点名称}
-
 ```
 
 5. 断电后重启
@@ -1254,7 +1246,6 @@ rabbitmqctl update_cluster_nodes {节点名称}
 
 ```bash
 $ rabbitmqctl force_boot
-
 ```
 
 6. 同步队列
@@ -1262,7 +1253,6 @@ $ rabbitmqctl force_boot
 ```bash
 # 前提条件是队列配置了镜像
 $ rabbitmqctl sync_queue queue
-
 ```
 
 7. 设置集群名称
@@ -1270,7 +1260,6 @@ $ rabbitmqctl sync_queue queue
 
 ```bash
 $ rabbitmqctl set_cluster_name {name}
-
 ```
 
 #### 3. 集群监控
@@ -1389,11 +1378,11 @@ tcp        0      0 0.0.0.0:5672            0.0.0.0:*               LISTEN
 
 ##### 3. 验证
 
-![haproxy stats](../../assets/images/rabbitmq/haproxy_stats.jpeg)
+![haproxy stats](./images/haproxy_stats.jpeg)
 
 #### 3. keepalived实现高可用+负载均衡
 
-先欠者
+
 
 ## 结尾
 

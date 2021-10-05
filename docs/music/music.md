@@ -15,9 +15,9 @@
 </style>
 <!-- 为博客底部添加音乐组件 -->
 <div id="player"  class="aplayer"></div>
-<link href="./static/APlayer.min_v1.10.1.css" rel="stylesheet">
+<link href="../static/APlayer.min_v1.10.1.css" rel="stylesheet">
 
-<script src="./static/APlayer.min_v1.10.1.js"></script> 
+<script src="../static/APlayer.min_v1.10.1.js"></script> 
 <script type="text/javascript">
 var ap = new APlayer({
     element: document.getElementById('player'),

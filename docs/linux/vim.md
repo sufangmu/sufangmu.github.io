@@ -558,6 +558,6 @@ set-window-option -g utf8 on
 
 ## 附：
 
-![vim1](../assets/images/vim/vim1.png)
+![vim1](./images/vim/vim1.png)
 
-![](../assets/images/vim/vim2.png)
+![](./images/vim/vim2.png)

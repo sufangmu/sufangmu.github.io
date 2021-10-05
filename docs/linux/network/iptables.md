@@ -7,7 +7,7 @@
 1. Netfilter是内核的一部分，由一些信息包过滤表组成，这些表包含内核用来控制信息包过滤处理的规则集。
 3. iptables是用户管理Netfilter防火墙的用户程序。
 
-![1587213311645](../assets/images/netfilter_iptables.png)
+![1587213311645](./images/netfilter_iptables.png)
 
 ### 2.iptables的组成
 
@@ -32,7 +32,7 @@
 5. POSTROUTING ：用来修改源地址，用来做SNAT。存在于mangle，nat
 6. 自定义链
 
-![tables](../assets/images/iptables/iptables_tables.png)
+![tables](./images/iptables_tables.png)
 
 ### 3. 规则
 
@@ -650,3 +650,4 @@ icmp-admin-prohibited
 https://wiki.archlinux.org/index.php/iptables
 
  http://www.zsythink.net/archives/1199 
+
