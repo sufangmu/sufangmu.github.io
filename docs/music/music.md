@@ -29,55 +29,55 @@ var ap = new APlayer({
         {
             title: '雨碎江南',
             author: '河图',
-            url: '河图 - 雨碎江南.mp3',
+            url: '../河图 - 雨碎江南.mp3',
             pic: ''
         },
         {
             title: '琵琶语',
             author: '林海',
-            url: '琵琶语.mp3',
+            url: '../琵琶语.mp3',
             pic: ''
         },
         {
             title: '春江花月夜',
             author: '赵聪',
-            url: '赵聪 - 春江花月夜.flac',
+            url: '../赵聪 - 春江花月夜.flac',
             pic: ''
         },
         {
             title: '酒狂',
             author: '龚一',
-            url: '龚一 - 酒狂.mp3',
+            url: '../龚一 - 酒狂.mp3',
             pic: ''
         },
         {
             title: '广陵散',
             author: '管平湖',
-            url: '管平湖 - 广陵散.mp3',
+            url: '../管平湖 - 广陵散.mp3',
             pic: ''
         },
         {
             title: '阳关三叠',
             author: '管平湖',
-            url: '管平湖 - 阳关三叠.mp3',
+            url: '../管平湖 - 阳关三叠.mp3',
             pic: ''
         },
         {
             title: '姑苏行',
             author: '俞逊发',
-            url: '俞逊发 - 姑苏行.mp3',
+            url: '../俞逊发 - 姑苏行.mp3',
             pic: ''
         },
         {
             title: '平湖秋月',
             author: '罗守诚',
-            url: '罗守诚 - 平湖秋月(箫).mp3',
+            url: '../罗守诚 - 平湖秋月(箫).mp3',
             pic: ''
         },
         {
             title: '晴雯曲',
             author: '谭炎健',
-            url: '谭炎健 - 晴雯曲.mp3',
+            url: '../谭炎健 - 晴雯曲.mp3',
             pic: ''
         }
     ]

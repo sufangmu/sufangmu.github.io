@@ -165,7 +165,8 @@ nav:
         - 'IO流': 'programming/java/高级/IO流.md'
         - '网络编程': 'programming/java/高级/网络编程.md'
         - '新特性': 'programming/java/高级/新特性.md'
-      - 设计模式: 'programming/java/设计模式.md'  
+      - JDBC: 'programming/java/JDBC/JDBC.md'
+      - 设计模式: 'programming/java/设计模式.md'
   - 虚拟化:
     - Docker:
       - '实现': 'Virtualization/Docker/安装.md'
