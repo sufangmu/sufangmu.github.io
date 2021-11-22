@@ -65,7 +65,7 @@ nav:
       - 'Iptables': 'linux/network/iptables.md'
     - '文档': 'linux/docs.md'  
   - 数据库:
-    - mysql: 
+    - MySQL: 
       - '安装': 'databases/MySQL/安装.md'
       - '用户管理': 'databases/MySQL/用户管理.md'
       - '数据类型和运算符': 'databases/MySQL/数据类型和运算符.md'
