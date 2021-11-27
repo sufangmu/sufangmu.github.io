@@ -99,7 +99,7 @@ nav:
         - '文件处理': 'programming/python/基础/08-文件处理.md'
         - '异常处理': 'programming/python/基础/09-异常与测试.md'
         - '内置模块': 'programming/python/基础/01-内置模块.md'
-        - '并行编程': 'programming/python/基础/02-并发编程.md'
+        - '并发编程': 'programming/python/基础/02-并发编程.md'
         - '网络编程': 'programming/python/基础/03-网络编程.md'
         - '数据库编程': 'programming/python/基础/04-数据库编程.md' 
       - Django: 
