@@ -73,6 +73,9 @@ nav:
       - '存储过程和函数': 'databases/MySQL/存储过程和函数.md'
       - '索引': 'databases/MySQL/索引.md'
       - '执行计划': 'databases/MySQL/执行计划.md'
+      - 优化:
+        - 'SQL优化': 'databases/MySQL/SQL优化.md'
+        - '索引优化': 'databases/MySQL/索引优化.md'
   - 前端:
     - 协议:
       - 'HTTP': 'web/协议/HTTP.md'      
