@@ -392,8 +392,6 @@ SELECT * FROM students WHERE state=1;
 
 ## 三、DQL
 
-以官方提供的[world数据库](./example/world.sql.zip)为例。下载地址：https://downloads.mysql.com/docs/world.sql.zip。另外mysql官方还提供了其他示例数据库，在 https://dev.mysql.com/doc/index-other.html 可以下载到。
-
 ### 1. 基础查询
 
 语法：
