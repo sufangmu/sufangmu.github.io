@@ -166,7 +166,6 @@ nav:
         - '反射': 'programming/java/高级/反射.md'
         - '注解': 'programming/java/高级/注解.md'
         - 'IO流': 'programming/java/高级/IO流.md'
-        - '网络编程': 'programming/java/高级/网络编程.md'
         - '新特性': 'programming/java/高级/新特性.md'
       - JDBC: 'programming/java/JDBC/JDBC.md'
       - 设计模式: 'programming/java/设计模式.md'
