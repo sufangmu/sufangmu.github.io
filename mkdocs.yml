@@ -1,45 +1,56 @@
 site_name: 苏方木的笔记
 site_description: 苏方木的笔记
 site_author: 苏方木
-site_url: https://github.com/sufangmu/notes
+site_url: https://github.com/sufangmu
+
 theme:
   name: 'material'
   palette:
     - scheme: default
       toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-      primary: blue grey    
-    - scheme: slate
+        icon: material/toggle-switch 
+        name: 切换到明亮模式
+      primary: light blue
+    - scheme: slate 
       toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-      primary: blue grey   
+        icon: material/toggle-switch-off-outline
+        name: 切换到深色模式
+      primary: black
   font:
     text: Ubuntu
     code: Ubuntu Mono
+  language: zh
   programming: zh
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.top
+    - navigation.top  # 返回顶部
     - search.suggest # 查询建议
     - search.highlight
-    - header.autohide
+    - navigation.instant  # 即时加载
+    - navigation.tracking  # 锚点跟踪
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.sections
 
 markdown_extensions:
+  - meta
   - toc:
       permalink: true
   - pymdownx.highlight:
       linenums: true    
   - pymdownx.highlight
   - pymdownx.superfences
-  - pymdownx.snippets    
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes 
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:sufangmu8377@163.com
+      link: mailto:gaopeng0214@126.com
     - icon: fontawesome/brands/github
       link: https://github.com/sufangmu
 extra_javascript:
@@ -52,6 +63,8 @@ extra_css:
 plugins:
   - search:
       separator: '[\s\-\.]+'   
+      lang: 
+        - en
 nav:
   - 首页: 'index.md'
   - Linux:
@@ -107,7 +120,8 @@ nav:
         - '数据库编程': 'programming/python/基础/04-数据库编程.md' 
       - Django: 
         - '安装': 'programming/python/Django/install.md'
-        - '请求响应三板斧': 'programming/python/Django/response.md'
+        - '请求': 'programming/python/Django/request.md'
+        - '响应三板斧': 'programming/python/Django/response.md'
         - '路由层': 'programming/python/Django/urls.md'
         - '视图层': 'programming/python/Django/view.md'
         - '模板层': 'programming/python/Django/template.md'
@@ -146,7 +160,8 @@ nav:
           - 'Context': 'programming/python/Flask/sourcecode/context.md'
       - 'Jinja2': 'programming/python/Jinja2.md'
       - '数据分析': 'programming/python/数据分析/数据分析.md'
-      - '数据结构和算法': 'programming/python/数据结构和算法.md'
+      - 测试:
+        - '单元测试': 'programming/python/测试/单元测试.md'
     - Java:
       - 基础:
         - '概述': 'programming/java/基础/概述.md'
@@ -169,6 +184,10 @@ nav:
         - '新特性': 'programming/java/高级/新特性.md'
       - JDBC: 'programming/java/JDBC/JDBC.md'
       - 设计模式: 'programming/java/设计模式.md'
+    - 数据结构与算法:
+      - '概述': 'programming/DataStructuresAndAlgorithms/数据结构与算法.md'
+      - c:
+        - "线性表": 'programming/DataStructuresAndAlgorithms/c/线性表.md'
   - 虚拟化:
     - Docker:
       - '实现': 'Virtualization/Docker/安装.md'

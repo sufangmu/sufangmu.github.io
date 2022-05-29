@@ -27,7 +27,5 @@ http://127.0.0.1:8000/admin/app/user/1/change/ 改
 http://127.0.0.1:8000/admin/app/user/1/delete/ 删
 ```
 
-xadmin
-
 
 

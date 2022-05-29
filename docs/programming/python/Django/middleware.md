@@ -32,7 +32,7 @@ MIDDLEWARE = [
 4. process_template_response
 5. process_exception
 
-### 1. 自定义中间件的流程：
+### 1. 自定义中间件的流程
 
 1. 在项目名或者应用名下创建一个任意名称的文件夹
 
@@ -206,21 +206,122 @@ def home(request):
 
 网站在给用户返回一个具有提交数据功能页面的时候会给这个页面加一个唯一标识。当这个页面朝后端发送post请求的时候 我的后端会先校验唯一标识，如果唯一标识不对直接拒绝(403 forbbiden)如果成功则正常执行 。
 
+#### 1. 视图函数
+
+```python
+from django.shortcuts import HttpResponse, render
+from django.views import View
+
+
+class Login(View):
+
+    def get(self, request):
+        return render(request, 'login.html')
+
+    def post(self, request):
+        return HttpResponse('login success')
+```
+
+#### 2. 路由
+
+```python
+from django.urls import path
+
+from app import views
+
+app_name = 'app'
+urlpatterns = [
+    path('login/', views.Login.as_view()),
+]
+```
+
+#### 3. 模板文件
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    {% load static %}  <!--类似于导入模块，可以动态解析配置文件中STATIC_URL的值-->
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap-3.4.1-dist/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<h1 class="text-center">登陆</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+                <p>username:<input type="text" name="username" class="form-control"></p>
+                <p>password:<input type="password" name="password" class="form-control"></p>
+                <input type="submit" class="btn btn-success btn-block">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+```
+
+在登录页面提交`post`请求时报错
+
+![1640780168632](images/1640780168632.png)
+
+#### 4. 添加`csrf_token`认证
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    {% load static %}  <!--类似于导入模块，可以动态解析配置文件中STATIC_URL的值-->
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap-3.4.1-dist/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<h1 class="text-center">登陆</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post"> 
+                {% csrf_token %}  <!--添加认证-->
+                <p>username:<input type="text" name="username" class="form-control"></p>
+                <p>password:<input type="password" name="password" class="form-control"></p>
+                <input type="submit" class="btn btn-success btn-block">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+```
+
+页面上会渲染隐藏元素
+
+```html
+<input type="hidden" name="csrfmiddlewaretoken" value="hYE9S3sc1Oxs0I2o2eTUJJylwd5WX9rEFXZT45aQ1kfhZ5G1BWkBsAOhHIISGza8">
+```
+
+![1640780372706](images/1640780372706.png)
+
 ### 2. 校验方式
 
 #### 2.1 表单校验
 
 ```django
-<form action="" method="post">
-    {% csrf_token %} {# 加这句 #}
-    <p>username:<input type="text" name="username"></p>
-    <p>target_user:<input type="text" name="target_user"></p>
-    <p>money:<input type="text" name="money"></p>
-    <input type="submit">
+<form action="" method="post"> 
+    {% csrf_token %}  <!--添加认证-->
+    <p>username:<input type="text" name="username" class="form-control"></p>
+    <p>password:<input type="password" name="password" class="form-control"></p>
+    <input type="submit" class="btn btn-success btn-block">
 </form>
 ```
 
 #### 2.2 ajax校验
+
+##### 方式一：利用标签查找获取页面上的随机字符串
 
 ```javascript
 <script>
@@ -228,12 +329,8 @@ def home(request):
         $.ajax({
             url:'',
             type:'post',
-            // 第一种 利用标签查找获取页面上的随机字符串
-            {#data:{"username":'admin','csrfmiddlewaretoken':$('[name=csrfmiddlewaretoken]').val()},#}
-            // 第二种 利用模版语法提供的快捷书写
-            {#data:{"username":'admin','csrfmiddlewaretoken':'{{ csrf_token }}'},#}
-            // 第三种 通用方式直接拷贝js代码并应用到自己的html页面上即可
-            data:{"username":'admin'}, 
+            // 利用标签查找获取页面上的随机字符串
+            data:{"username":'admin','csrfmiddlewaretoken':$('[name=csrfmiddlewaretoken]').val()},
             success:function () {
 
             }
@@ -242,7 +339,27 @@ def home(request):
 </script>
 ```
 
-跨域校验js代码
+##### 方式二：利用模版语法提供的快捷书写
+
+```javascript
+<script>
+    $('#btn').click(function () {
+        $.ajax({
+            url:'',
+            type:'post',
+			// 利用模版语法提供的快捷书写
+            data:{"username":'admin','csrfmiddlewaretoken':'{{ csrf_token }}'},
+            success:function () {
+
+            }
+        })
+    })
+</script>
+```
+
+##### 方式三：导入官方提供的js代码
+
+保存跨域校验js代码到js文件中
 
 ```javascript
 function getCookie(name) {
@@ -277,7 +394,26 @@ $.ajaxSetup({
 });
 ```
 
-#### 2. csrf装饰器
+在HTML中导入上述js文件
+
+```javascript
+<script src="{% static 'js/csrftoken.js'%}"></script>
+<script>
+    $('#btn').click(function () {
+        $.ajax({
+            url:'',
+            type:'post',
+			// 直接拷贝js代码并应用到自己的html页面上即可
+            data:{"username":'admin'}, 
+            success:function () {
+
+            }
+        })
+    })
+</script>
+```
+
+### 3. csrf装饰器
 
 ```python
 from django.views.decorators.csrf import csrf_protect,csrf_exempt
@@ -288,7 +424,7 @@ from django.views.decorators.csrf import csrf_protect,csrf_exempt
 #    针对csrf_exempt只能给dispatch方法加才有效
 ```
 
-##### 2.1 FBV装饰
+#### 3.1 FBV装饰
 
 ```python
 # @csrf_exempt
@@ -297,27 +433,27 @@ def transfer(request):
     return render(request,'transfer.html')
 ```
 
-##### 2.2 CBV装饰
+#### 3.2 CBV装饰
 
 ```python
 from django.views import View
 from django.utils.decorators import method_decorator
 
 
-# @method_decorator(csrf_protect,name='post')  # 针对csrf_protect 第二种方式可以
-# @method_decorator(csrf_exempt,name='post')  # 针对csrf_exempt 第二种方式不可以
+# @method_decorator(csrf_protect,name='post')  # csrf_protect 在此处生效
+# @method_decorator(csrf_exempt,name='post')  # csrf_exempt 在此处不生效
 @method_decorator(csrf_exempt,name='dispatch')
 class MyCsrfToken(View):
-    # @method_decorator(csrf_protect)  # 针对csrf_protect 第三种方式可以
-    # @method_decorator(csrf_exempt)  # 针对csrf_exempt 第三种方式可以
+    # @method_decorator(csrf_protect)  # csrf_protect 在此处生效
+    # @method_decorator(csrf_exempt)  # csrf_exempt 在此处生效
     def dispatch(self, request, *args, **kwargs):
         return super(MyCsrfToken, self).dispatch(request,*args,**kwargs)
 
     def get(self,request):
         return HttpResponse('get')
 
-    # @method_decorator(csrf_protect)  # 针对csrf_protect 第一种方式可以
-    # @method_decorator(csrf_exempt)  # 针对csrf_exempt 第一种方式不可以
+    # @method_decorator(csrf_protect)  # csrf_protect 在此处生效
+    # @method_decorator(csrf_exempt)  # csrf_exempt 在此处不生效
     def post(self,request):
         return HttpResponse('post')
 ```

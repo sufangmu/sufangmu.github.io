@@ -1,91 +1,32 @@
-# Django安装
-
 ## 一、安装
 
+### 1. 创建虚拟环境
+
 ```bash
-pip install django==1.11.29
+$ mkdir DjangoProject
+$ python3 -m venv DjangoProject/Djangovenv
+$ cd DjangoProject
+$ source Djangovenv/bin/activate # 激活虚拟环境
+```
+
+### 2. 安装指定版本的`Django`
+
+通过https://www.djangoproject.com/download/#supported-versions可以查看版本发布计划，选择需要安装的版本。
+
+```bash
+$ pip3 install django==2.2.25
 ```
 
 ## 二、创建一个项目
 
 ### 1. 创建项目
 
+创建一个名为`mysite`的`Django`项目
+
 ```bash
 $ django-admin startproject mysite
-```
-
-### 2. 创建应用
-
-```bash
-$ python manage.py startapp app
-```
-
-### 3. 注册应用
-
-修改`mysite/mysite/settings.py`文件
-
-```python
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'app.apps.AppConfig', # 添加此行
-]
-```
-
-### 4. 创建模板文件夹
-
-```bash
-$ mkdir mysite/app/templates
-```
-
-在配置文件中添加模板文件路径
-
-```python
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')], # 添加此行
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-```
-
-## 三、启动
-
-```bash
-$ cd mysite
-$ python manage.py runserver
-# 执行IP和端口
-$ python manage.py runserver 127.0.0.1:8888
-```
-
-## 四、 目录结构
-
-```bash
 $ tree mysite/
-mysite
-├── app
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations
-│   │   ├── __init__.py
-│   ├── models.py
-│   ├── tests.py
-│   └── views.py
-├── db.sqlite3
+mysite/
 ├── manage.py
 └── mysite
     ├── __init__.py
@@ -94,7 +35,114 @@ mysite
     └── wsgi.py
 ```
 
-## 五、请求生命周期
+### 2. 启动`Django`项目
+
+```bash
+$ cd mysite
+$ python3 manage.py runserver 127.0.0.1:8000
+$ tree
+.
+├── db.sqlite3
+├── manage.py
+└── mysite
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-38.pyc
+    │   ├── settings.cpython-38.pyc
+    │   ├── urls.cpython-38.pyc
+    │   └── wsgi.cpython-38.pyc
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+```
+
+用浏览器访问http://127.0.0.1:8000/
+
+![1640511623843](images/1640511623843.png)
+
+### 3. 创建应用
+
+```bash
+$ python3 manage.py startapp app
+$ tree .
+.
+├── app  # 新创建的文件夹
+│   ├── admin.py  		# 后台管理
+│   ├── apps.py  		# 注册应用
+│   ├── __init__.py
+│   ├── migrations  	# 数据库迁移记录
+│   │   └── __init__.py
+│   ├── models.py  		# 数据库模型类
+│   ├── tests.py		# 测试文件
+│   └── views.py  		# 视图函数
+├── db.sqlite3			# 自带的sqlite数据库
+├── manage.py			
+└── mysite
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-38.pyc
+    │   ├── settings.cpython-38.pyc
+    │   ├── urls.cpython-38.pyc
+    │   └── wsgi.cpython-38.pyc
+    ├── settings.py  	# 配置文件
+    ├── urls.py  		# 路由相关
+    └── wsgi.py			# wsgiref
+```
+
+### 4. 注册应用
+
+每创建一个应用都需要注册到项目中。
+
+注册方法：修改`mysite/mysite/settings.py`文件
+
+```python
+# Django项目默认自带了如下的应用（功能模块）
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app.apps.AppConfig', # 添加此行
+    # 'app'  # 可以简写
+]
+```
+
+## 三、基本使用
+
+### 1. 创建视图函数
+
+在`mysite/app/views.py`中编写视图函数
+
+```python
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here.
+def index(request):
+    return HttpResponse("Hello World")
+```
+
+### 2. 注册路由
+
+在`mysite/urls.py`中添加视图函数和路由的映射
+
+```python
+from django.contrib import admin
+from django.urls import path
+from app import views  # 1. 导入app下的views
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('index/', views.index),  # 2. 路由和视图函数的映射
+]
+```
+
+### 3. 重新启动`Django`项目
+
+![1640522480166](images/1640522480166.png)
+
+## 四、请求生命周期
 
 ### 1. 浏览器
 

@@ -1,5 +1,3 @@
-SQL
-
 ## SQL简介
 
 对数据库进行查询和修改操作的语言叫SQL(Structured Quary Language, 结构化查询语言)。

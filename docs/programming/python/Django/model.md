@@ -12,7 +12,7 @@ GRANT ALL ON test.* TO 'admin'@'10.0.0.%' IDENTIFIED BY 'admin@123';
 
 ### 2. 修改配置文件
 
-#### 1. 在setting.py文件中指定mysql数据库的相关信息
+#### 1. 在`mysite/setting.py`文件中指定`mysql`数据库的相关信息
 
 ```python
 DATABASES = {
@@ -47,9 +47,9 @@ LOGGING = {
 }
 ```
 
-#### 2. 修改默认的mysql模块
+#### 2. 修改默认的`mysql`模块
 
-在setting.py文件同级的的`__init__.py`中修改连接mysql的模块（`mysite/mysite/__init__.py`）
+在`mysite/__init__.py`中修改连接`mysql`的模块
 
 ```python
 import pymysql
@@ -57,10 +57,10 @@ import pymysql
 pymysql.install_as_MySQLdb()
 ```
 
-#### 3. 安装pymysql模块
+#### 3. 安装`pymysql`模块
 
 ```python
-pip install pymysql
+pip3 install pymysql
 ```
 
 ### 3. 创建表
@@ -81,7 +81,7 @@ class User(models.Model):
 
 ```python
 # 于在该app下建立migrations目录，并记录所有的关于modes.py的改动
-比如0001_initial.py， 但是这个改动还没有作用到数据库文件
+# 比如0001_initial.py， 但是这个改动还没有作用到数据库文件
 python manage.py makemigrations
 # 将对数据库的更改在数据库中真实执行。
 python manage.py migrate
@@ -89,7 +89,7 @@ python manage.py migrate
 
 ## 二、创建表
 
-orm创建的表自动加了前缀，前缀是应用的名称，防止多个应用表名冲突。
+`ORM`创建的表自动加了前缀，前缀是应用的名称，防止多个应用表名冲突。
 
 ### 1. 独立表
 
@@ -151,17 +151,17 @@ class AuthorDetail(models.Model):
     addr = models.CharField(max_length=32, verbose_name="通讯地址")
 ```
 
-> 在django1.X版本中外键默认都是级联更新删除的
+> 在`django1.X`版本中外键默认都是级联更新删除的
 
 ### 3. 多对多三种创建方式
 
 #### 1. 全自动
 
-自动创建第三张关系表，但是扩展性差，没有办法添加额外字段。可以用ORM提供的第三张关系表的方法，如add,remove,clear,set等方法。
+自动创建第三张关系表，但是扩展性差，没有办法添加额外字段。可以用`ORM`提供的第三张关系表的方法，如add,remove,clear,set等方法。
 
 #### 2. 全手动
 
-自己创建第三张表，自己建外键。扩展性高，但是无法利用orm提供的简便的查询方法。
+自己创建第三张表，自己建外键。扩展性高，但是无法利用`ORM`提供的简便的查询方法。
 
 ```python
 class Book(models.Model):
@@ -177,7 +177,7 @@ class Book2Author(models.Model):
 
 #### 3. 半自动
 
-实际项目用此方法，扩展性好。可以使用orm的正反向查询，但是没法使用add,set,remove,clear这四个方法
+实际项目用此方法，扩展性好。可以使用`ORM`的正反向查询，但是没法使用add,set,remove,clear这四个方法
 
 ```python
 class Book(models.Model):
@@ -195,9 +195,7 @@ class Book2Author(models.Model):
     author = models.ForeignKey(to='Author')
 ```
 
-
-
-## 三、ORM操作
+## 三、`ORM`操作
 
 ### 1. 增
 
@@ -411,9 +409,9 @@ res = models.AuthorDetail.objects.filter(author__name='严蔚敏').values('email
 print(res) # <QuerySet [{'email': 'yanweimin@126.com', 'author__name': '严蔚敏'}]>
 ```
 
-#### 2.3 聚合查询和分组查询
+#### 2.3 聚合查询（`aggregate`）和分组查询（`annotate`）
 
-聚合查询`aggregate`通常情况下都是配合分组一起使用的
+聚合查询通常情况下都是配合分组一起使用的
 
 ```python
 from django.db.models import Max, Min, Sum, Count, Avg
@@ -606,7 +604,7 @@ https://www.cnblogs.com/Dominic-Ji/p/9203990.html
 
 `defer()`跟only刚好相反，对象里面唯独没有括号内指定的属性。
 
-### 2. select_related与prefetch_related
+### 2. `select_related`与`prefetch_related`
 
  `select_related(`内部的本质是联表操作（`inner join`），括号内只能放外键字段并且多对多不行。括号内可以放多个外键字段（`select_related(外键字段1__外键字段2__外键字段3__...`)，将联表之后的结果全部查询出来封装到对象里面，之后对象在点击表的字段的时候都无需再走数据库。
 

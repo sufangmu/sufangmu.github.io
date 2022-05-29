@@ -51,8 +51,7 @@ if __name__ == "__main__":
     print(form_obj.is_valid())  # False
     
     # 查看所有不符合校验规则以及不符合的原因
-    print(
-        form_obj.errors)  # <ul class="errorlist"><li>username<ul class="errorlist"><li>Ensure this value has at least 6 characters (it has 3).</li></ul></li></ul>
+    print(form_obj.errors)  # <ul class="errorlist"><li>username<ul class="errorlist"><li>Ensure this value has at least 6 characters (it has 3).</li></ul></li></ul>
     
     # 查看所有校验通过的数据
     print(form_obj.cleaned_data)  # {'password': '123456', 'email': 'tom@126.com'}
@@ -293,3 +292,36 @@ hobby2 = forms.MultipleChoiceField(
     widget=forms.widgets.CheckboxSelectMultiple()
 )
 ```
+
+## 7. form表单上传文件及后端操作
+
+### 1. 前端
+
+form表单上传文件类型的数据
+
+1. method必须指定成`post`
+
+2. enctype必须换成`multipart/form-data`
+
+```html
+<form action="" method="post" enctype="multipart/form-data">
+    <p>file:<input type="file" name="file"></p>
+    <input type="submit">
+</form>
+```
+
+### 2. 后端
+
+```python
+def upload_file(request):
+    if request.method == 'POST':
+        print(request.body)  # 原生的浏览器发过来的二进制数据
+        print(request.FILES)  # 获取文件数据 <MultiValueDict: {'file': [<InMemoryUploadedFile: ebc.jpg (image/jpeg)>]}>
+        file_obj = request.FILES.get('file')  # 文件对象
+        print(file_obj.name) # abc.jpg
+        with open(file_obj.name,'wb') as f:
+            for line in file_obj.chunks():  # 推荐加上chunks方法 其实跟不加是一样的都是一行行的读取
+                f.write(line)
+    return render(request, 'upload_file.html')
+```
+
