@@ -46,7 +46,10 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - footnotes 
+  - footnotes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -66,17 +69,15 @@ plugins:
       lang: 
         - en
 nav:
-  - 首页: 'index.md'
+  - 关于我: 'index.md'
   - Linux:
     - '命令行': 'linux/command-line.md'
     - '文本处理': 'linux/grep_sed_awk.md'
     - 'ShellScript': 'linux/ShellScript.md'
     - 'VIM': 'linux/vim.md'
     - '服务': 'linux/service.md'
-    - 网络: 
-      - 'TCP/IP': 'linux/network/TCP.md'
-      - 'Iptables': 'linux/network/iptables.md'
-    - '文档': 'linux/docs.md'  
+    - 'TCP/IP': 'linux/network/TCP.md'
+    - 'Iptables': 'linux/network/iptables.md' 
   - 数据库:
     - MySQL: 
       - '安装': 'databases/MySQL/安装.md'
@@ -89,17 +90,13 @@ nav:
       - 优化:
         - 'SQL优化': 'databases/MySQL/SQL优化.md'
         - '索引优化': 'databases/MySQL/索引优化.md'
-  - 前端:
-    - 协议:
-      - 'RESTful': 'web/协议/RESTful.md' 
-    - 语言:
-      - 'HTML': 'web/语言/html.md'
-      - 'CSS': 'web/语言/CSS.md'
-      - 'JavaScript': 'web/语言/JavaScript.md'
-    - 软件:
-      - 'Nginx': 'web/软件/Nginx.md'
-      - 'Tomcat': 'web/软件/Tomcat.md'
-  - 编程语言:
+  - 服务:
+    - Web:
+      - 'Nginx': 'software/web/Nginx.md'
+      - 'Tomcat': 'software/web/Tomcat.md'
+    - 中间件:
+      - 'RabbitMQ': 'software/middleware/rabbitmq.md'
+  - 编程:
     - Python:
       - 基础:
         - 'python简介': 'programming/python/基础/01-python简介.md'
@@ -158,7 +155,7 @@ nav:
       - 'Jinja2': 'programming/python/Jinja2.md'
       - '数据分析': 'programming/python/数据分析/数据分析.md'
       - 测试:
-        - '单元测试': 'programming/python/测试/单元测试.md'
+        - '单元测试': 'programming/python/测试/单元测试.md' 
     - Java:
       - 基础:
         - '概述': 'programming/java/基础/概述.md'
@@ -180,22 +177,19 @@ nav:
         - 'IO流': 'programming/java/高级/IO流.md'
         - '新特性': 'programming/java/高级/新特性.md'
       - JDBC: 'programming/java/JDBC/JDBC.md'
-      - 设计模式: 'programming/java/设计模式.md'
+    - 'HTML': 'programming/html.md'
+    - 'CSS': 'programming/CSS.md'
+    - 'JavaScript': 'programming/JavaScript.md'     
     - 数据结构与算法:
-      - '概述': 'programming/DataStructuresAndAlgorithms/数据结构与算法.md'
-      - c:
+      - '数据结构与算法': 'programming/DataStructuresAndAlgorithms/数据结构与算法.md'
+      - c语言描述:
         - "线性表": 'programming/DataStructuresAndAlgorithms/c/线性表.md'
-  - CI&CD:
-    - 版本控制:
-      - 'Git': 'CICD/Git/Git.md'
+  - DevOps:
+    - 'Git': 'DevOps/Git/Git.md'
     - Jenkins:
-      - 'pipeline-syntax': 'CICD/Jenkins/jenkins-pipeline-syntax.md'
-      - 'jenkinsfile': 'CICD/Jenkins/jenkinsfile.md'
+      - 'pipeline-syntax': 'DevOps/Jenkins/jenkins-pipeline-syntax.md'
+      - 'jenkinsfile': 'DevOps/Jenkins/jenkinsfile.md'
     - Ansible: 
-      - 'Ansible基础': 'CICD/Ansible/ansible.md'
-      - 'AnsibleAPI': 'CICD/Ansible/AnsibleAPI.md'
-  - 其他:
-    - 中间件:
-      - 'RabbitMQ': 'middleware/rabbitmq.md'
-  - 资源:
-      - '资源': 'resource/docs.md'
+      - 'Ansible基础': 'DevOps/Ansible/ansible.md'
+      - 'AnsibleAPI': 'DevOps/Ansible/AnsibleAPI.md'
+  - 文档: 'resource/docs.md'

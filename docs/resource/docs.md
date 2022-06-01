@@ -1,4 +1,8 @@
-# 文档
+---
+hide:
+  - navigation
+  - toc
+---
 
 ## - Python
 
@@ -17,3 +21,6 @@
 - [PostgreSQL11.2中文文档](database/PostgreSQL11.2-CN-v1.1.pdf)
 - [Mysql5.7参考手册](database/MySQL5.7ReferenceManual-en.pdf)
 
+## - VIM
+
+[Vim实用技巧](Vim实用技巧.pdf)
