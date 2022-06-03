@@ -22,15 +22,17 @@ theme:
   language: zh
   programming: zh
   features:
+    - navigation.instant  # 即时加载
     - navigation.top  # 返回顶部
     - search.suggest # 查询建议
     - search.highlight
-    - navigation.instant  # 即时加载
     - navigation.tracking  # 锚点跟踪
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.sections
+    
+
 
 markdown_extensions:
   - meta
@@ -60,10 +62,9 @@ extra:
       link: https://github.com/sufangmu
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
-  - javascripts/config.js
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/polyfill.min.js
+  - javascripts/tex-mml-chtml.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css      
 
