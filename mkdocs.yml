@@ -30,7 +30,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
-    - navigation.sections
+    - header.autohide
     
 
 
@@ -198,8 +198,6 @@ nav:
     - 'JavaScript': 'programming/JavaScript.md'     
     - 数据结构与算法:
       - '数据结构与算法': 'programming/DataStructuresAndAlgorithms/数据结构与算法.md'
-      - c语言描述:
-        - "线性表": 'programming/DataStructuresAndAlgorithms/c/线性表.md'
   - DevOps:
     - 'Git': 'DevOps/Git/Git.md'
     - Jenkins:
