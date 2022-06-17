@@ -108,6 +108,11 @@ nav:
       - '基本概念': 'programming/c/基本概念.md'
       - '流程控制': 'programming/c/流程控制.md'
       - '数组': 'programming/c/数组.md'
+      - '函数': 'programming/c/函数.md'
+      - '指针': 'programming/c/指针.md'
+      - '动态内存': 'programming/c/动态内存.md'
+      - '结构体': 'programming/c/结构体.md'
+      - '枚举': 'programming/c/枚举.md'
     - Python:
       - 基础:
         - 'python简介': 'programming/python/基础/01-python简介.md'
@@ -198,8 +203,8 @@ nav:
   - DevOps:
     - 'Git': 'DevOps/Git/Git.md'
     - Jenkins:
-      - 'pipeline-syntax': 'DevOps/Jenkins/jenkins-pipeline-syntax.md'
       - 'jenkinsfile': 'DevOps/Jenkins/jenkinsfile.md'
+      - 'pipeline-syntax': 'DevOps/Jenkins/jenkins-pipeline-syntax.md'
     - Ansible: 
       - 'Ansible基础': 'DevOps/Ansible/ansible.md'
       - 'AnsibleAPI': 'DevOps/Ansible/AnsibleAPI.md'

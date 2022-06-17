@@ -19,7 +19,7 @@ github： [https://github.com/sufangmu](https://github.com/sufangmu)
 
 ## 成长计划
 
-- [ ] [C语言基础](https://www.bilibili.com/video/BV1os411h77o) 2022/6/1-2022/6/15
+- [x] [C语言基础](https://www.bilibili.com/video/BV1os411h77o) 2022/6/1-2022/6/15
 - [ ] [数据结构与算法](https://www.bilibili.com/video/BV12E41137Qp) 2022/6/15-2022/6/20
 - [ ] 大话数据结构 2022/7
 - [ ] 数据结构与算法Python语言描述(裘宗燕) 2022/8-2022/9
