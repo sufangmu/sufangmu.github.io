@@ -96,6 +96,15 @@ nav:
       - 优化:
         - 'SQL优化': 'databases/MySQL/SQL优化.md'
         - '索引优化': 'databases/MySQL/索引优化.md'
+    - PostgreSQL:
+      - 安装: 
+        - '单实例安装': 'databases/PostgreSQL/安装/单实例安装.md'
+        - '主备安装': 'databases/PostgreSQL/安装/一主一备安装.md'
+      - 备份与恢复:
+        - 'basebackup': 'database/PostgreSQL/备份与恢复/basebackup.md'
+        - 'PITR': 'database/PostgreSQL/备份与恢复/PITR.md'
+    - 性能测试:
+      - BenchmarkSQL: 'database/性能测试/benchmarksql.md'
   - 服务:
     - Web:
       - 'Nginx': 'software/web/Nginx.md'
