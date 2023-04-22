@@ -83,7 +83,8 @@ nav:
     - 'VIM': 'linux/vim.md'
     - '服务': 'linux/service.md'
     - 'TCP/IP': 'linux/network/TCP.md'
-    - 'Iptables': 'linux/network/iptables.md' 
+    - 'Iptables': 'linux/network/iptables.md'
+    - '数字签名': 'linux/CA.md'
   - 数据库:
     - MySQL: 
       - '安装': 'databases/MySQL/安装.md'
