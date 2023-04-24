@@ -104,6 +104,8 @@ nav:
       - 备份与恢复:
         - 'basebackup': 'databases/PostgreSQL/备份与恢复/basebackup.md'
         - 'PITR': 'databases/PostgreSQL/备份与恢复/PITR.md'
+      - 内部原理:
+        - 'pg_control' 'databases/PostgreSQL/pg_control.md'
     - 性能测试:
       - BenchmarkSQL: 'databases/性能测试/benchmarksql.md'
   - 服务:

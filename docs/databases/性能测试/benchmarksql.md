@@ -25,8 +25,8 @@ ant
 创建tpcc用户及数据库
 
 ```sql
-create user tpcc with password 'tpcc@123'create database benchmark owner=tpcc
-create database benchmark owner=tpcc
+create user tpcc with password 'tpcc@123';
+create database benchmark owner=tpcc;
 ```
 
 配置benchmarksql
