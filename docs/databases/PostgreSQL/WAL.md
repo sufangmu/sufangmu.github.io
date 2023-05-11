@@ -43,13 +43,65 @@ WAL段文件的文件名是由24个十六进制数组成的，其命名规则如
 postgres=# select pg_current_wal_lsn();
  pg_current_wal_lsn 
 --------------------
- 1/13043AC0  #  / 左边的1表示wal段名字中间8位的值，/ 右边2位表示当前wal段名字使用的序列号
+ 1/151FFF80
 (1 row)
 
-postgres=# select pg_walfile_name('1/13043AC0');
+postgres=# select pg_walfile_name('1/151FFF80');
      pg_walfile_name      
 --------------------------
- 000000040000000100000013
+ 000000040000000100000015
+(1 row)
+```
+
+WAL段文件名称含义：
+
+```sql
+00000004 00000001 00000015
+-------- -------- --------
+时间线标识  LogId    LogSeg
+```
+
+时间线标识：timelineId,是以1起始递增的正整数
+LogId：逻辑日志文件号，是以1起始递增的正整数
+LogSeg：段文件号，是以1起始递增的正整数
+
+根据上面公式，可知当WAL文件使用默认16M大小时，Log十六进制数前6位，也就是二进制的24位。
+这个24位二进制数，又可以细分为：13位表示块号，11位表示块内偏移量。
+块默认8K。
+WAL文件中包含数据块/页个数：16M/8K=2048 或2^13=2048
+数据块/页中可含有偏移量：2^11=2048
+
+```sql
+postgres=# select pg_current_wal_lsn();
+ pg_current_wal_lsn 
+--------------------
+ 1/151FFF80
+(1 row)
+-- 通过上面提到的命名规则可知：
+-- LogId逻辑文件号：1
+-- LogSeg段文件号：15
+-- 数据块/页号：x1FF
+-- 数据块/页偏移量：xF80
+
+-- 获取公式中LSN号
+postgres=# select x'1151FFF80'::bigint;
+    int8    
+------------
+ 4649385856
+(1 row)
+
+--利用公式计算LogSeg段文件号
+postgres=# select to_hex((4649385856-1)/(16*1024*1024) %256); 
+ to_hex 
+--------
+ 15
+(1 row)
+
+--利用公式计算LogId逻辑文件号
+postgres=# select to_hex((4649385856-1)/(16*1024*1024*256::bigint));
+ to_hex 
+--------
+ 1
 (1 row)
 ```
 
@@ -112,6 +164,87 @@ INSERT INTO tbl VALUES ('A');
 1. COMMIT操作会写入包含提交的事务ID的XLOG记录。
 2. Checkpoint 操作会写入关于该检查点概述信息的XLOG记录。
 3. SELECT语句在一些特殊情况下也会创建XLOG记录。例如在SELECT语句的处理过程中，如果HOT (Heap Only Tuple) 需要删除不必要的元组并拼接必要的元组，那么修改对应页面的XLOG记录就会被写入WAL缓冲区。
+
+#### 4. 查看WAL的日志内部
+
+```sql
+-- 安装扩展
+postgres=# create extension pageinspect;
+CREATE EXTENSION
+-- 先创建一张表
+postgres=# CREATE TABLE tbl(id integer);
+CREATE TABLE
+postgres=# INSERT INTO tbl VALUES (1);
+INSERT 0 1
+-- 开始一个事务，并记住插入WAL的位置：
+postgres=# BEGIN;
+BEGIN
+postgres=# SELECT pg_current_wal_insert_lsn();
+ pg_current_wal_insert_lsn 
+---------------------------
+ 1/17040218
+(1 row)
+-- 更新一行数据
+postgres=# UPDATE tbl set id = id + 1;
+UPDATE 1
+-- 此更改已被WAL记录，并且插入位置已更改
+postgres=# SELECT pg_current_wal_insert_lsn();
+ pg_current_wal_insert_lsn 
+---------------------------
+ 1/17040298
+(1 row)
+-- 为了确保在WAL记录之前不会将更改后的数据页刷新到磁盘，与该页相关的最后一个WAL记录的LSN存储在页头中
+postgres=# SELECT lsn FROM page_header(get_raw_page('tbl',0));
+    lsn     
+------------
+ 1/17040298
+(1 row)
+-- 此时提交事务
+postgres=# COMMIT;
+COMMIT
+-- 提交也被WAL记录，并且位置再次更改
+postgres=# SELECT pg_current_wal_insert_lsn();
+ pg_current_wal_insert_lsn 
+---------------------------
+ 1/17040330
+(1 row)
+-- 创建的WAL记录将被一次写入磁盘
+postgres=# SELECT pg_current_wal_lsn(), pg_current_wal_insert_lsn();
+ pg_current_wal_lsn | pg_current_wal_insert_lsn 
+--------------------+---------------------------
+ 1/17040330         | 1/17040330
+(1 row)
+-- 通过lsn，我们可以比较两个lsn之间的wal记录数量（单位是字节），现在查一下begin到commit
+postgres=# SELECT '1/17040330'::pg_lsn - '1/17040218'::pg_lsn;
+ ?column? 
+----------
+      280
+(1 row)
+-- 可知整个过程在WAL中需要296个字节，这可以评估服务器在一定负载下每单位时间生成的WAL记录的数量
+```
+
+ 可以使用pg_waldump查看创建的wal记录情况 
+
+```bash
+postgres@ubuntu:~$ pg_waldump  -s 1/17040218 -e 1/17040330 -p $PGDATA/pg_wal  000000040000000100000017
+rmgr: Standby     len (rec/tot):     50/    50, tx:          0, lsn: 1/17040218, prev 1/170401F0, desc: RUNNING_XACTS nextXid 1049913 latestCompletedXid 1049912 oldestRunningXid 1049913
+rmgr: Heap        len (rec/tot):     69/    69, tx:    1049913, lsn: 1/17040250, prev 1/17040218, desc: HOT_UPDATE off 1 xmax 1049913 flags 0x40 ; new off 2 xmax 0, blkref #0: rel 1663/12675/25840 blk 0
+rmgr: Standby     len (rec/tot):     54/    54, tx:          0, lsn: 1/17040298, prev 1/17040250, desc: RUNNING_XACTS nextXid 1049914 latestCompletedXid 1049912 oldestRunningXid 1049913; 1 xacts: 1049913
+rmgr: Heap2       len (rec/tot):     56/    56, tx:    1049913, lsn: 1/170402D0, prev 1/17040298, desc: CLEAN remxid 0, blkref #0: rel 1663/12675/25350 blk 78
+rmgr: Transaction len (rec/tot):     34/    34, tx:    1049913, lsn: 1/17040308, prev 1/170402D0, desc: COMMIT 2023-05-11 22:42:27.878084 CST
+```
+
+ 第二行可以看到第一个是HOT_UPDATE操作，与堆资源管理器有关，文件名和页码在`blkref`字段中指定，此处为1663/12675/25840
+
+```sql
+postgres=# select pg_relation_filepath('tbl');
+ pg_relation_filepath 
+----------------------
+ base/12675/25840
+(1 row)
+```
+
+ 第三行可以看到COMMIT，与事务资源管理器有关.
 
 ### 4. walwriter进程
 
