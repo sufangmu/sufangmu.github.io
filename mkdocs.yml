@@ -221,4 +221,9 @@ nav:
     - Ansible: 
       - 'Ansible基础': 'DevOps/Ansible/ansible.md'
       - 'AnsibleAPI': 'DevOps/Ansible/AnsibleAPI.md'
+    - Docker:
+      - '架构': 'DevOps/Docker/Architecture.md'
+      - '底层技术': 'DevOps/Docker/underlyingtechnology.md'
+      - '安装': 'DevOps/Docker/Install.md'
+      - '镜像': 'DevOps/Docker/Image.md'
   - 文档: 'resource/docs.md'
