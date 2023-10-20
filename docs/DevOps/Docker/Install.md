@@ -7,7 +7,7 @@ CentOS Linux release 7.9.2009 (Core)
 ## 二、卸载老版本
 
 ```bash
-sudo yum remove docker \
+yum remove docker \
                   docker-client \
                   docker-client-latest \
                   docker-common \

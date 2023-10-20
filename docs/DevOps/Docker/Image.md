@@ -48,6 +48,19 @@ Status: Downloaded newer image for redis:latest
 
 在push或pull镜像时，都会对镜像进行压缩以较少网络带宽和传输时长，但压缩会改变镜像内容，导致经过网络传输后镜像内容与其digest不符。为了避免该问题，docker又为镜像配置了Distribution Hash，在镜像被压缩后立即计算分发散列值，然后使该值随压缩过的镜像一同进行发送，在接收方收到后，立即计算压缩镜像的分发散列值，再与携带的分发散列值进行对比，如果相同说明传输没有问题。
 
+### 4. 多架构镜像
+
+多架构镜像，是某`<repository>`中的某`<tag>`镜像针对不同操作系统/系统架构的不同镜像实现。即多架构镜像中包含的镜像的`<repository>:<tag>`都是相同的，但它们针对的操作系统/系统架构是不同的。
+无论用户使用的是什么操作系统/系统架构，其通过`docker pull`命令拉取到的一定是针对该操作系统/系统架构的镜像，无需用户自己考虑操作系统/系统架构问题。DockerHub能够根据提交pull请求的Docker系统的架构自动选择其对应的镜像。
+在DockerHub中，镜像的多架构信息保存在Manifest文件中。在拉取镜像时，Docker会随着pull命令将当前Docker系统的OS与架构信息一并提交给DockerHub。DockerHub首先会根据镜像的`<repository>:<tag>`查找是否存在Manifest。如果不存在，则直接查找并返回`<repository>:<tag>`镜像即可；如果存在，则会在Manifest中查找是否存在指定系统/架构的镜像。如果存在该系统/架构，则根据Manifest中记录的地址找到该镜像的位置。
+
+```bash
+# 查看 manifest
+$ docker manifest inspect busybox
+```
+
+
+
 ## 二、常用命令
 
 ### 1. docker pull
