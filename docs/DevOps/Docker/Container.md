@@ -103,7 +103,7 @@ docker logs --since="2023-10-16T20:50:39Z"  --until="2023-10-16T20:50:40Z" 3196d
 $ docker cp hello.txt myubuntu:/root/
 ```
 
-#### 8. docker rm
+### 8. docker rm
 
 删除容器
 
@@ -111,4 +111,55 @@ $ docker cp hello.txt myubuntu:/root/
 docker rm [容器]
 docker rm -f [容器]
 ```
+
+### 9. docker commit
+
+将容器生成为一个镜像
+
+```bash
+docker commit c3f279d17e0a  svendowideit/testimage:version3
+```
+
+### 10. 容器的导入导出
+
+#### 10.1 导出
+
+```bash
+docker export -o myubuntu.tar myubunt
+```
+
+#### 10.2 导入
+
+将导出的容器导入为镜像
+
+```bash
+docker import myubuntu.tar myubuntu:v1
+```
+
+### 11. 容器暂停与恢复
+
+pause暂停容器对外提供服务
+
+```bash
+$ docker pause tomcat
+```
+
+恢复
+
+```bash
+$ docker unpause tomcat
+```
+
+### 12 创建容器
+
+只创建，不运行
+
+```bash
+$ docker create  -p 8080:8080 --name tomcat tomcat:8.5.49
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+f974989ed804        tomcat:8.5.49       "catalina.sh run"   5 seconds ago       Created                                 tomcat
+```
+
+
 
