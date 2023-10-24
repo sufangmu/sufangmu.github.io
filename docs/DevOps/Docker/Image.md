@@ -59,7 +59,14 @@ Status: Downloaded newer image for redis:latest
 $ docker manifest inspect busybox
 ```
 
+### 5. 悬虚镜像
 
+​     悬虚镜像是指既没有Repository又没有Tag的像。当新建了一个镜像后，为该镜像指定了一个已经存在的TAG，那么原来的镜像就会变为空镜像。
+
+ ```bash
+# 删除悬虚镜像,只能删除没有容器使用的镜像。
+docker image prune
+ ```
 
 ## 二、常用命令
 

@@ -227,4 +227,7 @@ nav:
       - '安装': 'DevOps/Docker/Install.md'
       - '镜像': 'DevOps/Docker/Image.md'
       - '容器': 'DevOps/Docker/Container.md'
+      - 'Dockerfile': 'DevOps/Docker/Dockerfile.md'
+      - 'system子命令': 'DevOps/Docker/system子命令.md'
+      - '容器与镜像的导入导出区别': 'DevOps/Docker/容器与镜像的导入导出区别.md'
   - 文档: 'resource/docs.md'
