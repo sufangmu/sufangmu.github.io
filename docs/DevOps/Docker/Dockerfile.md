@@ -55,7 +55,27 @@ $ docker run hello-docker
 hello docker!
 ```
 
-## 二、Dockerfile
+## 二、镜像的构建过程
+
+```dockerfile
+FROM centos:7
+LABEL auth=Tom
+COPY hello.log /var/log/
+RUN yum -y install vim
+CMD /bin/bash
+```
+
+FROM指令是Dockerfile中唯一不可缺少的命令，它为最终构建出的镜像设定了一个基础镜像（Baselmage）。该语句并不会产生新的像层，它是使用指定的像作为基础镜像层的。`docker build`命令解析Dockerfile的FROM指令时，可以立即获悉在哪一个镜像基础上完成下一条指令镜像层构建。Docker Daemon首先从基础镜像的文件系统获取到镜像的ID，然后再根据像ID提取出镜像的json文件内容，以备下一条指令像层构建时使用。
+
+LABEL指令仅修改上一步中提取出的镜像json文件内容，在json中添加LABEL信息后，无需新镜像文件系统。但也会生成一个新的镜像层，只不过该镜像层中只记录了json文件内容的修改变化，没有文件系统的变化。如果该指令就是最后一条指令，那么此时形成的镜像的文件系统其实就是原来FROM后指定镜像的文件系统，只是json文件发生了变化。但由于json文件内容发生了变化，所以产生了新的镜像层。
+
+COPY指令会将宿主机中的指定文件复制到容器中的指定目录，所以会改变该镜像层文件系统大小，并生成新的镜像层文件系统内容。所以json文件中的镜像ID也就发生了变化，产生了新的镜像层。
+
+RUN指令本身并不会改变镜像层文件系统大小，但如果RUN的命令是安装或者其他增加文件内容的命令，所以导致RUN命令最终改变了镜像层文件系统大小，就生成了新的镜像层文件系统内容。所以json文件中的镜像ID也就发生变化，产生了新的镜像层。
+
+对于CMD或ENTRYPOINT指令，其是不会改变镜像层文件系统大小的，因为其不会在`docker build`过程中执行。所以该条指令没有改变镜像层文件系统大小。但对于CMD或ENTRYPOINT指令，由于其将来容器启动后要执行的命令，所以会将该条指令写入到json文件中，会引发json文件的变化。所以json文件中的镜像ID也就发生了变化，产生了新的像层。
+
+## 三、Dockerfile
 
 ### 1. scratch镜像
 
@@ -152,7 +172,7 @@ CMD ["param1","param2"]
 
 Dockerfile中定义的CMD**可以**被执行`docker run`时指定的[COMMAND]替换。执行时不能添加`[ARG]`
 
-### 10 ENTRYPOINT
+### 10. ENTRYPOINT
 
 ```dockerfile
 # 语法一
@@ -240,3 +260,55 @@ ONBUILD INSTRUCTION
 ```
 
 该指令用于指定当前镜像的子镜像进行构建时要执行的指令。
+
+```dockerfile
+# 父镜像Dockerfile中定义，子镜像Dockerfile中执行
+ONBUILD RUN yum install -y wget
+```
+
+### 13. VOLUME
+
+```dockerfile
+VOLUME ["/data"]
+```
+
+该指令可以在容器中创建可以挂载数据卷的挂载点。其参数可以是字符串数组也可以是使用空格隔开的多个纯字符串。例如：`VOLUME ["/var/www“，"/etc/apache”]`或`VOLUME /var/www /etc/apache`
+
+### 14. EXPOSE
+
+```dockerfile
+EXPOSE <port> [<port>/<protocol>...]
+```
+
+指定容器准各对外暴露的端口号，但该端口号并不会真正的对外暴露。若要真正暴露，则需要在执行docker run命令时使用-p来指定要真正暴露出的端口号。
+
+## 四、构建缓存
+
+### 1. build cache机制
+
+Docker Daemnon通过Dockerfile构建镜像时，当发现即将新构建出的镜像（层）与本地已存在的某镜像（层）重复时，默认会复用已存在镜像（层）而不是重新构建新的像（层），这种机制称为docker build cache机制。该机制不仅加快了镜像的构建过程，同时也大量节省了Docker宿主机的空间。
+     docker build cache并不是占用内存的cache，而是一种对磁盘中相应镜像层的检索、复用机制。所以无论是关闭Docker引擎，还是重启Docker宿主机，只要该镜像（层）存在于本地，那么就会复用。
+
+### 2. build cache失效
+
+​      docker build cache在以下几种情况下会失效。
+
+#### 2.1 Dockerfile文件发生变化
+
+当Dockerfile文件中某个指令内容发生变化，那么从发生变化的这个指令层开始的所有镜像层cache全部失效。即从该指令行开始的镜像层将构建出新的镜像层，而不再使用build cache，即使后面的指令并未发生变化。因为镜像关系本质上是一种树状关系，只要其上层节点变了，那么该发生变化节点的所有下层节点也就全部变化了。
+
+#### 2.2 ADD或COPY指令内容变化
+
+Dockerfile文件内容没有变化，但ADD或COPY指令所复制的文件内容发生了变化，同样会使从该指令镜像层开始的后面所有镜像层的build cache失效。
+
+#### 2.3 RUN指令外部依赖变化
+
+与ADD/COPY指令相似。Dockerfile文件内容没有变化，但RUN命令的外部依赖发生了变化，例如安装的软件源发生了变更（版本变化、下载地址变化等），那么从发生变化的这个指令层开始的所有镜像层cache全部失效。
+
+#### 2.4 指定不使用buildcache
+
+有些时候为了确保在镜像构建过程中使用到新的数据，在镜像构建docker build时，通过`--no-cache`选项指定不使用build cache。
+
+#### 2.5 清理dangling build cache
+
+​     dangling build cache，即悬虚buildcache，指的是无法使用的build cache。一般为悬虚镜像dangling image所产生的build cache通过docker system prune命令可以清除。
