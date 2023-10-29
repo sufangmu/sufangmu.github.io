@@ -72,7 +72,11 @@ NETWORK ID          NAME                DRIVER              SCOPE
 53ce2abc7503        none                null                local
 ```
 
-## 二、Docker0网桥
+## 二、Docker网络驱动
+
+### 1. bridge
+
+#### 1.1 Docker0网桥
 
 bridge网络模式中具有一个默认的虚拟网桥dockero，通过`ip a`或`ifconfig`命令都可查看
 
@@ -89,4 +93,166 @@ docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 ```
 
 在Linux主机上，Docker的bridge网络由Bridge驱动创建，其在创建时会创建一个默认的网桥dockero0。容器与网桥间是通过veth pair技术实现的连接，网桥与外网间是通过“网络地址转换NAT技术”实现的连接，即将通信的数据包中的内网地址转换为外网地址。Bridge驱动的底层是基于Linux内核的LinuxBridge技术。
+
+```bash
+[root@localhost ~]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:0c:29:a8:63:dc brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.136/24 brd 192.168.1.255 scope global noprefixroute dynamic ens33
+       valid_lft 1359sec preferred_lft 1359sec
+    inet6 fe80::f4d6:a364:587f:861b/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: docker0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:16:66:08:da brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:16ff:fe66:8da/64 scope link 
+       valid_lft forever preferred_lft forever
+91: vethebd420b@if90: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master docker0 state UP group default 
+    link/ether 12:05:94:bd:9e:45 brd ff:ff:ff:ff:ff:ff link-netnsid 2
+    inet6 fe80::1005:94ff:febd:9e45/64 scope link 
+       valid_lft forever preferred_lft forever
+[root@localhost ~]# docker exec  busybox ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+90: eth0@if91: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue 
+    link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+```
+
+宿主机的91号接口与容器中的90号接口为一对veth pair。
+
+```bash
+[root@localhost ~]# brctl show
+bridge name	bridge id		STP enabled	interfaces
+docker0		8000.0242166608da	no		vethebd420b
+```
+
+网卡`91: vethebd420b@if90`属于`docker0`网桥。
+
+bridge网络，也称为单机桥接网络，是Docker默认的网络模式。该网络模式只能存在于单个Docker主机上，其只能用于连接所在Docker主机上的容器。
+
+#### 1.2 创建网桥
+
+创建一个网桥
+
+```bash
+[root@localhost ~]# docker network create -d bridge bridge2
+b5a98b1b2f8565b2d8b95ed7a2e4a8a81ed47fa771122f6ca6628450a7f7c002
+[root@localhost ~]# docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+c101138aa733        bridge              bridge              local
+b5a98b1b2f85        bridge2             bridge              local
+5f276e46d24d        host                host                local
+53ce2abc7503        none                null                local
+[root@localhost ~]# brctl show
+bridge name	bridge id		STP enabled	interfaces
+br-b5a98b1b2f85		8000.02423a222e46	no		
+docker0		8000.0242cb20dcd7	no	
+```
+
+创建两个容器分别属于两个不同的网络
+
+```bash
+[root@localhost ~]# docker run -itd --name busybox1 busybox
+b76bbd92872a57fcd29245bab390616be19cf24d2890367f7168aa3c7f8b9216
+[root@localhost ~]# docker run -itd --name busybox2 --network bridge2 busybox
+755ebadaaaa53c2520ef7c4e45433bd5d6bbd270d52b7ab75462dfefd7c089ed
+[root@localhost ~]# docker exec -it busybox1 ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+9: eth0@if10: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue 
+    link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+[root@localhost ~]# docker exec -it busybox2 ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+11: eth0@if12: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue 
+    link/ether 02:42:ac:12:00:02 brd ff:ff:ff:ff:ff:ff
+    inet 172.18.0.2/16 brd 172.18.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+```
+
+将busybox1添加到bridge2网络中
+
+```bash
+[root@localhost ~]# docker network connect bridge2 busybox1
+[root@localhost ~]# docker exec -it busybox1 ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+9: eth0@if10: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue 
+    link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+13: eth1@if14: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue 
+    link/ether 02:42:ac:12:00:03 brd ff:ff:ff:ff:ff:ff
+    inet 172.18.0.3/16 brd 172.18.255.255 scope global eth1
+       valid_lft forever preferred_lft forever
+[root@localhost ~]# brctl show
+bridge name	bridge id		STP enabled	interfaces
+br-b5a98b1b2f85		8000.02423a222e46	no		veth8b12f44
+							vethff75d14
+docker0		8000.0242cb20dcd7	no		vethfe81d3f
+
+```
+
+自定义网桥网络中容器可以使用容器名作为域名ping，默认网桥不可以
+
+### 2. none
+
+none网络，即没有网络。容器仍是一个独立的Network Namespace，但没有网络接口，没有IP。
+
+```bash
+[root@localhost ~]# docker run -itd --name busybox --network none busybox
+dd32c1c7780982184de6b120a9479d7cb86232f4e72fd59f75ebb120175abac0
+[root@localhost ~]# docker exec  busybox ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+```
+
+### 3. host
+
+host网络，即与宿主机host共用一个Network Namespace。该网络类型的容器没有独立的网络空间，没有独立的IP，全部与host共用。
+
+```bash
+[root@localhost ~]# docker run -itd --name busybox --network host busybox
+dc70395908bb810e3a81593a63bc01cd7a5dc6821dfcff4422490d1b9fd36628
+[root@localhost ~]# docker exec  busybox ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 00:0c:29:a8:63:dc brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.136/24 brd 192.168.1.255 scope global dynamic noprefixroute ens33
+       valid_lft 1438sec preferred_lft 1438sec
+    inet6 fe80::f4d6:a364:587f:861b/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue 
+    link/ether 02:42:cb:20:dc:d7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:cbff:fe20:dcd7/64 scope link 
+       valid_lft forever preferred_lft forever
+```
 
