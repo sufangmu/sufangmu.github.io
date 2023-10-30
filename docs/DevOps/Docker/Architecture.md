@@ -31,7 +31,7 @@ Shim是实现Daemonless Container不可或缺的工具，使Runc与Daemon解耦�
 
 [^]: https://docs.docker.com/get-started/overview/#docker-architecture
 
-
+![1698587142153](images/1698587142153.png)
 
 
 
