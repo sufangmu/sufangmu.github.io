@@ -233,4 +233,6 @@ nav:
       - 'system子命令': 'DevOps/Docker/system子命令.md'
       - '容器与镜像的导入导出区别': 'DevOps/Docker/容器与镜像的导入导出区别.md'
       - '网络原理': 'DevOps/Docker/Networking.md'
+      - '存储驱动': 'DevOps/Docker/StorageDriver.md'
+      - '容器安全': 'DevOps/Docker/Security.md'
   - 文档: 'resource/docs.md'
