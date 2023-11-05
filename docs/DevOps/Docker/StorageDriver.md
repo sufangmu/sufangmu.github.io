@@ -407,9 +407,9 @@ drwxr-xr-x. 3 root root 17 Sep 13 08:16 diff
 drwx------. 2 root root  6 Sep 13 08:16 work
 ```
 
-镜像层的 link 文件内容为该镜像层的短ID，diff文件夹为该镜像层的改动内容，lower文件为该层的所有父层镜像的短ID。
+镜像层的link文件内容为该镜像层的短ID，diff文件夹为该镜像层的改动内容，lower文件为该层的所有父层镜像的短ID，多个镜像用冒号分割。
 
-我们可以通过docker image inspect命令来查看某个镜像的层级关系，例如我想查看刚刚下载的Ubuntu 镜像之间的层级关系，可以使用以下命令：
+我们可以通过`docker image inspect`命令来查看某个镜像的层级关系，例如我想查看刚刚下载的Ubuntu镜像之间的层级关系，可以使用以下命令：
 
 ```bash
 $ docker image inspect ubuntu:16.04
@@ -451,7 +451,7 @@ $ docker inspect ubuntu
 ...省略部分输出
 ```
 
-**MergedDir 的内容即为容器层的工作目录，LowerDir 为容器所依赖的镜像层目录。** 然后我们查看下 overlay2 目录下的内容：
+MergedDir 的内容即为容器层的工作目录，LowerDir 为容器所依赖的镜像层目录。 然后我们查看下 overlay2 目录下的内容：
 
 ```bash
 $ sudo ls -l /var/lib/docker/overlay2/
@@ -478,7 +478,7 @@ drwxr-xr-x. 1 root root   6 Sep 13 08:47 merged
 drwx------. 3 root root  18 Sep 13 08:47 work
 ```
 
-link 和 lower 文件与镜像层的功能一致，link 文件内容为该容器层的短ID，lower文件为该层的所有父层镜像的短 ID 。diff目录为容器的读写层，容器内修改的文件都会在diff中出现，merged目录为分层文件联合挂载后的结果，也是容器内的工作目录。
+link 和 lower 文件与镜像层的功能一致，link 文件内容为该容器层的短ID，lower文件为该层的所有父层镜像的短ID 。diff目录为容器的读写层，容器内修改的文件都会在diff中出现，merged目录为分层文件联合挂载后的结果，也是容器内的工作目录。
 
 总体来说，overlay2是这样储存文件的：overlay2将镜像层和容器层都放在单独的目录，并且有唯一 ID，每一层仅存储发生变化的文件，最终使用联合挂载技术将容器层和镜像层的所有文件统一挂载到容器中，使得容器中看到完整的系统文件。
 
