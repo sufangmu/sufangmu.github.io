@@ -59,7 +59,7 @@
 
 ### 4. 数据经过iptables的流程
 
-![iptables工作流程](https://www.frozentux.net/iptables-tutorial/images/tables_traverse.jpg)
+![iptables工作流程](images/tables_traverse.jpg)
 
 
 

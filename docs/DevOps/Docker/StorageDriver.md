@@ -346,11 +346,13 @@ $UUID /var/lib/docker xfs defaults,pquota 0 0
 
 ### 2. overlay2工作原理
 
+ ![How Docker constructs map to OverlayFS constructs](https://docs.docker.com/storage/storagedriver/images/overlay_constructs.webp) 
+
 #### 2.1 overlay2是如何存储文件的
 
 overlay2和AUFS类似，它将所有目录称之为层（layer），overlay2的目录是镜像和容器分层的基础，而把这些层统一展现到同一的目录下的过程称为联合挂载（union mount）。overlay2把目录的下一层叫作lowerdir，上一层叫作upperdir，联合挂载后的结果叫作merged。
 
-总体来说，overlay2是这样储存文件的：overlay2将镜像层和容器层都放在单独的目录，并且有唯一 ID，每一层仅存储发生变化的文件，最终使用联合挂载技术将容器层和镜像层的所有文件统一挂载到容器中，使得容器中看到完整的系统文件。
+总体来说，overlay2是这样储存文件的：overlay2将镜像层和容器层都放在单独的目录，并且有唯一ID，每一层仅存储发生变化的文件，最终使用联合挂载技术将容器层和镜像层的所有文件统一挂载到容器中，使得容器中看到完整的系统文件。
 
 > overlay2文件系统最多支持128个层数叠加，也就是说你的Dockerfile最多只能写128行，不过这在日常使用中足够了。
 
@@ -359,39 +361,40 @@ overlay2和AUFS类似，它将所有目录称之为层（layer），overlay2的�
 首先，我们通过以下命令拉取Ubuntu镜像：
 
 ```bash
+$ docker --version
+Docker version 18.09.9, build 039a7df9ba
 $ docker pull ubuntu:16.04
 16.04: Pulling from library/ubuntu
-8e097b52bfb8: Pull complete
-a613a9b4553c: Pull complete
-acc000f01536: Pull complete
-73eef93b7466: Pull complete
-Digest: sha256:3dd44f7ca10f07f86add9d0dc611998a1641f501833692a2651c96defe8db940
+58690f9b18fc: Pull complete 
+b51569e7c507: Pull complete 
+da8ef40b9eca: Pull complete 
+fb15d46c38dc: Pull complete 
+Digest: sha256:1f1a2d56de1d604801a9671f301190704c25d604a416f59e03c04f5c6ffee0d6
 Status: Downloaded newer image for ubuntu:16.04
-docker.io/library/ubuntu:16.04
 ```
 
 可以看到镜像一共被分为四层拉取，拉取完镜像后我们查看一下overlay2的目录：
 
 ```bash
-$ sudo ls -l /var/lib/docker/overlay2/
+$ ls -l /var/lib/docker/overlay2/
 total 0
-drwx------. 3 root root      47 Sep 13 08:16 01946de89606800dac8530e3480b32be9d7c66b493a1cdf558df52d7a1476d4a
-drwx------. 4 root root      55 Sep 13 08:16 0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb
-drwx------. 4 root root      72 Sep 13 08:16 94222a2fa3b2405cb00459285dd0d0ba7e6936d9b693ed18fbb0d08b93dc272f
-drwx------. 4 root root      72 Sep 13 08:16 9d392cf38f245d37699bdd7672daaaa76a7d702083694fa8be380087bda5e396
-brw-------. 1 root root 253, 17 Sep 13 08:14 backingFsBlockDev
-drwx------. 2 root root     142 Sep 13 08:16 l
+drwx------. 3 root root     30 Nov 12 21:25 0df618e818f09a3420989495cdb3c5fc9bb5c2623c7f523ecc6e8fee41eec1c1
+drwx------. 4 root root     55 Nov 12 21:25 923c3563222a069f138a383448f1fc5ab4ef01026b3aee12bd69f3c4f0ccb950
+drwx------. 4 root root     55 Nov 12 21:25 b1acf1f3788eca03ca64ac6fd25643c93f4665f2d509f65162bf84651c8446d9
+brw-------. 1 root root 253, 0 Nov 12 21:12 backingFsBlockDev
+drwx------. 4 root root     55 Nov 12 21:25 c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f
+drwx------. 2 root root    142 Nov 12 21:25 l
 ```
 
 可以看到overlay2目录下出现了四个镜像层目录和一个l目录，我们首先来查看一下l目录的内容：
 
 ```bash
-$ sudo ls -l /var/lib/docker/overlay2/l
+$ ls -l /var/lib/docker/overlay2/l
 total 0
-lrwxrwxrwx. 1 root root 72 Sep 13 08:16 FWGSYEA56RNMS53EUCKEQIKVLQ -> ../9d392cf38f245d37699bdd7672daaaa76a7d702083694fa8be380087bda5e396/diff
-lrwxrwxrwx. 1 root root 72 Sep 13 08:16 RNN2FM3YISKADNAZFRONVNWTIS -> ../0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/diff
-lrwxrwxrwx. 1 root root 72 Sep 13 08:16 SHAQ5GYA3UZLJJVEGXEZM34KEE -> ../01946de89606800dac8530e3480b32be9d7c66b493a1cdf558df52d7a1476d4a/diff
-lrwxrwxrwx. 1 root root 72 Sep 13 08:16 VQSNH735KNX4YK2TCMBAJRFTGT -> ../94222a2fa3b2405cb00459285dd0d0ba7e6936d9b693ed18fbb0d08b93dc272f/diff
+lrwxrwxrwx. 1 root root 72 Nov 12 21:25 4WOL22ELV2PGPPXHCK7LKD5TEO -> ../b1acf1f3788eca03ca64ac6fd25643c93f4665f2d509f65162bf84651c8446d9/diff
+lrwxrwxrwx. 1 root root 72 Nov 12 21:25 BCREAASVZ4I54L5EVXPIJUEFG3 -> ../0df618e818f09a3420989495cdb3c5fc9bb5c2623c7f523ecc6e8fee41eec1c1/diff
+lrwxrwxrwx. 1 root root 72 Nov 12 21:25 EZ4C2MA53DQFJ46GJZUJZASYX6 -> ../923c3563222a069f138a383448f1fc5ab4ef01026b3aee12bd69f3c4f0ccb950/diff
+lrwxrwxrwx. 1 root root 72 Nov 12 21:25 HI543YYQQUURRL3MEIUFYTTGO2 -> ../c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/diff
 ```
 
 可以看到l目录是一堆软连接，把一些较短的随机串软连到镜像层的diff文件夹下，这样做是为了避免达到mount命令参数的长度限制。
@@ -399,27 +402,34 @@ lrwxrwxrwx. 1 root root 72 Sep 13 08:16 VQSNH735KNX4YK2TCMBAJRFTGT -> ../94222a2
 下面我们查看任意一个镜像层下的文件内容：
 
 ```bash
-$ sudo ls -l /var/lib/docker/overlay2/0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/
+$ ls -l /var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f
 total 8
-drwxr-xr-x. 3 root root 17 Sep 13 08:16 diff
--rw-r--r--. 1 root root 26 Sep 13 08:16 link
--rw-r--r--. 1 root root 86 Sep 13 08:16 lower
-drwx------. 2 root root  6 Sep 13 08:16 work
+drwxr-xr-x. 3 root root 17 Nov 12 21:25 diff
+-rw-r--r--. 1 root root 26 Nov 12 21:25 link
+-rw-r--r--. 1 root root 86 Nov 12 21:25 lower
+drwx------. 2 root root  6 Nov 12 21:25 work
 ```
 
 镜像层的link文件内容为该镜像层的短ID，diff文件夹为该镜像层的改动内容，lower文件为该层的所有父层镜像的短ID，多个镜像用冒号分割。
+
+```bash
+$ cat /var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/link 
+HI543YYQQUURRL3MEIUFYTTGO2
+$ cat /var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/lower 
+l/EZ4C2MA53DQFJ46GJZUJZASYX6:l/4WOL22ELV2PGPPXHCK7LKD5TEO:l/BCREAASVZ4I54L5EVXPIJUEFG3
+```
 
 我们可以通过`docker image inspect`命令来查看某个镜像的层级关系，例如我想查看刚刚下载的Ubuntu镜像之间的层级关系，可以使用以下命令：
 
 ```bash
 $ docker image inspect ubuntu:16.04
 ...省略部分输出
-"GraphDriver": {
+        "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/9d392cf38f245d37699bdd7672daaaa76a7d702083694fa8be380087bda5e396/diff:/var/lib/docker/overlay2/94222a2fa3b2405cb00459285dd0d0ba7e6936d9b693ed18fbb0d08b93dc272f/diff:/var/lib/docker/overlay2/01946de89606800dac8530e3480b32be9d7c66b493a1cdf558df52d7a1476d4a/diff",
-                "MergedDir": "/var/lib/docker/overlay2/0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/merged",
-                "UpperDir": "/var/lib/docker/overlay2/0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/diff",
-                "WorkDir": "/var/lib/docker/overlay2/0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/work"
+                "LowerDir": "/var/lib/docker/overlay2/923c3563222a069f138a383448f1fc5ab4ef01026b3aee12bd69f3c4f0ccb950/diff:/var/lib/docker/overlay2/b1acf1f3788eca03ca64ac6fd25643c93f4665f2d509f65162bf84651c8446d9/diff:/var/lib/docker/overlay2/0df618e818f09a3420989495cdb3c5fc9bb5c2623c7f523ecc6e8fee41eec1c1/diff",
+                "MergedDir": "/var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/work"
             },
             "Name": "overlay2"
         },
@@ -439,12 +449,12 @@ $ docker run --name=ubuntu -d ubuntu:16.04 sleep 3600
 ```bash
 $ docker inspect ubuntu
 ...省略部分输出
- "GraphDriver": {
+        "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2-init/diff:/var/lib/docker/overlay2/0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb/diff:/var/lib/docker/overlay2/9d392cf38f245d37699bdd7672daaaa76a7d702083694fa8be380087bda5e396/diff:/var/lib/docker/overlay2/94222a2fa3b2405cb00459285dd0d0ba7e6936d9b693ed18fbb0d08b93dc272f/diff:/var/lib/docker/overlay2/01946de89606800dac8530e3480b32be9d7c66b493a1cdf558df52d7a1476d4a/diff",
-                "MergedDir": "/var/lib/docker/overlay2/4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2/merged",
-                "UpperDir": "/var/lib/docker/overlay2/4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2/diff",
-                "WorkDir": "/var/lib/docker/overlay2/4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2/work"
+                "LowerDir": "/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2-init/diff:/var/lib/docker/overlay2/c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f/diff:/var/lib/docker/overlay2/923c3563222a069f138a383448f1fc5ab4ef01026b3aee12bd69f3c4f0ccb950/diff:/var/lib/docker/overlay2/b1acf1f3788eca03ca64ac6fd25643c93f4665f2d509f65162bf84651c8446d9/diff:/var/lib/docker/overlay2/0df618e818f09a3420989495cdb3c5fc9bb5c2623c7f523ecc6e8fee41eec1c1/diff",
+                "MergedDir": "/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/work"
             },
             "Name": "overlay2"
         },
@@ -454,33 +464,68 @@ $ docker inspect ubuntu
 MergedDir 的内容即为容器层的工作目录，LowerDir 为容器所依赖的镜像层目录。 然后我们查看下 overlay2 目录下的内容：
 
 ```bash
-$ sudo ls -l /var/lib/docker/overlay2/
+$ ls -l /var/lib/docker/overlay2/
 total 0
-drwx------. 3 root root      47 Sep 13 08:16 01946de89606800dac8530e3480b32be9d7c66b493a1cdf558df52d7a1476d4a
-drwx------. 4 root root      72 Sep 13 08:47 0849daa41598a333101f6a411755907d182a7fcef780c7f048f15d335b774deb
-drwx------. 5 root root      69 Sep 13 08:47 4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2
-drwx------. 4 root root      72 Sep 13 08:47 4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2-init
-drwx------. 4 root root      72 Sep 13 08:16 94222a2fa3b2405cb00459285dd0d0ba7e6936d9b693ed18fbb0d08b93dc272f
-drwx------. 4 root root      72 Sep 13 08:16 9d392cf38f245d37699bdd7672daaaa76a7d702083694fa8be380087bda5e396
-brw-------. 1 root root 253, 17 Sep 13 08:14 backingFsBlockDev
-drwx------. 2 root root     210 Sep 13 08:47 l
+drwx------. 3 root root     30 Nov 12 21:25 0df618e818f09a3420989495cdb3c5fc9bb5c2623c7f523ecc6e8fee41eec1c1
+drwx------. 4 root root     55 Nov 12 21:25 923c3563222a069f138a383448f1fc5ab4ef01026b3aee12bd69f3c4f0ccb950
+drwx------. 4 root root     55 Nov 12 21:25 b1acf1f3788eca03ca64ac6fd25643c93f4665f2d509f65162bf84651c8446d9
+brw-------. 1 root root 253, 0 Nov 12 21:12 backingFsBlockDev
+drwx------. 5 root root     69 Nov 12 21:38 c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2
+drwx------. 4 root root     55 Nov 12 21:38 c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2-init
+drwx------. 4 root root     55 Nov 12 21:25 c558a491fd13d3023d1196eb16ce303010e1216ee480b17e27e6115daa268c4f
+drwx------. 2 root root    210 Nov 12 21:38 l
 ```
+
+运行容器后生成了两个新的层，其中一个为iit层，这是用来存储和容器环境相关内容的只读层，由于这些环境在每台机器上都可能不同，docker的策略是放在init层，每个镜像生成容器时去生成环境相关的配置。我们在`docker commit`时，不提交init层的内容。
+
+```bash
+$ tree /var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2-init/
+/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2-init/
+├── diff
+│   ├── dev
+│   │   └── console
+│   └── etc
+│       ├── hostname
+│       ├── hosts
+│       ├── mtab -> /proc/mounts
+│       └── resolv.conf
+├── link
+├── lower
+└── work
+    └── work
+
+6 directories, 7 files
+```
+
+
 
 可以看到 overlay2 目录下增加了容器层相关的目录，我们再来查看一下容器层下的内容：
 
 ```bash
-$ sudo ls -l /var/lib/docker/overlay2/4753c2aa5bdb20c97cddd6978ee3b1d07ef149e3cc2bbdbd4d11da60685fe9b2
+$ ls -l /var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2
 total 8
-drwxr-xr-x. 2 root root   6 Sep 13 08:47 diff
--rw-r--r--. 1 root root  26 Sep 13 08:47 link
--rw-r--r--. 1 root root 144 Sep 13 08:47 lower
-drwxr-xr-x. 1 root root   6 Sep 13 08:47 merged
-drwx------. 3 root root  18 Sep 13 08:47 work
+drwxr-xr-x. 2 root root   6 Nov 12 21:38 diff
+-rw-r--r--. 1 root root  26 Nov 12 21:38 link
+-rw-r--r--. 1 root root 144 Nov 12 21:38 lower
+drwxr-xr-x. 1 root root   6 Nov 12 21:38 merged
+drwx------. 3 root root  18 Nov 12 21:38 work
 ```
 
-link 和 lower 文件与镜像层的功能一致，link 文件内容为该容器层的短ID，lower文件为该层的所有父层镜像的短ID 。diff目录为容器的读写层，容器内修改的文件都会在diff中出现，merged目录为分层文件联合挂载后的结果，也是容器内的工作目录。
+link和lower文件与镜像层的功能一致，link文件内容为该容器层的短ID，lower文件为该层的所有父层镜像的短ID 。diff目录为容器的读写层，容器内修改的文件都会在diff中出现，merged目录为分层文件联合挂载后的结果，也是容器内的工作目录。
 
-总体来说，overlay2是这样储存文件的：overlay2将镜像层和容器层都放在单独的目录，并且有唯一 ID，每一层仅存储发生变化的文件，最终使用联合挂载技术将容器层和镜像层的所有文件统一挂载到容器中，使得容器中看到完整的系统文件。
+```bash
+mount | grep overlay
+overlay on /var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/merged type overlay (rw,relatime,seclabel,
+lowerdir=/var/lib/docker/overlay2/l/DTOYMUCW6MGKJF32MJ6L427QC5:
+/var/lib/docker/overlay2/l/HI543YYQQUURRL3MEIUFYTTGO2:
+/var/lib/docker/overlay2/l/EZ4C2MA53DQFJ46GJZUJZASYX6:
+/var/lib/docker/overlay2/l/4WOL22ELV2PGPPXHCK7LKD5TEO:
+/var/lib/docker/overlay2/l/BCREAASVZ4I54L5EVXPIJUEFG3,
+upperdir=/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/diff,
+workdir=/var/lib/docker/overlay2/c36895c9b4a4de011c85b69b548d5fddebe3175a3597d489386a6fef71c932b2/work)
+```
+
+总体来说，overlay2是这样储存文件的：overlay2将镜像层和容器层都放在单独的目录，并且有唯一ID，每一层仅存储发生变化的文件，最终使用联合挂载技术将容器层和镜像层的所有文件统一挂载到容器中，使得容器中看到完整的系统文件。
 
 #### 2.2 overlay2如何读取、修改文件？
 
@@ -503,3 +548,137 @@ overlay2对文件的修改采用的是写时复制的工作机制，这种工作
 > overlay2写时复制的操作将会复制整个文件，如果文件过大，将会大大降低文件系统的性能，因此当我们有大量文件需要被修改时，overlay2可能会出现明显的延迟。好在，写时复制操作只在第一次修改文件时触发，对日常使用没有太大影响。
 
 - 删除文件或目录：当文件或目录被删除时，overlay2并不会真正从镜像中删除它，因为镜像层是只读的，overlay2会创建一个特殊的文件或目录，这种特殊的文件或目录会阻止容器的访问。
+
+### 3. Overlay2演示
+
+#### 3.1 准备演示目录和文件
+
+创建对应的目录和文件
+
+```bash
+[root@host151 ~]# mkdir -p overlay2/{lower1,lower2,merged,upper,work}
+[root@host151 ~]# tree overlay2
+overlay2
+├── lower1
+├── lower2
+├── merged
+├── upper
+└── work
+
+5 directories, 0 files
+[root@host151 overlay2]# echo "I'm file1, belong to lower1" > lower1/file1.txt
+[root@host151 overlay2]# echo "I'm file2, belong to lower2" > lower2/file2.txt
+[root@host151 overlay2]# echo "I'm file3, belong to upper" > upper/file3.txt 
+```
+
+现在lower和upper都有各自的文件
+
+```bash
+[root@host151 overlay2]# tree
+.
+├── lower1
+│   └── file1.txt
+├── lower2
+│   └── file2.txt
+├── merged
+├── upper
+│   └── file3.txt
+└── work
+
+5 directories, 3 files
+```
+
+#### 3.2 创建overlay2文件系统
+
+```bash
+[root@host151 overlay2]# mount | grep overlay
+[root@host151 overlay2]# mount -t overlay overlay -olowerdir=lower1:lower2,upperdir=upper,workdir=work merged
+[root@host151 overlay2]# mount | grep overlay
+overlay on /root/overlay2/merged type overlay (rw,relatime,seclabel,lowerdir=lower1:lower2,upperdir=upper,workdir=work)
+```
+
+查看当前目录结构
+
+```bash
+[root@host151 overlay2]# tree
+.
+├── lower1
+│   └── file1.txt
+├── lower2
+│   └── file2.txt
+├── merged
+│   ├── file1.txt
+│   ├── file2.txt
+│   └── file3.txt
+├── upper
+│   └── file3.txt
+└── work
+    └── work
+```
+
+#### 3.3 验证写时复制
+
+修改lowerdir中的内容
+
+```bash
+[root@host151 overlay2]# echo 'file1 has been changed' > merged/file1.txt
+[root@host151 overlay2]# cat merged/*
+file1 has been changed
+I'm file2, belong to lower2
+I'm file3, belong to upper
+[root@host151 overlay2]# cat lower1/file1.txt
+I'm file1, belong to lower1
+[root@host151 overlay2]# tree
+.
+├── lower1
+│   └── file1.txt
+├── lower2
+│   └── file2.txt
+├── merged
+│   ├── file1.txt
+│   ├── file2.txt
+│   └── file3.txt
+├── upper
+│   ├── file1.txt
+│   └── file3.txt
+└── work
+    └── work
+
+6 directories, 7 files
+```
+
+可以看到merged目录中的文件被修改了，但是lower1中的文件内容没有变化，在upper下新生成了一个file1.txt.
+
+删除lower2中的file2.txt
+
+```bash
+[root@host151 overlay2]# rm merged/file2.txt 
+rm: remove regular file ‘merged/file2.txt’? y
+[root@host151 overlay2]# tree
+.
+├── lower1
+│   └── file1.txt
+├── lower2
+│   └── file2.txt
+├── merged
+│   ├── file1.txt
+│   └── file3.txt
+├── upper
+│   ├── file1.txt
+│   ├── file2.txt
+│   └── file3.txt
+└── work
+    └── work
+
+6 directories, 7 files
+[root@host151 overlay2]# cat merged/*
+file1 has been changed
+I'm file3, belong to upper
+[root@host151 overlay2]# ls -l upper/
+total 8
+-rw-r--r--. 1 root root   23 Nov 12 22:05 file1.txt
+c---------. 1 root root 0, 0 Nov 12 22:08 file2.txt
+-rw-r--r--. 1 root root   27 Nov 12 21:58 file3.txt
+```
+
+在merged目录下已经看不到file2.txt，但在upperdir中，可以看到生成一个特殊的字符设备文件。
