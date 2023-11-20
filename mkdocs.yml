@@ -98,13 +98,18 @@ nav:
         - 'SQL优化': 'databases/MySQL/SQL优化.md'
         - '索引优化': 'databases/MySQL/索引优化.md'
     - PostgreSQL:
-      - 安装: 
+      - 管理: 
+        - '安装': 'databases/PostgreSQL/管理/安装.md'
+        - '对象权限': 'databases/PostgreSQL/管理/对象权限.md'
+        - '配置': 'databases/PostgreSQL/管理/配置.md'
+        - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
         - '单实例安装': 'databases/PostgreSQL/安装/单实例安装.md'
         - '主备安装': 'databases/PostgreSQL/安装/一主一备安装.md'
       - 备份与恢复:
         - 'basebackup': 'databases/PostgreSQL/备份与恢复/basebackup.md'
         - 'PITR': 'databases/PostgreSQL/备份与恢复/PITR.md'
       - 内部原理:
+        - '架构': 'databases/PostgreSQL/原理/pg结构.md'
         - 'pg_control': 'databases/PostgreSQL/pg_control.md'
         - 'WAL': 'databases/PostgreSQL/WAL.md'
         - 'Checkpoint': 'databases/PostgreSQL/Checkpoint.md'
