@@ -103,6 +103,7 @@ nav:
         - '对象权限': 'databases/PostgreSQL/管理/对象权限.md'
         - '配置': 'databases/PostgreSQL/管理/配置.md'
         - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
+        - '连接访问控制': 'databases/PostgreSQL/管理/连接访问控制.md'
         - '单实例安装': 'databases/PostgreSQL/安装/单实例安装.md'
         - '主备安装': 'databases/PostgreSQL/安装/一主一备安装.md'
       - 备份与恢复:
