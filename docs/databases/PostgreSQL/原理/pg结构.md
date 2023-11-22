@@ -219,6 +219,9 @@ $ ps -u postgres -o pid,ppid,cmd --forest
 
  ![Fig. 1.1. Logical structure of a database cluster.](images/fig-1-01.png) 
 
+Postgres数据库集群是由PostgreSQL服务器管理的数据库的集合。PostgresQL中的“数据库集”一词并不意味着“一组数据库服务器”。PostgreSQL服务器在单个主机上运行，并管理单个数据库群集。
+数据库是数据库对象的集合。在关系数据库理论中，数据库对象是用来存储或引用数据的数据结构。堆(heap）表是一个典型的例子，它有很多类似于索引、序列、图、函数等等。在PostgresQL中，数据库本身也是数据库对象，在逻辑上彼此分离。
+
 ## 四、内存结构
 
  ![Fig. 2.2. Memory architecture in PostgreSQL.](images/fig-2-02.png) 

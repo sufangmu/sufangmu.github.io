@@ -1,19 +1,15 @@
-## pg_control文件
-
-
-
-### 1. 文件位置
+## 1. 文件位置
 
 pg_control文件位于`$PGDATA/global/`目录下，pg_control文件物理大小是8K，其内容尽量保持小于512字节。
 
 ```bash
-postgres@ubuntu:~$ ls -l $PGDATA/global/pg_control
+$ ls -l $PGDATA/global/pg_control
 -rw------- 1 postgres postgres 8192 Apr 24 22:55 /opt/software/postgresql/12.13/data/global/pg_control
 ```
 
-### 2. 文件内容
+## 2. 文件内容
 
-#### 1. initdb时生成的静态信息
+### 1. initdb时生成的静态信息
 
 ```bash
 pg_control version number:            1201
@@ -33,7 +29,7 @@ Float4 argument passing:              by value
 Float8 argument passing:              by value
 ```
 
-#### 2. `postgresql.conf`文件中的信息
+### 2. `postgresql.conf`文件中的信息
 
 ```bash
 wal_level setting:                    replica
@@ -46,7 +42,7 @@ max_locks_per_xact setting:           64
 track_commit_timestamp setting:       off
 ```
 
-#### 3. WAL及checkpoint的动态信息
+### 3. WAL及checkpoint的动态信息
 
 ```bash
 Latest checkpoint location:           0/15CD000
@@ -75,7 +71,7 @@ Backup end location:                  0/0
 End-of-backup record required:        no
 ```
 
-### 3. pg_control的维护
+## 3. pg_control的维护
 
 1. 固定部分：初始化数据库时产生，固定不变
 2. 随时更新的信息：发生检查点、备份、日志切换等操作自动更新
@@ -84,7 +80,7 @@ End-of-backup record required:        no
 5. 不能手动改修改该文件
 6. 启动和恢复数据库时需要此文件
 
-### 4. pg_control重建
+## 4. pg_control重建
 
 使用pg_resetwal命令进行重建，需要使用下面4个参数
 
@@ -95,12 +91,12 @@ End-of-backup record required:        no
 -x     set next transaction ID
 ```
 
-#### 1.  -l参数
+### 1.  -l参数
 
 找到pg_wal下最大的日志文件，编号加1，确定`-l`的参数为0000000400000000000000D2
 
 ```bash
-postgres@ubuntu:~$ ls -rt1 $PGDATA/pg_wal/ | grep -v archive_status | tail
+$ ls -rt1 $PGDATA/pg_wal/ | grep -v archive_status | tail
 0000000400000000000000F0
 000000040000000100000009
 00000004000000010000000B
@@ -113,12 +109,12 @@ postgres@ubuntu:~$ ls -rt1 $PGDATA/pg_wal/ | grep -v archive_status | tail
 0000000400000000000000D1
 ```
 
-#### 2.-O参数
+### 2.-O参数
 
 在pg_multixact/members目录下取最大值加1乘以65535后转换为16进制，然后末尾添加4个0
 
 ```bash
-postgres@ubuntu:~$ ls $PGDATA/pg_multixact/members/
+$ ls $PGDATA/pg_multixact/members/
 0000
 ```
 
@@ -129,30 +125,30 @@ postgres@ubuntu:~$ ls $PGDATA/pg_multixact/members/
 在pg_multixact/offsets目录下找到最大的文件编号加1，后面跟上4个0
 
 ```bash
-postgres@ubuntu:~$ ls $PGDATA/pg_multixact/offsets
+$ ls $PGDATA/pg_multixact/offsets
 0000
 ```
 
 得到-m的值为0x00010000,0x00010000
 
-#### 4.-x参数
+### 4.-x参数
 
 在pg_xact下面，找到最大的文件编号加1，后面跟上5个0
 
 ```bash
-postgres@ubuntu:~$ ls $PGDATA/pg_xact
+$ ls $PGDATA/pg_xact
 0000
 ```
 
 得到-x的值为0x000100000
 
-#### 5.执行
+### 5.执行
 
 执行重建pg_control文件语句
 
 ```bash
-postgres@ubuntu:~$ touch $PGDATA/global/pg_control
-postgres@ubuntu:~$ pg_resetwal -f $PGDATA -x 0x000100000 -m 0x00010000,0x00010000 -O 0x1000000000 -l 0000000400000000000000D2
+$ touch $PGDATA/global/pg_control
+$ pg_resetwal -f $PGDATA -x 0x000100000 -m 0x00010000,0x00010000 -O 0x1000000000 -l 0000000400000000000000D2
 Write-ahead log reset
 ```
 
