@@ -104,11 +104,10 @@ nav:
         - '配置': 'databases/PostgreSQL/管理/配置.md'
         - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
         - '连接访问控制': 'databases/PostgreSQL/管理/连接访问控制.md'
-        - '单实例安装': 'databases/PostgreSQL/安装/单实例安装.md'
-        - '主备安装': 'databases/PostgreSQL/安装/一主一备安装.md'
-      - 备份与恢复:
-        - 'basebackup': 'databases/PostgreSQL/备份与恢复/basebackup.md'
-        - 'PITR': 'databases/PostgreSQL/备份与恢复/PITR.md'
+        - '单实例安装': 'databases/PostgreSQL/管理/安装.md'
+        - '主备安装': 'databases/PostgreSQL/管理/主备安装.md'
+        - 'basebackup': 'databases/PostgreSQL/管理/basebackup.md'
+        - 'PITR': 'databases/PostgreSQL/管理/PITR.md'
       - 内部原理:
         - '架构': 'databases/PostgreSQL/原理/pg结构.md'
         - 'pg_control': 'databases/PostgreSQL/pg_control.md'
