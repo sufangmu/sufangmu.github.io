@@ -1,22 +1,14 @@
 环境准备
 
 ```bash
-root@ubuntu:~# python --version
-Python 2.7.17
-root@ubuntu:~# ant -version
-Apache Ant(TM) version 1.9.16 compiled on July 10 2021
-root@ubuntu:~# java -version
-java version "1.8.0_301"
-Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
-Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)
-root@ubuntu:~# R --version
-R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+yum install -y epel-release
+yum install -y java ant R
 ```
 
 安装benchmarksql
 
 ```bash
-wget https://nchc.dl.sourceforge.net/project/benchmarksql/benchmarksql-5.0.zip
+wget https://nchc.dl.sourceforge.net/project/benchmarksql/benchmarksql-5.0.zip --no-check-certificate
 unzip benchmarksql-5.0.zip 
 cd benchmarksql-5.0/
 ant
@@ -29,14 +21,14 @@ create user tpcc with password 'tpcc@123';
 create database benchmark owner=tpcc;
 ```
 
-配置benchmarksql
+配置benchmarksql-5.0/run/props.pg
 
 ```bash
 db=postgres
 driver=org.postgresql.Driver
 conn=jdbc:postgresql://localhost:5432/benchmark
-user=tpcc
-password=tpcc@123
+user=tpcc  # 数据库用例
+password=tpcc@123 # 数据库密码
 
 warehouses=10
 loadWorkers=4
@@ -73,7 +65,8 @@ osCollectorDevices=net_ens33 blk_sda
 建表并插入数据
 
 ```bash
-postgres@ubuntu:~/benchmarksql-5.0/run$ bash runDatabaseBuild.sh props.pg 
+
+$ bash benchmarksql-5.0/run/runDatabaseBuild.sh props.pg
 # ------------------------------------------------------------
 # Loading SQL file ./sql.common/tableCreates.sql
 # ------------------------------------------------------------
@@ -317,7 +310,7 @@ vacuum analyze;
 运行tpcc
 
 ```bash
-postgres@ubuntu:~/benchmarksql-5.0/run$ bash runBenchmark.sh props.pg
+$ bash benchmarksql-5.0/run/runBenchmark.sh props.pg
 14:40:50,112 [main] INFO   jTPCC : Term-00, 
 14:40:50,114 [main] INFO   jTPCC : Term-00, +-------------------------------------------------------------+
 14:40:50,115 [main] INFO   jTPCC : Term-00,      BenchmarkSQL v5.0
