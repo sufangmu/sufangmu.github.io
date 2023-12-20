@@ -99,14 +99,16 @@ nav:
         - '索引优化': 'databases/MySQL/索引优化.md'
     - PostgreSQL:
       - 管理: 
-        - '安装': 'databases/PostgreSQL/管理/安装.md'
+        - '单实例安装': 'databases/PostgreSQL/管理/单实例安装.md'
+        - '主备实例': 'databases/PostgreSQL/管理/主备实例.md'
+        - '连接访问控制': 'databases/PostgreSQL/管理/连接访问控制.md'
+        - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
         - '对象权限': 'databases/PostgreSQL/管理/对象权限.md'
         - '配置': 'databases/PostgreSQL/管理/配置.md'
-        - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
-        - '连接访问控制': 'databases/PostgreSQL/管理/连接访问控制.md'
-        - '单实例安装': 'databases/PostgreSQL/管理/安装.md'
-        - '主备安装': 'databases/PostgreSQL/管理/主备安装.md'
         - 'basebackup': 'databases/PostgreSQL/管理/basebackup.md'
+        - '逻辑备份': 'databases/PostgreSQL/管理/逻辑备份.md'
+        - '物理备份恢复一': 'databases/PostgreSQL/管理/物理备份恢复一.md'
+        - '物理备份恢复二': 'databases/PostgreSQL/管理/物理备份恢复二.md'
         - 'PITR': 'databases/PostgreSQL/管理/PITR.md'
       - 内部原理:
         - '架构': 'databases/PostgreSQL/原理/架构.md'
@@ -118,6 +120,11 @@ nav:
         - '数据文件和块存储结构': 'databases/PostgreSQL/数据文件和块存储结构.md'
         - '元组结构和DML操作': 'databases/PostgreSQL/元组结构和DML操作.md'
         - 'vacuum': 'databases/PostgreSQL/vacuum.md'
+        - 'autovacuum': 'databases/PostgreSQL/autovacuum.md'
+        - 'clog作用和管理': 'databases/PostgreSQL/clog作用和管理.md'
+        - 'Toast': 'databases/PostgreSQL/Toast.md'
+        - '冻结tixd': 'databases/PostgreSQL/冻结tixd.md'
+        - '事务与隔离级别': 'databases/PostgreSQL/事务与隔离级别.md'
     - 性能测试:
       - BenchmarkSQL: 'databases/性能测试/benchmarksql.md'
   - 服务:
