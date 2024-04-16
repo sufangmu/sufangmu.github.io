@@ -102,6 +102,7 @@ nav:
         - '单实例安装': 'databases/PostgreSQL/管理/单实例安装.md'
         - '主备实例': 'databases/PostgreSQL/管理/主备实例.md'
         - '连接访问控制': 'databases/PostgreSQL/管理/连接访问控制.md'
+        - '数据库': 'databases/PostgreSQL/管理/数据库.md'
         - '用户、角色和模式': 'databases/PostgreSQL/管理/用户、角色和模式.md'
         - '对象权限': 'databases/PostgreSQL/管理/对象权限.md'
         - '配置': 'databases/PostgreSQL/管理/配置.md'
@@ -110,6 +111,8 @@ nav:
         - '物理备份恢复一': 'databases/PostgreSQL/管理/备份与恢复之物理备份恢复一.md'
         - '物理备份恢复二': 'databases/PostgreSQL/管理/备份与恢复之物理备份恢复二.md'
         - 'PITR': 'databases/PostgreSQL/管理/PITR.md'
+        - '常用系统管理命令': 'databases/PostgreSQL/管理/常用系统管理命令.md'
+        
       - 内部原理:
         - '架构': 'databases/PostgreSQL/原理/架构.md'
         - 'WAL': 'databases/PostgreSQL/原理/WAL.md'
@@ -252,3 +255,4 @@ nav:
       - '存储驱动': 'DevOps/Docker/StorageDriver.md'
       - '容器安全': 'DevOps/Docker/Security.md'
   - 文档: 'resource/docs.md'
+  - 单词: 'resource/words.html'
