@@ -56,8 +56,6 @@ markdown_extensions:
       generic: true
 extra:
   social:
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:gaopeng0214@126.com
     - icon: fontawesome/brands/github
       link: https://github.com/sufangmu
 extra_javascript:
@@ -255,4 +253,3 @@ nav:
       - '存储驱动': 'DevOps/Docker/StorageDriver.md'
       - '容器安全': 'DevOps/Docker/Security.md'
   - 文档: 'resource/docs.md'
-  - 单词: 'resource/words.html'
