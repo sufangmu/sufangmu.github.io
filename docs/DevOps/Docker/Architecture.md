@@ -29,7 +29,7 @@ Shim是实现Daemonless Container不可或缺的工具，使Runc与Daemon解耦�
 1. 保持所有STDIN与STOUT流的开启状态，从而使得当Docker Daemon重启时，容器不会因为Pipe的关闭而终止
 2. 将容器的状态反馈给Docker Daemon
 
-[^]: https://docs.docker.com/get-started/overview/#docker-architecture
+> https://docs.docker.com/get-started/overview/#docker-architecture
 
 ![1698587142153](images/1698587142153.png)
 

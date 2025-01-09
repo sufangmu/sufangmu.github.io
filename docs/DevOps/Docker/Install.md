@@ -57,9 +57,9 @@ docker run hello-world
 
 
 
-[^]: 1. https://docs.docker.com/engine/install/centos/
-[^]: 2. https://developer.aliyun.com/mirror/docker-ce
+> https://docs.docker.com/engine/install/centos/
 
+> https://developer.aliyun.com/mirror/docker-ce
 
 
 

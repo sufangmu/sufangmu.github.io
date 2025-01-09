@@ -128,6 +128,7 @@ nav:
         - '事务与隔离级别': 'databases/PostgreSQL/原理/事务与隔离级别.md'
     - 性能测试:
       - BenchmarkSQL: 'databases/性能测试/benchmarksql.md'
+      - sysbench: 'databases/性能测试/sysbench.md'
   - 服务:
     - Web:
       - 'Nginx': 'software/web/Nginx.md'
@@ -160,6 +161,8 @@ nav:
         - '并发编程': 'programming/python/基础/02-并发编程.md'
         - '网络编程': 'programming/python/基础/03-网络编程.md'
         - '数据库编程': 'programming/python/基础/04-数据库编程.md' 
+        - '迭代器和生成器': 'programming/python/基础/迭代器和生成器.md' 
+        - '协程': 'programming/python/基础/协程.md' 
       - Django: 
         - '安装': 'programming/python/Django/install.md'
         - '请求': 'programming/python/Django/request.md'
@@ -253,3 +256,5 @@ nav:
       - '存储驱动': 'DevOps/Docker/StorageDriver.md'
       - '容器安全': 'DevOps/Docker/Security.md'
   - 文档: 'resource/docs.md'
+  - English:
+    - '新概念英语二': 'english/NCE2/notes.md'
