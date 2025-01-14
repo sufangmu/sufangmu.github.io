@@ -218,8 +218,7 @@ but Mr. Scott cannot get a telephone for his new garage,
 so he has just bought twelve pigeons(鸽子). /ˈpɪdʒɪn/
 Yesterday, a pigeon carried the first message from Pinhurst to Silbury.
 The bird covered the distance in three minutes.
-Up to now,
-Mr.Scott has sent a great many requests for spare parts
+Up to now, Mr.Scott has sent a great many requests for spare parts
 and other urgent messages from one garage to the other.
 In this way, he has begun his own private 'telephone' service.
 ```
@@ -283,19 +282,14 @@ mineral water 矿泉水
 ```
 The plane was late and detectives(侦探) were waiting at the airport all morning.
 They were expecting a valuable parcel(包裹) of diamonds(钻石) from South Africa.
-A few hours earlier,
-someone had told the police that
-thieves would try to steal(偷) the diamonds.
+A few hours earlier, 
+someone had told the police that thieves would try to steal(偷) the diamonds.
 When the plane arrived,
-some of the detectives were waiting
-inside the main building
+some of the detectives were waiting inside the main building
 while others were waiting on the airfield(机场).
-Two men took the parcel off the plane
-and carried it into the Customs House.
-While two detectives were keeping guard(守卫) at the door,
-two others opened the parcel.
-To their surprise,
-the precious(珍贵的) parcel was full of stones and sand!
+Two men took the parcel off the plane and carried it into the Customs House.
+While two detectives were keeping guard(守卫) at the door, two others opened the parcel.
+To their surprise, the precious(珍贵的) parcel was full of stones and sand!
 ```
 
 ###  过去进行时 
@@ -335,7 +329,111 @@ try to do sth.
 A be full of B
 
 ## 08 The Best and the Worst
+
+```
+Joe Sanders has the most beautiful garden in our town.
+Nearly everybody enters for 'The Nicest Garden Competition' each year,
+but Joe wins every time.
+Bill Frith's garden is larger than Joe's.
+Bill works harder than Joe and grows more flowers and vegetables,
+but Joe's garden is more interesting.
+He has made neat paths and has built a wooden bridge over a pool.
+I like gardens too, but I do not like hard work.
+Every year I enter for the garden competition too,
+and I always win a little prize for the worst garden in the town!
+```
+
+swimming pool
+
+enter the competition  参加比赛
+
+enter for 参加
+
+make a path
+
+That’s neat/cool.
+
+make a path
+
+build a bridge
+
+win a prize
+
+### 形容词比较级、最高级
+
+#### 1. 单音节：+er/est
+
+small → smaller → smallest
+
+#### 2. 单音节：以e结尾 +r/st 
+
+large → larger → largest
+
+#### 3. 单音节：元+辅结尾，双写辅⾳字⺟，加er, est 
+
+big → bigger → biggest
+
+#### 4. 双音节：辅音字母+y结尾的，把y变为i，加er, est
+
+easy → easier → easiest
+
+famous → more famous → the most famous
+
+#### 5. 不规则
+
+good/well → better → best
+
+bad → worse → worst
+
+much /many → more → most
+
+little → less → least
+
+#### 6. 多音节adj（大于等于3)，前加more, most表肯定
+
+beautiful → more beautiful→ the most beautiful
+
+#### 7. 多音节adj.(大于等于3)，前加less, least表否定
+
+beautiful→less beautiful→the least beautiful
+
+### 形容词比较级、最高级用法
+
+#### 1. 主语+be+adj.er+than+⽐较对象(I formal/ me informal) 
+
+The left one is smaller than the right one.
+
+#### 2. 主语+be+the+adj.est +n.+范围 
+
+My mom is the kindest person in the world.
+
+#### 3. 主语+be+the+adj.est+n.+I’ve ever met/seen
+
+Yao Ming is the tallest guy I’ve ever seen.
+
 ## 09 A Cold Welcome
+
+```
+On Wednesday evening, we went to the Town Hall.
+It was the last day of the year
+and a large crowd of people had gathered under the Town Hall clock.
+It would strike twelve in twenty minutes' time.
+Fifteen minutes passed and then,
+at five to twelve, the clock stopped.
+The big minute hand did not move.
+We waited and waited,
+but nothing happened.
+Suddenly someone shouted.
+'It's two minutes past twelve!
+The clock has stopped!'
+I looked at my watch.
+It was true.
+The big clock refused to welcome the New Year.
+At that moment, everybody began to laugh and sing.
+```
+
+
+
 ## 10 Not for Jazz
 ## 11 One Good Turn Deserves Another
 ## 12 Goodbye and Good Luck
