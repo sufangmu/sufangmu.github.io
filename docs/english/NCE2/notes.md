@@ -1,6 +1,5 @@
 ## 01 A Private Conversation
 
-```
 Last week I went to the theatre.
 I had a very good seat.
 The play was very interesting.
@@ -18,29 +17,30 @@ I turned round again.
 'It's none of your business,'
 the young man said rudely.
 'This is a private conversation!'
-```
 
-go to the theatre
+### Expressions
 
-have a good seat
+- go to the theatre
+- have a good seat
 
-get angry
+- get angry
 
-turn round
+- turn round
 
-pay attention
+- pay attention
 
-in the end
+- in the end
 
-couldn’t bear it
+- couldn’t bear it
 
-It’s none of your business
+- It’s none of your business
 
-get up early/late
+- get up early/late
 
-just then
+- just then
 
-have breakfast
+- have breakfast
+
 
 ### 现在进行时
 
@@ -64,8 +64,6 @@ have breakfast
 
 ## 02 Breakfast or Lunch
 
-
-```
 It was Sunday.
 I never get up early on Sundays.
 I sometimes stay in bed until lunchtime.
@@ -84,7 +82,7 @@ It was my aunt Lucy.
 'Dear me,' she said.
 'Do you always get up so late?
 It's one o'clock!'
-```
+
 
 ### What 感叹句
 
@@ -100,8 +98,6 @@ always & usually & sometimes
 
 ## 03 Please Send Me a Card
 
-
-```
 Postcards always spoil my holidays.
 Last summer, I went to Italy.
 I visited museums and sat in public gardens.
@@ -115,25 +111,28 @@ On the last day I made a big decision.
 I got up early and bought thirty-seven cards.
 I spent the whole day in my room,
 but I did not write a single card!
-```
 
-buy sb. sth.= buy sth. for sb.
+### Expressions
 
-send sb. sth.= send sth. to sb.
+- 
+  buy sb. sth.= buy sth. for sb.
 
-lend sth. to sb. = lend sb. sth.  借出
+- send sb. sth.= send sth. to sb.
 
-borrow sth. from sb.  = borrow sth. 借进
+- lend sth. to sb. = lend sb. sth.  借出
 
-make a decision
+- borrow sth. from sb.  = borrow sth. 借进
 
-teach sb. sth.
+- make a decision
 
-think about sth./sb. -- I think about you every night and day.
+- teach sb. sth.
 
-on the last day
+- think about sth./sb. -- I think about you every night and day.
 
-spend st. sw.
+- on the last day
+
+- spend st. sw.
+
 
 ### 一般过去式
 
@@ -147,8 +146,6 @@ spend st. sw.
 
 ## 04 An Exciting Trip
 
-
-```
 I have just received a letter from my brother, Tim.
 He is in Australia.
 He has been there for six months.
@@ -161,35 +158,37 @@ He will soon visit Darwin.
 From there, he will fly to Perth.
 My brother has never been abroad before,
 so he is finding this trip very exciting.
-```
+
 
 > center 美式，centre 英式
 
-have a great trip
+### Expressions
 
-receive sth. from sb.
+- have a great trip
+- receive sth. from sb.
 
-work for sb.  -- He has worked for this firm for 6 years.
+- work for sb.  -- He has worked for this firm for 6 years.
 
-A be different from B
+- A be different from B
 
-in the center of sw.
+- in the center of sw.
 
-go abroad
+- go abroad
 
-live abroad
+- live abroad
 
-study abroad
+- study abroad
 
-a great number of + 复数可数名词
+- a great number of + 复数可数名词
 
-have gone to sw. 去了还没回来
+- have gone to sw. 去了还没回来
 
-have been to sw. 去过已经回来了
+- have been to sw. 去过已经回来了
 
-fly to sw.
+- fly to sw.
 
-find n. adj.  -- Men usually find women very beautiful in the bar at night.
+- find n. adj.  -- Men usually find women very beautiful in the bar at night.
+
 
 ### 现在完成时
 
@@ -209,8 +208,6 @@ find n. adj.  -- Men usually find women very beautiful in the bar at night.
 
 ## 05 No Wrong Numbers
 
-
-```
 Mr.James Scott has a garage(车库) /ɡəˈrɑːʒ/ in Silbury
 and now he has just bought another garage in Pinhurst.
 Pinhurst is only five miles from Silbury,
@@ -221,29 +218,30 @@ The bird covered the distance in three minutes.
 Up to now, Mr.Scott has sent a great many requests for spare parts
 and other urgent messages from one garage to the other.
 In this way, he has begun his own private 'telephone' service.
-```
 
-leave sb. a message
+### Expressions
 
-customer service
+- leave sb. a message
+- customer service
 
-cover the distance in st.
+- cover the distance in st.
 
-A is 5 miles from B
+- A is 5 miles from B
 
-get sth. for sb.
+- get sth. for sb.
 
-a great many + 可数名词复数
+- a great many + 可数名词复数
 
-send a request for sth.
+- send a request for sth.
 
-up to now
+- up to now
 
-in this way
+- in this way
+
 
 ## 06 Percy Buttons
 
-```
+
 I have just moved to a house in Bridge Street.
 Yesterday a beggar knocked at my door.
 He asked me for a meal and a glass of beer.
@@ -257,29 +255,30 @@ Everybody knows him.
 His name is Percy Buttons.
 He calls at every house in the street once a month
 and always asks for a meal and a glass of beer.
-```
 
-pocket money 零用钱
+### Expressions
 
-call at = visit
+- pocket money 零用钱
+- call at = visit
 
-move to sw.
+- move to sw.
 
-knock at the door 敲门
+- knock at the door 敲门
 
-ask sb. for sth.
+- ask sb. for sth.
 
-stand on sb’s head 倒立
+- stand on sb’s head 倒立
 
-in return for this
+- in return for this
 
-once a st.
+- once a st.
 
-mineral water 矿泉水
+- mineral water 矿泉水
+
 
 ## 07 Too Late
 
-```
+
 The plane was late and detectives(侦探) were waiting at the airport all morning.
 They were expecting a valuable parcel(包裹) of diamonds(钻石) from South Africa.
 A few hours earlier, 
@@ -290,7 +289,7 @@ while others were waiting on the airfield(机场).
 Two men took the parcel off the plane and carried it into the Customs House.
 While two detectives were keeping guard(守卫) at the door, two others opened the parcel.
 To their surprise, the precious(珍贵的) parcel was full of stones and sand!
-```
+
 
 ###  过去进行时 
 
@@ -312,25 +311,26 @@ while: did or was/were+doing
 
 was/were+doing 持续时间更⻓的动作
 
+### Expressions
 
+- all morning
 
-all morning
+- a parcel of sth.
 
-a parcel of sth.
+- A few hours earlier
 
-A few hours earlier
+- keep guard
 
-keep guard
+- to sb.’s surprise
 
-to sb.’s surprise
+- try to do sth.
 
-try to do sth.
+- A be full of B
 
-A be full of B
 
 ## 08 The Best and the Worst
 
-```
+
 Joe Sanders has the most beautiful garden in our town.
 Nearly everybody enters for 'The Nicest Garden Competition' each year,
 but Joe wins every time.
@@ -341,23 +341,24 @@ He has made neat paths and has built a wooden bridge over a pool.
 I like gardens too, but I do not like hard work.
 Every year I enter for the garden competition too,
 and I always win a little prize for the worst garden in the town!
-```
 
-swimming pool
+### Expressions
 
-enter the competition  参加比赛
+- swimming pool
+- enter the competition  参加比赛
 
-enter for 参加
+- enter for 参加
 
-make a path
+- make a path
 
-That’s neat/cool.
+- That’s neat/cool.
 
-make a path
+- make a path
 
-build a bridge
+- build a bridge
 
-win a prize
+- win a prize
+
 
 ### 形容词比较级、最高级
 
@@ -413,7 +414,7 @@ Yao Ming is the tallest guy I’ve ever seen.
 
 ## 09 A Cold Welcome
 
-```
+
 On Wednesday evening, we went to the Town Hall.
 It was the last day of the year
 and a large crowd of people had gathered under the Town Hall clock.
@@ -430,16 +431,165 @@ I looked at my watch.
 It was true.
 The big clock refused to welcome the New Year.
 At that moment, everybody began to laugh and sing.
-```
 
+### Expressions
+
+- second hand; minute hand; hour hand -秒针；分针；时针
+- shout at sb. (This suggests that we’re angry.) 
+
+- shout to sb. (When we shout to someone, we want them to hear us. They might be on the other side of the street)
+
+- in+年/季/月
+
+- on+具体某一天
+
+- at + 时间点
+
+- the last day of the year
+
+- a large crowd of
+
+- in twenty minutes' time
+
+- refused to do sth.
+
+- at that moment
+
+- begin to do sth.
 
 
 ## 10 Not for Jazz
+
+We have an old musical instrument.
+It <u>is called</u> a clavichord(古钢琴).
+It <u>was made</u> in Germany in 1681.
+Our clavichord <u>is kept</u> in the living room.
+It has belonged to our family for a long time.
+The instrument <u>was bought</u> by my grandfather many years ago.
+Recently it <u>was damaged</u> by a visitor.
+She tried to play jazz on it!
+She struck the keys too hard and two of the strings <u>were broken</u>.
+My father <u>was shocked</u>.
+Now we are not allowed to touch it.
+It **is being repaired** by a friend of my father's.
+
+### Expressions
+
+- musical instrument 乐器
+- be allowed to do sth. 
+
+- allow sb. to do sth.
+- Who was the music composed by? 被动语态疑问句
+
+### 被动
+
+结构：be(表时态) + done(表被动)
+
+am/is/are + done 一般现在时
+
+was/were + done 一般过去时
+
+am/is/are + being + done 现在进行时
+
+have/has + been + done 现在完成时
+
 ## 11 One Good Turn Deserves Another
+
+I was having dinner at a restaurant when Tony Steele came in.
+Tony worked in a lawyer's office years ago,
+but he is now working at a bank.
+He <u>gets a good salary</u>,
+but he always <u>borrows money from his friends</u> and never <u>pays it back</u>.
+Tony saw me and came and sat at the same table.
+He has never borrowed money from me.
+While he was eating, I asked him to lend me twenty pounds.
+To my surprise, he gave me the money immediately.
+'I have never borrowed any money from you,'
+Tony said, 'so now you can pay for my dinner!'
+
+###  Expressions
+
+- One Good Turn Deserves Another 礼尚往来
+- get a good salary 
+- borrow sth. from sb. 
+- pay it back
+- pay for sth. 
+- ask sb. to do sth.
+
+
 ## 12 Goodbye and Good Luck
+
+
+Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.
+We'll meet him at the harbour early in the morning.
+He will be in his small boat, Topsail.
+Topsail is a famous little boat.
+It has sailed across the Atlantic many times.
+Captain Alison will set out at eight o'clock,
+so we'll have plenty of time.
+We'll see his boat and then we'll say goodbye to him.
+He will be away for two months.
+We are very proud of him.
+He will take part in an important race across the Atlantic.
+
+
+
+
 ## 13 The Greenwood Boys
+
+
+The Greenwood Boys are a group of pop singers.
+At present, they are visiting all parts of the country.
+They will be arriving here tomorrow.
+They will be coming by train and most of the young people in the town will be meeting them at the station.
+Tomorrow evening they will be singing at the Workers' Club.
+The Greenwood Boys will be staying for five days.
+During this time, they will give five performances.
+As usual, the police will have a difficult time.
+They will be trying to keep order.
+It is always the same on these occasions.
+
+
+
+
 ## 14 Do You Speak English
+
+
+I had an amusing experience last year.
+After I had left a small village in the south of France,
+I drove on to the next town.
+On the way, a young man waved to me.
+I stopped and he asked me for a lift.
+As soon as he had got into the car,
+I said good morning to him in French and he replied in the same language.
+Apart from a few words,
+I do not know any French at all.
+Neither of us spoke during the journey.
+I had nearly reached the town, when the young man suddenly said, very slowly,
+'Do you speak English?'
+As I soon learnt, he was English himself!
+
+
+
+
 ## 15 Good News
+
+
+The secretary told me that Mr. Harmsworth would see me.
+I felt very nervous when I went into his office.
+He did not look up from his desk when I entered.
+After I had sat down,
+he said that business was very bad.
+He told me that the firm could not afford to pay such large salaries.
+Twenty people had already left.
+I knew that my turn had come.
+'Mr. Harmsworth,' I said in a weak voice.
+'Don't interrupt,' he said.
+Then he smiled and told me I would receive an extra thousand pounds a year!
+
+
+
+
 ## 16 A Polite Request
 ## 17 Always Young
 ## 18 He Often does This
@@ -514,7 +664,6 @@ At that moment, everybody began to laugh and sing.
 ## 87 A Perfect Alibi
 ## 88 Trapped in a Mine
 ## 89 A Slip of the Tongue
-## 
 ## 91 Three Men in a Basket
 ## 92 Asking for Trouble
 ## 93 A Noble Gift
