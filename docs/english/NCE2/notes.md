@@ -519,7 +519,6 @@ Tony said, 'so now you can pay for my dinner!'
 
 ## 12 Goodbye and Good Luck
 
-
 Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.
 We'll meet him at the harbour early in the morning.
 He will be in his small boat, Topsail.
@@ -532,7 +531,25 @@ He will be away for two months.
 We are very proud of him.
 He will take part in an important race across the Atlantic.
 
+### Expressions
 
+- sail from sw.
+- set out
+- have plenty of time 
+- will be away
+- A be proud of B 
+- say goodbye to sb. 
+- take part in
+
+### 一般将来时
+
+含义：将/会（当机立断的决定）
+
+肯定句：主 + will + do
+
+否定句 ：主 + will + not(won't)
+
+一般疑问句：Will + 主 + do 
 
 
 ## 13 The Greenwood Boys
@@ -549,7 +566,24 @@ As usual, the police will have a difficult time.
 They will be trying to keep order.
 It is always the same on these occasions.
 
+### Expressions
 
+- a group of
+- at present
+- all parts of the country 
+- as usual
+- have a difficult time 
+- give five performances 
+- keep order
+- on these occasions
+
+### 将来进行时
+
+结构：will be doing
+
+用法1：未来动作正在进行
+
+用法2：计划
 
 
 ## 14 Do You Speak English
@@ -589,22 +623,234 @@ Then he smiled and told me I would receive an extra thousand pounds a year!
 
 
 
-
 ## 16 A Polite Request
+
+If you park your car in the wrong place,
+a traffic policeman will soon find it.
+You will be very lucky if he lets you go without a ticket.
+However, this does not always happen.
+Traffic police are sometimes very polite.
+During a holiday in Sweden,
+I found this note on my car:
+'sir, we welcome you to our city. This is a No Parking area.
+You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'
+If you receive a request like this, you cannot fail to obey it!
+
+
+
 ## 17 Always Young
+
+My aunt Jennifer is an actress.
+She must be at least thirty-five years old.
+In spite of this, she often appears on the stage as a young girl.
+Jennifer will have to take part in a new play soon.
+This time, she will be a girl of seventeen.
+In the play, she must appear in a bright red dress and long black stockings.
+Last year in another play,
+she had to wear short socks and a bright, orange-coloured dress.
+If anyone ever asks her how old she is,
+she always answers, 'Darling, it must be terrible to be grown up!'
+
+
+
 ## 18 He Often does This
+
+After I had had lunch at a village pub, I looked for my bag.
+I had left it on a chair beside the door and now it wasn't there!
+As I was looking for it, the landlord came in.
+'Did you have a good meal?' he asked.
+'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'
+The landlord smiled and immediately went out.
+In a few minutes he returned with my bag and gave it back to me.
+'I'm very sorry,' he said.
+'My dog had taken it into the garden. He often does this!'
+
+
+
 ## 19 Sold Out
+
+'The play may begin at any moment,' I said.
+'It may have begun already,' Susan answered.
+I hurried to the ticket office.
+'May I have two tickets please?' I asked.
+'I'm sorry, we've sold out,' the girl said.
+'What a pity!' Susan exclaimed.
+Just then, a man hurried to the ticket office.
+'Can I return these two tickets?' he asked.
+'Certainly,' the girl said.
+I went back to the ticket office at once.
+'Could I have those two tickets please?' I asked.
+'Certainly,' the girl said,
+'but they're for next Wednesday's performance.
+Do you still want them?'
+'I might as well have them,' I said sadly.
+
+
+
 ## 20 One Man in a Boat
+
+Fishing is my favourite sport.
+I often fish for hours without catching anything.
+But this does not worry me.
+Some fishermen are unlucky.
+Instead of catching fish,
+they catch old boots and rubbish.
+I am even less lucky.
+I never catch anything  --  not even old boots.
+After having spent whole mornings on the river,
+I always go home with an empty bag.
+'You must give up fishing!' my friends say. 'It's a waste of time.'
+But they don't realize one important thing.
+I'm not really interested in fishing.
+I am only interested in sitting in a boat and doing nothing at all!
+
+
+
 ## 21 Mad or Not
+
+Aeroplanes are slowly driving me mad.
+I live near an airport and passing planes can be heard night and day.
+The airport was built years ago, but for some reason it could not be used then.
+Last year, however, it came into use.
+Over a hundred people must have been driven away from their homes by the noise.
+I am one of the few people left.
+Sometimes I think this house will be knocked down by a passing plane.
+I have been offered a large sum of money to go away, but I am determined to stay here.
+Everybody says I must be mad and they are probably right.
+
 ## 22 A Glass Envelope
+
+My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.
+Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.
+She threw the bottle into the sea.
+She never thought of it again, but ten months later, she received a letter from a girl in Holland.
+Both girls write to each other regularly now.
+However, they have decided to use the post office.
+Letters will cost a little more, but they will certainly travel faster.
+
+
+
 ## 23 A New House
+
+I had a letter from my sister yesterday.
+She lives in Nigeria.
+In her letter, she said that she would come to England next year.
+If she comes, she will get a surprise.
+We are now living in a beautiful new house in the country.
+Work on it had begun before my sister left.
+The house was completed five months ago.
+In my letter, I told her that she could stay with us.
+The house has many large rooms and there is a lovely garden.
+It is a very modern house, so it looks strange to some people.
+It must be the only modern house in the district.
+
 ## 24 It Could be Worse
+
+I entered the hotel manager's office and sat down.
+I had just lost ￡50 and I felt very upset.
+'I left the money in my room,' I said, 'and it's not there now.  '
+The manager was sympathetic, but he could do nothing.
+'Everyone's losing money these days,' he said.
+He started to complain about this wicked world but was interrupted by a knock at the door.
+A girl came in and put an envelope on his desk.
+It contained ￡50.
+'I found this outside this gentleman's room,' she said.
+'Well,' I said to the manager,'there is still some honesty in this world!'
+
 ## 25 Do the English Speak English
+
+Why does the writer not understand the porter?
+I arrived in London at last.
+The railway station was big, black and dark.
+I did not know the way to my hotel, so I asked a porter.
+I not only spoke English very carefully, but very clearly as well.
+The porter, however, could not understand me.
+I repeated my question several times and at last he understood.
+he answered me, but he spoke neither slowly nor clearly.
+'I am a foreigner,' I said.
+Then he spoke slowly, but I could not understand him.
+My teacher never spoke English like that!
+The porter and I looked at each other and smiled.
+Then he said something and I understood it.
+'You'll soon learn English!' he said.
+I wonder.
+In England, each person speaks a different language.
+The English understand each other, but I don't understand them!
+
 ## 26 The Best Art Critics
+
+I am an art student and I paint a lot of pictures.
+Many people pretend that they understand modern art.
+They always tell you what a picture is 'about'.
+Of course, many pictures are not 'about' anything.
+They are just pretty patterns.
+We like them in the same way that we like pretty curtain material.
+I think that young children often appreciate modern pictures better than anyone else.
+They notice more.
+My sister is only seven,
+but she always tells me whether my pictures are good or not.
+She came into my room yesterday.
+'What are you doing?' she asked.
+'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'
+She looked at it critically for a moment.
+'It's all right,' she said, 'but isn't it upside down?'
+I looked at it again.
+She was right! It was!
+
 ## 27 A Wet Night
+
+Late in the afternoon, the boys put up their tent in the middle of a field.
+As soon as this was done, they cooked a meal over an open fire.
+They were all hungry and the food smelled good.
+After a wonderful meal, they told stories and sang songs by the campfire.
+But some time later it began to rain.
+The boys felt tired so they put out the fire and crept into their tent.
+Their sleeping bags were warm and comfortable, so they all slept soundly.
+In the middle of the night, two boys woke up and began shouting.
+The tent was full of water!
+They all leapt out of their sleeping bags and hurried outside.
+It was raining heavily and they found that a stream had formed in the field.
+The stream wound its way across the field and then flowed right under their tent!
+
 ## 28 No Parking
+
+Jasper White is one of those rare people who believes in ancient myths.
+He has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.
+When he returns home at night, he always finds that someone has parked a car outside his gate.
+Because of this, he has not been able to get his own car into his garage even once.
+Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect.
+Now he has put an ugly stone head over the gate.
+It is one of the ugliest faces I have ever seen.
+I asked him what it was and he told me that it was Medusa, the Gorgon.
+Jasper hopes that she will turn cars and their owners to stone.
+But none of them has been turned to stone yet!
+
 ## 29 Taxi
+
+Captain Ben Fawcett has bought an unusual taxi and has begun a new service.
+The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.
+This wonderful plane can carry seven passengers.
+The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.
+Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.
+Since then, Captain Fawcett has flown passengers to many unusual places.
+Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.
+Captain Fawcett has just refused a strange request from a businessman.
+The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean,
+but Captain Fawcett did not take him because the trip was too dangerous.
+
 ## 30 Football or Polo
+
+The Wayle is a small river that cuts across the park near my home.
+I like sitting by the Wayle on fine afternoons.
+It was warm last Sunday, so I went and sat on the river bank as usual.
+Some children were playing games on the bank and there were some people rowing on the river.
+Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.
+Some people on the bank called out to the man in the boat, but he did not hear them.
+The ball struck him so hard that he nearly fell into the water.
+I turned to look at the children, but there weren't any in sight: they had all run away!
+The man laughed when he realized what had happened.
+He called out to the children and threw the ball back to the bank.
+
 ## 31 Success Story
 ## 32 Shopping Made Easy
 ## 33 Out of the Darkness
