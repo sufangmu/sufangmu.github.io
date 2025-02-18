@@ -96,6 +96,10 @@ always & usually & sometimes
 
 一般放在动词前或者be后
 
+### 特殊疑问句
+
+语法：疑问词 + 一般疑问句语序
+
 ## 03 Please Send Me a Card
 
 Postcards always spoil my holidays.
@@ -519,27 +523,28 @@ Tony said, 'so now you can pay for my dinner!'
 
 ## 12 Goodbye and Good Luck
 
-Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.
-We'll meet him at the harbour early in the morning.
+Our neighbour, Captain(船长) Charles Alison, will <u>sail(航行) from</u> Portsmouth tomorrow.
+We'll meet him at the harbour(港口) early in the morning.
 He will be in his small boat, Topsail.
 Topsail is a famous little boat.
 It has sailed across the Atlantic many times.
 Captain Alison will set out at eight o'clock,
-so we'll have plenty of time.
+so we'll <u>have plenty of time</u>.
 We'll see his boat and then we'll say goodbye to him.
 He will be away for two months.
-We are very proud of him.
+We <u>are very proud of</u> him.
 He will take part in an important race across the Atlantic.
 
 ### Expressions
 
 - sail from sw.
-- set out
-- have plenty of time 
+- set out 出发
+- have plenty of time 有足够的的时间
 - will be away
 - A be proud of B 
 - say goodbye to sb. 
-- take part in
+- take part in 参加
+- You luck dog 你是个幸运儿
 
 ### 一般将来时
 
@@ -554,14 +559,13 @@ He will take part in an important race across the Atlantic.
 
 ## 13 The Greenwood Boys
 
-
-The Greenwood Boys are a group of pop singers.
+The Greenwood Boys are <u>a group of</u> pop singers.
 At present, they are visiting all parts of the country.
 They will be arriving here tomorrow.
 They will be coming by train and most of the young people in the town will be meeting them at the station.
 Tomorrow evening they will be singing at the Workers' Club.
 The Greenwood Boys will be staying for five days.
-During this time, they will give five performances.
+During this time, they will give five performances(演出).
 As usual, the police will have a difficult time.
 They will be trying to keep order.
 It is always the same on these occasions.
@@ -569,13 +573,13 @@ It is always the same on these occasions.
 ### Expressions
 
 - a group of
-- at present
-- all parts of the country 
+- at present 现在
+- all parts of the country 全国各地
 - as usual
 - have a difficult time 
 - give five performances 
 - keep order
-- on these occasions
+- on these occasions 在这个场合
 
 ### 将来进行时
 
@@ -919,3 +923,16 @@ He called out to the children and threw the ball back to the bank.
 
 
 
+练习方法：
+
+1. 习惯用法造句、对话（5句）
+2. 文章跟读至熟读成诵
+
+单词造句指南：
+
+1. v. + v变化
+2. 四句型转换
+3. 方式/地点/时间
+4. 结合其他习惯用法
+5. 其他单词+词性
+6. 原文摘抄+变
