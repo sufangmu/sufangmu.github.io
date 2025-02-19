@@ -528,7 +528,7 @@ We'll meet him at the harbour(港口) early in the morning.
 He will be in his small boat, Topsail.
 Topsail is a famous little boat.
 It has sailed across the Atlantic many times.
-Captain Alison will set out at eight o'clock,
+Captain Alison will <u>set out</u> at eight o'clock,
 so we'll <u>have plenty of time</u>.
 We'll see his boat and then we'll say goodbye to him.
 He will be away for two months.
@@ -592,28 +592,51 @@ It is always the same on these occasions.
 
 ## 14 Do You Speak English
 
-
-I had an amusing experience last year.
+I <u>had an amusing(有趣的) experience</u> last year.
 After I had left a small village in the south of France,
-I drove on to the next town.
+I <u>drove on to</u> the next town.
 On the way, a young man waved to me.
 I stopped and he asked me for a lift.
 As soon as he had got into the car,
 I said good morning to him in French and he replied in the same language.
-Apart from a few words,
+<u>Apart from</u>(除了) a few words,
 I do not know any French at all.
-Neither of us spoke during the journey.
+Neither of us spoke during the journey(旅行).
 I had nearly reached the town, when the young man suddenly said, very slowly,
 'Do you speak English?'
-As I soon learnt, he was English himself!
+As I soon learnt(意识到), he was English himself!
 
+### Expressions
 
+- have an amusing experience 
+- wave to sb.  朝某人招手
+- take a lift / ask for a lift  搭便车
+- A give B a lift  A给我搭便车
+- reply to the email/letter
+- go on a journey
+- drive on to sw.
+- ask sb. for a lift
+- apart from
+- native language / mother tongue  母语
+
+### 过去完成时
+
+Past A(had done) - > Past B(did) -> now
+
+结构：had + (not) + done(过去分词) 
+
+⼀般疑问：had 提句首
+
+用法1：过去的过去。  When Sarah arrived at the party, Paul **had** already **gone** home.
+
+用法2：过去A点发生，对过去B点产生了影响。 We weren’t hungry. We **had** just **had** lunch.
+
+⽤法3 ：⼀个动作从过去A持续或重复到过去B。 By 2020, I **had** **lived** in Beijing for 9 years.
 
 
 ## 15 Good News
 
-
-The secretary told me that Mr. Harmsworth would see me.
+The secretary(秘书) told me that Mr. Harmsworth would see me.
 I felt very nervous when I went into his office.
 He did not look up from his desk when I entered.
 After I had sat down,
@@ -625,7 +648,13 @@ I knew that my turn had come.
 'Don't interrupt,' he said.
 Then he smiled and told me I would receive an extra thousand pounds a year!
 
+### Expressions
 
+be nervous about sth. / doing sth.  紧张
+
+afford sth. 支付
+
+Sorry to interrupt, but ...
 
 ## 16 A Polite Request
 
