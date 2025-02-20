@@ -641,7 +641,7 @@ I felt very nervous when I went into his office.
 He did not look up from his desk when I entered.
 After I had sat down,
 he said that business was very bad.
-He told me that the firm could not afford to pay such large salaries.
+He told me that the firm could not <u>afford to</u> pay such large salaries.
 Twenty people had already left.
 I knew that my turn had come.
 'Mr. Harmsworth,' I said in a weak voice.
@@ -656,20 +656,88 @@ afford sth. 支付
 
 Sorry to interrupt, but ...
 
+It's my turn 轮到我了
+
+### 宾语从句
+
+⼀个句子做宾语，这个句子叫宾语从句
+
+### 直接引语 -- 间接引语
+
+直接引语: "I am busy", he said. 
+
+间接引语: He said that he was busy. 
+
+间接引语: He says that he is busy.
+
+从句时态变化
+
+- am/is/are — was/were
+- am/is/are doing — was/were doing 
+- does/do — did
+- have/has done — had done
+- did — had done
+
+从句情态动词变化 
+
+- can-could 
+- may-might 
+- will-would 
+- shall-should 
+- must-had to
+
 ## 16 A Polite Request
 
-If you park your car in the wrong place,
+If you <u>park your car</u> in the wrong place,
 a traffic policeman will soon find it.
 You will be very lucky if he lets you go without a ticket.
 However, this does not always happen.
-Traffic police are sometimes very polite.
+Traffic police are sometimes very polite(有礼貌的).
 During a holiday in Sweden,
 I found this note on my car:
 'sir, we welcome you to our city. This is a No Parking area.
 You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'
-If you receive a request like this, you cannot fail to obey it!
+If you receive a request like this, you cannot fail to obey(遵守) it!
 
+### Expressions
 
+parking lot 停车场
+
+heavy traffic police/lights/jam 
+
+make notes/ make a note 
+
+leave a note
+
+remind sb. of sth./sb.
+
+fail to do sth.
+
+### if引导的条件从句 
+
+If从句可前可后。
+
+**主将从现**
+
+If you don’t hurry, you’ll miss the train. 
+
+You’ll miss the train if you don’t hurry. 
+
+If he is out, I’ll call tomorrow.
+
+I’ll call tomorrow if he is out. 
+
+If you give us 20 minutes, we will give you 10 years back.
+
+If I don’t feel well tomorrow, I’ll stay at home. 
+
+**主情从现**
+
+If you need money, I can lend you some. 
+
+**主祈从现**
+
+If you don’t like it, don’t eat it.
 
 ## 17 Always Young
 
