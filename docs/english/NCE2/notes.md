@@ -743,24 +743,56 @@ If you don’t like it, don’t eat it.
 
 My aunt Jennifer is an actress.
 She must be at least thirty-five years old.
-In spite of this, she often appears on the stage as a young girl.
-Jennifer will have to take part in a new play soon.
+<u>In spite of this</u>(尽管如此), she often appears(扮演) on the stage as a young girl.
+Jennifer will have to take part in a new play(话剧) soon.
 This time, she will be a girl of seventeen.
-In the play, she must appear in a bright red dress and long black stockings.
+In the play, she must appear in a bright red dress and long black stockings(长筒袜).
 Last year in another play,
-she had to wear short socks and a bright, orange-coloured dress.
+she had to wear short socks(短袜) and a bright, orange-coloured dress.
 If anyone ever asks her how old she is,
 she always answers, 'Darling, it must be terrible to be grown up!'
 
+### 情态动词
 
+**对现在很确信的肯定推测。“⼀定是”** 
+
+must do
+
+must be adj./n. 
+
+must be doing
+
+**对过去很确信的肯定推测。“当时⼀定是”** 
+
+must have done
+
+must have been adj./n. 
+
+must have been doing
+
+**对现在很确信的否定推测。“⼀定不是”** 
+
+can’t do
+
+can’t be adj./n. 
+
+can’t be doing
+
+**对过去很确信的否定推测。“当时⼀定不是”**
+
+can’t have done
+
+can’t have been adj./n. 
+
+can’t have been doing
 
 ## 18 He Often does This
 
 After I had had lunch at a village pub, I looked for my bag.
 I had left it on a chair beside the door and now it wasn't there!
-As I was looking for it, the landlord came in.
+As(当) I was looking for it, the landlord(店主) came in.
 'Did you have a good meal?' he asked.
-'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'
+'Yes, thank you,' I answered, 'but I can't <u>pay the bill</u>. I haven't got my bag.'
 The landlord smiled and immediately went out.
 In a few minutes he returned with my bag and gave it back to me.
 'I'm very sorry,' he said.
