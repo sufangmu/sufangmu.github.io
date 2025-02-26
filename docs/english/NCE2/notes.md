@@ -754,7 +754,7 @@ she always answers, 'Darling, it must be terrible to be grown up!'
 
 ### 情态动词
 
-**对现在很确信的肯定推测。“⼀定是”** 
+**对现在很确信的肯定推测。“一定是”** 
 
 must do
 
@@ -762,7 +762,7 @@ must be adj./n.
 
 must be doing
 
-**对过去很确信的肯定推测。“当时⼀定是”** 
+**对过去很确信的肯定推测。“当时一定是”** 
 
 must have done
 
@@ -770,7 +770,7 @@ must have been adj./n.
 
 must have been doing
 
-**对现在很确信的否定推测。“⼀定不是”** 
+**对现在很确信的否定推测。“一定不是”** 
 
 can’t do
 
@@ -778,7 +778,7 @@ can’t be adj./n.
 
 can’t be doing
 
-**对过去很确信的否定推测。“当时⼀定不是”**
+**对过去很确信的否定推测。“当时一定不是”**
 
 can’t have done
 
@@ -803,7 +803,7 @@ In a few minutes he returned with my bag and gave it back to me.
 ## 19 Sold Out
 
 'The play may begin at any moment,' I said.
-'It may have begun already,' Susan answered.
+'It <u>may have</u> begun already,' Susan answered.
 I <u>hurried to</u> the ticket office.
 'May I have two tickets please?' I asked.
 'I'm sorry, we've sold out,' the girl said.
@@ -818,7 +818,32 @@ I went back to the ticket office at once.
 Do you still want them?'
 'I might as well have them,' I said sadly(悲伤地).
 
+### Expressions
 
+- hurry to sw.
+- in a hurry
+- What a pity!
+- It’s a pity that ... 
+- Don’t yell at me
+- sold out 售罄
+- at once 立刻
+- might as well 只好(做)
+
+### may/might
+
+- 对现在不确信的肯定(否定)推测。 也许是 (也许不是) 
+
+  - may/might (not) do 
+
+  - may/might (not) be adj./n. 
+
+  - may/might (not) be doing
+
+- 对过去不确信的肯定(否定)推测。当时也许是(当时也许不是)
+
+  - may/might (not) have done. 
+  - may/might (not) have been adj./n. 
+  - may/might (not) have been doing.
 
 ## 20 One Man in a Boat
 
@@ -827,41 +852,78 @@ I often fish for hours without catching anything.
 But this does not worry me.
 Some fishermen are unlucky.
 Instead of catching fish,
-they catch old boots and rubbish.
+they catch old boots(靴子) and rubbish(垃圾).
 I am even less lucky.
 I never catch anything  --  not even old boots.
 After having spent whole mornings on the river,
 I always go home with an empty bag.
 'You must give up fishing!' my friends say. 'It's a waste of time.'
 But they don't realize one important thing.
-I'm not really interested in fishing.
-I am only interested in sitting in a boat and doing nothing at all!
+I'<u>m</u> not really <u>interested in</u> fishing.
+I <u>am</u> only <u>interested in</u> sitting in a boat and doing nothing at all!
 
+### Expressions
 
+- One day someone will catch your eye，and then you’ll have to watch your tongue.
+- catch a bus 赶巴士
+- That’s rubbish.  胡扯
+- You’re wasting time.  别浪费时间
+- sb. realized that ... 意识到
+
+### 动名词
+
+构成: v.+ing 
+
+动词变成名词
+
+I like fishing. 动名词 是个名词
+
+She is fishing. 现在分词 是个动词
 
 ## 21 Mad or Not
 
-Aeroplanes are slowly driving me mad.
-I live near an airport and passing planes can be heard night and day.
-The airport was built years ago, but for some reason it could not be used then.
+Aeroplanes(飞机) are slowly driving me mad(疯了).
+I live near an airport and passing planes <u>can be heard</u> night and day.
+The airport was built years ago, but for some reason it <u>could not be</u> used then.
 Last year, however, it came into use.
-Over a hundred people must have been driven away from their homes by the noise.
+Over(超过) a hundred people <u>must have been</u> driven away from their homes by the noise.
 I am one of the few people left.
 Sometimes I think this house will be knocked down by a passing plane.
-I have been offered a large sum of money to go away, but I am determined to stay here.
-Everybody says I must be mad and they are probably right.
+I have been offered a large sum of money to go away, but I am determined(下决心) to stay here.
+Everybody says I <u>must be mad</u> and they are probably right.
+
+### Expressions
+
+- be mad at sb. 生某人的气
+- for some reason 基于一些原因
+- a large sum of money
+- be determined to do sth.
+
+### 情态动词的被动
+
+will/would be done 
+
+can/could be done 
+
+must be done
+
+have to be done
+
+must have been done 当时一定是被
 
 ## 22 A Glass Envelope
 
-My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.
+My daughter, Jane, never <u>dreamed of receiving</u> a letter from a girl of her own age in Holland.
 Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.
 She threw the bottle into the sea.
 She never thought of it again, but ten months later, she received a letter from a girl in Holland.
-Both girls write to each other regularly now.
+Both girls write to each other regularly(规律地) now.
 However, they have decided to use the post office.
 Letters will cost a little more, but they will certainly travel faster.
 
 
+
+v. + of/from/in/on...
 
 ## 23 A New House
 
