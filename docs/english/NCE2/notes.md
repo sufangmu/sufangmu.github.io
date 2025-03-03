@@ -927,50 +927,62 @@ v. + of/from/in/on...
 
 ## 23 A New House
 
-I had a letter from my sister yesterday.
+I <u>had a letter from</u> my sister yesterday.
 She lives in Nigeria.
 In her letter, she said that she would come to England next year.
 If she comes, she will get a surprise.
-We are now living in a beautiful new house in the country.
+We are now living in a beautiful new house in the country(乡下).
 Work on it had begun before my sister left.
 The house was completed five months ago.
 In my letter, I told her that she could stay with us.
 The house has many large rooms and there is a lovely garden.
-It is a very modern house, so it looks strange to some people.
-It must be the only modern house in the district.
+It is a very modern(现代的) house, so it looks strange(奇怪的) to some people.
+It must be the only modern house in the district(区).
 
 ## 24 It Could be Worse
 
 I entered the hotel manager's office and sat down.
-I had just lost ￡50 and I felt very upset.
+I had just lost ￡50 and I felt very upset(不安).
 'I left the money in my room,' I said, 'and it's not there now.  '
-The manager was sympathetic, but he could do nothing.
+The manager was sympathetic(有同情心的), but he could do nothing.
 'Everyone's losing money these days,' he said.
-He started to complain about this wicked world but was interrupted by a knock at the door.
-A girl came in and put an envelope on his desk.
-It contained ￡50.
+He started to <u>complain about</u> this wicked(邪恶的) world but was interrupted by a knock at the door.
+A girl came in and put an envelope(信封) on his desk.
+It contained(包含) ￡50.
 'I found this outside this gentleman's room,' she said.
-'Well,' I said to the manager,'there is still some honesty in this world!'
+'Well,' I said to the manager,'there is still some honesty(诚实) in this world!'
+
+
 
 ## 25 Do the English Speak English
 
-Why does the writer not understand the porter?
 I arrived in London at last.
 The railway station was big, black and dark.
-I did not know the way to my hotel, so I asked a porter.
-I not only spoke English very carefully, but very clearly as well.
+I did not know the way to my hotel, <u>so</u> I asked a porter(搬运工).
+I <u>not only</u> spoke English very carefully, <u>but</u> very clearly as <u>well</u>.
 The porter, however, could not understand me.
-I repeated my question several times and at last he understood.
-he answered me, but he spoke neither slowly nor clearly.
-'I am a foreigner,' I said.
+I repeated my question several(几个) times and at last he understood.
+he answered me, but he spoke <u>neither</u> slowly <u>nor</u> clearly.
+'I am a foreigner(外国人),' I said.
 Then he spoke slowly, but I could not understand him.
 My teacher never spoke English like that!
 The porter and I looked at each other and smiled.
 Then he said something and I understood it.
 'You'll soon learn English!' he said.
-I wonder.
+I wonder(惊讶).
 In England, each person speaks a different language.
 The English understand each other, but I don't understand them!
+
+### 并列连词
+
+1. and, but, or, so 同一主语情况下主语不必重复
+2. both... and, either... or, neither... nor
+   1. either... or 连接主语时就近一致  Either the teacher or the students <u>are</u> wrong.
+   2. neither... nor 连接主语时就近一致 Neither dad nor mum <u>is</u> at home today
+3. not only… but also (as well)
+   1. 连接主语时就近一致 Not only the doctor but also the patients <u>do not</u> know about it. 
+
+
 
 ## 26 The Best Art Critics
 
