@@ -987,50 +987,54 @@ The English understand each other, but I don't understand them!
 ## 26 The Best Art Critics
 
 I am an art student and I paint a lot of pictures.
-Many people pretend that they understand modern art.
+Many people pretend(假装) that they understand modern art.
 They always tell you what a picture is 'about'.
 Of course, many pictures are not 'about' anything.
-They are just pretty patterns.
-We like them in the same way that we like pretty curtain material.
-I think that young children often appreciate modern pictures better than anyone else.
-They notice more.
+They are just pretty(漂亮的) patterns(图案).
+We like them in the same way that we like pretty curtain(窗帘) material(材料).
+I think that young children often appreciate(欣赏) modern pictures better than anyone else.
+They notice(注意) more.
 My sister is only seven,
 but she always tells me whether my pictures are good or not.
 She came into my room yesterday.
 'What are you doing?' she asked.
 'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'
-She looked at it critically for a moment.
-'It's all right,' she said, 'but isn't it upside down?'
+She looked at it critically(批判性地) for a moment.
+'It's all right,' she said, 'but isn't it upside down(上下颠倒)?'
 I looked at it again.
 She was right! It was!
 
 ## 27 A Wet Night
 
-Late in the afternoon, the boys put up their tent in the middle of a field.
+Late in the afternoon, the boys put up their tent(帐篷) in the middle of a field(田地).
 As soon as this was done, they cooked a meal over an open fire.
 They were all hungry and the food smelled good.
-After a wonderful meal, they told stories and sang songs by the campfire.
+After a wonderful meal, they told stories and sang songs by the campfire(篝火).
 But some time later it began to rain.
-The boys felt tired so they put out the fire and crept into their tent.
-Their sleeping bags were warm and comfortable, so they all slept soundly.
+The boys felt tired so they put out the fire and crept(爬) into their tent.
+Their sleeping bags were warm and comfortable, so they all slept soundly(睡得很香).
 In the middle of the night, two boys woke up and began shouting.
 The tent was full of water!
-They all leapt out of their sleeping bags and hurried outside.
-It was raining heavily and they found that a stream had formed in the field.
-The stream wound its way across the field and then flowed right under their tent!
+They all leapt(leap跳) out of their sleeping bags and hurried outside.
+It was raining heavily and they found that a stream(小溪) had formed(形成) in the field.
+The stream wound(蜿蜒) its way across the field and then flowed right under their tent!
 
 ## 28 No Parking
 
-Jasper White is one of those rare people who believes in ancient myths.
-He has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.
+Jasper White is one of those rare(罕见) people who believes in ancient(古代的) myths(神话).
+He has just bought a new house in the city, but ever since he moved in, he has <u>had trouble with</u> cars and their owners.
 When he returns home at night, he always finds that someone has parked a car outside his gate.
 Because of this, he has not been able to get his own car into his garage even once.
-Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect.
+Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect(效果).
 Now he has put an ugly stone head over the gate.
 It is one of the ugliest faces I have ever seen.
 I asked him what it was and he told me that it was Medusa, the Gorgon.
 Jasper hopes that she will turn cars and their owners to stone.
 But none of them has been turned to stone yet!
+
+### 定语从句
+
+
 
 ## 29 Taxi
 
