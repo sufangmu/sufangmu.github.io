@@ -1064,11 +1064,11 @@ but Captain Fawcett did not take him because the trip was too dangerous.
 
 The Wayle is a small river that cuts across the park near my home.
 I like sitting by the Wayle on fine afternoons.
-It was warm last Sunday, so I went and sat on the river bank as usual.
+It was warm last Sunday, so I went and sat on the river bank(岸) as usual.
 Some children were playing games on the bank and there were some people rowing(划船) on the river.
 Suddenly, one of the children kicked(踢) a ball very hard and it went towards a passing boat.
-Some people on the bank called out to the man in the boat, but he did not hear them.
-The ball struck him so hard that he nearly fell into the water.
+Some people on the bank <u>called out to</u> the man in the boat, but he did not hear them.
+The ball struck(打击) him so hard that he nearly fell into the water.
 I turned to look at the children, but there weren't any in sight: they had all run away!
 The man laughed when he realized what had happened.
 He called out to the children and threw the ball back to the bank.
@@ -1097,50 +1097,52 @@ adj/done/doing + n + 介词引导/done引导/doing引号|定于从句
 
 Yesterday afternoon Frank Hawkins was telling me about
 his experiences as a young man.
-Before he retired,
-Frank was the head of
-a very large business company, but as a boy he used to work in a small shop.
+Before he retired(退休),
+Frank was the head of a very large business company, 
+but as a boy he <u>used to</u> work in a small shop.
 It was his job to repair bicycles
 and at that time he used to work fourteen hours a day.
-He saved money for years and
-in 1958 he bought a small workshop of his own.
-In his twenties Frank used to make spare parts for aeroplanes.
-At that time he had two helpers.
+He saved(存钱) money for years and
+in 1958 he bought a small workshop(车间) of his own.
+In his twenties(二十多) Frank used to make spare parts for aeroplanes.
+At that time he had two helpers(助手).
 In a few years the small workshop had become a large factory
 which employed seven hundred and twenty-eight people.
 Frank smiled when he remembered his hard early years and the long road to success.
 He was still smiling when the door opened and his wife came in.
 She wanted him to repair their grandson's bicycle!
 
+### used to v.
 
+过去发生，现在已经不发生了
+
+否定：did't use to v. ...
+
+一般疑问句：Did 主语 use to v. ...
 
 ## 32 Shopping Made Easy
 
-People are not so honest as
-they once were.
-The temptation to steal is greater than
-ever before--especially in large shops.
-A detective recently watched a well-dressed
-woman who always went into a large store
-on Monday mornings.
-One Monday,
-there were fewer people in the shop
-than usual when the woman came in,
+People are <u>not so</u> honest <u>as</u> they once were.
+The temptation(诱惑) to steal is <u>greater than</u> ever before--especially in large shops.
+A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.
+One Monday, there were fewer people in the shop than usual when the woman came in,
 so it was easier for the detective to watch her.
-The woman first bought a few small articles.
+The woman first bought a few small articles(物品).
 After a little time,
 she chose one of the most expensive dresses
 in the shop and handed it to an assistant
-who wrapped it up for her as quickly as possible.
+who wrapped(包起来) it up for her <u>as</u> quickly <u>as</u> possible.
 Then the woman simply took the parcel
 and walked out of the shop without paying.
-When she was arrested,
-the detective found out that
-the shop assistant was her daughter.
-The girl 'gave' her mother
-a free dress once a week!
+When she was arrested(逮捕),
+the detective found out that the shop assistant was her daughter.
+The girl 'gave' her mother a free dress once a week!
 
+### as…as
 
+as (adv. 同等地/⼀样地) ...  as (conj. 像)
+
+not as(so) ... as... 
 
 ## 33 Out of the Darkness
 
