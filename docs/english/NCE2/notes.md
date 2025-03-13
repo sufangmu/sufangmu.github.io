@@ -1130,7 +1130,7 @@ so it was easier for the detective to watch her.
 The woman first bought a few small articles(物品).
 After a little time,
 she chose one of the most expensive dresses
-in the shop and handed it to an assistant
+in the shop and handed(递) it to an assistant
 who wrapped(包起来) it up for her <u>as</u> quickly <u>as</u> possible.
 Then the woman simply took the parcel
 and walked out of the shop without paying.
@@ -1146,82 +1146,75 @@ not as(so) ... as...
 
 ## 33 Out of the Darkness
 
-Nearly a week passed before
-the girl was able to explain
-what had happened to her.
-One afternoon she set out
-from the coast in a small boat
-and was caught in a storm.
-Towards evening,
-the boat struck a rock and
-the girl jumped into the sea.
-Then she swam to the shore
-after spending the whole night in the water.
-During that time she covered
-a distance of eight miles.
-Early next morning,
-she saw a light ahead.
-She knew she was near the shore
-because the light was high up on the cliffs.
-On arriving at the shore,
-the girl struggled up the cliff towards
-the light she had seen.
+Nearly a week passed before the girl was able to explain what had happened to her.
+One afternoon she set out from the coast(海岸) in a small boat and <u>was caught in</u>(遇到) a storm(暴风雨).
+Towards evening, the boat struck(撞) a rock(礁石) and the girl jumped into the sea.
+Then she swam to the shore(岸) after spending the whole night in the water.
+During that time she covered a distance of eight miles.
+Early next morning, she saw a light ahead.
+She knew she was near the shore because the light was high up on the cliffs(悬崖).
+On arriving at the shore, the girl struggled(挣扎) up the cliff towards the light she had seen.
 That was all she remembered.
-When she woke up a day later,
-she found herself in hospital.
+When she woke up a day later, she found herself in hospital.
 
 ## 34 Quick Work
 
-Dan Robinson has been worried all week.
-Last Tuesday he received a letter
-from the local police.
-In the letter he was asked to call at the station.
-Dan wondered why
-he was wanted by the police,
-but he went to the station yesterday
-and now he is not worried anymore.
-At the station,
-he was told by a smiling policeman
-that his bicycle had been found.
-Five days ago, the policeman told him,
-the bicycle was picked up in a small village
-four hundred miles away.
+Dan Robinson has been worried(adj.) all week.
+Last Tuesday he received a letter from the local police.
+In the letter he was asked to <u>call at</u>(visit) the station.
+Dan wondered why he was wanted by the police,
+but he went to the station yesterday and now he is not worried anymore.
+At the station, he was told by a smiling policeman that his bicycle had been found.
+Five days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.
 It is now being sent to his home by train.
-Dan was most surprised
-when he heard the news.
-He was amused too,
-because he never expected
-the bicycle to be found.
-It was stolen twenty years ago
-when Dan was a boy of fifteen!
+Dan was most(=very) surprised when he heard the news.
+He was amused(有趣的) too, because he never expected the bicycle to be found.
+It was stolen twenty years ago when Dan was a boy of fifteen!
 
+### 过去完成时被动
 
+⼀般现在时: am/is/are + done 
+
+⼀般过去时: was/were + done 
+
+⼀般将来时: will be + done 
+
+现在完成时: have/has been + done 
+
+过去完成时: had been + done 
+
+The china had never been used.
 
 ## 35 Stop Thief
 
-Roy Trenton used to drive a taxi.
-A short while ago, however,
-he became a bus driver
-and he has not regretted it.
-He is finding his new work far more exciting.
-When he was driving
-along Catford Street recently,
-he saw two thieves rush out of a shop
-and run towards a waiting car.
+Roy Trenton <u>used to</u> drive a taxi.
+<u>A short while ago</u>(不久前), however, he became a bus driver and he has not regretted(后悔) it.
+He is finding his new work <u>far more exciting</u>.
+When he was driving along(沿着) Catford Street recently,
+he saw two thieves rush(冲) out of a shop and run towards a waiting car.
 One of them was carrying a bag full of money.
-Roy acted quickly and drove the bus
-straight at the thieves.
-The one with the money got such a fright
-that he dropped the bag.
-As the thieves were trying to get away in their car,
+Roy acted(行动) quickly and drove the bus straight at the thieves.
+The one with the money <u>got **such** a fright</u>(吓一跳) **that** he dropped the bag.
+As(当) the thieves were trying to <u>get away</u>(离开) in their car,
 Roy drove his bus into the back of it.
-While the battered car was moving away,
+While the battered(坏的) car was moving away,
 Roy stopped his bus and telephoned the police.
 The thieves' car was badly damaged and easy to recognize.
-Shortly afterwards,
-the police stopped the car and both men were arrested.
+<u>Shortly afterwards</u>(不久之后), the police stopped the car and both men were arrested(逮捕).
 
+### so & such
 
+so+adj./adv. 
+
+such + (adj.)+n
+
+so ... that
+
+such ... that
+
+see sb. do sth.  全程
+
+see sb. doing sth. 过程
 
 ## 36 Across the Channel
 
