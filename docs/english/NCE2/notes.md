@@ -1173,15 +1173,15 @@ It was stolen twenty years ago when Dan was a boy of fifteen!
 
 ### 过去完成时被动
 
-⼀般现在时: am/is/are + done 
+⼀般现在时: am/is/are + done
 
-⼀般过去时: was/were + done 
+⼀般过去时: was/were + done
 
-⼀般将来时: will be + done 
+⼀般将来时: will be + done
 
-现在完成时: have/has been + done 
+现在完成时: have/has been + done
 
-过去完成时: had been + done 
+过去完成时: had been + done
 
 The china had never been used.
 
@@ -1204,7 +1204,7 @@ The thieves' car was badly damaged and easy to recognize.
 
 ### so & such
 
-so+adj./adv. 
+so+adj./adv.
 
 such + (adj.)+n
 
@@ -1212,35 +1212,45 @@ so ... that
 
 such ... that
 
-see sb. do sth.  全程
+### Expressions
 
-see sb. doing sth. 过程
+- see sb. do sth.  全程
+- see sb. doing sth. 过程
+- a short while ago 
+- regret sth.
+- rush out of/towards 
+- go straight ahead 
+- give me a fright 
+- get a fright 
+- Shortly afterwards
 
 ## 36 Across the Channel
 
-Debbie Hart is going to swim
-across the English Channel tomorrow.
-She is going to set out from the French coast
-at five o'clock in the morning.
-Debbie is only eleven years old
-and she hopes to set up a new world record.
-She is a strong swimmer and many people feel
-that she is sure to succeed.
-Debbie's father will set out with her
-in a small boat.
+Debbie Hart <u>is going to</u> swim across the English Channel tomorrow.
+She is going to set out from the French coast at five o'clock in the morning.
+Debbie is only eleven years old and she hopes to <u>set up a new world record</u>.
+She is a strong swimmer and many people feel that she is sure to succeed(v.).
+Debbie's father will set out with her in a small boat.
 Mr. Hart has trained his daughter for years.
-Tomorrow he will be watching her anxiously
-as she swims the long distance to England.
-Debbie intends to take short rests every two hours.
-She will have something to drink
-but she will not eat any solid food.
-Most of Debbie's school friends will be
-waiting for her on the English coast.
-Among them will be Debbie's mother,
-who swam the Channel herself
-when she was a girl.
+Tomorrow he will be watching her anxiously(忧虑地) as(当) she swims the long distance to England.
+Debbie <u>intends</u>(打算) <u>to</u> take short rests every two hours.
+She will have something to drink but she will not eat any solid food.
+Most of Debbie's school friends will be waiting for her on the English coast.
+Among(在..中间) them will be Debbie's mother, who swam the Channel herself when she was a girl.
 
+### Expressions
 
+- set up a new world record  创建一个新的世界纪录
+- break the record 打破记录
+- as strong as a horse
+- strong like a horse
+- succeed in doing sth.
+- train sb. to do sth.
+- intend to do sth.
+
+- hope to do sth.
+- be sure to do sth.
+- take some rests/a rest
 
 ## 37 The Olympic Games
 
