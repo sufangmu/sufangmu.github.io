@@ -22,24 +22,12 @@ the young man said rudely.
 
 - go to the theatre
 - have a good seat
-
 - get angry
-
 - turn round
-
 - pay attention
-
 - in the end
-
 - couldn’t bear it
-
 - It’s none of your business
-
-- get up early/late
-
-- just then
-
-- have breakfast
 
 
 ### 现在进行时
