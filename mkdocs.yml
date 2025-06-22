@@ -260,6 +260,9 @@ nav:
     - '新概念英语二': 'english/NCE2/notes.md'
     - 语法:
       - '综述': 'english/grammar/综述.md'
+      - '语态': 'english/grammar/语态.md'
       - '词性': 'english/grammar/词性.md'
       - '动词': 'english/grammar/动词.md'
       - '从句': 'english/grammar/从句.md'
+      - '倒装': 'english/grammar/倒装.md'
+
