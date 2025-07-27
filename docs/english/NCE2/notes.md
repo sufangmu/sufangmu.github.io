@@ -1217,14 +1217,14 @@ such ... that
 Debbie Hart <u>is going to</u> swim across the English Channel tomorrow.
 She is going to set out from the French coast at five o'clock in the morning.
 Debbie is only eleven years old and she hopes to <u>set up a new world record</u>.
-She is a strong swimmer and many people feel that she is sure to succeed(v.).
+She is a strong swimmer and many people feel that she <u>is sure to</u> succeed(v.).
 Debbie's father will set out with her in a small boat.
 Mr. Hart has trained his daughter for years.
 Tomorrow he will be watching her anxiously(忧虑地) as(当) she swims the long distance to England.
 Debbie <u>intends</u>(打算) <u>to</u> take short rests every two hours.
 She will have something to drink but she will not eat any solid food.
 Most of Debbie's school friends will be waiting for her on the English coast.
-Among(在..中间) them will be Debbie's mother, who swam the Channel herself when she was a girl.
+Among(在...中间) them will be Debbie's mother, who swam the Channel herself when she was a girl.
 
 ### Expressions
 
@@ -1242,52 +1242,65 @@ Among(在..中间) them will be Debbie's mother, who swam the Channel herself wh
 
 ## 37 The Olympic Games
 
-The Olympic Games will be held
-in our country in four years' time.
-As a great many people will be
-visiting the country,
-the government will be building new hotels,
-an immense stadium,
+The Olympic Games will be held in our country in four years' time.
+As(因为) <u>a great many</u> people will be visiting the country,
+the government will be building new hotels, an immense(巨大的) stadium,
 and a new Olympic-standard swimming pool.
-They will also be building new roads
-and a special railway line.
-The Games will be held just outside the capital
-and the whole area will be called 'Olympic City'.
-Workers will have completed the new roads
-by the end of this year.
+They will also be building new roads and a special railway line.
+The Games will be held just outside the capital(首都) and the whole area will be called 'Olympic City'.
+Workers will have completed the new roads by the end of this year.
 By the end of next year,
 they will have finished work on the new stadium.
-The fantastic modern buildings have been designed
-by Kurt Gunter.
-Everybody will be watching anxiously
-as the new buildings go up.
-We are all very excited and are looking forward to
-the Olympic Games because
-they have never been held before in this country.
+The fantastic modern buildings have been designed by Kurt Gunter.
+Everybody will be watching anxiously as the new buildings go up.
+We are all very excited and are <u>looking forward to</u> the Olympic Games because they have never been held before in this country.
 
+### Expressions
 
+hold a meeting
+
+### 将来完成时
+
+will have done
+
+否定：will not
+
+一般疑问句 will提句首
+
+用法1: ⼀个动作持续或重复到将来(have done的将来时)
+
+We will have taken five exams by next Friday.
+
+用法2: ⼀个动作截止到未来某个时间前完成
+
+I will have finished my homework by next Friday.
 
 ## 38 Everything Except the Weather
 
-My old friend, Harrison, had lived in
-the Mediterranean for many years
-before he returned to England.
-He had often dreamed of retiring in England
-and had planned to settle down in the country.
-He had no sooner returned than he bought
-a house and went to live there.
-Almost immediately he began to complain
-about the weather,
+My old friend, Harrison, had lived in the Mediterranean(地中海) for many years before he returned to England.
+He had often dreamed of retiring in England and had planned to settle down in the country.
+He had <u>no sooner</u> returned <u>than</u> he bought a house and went to live there.
+Almost immediately he began to complain about the weather,
 for even though it was still summer,
 it rained continually and it was often bitterly cold.
-After so many years of sunshine,
-Harrison got a shock.
+After so many years of sunshine, Harrison got a shock.
 He acted as if he had never lived in England before.
 In the end, it was more than he could bear.
-He had hardly had time to settle down
-when he sold the house and left the country.
+He had hardly had time to settle down when he sold the house and left the country.
 The dream he had had for so many years ended there.
 Harrison had thought of everything except the weather.
+
+### 过去完成时
+
+过去的过去
+
+had done
+
+### Expressions
+
+no sooner ... than  一...就...
+
+hardly ... when 几乎刚..就...
 
 
 
