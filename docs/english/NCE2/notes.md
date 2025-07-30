@@ -1307,39 +1307,38 @@ hardly ... when 几乎刚..就...
 ## 39 Am I All Right
 
 While John Gilbert was in hospital,
-he asked his doctor to tell him
-whether his operation had been successful,
+he asked his doctor to tell him whether his operation had been successful,
 but the doctor refused to do so.
-The following day,
-the patient asked for a bedside telephone.
-When he was alone,
-he telephoned the hospital exchange
-and asked for Doctor Millington.
+The following day(第二天), the patient asked for a bedside telephone.
+When he was alone, he telephoned the hospital exchange and asked for Doctor Millington.
 When the doctor answered the phone,
-Mr. Gilbert said he was inquiring about a certain patient,
-a Mr. John Gilbert.
-He asked if Mr. Gilbert's operation had been successful
-and the doctor told him that it had been.
-He then asked when Mr. Gilbert would be allowed to
-go home and the doctor told him
-that he would have to stay
-in hosptial for another two weeks.
-Then Dr. Millington asked the caller
-if he was a relative of the patient.
-'No,' the patient answered,
-'I am Mr. John Gilbert.'
+Mr. Gilbert said he was <u>inquiring about</u> a certain(某个) patient, a Mr. John Gilbert.
+He asked if Mr. Gilbert's operation had been successful and the doctor told him that it had been.
+He then asked when Mr. Gilbert would <u>be allowed to</u> go home and the doctor told him that he <u>would have to</u> stay in hosptial for another two weeks.
+Then Dr. Millington asked the caller if he was a relative(亲戚) of the patient.
+'No,' the patient answered, 'I am Mr. John Gilbert.'
 
+### Expressions
 
+- When did she become successful?（助动词 did 后接动词原形 become）
+- have an operation
+- leave me alone
+- inquire about sth./sb.
+
+### 宾语从句
+
+一个句子做宾语
+
+He asked if you coul d come tomorrow.
 
 ## 40 Food and Talk
 
 Last week at a dinner party,
 the hostess asked me to sit next to Mrs. Rumbold.
-Mrs. Rumbold was a large,
-unsmiling lady in a tight black dress.
+Mrs. Rumbold was a large, unsmiling lady in a tight(紧的) black dress.
 She did not even look up when I took my seat beside her.
-Her eyes were fixed on her plate and in a short time,
-she was busy eating.
+Her eyes were fixed(凝视) on her plate(盘子) and in a short time,
+she <u>was busy eating</u>.
 I tried to make conversation.
 'A new play is coming to "The Globe" soon,'
 I said. 'Will you be seeing it?'
@@ -1348,25 +1347,46 @@ I said. 'Will you be seeing it?'
 'No,' she answered.
 'Will you be staying in England?' I asked.
 'No,' she answered.
-In despair, I asked her whether she was enjoying her dinner.
+In despair(绝望), I asked her whether she was enjoying her dinner.
 'Young man,' she answered,
 'if you ate more and talked less, we would both enjoy our dinner!'
+
+### 虚拟语气
+
+结构：If +did/were，主 + would/should/could/might do.
+did 并非表示过去
+If I were you, I wouldn’t do that.
+If I knew them better, I might invite them to dinner.
+
+含义:
+
+1. if从句中v.与现在事实相反
+2. 说话人认为，if从句中v.发生的几率非常低
+If I were you, I wouldn’t do that.
+If I knew them better, I might invite them to dinner.
+It’s cold. If I were you, I would put my coat on.
+
+### Expressions
+
+- take my seat
+- be busy doing sth.
+- Will you be doing sth?
 
 ## 41 Do You Call That a Hat
 
 'Do you call that a hat?' I said to my wife.
 'You needn't be so rude about it,'
 my wife answered as she looked at herself in the mirror.
-I sat down on one of those modern chairs with holes in it and waited.
+I sat down on one of those modern chairs with holes(洞) in it and waited.
 We had been in the hat shop for half an hour and my wife was still in front of the mirror.
 'We mustn't buy things we don't need,' I remarked suddenly.
-I regretted saying it almost at once.
+I regretted(后悔) saying it almost at once.
 'You needn't have said that,' my wife answered.
 'I needn't remind you of that terrible tie you bought yesterday.'
 'I find it beautiful,' I said. 'A man can never have too many ties.'
 'And a woman can't have too many hats,' she answered.
 Ten minutes later we walked out of the shop together.
-My wife was wearing a hat that looked like a lighthouse!
+My wife was wearing a hat that looked like a lighthouse(灯塔)!
 
 
 
