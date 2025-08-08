@@ -1380,15 +1380,17 @@ my wife answered as she looked at herself in the mirror.
 I sat down on one of those modern chairs with holes(洞) in it and waited.
 We had been in the hat shop for half an hour and my wife was still in front of the mirror.
 'We mustn't buy things we don't need,' I remarked suddenly.
-I regretted(后悔) saying it almost at once.
-'You needn't have said that,' my wife answered.
+I <u>regretted</u>(后悔) saying it almost at once.
+'You <u>needn't have said</u> that,' my wife answered.
 'I needn't remind you of that terrible tie you bought yesterday.'
-'I find it beautiful,' I said. 'A man can never have too many ties.'
+'I find it beautiful,' I said. 'A man <u>can never</u> have <u>too</u> many ties.'
 'And a woman can't have too many hats,' she answered.
 Ten minutes later we walked out of the shop together.
 My wife was wearing a hat that looked like a lighthouse(灯塔)!
 
+### Expressions
 
+- needn’t have done 本不必如此. 但事情已经发生了,有后悔的语言效果
 
 ## 42 Not Very Musical
 
@@ -1399,13 +1401,23 @@ two large baskets at the other side of the square,
 so we went to have a look at him.
 As soon as he saw us,
 he picked up a long pipe which was covered with coins and opened one of the baskets.
-When he began to play a tune,
-we had our first glimpse of the snake.
+When he began to play a tune ,
+we had our first glimpse(瞥见) of the snake.
 It rose out of the basket and began to follow the movements of the pipe.
 We were very much surprised when the snake charmer
 suddenly began to play jazz and modern pop songs.
 The snake, however, continued to 'dance' slowly.
 It obviously could not tell the difference between Indian music and jazz!
+
+### Expressions
+
+- watch a musical 看音乐剧
+- play a tune
+- have a glimpse of sth./sb.
+- continue to do sth.
+- tell the diference between A and B
+- have a long walk
+- at the other side of sw.
 
 
 
