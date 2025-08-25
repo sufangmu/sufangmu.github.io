@@ -1443,12 +1443,12 @@ The aircraft was able to fly over the endless white plains without difficulty.
 
 ## 44 Through the Forest
 
-Mrs. Anne Sterling did not think of the risk
-she was taking when she ran through a forest after two men.
+Mrs. Anne Sterling did not think of the risk (that)
+she was taking when she ran through a forest(森林) after two men.
 They had rushed up to her while she was having a picnic at the edge of a forest
 with her children and tried to steal her handbag.
-In the struggle, the strap broke and,
-with the bag in their possession,
+In the struggle(挣扎), the strap(带子) broke and,
+with the bag in their possession(拥有),
 both men started running through the trees.
 Mrs. Sterling got so angry that she ran after them.
 She was soon out of breath,
@@ -1457,16 +1457,27 @@ When she caught up with them,
 she saw that they had sat down and were going through the contents of the bag,
 so she ran straight at them.
 The men got such a fright that they dropped the bag and ran away.
-'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'
+'The strap needs mending(修理),' said Mrs. Sterling later, 'but they did not steal anything.'
 
+## Expressions
 
+- take a risk 冒险
+- have a picnic 野餐
+- at the edge of a forest
+- in sb’s possession
+- out of breath 上气不接下气
+- rush up to sb. 冲向某人
+- catch up with sb.
+- go through 翻越
+- run straight at sb. 径直冲向某人
+- need doing sth.
 
 ## 45 A Clear Conscience
 
-The whole village soon learnt that a large sum of money had been lost.
-Sam Benton, the local butcher,
-had lost his wallet while taking his savings to the post office.
-Sam was sure that the wallet must have been found by one of the villagers,
+The whole village soon learnt(知道) that a large sum of money had been lost.
+Sam Benton, the local butcher(屠夫),
+had lost his wallet while taking his savings(存款) to the post office.
+Sam was sure that the wallet <u>must have been found</u> by one of the villagers(村民),
 but it was not returned to him.
 Three months passed, and then one morning, Sam found his wallet outside his front door.
 It had been wrapped up in newspaper and it contained half the money he had lost,
@@ -1475,24 +1486,26 @@ together with a note which said:
 Two months later,
 some more money was sent to Sam with another note:
 'Only 25 per cent a thief now!'
-In time, all Sam's money was paid back in this way.
+In time(最终), all Sam's money was paid back in this way.
 The last note said: 'I am 100 per cent honest now!'
 
+### Expressions
 
+- a clear conscience(良心) 问心无愧
 
 ## 46 Expensive and Uncomfortable
 
 When a plane from London arrived at Sydney airport,
 workers began to unload a number of wooden boxes which contained clothing.
-No one could account for the fact that one of the boxes was extremely heavy.
-It suddenly occurred to one of the workers to open up the box.
-He was astonished at what he found.
-A man was lying in the box on top of a pile of woollen goods.
+No one could account(解释) for the fact that one of the boxes was extremely(非常) heavy.
+It suddenly occurred(发生) to one of the workers to open up the box.
+He was astonished(惊讶的) at what he found.
+A man was lying(lie, 躺) in the box on top of <u>a pile(许多) of</u> woollen(羊毛) goods.
 He was so surprised at being discovered that he did not even try to run away.
-After he was arrested,
-the man admitted hiding in the box before the plane left London.
+After he was arrested(逮捕),
+the man admitted(承认) hiding in the box before the plane left London.
 He had had a long and uncomfortable trip,
-for he had been confined to the wooden box for over eighteen hours.
+for he had been confined(限制) to the wooden box for over eighteen hours.
 The man was ordered to pay ￡3, 500 for the cost of the trip.
 The normal price of a ticket is ￡2, 000!
 
