@@ -1499,7 +1499,7 @@ When a plane from London arrived at Sydney airport,
 workers began to unload a number of wooden boxes which contained clothing.
 No one could account(解释) for the fact that one of the boxes was extremely(非常) heavy.
 It suddenly occurred(发生) to one of the workers to open up the box.
-He was astonished(惊讶的) at what he found.
+He was astonished(惊讶的) at what(=the things that) he found.
 A man was lying(lie, 躺) in the box on top of <u>a pile(许多) of</u> woollen(羊毛) goods.
 He was so surprised at being discovered that he did not even try to run away.
 After he was arrested(逮捕),
@@ -1509,22 +1509,26 @@ for he had been confined(限制) to the wooden box for over eighteen hours.
 The man was ordered to pay ￡3, 500 for the cost of the trip.
 The normal price of a ticket is ￡2, 000!
 
+### 同位语从句
 
+一个(完整)的句子补充说明一个名词
+
+No one could account for the **fact** <u>that one of the boxes was extremely heavy.</u>
 
 ## 47 A Thirsty Ghost
 
-A public house which was recently bought by Mr.Ian Thompson is up for sale.
-Mr.Thompson is going to sell it because it is haunted.
+A pub which was recently bought by Mr.Ian Thompson <u>is up for sale</u>(待售).
+Mr.Thompson is going to sell it because it is haunted(闹鬼).
 He told me that he could not go to sleep one night
 because he heard a strange noise coming from the bar.
 The next morning,
-he found that the doors had been blocked by chairs and the furniture had been moved.
+he found that the doors had been blocked(阻挡) by chairs and the furniture(家具) had been moved.
 Though Mr.Thompson had turned the lights off before he went to bed,
 they were on in the morning.
 He also said that he had found five empty whisky bottles
 which the ghost must have drunk the night before.
 When I suggested that some villagers must have come
-in for a free drink, Mr.Thompson shook his head.
+in for a free drink, Mr.Thompson shook(shake,摇) his head.
 The villagers have told him that
 they will not accept the pub even if he gives it away.
 
@@ -1535,11 +1539,11 @@ they will not accept the pub even if he gives it away.
 Dentists always ask questions when it is impossible for you to answer.
 My dentist had just pulled out one of my teeth and had told me to rest for a while.
 I tried to say something,
-but my mouth was full of cotton wool.
-He knew I collected match boxes and asked me whether my collection was growing.
+but my mouth was full of cotton wool(原棉,棉絮).
+He knew I collected match(火柴) boxes and asked me whether my collection was growing.
 He then asked me how my brother was and whether I liked my new job in London.
-In answer to these questions I either nodded or made strange noises.
-Meanwhile, my tongue was busy searching out the hole where the tooth had been.
+In answer to these questions I either nodded(点头) or made strange noises.
+Meanwhile, my tongue(舌头) was busy searching out the hole where the tooth had been.
 I suddenly felt very worried, but could not say anything.
 When the dentist at last removed the cotton wool from my mouth,
 I was able to tell him that he had pulled out the wrong tooth.
