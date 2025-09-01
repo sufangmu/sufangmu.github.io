@@ -1552,24 +1552,24 @@ I was able to tell him that he had pulled out the wrong tooth.
 
 ## 49 The End of a Dream
 
-Tired of sleeping on the floor,
+Tired(厌倦) of sleeping on the floor,
 a young man in Teheran saved up for years to buy a real bed.
 For the first time in his life,
-he became the proud owner of a bed which had springs and a mattress.
+he became the proud owner of a bed which had springs(弹簧) and a mattress(床垫).
 Because the weather was very hot,
 he carried the bed on to the roof of his house.
 He slept very well for the first two nights,
 but on the third night, a storm blew up.
-A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.
+<u>A gust of wind</u>(一阵风) swept(刮) the bed off the roof and sent it crashing into the courtyard(院子) below.
 The young man did not wake up
 until the bed had struck the ground.
-Although the bed was smashed to pieces,
-the man was miraculously unhurt.
+Although the bed was smashed(砸碎) to pieces(块),
+the man was miraculously(奇迹般地) unhurt.
 When he woke up, he was still on the mattress.
-Glancing at the bits of wood and metal that lay around him,
+Glancing( 扫视) at the bits of wood and metal that lay around him,
 the man sadly picked up the mattress and carried it into his house.
 After he had put it on the floor,
-he promptly went to sleep again.
+he promptly(迅速地) went to sleep again.
 
 
 
