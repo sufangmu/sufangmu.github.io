@@ -1553,14 +1553,14 @@ I was able to tell him that he had pulled out the wrong tooth.
 ## 49 The End of a Dream
 
 Tired(厌倦) of sleeping on the floor,
-a young man in Teheran saved up for years to buy a real bed.
-For the first time in his life,
+a young man in Teheran <u>saved up(存钱) for years to buy</u> a real bed.
+<u>For the first time in his life</u>,
 he became the proud owner of a bed which had springs(弹簧) and a mattress(床垫).
 Because the weather was very hot,
 he carried the bed on to the roof of his house.
 He slept very well for the first two nights,
-but on the third night, a storm blew up.
-<u>A gust of wind</u>(一阵风) swept(刮) the bed off the roof and sent it crashing into the courtyard(院子) below.
+but on the third night, a storm(暴风雨) blew up.
+<u>A gust of wind</u>(一阵风) swept(刮) the bed off the roof and sent it crashing(分词作宾补) into the courtyard(院子) below.
 The young man did not wake up
 until the bed had struck the ground.
 Although the bed was smashed(砸碎) to pieces(块),
@@ -1569,23 +1569,31 @@ When he woke up, he was still on the mattress.
 Glancing( 扫视) at the bits of wood and metal that lay around him,
 the man sadly picked up the mattress and carried it into his house.
 After he had put it on the floor,
-he promptly(迅速地) went to sleep again.
+he promptly(迅速地) <u>went to sleep</u> again.
 
+### 分词作状语
 
+简化状语从句
+
+The baby opened his eyes. The baby began to cry.
+
+When the baby opened his eyes, he began to cry.
+
+(When) <u>opening his eyes,</u> the baby began to cry.
 
 ## 50 Taken for a Ride
 
 I love travelling in the country,
 but I don't like losing my way.
-I went on an excursion recently,
+I <u>went on an excursion</u>(远足,短途旅行) recently,
 but my trip took me longer than I expected.
 'I'm going to Woodford Green,'
-I said to the conductor as I got on the bus,
+I said to the conductor(售票员,指挥) as I got on the bus,
 'but I don't know where it is.'
-'I'll tell you where to get off.' answered the conductor.
+'I'll tell you <u>where to get off</u>.' answered the conductor.
 I sat in the front of the bus to get a good view of the countryside.
 After some time, the bus stopped.
-Looking round, I realized with a shock that I was the only passenger left on the bus.
+Looking round, <u>I realized with a shock(震惊) that</u> I was the only passenger left on the bus.
 'You'll have to get off here,'
 the conductor said. 'This is as far as we go.'
 'Is this Woodford Green?' I asked.
@@ -1594,14 +1602,14 @@ the conductor said. 'This is as far as we go.'
 'It doesn't matter,' I said. 'I'll get off here.'
 'We're going back now,' said the conductor.
 'Well, in that case,
-I prefer to stay on the bus,' I answered.
+I <u>prefer to</u> stay on the bus,' I answered.
 
 
 
 ## 51 Reward for Virtue
 
 My friend, Hugh, has always been fat,
-but things got so bad recently that he decided to go on a diet.
+but things got so bad recently that he decided to <u>go on a diet</u>(节食).
 He began his diet a week ago.
 First of all, he wrote out a long list of all the foods which were forbidden.
 The list included most of the things Hugh loves:
@@ -1612,7 +1620,7 @@ He led me into his room and hurriedly hid a large parcel under his desk.
 It was obvious that he was very embarrassed.
 When I asked him what he was doing,
 he smiled guiltily and then put the parcel on the desk.
-He explained that his diet was so strict that he had to reward himself occasionally.
+He explained that his diet was so strict that he had to reward(奖励) himself occasionally.
 Then he showed me the contents of the parcel.
 It contained five large bars of chocolate and three bags of sweets!
 
