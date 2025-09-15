@@ -1609,17 +1609,17 @@ I <u>prefer to</u> stay on the bus,' I answered.
 ## 51 Reward for Virtue
 
 My friend, Hugh, has always been fat,
-but things got so bad recently that he decided to <u>go on a diet</u>(节食).
+but things got <u>so</u> bad recently <u>that</u> he decided to <u>go on a diet</u>(节食).
 He began his diet a week ago.
-First of all, he wrote out a long list of all the foods which were forbidden.
-The list included most of the things Hugh loves:
+<u>First of all</u>, he wrote out a long list of all the foods which were forbidden.
+The list included most of the things (that) Hugh loves:
 butter, potatoes, rice, beer, milk, chocolate, and sweets.
-Yesterday I paid him a visit.
-I rang the bell and was not surprised to see that Hugh was still as fat as ever.
-He led me into his room and hurriedly(迅速地) hid a large parcel under his desk.
-It was obvious that he was very embarrassed(尴尬).
+Yesterday I <u>paid him a visit</u>.
+I rang the bell and <u>was not surprised to see that</u> Hugh was still as fat as ever.
+He led(lead,引领) me into his room and hurriedly(迅速地) hid(hide) a large parcel(包裹)  under his desk.
+<u>It was obvious that</u> he was very embarrassed(尴尬).
 When I asked him what he was doing,
-he smiled guiltily(内疚) and then put the parcel(包裹) on the desk.
+he smiled guiltily(内疚) and then put the parcel on the desk.
 He explained that his diet was so strict(严格的) that he had to reward(奖励) himself occasionally(偶尔).
 Then he showed me the contents of the parcel.
 It contained five large bars of chocolate and three bags of sweets!
@@ -1628,38 +1628,43 @@ It contained five large bars of chocolate and three bags of sweets!
 
 ## 52 A Pretty Carpet
 
-We have just moved into a new house and I have been working hard all morning.
-I have been trying to get my new room in order.
+We have just moved into a new house and I <u>have been working</u> hard all morning.
+I have been trying to <u>get my new room in order</u>.
 This has not been easy because I own over a thousand books.
-To make matters worse,
-the room is rather small,
+<u>To make matters worse,</u> the room is rather small,
 so I have temporarily put my books on the floor.
-At the moment, they cover every inch of floor space
-and I actually have to walk on them to get in or out of the room.
+At the moment, they cover <u>every inch of</u> floor space
+and I actually(实际上) have to walk on them to get in or out of the room.
 A short while ago, my sister helped me to carry one of my old bookcases up the stairs.
 She went into my room and got a big surprise when she saw all those books on the floor.
-'This is the prettiest carpet I have ever seen,' she said.
-She gazed at it for some time then added,
+'This is the prettiest carpet(地毯) I have ever seen,' she said.
+She <u>gazed(注视) at</u> it for some time then added,
 'You don't need bookcases at all.
-You can sit here in your spare time and read the carpet!'
+You can sit here <u>in your spare(空闲) time</u> and read the carpet!'
 
+### 现在完成进行时
 
+结构：主 + have/has been doing sth.
+
+用法一：过去进行的动作（结束）对现在有影响
+
+用法一：过去进行的动作持续、重复到现在
 
 ## 53 Hot Snake
 
 At last firemen have put out a big forest fire in California.
 Since then, they have been trying to find out how the fire began.
 Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.
-Yesterday the firemen examined the ground carefully,
+Yesterday the firemen examined(检查) the ground carefully,
 but were not able to find any broken glass.
 They were also quite sure that a cigarette end did not start the fire.
-This morning, however, a firemen accidentally discovered the cause.
-He noticed the remains of a snake which was wound round the electric wires of a 16, 000-volt power line.
-In this way, he was able to solve the mystery.
+This morning, however, a firemen accidentally(意外地) discovered the cause.
+He noticed <u>the remains(残骸) of a snake</u> which was wound round the <u>electric wires</u>(电线) of a 16, 000-volt <u>power line</u>(电线).
+In this way, he was able to <u>solve the mystery</u>(迷).
 The explanation was simple but very unusual.
-A bird had snatched up the snake from the ground and then dropped it on to the wires.
+A bird had snatched(抓) up the snake from the ground and then dropped it on to the wires.
 The snake then wound itself round the wires.
-When it did so, it sent sparks down to the ground and these immediately started a fire.
+When it did so, it sent sparks(火花) down to the ground and these immediately started a fire.
 
 
 
