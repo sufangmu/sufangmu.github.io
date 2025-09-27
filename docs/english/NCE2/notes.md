@@ -1652,14 +1652,14 @@ You can sit here <u>in your spare(空闲) time</u> and read the carpet!'
 
 ## 53 Hot Snake
 
-At last firemen have put out a big forest fire in California.
-Since then, they have been trying to find out how the fire began.
-Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.
+At last firemen have <u>put out a big forest fire</u> in California.
+Since then, they have been trying to <u>find out</u> how the fire began.
+Forest fires are often caused by broken glass or by cigarette ends which people carelessly <u>throw away(扔掉)</u>.
 Yesterday the firemen examined(检查) the ground carefully,
-but were not able to find any broken glass.
+but <u>were not able to</u> find any broken glass.
 They were also quite sure that a cigarette end did not start the fire.
 This morning, however, a firemen accidentally(意外地) discovered the cause.
-He noticed <u>the remains(残骸) of a snake</u> which was wound round the <u>electric wires</u>(电线) of a 16, 000-volt <u>power line</u>(电线).
+He noticed <u>the remains(残骸) of a snake</u> which was wound(wind,缠绕) round the <u>electric wires</u>(电线) of a 16, 000-volt <u>power line</u>(电线).
 In this way, he was able to <u>solve the mystery</u>(迷).
 The explanation was simple but very unusual.
 A bird had snatched(抓) up the snake from the ground and then dropped it on to the wires.
@@ -1675,14 +1675,14 @@ It was still early when I returned home.
 The children were at school, my husband was at work and the house was quiet.
 So I decided to make some meat pies.
 In a short time I was busy mixing butter
-and flour and my hands were soon covered with sticky pastry.
+and flour and my hands were soon covered with sticky(粘的) pastry(面糊,点心).
 At exactly that moment, the telephone rang.
-Nothing could have been more annoying.
-I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Helen Bates.
-It took me ten minutes to persuade her to ring back later. At last I hung up the receiver.
-What a mess! There was pastry on my fingers, on the telephone, and on the doorknobs.
-I had no sooner got back to the kitchen than the doorbell rang loud enough to wake the dead.
-This time it was the postman and he wanted me to sign for a registered letter!
+<u>Nothing could have been more annoying</u>(使人烦恼的).
+I picked up the receiver(电话听筒，接收器) between two sticky fingers and was dismayed(失望的) when I <u>recognized the voice of</u> Helen Bates.
+It took me ten minutes to persuade(劝说) her to <u>ring back later</u>. At last I hung up the receiver.
+What a mess(杂乱)! There was pastry on my fingers, on the telephone, and on the doorknobs(球形门拉手).
+I had <u>no sooner</u> got back to the kitchen <u>than</u> the doorbell rang loud(大声的) enough to wake the dead.
+This time it was the postman and he wanted me to <u>sign for</u> a registered letter(挂号信)!
 
 
 
