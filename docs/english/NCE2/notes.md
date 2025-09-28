@@ -1688,34 +1688,47 @@ This time it was the postman and he wanted me to <u>sign for</u> a registered le
 
 ## 55 Not a Gold Mine
 
-Dreams of finding lost treasure almost came true recently.
-A new machine called 'The Revealer' has been invented
-and it has been used to detect gold which has been buried in the ground.
-The machine was used in a cave near the seashore where--it is said--pirates used to hide gold.
+Dreams of finding lost treasure(宝藏) almost came true recently.
+A new machine called 'The Revealer(探测器)' has been invented
+and it has been used to detect gold which has been buried(埋) in the ground.
+The machine was used in a cave(山洞) near the seashore(岸边) where--it is said--pirates(海盗) used to hide gold.
 The pirates would often bury gold in the cave and then fail to collect it.
-Armed with the new machine, a search party went into the cave hoping to find buried treasure.
-The leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.
-Very excited, the party dug a hole two feet deep.
+<u>Armed(v.武装) with</u> the new machine, a search party went into the cave hoping to find buried treasure.
+The leader of the party was examining the soil(土) near the entrance(入口) to the cave when the machine showed that there was gold under the ground.
+Very excited, the party dug(dig,挖) a hole two feet deep.
 They finally found a small gold coin which was almost worthless.
-The party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.
-In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.
+The party then searched the whole cave thoroughly(彻底地) but did not find anything except an empty tin(锡) trunk(衣箱).
+<u>In spite of this</u>, many people are confident that 'The Revealer' may reveal something of value fairly(相当地) soon.
+
+
+
+### would do vs. used to do
+
+used to do: 
+
+1. 过去的状态
+2. 现在不发生了
+
+would do: 
+
+1. 过去重复发生的动作
 
 
 
 ## 56 Faster Than Sound
 
 Once a year, a race is held for old cars.
-A lot of cars entered for this race last year and there was a great deal of excitement just before it began.
-One of the most handsome cars was a Rolls-Royce Silver Ghost.
+A lot of cars <u>entered for</u> this race last year and there was <u>a great deal of</u> excitement(兴奋) just before it began.
+One of the most handsome(英俊的) cars was a Rolls-Royce Silver Ghost.
 The most unusual car was a Benz which had only three wheels.
 Built in 1885, it was the oldest car taking part.
-After a great many loud explosions, the race began.
-Many of the cars broke down on the course and some drivers spent more time under their cars than in them!
+After <u>a great many</u> loud explosions(爆炸), the race began.
+Many of the cars <u>broke down</u> <u>on the course</u>(道路) and some drivers spent more time under their cars than in them!
 A few cars, however, completed the race.
-The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.
-It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.
+The winning car reached a speed of forty miles an hour -- much faster than any of its rivals(竞争对手).
+It sped downhill(下坡) at the end of the race and its driver <u>had a lot of trouble trying</u> to stop it.
 The race gave everyone a great deal of pleasure.
-It was very different from modern car races but no less exciting.
+It <u>was</u> very <u>different from</u> modern car races but <u>no less exciting</u>.
 
 
 
