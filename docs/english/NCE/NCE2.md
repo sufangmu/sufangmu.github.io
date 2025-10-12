@@ -1734,40 +1734,44 @@ It <u>was</u> very <u>different from</u> modern car races but <u>no less excitin
 
 ## 57 Can I Help You, Madam
 
-A woman in jeans stood at the window of an expensive shop.
-Though she hesitated for a moment,
-she finally went in and asked to see a dress that was in the window.
-The assistant who served her did not like the way she was dressed.
-Glancing at her scornfully, he told her that the dress was sold.
-The woman walked out of the shop angrily and decided to punish the assistant next day.
-She returned to the shop the following morning dressed in a fur coat,
+A woman in jeans(牛仔裤) stood at the window of an expensive shop.
+Though she <u>hesitated(犹豫) for a moment</u>,
+she finally went in and <u>asked to</u> see a dress (that was in the window).
+The assistant (who served(服务) her) did not like the way she was dressed.
+Glancing at her scornfully(轻蔑地), he told her [that the dress was sold].
+The woman walked out of the shop angrily and decided to punish(惩罚) the assistant next day.
+She returned to the shop the following morning dressed in a fur coat(皮毛大衣),
 with a handbag in one hand and a long umbrella in the other.
-After seeking out the rude assistant,
+After seeking(寻找) out the rude assistant,
 she asked for the same dress.
-Not realizing who she was, the assistant was eager to serve her this time.
-With great difficulty, he climbed into the shop window to get the dress.
+Not realizing who she was, the assistant <u>was eager(渴望的) to</u> serve her this time.
+With great difficulty, he climbed(爬) into the shop window to get the dress.
 As soon as she saw it, the woman said she did not like it.
 She enjoyed herself making the assistant bring almost everything in the window
-before finally buying the dress she had first asked for.
+before finally buying the dress (she had first asked for).
 
 
 
 ## 58 A Blessing in Disguise
 
-The tiny village of Frinley is said to possess a 'cursed tree'.
-Because the tree was mentioned in a newspaper,
+The tiny village of Frinley is said to possess(拥有) a 'cursed(被诅咒的) tree'.
+Because the tree was mentioned(提及) in a newspaper,
 the number of visitors to Frinley has now increased.
-The tree was planted near the church fifty years ago, but it is only in recent years that it has gained an evil reputation.
+The tree was planted near the church(教堂) fifty years ago, but it is only in recent years that it has gained an <u>evil reputation</u>(恶名).
 It is said that if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.
-Many villagers believe that the tree has already claimed a number of victims.
-The vicar has been asked to have the tree cut down, but so far he has refused.
-He has pointed out that the tree is a useful source of income,
+Many villagers believe that the tree has already claimed(使失踪或死亡) a number of victims(受害者).
+The vicar(教堂牧师) has been asked to have the tree cut down, but so far he has refused.
+He has pointed out that the tree is a useful <u>source of income</u>,
 as tourists have been coming from all parts of the country to see it.
 In spite of all that has been said,
 the tourists have been picking leaves and cutting their names on the tree-trunk.
 So far, not one of them has been struck down by sudden death!
 
+### Expressions
 
+- bless 祝福 *god bless* 上帝保佑
+- disguise 假装；掩饰；隐瞒
+- A blessing in disguise 塞翁失马，焉知非福。
 
 ## 59 In or Out
 

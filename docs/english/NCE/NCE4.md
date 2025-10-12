@@ -1,4 +1,4 @@
-# 01 Finding Fossil Man
+## 01 Finding Fossil Man
 
 
 
@@ -16,7 +16,7 @@ Fortunately, however, ancient men made tools of stone, especially flint,
 because this is easier to shape than other kinds.
 They may also have used wood and skins, but these have rotted away.
 Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.
-# 02 Spare That Spider
+## 02 Spare That Spider
 
 
 
@@ -36,7 +36,7 @@ that is something like 6, 000, 000 spiders of different kinds on a football pitc
 Spiders are busy for at least half the year in killing insects.
 It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.
 It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.
-# 03 Matterhorn Man
+## 03 Matterhorn Man
 
 
 
@@ -61,7 +61,7 @@ sometimes with shepherds or cheese-makers.
 Invariably the background was the same:dirt and poverty, and very uncomfortable.
 For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home,
 the change to the Alps must have been very hard indeed.
-# 04 Seeing Hands
+## 04 Seeing Hands
 
 
 
@@ -81,7 +81,7 @@ to make out with her foot the outlines and colours of a picture hidden under a c
 Other experiments showed that her knees and shoulders had a similar sensitivity.
 During all these tests Vera was blindfold; and indeed, except when blindfold she lacked the ability to perceive things with her skin.
 It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.
-# 05 Youth
+## 05 Youth
 
 
 
@@ -108,7 +108,7 @@ All that is in my mind when I meet a young person.
 He may be conceited, ill-mannered,  presumptuous or fatuous,  but I do not turn for protection to dreary cliches about respect for elders --
 as if mere age were a reason for respect.
 I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.
-# 06 The Sporting Spirit
+## 06 The Sporting Spirit
 
 
 
@@ -122,7 +122,7 @@ At the international level, sport is frankly mimic warfare.
 But the significant thing is not the behaviour of the players but the attitude of the spectators:
 and, behind the spectators, of the nations who work themselves into furies over these absurd contests,
 and seriously believe -- at any rate for short periods -- that running, jumping and kicking a ball are tests of national virtue.
-# 07 Bats
+## 07 Bats
 
 
 
@@ -139,7 +139,7 @@ With experience, and with improved apparatus, it is now possible not only to loc
 It has been found that certain bats emit squeaks and by receiving the echoes,
 they can locate and steer clear of obstacles -- or locate flying insects on which they feed.
 This echo-location in bats is often compared with radar, the principle of which is similar.
-# 08 Trading Standards
+## 08 Trading Standards
 
 
 Chickens slaughtered in the United States, claim officials in Brussels, are not fit to grace European tables.
@@ -157,7 +157,7 @@ The Americans would happily reach one accord on standards for medical devices an
 The EU -- following fine continental traditions -- wants agreement on general principles,
 which could be applied to many types of products and perhaps extended to other countries.
 
-# 09 Royal Espionage
+## 09 Royal Espionage
 
 
 Alfred the Great acted as his own spy, visiting Danish camps disguised as a minstrel.
@@ -178,7 +178,7 @@ His patrols halted the raiding parties: hunger assailed the Danish army.
 Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered.
 The episode could reasonably serve as a unique epic of royal espionage!
 
-# 10 Silicon Valley
+## 10 Silicon Valley
 
 
 
@@ -194,7 +194,7 @@ As the heads of next-generation start-ups, these Asian innovators can draw on cu
 For instance, Alex Au, a Stanford Ph. D. from Hong Kong, has set up a Taiwan factory to challenge Japan's near lock on the memory-chip market.
 India-born N. Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri.
 Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.
-# 11 How to Grow Old
+## 11 How to Grow Old
 
 
 
@@ -224,7 +224,7 @@ the thought of rest will be not unwelcome.
 I should wish to die while still at work,
 knowing that others will carry on what I can no longer do,
 and content in the thought that what was possible has been done.
-# 12 Banks and Their Customers
+## 12 Banks and Their Customers
 
 
 
@@ -245,7 +245,7 @@ It makes no difference that the forgery may have been a very skillful one:
 the bank must recognize its customer's signature.
 For this reason there is no risk to the customer in the practice, adopted by banks, of printing the customer's name on his cheques.
 If this facilitates forgery, it is the bank which will lose, not the customer.
-# 13 The Search for Oil
+## 13 The Search for Oil
 
 
 
@@ -265,7 +265,7 @@ Once we get down to the oil, it usually flows to the surface because great press
 This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe.
 We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.
 We want it to stay down the hole until we can lead it off in a controlled manner.
-# 14 The Butterfly Effect
+## 14 The Butterfly Effect
 
 
 
@@ -291,7 +291,7 @@ At noon the spaces between the sensors will hide fluctuations that the computer 
 tiny deviations from the average.
 By 12.01, those fluctuations will already have created small errors one foot away.
 Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.
-# 15 Secrecy in Industry
+## 15 Secrecy in Industry
 
 
 Two factors weigh heavily against the effectiveness of scientific research in industry.
@@ -312,7 +312,7 @@ Many firms, for instance have great difficulty in obtaining technical or scienti
 because they are unwilling to have their names entered as having taken out such and such a book,
 for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking.
 
-# 16 The Modern City
+## 16 The Modern City
 
 
 
@@ -330,7 +330,7 @@ While they enjoy the comfort and banal luxury of their dwelling, they do not rea
 The modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases,
 torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds.
 Obviously, it has not been planned for the good of its inhabitants.
-# 17 A Man-made Disease
+## 17 A Man-made Disease
 
 
 In the early days of the settlement of Australia, enterprising settlers unwisely introduced the European rabbit.
@@ -353,7 +353,7 @@ and it spread to Britain where wild rabbits are regarded as a pest but where dom
 equally susceptible to the disease, are the basis of a profitable fur industry.
 The question became one of whether Man could control the disease he had invented.
 
-# 18 Porpoises
+## 18 Porpoises
 
 
 
@@ -380,7 +380,7 @@ He no sooner recovers his equilibrium than the next porpoises comes along and hi
 Eventually the turtle has been butted all the way down to the floor of the tank.
 He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat.
 The turtle at last gives up by pulling his feet under his shell and the game is over.
-# 19 The Stuff of Dreams
+## 19 The Stuff of Dreams
 
 
 
@@ -404,7 +404,7 @@ If one group of people were disturbed from their eye-movement sleep for several 
 and another group were disturbed for an equal period of time but when they were not exhibiting eye-movements,
 the first group began to show some personality disorders while the others seemed more or less unaffected.
 The implications of all this were that it was not the disturbance of sleep that mattered, but the disturbance of dreaming.
-# 20 Snake Poison
+## 20 Snake Poison
 
 
 
@@ -432,7 +432,7 @@ Be that as it may, the nerve poison does its business with man far more quickly 
 This, however, means nothing.
 Snakes did not acquire their poison for use against man but for use against prey such as rats and mice,
 and the effects on these of viperine poison is almost immediate.
-# 21 William S. Hart and the Early Western Film
+## 21 William S. Hart and the Early Western Film
 
 
 
@@ -464,7 +464,7 @@ found it pleasant to escape to a time when life, though hard, was relatively sim
 We still do; living in a world in which undeclared aggression, war, hypocrisy,
 chicanery, anarchy and impending immolation are part of our daily lives,
 we all want a code to live by.
-# 22 Knowledge and Progress
+## 22 Knowledge and Progress
 
 
 
@@ -498,7 +498,7 @@ while, close at hand, surgeons use it to restore them?
 We have to ask ourselves very seriously
 what will happen if this twofold use of knowledge,
 with its ever-increasing power, continues.
-# 23 Bird Flight
+## 23 Bird Flight
 
 
 
@@ -534,7 +534,7 @@ that seems to help its passage even when the wind is adverse.
 Such birds do us good,
 though we no longer take omens from their flight on this side and that;
 and even the most superstitious villagers no longer take off their hats to the magpie and wish it good-morning.
-# 24 Beauty
+## 24 Beauty
 
 
 A young man sees a sunset and,
@@ -565,7 +565,7 @@ If we glimpse the unutterable, it is unwise to try to utter it,
 nor should we seek to invest with significance that which we cannot grasp.
 Beauty in terms of our human meanings is meaningless.
 
-# 25 Non-Auditory Effects of Noise
+## 25 Non-Auditory Effects of Noise
 
 
 
@@ -607,7 +607,7 @@ it must be so small that present methods of psychiatric diagnosis cannot find it
 That does not prove that it does not exist; but it does mean
 that noise is less dangerous than, say being brought up in an orphanage
 --which really is a mental health hazard.
-# 26 The Past Life of the Earth
+## 26 The Past Life of the Earth
 
 
 
@@ -644,7 +644,7 @@ And then, when they were dead, the carnivores,
 like the sabretoothed cats and the giant wolves,
 came out to feed and suffered exactly the same fate.
 There are also endless numbers of birds in the tar as well.
-# 27 The vasa
+## 27 The vasa
 
 
 
@@ -680,7 +680,7 @@ as cargo, ballast, ammunition and 400 people went sliding and crashing down to t
 The lower gun-ports were now below water and the inrush sealed the ship's fate.
 In that first glorious hour, the mighty Vasa, which was intended to rule the Baltic,
 sank with all flags flying--in the harbour of her birth.
-# 28 Patients and Doctors
+## 28 Patients and Doctors
 
 
 
@@ -714,7 +714,7 @@ History does not relate whether his friend accepted his medical help, but in all
 The great advantage of taking medicine is that it makes no demands on the taker
 beyond that of putting up for a moment with a disgusting taste,
 and that is what all patients demand of their doctors--to be cured at no inconvenience to themselves.
-# 29 The Hovercraft
+## 29 The Hovercraft
 
 
 Many strange new means of transport have been developed in our century,
@@ -739,7 +739,7 @@ giant hovercraft liners could span the Atlantic;
 and the railway of the future may well be the 'hovertrain',
 riding on its air cushion over a single rail, which it never touches, at speeds, up to 300 m.p.h.--the possibilities appear unlimited.
 
-# 30 Exploring the Sea-Floor
+## 30 Exploring the Sea-Floor
 
 
 
@@ -771,7 +771,7 @@ The slope averages about 1 in 30, but contains steep,
 probably vertical, cliffs, and gentle sediment-covered terraces,
 and near its lower reaches there is a long tailing-off which is almost certainly the result of
 material transported out to deep water after being eroded from the continental masses.
-# 31 The Sculptor Speaks
+## 31 The Sculptor Speaks
 
 
 
@@ -796,7 +796,7 @@ or from the literary idea that it will become a bird.
 And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom,
 a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.
 From these he can go on to appreciate more complex forms or combinations of several forms.
-# 32 Galileo Reborn
+## 32 Galileo Reborn
 
 
 
@@ -827,7 +827,7 @@ that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s 
 We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day,
 as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth;
 and if a single curved glass would distort nature, how much more would a pair of them?
-# 33 Education
+## 33 Education
 
 
 
@@ -857,7 +857,7 @@ There is none of the hurry which, in our society, often hampers the full develop
 There, a child grows up under the everpresent attention of his parents;
 therefore the jungles and the savannahs know of no 'juvenile delinquency'.
 No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.
-# 34 Adolescence
+## 34 Adolescence
 
 
 
@@ -887,7 +887,7 @@ but children were then too cowed to let them know how they really felt.
 Today we tend to go to the other extreme,
 but on the whole this is a healthier attitude both for the child and the parent.
 It is always wiser and safer to face up to reality, however painful it may be at the moment.
-# 35 Space Odyssey
+## 35 Space Odyssey
 
 
 
@@ -916,7 +916,7 @@ It is the one world in the Solar System that is most like the Earth.
 It is a world of red sandy deserts (hence its name--the Red Planet),
 cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at least one mountain more than twice as tall as Everest.
 It seems ideal for settlement.
-# 36 The Cost of Government
+## 36 The Cost of Government
 
 
 
@@ -944,7 +944,7 @@ the government does not require armies of police and civil servants to keep them
 But if a nation is disunited, the government cannot be sure that the actions of the people will be in the interests of the nation;
 and it will have to watch, check, and control the people accordingly.
 A disunited nation therefore has to incur unduly high costs of government.
-# 37 The Process of Ageing
+## 37 The Process of Ageing
 
 
 
@@ -980,7 +980,7 @@ Between twelve and eighty years we gradually lose this power;
 an illness which at 12 would knock us over, at 80 can knock us out, and into our grave.
 If we could stay as vigorous as we are at twelve,
 it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.
-# 38 Water and the Traveller
+## 38 Water and the Traveller
 
 
 
@@ -1010,7 +1010,7 @@ If no other safe water supply can be obtained,
 tap water that is too hot to touch can be left to cool and is generally safe to drink.
 Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available,
 should know about the various possible methods for making water safe.
-# 39 What Every Writer Wants
+## 39 What Every Writer Wants
 
 
 I have known very few writers,
@@ -1046,7 +1046,7 @@ he submits himself to a more ruthless discipline than any critic dreamed of,
 and when he flirts with fame, he is taking time off from living with himself,
 from the search for what his world contains at its inmost point.
 
-# 40 Waves
+## 40 Waves
 
 
 Waves are the children of the struggle between ocean and atmosphere, the ongoing signatures of infinity.
@@ -1072,7 +1072,7 @@ wind, earth movements or tremors, and the gravitational pull of the moon and the
 Once waves have been generated,
 gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain.
 
-# 41 Training Elephants
+## 41 Training Elephants
 
 
 
@@ -1111,7 +1111,7 @@ such as 'ho! my son', or 'ho! my father', or 'my mother', according to the age a
 The elephant is not immediately susceptible to such blandishments, however, and usually lashes fiercely with its trunk in all directions.
 These movements are controlled by the trainer with the metal-pointed stick,
 and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.
-# 42 Recording an Earthquake
+## 42 Recording an Earthquake
 
 
 
@@ -1161,7 +1161,7 @@ The second marks the arrival of transverse vibrations which travel more slowly a
 These two have travelled through the earth.
 It was from the study of these that so much was learnt about the interior of the earth.
 The third, or main wave is the slowest and has travelled round the earth through the surface rocks.
-# 43 Are There Strangers in Space
+## 43 Are There Strangers in Space
 
 
 
@@ -1207,7 +1207,7 @@ it was not long before its use as the uniquely recognizable broadcasting frequen
 Without something of this kind,
 searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous
 and absurdly wandering the streets in the hope of a chance encounter.
-# 44 Patterns of Culture
+## 44 Patterns of Culture
 
 
 
@@ -1259,7 +1259,7 @@ It was necessary first to arrive at that degree of sophistication
 where we no longer set our own belief against our neighbour's superstition.
 It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural,
 must be considered together, our own among the rest.
-# 45 Of Men and Galaxies
+## 45 Of Men and Galaxies
 
 
 
@@ -1303,7 +1303,7 @@ I have often tried to conceive of what those pages might contain,
 but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are.
 We cannot think outside the particular patterns that our brains are conditioned to, or,
 to be more accurate we can think only a very little way outside and then only if we are very original.
-# 46 Hobbies
+## 46 Hobbies
 
 
 
@@ -1346,7 +1346,7 @@ For them the working hours are never long enough.
 Each day is a holiday, and ordinary holidays, when they come, are grudged as enforced interruptions in an absorbing vocation.
 Yet to both classes, the need of an alternative outlook, of a change of atmosphere of a diversion of effort, is essential.
 Indeed, it may well be that those whose work is their pleasure are those who most need the means of banishing it at intervals from their minds.
-# 47 The Great Escape
+## 47 The Great Escape
 
 
 
@@ -1392,7 +1392,7 @@ Police are wary of itinerants who cannot be traced to a recognized camp boundary
 But most probably it will all depend upon campers themselves: how many heath fires they cause; how much litter they leave;
 in short, whether or not they wholly alienate landowners and those who live in the countryside.
 Only good scouting is likely to preserve the freedoms so dear to the heart of the eternal Boy Scout.
-# 48 Planning a Share Portfolio
+## 48 Planning a Share Portfolio
 
 
 

@@ -198,7 +198,7 @@ nav:
         - '闪现': 'programming/python/Flask/flashing.md'
         - '中间件': 'programming/python/Flask/middleware.md'
         - 扩展:
-          - 'flask-session': 'programming\python\Flask\extention\flask-session.md'
+          - 'flask-session': 'programming/python/Flask/extention/flask-session.md'
         - 源码:
           - 'Local': 'programming/python/Flask/sourcecode/Local.md'
           - 'Session': 'programming/python/Flask/sourcecode/session.md'

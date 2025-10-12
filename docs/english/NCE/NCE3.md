@@ -1,11 +1,11 @@
-# 01 A Puma at Large
+## 01 A Puma at Large
 
 
 
-Pumas are large, cat-like animals which are found in America.
-When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London,
-they were not taken seriously.
-However, as the evidence began to accumulate,
+Pumas(美洲豹) are large, cat-like animals which are found in America.
+When reports came into London Zoo that a wild(野生的) puma had been spotted(发现) forty-five miles south of London,
+they were not taken seriously(严肃地).
+However, as the evidence began to accumulate(积累),
 experts from the Zoo felt obliged to investigate,
 for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.
 The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.
@@ -24,7 +24,7 @@ The hunt went on for several weeks,
 but the puma was not caught.
 It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.
 
-# 02 Thirteen Equals One
+## 02 Thirteen Equals One
 
 
 Our vicar is always raising money for one cause or another,
@@ -48,7 +48,7 @@ but I'm afraid that at one o'clock it will strike thirteen times and there's not
 'Thirteen is not as good as one, but it's better than nothing.
 Now let's go downstairs and have a cup of tea.'
 
-# 03 An Unknown Goddess
+## 03 An Unknown Goddess
 
 
 Some time ago, an interesting discovery was made by archaeologists on the Aegean island of Kea.
@@ -69,7 +69,7 @@ She stood three feet high and her hands rested on her hips.
 She was wearing a full-length skirt which swept the ground.
 Despite her great age, she was very graceful indeed, but, so far, the archaeologists have been unable to discover her identity.
 
-# 04 The Double Life of Alfred Bloggs
+## 04 The Double Life of Alfred Bloggs
 
 
 
@@ -87,7 +87,7 @@ Alf's wife has never discovered that she married a dustman and she never will, f
 He will soon be working in an office.
 He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.
 From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.
-# 05 The Facts
+## 05 The Facts
 
 
 
@@ -105,7 +105,7 @@ A week later, the editor at last received a fax from the journalist.
 Not only had the poor man been arrested, but he had been sent to prison as well.
 However, he had at last been allowed to send a fax in which he informed the editor that he had been arrested
 while counting the 1, 084 steps leading to the 15th foot wall which surrounded the president's palace.
-# 06 Smash-and-Grab
+## 06 Smash-and-Grab
 
 
 The expensive shops in a famous arcade near Piccadilly were just opening.
@@ -128,7 +128,7 @@ Mr.Taylor rushed out and ran after it throwing ashtrays and vases,
 but it was impossible to stop the thieves.
 They had got away with thousands of pounds worth of diamonds.
 
-# 07 Mutilated Ladies
+## 07 Mutilated Ladies
 
 
 People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!
@@ -146,7 +146,7 @@ They examined the remains and John got all his money back.
 'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.
 'Last year, we paid ￡1.5 million on 21,000 claims.'
 
-# 08 A Famous Monastery
+## 08 A Famous Monastery
 
 
 
@@ -174,7 +174,7 @@ The only regular visitors to the monastery in winter are parties of skiers who g
 These young people,
 who love the peace of the mountains,
 always receive a warm welcome at St.Bernard's monastery.
-# 09 Flying Cats
+## 09 Flying Cats
 
 
 Cats never fail to fascinate human beings.
@@ -198,7 +198,7 @@ At high speeds, falling cats have time to relax.
 They stretch out their legs like flying squirrels.
 This increases their air-resistance and reduces the shock of impact when they hit the ground.
 
-# 10 The Loss of the Titanic
+## 10 The Loss of the Titanic
 
 
 The great ship, Titanic sailed for New York from Southampton on April 10th, 1912.
@@ -219,7 +219,7 @@ for five of her sixteen watertight compartments had already been flooded!
 The order to abandon ship was given and hundreds of people plunged into the icy water.
 As there were not enough life-boats for everybody, 1, 500 lives were lost.
 
-# 11 Not Guilty
+## 11 Not Guilty
 
 
 Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.
@@ -250,7 +250,7 @@ The Officer unscrewed the cap and put the bottle to his nostrils.
 He was greeted by an unpleasant smell which convinced him that I was telling the truth.
 A few minutes later, I was able to hurry away with precious chalk marks on my baggage.
 
-# 12 Life on a Desert Island
+## 12 Life on a Desert Island
 
 
 Most of us have formed an unrealistic picture of life on a desert island.
@@ -271,7 +271,7 @@ As they had brought a spear gun with them, they had plenty to eat.
 They caught lobster and fish every day, and as one of them put it 'ate like kings'.
 When a passing tanker rescued them five days later, both men were genuinely sorry that they had to leave.
 
-# 13 It's Only Me
+## 13 It's Only Me
 
 
 After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.
@@ -292,7 +292,7 @@ She tried to explain the situation, saying
 The man let out a cry and jumped back several paces.
 When Mrs. Richards walked towards him, he fled, slamming the door behind him.
 
-# 14 A Noble Gangster 
+## 14 A Noble Gangster 
 
 
 
@@ -307,7 +307,7 @@ In times of peace, when business was bad, Hawkwood and his men would march into 
 Hawkwood made large sums of money in this way.
 In spite of this, the Italians regarded him as a sort of hero.
 When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.
-# 15 Fifty Pence Worth of Trouble
+## 15 Fifty Pence Worth of Trouble
 
 
 
@@ -328,7 +328,7 @@ He could not find his 50 pence piece anywhere, and what is more, he could not ge
 A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.
 The fire brigade was called and two fire fighters freed George using a special type of grease.
 George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.
-# 16 Mary Had a Little Lamb
+## 16 Mary Had a Little Lamb
 
 
 
@@ -350,7 +350,7 @@ Ashamed of having acted so rashly, Dimitri apologized to Aleko for having accuse
 While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.
 When he went outside half an hour later, he was astonished to find that the little black lamb was almost white.
 Its wool, which had been dyed black, had been washed clean by the rain!
-# 17 The Longest Suspension Bridge in the World
+## 17 The Longest Suspension Bridge in the World
 
 
 
@@ -372,7 +372,7 @@ It has been estimated that if the bridge were packed with cars, it would still o
 However, size and strength are not the only important things about this bridge.
 Despite its immensity, it is both simple and elegant,
 fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.
-# 18 Electric Currents in Modern Art 
+## 18 Electric Currents in Modern Art 
 
 
 
@@ -395,7 +395,7 @@ These lights flickered continuously like traffic lights which have gone mad.
 Sparks were emitted from small black boxes and red lamps flashed on and off angrily.
 It was rather like an exhibition of prehistoric electronic equipment.
 These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!
-# 19 A Very Dear Cat
+## 19 A Very Dear Cat
 
 
 
@@ -418,7 +418,7 @@ He looked very well, though he was rather thirsty, for he drank half a bottle of
 The police were astounded when Mrs. Ramsay told them what she had done.
 She explained that Rastus was very dear to her.
 Considering the amount she paid, he was dear in more ways than one!
-# 20 Pioneer Pilots 
+## 20 Pioneer Pilots 
 
 
 
@@ -441,7 +441,7 @@ When he landed near Dover, the first person to greet him was a local policeman.
 Latham made another attempt a week later and got within half a mile of Dover,
 but he was unlucky again.
 His engine failed and he landed on the sea for the second time.
-# 21 Daniel Mendoza
+## 21 Daniel Mendoza
 
 
 
@@ -470,7 +470,7 @@ He earned enormous sums of money and was paid as much as ￡100 for a single app
 Despite this, he was so extravagant that he was always in debt.
 After he was defeated by a boxer called Gentleman Jackson, he was quickly forgotten.
 He was sent to prison for failing to pay his debts and died in poverty in 1836.
-# 22 By Heart
+## 22 By Heart
 
 
 Some plays are so successful that they run for years on end.
@@ -497,7 +497,7 @@ With this, he hurried off the stage.
 Much to the aristocrat's amusement,
 the gaoler returned a few moments later with a pair of glasses and the usual copy of the letter which he proceeded to read to the prisoner.
 
-# 23 One Man's Meat is Another Man's Poison
+## 23 One Man's Meat is Another Man's Poison
 
 
 People become quite illogical when they try to decide what can be eaten and what cannot be eaten.
@@ -524,7 +524,7 @@ we saw that there were snails everywhere:
 they had escaped from the paper bag
 and had taken complete possession of the hall! I have never be able to look at a snail since then.
 
-# 24 A Skeleton in the Cupboard
+## 24 A Skeleton in the Cupboard
 
 
 We often read in novels how a seemingly respectable person
@@ -553,7 +553,7 @@ But George was unsympathetic.
 'Oh, that,' he said with a smile as if he were talking about an old friend.
 'That's Sebastian. You forget that I was a medical student once upon a time.'
 
-# 25 The Cutty Sark
+## 25 The Cutty Sark
 
 
 One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can still be seen at Greenwich.
@@ -583,7 +583,7 @@ She arrived in England a week after the Thermopylae.
 Even this was remarkable, considering that she had had so many delays.
 There is no doubt that if she had not lost her rudder she would have won the race easily.
 
-# 26 Wanted a Large Biscuit Tin
+## 26 Wanted a Large Biscuit Tin
 
 
 No one can avoid being influenced by advertisements.
@@ -613,7 +613,7 @@ It had been baked by a college student who had used over 1, 000 pounds of flour,
 It was so heavy that a crane had to be used to remove it from the lorry.
 The manufacturers had to pay more money than they had anticipated, for they bought the biscuit from the student for $24, 000.
 
-# 27 Nothing to Sell and Nothing to Buy
+## 27 Nothing to Sell and Nothing to Buy
 
 
 It has been said that everyone lives by selling something.
@@ -641,7 +641,7 @@ he may even, in times of real need, do a little work; but he will never sacrific
 We often speak of tramps with contempt and put them in the same class as beggars,
 but how many of us can honestly say that we have not felt a little envious of their simple way of life and their freedom from care?
 
-# 28 Five Pounds Too Dear
+## 28 Five Pounds Too Dear
 
 
 Small boats loaded with wares sped to the great liner as she was entering the harbour.
@@ -672,7 +672,7 @@ I felt especially pleased with my wonderful bargain--until I got back to the shi
 No matter how hard I tried,
 it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!
 
-# 29 Funny or Not
+## 29 Funny or Not
 
 
 
@@ -703,7 +703,7 @@ To compensate for his unpleasant experiences in hospital,
 the man drank a little more than was good for him.
 In the process, he enjoyed himself thoroughly and kept telling everybody how much he hated hospitals.
 He was still mumbling something about hospitals at the end of the party when he slipped on a piece of ice and broke his left leg.
-# 30 The Death of a Ghost
+## 30 The Death of a Ghost
 
 
 For years, villagers believed that Endley farm was haunted.
@@ -735,7 +735,7 @@ He used to sleep during the day and work at night,
 quite unaware of the fact that he had become the ghost of Endley.
 When he died, however, his brothers found it impossible to keep the secret any longer.
 
-# 31 A Lovable Eccentric
+## 31 A Lovable Eccentric
 
 
 True eccentrics never deliberately set out to draw attention to themselves.
@@ -765,7 +765,7 @@ for though the pictures were supposed to be the work of famous artists,
 they had in fact been painted by Dickie.
 It took him four years to stage this elaborate joke simply to prove that critics do not always know what they are talking about.
 
-# 32 A Lost Ship
+## 32 A Lost Ship
 
 
 The salvage operation had been a complete failure.
@@ -793,7 +793,7 @@ The Karen had been sailing in a convoy to Russia when she was torpedoed by an en
 This was later confirmed by a naval official at the Ministry of Defence after the Elkor had returned home.
 All the items that were found were sent to the War Museum.
 
-# 33 A Day to Remember
+## 33 A Day to Remember
 
 
 We have all experienced days when everything goes wrong.
@@ -824,7 +824,7 @@ In the meantime, the lorry driver had to sweep up hundreds of broken bottles.
 Only two stray dogs benefited from all this confusion, for they greedily devoured what was left of the cake.
 It was just one of those days!
 
-# 34 A Happy Discovery
+## 34 A Happy Discovery
 
 
 Antique shops exert a peculiar fascination on a great many people.
@@ -853,7 +853,7 @@ Glancing at it briefly the dealer told him that it was worth ￡50.
 Frank could hardly conceal his excitement, for he knew that he had made a real discovery.
 The tiny painting proved to be an unknown masterpiece by Correggio and was worth hundreds and thousands of pounds.
 
-# 35 Justice was Done
+## 35 Justice was Done
 
 
 The word justice is usually associated with courts of law.
@@ -884,7 +884,7 @@ admitted at once that he had tried to break into the shop during the night but h
 He had been there for nearly ten hours.
 Justice had been done even before the man was handed over to the police.
 
-# 36 A Chance in a Million
+## 36 A Chance in a Million
 
 
 
@@ -917,7 +917,7 @@ Hans returned to his family home, but the house had been bombed
 and no one in the neighbourhood knew what had become of the inhabitants.
 Assuming that his family had been killed during an air raid,
 Hans settled down in a village fifty miles away where he had remained ever since.
-# 37 The Westhaven Express
+## 37 The Westhaven Express
 
 
 
@@ -946,7 +946,7 @@ There was a note of triumph in my voice when I told him that it was there in bla
 Glancing at it briefly, he told me to look again.
 A tiny asterisk conducted me to a footnote at the bottom of the page.
 It said: 'This service has been suspended.'
-# 38 The First Calendar
+## 38 The First Calendar
 
 
 
@@ -971,7 +971,7 @@ It has long been known that the hunting scenes depicted on walls were not simply
 They had a definite meaning, for they were as near as early man could get to writing.
 It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.
 It seems that man was making a real effort to understand the seasons 20, 000 years earlier than has been supposed.
-# 39 Nothing to Worry About
+## 39 Nothing to Worry About
 
 
 
@@ -999,7 +999,7 @@ Bruce consulted the map once more and told us that the village was now only fift
 Our next obstacle was a shallow pool of water about half a mile across.
 Bruce charged at it, but in the middle, the car came to a grinding halt.
 A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!
-# 40 Who's Who
+## 40 Who's Who
 
 
 
@@ -1026,7 +1026,7 @@ At this, the police pointed out ironically that this would hardly be necessary a
 Pretending to speak seriously, one of the workmen asked if he might make a telephone call before being taken to the station.
 Permission was granted and a policeman accompanied him to a pay phone.
 Only when he saw that the man was actually telephoning the police did he realize that they had all been the victims of a hoax.
-# 41 Illusions of Pastoral Peace
+## 41 Illusions of Pastoral Peace
 
 
 
@@ -1063,7 +1063,7 @@ Few things could be more impressive than the peace that descends on deserted cit
 when the thousands that travel to work every day are tucked away in their homes in the country.
 It has always been a mystery to me why city dwellers, who appreciate all these things,
 obstinately pretend that they would prefer to live in the country.
-# 42 Modern Cavemen
+## 42 Modern Cavemen
 
 
 
@@ -1100,7 +1100,7 @@ After switching on powerful arc lights,
 they saw great stalagmites--some of them over forty feet high--rising up like tree-trunks to meet the stalactites suspended from the roof.
 Round about, piles of limestone glistened in all the colours of the rainbow.
 In the eerie silence of the cavern, the only sound that could be heard was made by water which dripped continuously from the high dome above them.
-# 43 Fully Insured
+## 43 Fully Insured
 
 
 
@@ -1133,7 +1133,7 @@ Several minutes later, the dish was successfully hauled above the surface of the
 Water streamed in torrents over its sides with such force that it set up a huge wave in the canal.
 There was a danger that the wave would rebound off the other side of the bank and send the dish plunging into the water again.
 By working at tremendous speed, the men managed to get the dish on to dry land before the wave returned.
-# 44 Speed and Comfort
+## 44 Speed and Comfort
 
 
 People travelling long distances frequently have to decide whether they would prefer to go by land, sea, or air.
@@ -1172,7 +1172,7 @@ The journey is so smooth that there is nothing to prevent you from reading or sl
 However you decide to spend your time, one thing is certain: you will arrive at your destination fresh and uncrumpled.
 You will not have to spend the next few days recovering from a long and arduous journey.
 
-# 45 The Power of the Press
+## 45 The Power of the Press
 
 
 In democratic countries any efforts to restrict the freedom of the press are rightly condemned.
@@ -1204,7 +1204,7 @@ It would never again be possible for them to lead normal lives.
 They had become the victims of commercialization, for their names had acquired a market value.
 Instead of being five new family members, these children had immediately become a commodity.
 
-# 46 Do It Yourself
+## 46 Do It Yourself
 
 
 So great is our passion for doing things for ourselves,
@@ -1245,7 +1245,7 @@ I told her that either I would have to buy a new mower or let the grass grow.
 Needless to say our house is now surrounded by a jungle.
 Buried somewhere in deep grass there is a rusting lawn mower which I have promised to repair one day.
 
-# 47 Too High a Price
+## 47 Too High a Price
 
 
 Pollution is the price we pay for an overpopulated, overindustrialized planet.
@@ -1283,7 +1283,7 @@ Against these figures, it was found that only 5% of women snore regularly,
 while the rest are constantly woken or kept awake by their trumpeting partners.
 Whatever the source of noise, one thing is certain: silence, it seems, has become a golden memory.
 
-# 48 The Silent Village
+## 48 The Silent Village
 
 
 In this much-travelled world, there are still thousands of places which are inaccessible to tourists.
@@ -1323,7 +1323,7 @@ We needed no further warning.
 Turning back down the main street,
 we quickened our pace and made our way rapidly towards the stream where we hoped the boatman was waiting.
 
-# 49 The Ideal Servant
+## 49 The Ideal Servant
 
 
 It is a good thing my aunt Harriet died years ago.
@@ -1365,7 +1365,7 @@ The poor girl was dismissed instantly.
 After her departure, Aunt Harriet discovered that there were piles of empty wine bottles of all shapes and sizes neatly stacked in what had once been Bessie's wardrobe.
 They had mysteriously found their way there from the wine cellar!
 
-# 50 New Year Resolutions
+## 50 New Year Resolutions
 
 
 The New Year is a time for resolutions.
@@ -1405,7 +1405,7 @@ I still haven't given up my resolution to do more reading.
 In fact, I have just bought a book entitled How to Read a Thousand Words a Minute.
 Perhaps it will solve my problem, but I just haven't had time to read it!
 
-# 51 Predicting the Future
+## 51 Predicting the Future
 
 
 Predicting the future is notoriously difficult.
@@ -1443,7 +1443,7 @@ Computers have become smaller and smaller, more and more powerful and cheaper an
 This is what makes Leon Bagrit's predictions particularly remarkable.
 If he, or someone like him, were alive today, he might be able to tell us what to expect in the next fifty years.
 
-# 52 Mud is Mud
+## 52 Mud is Mud
 
 
 My cousin, Harry, keeps a large curiously-shaped bottle on permanent display in his study.
@@ -1481,7 +1481,7 @@ He was glad to get away with a mere twenty pounds and he beat a hasty retreat, c
 From then on, Harry decided that this little game he had invented might prove to be expensive.
 The curious bottle which now adorns the bookcase in his study was his first and last purchase of rare cosmetics.
 
-# 53 In the Public Interest
+## 53 In the Public Interest
 
 
 The Scandinavian countries are much admired all over the world for their enlightened social policies.
@@ -1516,7 +1516,7 @@ The policeman in question was severely reprimanded
 and was informed that if any further complaints were lodged against him, he would be prosecuted.
 The Ombudsman's prompt action at once put an end to an unpleasant practice which might have gone unnoticed.
 
-# 54 Instinct or Cleverness
+## 54 Instinct or Cleverness
 
 
 We have been brought up to fear insects.
@@ -1554,7 +1554,7 @@ They were climbing up the wall of the house and then on to the leaves of the tre
 I realized sadly that I had been completely defeated by their ingenuity.
 The ants had been quick to find an answer to my thoroughly unscientific methods!
 
-# 55 From the Earth Greetings
+## 55 From the Earth Greetings
 
 
 Recent developments in astronomy have made it possible to detect planets in our own Milky Way and in other galaxies.
@@ -1590,7 +1590,7 @@ If we were able to discover lowly forms of life like bacteria on another planet,
 As Daniel Goldin of NASA observed, 'Finding life elsewhere would change everything.
 No human endeavour or thought would be unchanged by it.'
 
-# 56 Our Neighbour, the River
+## 56 Our Neighbour, the River
 
 
 The river which forms the eastern boundary of our farm has always played an important part in our lives.
@@ -1627,7 +1627,7 @@ The men of our family waded down through our flooded meadows with boat hooks,
 in the hope of being able to grapple a corner of the raft and pull it out of the current towrds our bank.
 We still think it a miracle that they were able to do so.
 
-# 57 Back in the Old Country
+## 57 Back in the Old Country
 
 
 I stopped to let the car cool off and to study the map.
@@ -1668,7 +1668,7 @@ This time he pointed to the lake.
 The village no longer existed because it had been submerged, and all the valley too.
 The lake was not a natural one, but a man-made reservoir.
 
-# 58 A Spot of Bother
+## 58 A Spot of Bother
 
 
 The old lady was glad to be back at the block of flats where she lived.
@@ -1702,7 +1702,7 @@ and advised her not to stay alone in the flat for a few nights.
 The old lady thought he was a fussy creature,
 but since the porter agreed with him, she rang up her daughter and asked for her help in what she described as a little spot of bother.
 
-# 59 Collecting
+## 59 Collecting
 
 
 People tend to amass possessions, sometimes without being aware of doing so.
@@ -1738,7 +1738,7 @@ and then, if successful, to larger audiences.
 In this way self-confidence grows, first from mastering a subject, then from being able to talk about it.
 Collecting, by occupying spare time so constructively, makes a person contented, with no time for boredom.
 
-# 60 Too Early and Too Late
+## 60 Too Early and Too Late
 
 
 Punctuality is a necessary habit in all public affairs in civilized society.
