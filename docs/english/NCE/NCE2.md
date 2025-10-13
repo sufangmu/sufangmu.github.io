@@ -1497,7 +1497,7 @@ The last note said: 'I am 100 per cent honest now!'
 
 When a plane from London arrived at Sydney airport,
 workers began to unload a number of wooden boxes which contained clothing.
-No one could account(解释) for the fact that one of the boxes was extremely(非常) heavy.
+No one could <u>account(解释) for the fact that</u> one of the boxes was extremely(非常) heavy.
 It suddenly occurred(发生) to one of the workers to open up the box.
 He was astonished(惊讶的) at what(=the things that) he found.
 A man was lying(lie, 躺) in the box on top of <u>a pile(许多) of</u> woollen(羊毛) goods.
@@ -1563,10 +1563,10 @@ but on the third night, a storm(暴风雨) blew up.
 <u>A gust of wind</u>(一阵风) swept(刮) the bed off the roof and sent it crashing(分词作宾补) into the courtyard(院子) below.
 The young man did not wake up
 until the bed had struck the ground.
-Although the bed was smashed(砸碎) to pieces(块),
+Although the bed was <u>smashed(砸碎) to pieces(块)</u>,
 the man was miraculously(奇迹般地) unhurt.
 When he woke up, he was still on the mattress.
-Glancing( 扫视) at the bits of wood and metal that lay around him,
+<u>Glancing( 扫视) at</u> the bits of wood and metal that lay around him,
 the man sadly picked up the mattress and carried it into his house.
 After he had put it on the floor,
 he promptly(迅速地) <u>went to sleep</u> again.
@@ -1580,6 +1580,12 @@ The baby opened his eyes. The baby began to cry.
 When the baby opened his eyes, he began to cry.
 
 (When) <u>opening his eyes,</u> the baby began to cry.
+
+### Expressions
+
+- save up for years to buy sth.
+- for the first time in sb.’s life
+- go to sleep
 
 ## 50 Taken for a Ride
 
@@ -1604,7 +1610,18 @@ the conductor said. 'This is as far as we go.'
 'Well, in that case,
 I <u>prefer to</u> stay on the bus,' I answered.
 
+### Expressions
 
+- take it for granted 将它当做理所当然。
+- ride a bike/horse
+- go on an excursion 去旅行
+- get a good view of sth.
+- prefer to do sth. = prefer doing sth.
+- I prefer a to b
+- I prefer doing a to doing b
+- I prefer to do a rather than (do) b.
+- I’d prefer (= I would prefer) to do sth.
+- I’d(=would) prefer to do a rather than (do) b.
 
 ## 51 Reward for Virtue
 
@@ -1623,6 +1640,17 @@ he smiled guiltily(内疚) and then put the parcel on the desk.
 He explained that his diet was so strict(严格的) that he had to reward(奖励) himself occasionally(偶尔).
 Then he showed me the contents of the parcel.
 It contained five large bars of chocolate and three bags of sweets!
+
+### Expressions
+
+- go on a diet = be on a diet
+- forbid sb. to do sth.
+- a be strict with b  a对b严格
+- First of all,...
+- write out a long list of ...
+- pay sb. a visit ring the bell
+- was not surprised to see that...
+- It was obvious that ...
 
 
 
@@ -1644,11 +1672,28 @@ You can sit here <u>in your spare(空闲) time</u> and read the carpet!'
 
 ### 现在完成进行时
 
-结构：主 + have/has been doing sth.
+结构：
+
+主 + have/has been doing sth.
+
+主 + have/has + not + been doing sth.
+
+Have/Has + 主 + been doing sth. ?
+
+What have/has + 主 + been doing?
 
 用法一：过去进行的动作（结束）对现在有影响
 
 用法一：过去进行的动作持续、重复到现在
+
+### Expressions
+
+- get sth. in order
+- To make matters worse...
+- A short while ago...
+- help sb. to do sth.
+- gaze at sth.
+- in sb’s spare time...
 
 ## 53 Hot Snake
 
@@ -1680,11 +1725,29 @@ At exactly that moment, the telephone rang.
 <u>Nothing could have been more annoying</u>(使人烦恼的).
 I picked up the receiver(电话听筒，接收器) between two sticky fingers and was dismayed(失望的) when I <u>recognized the voice of</u> Helen Bates.
 It took me ten minutes to persuade(劝说) her to <u>ring back later</u>. At last I hung up the receiver.
-What a mess(杂乱)! There was pastry on my fingers, on the telephone, and on the doorknobs(球形门拉手).
+<u>What a mess</u>(杂乱)! There was pastry on my fingers, on the telephone, and on the doorknobs(球形门拉手).
 I had <u>no sooner</u> got back to the kitchen <u>than</u> the doorbell rang loud(大声的) enough to wake the dead.
 This time it was the postman and he wanted me to <u>sign for</u> a registered letter(挂号信)!
 
+### Expressions
 
+- stick to the plan 坚持计划
+- put my finger on it
+- point the finger at 指责或责备某人
+- be dismayed to do sth.
+- recognize the voice (of sb.)
+- persuade sb. (not) to do sth.
+- What a mess!
+- such a mess
+- Sign here.
+- sign for sth.
+- a registered letter
+- send sb. to sp.
+- decide to do sth.
+- be busy doing sth.
+- be covered with sth.
+- take sb. st. to do sth.
+- hang up
 
 ## 55 Not a Gold Mine
 
@@ -1730,7 +1793,16 @@ It sped downhill(下坡) at the end of the race and its driver <u>had a lot of t
 The race gave everyone a great deal of pleasure.
 It <u>was</u> very <u>different from</u> modern car races but <u>no less exciting</u>.
 
+### Expressions
 
+- a great deal of ...+不可数
+- break down 发生故障 My car broke down.
+- a be di erent from b.
+- make a sound
+- hear a sound
+- on the course 在路上
+- speed it/things/this up 加快速度
+- go downhill
 
 ## 57 Can I Help You, Madam
 
@@ -1750,42 +1822,58 @@ As soon as she saw it, the woman said she did not like it.
 She enjoyed herself making the assistant bring almost everything in the window
 before finally buying the dress (she had first asked for).
 
+### the way (that) ...
 
+1. The assistant who served her did not (like) the way she was dressed.
+2. I don’t like the way (that) you talk to me.
+3. We want to know the way (in which) you learn new words.
+
+### Expressions
+
+- ask to do sth.
+- be dressed in ...
+- seek out
+- make sb. do sth.
 
 ## 58 A Blessing in Disguise
 
-The tiny village of Frinley is said to possess(拥有) a 'cursed(被诅咒的) tree'.
+The tiny village of Frinley <u>is said to</u> possess(拥有) a 'cursed(被诅咒的) tree'.
 Because the tree was mentioned(提及) in a newspaper,
 the number of visitors to Frinley has now increased.
-The tree was planted near the church(教堂) fifty years ago, but it is only in recent years that it has gained an <u>evil reputation</u>(恶名).
-It is said that if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.
-Many villagers believe that the tree has already claimed(使失踪或死亡) a number of victims(受害者).
+The tree was planted near the church(教堂) fifty years ago, but <u>it is</u> only in recent years <u>that</u> it has gained an <u>evil reputation</u>(恶名).
+<u>It is said that</u> if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.
+Many villagers believe that the tree has already claimed(使失踪或死亡) <u>a number of</u> victims(受害者).
 The vicar(教堂牧师) has been asked to have the tree cut down, but so far he has refused.
-He has pointed out that the tree is a useful <u>source of income</u>,
+He has <u>pointed out</u> that the tree is a useful <u>source of income</u>,
 as tourists have been coming from all parts of the country to see it.
-In spite of all that has been said,
+In spite of all (that has been said),
 the tourists have been picking leaves and cutting their names on the tree-trunk.
-So far, not one of them has been struck down by sudden death!
+So far, not one of them has been <u>struck down</u>(杀死) by sudden death!
 
 ### Expressions
 
 - bless 祝福 *god bless* 上帝保佑
 - disguise 假装；掩饰；隐瞒
 - A blessing in disguise 塞翁失马，焉知非福。
+- be said to do sth. = it is said that...  据说
+
+### 强调句
+
+it is(was)+强调部分+that(who)+剩余部分
 
 ## 59 In or Out
 
-Our dog, Rex, used to sit outside our front gate and bark.
+Our dog, Rex, used to sit outside our front gate and bark(狗叫).
 Every time he wanted to come into the garden he would bark until someone opened the gate.
-As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.
-Rex soon became an expert at opening the gate.
+As the neighbours complained of the noise, my husband spent weeks training him to press his paw(爪子) on the latch(门闩) to let himself in.
+Rex soon <u>became an expert at</u> opening the gate.
 However, when I was going out shopping last week, I noticed him in the garden near the gate.
 This time he was barking so that someone would let him out!
 Since then, he has developed another bad habit.
 As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.
 Then he sits and barks until someone lets him out.
 After this he immediately lets himself in and begins barking again.
-Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.
+Yesterday my husband removed the gate and Rex got so annoyed(恼怒的；烦闷的) we have not seen him since.
 
 
 
