@@ -1868,35 +1868,58 @@ Every time he wanted to come into the garden he would bark until someone opened 
 As the neighbours complained of the noise, my husband spent weeks training him to press his paw(爪子) on the latch(门闩) to let himself in.
 Rex soon <u>became an expert at</u> opening the gate.
 However, when I was going out shopping last week, I noticed him in the garden near the gate.
-This time he was barking so that someone would let him out!
+This time he was barking <u>so that</u> someone would let him out!
 Since then, he has developed another bad habit.
-As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.
+<u>As soon as</u> he opens the gate from the outside, he comes into the garden and waits until the gate shuts.
 Then he sits and barks until someone lets him out.
 After this he immediately lets himself in and begins barking again.
-Yesterday my husband removed the gate and Rex got so annoyed(恼怒的；烦闷的) we have not seen him since.
+Yesterday my husband removed the gate and Rex got so annoyed(恼怒的；烦闷的) (that) we have not seen him since.
 
+### 目的状语从句
 
+to
+
+in order to
+
+so as to
+
+so that
+
+in order that
+
+so that 以便; 为了
+
+### Expressions
+
+- become/be an expert at doing sth.
+- have a habit of doing sth.
+- remove sth. from...
+- complained of ... 抱怨
+- spend st. doing sth.
+- train sb. to do sth.
 
 ## 60 The Future
 
-At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.
-I went into her tent and she told me to sit down.
-After I had given her some money, she looked into a crystal ball and said:
+At a village fair(市集), I decided to visit a fortune-teller(算命先生) called Madam Bellinsky.
+I went into her tent(帐篷) and she told me to sit down.
+After I had given her some money, she looked into a crystal(水晶的) ball and said:
 'A relation of yours is coming to see you.
 She will be arriving this evening and intends to stay for a few days.
-The moment you leave this tent, you will get a big surprise.
-A woman you know well will rush towards you.
+<u>The moment</u> you leave this tent, you will get a big surprise.
+A woman (you know well) will rush towards you.
 She will speak to you and then she will lead you away from this place. That is all.'
-As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.
-'Where have you been hiding?' she asked impatiently.
+<u>As soon as</u> I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.
+'Where have you been hiding?' she asked impatiently(不耐烦地;).
 'Your sister will be here in less than an hour and we must be at the station to meet her. We are late already.'
 As she walked away, I followed her out of the fair.
 
+### Expressions
 
+the moment = as soon as 主将从现
 
 ## 61 Trouble with the Hubble
 
-The Hubble telescope was launched into
+The Hubble telescope(望远镜) was launched into
 space by NASA on April 20, 1990 at a cost of over a billion dollars.
 Right from the start there was trouble with the Hubble.
 The pictures it sent us were very disappointing because its main mirror was faulty!
