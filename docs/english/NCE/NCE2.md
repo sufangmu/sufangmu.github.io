@@ -1921,26 +1921,35 @@ the moment = as soon as 主将从现
 
 The Hubble telescope(望远镜) was launched into
 space by NASA on April 20, 1990 at a cost of over a billion dollars.
-Right from the start there was trouble with the Hubble.
-The pictures it sent us were very disappointing because its main mirror was faulty!
+<u>Right from the start</u> there was trouble with the Hubble.
+The pictures it sent us were very disappointing(令人失望的) because its main mirror was faulty(有错误的)!
 NASA is now going to put the telescope right,
-so it will soon be sending up four astronauts to repair it.
-The shuttle Endeavour will be taking the astronauts to the Hubble.
+so it will soon be sending up four astronauts(宇航员) to repair it.
+The shuttle(航天飞机) Endeavour(奋进号, 努力) will be taking the astronauts to the Hubble.
 A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.
-Of course, the Hubble is above the earth's atmosphere,
-so it will soon be sending us the clearest pictures of the stars and distant galaxies that we have ever seen.
-The Hubble will tell us a great deal about the age and size of the universe.
-By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.
+Of course, the Hubble is above the earth's atmosphere(大气层),
+so it will soon be sending us the clearest pictures of the stars and distant galaxies(星系) that we have ever seen.
+The Hubble will tell us a great deal about the age and size of the universe(宇宙).
+By the time you read this, the Hubble's eagle(鹰) eye will have sent us thousands and thousands of wonderful pictures.
 
+### 将来完成进行时
 
+will have been doing
+
+一个动作持续或重复到将来
+
+### Expressions
+
+- right from the start 从一开始就
+- grab a beer/coffee
 
 ## 62 After the Fire
 
 Firemen had been fighting the forest fire for nearly three weeks before they could get it under control.
 A short time before, great trees had covered the countryside for miles around.
-Now, smoke still rose up from the warm ground over the desolate hills.
-Winter was coming on and the hills threatened the surrounding villages with destruction,
-for heavy rain would not only wash away the soil but would cause serious floods as well.
+Now, smoke still rose up from the warm ground over the desolate(荒凉的) hills.
+Winter was coming on and the hills threatened(威胁) the surrounding villages with destruction(毁灭),
+for heavy rain would not only wash away the soil(土地) but would cause serious floods(洪水) as well.
 When the fire had at last been put out,
 the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.
 The seed was sprayed over the ground in huge quantities by aeroplanes.
