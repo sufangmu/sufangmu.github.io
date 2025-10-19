@@ -1920,16 +1920,16 @@ the moment = as soon as 主将从现
 ## 61 Trouble with the Hubble
 
 The Hubble telescope(望远镜) was launched into
-space by NASA on April 20, 1990 at a cost of over a billion dollars.
+space by NASA on April 20, 1990 <u>at a cost of over</u> a billion dollars.
 <u>Right from the start</u> there was trouble with the Hubble.
-The pictures it sent us were very disappointing(令人失望的) because its main mirror was faulty(有错误的)!
+The pictures (it sent us) were very disappointing(令人失望的) because its main mirror was faulty(有错误的)!
 NASA is now going to put the telescope right,
 so it will soon be sending up four astronauts(宇航员) to repair it.
 The shuttle(航天飞机) Endeavour(奋进号, 努力) will be taking the astronauts to the Hubble.
-A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.
+A robot-arm (from the Endeavour) will grab the telescope and hold it while the astronauts make the necessary repairs.
 Of course, the Hubble is above the earth's atmosphere(大气层),
-so it will soon be sending us the clearest pictures of the stars and distant galaxies(星系) that we have ever seen.
-The Hubble will tell us a great deal about the age and size of the universe(宇宙).
+so it will soon be sending us the clearest pictures of the stars and distant galaxies(星系) (that we have ever seen).
+The Hubble will tell us <u>a great deal</u> about the age and size of the universe(宇宙).
 By the time you read this, the Hubble's eagle(鹰) eye will have sent us thousands and thousands of wonderful pictures.
 
 ### 将来完成进行时
@@ -1945,20 +1945,32 @@ will have been doing
 
 ## 62 After the Fire
 
-Firemen had been fighting the forest fire for nearly three weeks before they could get it under control.
-A short time before, great trees had covered the countryside for miles around.
-Now, smoke still rose up from the warm ground over the desolate(荒凉的) hills.
+Firemen <u>had been fighting</u> the forest fire for nearly three weeks before they could <u>get it under control</u>(控制).
+<u>A short time before</u>, great trees had covered the countryside <u>for miles around</u>.
+Now, smoke still rose(rise) up from the warm ground over the desolate(荒凉的) hills.
 Winter was coming on and the hills threatened(威胁) the surrounding villages with destruction(毁灭),
-for heavy rain would not only wash away the soil(土地) but would cause serious floods(洪水) as well.
+for <u>heavy rain</u> would not only wash away the soil(土地) but would cause serious floods(洪水) as well.
 When the fire had at last been put out,
-the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.
-The seed was sprayed over the ground in huge quantities by aeroplanes.
+the forest authorities(当局, 官方) ordered several tons of a special type of grass-seed(草种) (which would grow quickly).
+The seed was sprayed(喷) over the ground in <u>huge quantities</u> by aeroplanes.
 The planes had been planting seed for nearly a month when it began to rain.
 By then, however, in many places the grass had already taken root.
-In place of the great trees which had been growing there for centuries,
-patches of green had begun to appear in the blackened soil.
+<u>In place of</u>(替代) the great trees(which had been growing there for centuries)(世纪),
+patches(斑块) of green had begun to appear in the blackened(变黑) soil.
 
+### 过去完成进行时
 
+结构
+
+肯定句: 主+had been doing...
+
+否定句: 主+had not been doing...
+
+一般疑问句: Had 主 been doing...?
+
+用法一: 过去A进行的动作(结束)对过去B有影响
+
+用法二: 过去A进行的动作持续或重复到过去B
 
 ## 63 She Was Not Amused
 
