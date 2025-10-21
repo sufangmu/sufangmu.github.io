@@ -1974,36 +1974,49 @@ patches(斑块) of green had begun to appear in the blackened(变黑) soil.
 
 ## 63 She Was Not Amused
 
-Jeremy Hampden has a large circle of friends and is very popular at parties.
-Everybody admires him for his great sense of humour--everybody, that is, except his six-year-old daughter, Jenny.
-Recently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.
-This is the sort of thing that Jeremy loves.
+Jeremy Hampden has <u>a large circle of friends</u> and is very popular at parties.
+Everybody <u>admires(欣赏) him for</u> his great <u>sense of humour</u>(幽默感)--everybody, that is, except his six-year-old daughter, Jenny.
+Recently, one of Jeremy's closest(亲密的) friends asked him to <u>make a speech</u> at a wedding(婚礼) reception(招待会).
+This is the sort(种类) of thing (that Jeremy loves).
 He prepared the speech carefully and went to the wedding with Jenny.
-He had included a large number of funny stories in the speech and, of course, it was a great success.
-As soon as he had finished Jenny told him she wanted to go home.
-Jeremy was a little disappointed by this but he did as his daughter asked.
-On the way home, he asked Jenny if she had enjoyed the speech.
+He had included <u>a large number of</u> funny stories in the speech and, of course, it was a great success.
+As soon as he had finished Jenny told him (she wanted to go home).
+Jeremy was a little disappointed by this but he did **as** his daughter asked.
+<u>On the way home</u>, he asked Jenny if she had enjoyed the speech.
 To his surprise she said she hadn't.
-Jeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!
+Jeremy asked her (why this was so) and she told him (that she did not like to see so many people laughing at him)!
 
+### 方式状语从句
 
+as: in the way or manner that
+
+like
+
+as if
+
+as though
+
+the way
 
 ## 64 The Channel Tunnel
 
 In 1858, a French engineer, Aime Thome de Gamond,
-arrived in England with a plan for a 21-mile tunnel under the English Channel.
+arrived in England with a plan for a 21-mile tunnel under the English Channel(海峡).
 He said that it would be possible to build a platform in the centre of the Channel.
-This platform would serve as a port and a railway station.
-The tunnel would be well-ventilated if tall chimneys were built above sea level.
+This platform would <u>serve as</u>(充当) a port and a railway station.
+The tunnel would be well-ventilated(通风) if tall chimneys(烟囱) were built above sea level(海平面).
 In 1860, a better plan was put forward by an Englishman, William Low.
 He suggested that a double railway-tunnel should be built.
-This would solve the problem of ventilation for if a train entered this tunnel, it would draw in fresh air behind it.
+This would <u>solve the problem of</u> ventilation for if a train entered this tunnel, it would draw(吸入) in fresh air behind it.
 Forty-two years later a tunnel was actually begun.
-If, at the time, the British had not feared invasion, it would have been completed.
+<u>If</u>, at the time, the British <u>had not feared</u>(害怕) invasion(侵略), it <u>would have been</u> completed.
 The world had to wait almost another 100 years for the Channel Tunnel.
-It was officially opened on March 7, 1994, finally connecting Britain to the European continent.
+It was officially(正式地) opened on March 7, 1994, finally connecting Britain to the European continent(洲, 大陆).
 
+### 虚拟语气
 
+结构: If 主 had done..., 主 would/could/ might/should + have done.
+与过去事实相反
 
 ## 65 Jumbo Versus the Police
 
