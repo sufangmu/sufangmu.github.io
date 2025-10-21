@@ -2018,6 +2018,13 @@ It was officially(正式地) opened on March 7, 1994, finally connecting Britain
 结构: If 主 had done..., 主 would/could/ might/should + have done.
 与过去事实相反
 
+### Expressions
+
+- it is possible to do sth. ...
+- a serve as b A 充当 B
+- put forward a plan... 提出计划
+- solve the problem of a...
+
 ## 65 Jumbo Versus the Police
 
 Last Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital.
