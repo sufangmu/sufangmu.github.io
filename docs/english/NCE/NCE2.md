@@ -2027,40 +2027,49 @@ It was officially(正式地) opened on March 7, 1994, finally connecting Britain
 
 ## 65 Jumbo Versus the Police
 
-Last Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital.
-Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls,
-he set off down the main street of the city riding a baby elephant called Jumbo.
-He should have known that the police would never allow this sort of thing.
-A policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic.
+Last Christmas, the circus(马戏团) owner, Jimmy Gates, decided to take some presents(礼物) to a children's hospital.
+(<u>Dressed up as</u> Father Christmas) and (accompanied(陪伴) by a 'guard of honour'(仪仗队) of six pretty girls),
+he <u>set off</u>(出发) down the main street of the city (riding a baby elephant called Jumbo).
+He <u>should have known</u> that the police would never allow this sort of thing.
+A policeman approached(接近) Jimmy and told him he ought(应该) to have gone along a side street as Jumbo was <u>holding up the traffic</u>(阻碍交通).
 Though Jimmy agreed to go at once, Jumbo refused to move.
 Fifteen policemen had to push very hard to get him off the main street.
-The police had a difficult time, but they were most amused.
+The police had a difficult time, but they were most amused(愉快的).
 'Jumbo must weigh a few tons,' said a policeman afterwards,
-'so it was fortunate that we didn't have to carry him.
-Of course, we should arrest him, but as he has a good record, we shall let him off this time.'
+'so <u>it was fortunate(幸运的) that</u> we didn't have to carry him.
+Of course, we should arrest(逮捕) him, but as he has a good record, we shall let him off this time.'
 
+### should & ought to
 
+shouldn’t & oughtn’t to
+
+should(ought to) have done 本应该做某事,但却没有。
 
 ## 66 Sweet as Honey
 
-In 1963 a Lancaster bomber crashed on Wallis Island,
-a remote place in the South Pacific, a long way west of Samoa.
+In 1963 a Lancaster bomber(轰炸机) crashed on Wallis Island,
+a remote place in the South Pacific(太平洋), a long way west of Samoa.
 The plane wasn't too badly damaged,
-but over the years the crash was forgotten and the wreck remained undisturbed.
-Then in 1989, twenty-six years after the crash, the plane was accidentally rediscovered in an aerial survey of the island.
-By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing.
+but over the years the crash was forgotten and the wreck(残骸) remained undisturbed(未被扰乱的).
+Then in 1989, twenty-six years after the crash, the plane was accidentally(偶然地) rediscovered in an aerial(航空) survey(调查) of the island.
+By this time, a Lancaster bomber <u>in reasonable condition</u> was rare(少见的) and worth rescuing.
 The French authorities had the plane packaged and moved in parts back to France.
-Now a group of enthusiasts are going to have the plane restored.
+Now a group of enthusiasts(热衷者) are going to have the plane restored.
 It has four Rolls-Royce Merlin engines but the group will need to have only three of them rebuilt.
-Imagine their surprise and delight when they broke open the packing cases
-and found that the fourth engine was sweet as honey--still in perfect condition.
-A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!
+Imagine(想象) their surprise and delight(高兴) when they broke open the packing cases and found that the fourth engine was sweet as honey--still in perfect condition.
+<u>A colony of</u>((一群) bees had turned the engine into a hive(蜂巢) and it was totally preserved(保藏) in beeswax(蜂蜡)!
 
+### Expressions
 
+- have/get sth. done... : cause something to be done by somebody else.
+- over the years 数年间
+- in reasonable condition 在合理条件下
+- be worth doing...
+- turn a into b. 把a变成b
 
 ## 67 Volcanoes
 
-Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes and deep caves in all parts of the world.
+Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes(火山) and deep caves in all parts of the world.
 In 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro.
 Tazieff was able to set up his camp very close to the volcano while it was erupting violently.
 Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long.
