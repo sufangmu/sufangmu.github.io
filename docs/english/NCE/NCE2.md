@@ -2069,18 +2069,26 @@ Imagine(想象) their surprise and delight(高兴) when they broke open the pack
 
 ## 67 Volcanoes
 
-Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes(火山) and deep caves in all parts of the world.
-In 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro.
-Tazieff was able to set up his camp very close to the volcano while it was erupting violently.
-Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long.
-He noticed that a river of liquid rock was coming towards him.
-It threatened to surround him completely, but Tazieff managed to escape just in time.
+Haroun Tazieff, the Polish scientist, has <u>spent his lifetime studying</u> active volcanoes(火山) and deep caves(洞穴) in all parts of the world.
+In 1948, he went to Lake Kivu in the Congo to observe a new volcano (which he later named Kituro).
+Tazieff <u>was able to</u> <u>set up his camp</u>(安营扎寨) very close to the volcano while it was erupting(爆发) violently(猛烈地).
+Though he managed to take a number of brilliant(精彩的) photographs, he could not stay near the volcano for very long.
+He noticed that a river of liquid(液态) rock(岩石) was coming towards him.
+It threatened to surround him completely, but Tazieff managed to escape(逃脱) just in time.
 He waited until the volcano became quiet and he was able to return two days later.
-This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.
+This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure(测量) temperatures.
 Tazieff has often risked his life in this way.
 He has been able to tell us more about active volcanoes than any man alive.
 
+### managed to do sth.
 
+to succeed in doing or dealing with something, especially something difficult
+
+过去成功事件 (具体)
+
+### Expressions
+
+- set up his camp/tent 安营扎寨
 
 ## 68 Persistent
 
