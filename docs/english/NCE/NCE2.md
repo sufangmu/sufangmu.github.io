@@ -2069,10 +2069,10 @@ Imagine(想象) their surprise and delight(高兴) when they broke open the pack
 
 ## 67 Volcanoes
 
-Haroun Tazieff, the Polish scientist, has <u>spent his lifetime studying</u> active volcanoes(火山) and deep caves(洞穴) in all parts of the world.
+Haroun Tazieff, the Polish scientist, has <u>spent his lifetime studying</u> active volcanoes(火山) and deep caves(洞穴) in <u>all parts of</u> the world.
 In 1948, he went to Lake Kivu in the Congo to observe a new volcano (which he later named Kituro).
 Tazieff <u>was able to</u> <u>set up his camp</u>(安营扎寨) very close to the volcano while it was erupting(爆发) violently(猛烈地).
-Though he managed to take a number of brilliant(精彩的) photographs, he could not stay near the volcano for very long.
+Though he <u>managed to</u> take a number of brilliant(精彩的) photographs, he could not stay near the volcano for very long.
 He noticed that a river of liquid(液态) rock(岩石) was coming towards him.
 It threatened to surround him completely, but Tazieff managed to escape(逃脱) just in time.
 He waited until the volcano became quiet and he was able to return two days later.
@@ -2093,54 +2093,68 @@ to succeed in doing or dealing with something, especially something difficult
 ## 68 Persistent
 
 I crossed the street to avoid meeting him but he saw me and came running towards me.
-It was no use pretending that I had not seen him, so I waved to him.
+<u>It was no use pretending(假装) that</u> I had not seen him, so I waved to him.
 I never enjoy meeting Nigel Dykes.
 He never has anything to do.
-No matter how busy you are, he always insists on coming with you.
-I had to think of a way of preventing him from following me around all morning.
+<u>No matter how</u> busy you are, he always <u>insists(坚持) on coming</u> with you.
+I had to think of a way of <u>preventing(阻止) him from following</u> me around all morning.
 'Hello, Nigel,' I said 'Fancy meeting you here!'
 'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning--until I saw you.
 You're not busy doing anything, are you?'
 'No, not at all,' I answered. 'I'm going to...'
 'Would you mind my coming with you?' he asked, before I had finished speaking.
-'Not at all,' I lied, 'but I'm going to the dentist.'
+'Not at all,' I lied, 'but I'm going to the dentist(牙科医生).'
 'Then I'll come with you,' he answered.
-'There's always plenty to read in the waiting room!'
+'There's always plenty(大量) to read in the waiting room!'
 
+### Expressions
 
+- avoid doing sth.
+- insist on doing sth.
+- It is no use pretending that + 句子
+- prevent sb. from doing sth.
+- fancy meeting you here 真没想到在这儿见到你
+- enjoy doing sth.
+- no matter how/what/where
+- follow sb. around
+- I was wondering ...+句子
+- would you mind my doing...
+- finish doing sth.
 
 ## 69 But not Murder
 
-I was being tested for a driving licence for the third time.
-I had been asked to drive in heavy traffic and had done so successfully.
-After having been instructed to drive out of town, I began to acquire confidence.
+I was being tested for a driving license for the third time.
+I had been asked to drive in <u>heavy traffic</u>(交通繁忙) and had done so successfully.
+After having been instructed to drive out of town, I began to acquire confidence(信心).
 Sure that I had passed, I was almost beginning to enjoy my test.
-The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames.
-Let us suppose that a child suddenly crosses the road in front of you.
-As soon as I tap on the window, you must stop within five feet.'
+The examiner(主考人) must have <u>been pleased with</u> my performance, for he smiled and said, 'Just one more thing Mr. Eames.
+Let us suppose(假设) that a child suddenly crosses the road in front of you.
+As soon as I tap(轻敲) on the window, you must stop within five feet.'
 I continued driving and after some time, the examiner tapped loudly.
-Though the sound could be heard clearly, it took me a long time to react.
-I suddenly pressed the brake pedal hard and we were both thrown forward.
+Though the sound could be heard clearly, it took me a long time to react(反应).
+I suddenly pressed the brake pedal(刹车踏板) hard and we were both thrown forward. 
 The examiner looked at me sadly.
-'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'
+'Mr. Eames,' he said, in a mournful(令人伤心的) voice, 'you have just killed that child!'
 
+### having been done
 
+完成被动
 
 ## 70 Red for Danger
 
-During a bullfight, a drunk suddenly wandered into the middle of the ring.
-The crowd began to shout, but the drunk was unaware of the danger.
-The bull was busy with the matador at the time,
-but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.
-Apparently sensitive to criticism,
-the bull forgot all about the matador and charged at the drunk.
+<u>During a bullfight</u>, a drunk(酒鬼) suddenly wandered(闲逛) into the middle of the ring.
+The crowd began to shout, but the drunk <u>was unaware(不知道的) of</u> the danger.
+The bull was busy with the matador(斗牛士) at the time,
+but it suddenly caught sight of the drunk who was shouting(喊叫) rude remarks and waving a red cap.
+Apparently(显然地) sensitive(敏感的) to criticism(批评),
+the bull forgot all about the matador and <u>charged at</u>(向某人或某物猛冲过去) the drunk.
 The crowd suddenly grew quiet.
 The drunk, however, seemed quite sure of himself.
-When the bull got close to him, he clumsily stepped aside to let it pass.
-The crowd broke into cheers and the drunk bowed.
+When the bull got close to him, he clumsily(笨拙地) stepped aside to let it pass.
+The crowd broke into cheers and the drunk bowed(鞠躬).
 By this time, however three men had come into the ring and they quickly dragged the drunk to safety.
 Even the bull seemed to feel sorry for him,
-for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.
+for it looked on sympathetically(富有同情心地) until the drunk was out of the way before once more turning its attention to the matador.
 
 
 
