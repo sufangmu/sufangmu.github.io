@@ -2143,34 +2143,55 @@ The examiner looked at me sadly.
 ## 70 Red for Danger
 
 <u>During a bullfight</u>, a drunk(酒鬼) suddenly wandered(闲逛) into the middle of the ring.
-The crowd began to shout, but the drunk <u>was unaware(不知道的) of</u> the danger.
-The bull was busy with the matador(斗牛士) at the time,
-but it suddenly caught sight of the drunk who was shouting(喊叫) rude remarks and waving a red cap.
+The crowd <u>began to shout</u>(喊叫) , but the drunk <u>was unaware(不知道的) of</u> the danger.
+The bull <u>was busy with</u> the matador(斗牛士) <u>at the time</u>,
+but it suddenly <u>caught sight of</u> the drunk (who was shouting rude remarks and waving a red cap).
 Apparently(显然地) sensitive(敏感的) to criticism(批评),
 the bull forgot all about the matador and <u>charged at</u>(向某人或某物猛冲过去) the drunk.
 The crowd suddenly grew quiet.
 The drunk, however, seemed quite sure of himself.
-When the bull got close to him, he clumsily(笨拙地) stepped aside to let it pass.
+When the bull <u>got close to him</u>, he clumsily(笨拙地) <u>stepped aside</u> to let it pass.
 The crowd broke into cheers and the drunk bowed(鞠躬).
 By this time, however three men had come into the ring and they quickly dragged the drunk to safety.
 Even the bull seemed to feel sorry for him,
-for it looked on sympathetically(富有同情心地) until the drunk was out of the way before once more turning its attention to the matador.
+for it <u>looked on</u> sympathetically(富有同情心地) until the drunk was <u>out of the way</u> before <u>once more</u> <u>turning its attention to</u>(转移注意力) the matador.
+
+### Expressions
+
+- be unaware of ...
+- be aware of ...
+- make that stupid remark
+- be sensitive about sth. accept criticism
+- charge at sb. = attack
+- for your safety
+- be busy with sth.
+- at the time
+- catch sight of a.
+- grow quiet... 变得安静
+- get close to a.
+- step aside 靠边站
+- break into cheers  突然喝起彩来
+- feel sorry for sb.
+- look on ...
+- out of the way ...
+- turn sb’s attention to a.   把某人的注意力转移到a
+- once more
 
 
 
 ## 71 A Famous Clock
 
-When you visit London, one of the first things you will see is Big Ben,
-the famous clock which can be heard all over the world on the B.B.C.
-If the Houses of Parliament had not been burned down in 1834,
-the great clock would never have been erected.
-Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.
-It is not only of immense size, but is extremely accurate as well.
-Officials from Greenwich Observatory have the clock checked twice a day.
-On the B.B.C. you can hear the clock when it is actually striking because microphones are connected to the clock tower.
-Big Ben has rarely gone wrong.
+When you visit London, one of the first things (you will see) is Big Ben,
+the famous clock (which can be heard <u>all over the world</u> on the B.B.C).
+If the Houses of Parliament(英国国会大厦) had not been <u>burned down</u> in 1834,
+the great clock would never have been erected(建立).
+Big Ben <u>takes its name from</u>(取名于) Sir Benjamin Hall (who <u>was responsible for</u> the making of the clock when the new Houses of Parliament were being built).
+It is not only of immense size, but is extremely accurate(准确的) as well.
+Officials(官员) from Greenwich Observatory(格林尼治天文台) have the clock checked twice a day.
+On the B.B.C. you can hear the clock when it is actually striking(敲) because microphones <u>are connected to</u> the clock tower.
+Big Ben has rarely <u>gone wrong</u>.
 Once, however, it failed to give the correct time.
-A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!
+A painter (who had been working on the tower) hung a pot of paint on one of the hands and slowed it down!
 
 
 
@@ -2181,31 +2202,31 @@ He set up a new world record in September 1935 at Bonneville Salt Flats, Utah.
 Bluebird, the car he was driving, had been specially built for him.
 It was over 30 feet in length and had a 2, 500-horsepower engine.
 Although Campbell reached a speed of over 304 miles per hour,
-he had great difficulty in controlling the car because a tyre burst during the first run.
-After his attempt, Campbell was disappointed to learn that his average speed had been 299 miles per hour.
+he <u>had great difficulty in</u> controlling the car because a tyre(轮胎) burst(爆炸) during the first run.
+After his attempt(尝试), Campbell <u>was disappointed to learn that</u> his average speed had been 299 miles per hour.
 However, a few days later, he was told that a mistake had been made.
 His average speed had been 301 miles per hour.
 Since that time, racing drivers have reached speeds over 600 miles an hour.
-Following in his father's footsteps many years later, Sir Malcolm's son, Donald, also set up a world record.
+<u>Following in his father's footsteps</u> many years later, Sir Malcolm's son, Donald, also set up a world record.
 Like his father, he was driving a car called Bluebird.
 
 
 
 ## 73 The Record-Holder
 
-Children who play truant from school are unimaginative.
+Children who <u>play truant from school</u>(逃学) are unimaginative(缺乏想象力的).
 A quiet days' fishing,
-or eight hours in a cinema seeing the same film over and over again, is usually as far as they get.
-They have all been put to shame by a boy who, while playing truant travelled 1, 600 miles.
-He hitchhiked to Dover and towards evening went into a boat to find somewhere to sleep.
-When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais.
-No one noticed the boy as he crept off.
-From there, he hitchhiked to Paris in a lorry.
-The driver gave him a few biscuits and a cup of coffee and left him just outside the city.
-The next car the boy stopped did not take him into the centre of Paris as he hoped it would,
-but to Perpignan on the French-Spanish border.
-There he was picked up by a policeman and sent back to England by the local authorities.
-He has surely set up a record for the thousands of children who dream of evading school.
+or eight hours in a cinema seeing the same film <u>over and over again</u>, is usually <u>as far as they get</u>(他们所能做到的).
+They have all <u>been put to shame</u>(羞耻) by a boy (who, while playing truant, travelled 1, 600 miles).
+He hitchhiked(搭便车) to Dover and, towards evening, went into a boat to find somewhere to sleep.
+When he woke up next morning, he discovered that the boat had, <u>in the meantime</u>, travelled to Calais.
+No one noticed the boy as he <u>crept off</u>(爬离).
+From there, he hitchhiked to Paris in a lorry(卡车).
+The driver gave him a few biscuits(饼干) and a cup of coffee and left him just outside the city.
+The next car (the boy stopped) did not take him into the centre of Paris as he hoped it would,
+but to Perpignan on the French-Spanish border(边境).
+There he was <u>picked up</u> by a policeman and sent back to England by the local authorities.
+He has surely set up a record for the thousands of children who dream of evading(逃避) school.
 
 
 
