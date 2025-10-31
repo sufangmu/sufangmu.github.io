@@ -2226,74 +2226,74 @@ The driver gave him a few biscuits(饼干) and a cup of coffee and left him just
 The next car (the boy stopped) did not take him into the centre of Paris as he hoped it would,
 but to Perpignan on the French-Spanish border(边境).
 There he was <u>picked up</u> by a policeman and sent back to England by the local authorities.
-He has surely set up a record for the thousands of children who dream of evading(逃避) school.
+He has surely <u>set up a record</u> for the thousands of children (who dream of evading(逃避) school).
 
 
 
 ## 74 Out of the Limelight
 
-An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off.
+An ancient bus stopped by a dry river bed and <u>a party of</u> famous actors and actresses got off.
 Dressed in dark glasses and old clothes,
-they had taken special precautions so that no one should recognize them.
+they had <u>taken special precautions(预防措施)</u> so that no one should recognize them.
 But as they soon discovered, disguises can sometimes be too perfect.
-'This is a wonderful place for a picnic,' said Gloria Gleam.
+'This is a wonderful place for a picnic(野餐),' said Gloria Gleam.
 'It couldn't be better, Gloria,' Brinksley Meers agreed.
-'No newspaper men, no film fans! Why don't we come more often?'
+'No newspaper men, no film fans! <u>Why don't we</u> come more often?'
 Meanwhile, two other actors Rockwall Slinger and Merlin Greeves,
-had carried two large food baskets to a shady spot under some trees.
-When they had all made themselves comfortable, a stranger appeared.
+had <u>carried</u> two large food baskets <u>to</u> a shady(树荫) spot under some trees.
+When they had all <u>made themselves comfortable</u>, a stranger appeared.
 He looked very angry.
 'Now you get out of here, all of you!' he shouted.
-'I'm sheriff here. Do you see that notice? It says "No Camping"  -- in case you can't read!'
+'I'm sheriff(警长) here. Do you see that notice(通知)? It says "No Camping"  -- in case you can't read!'
 'Look, sheriff,' said Rockwall,
-'don't be too hard on us. I'm Rockwall Slinger and this is Merlin Greeves.'
-'Oh, is it?' said the sheriff with a sneer.
-'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you get out of here fast!'
+'<u>don't be too hard on us</u>. I'm Rockwall Slinger and this is Merlin Greeves.'
+'Oh, is it?' said the sheriff with a sneer(嘲笑).
+'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you <u>get out of here</u> fast!'
 
 
 
 ## 75 SOS
-When a light passenger plane flew off course some time ago,
+When a light passenger plane <u>flew off course</u>(偏离航线) some time ago,
 it crashed in the mountains and its pilot was killed.
 The only passengers, a young woman and her two baby daughters, were unhurt.
 It was the middle of winter.
-Snow lay thick on the ground.
+Snow lay(lie) thick(厚的) on the ground.
 The woman knew that the nearest village was miles away.
-When it grew dark, she turned a suitcase into a bed and put the children inside it,
-covering them with all the clothes she could find.
+When it grew dark, she turned a suitcase(手提箱) into a bed and put the children inside it,
+<u>covering</u> them <u>with</u> all the clothes (she could find).
 During the night, it got terribly cold.
 The woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.
 Early next morning,
-she heard planes passing overhead and wondered how she could send a signal.
-Then she had an idea. She stamped out the letters 'SOS' in the snow.
+she heard planes passing overhead and wondered how she could <u>send a signal</u>.
+Then she had an idea. She <u>stamped(踩) out</u> the letters 'SOS' in the snow.
 Fortunately, a pilot saw the signal and sent a message by radio to the nearest town.
-It was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash.
+<u>It was not long before</u> a helicopter(直升机) arrived on the scene(现场) to rescue the survivors(幸存者) of the plane crash.
 
 ## 76 April Fools' Day
 
-'To end our special news bulletin,'
-said the voice of the television announcer, 'we're going over to the macaroni fields of Calabria.
+'To end our special news bulletin(公告),'
+said the voice of the television announcer(播音员), 'we're <u>going over to</u> the macaroni(通心粉) fields of Calabria.
 Macaroni has been grown in this area for over six hundred years.
-Two of the leading growers Giuseppe Moldova and Riccardo Brabante,
-tell me that they have been expecting a splendid crop this year and harvesting has begun earlier than usual.
+Two of the leading(主要的) growers(栽培者), Giuseppe Moldova and Riccardo Brabante,
+tell me that they have been expecting a splendid(极好的) crop(庄稼) this year and harvesting(收获) has begun earlier than usual.
 Here you can see two workers who, between them,
-have just finished cutting three cartloads of golden brown macaroni stalks.
-The whole village has been working day and night gathering and threshing this year's crop before the September rains.
+have just finished cutting three cartloads(一货车的装载量) of golden brown macaroni stalks(茎秆).
+The whole village has been working day and night gathering(收集) and threshing(打谷) this year's crop before the September rains.
 On the right, you can see Mrs. Brabante herself.
 She has been helping her husband for thirty years now.
 Mrs. Brabante is talking to the manager of the local factory where the crop is processed.
-This last scene shows you what will happen at the end of the harvest:
-the famous Calabrian macaroni-eating competition!
-Signor Fratelli, the present champion, has won it every year since 1991.
+This last scene shows you what will happen <u>at the end of</u> the harvest:
+the famous Calabrian macaroni-eating competition(比赛)!
+Signor Fratelli, the present champion(冠军), has won it every year since 1991.
 And that ends our special bulletin for today, Thursday, April 1st.
-We're now going back to the studio.'
+We're now going back to the studio(工作室).'
 
 ## 77 A Successful Operation
 
-The mummy of an Egyptian woman who died in 800 B.C. has just had an operation.
-The mummy is that of Shepenmut who was once a singer in the Temple of Thebes.
-As there were strange marks on the X-ray plates taken of the mummy,
-doctors have been trying to find out whether the woman died of a rare disease.
+The mummy of an Egyptian(埃及的) woman who died in 800 B.C. has just had an operation.
+The mummy is that of Shepenmut who was once a singer in the Temple of Thebes(底比斯神庙).
+As there were strange marks(斑点) on the X-ray plates(底片) taken of the mummy,
+doctors have been trying to find out whether the woman died of <u>a rare disease</u>(罕见病).
 The only way to do this was to operate.
 The operation, which lasted for over four hours,
 proved to be very difficult because of the hard resin which covered the skin.
