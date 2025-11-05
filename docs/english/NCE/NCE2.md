@@ -2290,52 +2290,80 @@ We're now going back to the studio(工作室).'
 
 ## 77 A Successful Operation
 
-The mummy of an Egyptian(埃及的) woman who died in 800 B.C. has just had an operation.
-The mummy is that of Shepenmut who was once a singer in the Temple of Thebes(底比斯神庙).
-As there were strange marks(斑点) on the X-ray plates(底片) taken of the mummy,
+The mummy of an Egyptian(埃及的) woman (who died in 800 B.C.) has just <u>had an operation</u>.
+The mummy is that of Shepenmut (who was once a singer in the Temple of Thebes(底比斯神庙)).
+As there were strange marks(斑点) on the X-ray plates(底片) (<u>taken of</u> the mummy),
 doctors have been trying to find out whether the woman died of <u>a rare disease</u>(罕见病).
 The only way to do this was to operate.
-The operation, which lasted for over four hours,
-proved to be very difficult because of the hard resin which covered the skin.
-The doctors removed a section of the mummy and sent it to a laboratory.
-They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef.
-This god which has the head of a cow was normally placed inside a mummy.
+The operation, which <u>lasted(持续) for</u> over four hours,
+proved(证明) to be very difficult because of the hard resin(树脂) (which covered the skin).
+The doctors removed <u>a section of</u> the mummy and sent it to a laboratory.
+They also found something (which the X-ray plates did not show: a small wax(蜡) figure(人体) of the god Duamutef).
+This god (which has the head of a cow) was normally placed inside a mummy.
 The doctors have not yet decided how the woman died.
-They feared that the mummy would fall to pieces when they cut it open,
+They feared that the mummy would <u>fall to pieces</u> when they <u>cut it open</u>,
 but fortunately this has not happened.
-The mummy successfully survived the operation.
+The mummy successfully survived(幸存) the operation.
+
+### 非限定性定语从句
+
+解释，补充，说明
+
+which:
+
+My mother, who is 50 this year, lives with me now.
+
+as:
+
+As they soon learnt, disguises can sometimes be too perfect.
+
+1. 指代整个完整句子
+
+2. 位置灵活: 前中后 (which只能放句尾)
+
+
 
 ## 78 The Last One
 
-After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves.
-I smoked with concentration and pleasure as I was sure that this would be my last cigarette.
-For a whole week I did not smoke at all and during this time my wife suffered terribly.
-I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite.
-My friends kept on offering me cigarettes and cigars.
-They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.
+After reading an article (entitled 'Cigarette Smoking and Your Health') I <u>lit(light) a cigarette</u> to calm(使平静) my nerves(神经,勇气).
+I smoked with concentration(专心) and pleasure as <u>I was sure that</u> this would be my last cigarette.
+For a whole week I did not smoke at all and during this time my wife suffered(忍受) terribly.
+I had all the usual symptoms(症状) of <u>someone giving up smoking</u>: a bad temper(脾气) and an enormous(巨大的) appetite(食欲).
+My friends <u>kept on</u> offering me cigarettes and cigars.
+They <u>made no effort to</u> hide their amusement(愉悦) whenever I produced(拿出) <u>a packet of</u> sweets from my pocket.
 After seven days of this I went to a party.
 Everybody around me was smoking and I felt extremely uncomfortable.
-When my old friend Brian urged me to accept a cigarette, it was more than I could bear.
-I took one guiltily, lit it and smoked with satisfaction.
-My wife was delighted that things had returned to normal once more.
+When my old friend Brian urged(怂恿) me to accept a cigarette, <u>it was more than I could bear</u>.
+I took one guiltily(有罪地), lit it and smoked with satisfaction(满意).
+My wife <u>was delighted(高兴的) that</u> things had <u>returned to normal</u> once more.
 Anyway, as Brian pointed out, it is the easiest thing in the world to give up smoking.
 He himself has done it lots of times!
 
 ## 79 By Air
 
-I used to travel by air a great deal when I was a boy.
+I used to travel by air <u>a great deal</u> when I was a boy.
 My parents used to live in South America and I used to fly there from Europe in the holidays.
-A flight attendant would take charge of me and I never had an unpleasant experience.
-I am used to travelling by air and only on one occasion have I ever felt frightened.
+A <u>flight attendant</u>(空姐) would <u>take charge of</u> me and I never had an unpleasant experience.
+I <u>am used to travelling</u> by air and only on one occasion have I ever felt frightened.
 After taking off, we were flying low over the city and slowly gaining height,
 when the plane suddenly turned round and flew back to the airport.
-While we were waiting to land, a flight attendant told us to keep calm
-and to get off the plane quietly as soon as it had touched down.
-Everybody on board was worried and we were curious to find out what had happened.
+While we were waiting to land, a flight attendant told us to <u>keep calm</u>
+and to get off the plane quietly as soon as it had <u>touched down</u>.
+Everybody on board was worried and we were curious(好奇的) to find out what had happened.
 Later we learnt that there was a very important person on board.
-The police had been told that a bomb had been planted on the plane.
-After we had landed, the plane was searched thoroughly.
+The police had been told that a bomb had been planted(放) on the plane.
+After we had landed, the plane was searched thoroughly(认真仔细地).
 Fortunately, nothing was found and five hours later we were able to take off again.
+
+### 部分倒装
+
+only 在句首，主谓(可能)颠倒。
+
+only on one occasion have I ever felt frightened
+
+only 说明主语,主谓不倒装。
+
+Only policemen can come in.
 
 ## 80 The Crystal Palace
 
