@@ -2367,64 +2367,64 @@ Only policemen can come in.
 
 ## 80 The Crystal Palace
 
-Perhaps the most extraordinary building of the 19th century was the Crystal Palace
-which was built in Hyde Park for the Great Exhibition of 1851.
-The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.
-It was one of the biggest buildings of all time and a lot of people from many countries came to see it.
-A great many goods were sent to the exhibition from various parts of the world.
-There was also a great deal of machinery on display.
-The most wonderful piece of machinery on show was Nasmyth's steam hammer.
-Though in those days travelling was not as easy as it is today,
+Perhaps the most extraordinary(非同寻常的) building of the 19th century was the Crystal Palace(水晶宫)
+which was built in Hyde Park for the Great Exhibition(展览) of 1851.
+The Crystal Palace <u>was different from</u> all other buildings in the world, for it <u>was made of</u> iron(铁) and glass.
+It was one of the biggest buildings <u>of all time</u> and a lot of people from many countries came to see it.
+A great many goods were sent to the exhibition from various(各种各样的) parts of the world.
+There was also <u>a great deal of</u> machinery(机器) on display.
+The most wonderful piece of machinery on show was Nasmyth's steam(蒸汽) hammer(铁锤).
+Though in those days traveling was not as easy as it is today,
 steam boats carried thousands of visitors across the Channel from Europe.
 On arriving in England, they were, taken to the Crystal Palace by train.
 There were six million visitors in all,
-and the profits from the exhibition were used to build museums and colleges.
+and the profits(盈利) from the exhibition were used to build museums and colleges.
 Later, the Crystal Palace was moved to South London.
-It remained one of the most famous buildings in the world until it was burnt down in 1936.
+It remained one of the most famous buildings in the world until it was <u>burnt down</u>(烧成平地) in 1936.
 
 ## 81 Escape
 
-When he had killed the guard, the prisoner of war quickly dragged him into the bushes.
-Working rapidly in the darkness, he soon changed into the dead man's clothes.
-Now, dressed in a blue uniform and with a rifle over his shoulder,
-the prisoner marched boldly up and down in front of the camp.
+When he had killed the guard(守卫), the prisoner(囚徒) of war quickly dragged(拉) him into the bushes(灌木丛).
+Working rapidly(迅速地) in the darkness, he soon <u>changed into</u> the dead man's clothes.
+Now, dressed in a blue uniform(制服) and with a rifle(步枪) over his shoulder,
+the prisoner marched(行军) boldly(大胆地) <u>up and down</u>(来回) in front of the camp.
 He could hear shouting in the camp itself.
-Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped.
+Lights were blazing(闪耀的) and men were running here and there: they had just discovered that a prisoner had escaped(逃跑).
 At that moment, a large black car with four officers inside it, stopped at the camp gates.
-The officers got out and the prisoner stood to attention and saluted as they passed.
-When they had gone the driver of the car came towards him.
+The officers got out and the prisoner <u>stood to attention</u>(立正) and saluted(致敬) as they passed.
+When they had gone, the driver of the car came towards him.
 The man obviously wanted to talk.
 He was rather elderly with grey hair and clear blue eyes.
 The prisoner felt sorry for him, but there was nothing else he could do.
-As the man came near the prisoner knocked him to the ground with a sharp blow.
+As the man came near the prisoner <u>knocked him to the ground</u> with a <u>sharp blow</u>(猛击).
 Then, jumping into the car, he drove off as quickly as he could.
 
 ## 82 Monster or Fish
 
-Fishermen and sailors sometimes claim to have seen monsters in the sea.
-Though people have often laughed at stories told by seamen,
-it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.
-Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.
-Some time ago, however, a peculiar fish was caught near Madagascar.
-A small fishing boat was carried miles out to sea by the powerful fish as it pulled on the line.
-Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.
+Fishermen and sailors(水手) sometimes <u>claim to have seen</u> monsters(怪物) in the sea.
+Though people have often <u>laughed at</u> stories (told by seamen),
+<u>it is now known that</u> many of these 'monsters' (which have at times been sighted) are simply strange fish.
+Occasionally(偶尔), unusual creatures(生物) are washed to the shore(岸), but they are rarely caught <u>out at sea</u>.
+Some time ago, however, a peculiar(奇怪的) fish was caught near Madagascar.
+A small fishing boat was carried miles out to sea by the powerful fish as it <u>pulled on the line</u>.
+Realizing that this was no ordinary(普通的) fish, the fisherman <u>made every effort not to</u> damage it in any way.
 When it was eventually brought to shore, it was found to be over thirteen feet long.
-It had a head like a horse big blue eyes, shining silver skin, and a bright red tail.
-The fish, which has since been set to a museum where it is being examined by a scientist, is called an oarfish.
-Such creatures have rarely been seen alive by man as they live at a depth of six hundred feet.
+It had a head like a horse big blue eyes, shining(光亮的) silver(银) skin, and a bright red tail.
+The fish, which has since been set to a museum (where it is being examined by a scientist), is called an oarfish.
+Such creatures have rarely been seen alive by man as they live at <u>a depth of</u> six hundred feet.
 
 ## 83 After the Elections
 
-The former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections.
+The former(前任的) Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections(选举).
 He is now retiring from political life and has gone abroad.
-My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party.
+My friend, Patrick, has always been a fanatical(狂热的) opponent(反对者) of Mr. Lane's Radical(激进的) Progressive(进步的) Party.
 After the elections, Patrick went to the former Prime Minister's house.
-When he asked if Mr. Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.
+When he asked if Mr. Lane lived there, the policeman <u>on duty</u> told him that since his defeat, the ex-Prime Minister had gone abroad.
 On the following day Patrick went to the house again.
 The same policeman was just walking slowly past the entrance, when Patrick asked the same question.
-Though a little suspicious this time the policeman gave him the same answer.
+Though a little suspicious(表示怀疑的) this time the policeman gave him the same answer.
 The day after, Patrick went to the house once more and asked exactly the same question.
-This time, the policeman lost his temper.
+This time, the policeman <u>lost his temper.</u>
 'I told you yesterday and the day before yesterday,' he shouted,
 'Mr.Lane was defeated in the elections.
 He has retired from political life and gone to live abroad!'
