@@ -2432,74 +2432,74 @@ He has retired from political life and gone to live abroad!'
 
 ## 84 On Strike
 
-Busmen have decided to go on strike next week.
-The strike is due to begin on Tuesday.
+Busmen have decided to <u>go on strike</u>(罢工) next week.
+The strike <u>is due to begin</u> on Tuesday.
 No one knows how long it will last.
-The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.
+The busmen <u>have stated(声明) that</u> the strike will continue until general(大体的) agreement is reached about pay and working conditions.
 Most people believe that the strike will last for at least a week.
 Many owners of private cars are going to offer 'free rides' to people on their way to work.
-This will relieve pressure on the trains to some extent.
-Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.
+This will relieve(减轻) pressure(压力) on the trains(轨道交通) <u>to some extent</u>(某种程度上).
+Meanwhile, a number of university students have <u>volunteered(自愿) to drive</u> buses while the strike lasts(持续).
 All the students are expert drivers,
-but before they drive any of the buses, they will have to pass a special test.
-The students are going to take the test in two days' time.
-Even so, people are going to find it difficult to get to work.
-But so far, the public has expressed its gratitude to the students in lettters to the Press.
-Only one or two people have objected that the students will drive too fast!
+but before they drive any of the buses, they will have to <u>pass a special test</u>.
+The students are going to <u>take the test</u> in two days' time.
+Even so, people are going to <u>find it difficult</u> to get to work.
+But so far, the public has <u>expressed its gratitude(感激) to</u> the students in letters to the Press(新闻界).
+Only one or two people have objected(反对) that the students will drive too fast!
 
 ## 85 Never Too Old To Learn
 
-I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week.
-Pupils of the school old and new, will be sending him a present to mark the occasion.
-All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home.
-We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.
-A great many former pupils will be attending a farewell dinner in his honour next Thursday.
-It is a curious coincidence that the day before his retirement, Mr. Page will have been teaching for a total of forty years.
-After he has retired he will devote himself to gardening.
+I have just <u>received a letter from</u> my old school, informing(通知) me that my former headmaster(校长), Mr. Stuart Page, will be retiring next week.
+Pupils(小学生) of the school old and new, will be sending him a present to <u>mark the occasion</u>(纪念时刻).
+All those (who have contributed towards the gift) will sign their names in a large album (which will be sent to the headmaster's home).
+We shall all remember Mr. Page for his patience and understanding(通情达理的) and for the kindly(亲切地) encouragement (he gave us) when we went so unwillingly(不情愿地) to school.
+A great many former pupils will be attending <u>a farewell dinner</u>(告别晚宴) <u>in his honor</u>(对于他的致敬) next Thursday.
+<u>It is a curious(奇妙的) coincidence(巧合) that</u> the day before his retirement, Mr. Page will have been teaching for <u>a total of</u> forty years.
+After he has retired he will devote himself to gardening(园艺).
 For him, this will be an entirely new hobby.
-But this does not matter, for, as he has often remarked, one is never too old to learn.
+But this does not matter, for, as he has often remarked, one is <u>never too old to learn</u>.
 
 ## 86 Out of Control
 
-As the man tried to swing the speedboat round, the steering wheel came away in his hands.
-He waved desperately to his companion, who had been water skiing for the last fifteen minutes.
-Both men had hardly had time to realize what was happening when they were thrown violently into the sea.
-The speedboat had struck a buoy, but it continued to move very quickly across the water.
-Both men had just begun to swim towards the shore,
-when they noticed with dismay that the speedboat was moving in a circle.
-It now came straight towards them at tremendous speed.
-In less than a minute, it roared past them only a few feet away.
-After it had passed, they swam on as quickly as they could because they knew that the boat would soon return.
+As the man tried to swing(转向) the speedboat(快艇) round, the <u>steering wheel</u>(舵轮) <u>came away</u>(脱落) in his hands.
+He waved desperately(绝望地) to his companion, who had been water skiing(滑雪) for the last fifteen minutes.
+Both men had hardly had time to realize what was happening when they were thrown violently(猛烈地) into the sea.
+The speedboat had struck a buoy(浮标), but it continued to move very quickly across the water.
+Both men had just begun to swim towards the shore(岸),
+when they <u>noticed with dismay(沮丧) that</u> the speedboat was moving in a circle.
+It now came straight towards them at tremendous(极大的) speed.
+In less than a minute, it roared(咆哮) past them only a few feet away.
+After it had passed, they swam on <u>as quickly as</u> they could because they knew that the boat would soon return.
 They had just had enough time to swim out of danger when the boat again completed a circle.
-On this occasion, however, it had slowed down considerably.
-The petrol had nearly all been used up.
-Before long, the noise dropped completely and the boat began to drift gently across the water.
+On this occasion, however, it had slowed down considerably(非常).
+The petrol(汽油) had nearly all <u>been used up</u>(用光).
+<u>Before long</u>(=soon), the noise dropped completely and the boat began to drift(漂流) gently(轻轻地) across the water.
 
 ## 87 A Perfect Alibi
 
-'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.
-'Do you always catch such an early train?' asked the inspector.
+'At the time the murder was committed(犯罪), I was travelling on the 8 o'clock train to London,' said the man.
+'Do you always catch such an early train?' asked the inspector(检查员).
 'Of course I do,' answered the man.
 'I must be at work at 10 o'clock.
-My employer will confirm that I was there on time.'
+My employer(雇主) will <u>confirm that</u> I was there <u>on time</u>(准时).'
 'Would a later train get you to work on time?' asked the inspector.
 'I suppose it would, but I never catch a later train.'
 'At what time did you arrive at the station?'
 'At ten to eight. I bought a paper and waited for the train.'
 'And you didn't notice anything unusual?'
 'Of course not.'
-'I suggest,' said the inspector,' that you are not telling the truth.
+'I suggest(提醒),' said the inspector,' that you are not telling the truth.
 I suggest that you did not catch the 8 o'clock train,
-but that you caught the 8.25 which would still get you to work on time.
+but that you caught the 8.25 (which would still get you to work on time).
 You see, on the morning of the murder, the 8 o'clock train did not run at all.
-It broke down at Ferngreen station and was taken off the line.'
+It <u>broke down</u> at Ferngreen station and was <u>taken off the line.</u>'
 
 ## 88 Trapped in a Mine
 
-Six men have been trapped in a mine for seventeen hours.
-If they are not brought to the surface soon they may lose their lives.
+Six men have been trapped(困住) in a mine(矿井) for seventeen hours.
+If they are not brought to the surface(表面) soon they may lose their lives.
 However, rescue operations are proving difficult.
-If explosives are used, vibrations will cause the roof of the mine to collapse.
+If explosives(炸药) are used, vibrations(震动) will cause the roof of the mine to collapse(倒塌).
 Rescue workers are therefore drilling a hole on the north side of the mine.
 They intend to bring the men up in a special capsule.
 If there had not been a hard layer of rock beneath the soil,
