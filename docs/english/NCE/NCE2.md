@@ -2497,33 +2497,33 @@ It <u>broke down</u> at Ferngreen station and was <u>taken off the line.</u>'
 ## 88 Trapped in a Mine
 
 Six men have been trapped(困住) in a mine(矿井) for seventeen hours.
-If they are not brought to the surface(表面) soon they may lose their lives.
+If they are not brought to the surface(表面) soon they may <u>lose their lives</u>.
 However, rescue operations are proving difficult.
 If explosives(炸药) are used, vibrations(震动) will cause the roof of the mine to collapse(倒塌).
-Rescue workers are therefore drilling a hole on the north side of the mine.
-They intend to bring the men up in a special capsule.
-If there had not been a hard layer of rock beneath the soil,
+Rescue workers are therefore drilling(钻孔) a hole on the north side of the mine.
+They intend to bring the men up in a special capsule(容器).
+If there had not been a hard layer of rock beneath(在下方) the soil,
 they would have completed the job in a few hours.
 As it is, they have been drilling for 16 hours and they still have a long way to go.
 Meanwhile, a microphone, which was lowered into the mine two hours ago,
-has enabled the men to keep in touch with their closest relatives.
-Though they are running out of food and drink,
+has <u>enabled the men to</u> <u>keep in touch with</u> their closest relatives.
+Though they are <u>running out of</u> food and drink,
 the men are cheerful and confident that they will get out soon.
-They have been told that rescue operations are progressing smoothly.
-If they knew how difficult it was to drill through the hard rock, they would lose heart.
+They have been told that rescue operations are progressing smoothly(顺利地).
+If they knew how difficult it was to drill through the hard rock, they would <u>lose heart</u>.
 
-## 89 A Slip of the Tongue
+## 89 A Slip of the Tongue(口误)
 
-People will do anything to see a free show--even if it is a bad one.
-When the news got round that a comedy show would be presented
-at our local cinema by the P. and U. Bird Seed Company, we all rushed to see it.
+People will <u>do anything to</u> see a free show--even if it is a bad one.
+When <u>the news got round</u> (that a comedy show would be presented(演出)
+at our local cinema by the P. and U. Bird Seed Company), we all rushed to see it.
 We had to queue for hours to get in and there must have been several hundred people present just before the show began.
-Unfortunately, the show was one of the dullest we have ever seen.
-Those who failed to get in need not have felt disappointed,
-as many of the artistes who should have appeared did not come.
-The only funny things we heard that evening came from the advertiser at the beginning of the programme.
-He was obviously very nervous and for some minutes stood awkwardly before the microphone.
-As soon as he opened his mouth, everyone burst out laughing.
+Unfortunately, the show was one of the dullest(无聊的) we have ever seen.
+Those (who failed to get in) need not have <u>felt disappointed</u>,
+as many of the artistes(艺人) who (should have appeared) did not come.
+The only funny things (we heard that evening) came from the advertiser(报幕员) <u>at the beginning of</u> the programme.
+He was obviously very nervous(胆小的) and for some minutes stood awkwardly(尴尬地) before the microphone.
+As soon as he opened his mouth, everyone <u>burst out laughing</u>.
 We all know what the poor man should have said,
 but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'
 
