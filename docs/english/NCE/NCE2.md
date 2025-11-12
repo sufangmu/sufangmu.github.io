@@ -2529,68 +2529,68 @@ but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good l
 
 ## 90 What's for Supper?
 
-Fish and chips has always been a favourite dish in Britain,
+<u>Fish and chips</u> has always been a favourite dish in Britain,
 but as the oceans have been overfished, fish has become more and more expensive.
-So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.
-Oil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water,
-have been frightened out of their wits by giant fish bumping into them as they work.
-Now they have had special cages made to protect them from these monsters.
-The fish are not sharks or killer whales,
-but favourite eating varieties like cod and skate which grow to unnatural sizes,
-sometimes as much as twelve feet in length.
-Three factors have caused these fish to grow so large:
+So <u>it comes as a surprise (to learn that</u> giant(巨大的) fish are terrifying(使害怕) the divers(divers) on North Sea <u>oil rigs</u>(石油钻塔)).
+Oil rigs have to be repaired frequently(频繁地)and divers, who often have to work in darkness a hundred feet under water,
+have <u>been frightened out of their wits</u>(理智) by giant fish <u>bumping(撞击) into</u> them as they work.
+Now they have had special cages(笼子) made to <u>protect them from</u> these monsters.
+The fish are not sharks(鲨鱼) or killer whales(鲸鱼),
+but favourite eating varieties(种类) like cod(鳕鱼) and skate(鳐鱼) (which grow to unnatural sizes,
+sometimes as much as twelve feet in length).
+Three factors(因素) have caused these fish to grow so large:
 the warm water round the hot oil pipes under the sea;
-the plentiful supply of food thrown overboard by the crews on the rigs;
-the total absence of fishing boats around the oil rigs.
-As a result, the fish just eat and eat and grow and grow in the lovely warm water.
+the plentiful(大量的) supply(供应) of food (thrown overboard by the crews(全体人员) on the rigs);
+<u>the total absence of</u> fishing boats around the oil rigs.
+<u>As a result</u>, the fish just eat and eat and grow and grow in the lovely warm water.
 Who eats who?
 
 ## 91 Three Men in a Basket
 
-A pilot noticed a balloon which seemed to be making for a Royal Air Force station nearby.
+A pilot(飞行员) noticed a balloon(气球) (which <u>seemed to be making for(走向)</u> a <u>Royal Air Force</u>(英国空军) station nearby).
 He informed the station at once, but no one there was able to explain the mystery.
-The officer in the control tower was very angry when he heard the news,
+The officer (in the control tower) was very angry when he heard the news,
 because balloons can be a great danger to aircraft.
-He said that someone might be spying on the station and the pilot was ordered to keep track of the strange object.
+He said that someone might be <u>spying(监视) on</u> the station and the pilot was ordered to <u>keep track of</u>(跟踪)the strange object.
 The pilot managed to circle the balloon for some time.
-He could make out three men in a basket under it and one of them was holding a pair of binoculars.
+He could <u>make out</u>(辨别) three men in a basket under it and one of them was holding a pair of binoculars(双筒望远镜).
 When the balloon was over the station, the pilot saw one of the men taking photographs.
-Soon afterwards, the balloon began to descend and it landed near an airfield.
-The police were called in, but they could not arrest anyone,
+<u>Soon afterwards,</u> the balloon began to descend and it landed near an airfield.
+The police were <u>called in</u>, but they could not arrest anyone,
 for the basket contained two Members of Parliament and the Commanding Officer of the station!
 As the Commanding Officer explained later, one half of the station did not know what the other half was doing!
 
 ## 92 Asking for Trouble
 
-It must have been about two in the morning when I returned home.
-I tried to wake up my wife by ringing the doorbell,
-but she was fast asleep,
-so I got a ladder from the shed in the garden, put it against the wall,
+It <u>must have been</u> about two in the morning when I returned home.
+I tried to <u>wake up</u> my wife by <u>ringing the doorbell</u>,
+but she was <u>fast asleep(熟睡)</u>,
+so I got a ladder(梯子) from the shed(棚) in the garden, put it against the wall,
 and began climbing towards the bedroom window.
-I was almost there when a sarcastic voice below said.
-'I don't think the windows need cleaning at this time of the night.'
+I was almost there when a sarcastic(讽刺的) voice below said.
+'I don't think the windows <u>need cleaning</u> at this time of the night.'
 I looked down and nearly fell off the ladder when I saw a policeman.
 I immediately regretted answering in the way I did, but I said, 'I enjoy cleaning windows at night.'
 'So do I,' answered the policeman in the same tone.
-Excuse my interrupting you.
-I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?'
+<u>Excuse my interrupting you</u>.
+I <u>hate to</u> interrupt a man when he's busy working, but <u>would you mind</u> coming with me to the station?'
 'Well, I'd prefer to stay here,' I said.
 'You see, I've forgotten my key.'
 'Your what?' he called.
 'My key,' I shouted.
-Fortunately, the shouting woke up my wife who opened the window just as the policeman had started to climb towards me.
+Fortunately, the shouting woke up my wife, who opened the window just as the policeman had started to climb towards me.
 
 ## 93 A Noble Gift
 
-One of the most famous monuments in the world, the Statue of Liberty,
-was presented to the USA in the nineteenth century by the people of France.
-The great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.
-The actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.
+One of the most famous monuments(纪念碑) in the world, <u>the Statue of Liberty</u>(自由女神像),
+was presented(赠送) to the USA in the nineteenth century by the people of France.
+The great statue, which was designed by the sculptor(雕刻家) Auguste Bartholdi, <u>took ten years to complete</u>.
+The actual(真实的) figure was made of copper(铜) supported by a metal framework (which had been especially constructed by Eiffel).
 Before it could be transported to the United States,
-a site had to be found for it and a pedestal had to be built.
-The site chosen was an island at the entrance of New York Harbour.
-By 1884, a statue which was 151 feet tall had been erected in Paris.
-The following year, it was taken to pieces and sent to America.
+a site had to be found for it and a pedestal(基座) had to be built.
+The site chosen was an island <u>at the entrance of</u> New York Harbour.
+By 1884, a statue which was 151 feet tall had been erected(竖立) in Paris.
+The following year, it was <u>taken to pieces</u> and sent to America.
 By the end of October 1886,
 the statue had been put together again and it was officially presented to the American people by Bartholdi.
 Ever since then, the great monument has been a symbol of liberty
