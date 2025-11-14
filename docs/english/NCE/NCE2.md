@@ -2594,45 +2594,45 @@ The following year, it was <u>taken to pieces</u> and sent to America.
 By the end of October 1886,
 the statue had been put together again and it was officially presented to the American people by Bartholdi.
 Ever since then, the great monument has been a symbol of liberty
-for the millions of people who have passed through New York Harbour to make their homes in America.
+for the millions of people who have passed through New York Harbour to <u>make their homes(安家)</u> in America.
 
 ## 94 Future Champions
 
-Experiments have proved that children can be instructed in swimming at a very early age.
+Experiments have proved that children can <u>be instructed(教授) in swimming</u> at a very early age.
 At a special swimming pool in Los Angeles,
-children become expert at holding their breath under water even before they can walk.
-Babies of two months old do not appear to be reluctant to enter the water.
-It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.
-A game that is very popular with these young swimmers is the underwater tricycle race.
-Tricycles are lined up on the floor of the pool seven feet under water.
-The children compete against each other to reach the other end of the pool.
-Many pedal their tricycles but most of them prefer to push or drag them.
+children <u>become expert at</u> <u>holding their breath</u> under water even before they can walk.
+Babies of two months old do not appear to be reluctant(不情愿的) to enter the water.
+<u>It is not long before</u> they <u>are so accustomed(习惯于) to swimming</u> that they can pick up weights from the floor of the pool.
+A game (that is very popular with these young swimmers) is the underwater tricycle race.
+Tricycles(三轮车) <u>are lined up(一字排开)</u> on the floor of the pool seven feet under water.
+The children <u>compete(竞争) against</u> each other to reach the other end of the pool.
+Many pedal(骑) their tricycles but most of them prefer to push or drag them.
 Some children can cover the whole length of the pool without coming up for breath even once.
-Whether they will ever become future Olympic champions, only time will tell.
-Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.
+Whether they will ever become future Olympic champions(冠军), only time will tell.
+Meanwhile, they should encourage those among(在…中间) us (who cannot swim five yards before they are gasping(喘气) for air).
 
-## 95 A Fantasy
+## 95 A Fantasy(幻想)
 
-When the Ambassador of Escalopia returned home for lunch, his wife got a shock.
-He looked pale and his clothes were in a frightful state.
+When the Ambassador(大使) of Escalopia returned home for lunch, his wife <u>got a shock.</u>
+He looked pale(苍白的) and his clothes were in a frightful(可怕的) state.
 'What has happened?' she asked.
-'How did your clothes get into such a mess?'
-'A fire extinguisher, my dear,' answered the Ambassador drily.
-'University students set the Embassy on fire this morning.'
-'Good heavens!' exclaimed his wife.
+'How did your clothes <u>get into such a mess</u>?'
+'A <u>fire extinguisher</u>(灭火器), my dear,' answered the Ambassador drily(冷淡地).
+'University students set the Embassy(大使馆) on fire this morning.'
+'Good heavens(天堂)!' exclaimed his wife.
 'And where were you at the time?'
 'I was in my office as usual,' answered the Ambassador.
-'The fire broke out in the basement.
+'The fire broke out in the basement(地下室).
 I went down immediately, of course, and that fool, Horst,
 aimed a fire extinguisher at me.
 He thought I was on fire.
-I must definitely get that fellow posted.'
+I must definitely(肯定地) get that fellow posted(委派).'
 The Ambassador's wife went on asking questions,
 when she suddenly noticed a big hole in her husband's hat.
 'And how can you explain that?' she asked.
 'Oh, that,' said the Ambassador.
 'Someone fired a shot through my office window.
-Accurate, don't you think?
+Accurate(准确的), don't you think?
 Fortunately, I wasn't wearing it at the time.
 If I had been, I would not have been able to get home for lunch.'
 
@@ -2641,15 +2641,15 @@ If I had been, I would not have been able to get home for lunch.'
 A Festival for the Dead is held once a year in Japan.
 This festival is a cheerful occasion,
 for on this day, the dead are said to return to their homes and they are welcomed by the living.
-As they are expected to be hungry after their long journey, food is laid out for them.
+As they are expected to be hungry after their long journey, food is laid(lay) out for them.
 Specially-made lanterns are hung outside each house to help the dead to find their way.
 All night long, people dance and sing.
-In the early morning the food that had been laid out for the dead
+In the early morning the food (that had been laid out for the dead)
 is thrown into a river or into the sea as it is considered unlucky for anyone living to eat it.
-In towns that are near the sea, the tiny lanterns which had been hung in the streets the night before,
+In towns (that are near the sea), the tiny lanterns (which had been hung in the streets the night before),
 are placed into the water when the festival is over.
-Thousands of lanterns slowly drift out to sea guiding the dead on their return journey to the other world.
-This is a moving spectacle, for crowds of people
+Thousands of lanterns slowly drift(漂流) out to sea guiding the dead on their return journey to the other world.
+This is a <u>moving spectacle</u>(动人的场面), for crowds of people
 stand on the shore watching the lanterns drifting away until they can be seen no more.
 
 

@@ -1,9 +1,7 @@
 ## 01 A Puma at Large
 
-
-
 Pumas(美洲豹) are large, cat-like animals which are found in America.
-When reports came into London Zoo that a wild(野生的) puma had been spotted(发现) forty-five miles south of London,
+When reports came into London Zoo that a wild(野生的) puma had been spotted(注意到) forty-five miles south of London,
 they were not taken seriously(严肃地).
 However, as the evidence began to accumulate(积累),
 experts from the Zoo felt obliged to investigate,
