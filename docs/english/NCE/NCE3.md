@@ -1,26 +1,33 @@
+## 语法标记
+
+`(定语从句)`
+
+`[同位语从句]`
+
+`{宾语从句}`
+
 ## 01 A Puma at Large
 
-Pumas(美洲豹) are large, cat-like animals which are found in America.
-When reports came into London Zoo that a wild(野生的) puma had been spotted(注意到) forty-five miles south of London,
-they were not taken seriously(严肃地).
-However, as the evidence began to accumulate(积累),
-experts from the Zoo felt obliged to investigate,
-for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.
-The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.
+Pumas(美洲豹) are large, cat-like animals (which <u>are found in</u> America).
+When reports came into London Zoo [that a wild(野生的) puma had been spotted(注意到) forty-five miles south of London], they were not <u>taken seriously</u>(严肃地).
+However, as the evidence(证据) began to accumulate(积累),
+experts from the Zoo <u>felt obliged to</u>(有义务做) investigate(调查),
+for the descriptions (given by people) (who <u>claimed to have seen</u> the puma) were extraordinarily similar.
+The hunt(搜寻) for the puma began in a small village where a woman picking blackberries(黑莓) saw 'a large cat'only five yards away from her.
 It immediately ran away when she saw it,
-and experts confirmed that a puma will not attack a human being unless it is cornered.
+and experts confirmed {that a puma will not attack a <u>human being</u>(人类) unless it is cornered(被困得走投无路的)}.
 The search proved difficult,
 for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.
-Wherever it went, it left behind it a trail of dead deer and small animals like rabbits.
-Paw prints were seen in a number of places and puma fur was found clinging to bushes.
+Wherever it went, it left behind it <u>a trail of</u>(一连串) dead deer(鹿) and small animals like rabbits.
+<u>Paw prints</u>(爪印) were seen in a number of places and puma fur was found <u>clinging(附着) to</u> bushes(灌木丛).
 Several people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.
-The experts were now fully convinced that the animal was a puma,
+The experts were now fully convinced(说服) that the animal was a puma,
 but where had it come from?
 As no pumas had been reported missing from any zoo in the country,
-this one must have been in the possession of a private collector and somehow managed to escape.
-The hunt went on for several weeks,
+this one must have been <u>in the possession of</u>(拥有) a private collector and somehow managed to escape(逃脱).
+The hunt <u>went on</u>(继续进行) for several weeks,
 but the puma was not caught.
-It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.
+<u>It is disturbing(烦扰的) to think that</u> a dangerous wild animal is still <u>at large</u>(在逃的) in the quiet countryside.
 
 ## 02 Thirteen Equals One
 

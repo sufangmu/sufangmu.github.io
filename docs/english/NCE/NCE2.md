@@ -2531,7 +2531,7 @@ but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good l
 
 <u>Fish and chips</u> has always been a favourite dish in Britain,
 but as the oceans have been overfished, fish has become more and more expensive.
-So <u>it comes as a surprise (to learn that</u> giant(巨大的) fish are terrifying(使害怕) the divers(divers) on North Sea <u>oil rigs</u>(石油钻塔)).
+So <u>it comes as a surprise (to learn that</u> giant(巨大的) fish are terrifying(使害怕) the divers(潜水员) on North Sea <u>oil rigs</u>(石油钻塔)).
 Oil rigs have to be repaired frequently(频繁地)and divers, who often have to work in darkness a hundred feet under water,
 have <u>been frightened out of their wits</u>(理智) by giant fish <u>bumping(撞击) into</u> them as they work.
 Now they have had special cages(笼子) made to <u>protect them from</u> these monsters.
