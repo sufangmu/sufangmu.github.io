@@ -1,6 +1,6 @@
 ## 语法标记
 
-`(定语从句)`
+`(定语/定语从句)`
 
 `[同位语从句]`
 
@@ -13,7 +13,7 @@ When reports came into London Zoo [that a wild(野生的) puma had been spotted(
 However, as the evidence(证据) began to accumulate(积累),
 experts from the Zoo <u>felt obliged to</u>(有义务做) investigate(调查),
 for the descriptions (given by people) (who <u>claimed to have seen</u> the puma) were extraordinarily similar.
-The hunt(搜寻) for the puma began in a small village where a woman picking blackberries(黑莓) saw 'a large cat'only five yards away from her.
+The hunt(搜寻) for the puma began in a small village where a woman picking blackberries(黑莓) saw 'a large cat' only five yards away from her.
 It immediately ran away when she saw it,
 and experts confirmed {that a puma will not attack a <u>human being</u>(人类) unless it is cornered(被困得走投无路的)}.
 The search proved difficult,
@@ -29,53 +29,135 @@ The hunt <u>went on</u>(继续进行) for several weeks,
 but the puma was not caught.
 <u>It is disturbing(烦扰的) to think that</u> a dangerous wild animal is still <u>at large</u>(在逃的) in the quiet countryside.
 
+### Expressions
+
+- spot sb. doing sth.
+- feel obliged to do sth.
+- a trail of
+- cling to sb./sth.
+- sth. convinced sb. that + 句⼦
+- sb. was/were convinced that + 句⼦
+- It is disturbing to think that + 句⼦
+- at large
+- be found in
+- take sth. seriously
+- sth. proved adj.
+- sb. confirmed that + 句⼦
+- claim to have done sth.
+- find sb. doing sth.
+- go on
+
 ## 02 Thirteen Equals One
 
-
-Our vicar is always raising money for one cause or another,
+Our vicar(牧师) is always <u>raising money</u>(筹钱) <u>for one cause or another</u>,
 but he has never managed to get enough money to have the church clock repaired.
-The big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.
-One night, however, our vicar woke up with a start:the clock was striking the hours!
+The big clock (which used to strike the hours day and night) was damaged many years ago and has been silent ever since.
+One night, however, our vicar <u>woke up with a start</u>: the clock was striking the hours!
 Looking at his watch, he saw that it was one o'clock,
 but the bell struck thirteen times before it stopped.
-Armed with a torch, the vicar went up into the clock tower to see what was going on.
-In the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.
+<u>Armed with a torch</u>(手电筒), the vicar went up into the clock tower to see <u>what was going on</u>.
+In the torchlight, he <u>caught sight of a figure</u>(人影) whom he immediately recognized as Bill Wilkins, our local grocer(杂货商).
 'Whatever are you doing up here Bill?' asked the vicar in surprise.
 'I'm trying to repair the bell, ' answered Bill.
 'I've been coming up here night after night for weeks now.
-You see, I was hoping to give you a surprise.'
+You see, I <u>was hoping</u> to give you a surprise.'
 'You certainly did give me a surprise!' said the vicar.
-'You've probably woken up everyone in the village as well.
-Still, I'm glad the bell is working again.'
+'You've probably woken up everyone in the village <u>as well</u>.
+Still, <u>I'm glad</u> the bell is working again.'
 'That's the trouble, vicar, 'answered Bill. 'It's working all right,
-but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'
+but I'm afraid that at one o'clock it will strike thirteen times and <u>there's nothing I can do about it</u>.'
 'We'll get used to that, Bill, 'said the vicar.
 'Thirteen is not as good as one, but it's better than nothing.
 Now let's go downstairs and have a cup of tea.'
 
+### Expressions
+
+- be equal to sth. 胜任
+- for one cause or another 因为诸多原因
+- wake up with a start 惊醒
+- catch sight of sb./sth. 瞥见
+- get enough money to do sth. 有足够的钱做某事
+- sb. be armed with sth. 某人装备某物
+- recognize A as B
+- give sb. a surprise
+- What’s going on?
+- I’m glad that + 句⼦
+- get used to sth. 习惯
+- be always doing sth.  be+doing: 与always连⽤时，表示频率过⾼，令说话者⼼烦，⽣厌(⾮绝地)。常⽤肯定。
+
+### whatever
+
+ever here is not necessary in the sentence but is added to emphasize the speaker's surprise/astonishment/anger/irritation/dismay. It has the same meaning as on earth/in the world.
+
+### do/does/did 表强调
+
+肯定句表强调: 确实(v.换原型)
+
+### was/were doing 表礼貌
+
+I was hoping to give you a surprise.
+
+过去时态，⽤于现在/将来，更加有礼貌
+
+We can use the past continuous to make sentences and requests seem more polite. This is because they sound less de nite, more temporary and more gentle.
+
 ## 03 An Unknown Goddess
 
-
-Some time ago, an interesting discovery was made by archaeologists on the Aegean island of Kea.
-An American team explored a temple which stands in an ancient city on the promontory of Ayia Irini.
-The city at one time must have been prosperous, for it enjoyed a high level of civilization.
-Houses -- often three storeys high -- were built of stone.
-They had large rooms with beautifully decorated walls.
-The city was even equipped with a drainage system, for a great many clay pipes were found beneath the narrow streets.
-The temple which the archaeologists explored was used as a place of worship from the fifteenth century B.C. until Roman times.
-In the most sacred room of the temple, clay fragments of fifteen statues were found.
+Some time ago, an interesting discovery was made by archaeologists(考古学家) on the Aegean island of Kea.
+An American team explored a temple (which stands in an ancient city <u>on the promontory</u>(海角) of Ayia Irini).
+The city at one time must have been prosperous(繁荣的), for it enjoyed a high level of civilization(文明).
+Houses -- often three stories(楼层) high -- were built of stone.
+They had large rooms with beautifully decorated(装饰的) walls.
+The city <u>was even equipped with</u> a <u>drainage system</u>(排水系统), for a great many clay(泥土) pipes were found beneath(在…之下) the narrow(狭窄的) streets.
+The temple (which the archaeologists explored) <u>was used as</u> a place of worship(崇拜) from the fifteenth century B.C. until Roman times.
+In the most sacred(神圣的) room of the temple, clay fragments(碎片) of fifteen statues were found.
 Each of these represented a goddess and had, at one time, been painted.
-The body of one statue was found among remains dating from the 15th century B.C.
-Its missing head happened to be among remains of the fifth century B.C.
-This head must have been found in Classical times and carefully preserved.
+The body of one statue was found among remains <u>dating from</u> the 15th century B.C.
+Its missing head <u>happened to</u> be among remains of the fifth century B.C.
+This head must have been found in <u>Classical times</u>(古典时期) and carefully preserved.
 It was very old and precious even then.
-When the archaeologists reconstructed the fragments, they were amazed to find that the goddess turned out to be a very modern-looking woman.
-She stood three feet high and her hands rested on her hips.
-She was wearing a full-length skirt which swept the ground.
-Despite her great age, she was very graceful indeed, but, so far, the archaeologists have been unable to discover her identity.
+When the archaeologists reconstructed the fragments, they <u>were amazed to find that</u> the goddess <u>turned out to</u> be a very modern-looking woman.
+She stood three feet high and her hands rested on her hips(臀部).
+She was wearing a full-length skirt (which swept(sweep) the ground).
+Despite her great age, she was very graceful indeed(确实), but, so far, the archaeologists have been unable to discover her identity.
 
-## 04 The Double Life of Alfred Bloggs
+### Expressions
 
+- a is/was used as a place of
+
+- worship…
+
+- on a/the promontory
+
+- drainage system
+
+- sacred room/temple/place
+
+- have a rest
+
+- identity card
+
+- sb. make a (adj.) discovery of sth. 发现
+
+- a be equipped with b  a配备b
+
+- equip sb. with sth.
+
+- be used as
+
+- date from... 追溯到
+
+- date back to... 追溯到
+
+- happen to do 碰巧
+
+- be amazed to find that + 句⼦
+
+- turn out to be… 结果是，证明是
+
+- despite/ despite the fact that...
+
+- ## 04 The Double Life of Alfred Bloggs
 
 
 These days, people who do manual work often receive far more money than people who work in offices.
@@ -92,9 +174,8 @@ Alf's wife has never discovered that she married a dustman and she never will, f
 He will soon be working in an office.
 He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.
 From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.
+
 ## 05 The Facts
-
-
 
 Editors of newspapers and magazines often go to extremes to provide their readers with unimportant facts and statistics.
 Last year a journalist had been instructed by a well-known magazine to write an article on the president's palace in a new African republic.
@@ -152,8 +233,6 @@ They examined the remains and John got all his money back.
 'Last year, we paid ￡1.5 million on 21,000 claims.'
 
 ## 08 A Famous Monastery
-
-
 
 The Great St.Bernard Pass connects Switzerland to Italy.
 At 2,473 metres, it is the highest mountain pass in Europe.
