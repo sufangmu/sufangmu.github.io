@@ -1,7 +1,3 @@
-
-
-
-
 ## 语法标记
 
 `(定语/定语从句)`
@@ -170,7 +166,7 @@ This can <u>give rise to</u> curious(奇怪的) situations, as it did in the cas
 When he got married, Alf was too embarrassed to say anything to his wife about his job.
 He simply told her that he worked for the Corporation.
 Every morning, he left home dressed in a smart black suit.
-He then changed into overalls(工装) and spent the next eight hours as a dustman.
+He then <u>changed into</u> overalls(工装) and spent the next eight hours as a dustman.
 Before returning home at night, he <u>took a shower</u> and changed back into his suit.
 Alf did this for over two years and his fellow dustmen <u>kept his secret</u>.
 Alf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.
@@ -235,48 +231,138 @@ From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', n
 
 ## 05 The Facts
 
-Editors of newspapers and magazines often go to extremes to provide their readers with unimportant facts and statistics.
-Last year a journalist had been instructed by a well-known magazine to write an article on the president's palace in a new African republic.
+Editors of newspapers and magazines often <u>go to extremes to</u> provide their readers with unimportant facts and statistics(统计学).
+Last year a journalist(记者) had been instructed by a well-known magazine to write an article on the president's palace(宫殿) in a new African republic.
 When the article arrived, the editor read the first sentence and then refused to publish it.
-The article began:'Hundreds of steps lead to the high wall which surrounds the president's palace.'
-The editor at once sent the journalist a fax instructing him to find out the exact number of steps and the height of the wall.
+The article began:'Hundreds of steps lead to the high wall (which surrounds the president's palace).'
+The editor at once sent the journalist a fax(传真) instructing him to <u>find out</u> the exact number of steps and the height of the wall.
 The journalist immediately set out to obtain these important facts, but he took a long time to send them.
-Meanwhile, the editor was getting impatient, for the magazine would soon go to press.
+Meanwhile, the editor was <u>getting impatient</u>, for the magazine would soon <u>go to press</u>.
 He sent the journalist two more faxes, but received no reply.
-He sent yet another fax informing the journalist that if he did not reply soon he would be fired.
-When the journalist again failed to reply,  the editor reluctantly published the article as it had originally been written.
+He sent <u>yet another</u> fax (informing the journalist that {if he did not reply soon he would be fired}).
+When the journalist again failed to reply,  the editor reluctantly(不情愿地) published the article as it had originally(起初,原来) been written.
 A week later, the editor at last received a fax from the journalist.
 Not only had the poor man been arrested, but he had been sent to prison as well.
-However, he had at last been allowed to send a fax in which he informed the editor that he had been arrested
-while counting the 1, 084 steps leading to the 15th foot wall which surrounded the president's palace.
+However, he had at last been allowed to send a fax (in which he informed the editor that he had been arrested
+while counting the 1,084 steps (leading to the 15th foot wall (which surrounded the president's palace))).
+
+### not only
+
+#### not only + will/can ...
+
+And you will <u>not only</u> have to pay him to do this, far more important, you'll have to agree with him.
+
+And <u>not only</u> will you have to pay him to do this, far more important, you'll have to agree with him.
+
+#### not only + have/has/had ...
+
+You not only have done your work, but it looks like you've done Anderson's work as well…
+
+Not only have you done your work, but it looks like you've done Anderson's work as well…
+
+#### not only + do/does/did...
+
+Well, the good news is I not only know men, but straight guys are my specialty.
+
+Well, the good news is not only do I know men, but straight guys are my specialty.
+
+#### not only + am/is/are/was/were...
+
+'Cause she is not only pretty, but... she'll make all your decisions for you.
+
+'Cause not only is she pretty, but... she'll make all your decisions for you.
+
+### 部分倒装
+
+句⾸否定词: 包括但不限于
+
+- not/nor/neither 
+
+- not only
+
+- never
+
+- no
+
+- hardly
+
+- little
+
+- no sooner ... than seldom
+
+- not until
+
+
+### Expressions
+
+-  go to extreme(s) to do sth.
+-  publish + a book/an article/report...
+-  send sb. a fax…
+-  get impatient
+-  get/be fired
+-  provide sb. with sth.
+-  sb. be instructed to do sth. 某人被指示做某事
+-  instruct sb. to do sth.
+-  write an article on/about sth. 写一篇关于/关于某事的文章
+-  
+-  
+-  
+-  find out sth.
+-  :qsb. take a long time to do sth.
+-  go to press  送印
+-  inform sb. that + 句⼦  通知
+
+
 ## 06 Smash-and-Grab
 
-
-The expensive shops in a famous arcade near Piccadilly were just opening.
+The expensive shops in a famous arcade(有拱廊的街道) near Piccadilly were just opening.
 At this time of the morning, the arcade was almost empty.
-Mr. Taylor, the owner of a jewellery shop was admiring a new window display.
+Mr. Taylor, the owner of a jewellery(珠宝) shop was admiring a new window display.
 Two of his assistants had been working busily since 8 o'clock and had only just finished.
-Diamond necklaces and rings had been beautifully arranged on a background of black velvet.
-After gazing at the display for several minutes, Mr. Taylor went back into his shop.
-The silence was suddenly broken when a large car, with its headlights on and its horn blaring, roared down the arcade.
+Diamond necklaces and rings had been beautifully arranged on a background of black velvet(天鹅绒).
+After <u>gazing at</u> the display for several minutes, Mr. Taylor went back into his shop.
+The silence was suddenly broken when a large car, with its headlights on and its horn(喇叭) blaring(声音响亮), roared(怒吼) down the arcade.
 It came to a stop outside the jeweller's.
-One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed the window of the shop with iron bars.
+One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed(打碎) the window of the shop with iron bars.
 While this was going on, Mr. Taylor was upstairs.
 He and his staff began throwing furniture out of the window.
 Chairs and tables went flying into the arcade.
 One of the thieves was struck by a heavy statue,
-but he was too busy helping himself to diamonds to notice any pain.
-The raid was all over in three minutes, for the men scrambled back into the car and it moved off at a fantastic speed.
+but he was too busy <u>helping himself to</u>(自取) diamonds to notice any pain.
+The raid(抢劫) was all over in three minutes, for the men scrambled(迅速而吃力地爬) back into the car and it moved off <u>at a fantastic(极高的) speed.</u>
 Just as it was leaving,
-Mr.Taylor rushed out and ran after it throwing ashtrays and vases,
+Mr.Taylor rushed out and ran after it throwing ashtrays(烟灰缸) and vases,
 but it was impossible to stop the thieves.
-They had got away with thousands of pounds worth of diamonds.
+They had <u>got away with</u> <u>thousands of pounds worth of diamonds</u>.
+
+### Expressions
+
+-  smash sth. to pieces
+
+-  grab a beer/coffee
+
+-  go to the arcade
+
+-  background music
+
+-  scrambled eggs 炒鸡蛋
+
+-  at a fantastic speed 
+
+-  That’s fantastic. 太棒了
+
+-  only just…
+
+-  come to a stop… 停下
+
+-  be too busy doing sth. to do sth.
+
+-  money + worth of + n.
 
 ## 07 Mutilated Ladies
 
-
 People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!
-Fortunately for them, the Bank of England has a team called Mutilated Ladies
+Fortunately for them, the Bank of England has a team called Mutilated(残废的) Ladies
 which deals with claims from people who fed their money to a machine or to their dog.
 Dogs, it seems, love to chew up money!
 A recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.
