@@ -304,11 +304,8 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 -  sb. be instructed to do sth. 某人被指示做某事
 -  instruct sb. to do sth.
 -  write an article on/about sth. 写一篇关于/关于某事的文章
--  
--  
--  
 -  find out sth.
--  :qsb. take a long time to do sth.
+-  sb. take a long time to do sth.
 -  go to press  送印
 -  inform sb. that + 句⼦  通知
 
@@ -361,52 +358,77 @@ They had <u>got away with</u> <u>thousands of pounds worth of diamonds</u>.
 
 ## 07 Mutilated Ladies
 
-People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!
+People who live in Britain needn't despair when they make mistakes like this and a lot of people do!
 Fortunately for them, the Bank of England has a team called Mutilated(残废的) Ladies
-which deals with claims from people who fed their money to a machine or to their dog.
-Dogs, it seems, love to chew up money!
-A recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.
-John had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.
+which <u>deals with</u> claims(索赔) from people (who fed(feed,饲养) their money to a machine or to their dog).
+Dogs, it seems, love to <u>chew up</u> money!
+A recent case concerns Jane Butlin (whose fiance(未婚夫), John, runs a successful furniture business).
+John had a very good day and put his wallet containing ￡3, 000 into the <u>microwave oven</u>(微波炉) for safekeeping(保管).
 Then he and Jane went horse-riding.
 When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.
-Imagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!
-John went to see his bank manager who sent the remains of wallet and the money
-to the special department of the Bank of England in Newcastle: the Mutilated Ladies!
+<u>Imagine their dismay when</u> they found a beautifully-cooked wallet and notes turned to ash(灰)!
+John went to see his bank manager who <u>sent</u> the remains of wallet and the money
+<u>to</u> the special department of the Bank of England in Newcastle: the Mutilated Ladies!
 They examined the remains and John got all his money back.
-'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.
+'So long as there's something to identify, we will give people their money back,' said a spokeswoman(女发言人) for the Bank.
 'Last year, we paid ￡1.5 million on 21,000 claims.'
 
+### Expressions
+
+- chewing gum 口香糖
+
+- for safekeeping
+
+- deal with
+
+- go doing…
+
+- Imagine sb’s dismay when
+
+- so long as... 只要
+
+    
 ## 08 A Famous Monastery
 
-The Great St.Bernard Pass connects Switzerland to Italy.
+The Great St.Bernard Pass(圣伯纳德山口) connects Switzerland to Italy.
 At 2,473 metres, it is the highest mountain pass in Europe.
-The famous monastery of St.Bernard,
-which was founded in the eleventh century, lies about a mile away.
-For hundreds of years, St.Bernard dogs have saved the lives of travellers crossing the dangerous Pass.
+The famous monastery(修道院) of St.Bernard,
+(which was founded in the eleventh century), lies about a mile away.
+For hundreds of years, St.Bernard dogs have saved the lives of travellers (crossing the dangerous Pass).
 These friendly dogs, which were first brought from Asia,
 were used as watchdogs even in Roman times.
 Now that a tunnel has been built through the mountains, the Pass is less dangerous,
 but each year, the dogs are still sent out into the snow whenever a traveller is in difficulty.
 Despite the new tunnel,
-there are still a few people who rashly attempt to cross the Pass on foot.
+there are still a few people (who rashly(鲁莽地) attempt to cross the Pass on foot).
 During the summer months, the monastery is very busy,
 for it is visited by thousands of people who cross the Pass in cars.
-As there are so many people about, the dogs have to be kept in a special enclosure.
+As there are so many people about(在附近), the dogs have to be kept in a special enclosure(围场).
 In winter, however, life at the monastery is quite different.
 The temperature drops to -30 degrees,
 and very few people attempt to cross the Pass.
-The monks prefer winter to summer for they have more privacy.
+The monks(僧侣) prefer winter to summer for they have more privacy(隐私).
 The dogs have greater freedom, too,
-for they are allowed to wander outside their enclosure.
-The only regular visitors to the monastery in winter are parties of skiers who go there at Christmas and Easter.
+for they are allowed to wander(溜达) outside their enclosure.
+The only regular visitors to the monastery in winter are parties of skiers(滑雪的人) who go there at Christmas and Easter(复活节).
 These young people,
-who love the peace of the mountains,
+who love the peace(平静) of the mountains,
 always receive a warm welcome at St.Bernard's monastery.
+
+### Expressions
+
+- Can I get some privacy?
+- connect a to b
+- for hundreds of years
+- Now that + 从句 由于
+- attempt to do sth.
+- be in difficulty
+- receive a warm welcome
+
 ## 09 Flying Cats
 
-
-Cats never fail to fascinate human beings.
-They can be friendly and affectionate towards humans, but they lead mysterious lives of their own as well.
+Cats never fail to fascinate(吸引) human beings.
+They can be friendly and affectionate(深情的) towards humans, but they lead mysterious(神秘的) lives of their own as well.
 They never become submissive like dogs and horses.
 As a result, humans have learned to respect feline independence.
 Most cats remain suspicious of humans all their lives.
@@ -425,6 +447,26 @@ In a long drop, they reach speeds of 60 miles an hour and more.
 At high speeds, falling cats have time to relax.
 They stretch out their legs like flying squirrels.
 This increases their air-resistance and reduces the shock of impact when they hit the ground.
+
+### Expressions
+
+- gained its independence
+- have/make an impact on...
+- lead a adj. life
+- learn to do sth.
+- a good deal of
+- be based on
+- make a study of sth...
+- a period of + 时间
+- have sth. In common ...
+- died from / died of
+- there is no shortage of
+- It seems that + 句⼦
+- be likely to do sth.
+
+### the more..., the more...
+
+注意: ⽐较级部分均须在各⾃从句中充当成分；将从句中某个成分变成⽐较级提句⾸。
 
 ## 10 The Loss of the Titanic
 
@@ -522,8 +564,6 @@ When Mrs. Richards walked towards him, he fled, slamming the door behind him.
 
 ## 14 A Noble Gangster 
 
-
-
 There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for 'protection'.
 If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
 Obtaining 'protection money' is not a modern crime.
@@ -535,9 +575,8 @@ In times of peace, when business was bad, Hawkwood and his men would march into 
 Hawkwood made large sums of money in this way.
 In spite of this, the Italians regarded him as a sort of hero.
 When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.
+
 ## 15 Fifty Pence Worth of Trouble
-
-
 
 Children always appreciate small gifts of money.
 Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.
@@ -557,8 +596,6 @@ A crowd of people gathered round him and a lady rubbed his arm with soap and but
 The fire brigade was called and two fire fighters freed George using a special type of grease.
 George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.
 ## 16 Mary Had a Little Lamb
-
-
 
 Mary and her husband Dimitri lived in the tiny village of Perachora in southern Greece.
 One of Mary's prize possessions was a little white lamb which her husband had given her.
@@ -580,8 +617,6 @@ When he went outside half an hour later, he was astonished to find that the litt
 Its wool, which had been dyed black, had been washed clean by the rain!
 ## 17 The Longest Suspension Bridge in the World
 
-
-
 Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.
 He described it as 'a very agreeable situation located within two small hills in the midst of which flowed a great river.'
 Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal,
@@ -600,6 +635,7 @@ It has been estimated that if the bridge were packed with cars, it would still o
 However, size and strength are not the only important things about this bridge.
 Despite its immensity, it is both simple and elegant,
 fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.
+
 ## 18 Electric Currents in Modern Art 
 
 
@@ -625,8 +661,6 @@ It was rather like an exhibition of prehistoric electronic equipment.
 These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!
 ## 19 A Very Dear Cat
 
-
-
 Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay's cat.
 Mrs. Eleanor Ramsay, a very wealthy old lady, has shared a flat with her cat, Rastus, for a great many years.
 Rastus leads an orderly life.
@@ -648,8 +682,6 @@ She explained that Rastus was very dear to her.
 Considering the amount she paid, he was dear in more ways than one!
 ## 20 Pioneer Pilots 
 
-
-
 In 1908 Lord Northcliffe offered a prize of ￡1, 000 to the first man who would fly across the English Channel.
 Over a year passed before the first attempt was made.
 On July 19th, 1909, in the early morning,
@@ -670,8 +702,6 @@ Latham made another attempt a week later and got within half a mile of Dover,
 but he was unlucky again.
 His engine failed and he landed on the sea for the second time.
 ## 21 Daniel Mendoza
-
-
 
 Boxing matches were very popular in England two hundred years ago.
 In those days, boxers fought with bare fists for prize money.
@@ -902,8 +932,6 @@ it was impossible to fill this beautiful pen with ink and to this day it has nev
 
 ## 29 Funny or Not
 
-
-
 Whether we find a joke funny or not largely depends on where we have been brought up.
 The sense of humour is mysteriously bound up with national characteristics.
 A Frenchman, for instance, might find it hard to laugh at a Russian joke.
@@ -1114,8 +1142,6 @@ Justice had been done even before the man was handed over to the police.
 
 ## 36 A Chance in a Million
 
-
-
 We are less credulous than we used to be.
 In the nineteenth century, a novelist would bring his story to a conclusion
 by presenting his readers with a series of coincidences--most of them wildly improbable.
@@ -1147,8 +1173,6 @@ Assuming that his family had been killed during an air raid,
 Hans settled down in a village fifty miles away where he had remained ever since.
 ## 37 The Westhaven Express
 
-
-
 We have learnt to expect that trains will be punctual.
 After years of conditioning, most of us have developed an unshakable faith in railway timetables.
 Ships may be delayed by storms;
@@ -1176,8 +1200,6 @@ A tiny asterisk conducted me to a footnote at the bottom of the page.
 It said: 'This service has been suspended.'
 ## 38 The First Calendar
 
-
-
 Future historians will be in a unique position when they come to record the history of our own times.
 They will hardly know which facts to select from the great mass of evidence that steadily accumulates.
 What is more, they will not have to rely solely on the written word.
@@ -1200,8 +1222,6 @@ They had a definite meaning, for they were as near as early man could get to wri
 It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.
 It seems that man was making a real effort to understand the seasons 20, 000 years earlier than has been supposed.
 ## 39 Nothing to Worry About
-
-
 
 The rough road across the plain soon became so bad that we tried to get Bruce to drive back to the village we had come from.
 Even though the road was littered with boulders and pitted with holes, Bruce was not in the least perturbed.
@@ -1229,8 +1249,6 @@ Bruce charged at it, but in the middle, the car came to a grinding halt.
 A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!
 ## 40 Who's Who
 
-
-
 It has never been explained why university students seem to enjoy practical jokes more than anyone else.
 Students specialize in a particular type of practical joke: the hoax.
 Inviting the fire brigade to put out a nonexistent fire is a crude form of deception which no self-respecting student would ever indulde in.
@@ -1255,8 +1273,6 @@ Pretending to speak seriously, one of the workmen asked if he might make a telep
 Permission was granted and a policeman accompanied him to a pay phone.
 Only when he saw that the man was actually telephoning the police did he realize that they had all been the victims of a hoax.
 ## 41 Illusions of Pastoral Peace
-
-
 
 The quiet life of the country has never appealed to me.
 City born and city bred,
@@ -1291,9 +1307,8 @@ Few things could be more impressive than the peace that descends on deserted cit
 when the thousands that travel to work every day are tucked away in their homes in the country.
 It has always been a mystery to me why city dwellers, who appreciate all these things,
 obstinately pretend that they would prefer to live in the country.
+
 ## 42 Modern Cavemen
-
-
 
 Cave exploration, or pot-holing, as it has come to be known, is a relatively new sport.
 Perhaps it is the desire for solitude or the chance of making an unexpected discovery that lures people down to the depths of the earth.
@@ -1329,8 +1344,6 @@ they saw great stalagmites--some of them over forty feet high--rising up like tr
 Round about, piles of limestone glistened in all the colours of the rainbow.
 In the eerie silence of the cavern, the only sound that could be heard was made by water which dripped continuously from the high dome above them.
 ## 43 Fully Insured
-
-
 
 Insurance companies are normally willing to insure anything.
 Insuring public or private property is a standard practice in most countries in the world.
