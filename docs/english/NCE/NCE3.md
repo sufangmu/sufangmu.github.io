@@ -428,41 +428,42 @@ always receive a warm welcome at St.Bernard's monastery.
 ## 09 Flying Cats
 
 Cats never fail to fascinate(吸引) human beings.
-They can be friendly and affectionate(深情的) towards humans, but they lead mysterious(神秘的) lives of their own as well.
-They never become submissive like dogs and horses.
-As a result, humans have learned to respect feline independence.
-Most cats remain suspicious of humans all their lives.
-One of the things that fascinates us most about cats is the popular belief that they have nine lives.
-Apparently, there is a good deal of truth in this idea.
-A cat's ability to survive falls is based on fact.
-Recently the New York Animal Medical Centre made a study of 132 cats over a period of five months.
-All these cats had one experience in common: they had fallen off high buildings,
-yet only eight of them died from shock or injuries.
-Of course, New York is the ideal place for such an interesting study, because there is no shortage of tall buildings.
-There are plenty of high-rise windowsills to fall from!
-One cat, Sabrina, fell 32 storeys, yet only suffered from a broken tooth.
-'Cats behave like well-trained paratroopers,' a doctor said.
-It seems that the further cats fall, the less they are likely to injure themselves.
+They can be friendly and affectionate(深情的) towards humans, but they <u>lead mysterious(神秘的) lives</u> of their own as well.
+They never become submissive(顺从的) like dogs and horses.
+<u>As a result</u>, humans have learned to respect feline(猫科的) independence.
+Most cats remain suspicious(猜疑的) of humans all their lives.
+One of the things (that fascinates us most about cats) is the popular belief [that they have nine lives].
+Apparently, there is <u>a good deal of</u> truth in this idea.
+A cat's ability to survive falls <u>is based on fact</u>.
+Recently the New York Animal Medical Centre <u>made a study</u> of 132 cats over <u>a period of</u> five months.
+All these cats <u>had one experience in common</u>: they had fallen off high buildings,
+yet only eight of them <u>died from</u> shock or injuries.
+Of course, New York is the ideal place for such an interesting study, because there is <u>no shortage(缺少) of</u> tall buildings.
+There are plenty of high-rise(高楼) windowsills(窗台) to fall from!
+One cat, Sabrina, fell 32 storeys, yet only <u>suffered from(遭受)</u> a broken tooth.
+'Cats behave like well-trained paratroopers(伞兵),' a doctor said.
+It seems that <u>the further</u>(far) cats fall, <u>the less</u> they <u>are likely to</u> injure themselves.
 In a long drop, they reach speeds of 60 miles an hour and more.
 At high speeds, falling cats have time to relax.
-They stretch out their legs like flying squirrels.
-This increases their air-resistance and reduces the shock of impact when they hit the ground.
+They stretch out their legs like flying squirrels(松鼠).
+This increases their air-resistance(空气阻力) and reduces the shock of impact(撞击) when they hit the ground.
 
 ### Expressions
 
-- gained its independence
-- have/make an impact on...
-- lead a adj. life
+- gained its independence 获得独立
+- have/make an impact on...  对…产生影响
+- lead a adj. life 过着...生活
 - learn to do sth.
 - a good deal of
 - be based on
 - make a study of sth...
 - a period of + 时间
 - have sth. In common ...
-- died from / died of
+- died from 环境、事故
+- died of 疾病、衰老
 - there is no shortage of
 - It seems that + 句⼦
-- be likely to do sth.
+- be likely to do sth.  很可能会
 
 ### the more..., the more...
 
@@ -470,27 +471,36 @@ This increases their air-resistance and reduces the shock of impact when they hi
 
 ## 10 The Loss of the Titanic
 
-
 The great ship, Titanic sailed for New York from Southampton on April 10th, 1912.
-She was carrying 1, 316 passengers and a crew of 891.
-Even by modern standards, the 46, 000 ton Titanic was a colossal ship.
-At that time, however, she was not only the largest ship that had ever been built, but was regarded as unsinkable, for she had sixteen water-tight compartments.
+She was carrying 1, 316 passengers and <u>a crew of</u> 891.
+Even by modern standards, the 46, 000 ton Titanic was a colossal(巨大的) ship.
+At that time, however, she was not only the largest ship (that had ever been built), but <u>was regarded as</u> unsinkable(不易下沉的), for she had sixteen water-tight(防漏水的) compartments(隔层,舱).
 Even if two of these were flooded, she would still be able to float.
-The tragic sinking of this great liner will always be remembered, for she went down on her first voyage with heavy loss of life.
+The tragic(悲剧的) sinking of this great liner(邮轮) will always be remembered, for she <u>went down</u> on her first voyage(航行) with heavy loss of life.
 Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic,
-a huge iceberg was suddenly spotted by a lookout.
-After the alarm had been given, the great ship turned sharply to avoid a direct collision.
-The Titanic turned just in time, narrowly missing the immense wall of ice which rose over 100 feet out of the water beside her.
-Suddenly, there was a slight trembling sound from below,
+a huge iceberg(冰山) was suddenly spotted(看出) by a lookout(瞭望员).
+After the alarm had been given, the great ship turned sharply to avoid a direct collision(碰撞).
+The Titanic turned just in time, narrowly(勉强地) missing the immense(巨大的) wall of ice which rose over 100 feet out of the water beside her.
+Suddenly, there was a slight(轻微的) trembling(发抖的) sound from below,
 and the captain went down to see what had happened.
-The noise had been so faint that no one thought that the ship had been damaged.
-Below, the captain realized to his horror that the Titanic was sinking rapidly,
+The noise had been so faint(微弱的) that no one thought that the ship had been damaged.
+Below, the captain realized to his horror(恐惧) that the Titanic was sinking rapidly(迅速地),
 for five of her sixteen watertight compartments had already been flooded!
-The order to abandon ship was given and hundreds of people plunged into the icy water.
+The order to abandon ship was given and hundreds of people <u>plunged(跳进) into</u> the icy water.
 As there were not enough life-boats for everybody, 1, 500 lives were lost.
 
-## 11 Not Guilty
+### Expressions
 
+- to sb’s horror
+- horror movie
+- a crew of
+- be regarded as
+- give an alarm
+- in time
+- realized to his horror that
+- give an order
+
+## 11 Not Guilty
 
 Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.
 Even really honest people are often made to feel guilty.
