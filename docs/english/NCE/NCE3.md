@@ -477,10 +477,10 @@ Even by modern standards, the 46, 000 ton Titanic was a colossal(巨大的) ship
 At that time, however, she was not only the largest ship (that had ever been built), but <u>was regarded as</u> unsinkable(不易下沉的), for she had sixteen water-tight(防漏水的) compartments(隔层,舱).
 Even if two of these were flooded, she would still be able to float.
 The tragic(悲剧的) sinking of this great liner(邮轮) will always be remembered, for she <u>went down</u> on her first voyage(航行) with heavy loss of life.
-Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic,
+Four days after setting out, while the Titanic was sailing across the icy waters(水域) of the North Atlantic,
 a huge iceberg(冰山) was suddenly spotted(看出) by a lookout(瞭望员).
 After the alarm had been given, the great ship turned sharply to avoid a direct collision(碰撞).
-The Titanic turned just in time, narrowly(勉强地) missing the immense(巨大的) wall of ice which rose over 100 feet out of the water beside her.
+The Titanic turned just in time, narrowly(勉强地) missing the immense(巨大的) wall of ice (which rose over 100 feet out of the water beside her).
 Suddenly, there was a slight(轻微的) trembling(发抖的) sound from below,
 and the captain went down to see what had happened.
 The noise had been so faint(微弱的) that no one thought that the ship had been damaged.
@@ -491,44 +491,51 @@ As there were not enough life-boats for everybody, 1, 500 lives were lost.
 
 ### Expressions
 
-- to sb’s horror
+- to sb’s horror  使某人惊恐
 - horror movie
 - a crew of
 - be regarded as
 - give an alarm
 - in time
 - realized to his horror that
-- give an order
+- give an order 下命令
 
 ## 11 Not Guilty
 
-Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.
-Even really honest people are often made to feel guilty.
-The hardened professional smuggler, on the other hand, is never troubled by such feelings,
+Customs Officers(海关官员) are quite tolerant(宽容的) these days, but they can still stop you when you are going through the Green Channel and have nothing to declare(申报).
+Even really honest people are often made to feel guilty(有罪的,内疚的).
+The hardened(老练的) professional smuggler(走私者), on the other hand, is never troubled by such feelings,
 even if he has five hundred gold watches hidden in his suitcase.
-When I returned from abroad recently, a particularly officious young Customs Officer
+When I returned from abroad recently, a particularly officious(爱管闲事的) young Customs Officer
 clearly regarded me as a smuggler.
 'Have you anything to declare?' he asked, looking me in the eye.
 'No,' I answered confidently.
 'Would you mind unlocking this suitcase please? '
 'Not at all,' I answered.
 The Officer went through the case with great care.
-All the things I had packed so carefully were soon in a dreadful mess.
+All the things I had packed so carefully were soon in a dreadful(糟糕的) mess.
 I felt sure I would never be able to close the case again.
 Suddenly, I saw the Officer's face light up.
 He had spotted a tiny bottle at the bottom of my case
-and he pounced on it with delight.
-'Perfume, eh?' he asked sarcastically.
+and he pounced(突袭) on it with delight(高兴).
+'Perfume(香水), eh?' he asked sarcastically(讽刺地).
 'You should have declared that.
-Perfume is not exempt from import duty.  '
-'But it isn't perfume, I said. 'It's hair gel.  '
+Perfume <u>is not exempt(免除) from</u> import duty(进口税).  '
+'But it isn't perfume, I said. 'It's hair gel(发胶).  '
 Then I added with a smile,
 'It's a strange mixture I make myself.
 As I expected, he did not believe me.
 'Try it!' I said encouragingly.
-The Officer unscrewed the cap and put the bottle to his nostrils.
+The Officer unscrewed(拧开) the cap and put the bottle to his nostrils(鼻孔).
 He was greeted by an unpleasant smell which convinced him that I was telling the truth.
-A few minutes later, I was able to hurry away with precious chalk marks on my baggage.
+A few minutes later, I was able to hurry away with precious chalk(粉笔) marks on my baggage(行李).
+
+### Expressions
+
+- be made to do
+- on the other hand
+- light up
+- be greeted by something
 
 ## 12 Life on a Desert Island
 

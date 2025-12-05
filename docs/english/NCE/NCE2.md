@@ -927,6 +927,11 @@ The house has many large rooms and there is a lovely garden.
 It is a very modern(现代的) house, so it looks strange(奇怪的) to some people.
 It must be the only modern house in the district(区).
 
+### Expressions
+
+- have a letter from sb.
+- get a surprise
+
 ## 24 It Could be Worse
 
 I entered the hotel manager's office and sat down.
@@ -969,8 +974,6 @@ The English understand each other, but I don't understand them!
    2. neither... nor 连接主语时就近一致 Neither dad nor mum <u>is</u> at home today
 3. not only… but also (as well)
    1. 连接主语时就近一致 Not only the doctor but also the patients <u>do not</u> know about it. 
-
-
 
 ## 26 The Best Art Critics
 
@@ -2193,9 +2196,26 @@ Big Ben has rarely <u>gone wrong</u>.
 Once, however, it failed to give the correct time.
 A painter (who had been working on the tower) hung a pot of paint on one of the hands and slowed it down!
 
+### Expressions
 
+- make it offical
 
-## 72 A Car Called Bluebird
+- double check
+
+- all over the world
+
+- burn down
+
+- take its name from
+
+- be responsible for 对...负责
+
+- be connected to
+
+- go wrong
+
+- ## 72 A Car Called Bluebird
+
 
 The great racing driver, Sir Malcolm Campbell, was the first man to drive at over 300 miles per hour.
 He set up a new world record in September 1935 at Bonneville Salt Flats, Utah.
