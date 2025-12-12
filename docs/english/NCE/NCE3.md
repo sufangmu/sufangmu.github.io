@@ -502,64 +502,76 @@ As there were not enough life-boats for everybody, 1, 500 lives were lost.
 
 ## 11 Not Guilty
 
-Customs Officers(海关官员) are quite tolerant(宽容的) these days, but they can still stop you when you are going through the Green Channel and have nothing to declare(申报).
-Even really honest people are often made to feel guilty(有罪的,内疚的).
-The hardened(老练的) professional smuggler(走私者), on the other hand, is never troubled by such feelings,
+Customs Officers(海关官员) are quite tolerant(宽容的) these days, but they can still stop you when you are <u>going through</u> the Green Channel and have nothing to declare(申报).
+Even really honest people <u>are often made to</u> feel guilty(有罪的,内疚的).
+The hardened(老练的) professional smuggler(走私者), <u>on the other hand</u>, is never troubled by such feelings,
 even if he has five hundred gold watches hidden in his suitcase.
 When I returned from abroad recently, a particularly officious(爱管闲事的) young Customs Officer
-clearly regarded me as a smuggler.
+clearly <u>regarded</u> me <u>as</u> a smuggler.
 'Have you anything to declare?' he asked, looking me in the eye.
 'No,' I answered confidently.
 'Would you mind unlocking this suitcase please? '
 'Not at all,' I answered.
-The Officer went through the case with great care.
-All the things I had packed so carefully were soon in a dreadful(糟糕的) mess.
+The Officer <u>went through</u> the case with great care.
+All the things (I had packed so carefully) were soon in a dreadful(糟糕的) mess.
 I felt sure I would never be able to close the case again.
 Suddenly, I saw the Officer's face light up.
 He had spotted a tiny bottle at the bottom of my case
-and he pounced(突袭) on it with delight(高兴).
+and he <u>pounced(突袭) on it</u> with delight(高兴).
 'Perfume(香水), eh?' he asked sarcastically(讽刺地).
 'You should have declared that.
 Perfume <u>is not exempt(免除) from</u> import duty(进口税).  '
 'But it isn't perfume, I said. 'It's hair gel(发胶).  '
 Then I added with a smile,
-'It's a strange mixture I make myself.
+'It's a strange mixture (I make myself).
 As I expected, he did not believe me.
 'Try it!' I said encouragingly.
 The Officer unscrewed(拧开) the cap and put the bottle to his nostrils(鼻孔).
-He was greeted by an unpleasant smell which convinced him that I was telling the truth.
+He was greeted by an unpleasant smell (which convinced(说服) him that I was telling the truth).
 A few minutes later, I was able to hurry away with precious chalk(粉笔) marks on my baggage(行李).
 
 ### Expressions
 
-- be made to do
+- be made to do  被迫做某事
 - on the other hand
 - light up
-- be greeted by something
+- be greeted by something   被某物迎接
 
 ## 12 Life on a Desert Island
 
-
-Most of us have formed an unrealistic picture of life on a desert island.
-We sometimes imagine a desert island to be a sort of paradise where the sun always shines.
+Most of us have formed an unrealistic(不切实际的) picture of life on a <u>desert island</u>(荒岛).
+We sometimes imagine a desert island to be a sort of paradise(天堂) where the sun always shines.
 Life there is simple and good.
 Ripe fruit falls from the trees and you never have to work.
 The other side of the picture is quite the opposite.
-Life on a desert island is wretched.
-You either starve to death or live like Robinson Crusoe, waiting for a boat which never comes.
-Perhaps there is an element of truth in both these pictures, but few of us have had the opportunity to find out.
-Two men who recently spent five days on a coral island wished they had stayed there longer.
+Life on a desert island is wretched(悲惨的).
+You either <u>starve(饥饿) to death</u> or live like Robinson Crusoe, waiting for a boat which never comes.
+Perhaps there is <u>an element(要素,元素) of truth</u> in both these pictures, but few of us have <u>had the opportunity to</u> find out.
+Two men who recently spent five days on a coral(珊瑚) island wished they had stayed there longer.
 They were taking a badly damaged boat from the Virgin Islands to Miami to have it repaired.
 During the journey, their boat began to sink.
-They quickly loaded a small rubber dinghy with food, matches, and cans of beer and rowed for a few miles across the Caribbean until they arrived at a tiny coral island.
+They quickly loaded a small rubber dinghy(小艇) with food, matches, and cans of beer and rowed for a few miles across the Caribbean until they arrived at a tiny coral island.
 There were hardly any trees on the island and there was no water, but this did not prove to be a problem.
 The men collected rainwater in the rubber dinghy.
-As they had brought a spear gun with them, they had plenty to eat.
-They caught lobster and fish every day, and as one of them put it 'ate like kings'.
-When a passing tanker rescued them five days later, both men were genuinely sorry that they had to leave.
+As they had brought <u>a spear gun</u>(捕鱼枪) with them, they had plenty to eat.
+They caught lobster(龙虾) and fish every day, and as one of them put it 'ate like kings'.
+When a passing tanker(油轮) rescued them five days later, both men <u>were genuinely(真诚地) sorry that</u> they had to leave.
+
+### Expressions
+
+- have an opportunity to do sth.
+- an element of truth/danger
+- starve to death
+- Sb. be genuinely sorry that+句⼦
+- formed an unrealistic picture of a.
+- imagine sth. to be n./adj.
+- a sort of
+- quite the opposite
+- wish that+句⼦
+- load a. with b.
+- as sb. put it…
 
 ## 13 It's Only Me
-
 
 After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.
 She was too excited to do any housework that morning, for in the evening she would be going to a fancy-dress party with her husband.
