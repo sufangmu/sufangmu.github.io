@@ -540,21 +540,21 @@ A few minutes later, I was able to hurry away with precious chalk(粉笔) marks 
 ## 12 Life on a Desert Island
 
 Most of us have formed an unrealistic(不切实际的) picture of life on a <u>desert island</u>(荒岛).
-We sometimes imagine a desert island to be a sort of paradise(天堂) where the sun always shines.
+We sometimes imagine a desert island to be <u>a sort of</u> paradise(天堂) (where the sun always shines).
 Life there is simple and good.
 Ripe fruit falls from the trees and you never have to work.
-The other side of the picture is quite the opposite.
+The other side of the picture is <u>quite the opposite.</u>
 Life on a desert island is wretched(悲惨的).
 You either <u>starve(饥饿) to death</u> or live like Robinson Crusoe, waiting for a boat which never comes.
 Perhaps there is <u>an element(要素,元素) of truth</u> in both these pictures, but few of us have <u>had the opportunity to</u> find out.
-Two men who recently spent five days on a coral(珊瑚) island wished they had stayed there longer.
+Two men (who recently spent five days on a coral(珊瑚) island) wished they had stayed there longer.
 They were taking a badly damaged boat from the Virgin Islands to Miami to have it repaired.
 During the journey, their boat began to sink.
-They quickly loaded a small rubber dinghy(小艇) with food, matches, and cans of beer and rowed for a few miles across the Caribbean until they arrived at a tiny coral island.
+They quickly loaded a small rubber dinghy(小艇) with food, matches(火柴), and cans of beer and rowed for a few miles across the Caribbean until they arrived at a tiny coral island.
 There were hardly any trees on the island and there was no water, but this did not prove to be a problem.
 The men collected rainwater in the rubber dinghy.
 As they had brought <u>a spear gun</u>(捕鱼枪) with them, they had plenty to eat.
-They caught lobster(龙虾) and fish every day, and as one of them put it 'ate like kings'.
+They caught lobster(龙虾) and fish every day, and <u>as one of them put it</u> 'ate like kings'.
 When a passing tanker(油轮) rescued them five days later, both men <u>were genuinely(真诚地) sorry that</u> they had to leave.
 
 ### Expressions
@@ -566,30 +566,40 @@ When a passing tanker(油轮) rescued them five days later, both men <u>were gen
 - formed an unrealistic picture of a.
 - imagine sth. to be n./adj.
 - a sort of
-- quite the opposite
+- quite the opposite  恰恰相反
 - wish that+句⼦
-- load a. with b.
-- as sb. put it…
+- load a. with b.  用b装载a。
+- as sb. put it…  如某人所说
 
 ## 13 It's Only Me
 
 After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.
 She was too excited to do any housework that morning, for in the evening she would be going to a fancy-dress party with her husband.
-She intended to dress up as a ghost and as she had made her costume the night before, she was impatient to try it on.
-Though the costume consisted only of a sheet, it was very effective.
+She intended to dress up as a ghost and as she had made her costume(服装) the night before, she was impatient to try it on.
+Though the costume consisted(由……组成) only of a sheet(床单), it was very effective(有效的).
 After putting it on, Mrs. Richards went downstairs.
 She wanted to find out whether it would be comfortable to wear.
 Just as Mrs. Richards was entering the dining-room, there was a knock on the front door.
-She knew that it must be the baker.
+She knew that it must be the baker(糕点师).
 She had told him to come straight in if ever she failed to open the door and to leave the bread on the kitchen table.
 Not wanting to frighten the poor man, Mrs. Richards quickly hid in the small storeroom under the stairs.
 She heard the front door open and heavy footsteps in the hall.
 Suddenly the door of the storeroom was opened and a man entered.
-Mrs. Richards realized that it must be the man from the Electricity Board who had come to read the metre.
+Mrs. Richards realized that it must be the man from the Electricity Board who had come to <u>read the metre</u>(抄表).
 She tried to explain the situation, saying
 'It's only me', but it was too late.
-The man let out a cry and jumped back several paces.
-When Mrs. Richards walked towards him, he fled, slamming the door behind him.
+The man <u>let out a cry</u> and jumped back several paces(步调).
+When Mrs. Richards walked towards him, he fled(flee,逃走), slamming(砰地关上) the door behind him.
+
+### Expressions
+
+- consist of … 由……组成
+- make yourself comfortable
+- at your own pace 按照自己的节奏
+- The pace of life
+- fancy dress party
+- be impatient to do sth.
+- let out a cry 发出一声呼喊
 
 ## 14 A Noble Gangster 
 
