@@ -574,8 +574,8 @@ When a passing tanker(油轮) rescued them five days later, both men <u>were gen
 ## 13 It's Only Me
 
 After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.
-She was too excited to do any housework that morning, for in the evening she would be going to a fancy-dress party with her husband.
-She intended to dress up as a ghost and as she had made her costume(服装) the night before, she was impatient to try it on.
+She was too excited to do any housework that morning, for in the evening she <u>would be going</u> to a fancy-dress party with her husband.
+She <u>intended to</u> <u>dress up as</u> a ghost and as she had made her costume(服装) the night before, she <u>was impatient to try</u> it on.
 Though the costume consisted(由……组成) only of a sheet(床单), it was very effective(有效的).
 After putting it on, Mrs. Richards went downstairs.
 She wanted to find out whether it would be comfortable to wear.
@@ -585,7 +585,7 @@ She had told him to come straight in if ever she failed to open the door and to 
 Not wanting to frighten the poor man, Mrs. Richards quickly hid in the small storeroom under the stairs.
 She heard the front door open and heavy footsteps in the hall.
 Suddenly the door of the storeroom was opened and a man entered.
-Mrs. Richards realized that it must be the man from the Electricity Board who had come to <u>read the metre</u>(抄表).
+Mrs. Richards realized that it must be the man from the Electricity Board who had come to <u>read the meter</u>(抄表).
 She tried to explain the situation, saying
 'It's only me', but it was too late.
 The man <u>let out a cry</u> and jumped back several paces(步调).
@@ -597,23 +597,51 @@ When Mrs. Richards walked towards him, he fled(flee,逃走), slamming(砰地关�
 - make yourself comfortable
 - at your own pace 按照自己的节奏
 - The pace of life
-- fancy dress party
-- be impatient to do sth.
+- fancy dress party 化妆舞会
+- be impatient to do sth.  迫不及待地想做某事
 - let out a cry 发出一声呼喊
 
-## 14 A Noble Gangster 
+## 14 A Noble Gangster
 
-There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for 'protection'.
-If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
+There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters(歹徒) in return for 'protection'.
+If the money was not paid promptly(准时地), the gangsters would quickly put a man out of business by destroying his shop.
 Obtaining 'protection money' is not a modern crime.
-As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.
-Six hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldiers and settled near Florence.
+As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable(不寻常的) discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.
+Six hundred years ago, Sir John Hawkwood arrived in Italy with <u>a band of</u> soldiers and settled near Florence.
 He soon made a name for himself and came to be known to the Italians as Giovanni Acuto.
-Whenever the Italian city-states were at war with each other, Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded.
+Whenever the Italian city-states were at war with each other, Hawkwood used to hire(雇用) his soldiers to princes(王子) who were willing to pay the high price he demanded.
 In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them.
 Hawkwood made large sums of money in this way.
 In spite of this, the Italians regarded him as a sort of hero.
-When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.
+When he died at the age of eighty, the Florentines gave him a state funeral(葬礼) and had a picture painted which was dedicated(献给) to the memory of 'the most valiant(英勇的) soldier and most notable(著名的) leader, Signor Giovanni Haukodue'.
+
+### Expressions
+
+- need protection
+- provide protection
+- for your own protection
+- a band of 一伙
+- give him a state funeral
+- dedicate yourself/your life to something
+- dedicate something to somebody
+- devote oneself to sth. / doing sth.
+- in memory of sb. / to the memory of sb.  为了纪念某人
+- There was a time when +句⼦
+- pay money to sb.
+- large sums of money
+- put sb. out of business
+- as long ago as
+- make the remarkable discovery that + 句⼦
+- would rather do sth. than do sth.
+- make a name for himself
+- come to do sth.
+- a. be known to b. as c.
+- a. be known as b.
+- be at war with …
+- In times of peace
+- offer to do sth.
+- make money
+- regard a. as b.
 
 ## 15 Fifty Pence Worth of Trouble
 
@@ -634,6 +662,7 @@ He could not find his 50 pence piece anywhere, and what is more, he could not ge
 A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.
 The fire brigade was called and two fire fighters freed George using a special type of grease.
 George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.
+
 ## 16 Mary Had a Little Lamb
 
 Mary and her husband Dimitri lived in the tiny village of Perachora in southern Greece.
