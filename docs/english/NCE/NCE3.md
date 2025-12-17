@@ -603,17 +603,17 @@ When Mrs. Richards walked towards him, he fled(flee,逃走), slamming(砰地关�
 
 ## 14 A Noble Gangster
 
-There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters(歹徒) in return for 'protection'.
-If the money was not paid promptly(准时地), the gangsters would quickly put a man out of business by destroying his shop.
+There was a time (when the owners of shops and businesses in Chicago) had to <u>pay large sums of money to</u> gangsters(歹徒) <u>in return for</u> 'protection'.
+If the money was not paid promptly(准时地), the gangsters would quickly <u>put a man out of business</u> by destroying his shop.
 Obtaining 'protection money' is not a modern crime.
-As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable(不寻常的) discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.
-Six hundred years ago, Sir John Hawkwood arrived in Italy with <u>a band of</u> soldiers and settled near Florence.
-He soon made a name for himself and came to be known to the Italians as Giovanni Acuto.
-Whenever the Italian city-states were at war with each other, Hawkwood used to hire(雇用) his soldiers to princes(王子) who were willing to pay the high price he demanded.
-In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them.
+<u>As long ago as</u> the fourteenth century, an Englishman, Sir John Hawkwood, <u>made the remarkable(不寻常的) discovery</u> that [people would rather pay large sums of money than have their life work destroyed by gangsters].
+Six hundred years ago, Sir John Hawkwood arrived in Italy with <u>a band of</u> soldiers and settled(定居) near Florence.
+He soon <u>made a name for himself</u> and came to be known to the Italians as Giovanni Acuto.
+Whenever the Italian city-states were at war with each other, Hawkwood used to hire(雇用) his soldiers to princes(国君) (who were willing to pay the high price (he demanded)).
+<u>In times of peace,</u> when business was bad, Hawkwood and his men would march(行军) into a city-state, and after <u>burning down</u> a few farms, would <u>offer to go away</u> if protection money was paid to them.
 Hawkwood made large sums of money in this way.
 In spite of this, the Italians regarded him as a sort of hero.
-When he died at the age of eighty, the Florentines gave him a state funeral(葬礼) and had a picture painted which was dedicated(献给) to the memory of 'the most valiant(英勇的) soldier and most notable(著名的) leader, Signor Giovanni Haukodue'.
+When he died at the age of eighty, the Florentines gave him a state funeral(葬礼) and had a picture painted (which was dedicated(献给) to the memory of 'the most valiant(英勇的) soldier and most notable(著名的) leader, Signor Giovanni Haukodue').
 
 ### Expressions
 
@@ -629,23 +629,48 @@ When he died at the age of eighty, the Florentines gave him a state funeral(葬�
 - There was a time when +句⼦
 - pay money to sb.
 - large sums of money
-- put sb. out of business
-- as long ago as
+- put sb. out of business  使某人停业
+- as long ago as  早在
 - make the remarkable discovery that + 句⼦
-- would rather do sth. than do sth.
-- make a name for himself
+- would rather do a. than do b.  我宁愿做a也不愿做b
+- make a name for himself 出名
 - come to do sth.
-- a. be known to b. as c.
+- a. be known to b. as c.    a. 被b. 称为c.
 - a. be known as b.
-- be at war with …
+- be at war with …  与……交战
 - In times of peace
-- offer to do sth.
+- offer to do sth. 主动提出做某事
 - make money
 - regard a. as b.
 
+### when 引导的定语从句
+
+1. when定从修饰的是时间n. (day, year, time ...)
+2. when 必须在其引导的【定从】中做时间状语，即when替代定从中的时间状语
+3. [when] is often replaced by that or dropped in an informal style
+4. prep.+which = when
+
+### if真实条件句VS虚拟语⽓
+
+1. If do/does ..., will do... 现在真实
+2. If did/were..., would do... 现在虚拟
+3. If had done ..., would have done... 过去虚拟
+4. If did ..., did... 过去真实
+
+### have sth. done
+
+1. 叫别⼈为你做某事 Lisa had the roof repaired.
+2. 意外或不幸的遭遇 I had my bike stolen last night.
+
+### whenever
+
+1. 时间状语从句：同when，语⽓更强。 翻译：每当，每次 every time
+2. 让步状语从句：同no matter when。 翻译：⽆论何时 any time
+3. on earth 究竟：When ever (whenever) did you see her?
+
 ## 15 Fifty Pence Worth of Trouble
 
-Children always appreciate small gifts of money.
+Children always appreciate(感谢) small gifts of money.
 Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.
 With some children, small sums go a long way.
 If fifty pence pieces are not exchanged for sweets, they rattle for months inside money boxes.
@@ -662,6 +687,25 @@ He could not find his 50 pence piece anywhere, and what is more, he could not ge
 A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.
 The fire brigade was called and two fire fighters freed George using a special type of grease.
 George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.
+
+### Expressions
+
+- I appreciate your honesty.
+- understanding/interest/concern/support/
+- patience/ trust/time/help/it/that...
+- supply of
+- go a long way
+- be exchanged for sth. exchange a. for b.
+- fill up sth.
+- find one’s way…
+- advise sb. to do sth.
+- On one’s way to sw.
+- roll up one’s sleeves
+- What is more=what’s more
+- rub a. with b.
+- a special type of sth.
+- hear about sth.
+- reward sb. with sth.
 
 ## 16 Mary Had a Little Lamb
 
@@ -683,6 +727,7 @@ Ashamed of having acted so rashly, Dimitri apologized to Aleko for having accuse
 While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.
 When he went outside half an hour later, he was astonished to find that the little black lamb was almost white.
 Its wool, which had been dyed black, had been washed clean by the rain!
+
 ## 17 The Longest Suspension Bridge in the World
 
 Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.
