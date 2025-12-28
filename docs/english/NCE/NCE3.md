@@ -671,38 +671,37 @@ When he died at the age of eighty, the Florentines gave him a state funeral(葬�
 ## 15 Fifty Pence Worth of Trouble
 
 Children always appreciate(感谢) small gifts of money.
-Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.
-With some children, small sums go a long way.
-If fifty pence pieces are not exchanged for sweets, they rattle for months inside money boxes.
-Only very thrifty children manage to fill up a money box.
-For most of them, fifty pence is a small price to pay for a nice big bar of chocolate.
-My nephew, George, has a money box but it is always empty.
-Very few of the fifty pence pieces and pound coins I have given him have found their way there.
+Mum or dad, of course, provides a regular <u>supply of</u> pocket money(零钱), but uncles and aunts are always a source of extra income.
+With(对于) some children, small sums go a long way.
+If fifty pence pieces are not exchanged for sweets, they rattle(使咯咯作响) for months inside money boxes.
+Only very thrifty(节约的) children manage to fill up a money box.
+For most of them, fifty pence i<u>s a small price to pay for</u> a nice big bar of chocolate.
+My nephew(侄子), George, has a money box but it is always empty.
+Very few of the fifty pence pieces and pound coins (I have given him) have found their way there.
 I gave him fifty pence yesterday and advised him to save it.
 Instead, he bought himself fifty pence worth of trouble.
-On his way to the sweet shop, he dropped his fifty pence and it bounced along the pavement and then disappeared down a drain.
+On his way to the sweet shop, he dropped his fifty pence and it bounced(弹起) along the pavement(人行道) and then disappeared down a drain.
 George took off his jacket,
 rolled up his sleeves and pushed his right arm through the drain cover.
 He could not find his 50 pence piece anywhere, and what is more, he could not get his arm out.
-A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.
-The fire brigade was called and two fire fighters freed George using a special type of grease.
+A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly(牢固地) stuck(卡住的).
+The <u>fire brigade</u>(消防队) was called and two fire fighters freed George using a special type of grease(润滑油).
 George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.
 
 ### Expressions
 
 - I appreciate your honesty.
-- understanding/interest/concern/support/
-- patience/ trust/time/help/it/that...
-- supply of
+- supply of 供应
 - go a long way
-- be exchanged for sth. exchange a. for b.
+- be exchanged for sth. 
+- exchange a. for b.
 - fill up sth.
 - find one’s way…
 - advise sb. to do sth.
 - On one’s way to sw.
 - roll up one’s sleeves
 - What is more=what’s more
-- rub a. with b.
+- rub a. with b.  用b擦a。
 - a special type of sth.
 - hear about sth.
 - reward sb. with sth.
