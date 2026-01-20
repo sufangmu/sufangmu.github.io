@@ -268,4 +268,6 @@ nav:
       - '动词': 'english/grammar/动词.md'
       - '从句': 'english/grammar/从句.md'
       - '倒装': 'english/grammar/倒装.md'
-
+    - IELTS:
+      - '学习方法': 'english/IELTS/学习方法.md'
+      - 'TASK': 'english/IELTS/task.md'
