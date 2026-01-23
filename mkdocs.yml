@@ -261,6 +261,7 @@ nav:
       - NCE2: 'english/NCE/NCE2.md'
       - NCE3: 'english/NCE/NCE3.md'
       - NCE4: 'english/NCE/NCE4.md'
+      - Expressions: 'english/NCE/Expressions.md'
     - 语法:
       - '综述': 'english/grammar/综述.md'
       - '语态': 'english/grammar/语态.md'
