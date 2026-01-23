@@ -29,24 +29,6 @@ The hunt <u>went on</u>(继续进行) for several weeks,
 but the puma was not caught.
 <u>It is disturbing(烦扰的) to think that</u> a dangerous wild animal is still <u>at large</u>(在逃的) in the quiet countryside.
 
-### Expressions
-
-- spot sb. doing sth.
-- feel obliged to do sth.
-- a trail of
-- cling to sb./sth.
-- sth. convinced sb. that + 句⼦
-- sb. was/were convinced that + 句⼦
-- It is disturbing to think that + 句⼦
-- at large
-- be found in
-- take sth. seriously
-- sth. proved adj.
-- sb. confirmed that + 句⼦
-- claim to have done sth.
-- find sb. doing sth.
-- go on
-
 ## 02 Thirteen Equals One
 
 Our vicar(牧师) is always <u>raising money</u>(筹钱) <u>for one cause or another</u>,
@@ -1870,7 +1852,6 @@ and was informed that if any further complaints were lodged against him, he woul
 The Ombudsman's prompt action at once put an end to an unpleasant practice which might have gone unnoticed.
 
 ## 54 Instinct or Cleverness
-
 
 We have been brought up to fear insects.
 We regard them as unnecessary creatures that do more harm than good.
