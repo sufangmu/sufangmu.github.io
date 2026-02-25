@@ -1,7 +1,5 @@
 ## 01 Finding Fossil Man
 
-
-
 We can read of things that happened 5, 000 years ago in the Near East,
 where people first learned to write.
 But there are some parts of the world where even now people cannot write.
@@ -16,9 +14,8 @@ Fortunately, however, ancient men made tools of stone, especially flint,
 because this is easier to shape than other kinds.
 They may also have used wood and skins, but these have rotted away.
 Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.
+
 ## 02 Spare That Spider
-
-
 
 Because they destroy so many insects, and insects include some of the greatest enemies of the human race.
 Insects would make it impossible for us to live in the world;
@@ -37,8 +34,6 @@ Spiders are busy for at least half the year in killing insects.
 It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.
 It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.
 ## 03 Matterhorn Man
-
-
 
 Modern alpinists try to climb mountains by a route which will give them good sport,
 and the more difficult it is, the more highly it is regarded.
@@ -63,8 +58,6 @@ For men accustomed to eating seven-course dinners and sleeping between fine line
 the change to the Alps must have been very hard indeed.
 ## 04 Seeing Hands
 
-
-
 Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls.
 One case concerns an 11-year-old schoolgirl Vera Petrova,
 who has normal vision but who can also perceive things with different parts of her skin, and through solid walls.
@@ -82,8 +75,6 @@ Other experiments showed that her knees and shoulders had a similar sensitivity.
 During all these tests Vera was blindfold; and indeed, except when blindfold she lacked the ability to perceive things with her skin.
 It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.
 ## 05 Youth
-
-
 
 People are always talking about 'the problem of youth'.
 If there is one -- which I take leave to doubt
@@ -110,8 +101,6 @@ as if mere age were a reason for respect.
 I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.
 ## 06 The Sporting Spirit
 
-
-
 I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield.
 Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.
 Nearly all the sports practised nowadays are competitive.
@@ -123,8 +112,6 @@ But the significant thing is not the behaviour of the players but the attitude o
 and, behind the spectators, of the nations who work themselves into furies over these absurd contests,
 and seriously believe -- at any rate for short periods -- that running, jumping and kicking a ball are tests of national virtue.
 ## 07 Bats
-
-
 
 Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.
 To get a full appreciation of what this means we must turn first to some recent human inventions.
@@ -180,8 +167,6 @@ The episode could reasonably serve as a unique epic of royal espionage!
 
 ## 10 Silicon Valley
 
-
-
 Technology trends may push Silicon Valley back to the future.
 Carver Mead, a pioneer in integrated circuits and a professor of computer science at the California Institute of Technology, notes there are now workstations that enable engineers to design, test and produce chips right on their desks, much the way and editor creates a newsletter on a Macintosh.
 As the time and cost of making a chip drop to a few days and a few hundred dollars, engineers may soon be free to let their imaginations soar without being penalized by expensive failures.
@@ -195,8 +180,6 @@ For instance, Alex Au, a Stanford Ph. D. from Hong Kong, has set up a Taiwan fac
 India-born N. Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri.
 Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.
 ## 11 How to Grow Old
-
-
 
 Some old people are oppressed by the fear of death.
 In the young there is a justification for this feeling.
@@ -226,8 +209,6 @@ knowing that others will carry on what I can no longer do,
 and content in the thought that what was possible has been done.
 ## 12 Banks and Their Customers
 
-
-
 When anyone opens a current account at a bank, he is lending the bank money,
 repayment of which he may demand at any time either in cash or by drawing a cheque in favour of another person.
 Primarily, the banker-customer relationship is that of debtor and creditor--
@@ -247,8 +228,6 @@ For this reason there is no risk to the customer in the practice, adopted by ban
 If this facilitates forgery, it is the bank which will lose, not the customer.
 ## 13 The Search for Oil
 
-
-
 The deepest holes of all are made for oil, and they go down to as much as 25, 000 feet.
 But we do not need to send man down to get the oil out, as we must with other mineral deposits.
 The holes are only borings, less than a foot in diameter.
@@ -266,8 +245,6 @@ This pressure must be under control, and we control it by means of the mud which
 We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.
 We want it to stay down the hole until we can lead it off in a controlled manner.
 ## 14 The Butterfly Effect
-
-
 
 Beyond two or three days, the world's best weather forecasts are speculative,
 and beyond six or seven they are worthless.
@@ -314,8 +291,6 @@ for fear the agents of other firms should be able to trace the kind of research 
 
 ## 16 The Modern City
 
-
-
 In the organization of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected.
 Modern industry is based on the conception of the maximum production at lowest cost,
 in order that an individual or a group of individuals may earn as much money as possible.
@@ -354,8 +329,6 @@ equally susceptible to the disease, are the basis of a profitable fur industry.
 The question became one of whether Man could control the disease he had invented.
 
 ## 18 Porpoises
-
-
 
 There has long been a superstition among mariners that porpoises will save drowning men by pushing them to the surface,
 or protect them from sharks by surrounding them in defensive formation.
@@ -406,8 +379,6 @@ the first group began to show some personality disorders while the others seemed
 The implications of all this were that it was not the disturbance of sleep that mattered, but the disturbance of dreaming.
 ## 20 Snake Poison
 
-
-
 How in came about that snakes manufactured poison is a mystery.
 Over the periods their saliva, a mild, digestive juice like our own, was converted into a poison that defies analysis even today.
 It was not forced upon them by the survival competition;
@@ -432,9 +403,8 @@ Be that as it may, the nerve poison does its business with man far more quickly 
 This, however, means nothing.
 Snakes did not acquire their poison for use against man but for use against prey such as rats and mice,
 and the effects on these of viperine poison is almost immediate.
+
 ## 21 William S. Hart and the Early Western Film
-
-
 
 William S.Hart was, perhaps, the greatest of all Western stars,
 for unlike Gary Cooper and John Wayne he appeared in nothing but Westerns.
@@ -465,8 +435,6 @@ We still do; living in a world in which undeclared aggression, war, hypocrisy,
 chicanery, anarchy and impending immolation are part of our daily lives,
 we all want a code to live by.
 ## 22 Knowledge and Progress
-
-
 
 Surely because progress of a particular kind is actually taking place around us
 and is becoming more and more manifest.
@@ -499,8 +467,6 @@ We have to ask ourselves very seriously
 what will happen if this twofold use of knowledge,
 with its ever-increasing power, continues.
 ## 23 Bird Flight
-
-
 
 No two sorts of birds practise quite the same sort of flight;
 the varieties are infinite; but two classes may be roughly seen.
@@ -567,8 +533,6 @@ Beauty in terms of our human meanings is meaningless.
 
 ## 25 Non-Auditory Effects of Noise
 
-
-
 Many people in industry and the Services,
 who have practical experience of noise,
 regard any investigation of this question as a waste of time;
@@ -607,9 +571,8 @@ it must be so small that present methods of psychiatric diagnosis cannot find it
 That does not prove that it does not exist; but it does mean
 that noise is less dangerous than, say being brought up in an orphanage
 --which really is a mental health hazard.
+
 ## 26 The Past Life of the Earth
-
-
 
 It is animals and plants which lived in or near water whose remains are most likely to be preserved,
 for one of the necessary conditions of preservation is quick burial,
@@ -646,8 +609,6 @@ came out to feed and suffered exactly the same fate.
 There are also endless numbers of birds in the tar as well.
 ## 27 The vasa
 
-
-
 From the seventeenth-century empire of Sweden,
 the story of a galleon that sank at the start of her maiden voyage in 1628 must be one of the strangest tales of the sea.
 For nearly three and a half centuries she lay at the bottom of Stockholm harbour until her discovery in 1956.
@@ -681,8 +642,6 @@ The lower gun-ports were now below water and the inrush sealed the ship's fate.
 In that first glorious hour, the mighty Vasa, which was intended to rule the Baltic,
 sank with all flags flying--in the harbour of her birth.
 ## 28 Patients and Doctors
-
-
 
 This is a sceptical age,
 but although our faith in many of the things in which our forefathers fervently believed has weakened,
@@ -741,8 +700,6 @@ riding on its air cushion over a single rail, which it never touches, at speeds,
 
 ## 30 Exploring the Sea-Floor
 
-
-
 Our knowledge of the oceans a hundred years ago was confined to the two-dimensional shape of the sea surface
 and the hazards of navigation presented by the irregularities in depth of the shallow water close to the land.
 The open sea was deep and mysterious,
@@ -773,8 +730,6 @@ and near its lower reaches there is a long tailing-off which is almost certainly
 material transported out to deep water after being eroded from the continental masses.
 ## 31 The Sculptor Speaks
 
-
-
 Appreciation of sculpture depends upon the ability to respond to form in 3 dimensions.
 That is perhaps why sculpture has been described as the most difficult of all arts;
 certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions.
@@ -797,8 +752,6 @@ And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom
 a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.
 From these he can go on to appreciate more complex forms or combinations of several forms.
 ## 32 Galileo Reborn
-
-
 
 In his own lifetime Galileo was the centre of violent controversy, but the scientific dust has long since settled,
 and today we can see even his famous clash with the Inquisition in something like its proper perspective.
@@ -827,9 +780,8 @@ that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s 
 We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day,
 as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth;
 and if a single curved glass would distort nature, how much more would a pair of them?
+
 ## 33 Education
-
-
 
 Education is one of the key words of our time.
 A man without an education, many of us believe,
@@ -859,8 +811,6 @@ therefore the jungles and the savannahs know of no 'juvenile delinquency'.
 No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.
 ## 34 Adolescence
 
-
-
 Parents are often upset when their children praise the homes of their friends and regard it as a slur on their own cooking, or cleaning, or furniture,
 and often are foolish enough to let the adolescents see that they are annoyed.
 They may even accuse them of disloyalty, or make some spiteful remark about the friends' parents.
@@ -889,8 +839,6 @@ but on the whole this is a healthier attitude both for the child and the parent.
 It is always wiser and safer to face up to reality, however painful it may be at the moment.
 ## 35 Space Odyssey
 
-
-
 The Moon is likely to become the industrial hub of the Solar System supplying the rocket fuels for its ships,
 easily obtainable from the lunar rocks in the form of liquid oxygen.
 The reason lies in its gravity.
@@ -918,8 +866,6 @@ cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at le
 It seems ideal for settlement.
 ## 36 The Cost of Government
 
-
-
 If a nation is essentialy disunited, it is left to the government to hold it together.
 This increases the expense of government, and reduces correspondingly the amount of economic resources that could be used for developing the country.
 And it should not be forgotten how small those resources are in a poor and backward country.
@@ -945,8 +891,6 @@ But if a nation is disunited, the government cannot be sure that the actions of 
 and it will have to watch, check, and control the people accordingly.
 A disunited nation therefore has to incur unduly high costs of government.
 ## 37 The Process of Ageing
-
-
 
 At the age of twelve years, the human body is at its most vigorous.
 It has yet to reach its full size and strength, and its owner his or her full intelligence: but at this age the likelihood of death is least.
@@ -981,8 +925,6 @@ an illness which at 12 would knock us over, at 80 can knock us out, and into our
 If we could stay as vigorous as we are at twelve,
 it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.
 ## 38 Water and the Traveller
-
-
 
 Contamination of water supplies is usually due to poor sanitation close to water sources,
 sewage disposal into the sources themselves, leakage of sewage into distribution systems or contamination with industrial or farm waste.
@@ -1074,8 +1016,6 @@ gravity is the force that drives them in a continual attempt to restore the ocea
 
 ## 41 Training Elephants
 
-
-
 Two main techniques have been used for training elephants, which we may call respectively the tough and the gentle.
 The former method simply consists of setting an elephant to work and beating him until he does what is expected of him.
 Apart from any moral considerations this is a stupid method of training,
@@ -1112,8 +1052,6 @@ The elephant is not immediately susceptible to such blandishments, however, and 
 These movements are controlled by the trainer with the metal-pointed stick,
 and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.
 ## 42 Recording an Earthquake
-
-
 
 An earthquake comes like a thief in the night, without warning.
 It was necessary, therefore, to invent instruments that neither slumbered nor slept.
@@ -1163,8 +1101,6 @@ It was from the study of these that so much was learnt about the interior of the
 The third, or main wave is the slowest and has travelled round the earth through the surface rocks.
 ## 43 Are There Strangers in Space
 
-
-
 We must conclude from the work of those who have studied the origin of life,
 that given a planet only approximately like our own, life is almost certain to start.
 Of all the planets in our solar system, we are now pretty certain the Earth is the only one on which life can survive.
@@ -1208,8 +1144,6 @@ Without something of this kind,
 searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous
 and absurdly wandering the streets in the hope of a chance encounter.
 ## 44 Patterns of Culture
-
-
 
 Custom has not commonly been regarded as a subject of any great moment.
 The inner workings of our own brains we feel to be uniquely worthy of investigation,
@@ -1261,8 +1195,6 @@ It was necessary to recognize that these institutions which are based on the sam
 must be considered together, our own among the rest.
 ## 45 Of Men and Galaxies
 
-
-
 In man's early days, competition with other creatures must have been critical.
 But this phase of our development is now finished.
 Indeed, we lack practice and experience nowadays in dealing with primitive conditions.
@@ -1305,8 +1237,6 @@ We cannot think outside the particular patterns that our brains are conditioned 
 to be more accurate we can think only a very little way outside and then only if we are very original.
 ## 46 Hobbies
 
-
-
 A gifted American psychologist has said, 'Worry is a spasm of the emotion;
 the mind catches hold of something and will not let it go.'
 It is useless to argue with the mind in this condition.
@@ -1347,8 +1277,6 @@ Each day is a holiday, and ordinary holidays, when they come, are grudged as enf
 Yet to both classes, the need of an alternative outlook, of a change of atmosphere of a diversion of effort, is essential.
 Indeed, it may well be that those whose work is their pleasure are those who most need the means of banishing it at intervals from their minds.
 ## 47 The Great Escape
-
-
 
 Economy is one powerful motive for camping,
 since after the initial outlay upon equipment, or through hiring it, the total expense can be far less than the cost of hotels.
@@ -1393,8 +1321,6 @@ But most probably it will all depend upon campers themselves: how many heath fir
 in short, whether or not they wholly alienate landowners and those who live in the countryside.
 Only good scouting is likely to preserve the freedoms so dear to the heart of the eternal Boy Scout.
 ## 48 Planning a Share Portfolio
-
-
 
 There is no shortage of tipsters around offering 'get-rich-quick' opportunities.
 But if you are a serious private investor, leave the Las Vegas mentality to those with money to fritter.

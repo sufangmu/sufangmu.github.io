@@ -29,6 +29,24 @@ The hunt <u>went on</u>(继续进行) for several weeks,
 but the puma was not caught.
 <u>It is disturbing(烦扰的) to think that</u> a dangerous wild animal is still <u>at large</u>(在逃的) in the quiet countryside.
 
+### Expressions
+
+1. spot sb. doing sth.
+2. feel obliged to do sth.
+3. a trail of
+4. cling to sb./sth.
+5. sth. convinced sb. that + 句⼦
+6. sb. was/were convinced that + 句⼦
+7. It is disturbing to think that + 句⼦
+8. at large
+9. be found in
+10. take sth. seriously
+11. sth. proved adj.
+12. sb. confirmed that + 句⼦
+13. claim to have done sth.
+14. find sb. doing sth.
+15. go on
+
 ## 02 Thirteen Equals One
 
 Our vicar(牧师) is always <u>raising money</u>(筹钱) <u>for one cause or another</u>,
@@ -2073,7 +2091,6 @@ In this way self-confidence grows, first from mastering a subject, then from bei
 Collecting, by occupying spare time so constructively, makes a person contented, with no time for boredom.
 
 ## 60 Too Early and Too Late
-
 
 Punctuality is a necessary habit in all public affairs in civilized society.
 Without it, nothing could ever be brought to a conclusion; everything would be in a state of chaos.
