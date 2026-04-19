@@ -709,23 +709,37 @@ George was not too upset by his experience because the lady who owns the sweet s
 ## 16 Mary Had a Little Lamb
 
 Mary and her husband Dimitri lived in the tiny village of Perachora in southern Greece.
-One of Mary's prize possessions was a little white lamb which her husband had given her.
+One of Mary's prize(珍贵的) possessions was a little white lamb(小羊) which her husband had given her.
 She kept it tied to a tree in a field during the day and went to fetch it every evening.
 One evening, however the lamb was missing.
-The rope had been cut, so it was obvious that the lamb had been stolen.
+The rope had been cut, so it was obvious that the lamb had been stolen(steal).
 When Dimitri came in from the fields, his wife told him what had happened.
 Dimitri at once set out to find the thief.
 He knew it would not prove difficult in such a small village.
-After telling several of his friends about the theft,
+After telling several of his friends about the theft(盗窃),
 Dimitri found out that his neighbour, Aleko, had suddenly acquired a new lamb.
-Dimitri immediately went to Aleko's house and angrily accused him of stealing the lamb.
+Dimitri immediately went to Aleko's house and angrily accused(指责) him of stealing the lamb.
 He told him he had better return it or he would call the police.
 Aleko denied taking it and led Dimitri into his backyard.
 It was true that he had just bought a lamb he explained, but his lamb was black.
-Ashamed of having acted so rashly, Dimitri apologized to Aleko for having accused him.
+Ashamed(惭愧的) of having acted so rashly, Dimitri apologized(道歉) to Aleko for having accused him.
 While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.
 When he went outside half an hour later, he was astonished to find that the little black lamb was almost white.
-Its wool, which had been dyed black, had been washed clean by the rain!
+Its wool, which had been dyed(染色) black, had been washed clean by the rain!
+
+### Expressions
+
+- prize money
+- tie sb. to sth. = sb. be tied to sth.
+- accuse sb. of doing sth.
+- deny doing ... / sb. deny that + 句⼦
+- be ashamed of sth. /doing sth. / having done sth.
+- apologize to sb.
+- apologize for (doing) something
+- dye something + adj.
+- tell sb. about sth.
+- It’s true that+句⼦, but+句⼦
+- be astonished to find (that) + 句⼦
 
 ## 17 The Longest Suspension Bridge in the World
 
@@ -748,9 +762,30 @@ However, size and strength are not the only important things about this bridge.
 Despite its immensity, it is both simple and elegant,
 fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.
 
+### Expressions
+
+- agreeable/pleasant + situation/man/day
+- be located in/near
+- a span of
+- life span
+- a length of / lengths of +rope/pipe/wire
+- It is estimated that + 句⼦
+- sb. estimate that + 句⼦
+- Little / not much/ not everything is known about a.
+- describe a. as b.
+- in the midst of
+- by no means
+- be considered to be adj./n.
+- sth. be named after sb.
+- join a. to b. = connect a. to b.
+- be taken into account = take sth. into account
+- a height of
+- be suspended from a.
+- be packed with...
+- a third of sth... 三分之⼀
+- fulfill sb’s dream…
+
 ## 18 Electric Currents in Modern Art 
-
-
 
 Modern sculpture rarely surprises us any more.
 The idea that modern art can only be seen in museums is mistaken.
@@ -771,6 +806,27 @@ These lights flickered continuously like traffic lights which have gone mad.
 Sparks were emitted from small black boxes and red lamps flashed on and off angrily.
 It was rather like an exhibition of prehistoric electronic equipment.
 These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!
+
+### Expressions
+
+- make a sculpture / create a sculpture
+- be mistaken about sth./sb.
+- Oddly enough, ...句⼦
+- be attached to sb./sth. = attach a. to b.
+- get an electric shock
+- receive an electric shock
+- give you electric shocks
+- not any more = not any longer = no longer
+- The idea that+句⼦ is mistaken.
+- take no interest in
+- in response to
+- be familiar to sb.
+- go mad
+- on and o
+- It was rather like ...
+- seemed designed ...
+- be designed to do sth.
+
 ## 19 A Very Dear Cat
 
 Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay's cat.
@@ -792,6 +848,31 @@ He looked very well, though he was rather thirsty, for he drank half a bottle of
 The police were astounded when Mrs. Ramsay told them what she had done.
 She explained that Rastus was very dear to her.
 Considering the amount she paid, he was dear in more ways than one!
+
+### Expressions
+
+- be dear to somebody
+- a considerable amount/number of sth.
+- in an orderly fashion/manner
+- anonymous + letter/ (phone) call
+- remain anonymous
+- a ransom of +钱
+- It astounded sb. that +句⼦
+- share sth. with sb.
+- take a short/long walk
+- get worried…
+- in safe hands…
+- at first…
+- go to the police
+- make sth. clear…
+- change sb’s mind
+- follow sb’s instructions...
+- keep sb’s word
+- sure enough
+- sb. explained that + 句⼦
+- Considering+ n., 句⼦
+- in more ways than one
+
 ## 20 Pioneer Pilots 
 
 In 1908 Lord Northcliffe offered a prize of ￡1, 000 to the first man who would fly across the English Channel.
@@ -813,7 +894,27 @@ When he landed near Dover, the first person to greet him was a local policeman.
 Latham made another attempt a week later and got within half a mile of Dover,
 but he was unlucky again.
 His engine failed and he landed on the sea for the second time.
-## 21 Daniel Mendoza
+
+### Expressions
+
+- offer sth. to sb. = offer sb. sth.
+
+- a prize of +money
+
+- make an attempt to do sth.
+
+- attempt to do sth.
+
+- be forced to do sth.
+
+- be picked up by a. ...
+
+- on the same day
+
+- It looked as if/though
+
+- ## 21 Daniel Mendoza
+
 
 Boxing matches were very popular in England two hundred years ago.
 In those days, boxers fought with bare fists for prize money.
@@ -840,8 +941,35 @@ He earned enormous sums of money and was paid as much as ￡100 for a single app
 Despite this, he was so extravagant that he was always in debt.
 After he was defeated by a boxer called Gentleman Jackson, he was quickly forgotten.
 He was sent to prison for failing to pay his debts and died in poverty in 1836.
-## 22 By Heart
 
+### Expressions
+
+- with sb’s bare hands
+- Technically speaking, ...+ 句⼦
+- gain/grow/increase in popularity
+- great minds think alike
+- rise to fame (=become famous)
+- quarrel/complain/ be disappointed...+bitterly
+- bet (¥) on sth.
+- I bet + 句⼦
+- live in poverty
+- Because of + 单词/短语
+- be born in + 年份
+- draw up
+- a set of …
+- change ... into ... N2L66 turn ... into ...
+- bring ... to ...
+- In sb’s day
+- be quick to do sth.
+- in fact …
+- turn against sb.
+- It is clear that + 句⼦
+- settle the argument
+- It was not until ... that + 句⼦
+- as much as ... half as much as L4
+- be in debt
+
+## 22 By Heart
 
 Some plays are so successful that they run for years on end.
 In many ways, this is unfortunate for the poor actors who are required to go on repeating the same lines night after night.
@@ -867,8 +995,34 @@ With this, he hurried off the stage.
 Much to the aristocrat's amusement,
 the gaoler returned a few moments later with a pair of glasses and the usual copy of the letter which he proceeded to read to the prisoner.
 
-## 23 One Man's Meat is Another Man's Poison
+### Expressions
 
+- play the role of
+- sb. be cast in the role of = cast sb. in the role of
+- the curtain goes up / rises / comes down falls
+- a blank sheet of paper
+- squinting at
+- In the dim light
+- proceed to do sth.
+- on end
+- In many ways
+- be required to do sth.
+- expect sb. to do sth.
+- be expected to do sth.
+- learn/know sth. by heart...
+- have cause to do sth.
+- sb. insisted that + 句⼦(should do).
+- be written out in full
+- play a joke on sb.
+- present sth. to sb.
+- look on
+- at last
+- be anxious to do sth.
+- stare at
+- read sth. to sb.
+- much to sb’s sth.
+
+## 23 One Man's Meat is Another Man's Poison
 
 People become quite illogical when they try to decide what can be eaten and what cannot be eaten.
 If you lived in the Mediterranean, for instance, you would consider octopus a great delicacy.
@@ -894,8 +1048,34 @@ we saw that there were snails everywhere:
 they had escaped from the paper bag
 and had taken complete possession of the hall! I have never be able to look at a snail since then.
 
-## 24 A Skeleton in the Cupboard
+### Expressions
 
+- One man's meat is another man's poison
+- it is illogical to do sth.
+- turn sb’s stomach
+- sick to my stomach
+- animal fat
+- a received more abuse than
+- associate a with b
+- appeal to sb.
+- After a heavy shower...
+- be in the shower 淋浴
+- take a shower
+- take a stroll... go for a stroll...
+- have the impulse to do sth.
+- dozens of sth. sb.
+- for instance
+- at the idea of...
+- The sad truth is that+句⼦
+- be brought up to do sth
+- stick to sth.
+- notice sb. doing sth.
+- be delighted to do sth.
+- stay to dinner = stay for dinner
+- to sb’s dismay
+- take possession of sth.
+
+## 24 A Skeleton in the Cupboard
 
 We often read in novels how a seemingly respectable person
 or family has some terrible secret which has been concealed from strangers for years.
@@ -923,8 +1103,28 @@ But George was unsympathetic.
 'Oh, that,' he said with a smile as if he were talking about an old friend.
 'That's Sebastian. You forget that I was a medical student once upon a time.'
 
-## 25 The Cutty Sark
+### Expressions
 
+- a skeleton in the cupboard/closet
+- sth. be concealed from sb. = conceal sth. from sb.
+- drama queen
+- ruin my day
+- science fiction
+- to varying degrees
+- in the drawer / from the drawer
+- be petrified of sth.
+- medical student/school
+- make one’s hair stand on end
+- in sb’s youth
+- show sb. to sw.
+- bring sth. with sb.
+- it give sb. the impression that + 句⼦
+- be about to do sth.
+- leap out at sb.
+- once upon a time
+- It is all very well .... , but not in reality.
+
+## 25 The Cutty Sark
 
 One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can still be seen at Greenwich.
 She stands on dry land and is visited by thousands of people each year.
@@ -953,8 +1153,24 @@ She arrived in England a week after the Thermopylae.
 Even this was remarkable, considering that she had had so many delays.
 There is no doubt that if she had not lost her rudder she would have won the race easily.
 
-## 26 Wanted a Large Biscuit Tin
+### Expressions
 
+- a new era / the beginning/end of an era
+- a. be fitted with b.
+- delay in doing sth.
+- a. be replaced by b.
+- take the lead (in doing sth.)
+- lose one’s lead
+- be struck by
+- from side to side
+- it became impossible to do sth.
+- with great dificulty
+- there is a danger that + 句⼦
+- call in on/at
+- by now
+- There is no doubt that + 句⼦
+
+## 26 Wanted a Large Biscuit Tin
 
 No one can avoid being influenced by advertisements.
 Much as we may pride ourselves on our good taste,
@@ -983,8 +1199,33 @@ It had been baked by a college student who had used over 1, 000 pounds of flour,
 It was so heavy that a crane had to be used to remove it from the lorry.
 The manufacturers had to pay more money than they had anticipated, for they bought the biscuit from the student for $24, 000.
 
-## 27 Nothing to Sell and Nothing to Buy
+### Expressions
 
+- bad/good/positive etc influence (on somebody)
+- have an influence on somebody/something
+- be influenced by ..
+- pride oneself on (doing) something = be proud of
+- have good/bad taste in sth.
+- exert a subtle/some influence on/over sb.
+- have a subtle mind
+- classify a. as/under b.
+- say the magic word
+- free samples of sth.
+- devise a way/plan to
+- capture the attention of sb. = capture sb’s attention
+- in the boot of sb’s car
+- It is anticipated that + 句⼦
+- sb. anticipate that + 句⼦
+- avoid being done
+- be free to do sth…
+- In sb’s efforts to do sth.
+- get something for nothing
+- enable sb to do sth.
+- a. have made it possible for sb. to do sth.
+- come along
+- buy sth. from sb.
+
+## 27 Nothing to Sell and Nothing to Buy
 
 It has been said that everyone lives by selling something.
 In the light of this statement, teachers live by selling knowledge,
@@ -1011,8 +1252,31 @@ he may even, in times of real need, do a little work; but he will never sacrific
 We often speak of tramps with contempt and put them in the same class as beggars,
 but how many of us can honestly say that we have not felt a little envious of their simple way of life and their freedom from care?
 
-## 28 Five Pounds Too Dear
+### Expressions
 
+- question/doubt the wisdom of (doing)  something
+- give sb. spiritual comfort
+- grudge doing something
+- have/hold a grudge against sb.
+- die/treat/do sth. with dignity
+- have consequences
+- be afflicted with/by something 受某事折磨
+- with great/considerable ease (=very easily)
+- love of nature
+- speak of/treat sb./sth. with contempt
+- be/feel/get/become envious of sb.
+- live by doing sth.
+- in the light of sth. / in light of
+- in terms of
+- It is difficult to do sth.
+- seem to be
+- be the exception to the rule
+- in doing something
+- choose to do sth.
+- be free from sth.
+- in the open (air)
+
+## 28 Five Pounds Too Dear
 
 Small boats loaded with wares sped to the great liner as she was entering the harbour.
 Before she had anchored, the men from the boats had climbed on board
@@ -1041,6 +1305,38 @@ Though he kept throwing up his arms in despair, he readily accepted the ￡5 I g
 I felt especially pleased with my wonderful bargain--until I got back to the ship.
 No matter how hard I tried,
 it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!
+
+### Expressions
+
+- on the deck
+- tempt somebody into doing something
+- tempt somebody to do something
+- be tempted to do something 忍不住做某事
+- bargain with sb.
+- make a bargain with... 达成协议
+- be assailed by sb.
+- be inscribed on something
+- as a special/personal favor (to sb.)
+- do me a favor
+- it is outrageous (that) 太离谱了 太不像话了
+- thrust sth. into sw. (my hands)
+- speed to sw.
+- sb. have no intention of doing sth.
+- I can’t conceal the fact that + 句⼦
+- sb. be impressed by sth.
+- go to great lengths to do sth. 竭尽全⼒做某事
+- prove that + 句⼦
+- get rid of sb.
+- at the base of sth.
+- let me have it
+- indicate that + 句⼦
+- reduce the price to $
+- keep doing sth.
+- keep on doing sth. 
+- throw up one’s arms ...
+- get back to sw.
+- fill a. with b.
+- to this day
 
 ## 29 Funny or Not
 
@@ -1071,8 +1367,30 @@ To compensate for his unpleasant experiences in hospital,
 the man drank a little more than was good for him.
 In the process, he enjoyed himself thoroughly and kept telling everybody how much he hated hospitals.
 He was still mumbling something about hospitals at the end of the party when he slipped on a piece of ice and broke his left leg.
-## 30 The Death of a Ghost
 
+### Expressions
+
+- comic book/movie/novel
+- have a universal appeal
+- pester somebody to do something
+- dread doing something
+- dread somebody doing something
+- make a complete/quick/speedy/slow recovery
+- console sb./yourself that + 句⼦
+- compensate (for something) = make up for
+- be bound up with
+- find it hard to do sth.
+- make sb. laugh to tears...
+- stem from…
+- come into fashion
+- base a. on b.
+- judge for yourself
+- do one’s best...(to do sth.)
+- take heart …
+- be good for sb.
+- in the process
+
+## 30 The Death of a Ghost
 
 For years, villagers believed that Endley farm was haunted.
 The farm was owned by two brothers, Joe and Bob Cox.
@@ -1103,8 +1421,23 @@ He used to sleep during the day and work at night,
 quite unaware of the fact that he had become the ghost of Endley.
 When he died, however, his brothers found it impossible to keep the secret any longer.
 
-## 31 A Lovable Eccentric
+### Expressions
 
+- stay overnight in the hay
+- in the moonlight
+- suspect (that) + 句⼦ a regiment of
+- be killed in action
+- for years
+- stay up
+- it became an accepted fact that
+- be supposed to
+- remain in doing
+- be none other than
+- think it one’s duty to do sth.
+- keep sb. in hiding
+- find it impossible to do sth.
+
+## 31 A Lovable Eccentric
 
 True eccentrics never deliberately set out to draw attention to themselves.
 They disregard social conventions without being conscious that they are doing anything extraordinary.
@@ -1133,8 +1466,27 @@ for though the pictures were supposed to be the work of famous artists,
 they had in fact been painted by Dickie.
 It took him four years to stage this elaborate joke simply to prove that critics do not always know what they are talking about.
 
-## 32 A Lost Ship
+### Expressions
 
+- disregard social conventions
+- be conscious of (doing) something
+- sb. be conscious that + 句⼦
+- daily routine ⽇常事务
+- dump sth. on sth.
+- be apologetic about/for sth.
+- reprimand sb. for (doing) sth.
+- elaborate plan/design/meal
+- draw attention to sb.
+- win sb. sth.
+- add a. to b.
+- up to the time of sth.
+- go on foot
+- be caught in
+- sb. request to do sth.
+- present sb. with sth.
+- invite sb. to do sth.
+
+## 32 A Lost Ship
 
 The salvage operation had been a complete failure.
 The small ship, Elkor, which had been searching the Barents Sea for weeks, was on its way home.
@@ -1161,8 +1513,18 @@ The Karen had been sailing in a convoy to Russia when she was torpedoed by an en
 This was later confirmed by a naval official at the Ministry of Defence after the Elkor had returned home.
 All the items that were found were sent to the War Museum.
 
-## 33 A Day to Remember
+### Expressions
 
+- salvage operation
+- a cargo of
+- piece together
+- in a convoy
+- a naval officer
+- sb. be under the impression that+句⼦
+- together with
+- come to light
+
+## 33 A Day to Remember
 
 We have all experienced days when everything goes wrong.
 A day may begin well enough, but suddenly everything seems to get out of control.
@@ -1192,8 +1554,38 @@ In the meantime, the lorry driver had to sweep up hundreds of broken bottles.
 Only two stray dogs benefited from all this confusion, for they greedily devoured what was left of the cake.
 It was just one of those days!
 
-## 34 A Happy Discovery
+### Expressions
 
+- a prelude to something
+- unforeseen + changes/problems/circumstances
+- a series of
+- be a catastrophe for sb.
+- in the suburbs / a suburb of city
+- collide with=run into
+- get into a panic
+- draw up alongside
+- slide off/open
+- stray dogs
+- There is some confusion about sth.
+- get out of control
+- What invariably happens is that+句⼦
+- set up a chain of reactions
+- keep an eye on sb.
+- be/speak/talk on the phone
+- hang up (on sb.)
+- attend to sb./sth.
+- reduce sb. to tears
+- on a big/large/small scale
+- drawing up alongside
+- rush hour
+- pull up
+- all of a sudden = suddenly
+- pile up
+- get the traffic on the move
+- sweep up
+- benefit from sth.
+
+## 34 A Happy Discovery
 
 Antique shops exert a peculiar fascination on a great many people.
 The more expensive kind of antique shop where rare objects are beautifully displayed in glass cases
@@ -1221,8 +1613,33 @@ Glancing at it briefly the dealer told him that it was worth ￡50.
 Frank could hardly conceal his excitement, for he knew that he had made a real discovery.
 The tiny painting proved to be an unknown masterpiece by Correggio and was worth hundreds and thousands of pounds.
 
-## 35 Justice was Done
+### Expressions
 
+- antique shop/store/desk/jewelry
+- hold/have a fascination for sb./sth.
+- forbidding place/look
+- muster (up) the courage/confidence/to do something
+- in the labyrinth of sth.
+- junk mail
+- be littered with something
+- sb. cherish the hope that + 句⼦
+- The mere fact 从句 + …
+- prise something open
+- carve a. from/out of b. =
+- a. be carved from/out of b.
+- There is always hope that+句⼦
+- by chance
+- above all
+- be bent on doing sth.
+- sb. cherish the hope that+句⼦
+- described to sb. what/how...+宾从
+- describe sth. to sb.
+- pick up
+- sb. can’t/couldn’t be bothered to do sth.
+- beg sb. to do sth.
+- at the bottom of...
+
+## 35 Justice was Done
 
 The word justice is usually associated with courts of law.
 We might say that justice has been done when a man's innocence or guilt has been proved beyond doubt.
@@ -1251,6 +1668,36 @@ The sorry-looking, blackened figure that emerged,
 admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney.
 He had been there for nearly ten hours.
 Justice had been done even before the man was handed over to the police.
+
+### Expressions
+
+- justice has been done/served
+- court of law; courts of law
+- prove sb’s innocence
+- undertake a task/a project/research/a study/a journey
+- arduous task of doing sth. / arduous journey
+- go through/embark on/begin arduous journey
+- understand + abstract concept
+- interference in sth.
+- Sorry for the interference, ...
+- I hope you don't mind the interference, but...
+- of somebody’s/something’s own accord
+- on the premises of a.
+- convert a. to/into b.
+- emerge from
+- beyond doubt
+- make mistakes
+- There are rare instances when
+- cease to do
+- be independent of
+- in part
+- run to tell sb.
+- ring up
+- tap at sth.
+- listen for…
+- be unable to do sth.
+- break into
+- be handed over to
 
 ## 36 A Chance in a Million
 
@@ -1283,6 +1730,50 @@ Hans returned to his family home, but the house had been bombed
 and no one in the neighbourhood knew what had become of the inhabitants.
 Assuming that his family had been killed during an air raid,
 Hans settled down in a village fifty miles away where he had remained ever since.
+
+### Expressions
+
+- It seems (highly/wildly) improbable that ...
+- be presumed dead/innocent/guilty
+- presume that+句⼦
+- plot to do sth.
+- plot against sb.
+- lead to sb’s downfall
+- bring about sb’s downfall
+- it be naive to believe/think …
+- sb. be naive enough to believe/think...
+- it be unacceptable to do
+- conspire to
+- it is incredible (to sb.) that…
+- it is incredible how…
+- it is incredible to do sth.
+- bear...a close/strong/striking resemblance to sb./sth.
+- bear little/no resemblance to sb./sth.
+- resemblance to …
+- pour scorn on
+- pour scorn on idea/suggestion/plan/advice acquaint
+- sb. with sth.
+- sb. be acquainted. with…
+- be reunited with sb.
+- assuming that…
+- it seems/is reasonable to assume that...
+- a chance in a million
+- bring... to a conclusion
+- sb. accept the fact that bring about
+- and so on
+- anyone but
+- be thought to
+- stop to do
+- comment on
+- suggest that 暗示
+- there is/was a chance that+句⼦
+- needless to say
+- towards the end of
+- be separated from
+- make one’s way back
+- return to
+- What become of
+
 ## 37 The Westhaven Express
 
 We have learnt to expect that trains will be punctual.
@@ -1310,6 +1801,69 @@ There was a note of triumph in my voice when I told him that it was there in bla
 Glancing at it briefly, he told me to look again.
 A tiny asterisk conducted me to a footnote at the bottom of the page.
 It said: 'This service has been suspended.'
+
+### Expressions
+
+be punctual for
+
+condition sb. to (do) sth.
+
+sb. be conditioned to do sth.
+
+develop an unshakable belief/faith in
+
+have/lose faith in sb. /sth.
+
+blame sb./sth. for
+
+blame sth. on sb.
+
+consult the map/manual/ dictionary
+
+go/fly direct
+
+It is/seems odd that…
+
+reflect that….
+
+reflect on sth.
+
+lodge a complaint
+
+have/make/receive/lodge a complaint
+
+a note of triumph
+
+conduct sb. to
+
+It is all too easy to do sth.
+
+sb. noted with satisfaction that...
+
+can’t help doing…
+
+strike sb as…
+
+take advantage of
+
+wish to do
+
+hold up
+
+It dawned on me that …
+
+roar down
+
+not... but
+
+hear of
+
+copy of…  ⼀份，⼀册，⼀张
+
+in black and white ⽩纸⿊字; 以书⾯形式 in writing or in print
+
+at the bottom of
+
 ## 38 The First Calendar
 
 Future historians will be in a unique position when they come to record the history of our own times.
@@ -1333,6 +1887,43 @@ It has long been known that the hunting scenes depicted on walls were not simply
 They had a definite meaning, for they were as near as early man could get to writing.
 It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.
 It seems that man was making a real effort to understand the seasons 20, 000 years earlier than has been supposed.
+
+### Expressions
+
+- in a unique position
+- take a video
+- a bewildering variety/amount/number of
+- be/feel bewildered by…
+- deduce that…
+- deduce from…
+- find/look for/follow/leave/provide clues
+- shed light on
+- the advent of…
+- with the advent of computer/television video chat
+- make the assumptions that
+- be based on the assumption that +句⼦
+- work on the assumption that + 句⼦
+- connect the dots
+- engrave sth. on
+- a. be engraved on b.
+- be positively/negatively/strongly correlated with...
+- depicted in/on/by...
+- select from
+- the great mass of
+- rely on
+- as it were
+- see/hear...in action
+- be faced with
+- come into being
+- be puzzled by
+- be connected with
+- the passage of time/days
+- It has long been known that
+- a form of
+- be near to sth.
+- It’s possible that…
+- there is a (definite) relation between... and
+
 ## 39 Nothing to Worry About
 
 The rough road across the plain soon became so bad that we tried to get Bruce to drive back to the village we had come from.
@@ -1359,6 +1950,37 @@ Bruce consulted the map once more and told us that the village was now only fift
 Our next obstacle was a shallow pool of water about half a mile across.
 Bruce charged at it, but in the middle, the car came to a grinding halt.
 A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!
+
+### Expressions
+
+- be pitted with
+- be/seem perturbed by
+- be/seem perturbed that +句⼦
+- underestimate how/what ...
+- underestimate the power of something
+- swerve to avoid
+- scoop up
+- rip... o /up/out
+- a stretch of land/river/road
+- overcome obstacles
+- clumps of
+- go into a low/high gear
+- grind to a halt=come to a grinding halt
+- bring... to a halt
+- come to a halt
+- There was worse to come.
+- get sb. to do
+- not in the least
+- it was not that...
+- have a sense of
+- sooner or later
+- what a relief it was when
+- give way to
+- ahead of
+- a shallow pool of
+- charge at
+- sb. announced that
+
 ## 40 Who's Who
 
 It has never been explained why university students seem to enjoy practical jokes more than anyone else.
@@ -1384,6 +2006,40 @@ At this, the police pointed out ironically that this would hardly be necessary a
 Pretending to speak seriously, one of the workmen asked if he might make a telephone call before being taken to the station.
 Permission was granted and a policeman accompanied him to a pay phone.
 Only when he saw that the man was actually telephoning the police did he realize that they had all been the victims of a hoax.
+
+### Expressions
+
+- victim of a hoax
+- make a hoax call
+- a form/kind of deception
+- obtain money....by deception
+- It is silly to do …
+- It’s silly of sb. to do
+- It’s silly for sb. to do
+- indulge in…
+- advance information/planning/warning/booking/reservations/training/notice
+- remonstrate with sb.(about sth. )
+- remonstrate against sth. 抗议…
+- ask (for)/need/give permission
+- be granted permission to do
+- take...for granted
+- It has never been explained why...
+- practical jokes
+- specialize in
+- no self-respecting ... would do...
+- be funny to
+- tear up
+- sb. added that
+- be grateful (to sb. ) for sth.
+- do...by force
+- stop doing
+- sth. would hardly be necessary as...
+- be under arrest
+- put sb. under arrest
+- pretend to do
+- make a telephone call
+- Only when... did sb. realize that +句⼦
+
 ## 41 Illusions of Pastoral Peace
 
 The quiet life of the country has never appealed to me.
@@ -1420,6 +2076,41 @@ when the thousands that travel to work every day are tucked away in their homes 
 It has always been a mystery to me why city dwellers, who appreciate all these things,
 obstinately pretend that they would prefer to live in the country.
 
+### Expressions
+
+- under the illusion that+句子
+
+- born and bred
+
+- go into raptures
+
+- extol the virtues/benefits of something
+
+- be superior to ...
+
+- It’s virtually impossible to…
+
+- be dubious about
+- the privilege of doing something
+- make somebody’s acquaintance
+- as a special treat …
+- descend on/upon/over
+- be tucked away…
+- at the mere mention of
+- be compared with
+- be prepared to
+- tolerate for
+- beyond me
+- do without
+- travel miles to do sth.
+- be available for
+- come up to
+- draw to a close
+- make do with
+- run wild
+- few things could be more impressive than…
+- it has always been a mystery to me why...
+
 ## 42 Modern Cavemen
 
 Cave exploration, or pot-holing, as it has come to be known, is a relatively new sport.
@@ -1455,6 +2146,27 @@ After switching on powerful arc lights,
 they saw great stalagmites--some of them over forty feet high--rising up like tree-trunks to meet the stalactites suspended from the roof.
 Round about, piles of limestone glistened in all the colours of the rainbow.
 In the eerie silence of the cavern, the only sound that could be heard was made by water which dripped continuously from the high dome above them.
+
+### Expressions
+
+- have the foresight to do…
+- wade through/across
+- as it has come to be known
+- give a satisfactory explanation for
+- rig up
+- make a descent into
+- extend to
+-  tunnel a course through
+- remain to be done
+- edge one’s way
+- plunge into
+- piles of
+- wash up
+- squeeze through
+- switch on
+- be suspended from
+- round about
+
 ## 43 Fully Insured
 
 Insurance companies are normally willing to insure anything.
@@ -1486,8 +2198,33 @@ Several minutes later, the dish was successfully hauled above the surface of the
 Water streamed in torrents over its sides with such force that it set up a huge wave in the canal.
 There was a danger that the wave would rebound off the other side of the bank and send the dish plunging into the water again.
 By working at tremendous speed, the men managed to get the dish on to dry land before the wave returned.
-## 44 Speed and Comfort
 
+### Expressions
+
+- insure (something/somebody)
+- against loss/damage/theft/sickness
+- pay the premium
+- recover the cost of
+- haul something o /onto/out of something
+- for one agonizing moment
+- be perched on sth.
+- a torrent of
+- rebound off
+- doing sth…is a standard practice =it’s a standard practice to do sth.
+- in the event of
+- It is not uncommon to hear that …
+- make a claim for
+- at the same time
+- look on
+- put sth. into operation
+- was drawn towards
+- x a. to b./be xed to
+- rest against
+- start up
+- set up
+- send a. doing
+
+## 44 Speed and Comfort
 
 People travelling long distances frequently have to decide whether they would prefer to go by land, sea, or air.
 Hardly anyone can positively enjoy sitting in a train for more than a few hours.
@@ -1525,8 +2262,28 @@ The journey is so smooth that there is nothing to prevent you from reading or sl
 However you decide to spend your time, one thing is certain: you will arrive at your destination fresh and uncrumpled.
 You will not have to spend the next few days recovering from a long and arduous journey.
 
-## 45 The Power of the Press
+### Expressions
 
+- lull sb. to sleep
+- in snatches: for short periods
+- get a sleeper
+- be/feel exhausted from
+- go on a cruise
+- get/feel/be seasick
+- be intimidated by
+- have the disadvantage of doing
+- take sb’s mind o sth.
+- comes in snatches
+- fumble to do sth.
+- more often than not
+- by comparison
+- stretch your legs
+- devise ways of doing sth.
+- settle back
+- keep sb. occupied
+- recover from
+
+## 45 The Power of the Press
 
 In democratic countries any efforts to restrict the freedom of the press are rightly condemned.
 However, this freedom can easily be abused.
@@ -1557,8 +2314,23 @@ It would never again be possible for them to lead normal lives.
 They had become the victims of commercialization, for their names had acquired a market value.
 Instead of being five new family members, these children had immediately become a commodity.
 
-## 46 Do It Yourself
+### Expressions
 
+- contention that+句子
+- untold harm/pain/damage
+- live/work/remain in obscurity
+- exclusive access/right/use
+- nursery school/teacher/education
+- it is extremely doubtful whether…
+- act on…
+- pour in
+- press for
+- act as
+- press conference
+- oxygen tent
+- pay the price for
+
+## 46 Do It Yourself
 
 So great is our passion for doing things for ourselves,
 that we are becoming increasingly less dependent on specialized labour.
@@ -1598,8 +2370,40 @@ I told her that either I would have to buy a new mower or let the grass grow.
 Needless to say our house is now surrounded by a jungle.
 Buried somewhere in deep grass there is a rusting lawn mower which I have promised to repair one day.
 
-## 47 Too High a Price
+### Expressions
 
+- plead ignorance of sth
+- leisure time/activity
+- be keen to do sth.
+- be keen on doing sth.
+- advisory service
+- provide a/an adj. outlet for sth.
+- get clogged
+- sb. be under the delusion that+句子
+- need a few minor adjustments
+- a chunk of /chunks of
+- nag sb.  to do sth
+- be a question of
+- as…as anything else
+- won’t/wouldn’t hear of it
+- As far as I could see
+- as good as
+- become dependent on
+- embark on
+- lay out
+- go so far as to do sth.
+- cater for
+- pent up
+- tend to do
+- put … right
+- call in sb.
+- promise to do sth.
+- get round to
+- a drop of
+- trace the cause of
+- be left with
+
+## 47 Too High a Price
 
 Pollution is the price we pay for an overpopulated, overindustrialized planet.
 When you come to think about it, there are only four ways you can deal with rubbish:
@@ -1635,6 +2439,27 @@ This figure rises to a staggering 60% of men in their sixties.
 Against these figures, it was found that only 5% of women snore regularly,
 while the rest are constantly woken or kept awake by their trumpeting partners.
 Whatever the source of noise, one thing is certain: silence, it seems, has become a golden memory.
+
+### Expressions
+
+- the sheer volume/size of sth.
+- be/feel overwhelmed by/with sth.
+- scream at sb.
+- profound e ect/in uence/impact/
+- consequence etc
+- at maximum speed/volume
+- make … contribution to
+- the worst o ender
+- have the choice of a or b
+- go off
+- serve to do sth.
+- assist sb. to do sth.
+- a source of
+- range from…to …
+- it was revealed that…
+- in one’s+年龄段（twenties/thirties… )
+- it was found that…
+- keep sb. awake/be kept awake…
 
 ## 48 The Silent Village
 
