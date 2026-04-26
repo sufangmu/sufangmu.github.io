@@ -721,7 +721,7 @@ Dimitri found out that his neighbour, Aleko, had suddenly acquired a new lamb.
 Dimitri immediately went to Aleko's house and angrily accused(指责) him of stealing the lamb.
 He told him he had better return it or he would call the police.
 Aleko denied taking it and led Dimitri into his backyard.
-It was true that he had just bought a lamb he explained, but his lamb was black.
+It was true that he had just bought a lamb, he explained, but his lamb was black.
 Ashamed(惭愧的) of having acted so rashly, Dimitri apologized(道歉) to Aleko for having accused him.
 While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.
 When he went outside half an hour later, he was astonished to find that the little black lamb was almost white.
@@ -743,51 +743,51 @@ Its wool, which had been dyed(染色) black, had been washed clean by the rain!
 
 ## 17 The Longest Suspension Bridge in the World
 
-Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.
-He described it as 'a very agreeable situation located within two small hills in the midst of which flowed a great river.'
-Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal,
-for on November 21st, 1964, the longest suspension bridge in the world was named after him.
+Verrazano, an Italian (about whom little is known), sailed into New York Harbour in 1524 and named it Angouleme.
+He described it as 'a very agreeable(令人愉快的) situation located within two small hills in the midst of which flowed a great river.'
+Though Verrazano is <u>by no means</u> considered to be a great explorer, his name will probably remain immortal(不朽的),
+for on November 21st, 1964, the longest <u>suspension bridge(</u>吊桥) in the world <u>was named after</u> him.
 The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Staten Island.
-It has a span of 4, 260 feet.
-The bridge is so long that the shape of the earth had to be taken into account by its designer.
-Two great towers support four huge cables.
-The towers are built on immense underwater platforms made of steel and concrete.
-The platforms extend to a depth of over 100 feet under the sea.
+It has a span(跨度) of 4,260 feet.
+The bridge is so long that the shape of the earth had to <u>be taken into account</u> by its designer.
+Two great towers support four huge cables(电缆).
+The towers are built on immense(巨大的) underwater platforms made of steel and concrete(混凝土).
+The platforms extend to <u>a depth of</u> over 100 feet under the sea.
 These alone took sixteen months to build.
 Above the surface of the water, the towers rise to a height of nearly 700 feet.
 They support the cables from which the bridge has been suspended.
-Each of the four cables contains 26, 108 lengths of wire.
-It has been estimated that if the bridge were packed with cars, it would still only be carrying a third of its total capacity.
+Each of the four cables contains 26,108 lengths of wire(金属丝).
+It has been estimated(估计) that if the bridge <u>were packed with</u> cars, it would still only be carrying a third of its total capacity(容量).
 However, size and strength are not the only important things about this bridge.
-Despite its immensity, it is both simple and elegant,
-fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.
+Despite its immensity(巨大), it is both simple and elegant(优雅),
+fulfilling its designer's dream to create 'an enormous(巨大的) object drawn as faintly(微弱地) as possible'.
 
 ### Expressions
 
 - agreeable/pleasant + situation/man/day
 - be located in/near
-- a span of
-- life span
-- a length of / lengths of +rope/pipe/wire
+- a span of  一段……的时间
+- life span  寿命
+- a length of / lengths of +rope/pipe/wire   一段
 - It is estimated that + 句⼦
 - sb. estimate that + 句⼦
 - Little / not much/ not everything is known about a.
 - describe a. as b.
 - in the midst of
-- by no means
+- by no means  决不
 - be considered to be adj./n.
-- sth. be named after sb.
+- sth. be named after sb. 以…名字命名
 - join a. to b. = connect a. to b.
-- be taken into account = take sth. into account
+- be taken into account = take sth. into account  将被考虑在内
 - a height of
 - be suspended from a.
-- be packed with...
+- be packed with... 挤满了
 - a third of sth... 三分之⼀
 - fulfill sb’s dream…
 
 ## 18 Electric Currents in Modern Art 
 
-Modern sculpture rarely surprises us any more.
+Modern sculpture(雕塑) rarely surprises us any more.
 The idea that modern art can only be seen in museums is mistaken.
 Even people who take no interest in art cannot have failed to notice examples of modern sculpture on display in public places.
 Strange forms stand in gardens, and outside buildings and shops.
