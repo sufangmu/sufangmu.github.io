@@ -794,24 +794,24 @@ Strange forms stand in gardens, and outside buildings and shops.
 We have got quite used to them.
 Some so-called 'modern' pieces have been on display for nearly eighty years.
 In spite of this, some people--including myself--were surprised by a recent exhibition of modern sculpture.
-The first thing I saw when I entered the art gallery was a notice which said: 'Do not touch the exhibits, some of them are dangerous!'
+The first thing I saw when I entered the art gallery(美术馆) was a notice which said: 'Do not touch the exhibits, some of them are dangerous!'
 The objects on display were pieces of moving sculpture.
 Oddly shaped forms that are suspended from the ceiling and move in response to a gust of wind are quite familiar to everybody.
 These objects, however, were different.
-Lined up against the wall, there were long thin wires attached to metal spheres.
-The spheres had been magnetized and attracted or repelled each other all the time.
+Lined up against the wall, there were long thin wires attached to metal spheres(球体).
+The spheres had been magnetized(磁化) and attracted or repelled(排斥) each other all the time.
 In the centre of the hall,
 there were a number of tall structures which contained coloured lights.
-These lights flickered continuously like traffic lights which have gone mad.
-Sparks were emitted from small black boxes and red lamps flashed on and off angrily.
-It was rather like an exhibition of prehistoric electronic equipment.
+These lights flickered(闪烁) continuously like traffic lights which have gone mad.
+Sparks were emitted(发散) from small black boxes and red lamps flashed on and off angrily.
+It was rather like an exhibition of []](史前的) electronic equipment(设备).
 These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!
 
 ### Expressions
 
 - make a sculpture / create a sculpture
 - be mistaken about sth./sb.
-- Oddly enough, ...句⼦
+- Oddly enough, ...句⼦  说来也奇怪
 - be attached to sb./sth. = attach a. to b.
 - get an electric shock
 - receive an electric shock
