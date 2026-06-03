@@ -805,7 +805,7 @@ there were a number of tall structures which contained coloured lights.
 These lights flickered(闪烁) continuously like traffic lights which have gone mad.
 Sparks were emitted(发散) from small black boxes and red lamps flashed on and off angrily.
 It was rather like an exhibition of []](史前的) electronic equipment(设备).
-These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!
+These peculiar(奇怪的) forms not only seemed designed to shock(电击) people emotionally(感情上), but to give them electric shocks as well!
 
 ### Expressions
 
@@ -829,49 +829,49 @@ These peculiar forms not only seemed designed to shock people emotionally, but t
 
 ## 19 A Very Dear Cat
 
-Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay's cat.
-Mrs. Eleanor Ramsay, a very wealthy old lady, has shared a flat with her cat, Rastus, for a great many years.
-Rastus leads an orderly life.
-He usually takes a short walk in the evenings and is always home by seven o'clock.
+Kidnappers(绑匪) are rarely interested in animals, but they recently <u>took considerable(相当大的) interest in</u> Mrs. Eleanor Ramsay's cat.
+Mrs. Eleanor Ramsay, a very wealthy old lady, has <u>shared a flat(公寓) with</u> her cat, Rastus, for <u>a great many years</u>.
+Rastus <u>leads an orderly life</u>.
+He usually <u>takes a short walk</u> in the evenings and is always home by seven o'clock.
 One evening, however he failed to arrive.
-Mrs. Ramsay got very worried.
+Mrs. Ramsay <u>got very worried</u>.
 She looked everywhere for him but could not find him.
-Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous letter.
-The writer stated that Rastus was in safe hands and would be returned immediately if Mrs. Ramsay paid a ransom of ￡1, 000.
-Mrs.Ramsay was instructed to place the money in a cardboard box and to leave it outside her door.
+Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous(匿名的) letter.
+<u>The writer stated that</u> Rastus was <u>in safe hands</u> and would be returned immediately if Mrs. Ramsay paid a ransom(赎金) of ￡1, 000.
+Mrs.Ramsay <u>was instructed to</u> place the money in a cardboard(硬纸板) box and to leave it outside her door.
 At first, she decided to go to the police,
 but fearing that she would never see Rastus again--the letter had made that quite clear--she changed her mind.
-She withdrew ￡1000 from her bank and followed the kidnapper's instructions.
-The next morning, the box had disappeared but Mrs.Ramsay was sure that the kidnapper would keep his word.
-Sure enough, Rastus arrived punctually at seven o'clock that evening.
+She withdrew(取钱) ￡1000 from her bank and followed the kidnapper's instructions.
+The next morning, the box had disappeared but Mrs.Ramsay was sure that the kidnapper would <u>keep his word</u>.
+<u>Sure enough</u>, Rastus arrived punctually(准时地) at seven o'clock that evening.
 He looked very well, though he was rather thirsty, for he drank half a bottle of milk.
-The police were astounded when Mrs. Ramsay told them what she had done.
-She explained that Rastus was very dear to her.
-Considering the amount she paid, he was dear in more ways than one!
+The police were astounded(使震惊) when Mrs. Ramsay told them what she had done.
+She explained that Rastus was very dear(宝贵的) to her.
+Considering the amount she paid, he was dear <u>in more ways than one</u>!
 
 ### Expressions
 
 - be dear to somebody
-- a considerable amount/number of sth.
-- in an orderly fashion/manner
+- a considerable amount/number of sth. 相当多的
+- in an orderly fashion/manner 有序地
 - anonymous + letter/ (phone) call
 - remain anonymous
 - a ransom of +钱
-- It astounded sb. that +句⼦
+- It astounded sb. that +句⼦  使某人吃惊的是...
 - share sth. with sb.
 - take a short/long walk
 - get worried…
-- in safe hands…
+- in safe hands… 安然无恙
 - at first…
 - go to the police
 - make sth. clear…
 - change sb’s mind
 - follow sb’s instructions...
-- keep sb’s word
-- sure enough
+- keep sb’s word  遵守诺言
+- sure enough 果然
 - sb. explained that + 句⼦
 - Considering+ n., 句⼦
-- in more ways than one
+- in more ways than one  不止一种意义
 
 ## 20 Pioneer Pilots 
 
