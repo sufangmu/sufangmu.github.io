@@ -2143,6 +2143,11 @@ The examiner looked at me sadly.
 
 完成被动
 
+### Expressions
+
+- continue doing / to do
+- be pleased with
+
 ## 70 Red for Danger
 
 <u>During a bullfight</u>, a drunk(酒鬼) suddenly wandered(闲逛) into the middle of the ring.
@@ -2214,7 +2219,10 @@ A painter (who had been working on the tower) hung a pot of paint on one of the 
 
 - go wrong
 
-- ## 72 A Car Called Bluebird
+
+​    
+
+## 72 A Car Called Bluebird
 
 
 The great racing driver, Sir Malcolm Campbell, was the first man to drive at over 300 miles per hour.
@@ -2230,7 +2238,12 @@ Since that time, racing drivers have reached speeds over 600 miles an hour.
 <u>Following in his father's footsteps</u> many years later, Sir Malcolm's son, Donald, also set up a world record.
 Like his father, he was driving a car called Bluebird.
 
+### Expressions
 
+- have difficulty in doing sth.
+- be disappointed to learn that
+- burst into tears
+- follow in sb’s footsteps
 
 ## 73 The Record-Holder
 
@@ -2248,7 +2261,14 @@ but to Perpignan on the French-Spanish border(边境).
 There he was <u>picked up</u> by a policeman and sent back to England by the local authorities.
 He has surely <u>set up a record</u> for the thousands of children (who dream of evading(逃避) school).
 
+### Expressions
 
+- play truant from school
+- be put to shame = put sb. to shame
+- shame on you
+- hitchhike to sw.
+- in the meantime
+- over and over again...
 
 ## 74 Out of the Limelight
 
@@ -2270,7 +2290,19 @@ He looked very angry.
 'Oh, is it?' said the sheriff with a sneer(嘲笑).
 'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you <u>get out of here</u> fast!'
 
+### Expressions
 
+- stay out of the limelight
+- take precaution
+- sb. is a big/huge fan of a.
+- on such short notice
+- with a sneer/sneer at sb.
+- a party of
+- Why don't we...
+- carry sth. to sw.
+- make oneself comfortable...
+- don't be too hard on us...
+- get out of here...
 
 ## 75 SOS
 When a light passenger plane <u>flew off course</u>(偏离航线) some time ago,
@@ -2288,6 +2320,16 @@ she heard planes passing overhead and wondered how she could <u>send a signal</u
 Then she had an idea. She <u>stamped(踩) out</u> the letters 'SOS' in the snow.
 Fortunately, a pilot saw the signal and sent a message by radio to the nearest town.
 <u>It was not long before</u> a helicopter(直升机) arrived on the scene(现场) to rescue the survivors(幸存者) of the plane crash.
+
+### Expressions
+
+- send a signal
+- stamp out the re
+- arrive on the scene
+- fly off course
+- cover sb./sth. with a.
+- get adj.
+- It was not long before...
 
 ## 76 April Fools' Day
 
@@ -2307,6 +2349,13 @@ the famous Calabrian macaroni-eating competition(比赛)!
 Signor Fratelli, the present champion(冠军), has won it every year since 1991.
 And that ends our special bulletin for today, Thursday, April 1st.
 We're now going back to the studio(工作室).'
+
+### Expressions
+
+- on the bulletin board
+- leading cause of
+- What a splendid/brilliant idea!
+- at the end of...
 
 ## 77 A Successful Operation
 
@@ -2341,7 +2390,15 @@ As they soon learnt, disguises can sometimes be too perfect.
 
 2. 位置灵活: 前中后 (which只能放句尾)
 
+### Expressions
 
+- have a rare disease
+- a section of ...
+- prove to be adj.
+- have an operation
+- died of...
+- fall to pieces
+- cut it open
 
 ## 78 The Last One
 
@@ -2358,6 +2415,31 @@ I took one guiltily(有罪地), lit it and smoked with satisfaction(满意).
 My wife <u>was delighted(高兴的) that</u> things had <u>returned to normal</u> once more.
 Anyway, as Brian pointed out, it is the easiest thing in the world to give up smoking.
 He himself has done it lots of times!
+
+### Expressions
+
+- entitle sb to do sth.
+- calm down
+- keep calm
+- calm my nerve
+- have/get the nerve to do sth.
+- lose sb’s nerve
+-  lose/break/have + concentration
+- suffer from
+- have a good/bad temper
+-  lose sb’s temper
+- have/get a good/great appetite
+- lose sb’s appetite
+- urge sb. to do sth.
+- give him satisfaction
+- sb. be delighted that + 句子
+- light a cigarette
+- sb. be sure that + 句子
+-  keep on doing sth.
+-  offer sb. sth.
+-  make no e ort to do sth.
+-  a packet of…
+-  return to normal...
 
 ## 79 By Air
 
@@ -2385,6 +2467,19 @@ only 说明主语,主谓不倒装。
 
 Only policemen can come in.
 
+#### Expressions
+
+- feel frightened
+- sb. be curious to find out + 句子
+- plant a bomb
+- a great deal
+- take charge of
+- be used to doing...
+- take off ...
+- gain height...
+- touch down...
+- on board...
+
 ## 80 The Crystal Palace
 
 Perhaps the most extraordinary(非同寻常的) building of the 19th century was the Crystal Palace(水晶宫)
@@ -2401,6 +2496,15 @@ There were six million visitors in all,
 and the profits(盈利) from the exhibition were used to build museums and colleges.
 Later, the Crystal Palace was moved to South London.
 It remained one of the most famous buildings in the world until it was <u>burnt down</u>(烧成平地) in 1936.
+
+### Expressions
+
+- on show/ on display
+- make a profit
+- go to college
+- be made of...
+- of all time
+- in all
 
 ## 81 Escape
 
@@ -2419,6 +2523,16 @@ The prisoner felt sorry for him, but there was nothing else he could do.
 As the man came near the prisoner <u>knocked him to the ground</u> with a <u>sharp blow</u>(猛击).
 Then, jumping into the car, he drove off as quickly as he could.
 
+### Expressions
+
+- grow/change/move...+ rapidly
+- with a sharp blow
+- change into…
+- up and down...
+- sb. discovered that
+- stand to attention
+- knock him to the ground
+
 ## 82 Monster or Fish
 
 Fishermen and sailors(水手) sometimes <u>claim to have seen</u> monsters(怪物) in the sea.
@@ -2432,6 +2546,18 @@ When it was eventually brought to shore, it was found to be over thirteen feet l
 It had a head like a horse big blue eyes, shining(光亮的) silver(银) skin, and a bright red tail.
 The fish, which has since been set to a museum (where it is being examined by a scientist), is called an oarfish.
 Such creatures have rarely been seen alive by man as they live at <u>a depth of</u> six hundred feet.
+
+### Expressions
+
+- shining example
+- claim to have done sth.
+- laugh at...
+- it is now known that...
+- at times...
+- out at sea...
+- in any way
+- it was found to be...
+- a depth of...
 
 ## 83 After the Elections
 
@@ -2450,6 +2576,14 @@ This time, the policeman <u>lost his temper.</u>
 He has retired from political life and gone to live abroad!'
 'I know,' answered Patrick,' but I love to hear you say it!'
 
+### Expressions
+
+- win the election
+- be fanatical about sth./doing sth.
+- on duty
+- On the following day
+- love to do sth.
+
 ## 84 On Strike
 
 Busmen have decided to <u>go on strike</u>(罢工) next week.
@@ -2467,6 +2601,23 @@ Even so, people are going to <u>find it difficult</u> to get to work.
 But so far, the public has <u>expressed its gratitude(感激) to</u> the students in letters to the Press(新闻界).
 Only one or two people have objected(反对) that the students will drive too fast!
 
+### Expressions
+
+- go on strike
+- sb. have stated that + 句子
+- agreement is reached about sth. ....
+- reach an agreement
+- sb be relieved to hear that + 句子
+- relieve pressure
+- under a lot of pressure
+- to some extent
+- volunteer to do sth.
+- expressed sb.’s gratitude to sb. ...
+- sb. have objected that + 句子
+- object to sth./sb.
+- be due to do...
+- pass/take the test
+
 ## 85 Never Too Old To Learn
 
 I have just <u>received a letter from</u> my old school, informing(通知) me that my former headmaster(校长), Mr. Stuart Page, will be retiring next week.
@@ -2478,6 +2629,21 @@ A great many former pupils will be attending <u>a farewell dinner</u>(告别晚�
 After he has retired he will devote himself to gardening(园艺).
 For him, this will be an entirely new hobby.
 But this does not matter, for, as he has often remarked, one is <u>never too old to learn</u>.
+
+### Expressions
+
+- sb. inform sb. that + 句子
+- make a contribution
+- contribute to sth.
+- lose sb’s patience
+- have a lot of patience
+- give sb. encouragement
+- in one’s honor
+- It is a curious coincidence that +句子
+- a total of…
+- devote oneself to sth. / doing sth.
+- mark the occasion
+- remember sb. for sth.
 
 ## 86 Out of Control
 
@@ -2494,6 +2660,15 @@ They had just had enough time to swim out of danger when the boat again complete
 On this occasion, however, it had slowed down considerably(非常).
 The petrol(汽油) had nearly all <u>been used up</u>(用光).
 <u>Before long</u>(=soon), the noise dropped completely and the boat began to drift(漂流) gently(轻轻地) across the water.
+
+### Expressions
+
+- sb. noticed with dismay that + 句子
+- at tremendous speed
+- come away
+- move in a circle
+- used up...
+- before long...
 
 ## 87 A Perfect Alibi
 
@@ -2514,6 +2689,15 @@ but that you caught the 8.25 (which would still get you to work on time).
 You see, on the morning of the murder, the 8 o'clock train did not run at all.
 It <u>broke down</u> at Ferngreen station and was <u>taken off the line.</u>'
 
+### Expressions
+
+- have a alibi
+- commit a murder
+- sb. confirm that + 句子
+- Are you suggesting...
+- tell the truth
+- on time
+
 ## 88 Trapped in a Mine
 
 Six men have been trapped(困住) in a mine(矿井) for seventeen hours.
@@ -2532,6 +2716,22 @@ the men are cheerful and confident that they will get out soon.
 They have been told that rescue operations are progressing smoothly(顺利地).
 If they knew how difficult it was to drill through the hard rock, they would <u>lose heart</u>.
 
+### Expressions
+
+- on the surface
+- in a special capsule
+- layers of
+- a layer of
+- make progress
+- go/run smoothly
+- lose one’s life...
+-  As it is...
+- enable sb. to do sth.
+- keep in touch with ...
+- run out of ...
+- lose heart…
+- cause sb./sth. to do sth.
+
 ## 89 A Slip of the Tongue(口误)
 
 People will <u>do anything to</u> see a free show--even if it is a bad one.
@@ -2546,6 +2746,17 @@ He was obviously very nervous(胆小的) and for some minutes stood awkwardly(�
 As soon as he opened his mouth, everyone <u>burst out laughing</u>.
 We all know what the poor man should have said,
 but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'
+
+### Expressions
+
+- a slip of the tongue
+- a comedy show
+- hold up the queue...
+- do anything to do sth.
+- the news get around ...
+- feel disappointed
+- at the beginning of a
+- burst out laughing
 
 ## 90 What's for Supper?
 
@@ -2565,6 +2776,16 @@ the plentiful(大量的) supply(供应) of food (thrown overboard by the crews(�
 <u>As a result</u>, the fish just eat and eat and grow and grow in the lovely warm water.
 Who eats who?
 
+### Expressions
+
+- be scared/frightened out of sb’s wits
+- a variety of
+- it comes as a surprise to learn that
+- protect a. from b.
+- in length…
+- the total absence of ...
+- as a result...
+
 ## 91 Three Men in a Basket
 
 A pilot(飞行员) noticed a balloon(气球) (which <u>seemed to be making for(走向)</u> a <u>Royal Air Force</u>(英国空军) station nearby).
@@ -2579,6 +2800,16 @@ When the balloon was over the station, the pilot saw one of the men taking photo
 The police were <u>called in</u>, but they could not arrest anyone,
 for the basket contained two Members of Parliament and the Commanding Officer of the station!
 As the Commanding Officer explained later, one half of the station did not know what the other half was doing!
+
+### Expressions
+
+- spy on sb./sth.
+- keep track of
+- seem to be doing ...
+- make for sw.
+- make out…
+- soon afterwards
+- be called in...
 
 ## 92 Asking for Trouble
 
@@ -2600,6 +2831,13 @@ I <u>hate to</u> interrupt a man when he's busy working, but <u>would you mind</
 'My key,' I shouted.
 Fortunately, the shouting woke up my wife, who opened the window just as the policeman had started to climb towards me.
 
+### Expressions
+
+- fast asleep
+- Are you being sarcastic?
+- Don't take that tone with me!
+- hate to do sth.
+
 ## 93 A Noble Gift
 
 One of the most famous monuments(纪念碑) in the world, <u>the Statue of Liberty</u>(自由女神像),
@@ -2616,6 +2854,13 @@ the statue had been put together again and it was officially presented to the Am
 Ever since then, the great monument has been a symbol of liberty
 for the millions of people who have passed through New York Harbour to <u>make their homes(安家)</u> in America.
 
+### Expressions
+
+- a noble gift/man...
+- camp site
+- at the entrance of...
+- take sth. to pieces...
+
 ## 94 Future Champions
 
 Experiments have proved that children can <u>be instructed(教授) in swimming</u> at a very early age.
@@ -2630,6 +2875,17 @@ Many pedal(骑) their tricycles but most of them prefer to push or drag them.
 Some children can cover the whole length of the pool without coming up for breath even once.
 Whether they will ever become future Olympic champions(冠军), only time will tell.
 Meanwhile, they should encourage those among(在…中间) us (who cannot swim five yards before they are gasping(喘气) for air).
+
+### Expressions
+
+- be instructed in doing sth. = instruct sb. in sth./doing sth.
+- be reluctant to do sth.
+- compete against
+- sb./sth. proved that + 句⼦
+- hold sb’s breath
+- be accustomed to doing
+- be popular with...
+- be lined up
 
 ## 95 A Fantasy(幻想)
 
@@ -2656,6 +2912,15 @@ Accurate(准确的), don't you think?
 Fortunately, I wasn't wearing it at the time.
 If I had been, I would not have been able to get home for lunch.'
 
+### Expressions
+
+- live in a fantasy world
+- Good heavens!
+- fire a shot
+- get into such a mess...
+- set sth. on fire
+- go on doing sth.
+
 ## 96 The Dead Return
 
 A Festival for the Dead is held once a year in Japan.
@@ -2672,7 +2937,9 @@ Thousands of lanterns slowly drift(漂流) out to sea guiding the dead on their 
 This is a <u>moving spectacle</u>(动人的场面), for crowds of people
 stand on the shore watching the lanterns drifting away until they can be seen no more.
 
+### Expressions
 
+- make a spectacle of oneself 出洋相
 
 练习方法：
 

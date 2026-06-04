@@ -22,7 +22,6 @@ theme:
   language: zh
   programming: zh
   features:
-    - navigation.instant  # 即时加载
     - navigation.top  # 返回顶部
     - search.suggest # 查询建议
     - search.highlight
@@ -255,12 +254,16 @@ nav:
       - '网络原理': 'DevOps/Docker/Networking.md'
       - '存储驱动': 'DevOps/Docker/StorageDriver.md'
       - '容器安全': 'DevOps/Docker/Security.md'
-  - 文档: 'resource/docs.md'
   - English:
     - 新概念:
+      - NCE1: 'english/NCE/NCE1.md'
       - NCE2: 'english/NCE/NCE2.md'
       - NCE3: 'english/NCE/NCE3.md'
-      - NCE4: 'english/NCE/NCE4.md'
+      - 音频: 'english/NCE/player.md'
+      - 课堂笔记:
+        - NCE1: 'english/NCE/nce_note/新概念英语1课堂笔记.pdf'
+        - NCE2: 'english/NCE/nce_note/新概念英语2课堂笔记.pdf'
+        - NCE3: 'english/NCE/nce_note/新概念英语3课堂笔记.pdf'
     - 语法:
       - '综述': 'english/grammar/综述.md'
       - '语态': 'english/grammar/语态.md'
