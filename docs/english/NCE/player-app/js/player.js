@@ -5,10 +5,17 @@
 
 /**
  * Encode a file path for safe use in fetch()/Audio.src.
- * Encodes each path segment separately, preserving directory separators.
+ * For absolute URLs, only encodes the path portion (preserves protocol+host).
+ * For relative paths, encodes each segment separately.
  * This handles special characters like & and fullwidth symbols.
  */
 function encodePath(p) {
+  // If it's an absolute URL, separate protocol+host from the path
+  const match = p.match(/^(https?:\/\/[^\/]+)(\/.*)$/);
+  if (match) {
+    return match[1] + match[2].split('/').map(encodeURIComponent).join('/');
+  }
+  // Relative path
   return p.split('/').map(encodeURIComponent).join('/');
 }
 
