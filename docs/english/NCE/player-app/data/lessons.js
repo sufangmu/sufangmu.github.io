@@ -7,648 +7,648 @@ window.NCE_LESSONS = [
     "level": "NCE1",
     "sortKey": 1,
     "title": "Excuse Me!",
-    "fileName": "001&002Excuse Me",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/001&002ExcuseMe.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/001&002ExcuseMe.lrc"
+    "fileName": "001002Excuse Me",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/001002ExcuseMe.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/001002ExcuseMe.lrc"
   },
   {
     "id": 1,
     "level": "NCE1",
     "sortKey": 3,
     "title": "Sorry, Sir.",
-    "fileName": "003&004Sorry, Sir.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/003&004Sorry,Sir..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/003&004Sorry,Sir..lrc"
+    "fileName": "003004Sorry, Sir.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/003004Sorry,Sir..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/003004Sorry,Sir..lrc"
   },
   {
     "id": 2,
     "level": "NCE1",
     "sortKey": 5,
     "title": "Nice to Meet You.",
-    "fileName": "005&006Nice to Meet You.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/005&006NicetoMeetYou..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/005&006NicetoMeetYou..lrc"
+    "fileName": "005006Nice to Meet You.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/005006NicetoMeetYou..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/005006NicetoMeetYou..lrc"
   },
   {
     "id": 3,
     "level": "NCE1",
     "sortKey": 7,
     "title": "Are You a Teacher?",
-    "fileName": "007&008Are You a Teacher",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/007&008AreYouaTeacher.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/007&008AreYouaTeacher.lrc"
+    "fileName": "007008Are You a Teacher",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/007008AreYouaTeacher.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/007008AreYouaTeacher.lrc"
   },
   {
     "id": 4,
     "level": "NCE1",
     "sortKey": 9,
     "title": "How Are You Today?",
-    "fileName": "009&010How Are You Today",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/009&010HowAreYouToday.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/009&010HowAreYouToday.lrc"
+    "fileName": "009010How Are You Today",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/009010HowAreYouToday.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/009010HowAreYouToday.lrc"
   },
   {
     "id": 5,
     "level": "NCE1",
     "sortKey": 11,
     "title": "Is This Your Shirt?",
-    "fileName": "011&012Is This Your Shirt",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/011&012IsThisYourShirt.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/011&012IsThisYourShirt.lrc"
+    "fileName": "011012Is This Your Shirt",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/011012IsThisYourShirt.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/011012IsThisYourShirt.lrc"
   },
   {
     "id": 6,
     "level": "NCE1",
     "sortKey": 13,
     "title": "A New Dress",
-    "fileName": "013&014A New Dress",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/013&014ANewDress.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/013&014ANewDress.lrc"
+    "fileName": "013014A New Dress",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/013014ANewDress.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/013014ANewDress.lrc"
   },
   {
     "id": 7,
     "level": "NCE1",
     "sortKey": 15,
     "title": "Your Passports, Please.",
-    "fileName": "015&016Your Passports, Please.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/015&016YourPassports,Please..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/015&016YourPassports,Please..lrc"
+    "fileName": "015016Your Passports, Please.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/015016YourPassports,Please..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/015016YourPassports,Please..lrc"
   },
   {
     "id": 8,
     "level": "NCE1",
     "sortKey": 17,
     "title": "How do you do?",
-    "fileName": "017&018How do you do",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/017&018Howdoyoudo.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/017&018Howdoyoudo.lrc"
+    "fileName": "017018How do you do",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/017018Howdoyoudo.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/017018Howdoyoudo.lrc"
   },
   {
     "id": 9,
     "level": "NCE1",
     "sortKey": 19,
     "title": "Tired and Thirsty",
-    "fileName": "019&020Tired and Thirsty",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/019&020TiredandThirsty.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/019&020TiredandThirsty.lrc"
+    "fileName": "019020Tired and Thirsty",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/019020TiredandThirsty.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/019020TiredandThirsty.lrc"
   },
   {
     "id": 10,
     "level": "NCE1",
     "sortKey": 21,
     "title": "Which Book?",
-    "fileName": "021&022Which Book",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/021&022WhichBook.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/021&022WhichBook.lrc"
+    "fileName": "021022Which Book",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/021022WhichBook.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/021022WhichBook.lrc"
   },
   {
     "id": 11,
     "level": "NCE1",
     "sortKey": 23,
     "title": "Which Glasses?",
-    "fileName": "023&024Which Glasses",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/023&024WhichGlasses.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/023&024WhichGlasses.lrc"
+    "fileName": "023024Which Glasses",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/023024WhichGlasses.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/023024WhichGlasses.lrc"
   },
   {
     "id": 12,
     "level": "NCE1",
     "sortKey": 25,
     "title": "Mrs. Smith's Kitchen",
-    "fileName": "025&026Mrs. Smith's Kitchen",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/025&026Mrs.Smith'sKitchen.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/025&026Mrs.Smith'sKitchen.lrc"
+    "fileName": "025026Mrs. Smith's Kitchen",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/025026Mrs.Smith'sKitchen.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/025026Mrs.Smith'sKitchen.lrc"
   },
   {
     "id": 13,
     "level": "NCE1",
     "sortKey": 27,
     "title": "Mrs. Smith's Living Room",
-    "fileName": "027&028Mrs. Smith's Living Room",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/027&028Mrs.Smith'sLivingRoom.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/027&028Mrs.Smith'sLivingRoom.lrc"
+    "fileName": "027028Mrs. Smith's Living Room",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/027028Mrs.Smith'sLivingRoom.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/027028Mrs.Smith'sLivingRoom.lrc"
   },
   {
     "id": 14,
     "level": "NCE1",
     "sortKey": 29,
     "title": "Come In, Amy.",
-    "fileName": "029&030Come In, Amy.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/029&030ComeIn,Amy..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/029&030ComeIn,Amy..lrc"
+    "fileName": "029030Come In, Amy.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/029030ComeIn,Amy..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/029030ComeIn,Amy..lrc"
   },
   {
     "id": 15,
     "level": "NCE1",
     "sortKey": 31,
     "title": "Where's Sally?",
-    "fileName": "031&032Where's Sally",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/031&032Where'sSally.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/031&032Where'sSally.lrc"
+    "fileName": "031032Where's Sally",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/031032Where'sSally.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/031032Where'sSally.lrc"
   },
   {
     "id": 16,
     "level": "NCE1",
     "sortKey": 33,
     "title": "A Fine Day",
-    "fileName": "033&034A Fine Day",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/033&034AFineDay.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/033&034AFineDay.lrc"
+    "fileName": "033034A Fine Day",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/033034AFineDay.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/033034AFineDay.lrc"
   },
   {
     "id": 17,
     "level": "NCE1",
     "sortKey": 35,
     "title": "Our Village",
-    "fileName": "035&036Our Village",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/035&036OurVillage.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/035&036OurVillage.lrc"
+    "fileName": "035036Our Village",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/035036OurVillage.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/035036OurVillage.lrc"
   },
   {
     "id": 18,
     "level": "NCE1",
     "sortKey": 37,
     "title": "Making a Bookcase",
-    "fileName": "037&038Making a Bookcase",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/037&038MakingaBookcase.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/037&038MakingaBookcase.lrc"
+    "fileName": "037038Making a Bookcase",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/037038MakingaBookcase.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/037038MakingaBookcase.lrc"
   },
   {
     "id": 19,
     "level": "NCE1",
     "sortKey": 39,
     "title": "Don't Drop It!",
-    "fileName": "039&040Don't Drop It",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/039&040Don'tDropIt.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/039&040Don'tDropIt.lrc"
+    "fileName": "039040Don't Drop It",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/039040Don'tDropIt.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/039040Don'tDropIt.lrc"
   },
   {
     "id": 20,
     "level": "NCE1",
     "sortKey": 41,
     "title": "Penny's Bag",
-    "fileName": "041&042Penny's Bag",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/041&042Penny'sBag.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/041&042Penny'sBag.lrc"
+    "fileName": "041042Penny's Bag",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/041042Penny'sBag.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/041042Penny'sBag.lrc"
   },
   {
     "id": 21,
     "level": "NCE1",
     "sortKey": 43,
     "title": "Hurry Up!",
-    "fileName": "043&044Hurry Up",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/043&044HurryUp.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/043&044HurryUp.lrc"
+    "fileName": "043044Hurry Up",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/043044HurryUp.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/043044HurryUp.lrc"
   },
   {
     "id": 22,
     "level": "NCE1",
     "sortKey": 45,
     "title": "The Boss's Letter",
-    "fileName": "045&046The Boss's Letter",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/045&046TheBoss'sLetter.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/045&046TheBoss'sLetter.lrc"
+    "fileName": "045046The Boss's Letter",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/045046TheBoss'sLetter.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/045046TheBoss'sLetter.lrc"
   },
   {
     "id": 23,
     "level": "NCE1",
     "sortKey": 47,
     "title": "A Cup of Coffee",
-    "fileName": "047&048A Cup of Coffee",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/047&048ACupofCoffee.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/047&048ACupofCoffee.lrc"
+    "fileName": "047048A Cup of Coffee",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/047048ACupofCoffee.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/047048ACupofCoffee.lrc"
   },
   {
     "id": 24,
     "level": "NCE1",
     "sortKey": 49,
     "title": "At the Butcher's",
-    "fileName": "049&050At the Butcher's",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/049&050AttheButcher's.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/049&050AttheButcher's.lrc"
+    "fileName": "049050At the Butcher's",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/049050AttheButcher's.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/049050AttheButcher's.lrc"
   },
   {
     "id": 25,
     "level": "NCE1",
     "sortKey": 51,
     "title": "A Pleasant Climate",
-    "fileName": "051&052A Pleasant Climate",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/051&052APleasantClimate.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/051&052APleasantClimate.lrc"
+    "fileName": "051052A Pleasant Climate",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/051052APleasantClimate.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/051052APleasantClimate.lrc"
   },
   {
     "id": 26,
     "level": "NCE1",
     "sortKey": 53,
     "title": "An Interesting Climate",
-    "fileName": "053&054An Interesting Climate",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/053&054AnInterestingClimate.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/053&054AnInterestingClimate.lrc"
+    "fileName": "053054An Interesting Climate",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/053054AnInterestingClimate.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/053054AnInterestingClimate.lrc"
   },
   {
     "id": 27,
     "level": "NCE1",
     "sortKey": 55,
     "title": "The Sawyer Family",
-    "fileName": "055&056The Sawyer Family",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/055&056TheSawyerFamily.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/055&056TheSawyerFamily.lrc"
+    "fileName": "055056The Sawyer Family",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/055056TheSawyerFamily.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/055056TheSawyerFamily.lrc"
   },
   {
     "id": 28,
     "level": "NCE1",
     "sortKey": 57,
     "title": "An Unusual Day",
-    "fileName": "057&058An Unusual Day",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/057&058AnUnusualDay.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/057&058AnUnusualDay.lrc"
+    "fileName": "057058An Unusual Day",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/057058AnUnusualDay.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/057058AnUnusualDay.lrc"
   },
   {
     "id": 29,
     "level": "NCE1",
     "sortKey": 59,
     "title": "Is That All?",
-    "fileName": "059&060Is That All",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/059&060IsThatAll.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/059&060IsThatAll.lrc"
+    "fileName": "059060Is That All",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/059060IsThatAll.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/059060IsThatAll.lrc"
   },
   {
     "id": 30,
     "level": "NCE1",
     "sortKey": 61,
     "title": "A Bad Cold",
-    "fileName": "061&062A Bad Cold",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/061&062ABadCold.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/061&062ABadCold.lrc"
+    "fileName": "061062A Bad Cold",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/061062ABadCold.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/061062ABadCold.lrc"
   },
   {
     "id": 31,
     "level": "NCE1",
     "sortKey": 63,
     "title": "Thank You, Doctor.",
-    "fileName": "063&064Thank You, Doctor.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/063&064ThankYou,Doctor..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/063&064ThankYou,Doctor..lrc"
+    "fileName": "063064Thank You, Doctor.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/063064ThankYou,Doctor..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/063064ThankYou,Doctor..lrc"
   },
   {
     "id": 32,
     "level": "NCE1",
     "sortKey": 65,
     "title": "Not a Baby",
-    "fileName": "065&066Not a Baby",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/065&066NotaBaby.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/065&066NotaBaby.lrc"
+    "fileName": "065066Not a Baby",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/065066NotaBaby.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/065066NotaBaby.lrc"
   },
   {
     "id": 33,
     "level": "NCE1",
     "sortKey": 67,
     "title": "The Weekend",
-    "fileName": "067&068The Weekend",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/067&068TheWeekend.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/067&068TheWeekend.lrc"
+    "fileName": "067068The Weekend",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/067068TheWeekend.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/067068TheWeekend.lrc"
   },
   {
     "id": 34,
     "level": "NCE1",
     "sortKey": 69,
     "title": "The Car Race",
-    "fileName": "069&070The Car Race",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/069&070TheCarRace.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/069&070TheCarRace.lrc"
+    "fileName": "069070The Car Race",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/069070TheCarRace.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/069070TheCarRace.lrc"
   },
   {
     "id": 35,
     "level": "NCE1",
     "sortKey": 71,
     "title": "He's Awful!",
-    "fileName": "071&072He's Awful",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/071&072He'sAwful.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/071&072He'sAwful.lrc"
+    "fileName": "071072He's Awful",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/071072He'sAwful.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/071072He'sAwful.lrc"
   },
   {
     "id": 36,
     "level": "NCE1",
     "sortKey": 73,
     "title": "The Way to King Street",
-    "fileName": "073&074The Way to King Street",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/073&074TheWaytoKingStreet.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/073&074TheWaytoKingStreet.lrc"
+    "fileName": "073074The Way to King Street",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/073074TheWaytoKingStreet.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/073074TheWaytoKingStreet.lrc"
   },
   {
     "id": 37,
     "level": "NCE1",
     "sortKey": 75,
     "title": "Uncomfortable Shoes",
-    "fileName": "075&076Uncomfortable Shoes",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/075&076UncomfortableShoes.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/075&076UncomfortableShoes.lrc"
+    "fileName": "075076Uncomfortable Shoes",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/075076UncomfortableShoes.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/075076UncomfortableShoes.lrc"
   },
   {
     "id": 38,
     "level": "NCE1",
     "sortKey": 77,
     "title": "Terrible Toothache",
-    "fileName": "077&078Terrible Toothache",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/077&078TerribleToothache.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/077&078TerribleToothache.lrc"
+    "fileName": "077078Terrible Toothache",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/077078TerribleToothache.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/077078TerribleToothache.lrc"
   },
   {
     "id": 39,
     "level": "NCE1",
     "sortKey": 79,
     "title": "Carol's Shopping List",
-    "fileName": "079&080Carol's Shopping List",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/079&080Carol'sShoppingList.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/079&080Carol'sShoppingList.lrc"
+    "fileName": "079080Carol's Shopping List",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/079080Carol'sShoppingList.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/079080Carol'sShoppingList.lrc"
   },
   {
     "id": 40,
     "level": "NCE1",
     "sortKey": 81,
     "title": "Roast Beef and Potatoes",
-    "fileName": "081&082Roast Beef and Potatoes",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/081&082RoastBeefandPotatoes.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/081&082RoastBeefandPotatoes.lrc"
+    "fileName": "081082Roast Beef and Potatoes",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/081082RoastBeefandPotatoes.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/081082RoastBeefandPotatoes.lrc"
   },
   {
     "id": 41,
     "level": "NCE1",
     "sortKey": 83,
     "title": "Going on Holiday",
-    "fileName": "083&084Going on Holiday",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/083&084GoingonHoliday.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/083&084GoingonHoliday.lrc"
+    "fileName": "083084Going on Holiday",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/083084GoingonHoliday.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/083084GoingonHoliday.lrc"
   },
   {
     "id": 42,
     "level": "NCE1",
     "sortKey": 85,
     "title": "\"Paris in the Spring.\"",
-    "fileName": "085&086Paris in the Spring.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/085&086ParisintheSpring..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/085&086ParisintheSpring..lrc"
+    "fileName": "085086Paris in the Spring.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/085086ParisintheSpring..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/085086ParisintheSpring..lrc"
   },
   {
     "id": 43,
     "level": "NCE1",
     "sortKey": 87,
     "title": "A Car Crash",
-    "fileName": "087&088A Car Crash",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/087&088ACarCrash.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/087&088ACarCrash.lrc"
+    "fileName": "087088A Car Crash",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/087088ACarCrash.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/087088ACarCrash.lrc"
   },
   {
     "id": 44,
     "level": "NCE1",
     "sortKey": 89,
     "title": "For Sale",
-    "fileName": "089&090For Sale",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/089&090ForSale.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/089&090ForSale.lrc"
+    "fileName": "089090For Sale",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/089090ForSale.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/089090ForSale.lrc"
   },
   {
     "id": 45,
     "level": "NCE1",
     "sortKey": 91,
     "title": "Poor Ian!",
-    "fileName": "091&092Poor Ian",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/091&092PoorIan.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/091&092PoorIan.lrc"
+    "fileName": "091092Poor Ian",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/091092PoorIan.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/091092PoorIan.lrc"
   },
   {
     "id": 46,
     "level": "NCE1",
     "sortKey": 93,
     "title": "Our New Neighbour",
-    "fileName": "093&094Our New Neighbour",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/093&094OurNewNeighbour.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/093&094OurNewNeighbour.lrc"
+    "fileName": "093094Our New Neighbour",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/093094OurNewNeighbour.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/093094OurNewNeighbour.lrc"
   },
   {
     "id": 47,
     "level": "NCE1",
     "sortKey": 95,
     "title": "Tickets, Please.",
-    "fileName": "095&096Tickets, Please.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/095&096Tickets,Please..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/095&096Tickets,Please..lrc"
+    "fileName": "095096Tickets, Please.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/095096Tickets,Please..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/095096Tickets,Please..lrc"
   },
   {
     "id": 48,
     "level": "NCE1",
     "sortKey": 97,
     "title": "A Small Blue Case",
-    "fileName": "097&098A Small Blue Case",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/097&098ASmallBlueCase.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/097&098ASmallBlueCase.lrc"
+    "fileName": "097098A Small Blue Case",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/097098ASmallBlueCase.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/097098ASmallBlueCase.lrc"
   },
   {
     "id": 49,
     "level": "NCE1",
     "sortKey": 99,
     "title": "Ow!",
-    "fileName": "099&100Ow",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/099&100Ow.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/099&100Ow.lrc"
+    "fileName": "099100Ow",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/099100Ow.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/099100Ow.lrc"
   },
   {
     "id": 50,
     "level": "NCE1",
     "sortKey": 101,
     "title": "A Card From Jimmy",
-    "fileName": "101&102A Card From Jimmy",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/101&102ACardFromJimmy.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/101&102ACardFromJimmy.lrc"
+    "fileName": "101102A Card From Jimmy",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/101102ACardFromJimmy.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/101102ACardFromJimmy.lrc"
   },
   {
     "id": 51,
     "level": "NCE1",
     "sortKey": 103,
     "title": "The French Test",
-    "fileName": "103&104The French Test",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/103&104TheFrenchTest.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/103&104TheFrenchTest.lrc"
+    "fileName": "103104The French Test",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/103104TheFrenchTest.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/103104TheFrenchTest.lrc"
   },
   {
     "id": 52,
     "level": "NCE1",
     "sortKey": 105,
     "title": "Full of Mistakes",
-    "fileName": "105&106Full of Mistakes",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/105&106FullofMistakes.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/105&106FullofMistakes.lrc"
+    "fileName": "105106Full of Mistakes",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/105106FullofMistakes.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/105106FullofMistakes.lrc"
   },
   {
     "id": 53,
     "level": "NCE1",
     "sortKey": 107,
     "title": "It's Too Small.",
-    "fileName": "107&108It's Too Small.",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/107&108It'sTooSmall..mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/107&108It'sTooSmall..lrc"
+    "fileName": "107108It's Too Small.",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/107108It'sTooSmall..mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/107108It'sTooSmall..lrc"
   },
   {
     "id": 54,
     "level": "NCE1",
     "sortKey": 109,
     "title": "A Good Idea",
-    "fileName": "109&110A Good Idea",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/109&110AGoodIdea.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/109&110AGoodIdea.lrc"
+    "fileName": "109110A Good Idea",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/109110AGoodIdea.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/109110AGoodIdea.lrc"
   },
   {
     "id": 55,
     "level": "NCE1",
     "sortKey": 111,
     "title": "The Most Expensive Model",
-    "fileName": "111&112The Most Expensive Model",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/111&112TheMostExpensiveModel.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/111&112TheMostExpensiveModel.lrc"
+    "fileName": "111112The Most Expensive Model",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/111112TheMostExpensiveModel.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/111112TheMostExpensiveModel.lrc"
   },
   {
     "id": 56,
     "level": "NCE1",
     "sortKey": 113,
     "title": "Small Change",
-    "fileName": "113&114Small Change",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/113&114SmallChange.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/113&114SmallChange.lrc"
+    "fileName": "113114Small Change",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/113114SmallChange.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/113114SmallChange.lrc"
   },
   {
     "id": 57,
     "level": "NCE1",
     "sortKey": 115,
     "title": "Knock, Knock!",
-    "fileName": "115&116Knock, Knock",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/115&116Knock,Knock.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/115&116Knock,Knock.lrc"
+    "fileName": "115116Knock, Knock",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/115116Knock,Knock.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/115116Knock,Knock.lrc"
   },
   {
     "id": 58,
     "level": "NCE1",
     "sortKey": 117,
     "title": "Tommy's Breakfast",
-    "fileName": "117&118Tommy's Breakfast",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/117&118Tommy'sBreakfast.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/117&118Tommy'sBreakfast.lrc"
+    "fileName": "117118Tommy's Breakfast",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/117118Tommy'sBreakfast.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/117118Tommy'sBreakfast.lrc"
   },
   {
     "id": 59,
     "level": "NCE1",
     "sortKey": 119,
     "title": "A True Story",
-    "fileName": "119&120A True Story",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/119&120ATrueStory.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/119&120ATrueStory.lrc"
+    "fileName": "119120A True Story",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/119120ATrueStory.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/119120ATrueStory.lrc"
   },
   {
     "id": 60,
     "level": "NCE1",
     "sortKey": 121,
     "title": "The Man in a Hat",
-    "fileName": "121&122The Man in a Hat",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/121&122TheManinaHat.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/121&122TheManinaHat.lrc"
+    "fileName": "121122The Man in a Hat",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/121122TheManinaHat.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/121122TheManinaHat.lrc"
   },
   {
     "id": 61,
     "level": "NCE1",
     "sortKey": 123,
     "title": "A Trip to Australia",
-    "fileName": "123&124A Trip to Australia",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/123&124ATriptoAustralia.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/123&124ATriptoAustralia.lrc"
+    "fileName": "123124A Trip to Australia",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/123124ATriptoAustralia.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/123124ATriptoAustralia.lrc"
   },
   {
     "id": 62,
     "level": "NCE1",
     "sortKey": 125,
     "title": "Tea for Two",
-    "fileName": "125&126Tea for Two",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/125&126TeaforTwo.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/125&126TeaforTwo.lrc"
+    "fileName": "125126Tea for Two",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/125126TeaforTwo.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/125126TeaforTwo.lrc"
   },
   {
     "id": 63,
     "level": "NCE1",
     "sortKey": 127,
     "title": "A Famous Actress",
-    "fileName": "127&128A Famous Actress",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/127&128AFamousActress.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/127&128AFamousActress.lrc"
+    "fileName": "127128A Famous Actress",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/127128AFamousActress.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/127128AFamousActress.lrc"
   },
   {
     "id": 64,
     "level": "NCE1",
     "sortKey": 129,
     "title": "Seventy Miles an Hour",
-    "fileName": "129&130Seventy Miles an Hour",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/129&130SeventyMilesanHour.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/129&130SeventyMilesanHour.lrc"
+    "fileName": "129130Seventy Miles an Hour",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/129130SeventyMilesanHour.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/129130SeventyMilesanHour.lrc"
   },
   {
     "id": 65,
     "level": "NCE1",
     "sortKey": 131,
     "title": "Don't be So Sure!",
-    "fileName": "131&132Don't be So Sure",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/131&132Don'tbeSoSure.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/131&132Don'tbeSoSure.lrc"
+    "fileName": "131132Don't be So Sure",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/131132Don'tbeSoSure.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/131132Don'tbeSoSure.lrc"
   },
   {
     "id": 66,
     "level": "NCE1",
     "sortKey": 133,
     "title": "Sensational News!",
-    "fileName": "133&134Sensational News",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/133&134SensationalNews.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/133&134SensationalNews.lrc"
+    "fileName": "133134Sensational News",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/133134SensationalNews.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/133134SensationalNews.lrc"
   },
   {
     "id": 67,
     "level": "NCE1",
     "sortKey": 135,
     "title": "The Latest Report",
-    "fileName": "135&136The Latest Report",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/135&136TheLatestReport.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/135&136TheLatestReport.lrc"
+    "fileName": "135136The Latest Report",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/135136TheLatestReport.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/135136TheLatestReport.lrc"
   },
   {
     "id": 68,
     "level": "NCE1",
     "sortKey": 137,
     "title": "A Pleasant Dream",
-    "fileName": "137&138A Pleasant Dream",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/137&138APleasantDream.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/137&138APleasantDream.lrc"
+    "fileName": "137138A Pleasant Dream",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/137138APleasantDream.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/137138APleasantDream.lrc"
   },
   {
     "id": 69,
     "level": "NCE1",
     "sortKey": 139,
     "title": "Is That You, John?",
-    "fileName": "139&140Is That You, John",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/139&140IsThatYou,John.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/139&140IsThatYou,John.lrc"
+    "fileName": "139140Is That You, John",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/139140IsThatYou,John.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/139140IsThatYou,John.lrc"
   },
   {
     "id": 70,
     "level": "NCE1",
     "sortKey": 141,
     "title": "Sally's First Train Ride",
-    "fileName": "141&142Sally's First Train Ride",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/141&142Sally'sFirstTrainRide.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/141&142Sally'sFirstTrainRide.lrc"
+    "fileName": "141142Sally's First Train Ride",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/141142Sally'sFirstTrainRide.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/141142Sally'sFirstTrainRide.lrc"
   },
   {
     "id": 71,
     "level": "NCE1",
     "sortKey": 143,
     "title": "A Walk Through the Woods",
-    "fileName": "143&144A Walk Through the Woods",
-    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/143&144AWalkThroughtheWoods.mp3",
-    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/143&144AWalkThroughtheWoods.lrc"
+    "fileName": "143144A Walk Through the Woods",
+    "audioPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/143144AWalkThroughtheWoods.mp3",
+    "lrcPath": "https://github.com/sufangmu/NCE/blob/main//NCE1/143144AWalkThroughtheWoods.lrc"
   },
   {
     "id": 72,
