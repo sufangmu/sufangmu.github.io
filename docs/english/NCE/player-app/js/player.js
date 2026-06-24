@@ -1,6 +1,12 @@
 /**
  * NCE Audio Player Engine
  * Handles: LRC parsing, audio playback sync, and 4 playback modes.
+ *
+ * Modes:
+ *   'normal'      — play all sentences of a lesson, then auto-advance to next lesson
+ *   'loopAll'     — loop the entire lesson forever
+ *   'sentenceOnce'— play one sentence then pause
+ *   'sentenceLoop'— loop current sentence N times with an interval between loops
  */
 
 /**
@@ -23,15 +29,23 @@ class NCEPlayer {
   constructor() {
     this.audio = new Audio();
     this.audio.preload = 'auto'; // Preload entire file for smooth seeking
-    this.lyrics = [];        // [{startTime, endTime, text}]
-    this.currentIndex = -1;  // current lyric line index
-    this.mode = 'normal';    // 'normal' | 'loopAll' | 'sentenceOnce' | 'sentenceLoop'
+    this.lyrics = [];           // [{startTime, endTime, text}]
+    this.currentIndex = -1;     // current lyric line index
+    this.mode = 'normal';       // 'normal' | 'loopAll' | 'sentenceOnce' | 'sentenceLoop'
     this.isPlaying = false;
+
+    // SentenceLoop settings
+    this.loopCount = 3;         // how many times to repeat (1-10)
+    this.loopInterval = 2;      // seconds between repetitions (1-10)
+
+    // Internal
     this.listeners = [];
     this._boundTimeUpdate = this._onTimeUpdate.bind(this);
     this._boundEnded = this._onEnded.bind(this);
     this._boundLoaded = this._onLoaded.bind(this);
-    this._sentencePauseAt = -1; // endTime to pause at (for sentenceOnce mode)
+    this._sentencePauseAt = -1; // endTime to pause at (for sentenceOnce/sentenceLoop)
+    this._currentLoopCount = 0; // current repetition count within a sentenceLoop
+    this._loopTimer = null;     // setTimeout ID for loop interval
   }
 
   /**
@@ -42,6 +56,9 @@ class NCEPlayer {
     this.lyrics = [];
     this.currentIndex = -1;
     this._sentencePauseAt = -1;
+    this._currentLoopCount = 0;
+    clearTimeout(this._loopTimer);
+    this._loopTimer = null;
 
     // Encode URLs to handle special characters in filenames (&, －, etc.)
     const encodedLrcUrl = encodePath(lrcUrl);
@@ -137,6 +154,8 @@ class NCEPlayer {
     this.audio.pause();
     this.isPlaying = false;
     this._sentencePauseAt = -1;
+    clearTimeout(this._loopTimer);
+    this._loopTimer = null;
     this._notify('playState', { isPlaying: false });
   }
 
@@ -156,6 +175,9 @@ class NCEPlayer {
    */
   seekTo(index) {
     if (index >= 0 && index < this.lyrics.length) {
+      clearTimeout(this._loopTimer);
+      this._loopTimer = null;
+      this._currentLoopCount = 0;
       const time = this.lyrics[index].startTime;
       this.audio.currentTime = time;
       this.currentIndex = index;
@@ -174,6 +196,9 @@ class NCEPlayer {
   seekToTime(seconds) {
     this.audio.currentTime = Math.max(0, seconds);
     this._sentencePauseAt = -1;
+    this._currentLoopCount = 0;
+    clearTimeout(this._loopTimer);
+    this._loopTimer = null;
     if (this.isPlaying) {
       this._updateSentencePause();
     }
@@ -210,10 +235,29 @@ class NCEPlayer {
   setMode(mode) {
     this.mode = mode;
     this._sentencePauseAt = -1;
+    this._currentLoopCount = 0;
+    clearTimeout(this._loopTimer);
+    this._loopTimer = null;
     if (this.isPlaying) {
       this._updateSentencePause();
     }
     this._notify('modeChange', { mode });
+  }
+
+  /**
+   * Set loop count for sentenceLoop mode.
+   * @param {number} n - 1 to 10
+   */
+  setLoopCount(n) {
+    this.loopCount = Math.max(1, Math.min(10, Math.round(n)));
+  }
+
+  /**
+   * Set loop interval (seconds) for sentenceLoop mode.
+   * @param {number} n - 1 to 10
+   */
+  setLoopInterval(n) {
+    this.loopInterval = Math.max(1, Math.min(10, Math.round(n)));
   }
 
   /**
@@ -262,10 +306,29 @@ class NCEPlayer {
       if (this.mode === 'sentenceOnce') {
         this.pause();
       } else if (this.mode === 'sentenceLoop') {
-        // Seek back to start of current sentence
-        if (this.currentIndex >= 0 && this.currentIndex < this.lyrics.length) {
-          this.audio.currentTime = this.lyrics[this.currentIndex].startTime;
-          this._sentencePauseAt = this.lyrics[this.currentIndex].endTime;
+        this._currentLoopCount++;
+        if (this._currentLoopCount < this.loopCount) {
+          // More repetitions remain — pause for interval seconds, then replay
+          this.audio.pause();
+          this.isPlaying = false;
+          this._sentencePauseAt = -1;
+          this._notify('playState', { isPlaying: false });
+          this._loopTimer = setTimeout(() => {
+            this._loopTimer = null;
+            if (this.mode === 'sentenceLoop' &&
+                this.currentIndex >= 0 &&
+                this.currentIndex < this.lyrics.length) {
+              this.audio.currentTime = this.lyrics[this.currentIndex].startTime;
+              this._updateSentencePause();
+              this.audio.play();
+              this.isPlaying = true;
+              this._notify('playState', { isPlaying: true });
+            }
+          }, this.loopInterval * 1000);
+        } else {
+          // All repetitions complete — stop on this sentence
+          this._currentLoopCount = 0;
+          this.pause();
         }
       }
       return;
@@ -290,10 +353,19 @@ class NCEPlayer {
 
   _onEnded() {
     if (this.mode === 'loopAll') {
+      // Loop the entire lesson
       this.audio.currentTime = 0;
       this.currentIndex = -1;
       this._sentencePauseAt = -1;
       this.audio.play();
+    } else if (this.mode === 'normal') {
+      // Sequential book playback: signal app to load the next lesson
+      this.isPlaying = false;
+      this.currentIndex = -1;
+      this._sentencePauseAt = -1;
+      this._notify('playState', { isPlaying: false });
+      this._notify('ended');
+      this._notify('requestNextLesson');
     } else {
       this.isPlaying = false;
       this.currentIndex = -1;

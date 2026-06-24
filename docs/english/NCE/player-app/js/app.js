@@ -35,7 +35,6 @@
     progressFill: $('#progressFill'),
     timeCurrent: $('#timeCurrent'),
     timeDuration: $('#timeDuration'),
-    modeBtns: $$('.mode-btn'),
     speedSelect: $('#speedSelect'),
     emptyState: $('#emptyState'),
     lyricContent: $('#lyricContent'),
@@ -43,6 +42,22 @@
     lessonInfo: $('#lessonInfo'),
     lessonTitle: $('#lessonTitle'),
     lessonMeta: $('#lessonMeta'),
+    loopControls: $('#loopControls'),
+    loopCount: $('#loopCount'),
+    loopInterval: $('#loopInterval'),
+    modeCycleBtn: $('#modeCycleBtn'),
+    modeCycleIcon: $('#modeCycleIcon'),
+    modeCycleLabel: $('#modeCycleLabel'),
+    themeToggle: $('#themeToggle'),
+  };
+
+  // --- Mode cycle definitions ---
+  const MODE_CYCLE = ['normal', 'loopAll', 'sentenceOnce', 'sentenceLoop'];
+  const MODE_INFO = {
+    normal:       { icon: '▶️',  label: '顺序播放',     title: '顺序播放当前册所有录音' },
+    loopAll:      { icon: '🔁', label: '全文循环', title: '全文循环播放' },
+    sentenceOnce: { icon: '🔂', label: '单句播放', title: '每句播放一次后暂停' },
+    sentenceLoop: { icon: '🔄', label: '单句循环', title: '当前句子循环播放' },
   };
 
   // --- Initialize ---
@@ -65,6 +80,7 @@
     bindEvents();
     bindPlayerEvents();
     bindKeyboard();
+    initTheme();
 
     // Auto-select first lesson if any
     const firstLevelLessons = state.lessonsByLevel[state.currentLevel];
@@ -204,11 +220,16 @@
     dom.btnPlay.textContent = isPlaying ? '⏸' : '▶';
   }
 
-  // --- Update Mode Buttons ---
-  function updateModeButtons(mode) {
-    dom.modeBtns.forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.mode === mode);
-    });
+  // --- Update Mode Button ---
+  function updateModeButton(mode) {
+    const info = MODE_INFO[mode] || MODE_INFO.normal;
+    dom.modeCycleBtn.title = info.title;
+    dom.modeCycleIcon.textContent = info.icon;
+    dom.modeCycleLabel.textContent = info.label;
+    // Show loop controls only in sentenceLoop mode
+    if (dom.loopControls) {
+      dom.loopControls.style.display = mode === 'sentenceLoop' ? '' : 'none';
+    }
   }
 
   // --- Bind Player Events ---
@@ -238,7 +259,7 @@
           break;
 
         case 'modeChange':
-          updateModeButtons(data.mode);
+          updateModeButton(data.mode);
           break;
 
         case 'ended':
@@ -248,6 +269,18 @@
 
         case 'seek':
           updateLyricHighlight(data.index);
+          break;
+
+        case 'requestNextLesson':
+          // Sequential book playback: auto-advance to next lesson
+          const lessons = state.lessonsByLevel[state.currentLevel] || [];
+          const curIdx = lessons.findIndex(
+            (l) => l.id === state.currentLesson.id
+          );
+          if (curIdx >= 0 && curIdx < lessons.length - 1) {
+            state.autoPlay = true;
+            navigateLesson(1);
+          }
           break;
       }
     });
@@ -346,19 +379,45 @@
       navigateLesson(1);
     });
 
-    // Mode buttons
-    dom.modeBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const mode = btn.dataset.mode;
-        state.player.setMode(mode);
+    // Mode cycle button — click to switch to next mode
+    if (dom.modeCycleBtn) {
+      dom.modeCycleBtn.addEventListener('click', () => {
+        const currentMode = state.player.mode;
+        const idx = MODE_CYCLE.indexOf(currentMode);
+        const nextMode = MODE_CYCLE[(idx + 1) % MODE_CYCLE.length];
+        state.player.setMode(nextMode);
       });
-    });
+    }
+
+    // Theme toggle
+    if (dom.themeToggle) {
+      dom.themeToggle.addEventListener('click', toggleTheme);
+    }
 
     // Playback speed
     dom.speedSelect.addEventListener('change', () => {
       const speed = parseFloat(dom.speedSelect.value);
       state.player.audio.playbackRate = speed;
     });
+
+    // Loop count (sentenceLoop mode)
+    if (dom.loopCount) {
+      dom.loopCount.addEventListener('change', () => {
+        state.player.setLoopCount(parseInt(dom.loopCount.value, 10));
+      });
+    }
+
+    // Loop interval (sentenceLoop mode)
+    if (dom.loopInterval) {
+      dom.loopInterval.addEventListener('change', () => {
+        state.player.setLoopInterval(parseInt(dom.loopInterval.value, 10));
+      });
+    }
+
+    // Initialize loop controls visibility (hidden by default, shown when in sentenceLoop mode)
+    if (dom.loopControls) {
+      dom.loopControls.style.display = 'none';
+    }
   }
 
   // --- Keyboard Shortcuts ---
@@ -418,6 +477,35 @@
         `.lesson-item[data-id="${lessons[newIdx].id}"]`
       );
       if (item) item.scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  // --- Theme toggle ---
+  function initTheme() {
+    const saved = localStorage.getItem('nce-theme');
+    if (saved === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      dom.themeToggle.textContent = '☀️';
+      dom.themeToggle.title = '切换到白天主题';
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      dom.themeToggle.textContent = '🌙';
+      dom.themeToggle.title = '切换到黑夜主题';
+    }
+  }
+
+  function toggleTheme() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('nce-theme', 'light');
+      dom.themeToggle.textContent = '🌙';
+      dom.themeToggle.title = '切换到黑夜主题';
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('nce-theme', 'dark');
+      dom.themeToggle.textContent = '☀️';
+      dom.themeToggle.title = '切换到白天主题';
     }
   }
 

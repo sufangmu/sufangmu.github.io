@@ -13,6 +13,7 @@
       <span class="logo">📖</span>
       <h1>新概念英语</h1>
       <span class="subtitle">New Concept English</span>
+      <button class="theme-toggle" id="themeToggle" title="切换白天/黑夜主题">🌙</button>
     </header>
 
     <!-- Main Content -->
@@ -93,22 +94,46 @@
 
             <span class="mode-divider"></span>
 
-            <button class="mode-btn" data-mode="normal" title="顺序播放全部内容">
-              <span class="mode-icon">▶️</span> 顺序
-            </button>
-            <button class="mode-btn" data-mode="loopAll" title="全文循环播放">
-              <span class="mode-icon">🔁</span> 全文循环
-            </button>
-            <button class="mode-btn" data-mode="sentenceOnce" title="每句播放一次后暂停">
-              <span class="mode-icon">🔂</span> 单句播放
-            </button>
-            <button class="mode-btn" data-mode="sentenceLoop" title="当前句子循环播放">
-              <span class="mode-icon">🔄</span> 单句循环
+            <button class="mode-cycle-btn" id="modeCycleBtn" title="顺序播放当前册所有录音">
+              <span class="mode-cycle-icon" id="modeCycleIcon">▶️</span>
+              <span class="mode-cycle-label" id="modeCycleLabel">顺序播放</span>
             </button>
 
             <span class="mode-divider"></span>
 
-            <label style="font-size:13px;color:var(--text-secondary);">语速:</label>
+            <div class="loop-controls" id="loopControls">
+              <label class="loop-label">循环</label>
+              <select class="loop-select" id="loopCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <label class="loop-label">次 间隔</label>
+              <select class="loop-select" id="loopInterval">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <label class="loop-label">秒</label>
+            </div>
+
+            <span class="mode-divider"></span>
+
+            <label style="font-size:13px;color:var(--text-secondary);">语速</label>
             <select class="speed-select" id="speedSelect">
               <option value="0.5">0.5x</option>
               <option value="0.75">0.75x</option>
