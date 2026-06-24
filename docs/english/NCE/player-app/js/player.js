@@ -318,10 +318,10 @@ class NCEPlayer {
             if (this.mode === 'sentenceLoop' &&
                 this.currentIndex >= 0 &&
                 this.currentIndex < this.lyrics.length) {
+              this.isPlaying = true;
               this.audio.currentTime = this.lyrics[this.currentIndex].startTime;
               this._updateSentencePause();
               this.audio.play();
-              this.isPlaying = true;
               this._notify('playState', { isPlaying: true });
             }
           }, this.loopInterval * 1000);
