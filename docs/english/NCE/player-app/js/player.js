@@ -143,6 +143,10 @@ class NCEPlayer {
     if (this.audio.src) {
       this.audio.play();
       this.isPlaying = true;
+      // Re-arm the pause point for sentenceOnce/sentenceLoop modes.
+      // This is critical — after pause() clears _sentencePauseAt, calling
+      // play() must set it again or the loop logic will never fire.
+      this._updateSentencePause();
       this._notify('playState', { isPlaying: true });
     }
   }
@@ -282,6 +286,56 @@ class NCEPlayer {
     return this.audio.duration || 0;
   }
 
+  /**
+   * Handle completion of one sentenceLoop iteration.
+   * Increments the counter; either schedules a repeat (with interval) or stops.
+   * Called from both _onTimeUpdate (sentence endTime reached) and _onEnded
+   * (audio file ended before endTime — last sentence edge case).
+   */
+  _handleSentenceLoopEnd() {
+    // IMPORTANT: Save currentIndex at the start.  this.audio.pause() can fire an
+    // asynchronous 'timeupdate' that re-computes currentIndex to the *next*
+    // sentence (because the audio position is at the end boundary where
+    // newIndex naturally falls into the next line).  If we let that propagate,
+    // the timer callback or the done-branch seek would target the wrong sentence.
+    const savedIndex = this.currentIndex;
+
+    this._currentLoopCount++;
+    if (this._currentLoopCount < this.loopCount) {
+      // More repetitions remain — pause for interval seconds, then replay
+      this.audio.pause();
+      this.isPlaying = false;
+      this._sentencePauseAt = -1;
+      this._notify('playState', { isPlaying: false });
+      this._loopTimer = setTimeout(() => {
+        this._loopTimer = null;
+        if (
+          this.mode === 'sentenceLoop' &&
+          savedIndex >= 0 &&
+          savedIndex < this.lyrics.length
+        ) {
+          this.currentIndex = savedIndex; // Restore in case an async timeupdate advanced it
+          this.isPlaying = true;
+          this.audio.currentTime = this.lyrics[savedIndex].startTime;
+          this._updateSentencePause();
+          this.audio.play();
+          this._notify('playState', { isPlaying: true });
+        }
+      }, this.loopInterval * 1000);
+    } else {
+      // All repetitions complete — seek to sentence start so the user
+      // can press Play to restart the loop cleanly.
+      this._currentLoopCount = 0;
+      if (savedIndex >= 0 && savedIndex < this.lyrics.length) {
+        this.currentIndex = savedIndex; // Restore correct index
+        this.audio.currentTime = this.lyrics[savedIndex].startTime;
+      } else {
+        this.audio.currentTime = 0;
+      }
+      this.pause();
+    }
+  }
+
   // --- Private methods ---
 
   _onTimeUpdate() {
@@ -306,30 +360,7 @@ class NCEPlayer {
       if (this.mode === 'sentenceOnce') {
         this.pause();
       } else if (this.mode === 'sentenceLoop') {
-        this._currentLoopCount++;
-        if (this._currentLoopCount < this.loopCount) {
-          // More repetitions remain — pause for interval seconds, then replay
-          this.audio.pause();
-          this.isPlaying = false;
-          this._sentencePauseAt = -1;
-          this._notify('playState', { isPlaying: false });
-          this._loopTimer = setTimeout(() => {
-            this._loopTimer = null;
-            if (this.mode === 'sentenceLoop' &&
-                this.currentIndex >= 0 &&
-                this.currentIndex < this.lyrics.length) {
-              this.isPlaying = true;
-              this.audio.currentTime = this.lyrics[this.currentIndex].startTime;
-              this._updateSentencePause();
-              this.audio.play();
-              this._notify('playState', { isPlaying: true });
-            }
-          }, this.loopInterval * 1000);
-        } else {
-          // All repetitions complete — stop on this sentence
-          this._currentLoopCount = 0;
-          this.pause();
-        }
+        this._handleSentenceLoopEnd();
       }
       return;
     }
@@ -366,7 +397,16 @@ class NCEPlayer {
       this._notify('playState', { isPlaying: false });
       this._notify('ended');
       this._notify('requestNextLesson');
+    } else if (this.mode === 'sentenceLoop') {
+      // Guard: _onTimeUpdate may have already handled this via
+      // _handleSentenceLoopEnd (which pauses and clears _sentencePauseAt).
+      // Only handle if the player is still actively playing — otherwise
+      // _currentLoopCount double-increments and duplicate timers pile up.
+      if (this.isPlaying && this._sentencePauseAt > 0) {
+        this._handleSentenceLoopEnd();
+      }
     } else {
+      // sentenceOnce (or fallback)
       this.isPlaying = false;
       this.currentIndex = -1;
       this._sentencePauseAt = -1;

@@ -17,8 +17,8 @@ window.NCE_LESSONS = [
     "sortKey": 3,
     "title": "Sorry, Sir.",
     "fileName": "003004Sorry, Sir.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir.lrc"
   },
   {
     "id": 2,
@@ -26,8 +26,8 @@ window.NCE_LESSONS = [
     "sortKey": 5,
     "title": "Nice to Meet You.",
     "fileName": "005006Nice to Meet You.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/005006NicetoMeetYou..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/005006NicetoMeetYou..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/005006NicetoMeetYou.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/005006NicetoMeetYou.lrc"
   },
   {
     "id": 3,
@@ -71,8 +71,8 @@ window.NCE_LESSONS = [
     "sortKey": 15,
     "title": "Your Passports, Please.",
     "fileName": "015016Your Passports, Please.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please.lrc"
   },
   {
     "id": 8,
@@ -134,8 +134,8 @@ window.NCE_LESSONS = [
     "sortKey": 29,
     "title": "Come In, Amy.",
     "fileName": "029030Come In, Amy.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/029030ComeIn,Amy..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/029030ComeIn,Amy..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/029030ComeIn,Amy.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/029030ComeIn,Amy.lrc"
   },
   {
     "id": 15,
@@ -287,8 +287,8 @@ window.NCE_LESSONS = [
     "sortKey": 63,
     "title": "Thank You, Doctor.",
     "fileName": "063064Thank You, Doctor.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/063064ThankYou,Doctor..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/063064ThankYou,Doctor..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/063064ThankYou,Doctor.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/063064ThankYou,Doctor.lrc"
   },
   {
     "id": 32,
@@ -386,8 +386,8 @@ window.NCE_LESSONS = [
     "sortKey": 85,
     "title": "\"Paris in the Spring.\"",
     "fileName": "085086Paris in the Spring.",
-    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/085086ParisintheSpring..mp3",
-    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/085086ParisintheSpring..lrc"
+    "audioPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/085086ParisintheSpring.mp3",
+    "lrcPath": "https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/085086ParisintheSpring.lrc"
   },
   {
     "id": 43,

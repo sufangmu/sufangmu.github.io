@@ -78,6 +78,13 @@ body {
   flex-shrink: 0;
   box-shadow: var(--shadow);
   z-index: 100;
+  transition: background 0.3s;
+}
+
+/* Dark mode: header blends with the dark surface instead of staying bright blue */
+[data-theme="dark"] .header {
+  background: #1e293b;
+  border-bottom: 1px solid var(--border);
 }
 
 .header .logo {
@@ -433,7 +440,7 @@ body {
   height: var(--control-height);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4px;
   padding: 0 20px 4px;
   flex-shrink: 0;
