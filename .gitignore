@@ -2,3 +2,4 @@ site
 update.sh
 .vscode
 **/.claude/**
+.claude
