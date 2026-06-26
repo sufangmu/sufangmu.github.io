@@ -10,14 +10,14 @@
 - feel obliged to do sth. 感到不得不做某事
 - a trail of
 - cling to sb./sth.
-- sth. convinced sb. that + 句⼦
-- sb. was/were convinced that + 句⼦
-- It is disturbing to think that + 句⼦
+- sth. convinced sb. that + 句子
+- sb. was/were convinced that + 句子
+- It is disturbing to think that + 句子
 - at large
 - be found in
 - take sth. seriously
 - sth. proved adj.
-- sb. confirmed that + 句⼦
+- sb. confirmed that + 句子
 - claim to have done sth.
 - find sb. doing sth.
 - go on
@@ -49,7 +49,7 @@ One night, however, our vicar <u>woke up with a start</u>: the clock was strikin
 - recognize A as B
 - give sb. a surprise
 - What’s going on?
-- I’m glad that + 句⼦
+- I’m glad that + 句子
 - get used to sth. 习惯
 - be always doing sth.  be+doing: 与always连⽤时，表示频率过⾼，令说话者⼼烦，⽣厌(⾮绝地)。常⽤肯定。
 
@@ -91,7 +91,7 @@ The temple (which the archaeologists explored) <u>was used as</u> a place of wor
 - date from... 追溯到
 - date back to... 追溯到
 - happen to do 碰巧
-- be amazed to find that + 句⼦
+- be amazed to find that + 句子
 - turn out to be… 结果是，证明是
 - despite/ despite the fact that...
 
@@ -136,9 +136,9 @@ He will be earning only half as much as he used to, but he feels that his rise i
 
 -  refer to a as b (被称为)
 
--  for the simple reason that... + 句⼦
+-  for the simple reason that... + 句子
 
--  Such is human nature, that + 句⼦ 人类的本性是...
+-  Such is human nature, that + 句子 人类的本性是...
 
 -  be willing to do sth. 愿意做
 
@@ -224,7 +224,7 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 -  find out sth.
 -  sb. take a long time to do sth.
 -  go to press  送印
--  inform sb. that + 句⼦  通知
+-  inform sb. that + 句子  通知
 
 
 ## 06 Smash-and-Grab
@@ -382,12 +382,12 @@ Two men (who recently spent five days on a coral(珊瑚) island) wished they had
 - have an opportunity to do sth.
 - an element of truth/danger
 - starve to death
-- Sb. be genuinely sorry that+句⼦
+- Sb. be genuinely sorry that+句子
 - formed an unrealistic picture of a.
 - imagine sth. to be n./adj.
 - a sort of
 - quite the opposite  恰恰相反
-- wish that+句⼦
+- wish that+句子
 - load a. with b.  用b装载a。
 - as sb. put it…  如某人所说
 
@@ -424,12 +424,12 @@ Six hundred years ago, Sir John Hawkwood arrived in Italy with <u>a band of</u> 
 - dedicate something to somebody
 - devote oneself to sth. / doing sth.
 - in memory of sb. / to the memory of sb.  为了纪念某人
-- There was a time when +句⼦
+- There was a time when +句子
 - pay money to sb.
 - large sums of money
 - put sb. out of business  使某人停业
 - as long ago as  早在
-- make the remarkable discovery that + 句⼦
+- make the remarkable discovery that + 句子
 - would rather do a. than do b.  我宁愿做a也不愿做b
 - make a name for himself 出名
 - come to do sth.
@@ -501,14 +501,14 @@ When Dimitri came in from the fields, his wife told him what had happened. Dimit
 - prize money
 - tie sb. to sth. = sb. be tied to sth.
 - accuse sb. of doing sth.
-- deny doing ... / sb. deny that + 句⼦
+- deny doing ... / sb. deny that + 句子
 - be ashamed of sth. /doing sth. / having done sth.
 - apologize to sb.
 - apologize for (doing) something
 - dye something + adj.
 - tell sb. about sth.
-- It’s true that+句⼦, but+句⼦
-- be astonished to find (that) + 句⼦
+- It’s true that+句子, but+句子
+- be astonished to find (that) + 句子
 
 ## 17 The Longest Suspension Bridge in the World
 
@@ -523,8 +523,8 @@ The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Sta
 - a span of  一段……的时间
 - life span  寿命
 - a length of / lengths of +rope/pipe/wire   一段
-- It is estimated that + 句⼦
-- sb. estimate that + 句⼦
+- It is estimated that + 句子
+- sb. estimate that + 句子
 - Little / not much/ not everything is known about a.
 - describe a. as b.
 - in the midst of
@@ -549,13 +549,13 @@ In spite of this, some people--including myself--were surprised by a recent exhi
 
 - make a sculpture / create a sculpture
 - be mistaken about sth./sb.
-- Oddly enough, ...句⼦  说来也奇怪
+- Oddly enough, ...句子  说来也奇怪
 - be attached to sb./sth. = attach a. to b.
 - get an electric shock
 - receive an electric shock
 - give you electric shocks
 - not any more = not any longer = no longer
-- The idea that+句⼦ is mistaken.
+- The idea that+句子 is mistaken.
 - take no interest in
 - in response to
 - be familiar to sb.
@@ -579,7 +579,7 @@ Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous(匿名
 - anonymous + letter/ (phone) call
 - remain anonymous
 - a ransom of +钱
-- It astounded sb. that +句⼦  使某人吃惊的是...
+- It astounded sb. that +句子  使某人吃惊的是...
 - share sth. with sb.
 - take a short/long walk
 - get worried…
@@ -591,8 +591,8 @@ Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous(匿名
 - follow sb’s instructions...
 - keep sb’s word  遵守诺言
 - sure enough 果然
-- sb. explained that + 句⼦
-- Considering+ n., 句⼦
+- sb. explained that + 句子
+- Considering+ n., 句子
 - in more ways than one  不止一种意义
 
 ## 20 Pioneer Pilots 
@@ -624,13 +624,13 @@ Mendoza <u>rose to fame</u> swiftly(很快地) after a boxing match when he was 
 ### Expressions
 
 - with sb’s bare hands
-- Technically speaking, ...+ 句⼦
+- Technically speaking, ...+ 句子
 - gain/grow/increase in popularity
 - great minds think alike
 - rise to fame (=become famous)
 - quarrel/complain/ be disappointed...+bitterly
 - bet (¥) on sth.
-- I bet + 句⼦
+- I bet + 句子
 - live in poverty
 - Because of + 单词/短语
 - be born in + 年份
@@ -707,7 +707,7 @@ No creature has received more praise and abuse(辱骂) than the common garden sn
 - dozens of sth. sb.
 - for instance
 - at the idea of...
-- The sad truth is that+句⼦
+- The sad truth is that+句子
 - be brought up to do sth
 - stick to sth.
 - notice sb. doing sth.
@@ -761,10 +761,10 @@ The first of the two ships to reach Java after the race had begun was the Thermo
 - from side to side  左右(摇摆)
 - it became impossible to do sth.
 - with great difficulty
-- there is a danger that + 句⼦
+- there is a danger that + 句子
 - call in on/at
 - by now
-- There is no doubt that + 句⼦
+- There is no doubt that + 句子
 
 ## 26 Wanted a Large Biscuit Tin
 
@@ -857,11 +857,11 @@ The next man to approach me was selling expensive pens and watches. I examined o
 - I can’t conceal the fact that + 句子  我不能隐瞒这个事实
 - sb. be impressed by sth.
 - go to great lengths to do sth.  竭尽全力做某事
-- prove that + 句⼦
+- prove that + 句子
 - get rid of sb.  摆脱某人
 - at the base of sth.
 - let me have it
-- indicate that + 句⼦
+- indicate that + 句子
 - reduce the price to $
 - keep doing sth.
 - keep on doing sth. 
@@ -886,7 +886,7 @@ A man who had broken his right leg was taken to hospital a few weeks before Chri
 - dread doing something 害怕做某事
 - dread somebody doing something
 - make a complete/quick/speedy/slow recovery
-- console sb./yourself that + 句⼦
+- console sb./yourself that + 句子
 - compensate (for something) = make up for
 - be bound up with  与……密切相关
 - find it hard to do sth.
@@ -991,7 +991,7 @@ Things can go wrong <u>on a big scale</u> as a number of people recently discove
 - stray dogs
 - There is some confusion about sth.
 - get out of control
-- What invariably happens is that+句⼦
+- What invariably happens is that+句子
 - set up a chain of reactions
 - keep an eye on sb.
 - be/speak/talk on the phone
@@ -1024,16 +1024,16 @@ My old friend, Frank Halliday, is just such a person. He has often described to 
 - in the labyrinth of sth.
 - junk mail
 - be littered with something
-- sb. cherish the hope that + 句⼦
+- sb. cherish the hope that + 句子
 - The mere fact 从句 + …
 - prise something open
 - carve a. from/out of b. =
 - a. be carved from/out of b.
-- There is always hope that+句⼦
+- There is always hope that+句子
 - by chance
 - above all
 - be bent on doing sth.
-- sb. cherish the hope that+句⼦
+- sb. cherish the hope that+句子
 - described to sb. what/how...+宾从
 - describe sth. to sb.
 - pick up
@@ -1227,8 +1227,8 @@ Historians have long been <u>puzzled by dots</u>, lines and symbols which have b
 - the advent of…
 - with the advent of computer/television video chat
 - make the assumptions that
-- be based on the assumption that +句⼦
-- work on the assumption that + 句⼦
+- be based on the assumption that +句子
+- work on the assumption that + 句子
 - connect the dots
 - engrave sth. on
 - a. be engraved on b.
@@ -1262,7 +1262,7 @@ As we bumped(颠簸) over the dusty track(小道), we <u>swerved(急转变) to a
 
 - be pitted with
 - be/seem perturbed by
-- be/seem perturbed that +句⼦
+- be/seem perturbed that +句子
 - underestimate how/what ...
 - underestimate the power of something
 - swerve to avoid
@@ -1327,7 +1327,7 @@ The student hid in an archway(拱门) nearby where he could watch and hear every
 - put sb. under arrest
 - pretend to do
 - make a telephone call
-- Only when... did sb. realize that +句⼦
+- Only when... did sb. realize that +句子
 
 ## 41 Illusions of Pastoral Peace
 
