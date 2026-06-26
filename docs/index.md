@@ -15,8 +15,8 @@
 
 **Interests**
 
-- **Before**: Xiao flute, bamboo flute, Ocarina, Xun, Harmonica
-- **Now**: Go(Fox Go 6k)
+- **Before**: Xiao flute, bamboo flute, Ocarina, Xun, Harmonica -- Beginner
+- **Now**: Go -- Fox Go 6k
 
 **Personal Projects**
 
@@ -24,4 +24,4 @@
 
 **This Site**
 
-A personal knowledge base — Linux, DevOps, Programming, Databases, and more
+​    A personal knowledge base — Linux, DevOps, Programming, Databases, and more
