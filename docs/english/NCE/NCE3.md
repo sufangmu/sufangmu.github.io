@@ -105,55 +105,30 @@ He will be earning only half as much as he used to, but he feels that his rise i
 ### Expressions
 
 -  do manual work...
-
 -  white-collar / blue-collar workers
-
 -  make a sacrifice
-
 -  sacri ce a for b
-
 -  have the privilege of doing sth.
-
 -  take a shower…
-
 -  keep a secret
-
 -  the secret of success
-
 -  between you and me
-
 -  social status
-
 -  status quo
-
 -  keep the status quo
-
 -  These days = nowadays
-
 -  Far more adj./n.
-
 -  a be referred to as...b  称a为b
-
 -  refer to a as b (被称为)
-
 -  for the simple reason that... + 句子
-
 -  Such is human nature, that + 句子 人类的本性是...
-
 -  be willing to do sth. 愿意做
-
 -  give rise to = lead to = cause
-
 -  too embarrassed to do sth.
-
 -  be dressed in ...
-
 -  change into + ⾐服
-
 -  half as much as ...
-
 -  from now on
-
 -  call me/him/her a.
 
 
@@ -191,22 +166,15 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 
 ### 部分倒装
 
-句⾸否定词: 包括但不限于
+句首否定词: 包括但不限于
 
 - not/nor/neither 
-
 - not only
-
 - never
-
 - no
-
 - hardly
-
 - little
-
 - no sooner ... than seldom
-
 - not until
 
 
@@ -236,25 +204,15 @@ The silence was suddenly broken when a large car, with its headlights on and its
 ### Expressions
 
 -  smash sth. to pieces
-
 -  grab a beer/coffee
-
 -  go to the arcade
-
 -  background music
-
 -  scrambled eggs 炒鸡蛋
-
 -  at a fantastic speed 
-
 -  That’s fantastic. 太棒了
-
 -  only just…
-
 -  come to a stop… 停下
-
 -  be too busy doing sth. to do sth.
-
 -  money + worth of + n.
 
 ## 07 Mutilated Ladies
@@ -266,15 +224,10 @@ A recent case concerns Jane Butlin (whose fiance(未婚夫), John, runs a succes
 ### Expressions
 
 - chewing gum 口香糖
-
 - for safekeeping
-
 - deal with
-
 - go doing…
-
 - Imagine sb’s dismay when
-
 - so long as... 只要
 
     
@@ -321,7 +274,7 @@ They stretch out their legs like flying squirrels(松鼠). This increases their 
 
 ### the more..., the more...
 
-注意: ⽐较级部分均须在各⾃从句中充当成分；将从句中某个成分变成⽐较级提句⾸。
+注意: ⽐较级部分均须在各⾃从句中充当成分；将从句中某个成分变成⽐较级提句首。
 
 ## 10 The Loss of the Titanic
 
@@ -1146,65 +1099,36 @@ After consulting(查阅) my railway timetable, I <u>noted with satisfaction</u> 
 
 ### Expressions
 
-be punctual for 准时
-
-condition sb. to (do) sth.
-
-sb. be conditioned to do sth.
-
-develop an unshakable belief/faith in
-
-have/lose faith in sb. /sth.
-
-blame sb./sth. for
-
-blame sth. on sb.
-
-consult the map/manual/dictionary
-
-go/fly direct
-
-It is/seems odd that…
-
-reflect that….
-
-reflect on sth.
-
-lodge a complaint
-
-have/make/receive/lodge a complaint
-
-a note of triumph
-
-conduct sb. to
-
-It is all too easy to do sth.
-
-sb. noted with satisfaction that...
-
-can’t help doing…
-
-strike sb as…
-
-take advantage of
-
-wish to do
-
-hold up
-
-It dawned on me that …
-
-roar down
-
-not... but
-
-hear of
-
-copy of…  ⼀份，⼀册，⼀张
-
-in black and white 白纸黑字; 以书面形式 in writing or in print
-
-at the bottom of
+- be punctual for 准时
+- condition sb. to (do) sth.
+- sb. be conditioned to do sth.
+- develop an unshakable belief/faith in
+- have/lose faith in sb. /sth.
+- blame sb./sth. for
+- blame sth. on sb.
+- consult the map/manual/dictionary
+- go/fly direct
+- It is/seems odd that…
+- reflect that….
+- reflect on sth.
+- lodge a complaint
+- have/make/receive/lodge a complaint
+- a note of triumph
+- conduct sb. to
+- It is all too easy to do sth.
+- sb. noted with satisfaction that...
+- can’t help doing…
+- strike sb as…
+- take advantage of
+- wish to do
+- hold up
+- It dawned on me that …
+- roar down
+- not... but
+- hear of
+- copy of…  ⼀份，⼀册，⼀张
+- in black and white 白纸黑字; 以书面形式 in writing or in print
+- at the bottom of
 
 ## 38 The First Calendar
 
@@ -1338,55 +1262,30 @@ If you can do without the few pastoral pleasures of the country, you will find t
 ### Expressions
 
 - under the illusion that+句子
-
 - born and bred
-
 - go into raptures
-
 - extol the virtues/benefits of something
-
 - be superior to ...
-
 - It’s virtually impossible to…
-
 - be dubious about
-
 - the privilege of doing something
-
 - make somebody’s acquaintance
-
 - as a special treat …
-
 - descend on/upon/over
-
 - be tucked away…
-
 - at the mere mention of
-
 - be compared with
-
 - be prepared to
-
 - tolerate for
-
 - beyond me  超出我的理解范围
-
 - do without
-
 - travel miles to do sth.
-
 - be available for
-
 - come up to
-
 - draw to a close  即将结束
-
 - make do with  凑合着用
-
 - run wild
-
 - few things could be more impressive than…
-
 - it has always been a mystery to me why...
 
 ## 42 Modern Cavemen
