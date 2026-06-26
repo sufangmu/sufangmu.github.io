@@ -1,24 +1,23 @@
-﻿## About
+﻿**Basic Info**
 
-**出生日期**：1994
+- Birth Year: 1994 ｜ Gender: Male
+- Bachelor of Nursing -- Tianjin University of Traditional Chinese Medicine
 
-**性别：** 男
+**Work Experience**
 
-**毕业院校**：天津中医药大学 - 护理 - 本科
+| Period | Company |
+|---|---|
+| 2016.07 -- 2017.02 | XX Elderly Care Service Center |
+| 2017.03 -- 2017.06 | QianYi Cloud |
+| 2017.07 -- 2018.11 | Chinasoft International |
+| 2018.12 -- 2019.04 | swifthealth |
+| 2019.04 -- Present | isoftstone |
 
-**经历**：
+**Interests**
 
-- 2016.07 - 2017.02： XX老年福利服务中心
-- 2017.03 - 2017.06： 某培训机构
-- 2017.07 - 2018. 11：中软国际
-- 2018.12 - 2019. 04：朔维健康
-- 2019.04 -                 ：软通动力
+- **Before**: Xiao flute, bamboo flute, Ocarina, Xun, Harmonica
+- **Now**: Go(Fox Go 6k)
 
-**爱好：**
+**This Site**
 
-- 箫、笛、陶笛、埙、口琴(大学期间学的，能吹响的水平)
-- 围棋（野狐6k）
-
-**本站：**
-
-​	个人学习笔记
+A personal knowledge base — Linux, DevOps, Programming, Databases, and more

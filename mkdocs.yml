@@ -72,7 +72,7 @@ plugins:
       lang: 
         - en
 nav:
-  - 关于我: 'index.md'
+  - About: 'index.md'
   - Linux:
     - '命令行': 'linux/command-line.md'
     - '文本处理': 'linux/grep_sed_awk.md'
