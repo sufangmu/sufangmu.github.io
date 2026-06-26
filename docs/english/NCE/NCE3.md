@@ -78,40 +78,24 @@ The temple (which the archaeologists explored) <u>was used as</u> a place of wor
 ### Expressions
 
 - a is/was used as a place of
-
 - worship…
-
 - on a/the promontory
-
 - drainage system
-
 - sacred room/temple/place
-
 - have a rest
-
 - identity card
-
 - sb. make a (adj.) discovery of sth. 发现
-
 - a be equipped with b  a配备b
-
 - equip sb. with sth.
-
 - be used as
-
 - date from... 追溯到
-
 - date back to... 追溯到
-
 - happen to do 碰巧
-
 - be amazed to find that + 句⼦
-
 - turn out to be… 结果是，证明是
-
 - despite/ despite the fact that...
 
-- ## 04 The Double Life of Alfred Bloggs
+## 04 The Double Life of Alfred Bloggs
 
 These days, people (who do <u>manual(体力) work</u>) often receive <u>far more</u> money than people (who work in offices). People (who work in offices) are frequently referred to as 'white-collar(白领) workers' for the simple reason [that they usually wear a collar and tie to go to work]. Such is human nature, [that a great many people are often willing to sacrifice(牺牲) higher pay for the privilege of becoming white-collar workers]. This can <u>give rise to</u> curious(奇怪的) situations, as it did in the case of Alfred Bloggs (who worked as a dustman(清洁工) for the Ellesmere Corporation). 
 

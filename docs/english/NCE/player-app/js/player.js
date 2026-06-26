@@ -46,6 +46,7 @@ class NCEPlayer {
     this._sentencePauseAt = -1; // endTime to pause at (for sentenceOnce/sentenceLoop)
     this._currentLoopCount = 0; // current repetition count within a sentenceLoop
     this._loopTimer = null;     // setTimeout ID for loop interval
+    this._rafId = null;         // requestAnimationFrame ID for fine-grained pause detection
   }
 
   /**
@@ -155,6 +156,7 @@ class NCEPlayer {
    * Pause audio.
    */
   pause() {
+    this._stopPauseWatcher();
     this.audio.pause();
     this.isPlaying = false;
     this._sentencePauseAt = -1;
@@ -179,6 +181,7 @@ class NCEPlayer {
    */
   seekTo(index) {
     if (index >= 0 && index < this.lyrics.length) {
+      this._stopPauseWatcher();
       clearTimeout(this._loopTimer);
       this._loopTimer = null;
       this._currentLoopCount = 0;
@@ -198,11 +201,19 @@ class NCEPlayer {
    * Seek to a specific time in seconds.
    */
   seekToTime(seconds) {
+    this._stopPauseWatcher();
     this.audio.currentTime = Math.max(0, seconds);
     this._sentencePauseAt = -1;
     this._currentLoopCount = 0;
     clearTimeout(this._loopTimer);
     this._loopTimer = null;
+
+    // Update currentIndex and highlight immediately (needed when paused,
+    // since _onTimeUpdate guards index changes with this.isPlaying)
+    const newIndex = this._findIndexAtTime(seconds);
+    this.currentIndex = newIndex;
+    this._notify('seek', { index: newIndex, time: seconds });
+
     if (this.isPlaying) {
       this._updateSentencePause();
     }
@@ -237,6 +248,7 @@ class NCEPlayer {
    * @param {'normal'|'loopAll'|'sentenceOnce'|'sentenceLoop'} mode
    */
   setMode(mode) {
+    this._stopPauseWatcher();
     this.mode = mode;
     this._sentencePauseAt = -1;
     this._currentLoopCount = 0;
@@ -293,6 +305,8 @@ class NCEPlayer {
    * (audio file ended before endTime — last sentence edge case).
    */
   _handleSentenceLoopEnd() {
+    this._stopPauseWatcher();
+
     // IMPORTANT: Save currentIndex at the start.  this.audio.pause() can fire an
     // asynchronous 'timeupdate' that re-computes currentIndex to the *next*
     // sentence (because the audio position is at the end boundary where
@@ -302,10 +316,14 @@ class NCEPlayer {
 
     this._currentLoopCount++;
     if (this._currentLoopCount < this.loopCount) {
-      // More repetitions remain — pause for interval seconds, then replay
-      this.audio.pause();
+      // More repetitions remain — seek back to sentence start immediately,
+      // then pause.  This prevents the next sentence audio snippet (that
+      // already played during the timeupdate gap) from persisting, and
+      // keeps the highlight on the current sentence.
       this.isPlaying = false;
       this._sentencePauseAt = -1;
+      this.audio.currentTime = this.lyrics[savedIndex].startTime;
+      this.audio.pause();
       this._notify('playState', { isPlaying: false });
       this._loopTimer = setTimeout(() => {
         this._loopTimer = null;
@@ -323,16 +341,30 @@ class NCEPlayer {
         }
       }, this.loopInterval * 1000);
     } else {
-      // All repetitions complete — seek to sentence start so the user
-      // can press Play to restart the loop cleanly.
+      // All repetitions complete — auto-advance to next sentence
       this._currentLoopCount = 0;
-      if (savedIndex >= 0 && savedIndex < this.lyrics.length) {
-        this.currentIndex = savedIndex; // Restore correct index
-        this.audio.currentTime = this.lyrics[savedIndex].startTime;
+      const nextIndex = savedIndex + 1;
+      if (nextIndex >= 0 && nextIndex < this.lyrics.length) {
+        // There is a next sentence: seek to it and continue
+        this.currentIndex = nextIndex;
+        this.audio.currentTime = this.lyrics[nextIndex].startTime;
+        this._updateSentencePause();
+        this.audio.play(); // safe no-op if already playing; needed if called via _onEnded
+        this._notify('lyricChange', {
+          index: nextIndex,
+          time: this.lyrics[nextIndex].startTime,
+          lyric: this.lyrics[nextIndex],
+        });
       } else {
-        this.audio.currentTime = 0;
+        // Last sentence — pause and keep highlight on this sentence
+        if (savedIndex >= 0 && savedIndex < this.lyrics.length) {
+          this.currentIndex = savedIndex;
+          this.audio.currentTime = this.lyrics[savedIndex].startTime;
+        } else {
+          this.audio.currentTime = 0;
+        }
+        this.pause();
       }
-      this.pause();
     }
   }
 
@@ -342,18 +374,7 @@ class NCEPlayer {
     const time = this.audio.currentTime;
 
     // Find current lyric line
-    let newIndex = -1;
-    for (let i = 0; i < this.lyrics.length; i++) {
-      if (time >= this.lyrics[i].startTime && time < this.lyrics[i].endTime) {
-        newIndex = i;
-        break;
-      }
-    }
-
-    // Also check if we're before the first line
-    if (newIndex === -1 && this.lyrics.length > 0 && time < this.lyrics[0].startTime) {
-      newIndex = -1; // not yet started
-    }
+    const newIndex = this._findIndexAtTime(time);
 
     // Check sentenceOnce / sentenceLoop pause point
     if (this.isPlaying && this._sentencePauseAt > 0 && time >= this._sentencePauseAt) {
@@ -366,13 +387,18 @@ class NCEPlayer {
     }
 
     if (newIndex !== this.currentIndex) {
-      this.currentIndex = newIndex;
-      this._updateSentencePause();
-      this._notify('lyricChange', {
-        index: newIndex,
-        time: time,
-        lyric: newIndex >= 0 ? this.lyrics[newIndex] : null,
-      });
+      // Only update lyric highlight when actively playing.
+      // Prevents stray timeupdate events (e.g. from audio.pause()) from
+      // jumping the highlight to the next/previous sentence while paused.
+      if (this.isPlaying) {
+        this.currentIndex = newIndex;
+        this._updateSentencePause();
+        this._notify('lyricChange', {
+          index: newIndex,
+          time: time,
+          lyric: newIndex >= 0 ? this.lyrics[newIndex] : null,
+        });
+      }
     }
 
     // Always notify time update for progress bar
@@ -423,6 +449,27 @@ class NCEPlayer {
   }
 
   /**
+   * Find lyric line index at a given time.
+   * Returns -1 if before the first line, or the matching index.
+   */
+  _findIndexAtTime(time) {
+    for (let i = 0; i < this.lyrics.length; i++) {
+      if (time >= this.lyrics[i].startTime && time < this.lyrics[i].endTime) {
+        return i;
+      }
+    }
+    // Before the first line
+    if (this.lyrics.length > 0 && time < this.lyrics[0].startTime) {
+      return -1;
+    }
+    // Past the last line — return the last line's index so highlight stays
+    if (this.lyrics.length > 0) {
+      return this.lyrics.length - 1;
+    }
+    return -1;
+  }
+
+  /**
    * In sentenceOnce/sentenceLoop mode, set the pause point.
    */
   _updateSentencePause() {
@@ -431,8 +478,53 @@ class NCEPlayer {
         this.currentIndex >= 0 &&
         this.currentIndex < this.lyrics.length) {
       this._sentencePauseAt = this.lyrics[this.currentIndex].endTime;
+      this._startPauseWatcher();
     } else {
       this._sentencePauseAt = -1;
+      this._stopPauseWatcher();
+    }
+  }
+
+  /**
+   * Fine-grained pause-point watcher using requestAnimationFrame.
+   * Polls audio.currentTime every ~16ms (vs browser timeupdate every 100-250ms)
+   * to detect when an endTime is reached.  Immediately seeks back and pauses
+   * so the user hears virtually none of the next sentence.
+   *
+   * The existing _onTimeUpdate handler is kept as a fallback for background
+   * tabs (where rAF pauses entirely).
+   */
+  _startPauseWatcher() {
+    this._stopPauseWatcher();
+
+    const check = () => {
+      if (this._sentencePauseAt > 0 && this.isPlaying) {
+        const time = this.audio.currentTime;
+        if (time >= this._sentencePauseAt) {
+          // Clear pause point immediately so _onTimeUpdate won't double-fire
+          this._sentencePauseAt = -1;
+          if (this.mode === 'sentenceOnce') {
+            // Seek back to sentence start, then pause
+            if (this.currentIndex >= 0 && this.currentIndex < this.lyrics.length) {
+              this.audio.currentTime = this.lyrics[this.currentIndex].startTime;
+            }
+            this.pause();
+          } else if (this.mode === 'sentenceLoop') {
+            this._handleSentenceLoopEnd();
+          }
+          return; // don't schedule another frame
+        }
+        this._rafId = requestAnimationFrame(check);
+      }
+    };
+
+    this._rafId = requestAnimationFrame(check);
+  }
+
+  _stopPauseWatcher() {
+    if (this._rafId) {
+      cancelAnimationFrame(this._rafId);
+      this._rafId = null;
     }
   }
 
