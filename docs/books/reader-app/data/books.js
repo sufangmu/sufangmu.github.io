@@ -80,8 +80,8 @@ window.EBOOK_CATALOG = [
     title: 'Steve Jobs',
     author: 'Walter Isaacson',
     category: 'original_english_textbook',
-    format: 'pdf',
-    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.pdf',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.epub',
     description: 'Steve Jobs'
   }
 ];

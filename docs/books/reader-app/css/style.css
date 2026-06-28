@@ -337,7 +337,6 @@ body {
   width: 0%;
   background: linear-gradient(90deg, var(--primary), var(--primary-dark));
   border-radius: 4px;
-  transition: width 0.3s ease;
 }
 .loading-pct {
   font-size: 13px;

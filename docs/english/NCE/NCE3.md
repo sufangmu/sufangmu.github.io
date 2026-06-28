@@ -113,10 +113,10 @@ He will be earning only half as much as he used to, but he feels that his rise i
 -  keep a secret
 -  the secret of success
 -  between you and me
--  social status
+-  social status 社会地位
 -  status quo  现状
 -  keep the status quo
--  These days = nowadays
+-  These days = nowadays 现在, 目前
 -  Far more adj./n.
 -  a be referred to as...b  称a为b
 -  refer to a as b (被称为)
@@ -134,7 +134,7 @@ He will be earning only half as much as he used to, but he feels that his rise i
 
 ## 05 The Facts
 
-Editors of newspapers and magazines often <u>go to extremes to</u> provide their readers with unimportant facts and statistics(统计学). Last year a journalist(记者) had been instructed by a well-known magazine to write an article on the president's palace(宫殿) in a new African republic. When the article arrived, the editor read the first sentence and then refused to publish it. The article began:'Hundreds of steps lead to the high wall (which surrounds the president's palace).' The editor at once sent the journalist a fax(传真) instructing him to <u>find out</u> the exact number of steps and the height of the wall.
+Editors of newspapers and magazines often <u>go to extremes to</u> provide their readers with unimportant facts and statistics(统计学). Last year a journalist(记者) had been instructed(委派) by a well-known magazine to write an article on the president's palace(宫殿) in a new African republic. When the article arrived, the editor read the first sentence and then refused to publish it. The article began:'Hundreds of steps lead to the high wall (which surrounds the president's palace).' The editor at once sent the journalist a fax(传真) instructing him to <u>find out</u> the exact number of steps and the height of the wall.
 
 The journalist immediately set out to obtain these important facts, but he took a long time to send them. Meanwhile, the editor was <u>getting impatient</u>, for the magazine would soon <u>go to press</u>. He sent the journalist two more faxes, but received no reply. He sent <u>yet another</u> fax (informing the journalist that {if he did not reply soon he would be fired}). When the journalist again failed to reply,  the editor reluctantly(不情愿地) published the article as it had originally(起初,原来) been written. A week later, the editor at last received a fax from the journalist. Not only had the poor man been arrested, but he had been sent to prison as well. However, he had at last been allowed to send a fax (in which he informed the editor that he had been arrested while counting the 1,084 steps (leading to the 15th foot wall (which surrounded the president's palace))).
 
@@ -180,7 +180,7 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 
 ### Expressions
 
--  go to extreme(s) to do sth.
+-  go to extreme(s) to do sth.  不惜一切代价去做某事
 -  publish + a book/an article/report...
 -  send sb. a fax…
 -  get impatient
