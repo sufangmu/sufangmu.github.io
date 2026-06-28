@@ -18,7 +18,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    path: '../../english/NCE/nce_note/新概念英语1课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语1课堂笔记.pdf',
     description: '新概念英语第一册课堂笔记'
   },
   {
@@ -27,7 +27,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    path: '../../english/NCE/nce_note/新概念英语2课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语2课堂笔记.pdf',
     description: '新概念英语第二册课堂笔记'
   },
   {
@@ -36,7 +36,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    path: '../../english/NCE/nce_note/新概念英语3课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语3课堂笔记.pdf',
     description: '新概念英语第三册课堂笔记'
   },
   {
@@ -45,7 +45,52 @@ window.EBOOK_CATALOG = [
     author: '莫言',
     category: 'novel',
     format: 'epub',
-    path: '../莫言经典作品(套装7册).epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/novel/莫言经典作品(套装7册).epub',
     description: '莫言经典作品(套装7册)'
+  },
+  {
+    id: 'CriticalThinking',
+    title: 'Critical Thinking',
+    author: 'Brooke Moore, Richard Parker',
+    category: 'original_english_textbook',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/CriticalThinking.epub',
+    description: 'Critical Thinking'
+  },
+  {
+    id: 'TheBestLifeStories',
+    title: 'The Best Life Stories',
+    author: "Reader's Digest",
+    category: 'original_english_textbook',
+    format: 'pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/TheBestLifeStories.pdf',
+    description: 'he Best Life Stories'
+  },
+  {
+    id: 'THEARTOFPUBLICSPEAKING',
+    title: 'THE ART OF PUBLIC SPEAKING',
+    author: "Stephen E. Lucas, Paul Stob",
+    category: 'original_english_textbook',
+    format: 'pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/THEARTOFPUBLICSPEAKING.pdf',
+    description: 'THE ART OF PUBLIC SPEAKING'
+  },
+  {
+    id: 'SteveJobs',
+    title: 'SteveJ obs',
+    author: 'Walter Isaacson',
+    category: 'original_english_textbook',
+    format: 'pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.pdf',
+    description: 'Steve Jobs'
+  },
+  {
+    id: 'helloalgo',
+    title: 'hello algo(python)',
+    author: 'github',
+    category: 'computer',
+    format: 'pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/computer/hello-algo_1.2.0_zh_python.pdf',
+    description: 'hello algo python'
   }
 ];
