@@ -18,8 +18,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语1课堂笔记.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/leo_nce_note/新概念英语1课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语1课堂笔记.pdf',
     description: '新概念英语第一册课堂笔记'
   },
   {
@@ -28,8 +27,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语2课堂笔记.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/leo_nce_note/新概念英语2课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语2课堂笔记.pdf',
     description: '新概念英语第二册课堂笔记'
   },
   {
@@ -38,8 +36,7 @@ window.EBOOK_CATALOG = [
     author: 'leo',
     category: 'leo_nce_notes',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语3课堂笔记.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/leo_nce_note/新概念英语3课堂笔记.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/leo_nce_note/新概念英语3课堂笔记.pdf',
     description: '新概念英语第三册课堂笔记'
   },
   {
@@ -48,8 +45,7 @@ window.EBOOK_CATALOG = [
     author: '莫言',
     category: 'novel',
     format: 'epub',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/novel/莫言经典作品(套装7册).epub',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/novel/莫言经典作品(套装7册).epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/novel/莫言经典作品(套装7册).epub',
     description: '莫言经典作品(套装7册)'
   },
   {
@@ -58,8 +54,7 @@ window.EBOOK_CATALOG = [
     author: 'Brooke Moore, Richard Parker',
     category: 'original_english_textbook',
     format: 'epub',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/CriticalThinking.epub',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/original_english_textbook/CriticalThinking.epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/CriticalThinking.epub',
     description: 'Critical Thinking'
   },
   {
@@ -68,8 +63,7 @@ window.EBOOK_CATALOG = [
     author: "Reader's Digest",
     category: 'original_english_textbook',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/TheBestLifeStories.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/original_english_textbook/TheBestLifeStories.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/TheBestLifeStories.pdf',
     description: 'he Best Life Stories'
   },
   {
@@ -78,8 +72,7 @@ window.EBOOK_CATALOG = [
     author: "Stephen E. Lucas, Paul Stob",
     category: 'original_english_textbook',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/THEARTOFPUBLICSPEAKING.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/original_english_textbook/THEARTOFPUBLICSPEAKING.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/THEARTOFPUBLICSPEAKING.pdf',
     description: 'THE ART OF PUBLIC SPEAKING'
   },
   {
@@ -88,8 +81,7 @@ window.EBOOK_CATALOG = [
     author: 'Walter Isaacson',
     category: 'original_english_textbook',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/original_english_textbook/SteveJobs.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.pdf',
     description: 'Steve Jobs'
   },
   {
@@ -98,8 +90,7 @@ window.EBOOK_CATALOG = [
     author: 'github',
     category: 'computer',
     format: 'pdf',
-    // path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/computer/hello-algo_1.2.0_zh_python.pdf',
-    path: 'https://raw.giteeusercontent.com/sufangmu/books/raw/main/computer/hello-algo_1.2.0_zh_python.pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/computer/hello-algo_1.2.0_zh_python.pdf',
     description: 'hello algo python'
   }
 ];

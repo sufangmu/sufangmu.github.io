@@ -93,7 +93,7 @@
   }
 
   function categoryLabel(id) {
-    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书', 'computer': '计算机相关'};
+    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书'};
     return labels[id] || id;
   }
 
