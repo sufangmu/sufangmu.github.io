@@ -83,14 +83,5 @@ window.EBOOK_CATALOG = [
     format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.pdf',
     description: 'Steve Jobs'
-  },
-  {
-    id: 'helloalgo',
-    title: 'hello algo(python)',
-    author: 'github',
-    category: 'computer',
-    format: 'pdf',
-    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/computer/hello-algo_1.2.0_zh_python.pdf',
-    description: 'hello algo python'
   }
 ];
