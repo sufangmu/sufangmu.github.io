@@ -77,7 +77,7 @@ window.EBOOK_CATALOG = [
   },
   {
     id: 'SteveJobs',
-    title: 'SteveJ obs',
+    title: 'Steve Jobs',
     author: 'Walter Isaacson',
     category: 'original_english_textbook',
     format: 'pdf',

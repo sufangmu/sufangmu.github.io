@@ -112,9 +112,9 @@
 
     cats.forEach(function (cat) {
       var books = all.filter(function (b) { return b.category === cat.id; });
-      var expanded = '';
-      if (state.currentBook && !books.some(function (b) { return b.id === state.currentBook.id; })) {
-        expanded = ' collapsed';
+      var expanded = ' collapsed';
+      if (state.currentBook && books.some(function (b) { return b.id === state.currentBook.id; })) {
+        expanded = '';
       }
 
       html += '<div class="tree-cat' + expanded + '" data-cat="' + cat.id + '">';
