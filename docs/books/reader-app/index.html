@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 个人图书馆</title>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+  <!-- EPUB.js + JSZip -->
+  <script src="../../javascripts/jszip.min.js"></script>
+  <script src="../../javascripts/epub.min.js"></script>
+
+  <!-- 书库清单 -->
+  <script src="data/books.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <span class="logo">📚</span>
+      <h1>个人图书馆</h1>
+      <span class="subtitle" id="formatBadge"></span>
+      <button class="sidebar-toggle" id="sidebarToggle" title="切换侧栏">☰</button>
+      <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+    </header>
+
+    <div class="main-content">
+      <!-- 侧边栏 — 树形分类菜单 -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h3>📖 藏书</h3>
+          <span id="bookCount">--</span>
+        </div>
+        <div class="tree-menu" id="treeMenu">
+          <!-- 动态渲染 -->
+        </div>
+        <div class="sidebar-footer">
+          <p class="copyright">
+            本平台仅用于个人学习与知识管理，所有电子书资源仅供个人阅读使用，不涉及任何商业用途。<br>
+            如有侵权，请联系删除。
+          </p>
+        </div>
+      </aside>
+
+      <!-- 阅读区 -->
+      <main class="reader-panel">
+        <!-- 空白状态 -->
+        <div class="empty-state" id="emptyState">
+          <span class="empty-icon">📖</span>
+          <p>从左侧选择一本书开始阅读</p>
+        </div>
+
+        <!-- 加载进度 -->
+        <div class="loading-state" id="loadingState" style="display:none;">
+          <p id="loadingText">加载中…</p>
+          <div class="loading-bar-track">
+            <div class="loading-bar-fill" id="loadingFill"></div>
+          </div>
+          <span class="loading-pct" id="loadingPct">0%</span>
+        </div>
+
+        <!-- 渲染区 -->
+        <div class="reader-content" id="readerContent" style="display:none;">
+          <div class="book-meta-bar">
+            <h2 id="bookTitle"></h2>
+            <span class="meta" id="bookMeta"></span>
+          </div>
+          <div class="render-area">
+            <div id="epubView"></div>
+            <div id="pdfView" style="display:none;"></div>
+            <div id="textView" style="display:none;"></div>
+          </div>
+        </div>
+
+        <!-- 底部控制栏 -->
+        <div class="bottom-bar" id="bottomBar" style="display:none;">
+          <div class="control-bar">
+            <div class="ctrl-group-left">
+              <button class="ctrl-btn" id="btnToc" title="目录">📑 目录</button>
+              <button class="ctrl-btn" id="btnZoomOut" title="缩小">🔍−</button>
+              <span id="zoomLabel" class="zoom-label">100%</span>
+              <button class="ctrl-btn" id="btnZoomIn" title="放大">🔍+</button>
+            </div>
+            <div class="slider-wrapper">
+              <input type="range" id="progressSlider" min="0" max="100" value="0" class="progress-slider">
+            </div>
+            <div class="ctrl-group-right">
+              <button class="ctrl-btn" id="btnPrev" title="上一页 (←)">◀ 上一页</button>
+              <span class="progress-text" id="progressText">-- / --</span>
+              <button class="ctrl-btn" id="btnNext" title="下一页 (→)">下一页 ▶</button>
+              <span id="pageInfo" class="page-info"></span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- 目录面板 -->
+  <div class="toc-panel" id="tocPanel">
+    <div class="toc-header">
+      <span>📑 目录</span>
+      <button class="toc-close" id="tocClose">✕</button>
+    </div>
+    <div class="toc-body" id="tocBody"></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -63,7 +63,7 @@ extra_javascript:
   - javascripts/polyfill.min.js
   - javascripts/tex-mml-chtml.js
 extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css      
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
 
 
 plugins:
@@ -82,7 +82,7 @@ nav:
     - 'TCP/IP': 'linux/network/TCP.md'
     - 'Iptables': 'linux/network/iptables.md'
     - '数字签名': 'linux/CA.md'
-  - 数据库:
+  - Database:
     - MySQL: 
       - '安装': 'databases/MySQL/安装.md'
       - '用户管理': 'databases/MySQL/用户管理.md'
@@ -97,13 +97,13 @@ nav:
     - 性能测试:
       - BenchmarkSQL: 'databases/性能测试/benchmarksql.md'
       - sysbench: 'databases/性能测试/sysbench.md'
-  - 服务:
+  - Software:
     - Web:
       - 'Nginx': 'software/web/Nginx.md'
       - 'Tomcat': 'software/web/Tomcat.md'
     - 中间件:
       - 'RabbitMQ': 'software/middleware/rabbitmq.md'
-  - 编程:
+  - Programming:
     - C:
       - '概述': 'programming/c/概述.md'
       - '基本概念': 'programming/c/基本概念.md'
@@ -242,3 +242,5 @@ nav:
       - '倒装': 'english/grammar/倒装.md'
     - IELTS:
       - '学习方法': 'english/IELTS/学习方法.md'
+  - Book:
+    - '阅读器': 'books/reader.md'
