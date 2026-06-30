@@ -134,9 +134,9 @@ He will be earning only half as much as he used to, but he feels that his rise i
 
 ## 05 The Facts
 
-Editors of newspapers and magazines often <u>go to extremes to</u> provide their readers with unimportant facts and statistics(统计学). Last year a journalist(记者) had been instructed(委派) by a well-known magazine to write an article on the president's palace(宫殿) in a new African republic. When the article arrived, the editor read the first sentence and then refused to publish it. The article began:'Hundreds of steps lead to the high wall (which surrounds the president's palace).' The editor at once sent the journalist a fax(传真) instructing him to <u>find out</u> the exact number of steps and the height of the wall.
+Editors of newspapers and magazines often <u>go to extremes to</u> provide their readers with unimportant facts and statistics(统计学). Last year a journalist(记者) had been instructed(委派) by a well-known magazine to write an article on the president's palace(宫殿) in a new African republic(共和国). When the article arrived, the editor read the first sentence and then refused to publish it. The article began:'Hundreds of steps lead to the high wall (which surrounds the president's palace).' The editor at once sent the journalist a fax(传真) instructing him to <u>find out</u> the exact number of steps and the height of the wall.
 
-The journalist immediately set out to obtain these important facts, but he took a long time to send them. Meanwhile, the editor was <u>getting impatient</u>, for the magazine would soon <u>go to press</u>. He sent the journalist two more faxes, but received no reply. He sent <u>yet another</u> fax (informing the journalist that {if he did not reply soon he would be fired}). When the journalist again failed to reply,  the editor reluctantly(不情愿地) published the article as it had originally(起初,原来) been written. A week later, the editor at last received a fax from the journalist. Not only had the poor man been arrested, but he had been sent to prison as well. However, he had at last been allowed to send a fax (in which he informed the editor that he had been arrested while counting the 1,084 steps (leading to the 15th foot wall (which surrounded the president's palace))).
+The journalist immediately set out to obtain these important facts, but he took a long time to send them. Meanwhile, the editor was <u>getting impatient</u>, for the magazine would soon <u>go to press</u>. He sent the journalist two more faxes, but received no reply. He sent <u>yet another</u> fax (informing the journalist that {if he did not reply soon he would be fired}). When the journalist again failed to reply,  the editor reluctantly(不情愿地) published the article as it had originally(起初,原来) been written. A week later, the editor at last received a fax from the journalist. Not only had the poor(可怜的) man been arrested, but he had been sent to prison as well. However, he had at last been allowed to send a fax (in which he informed the editor that he had been arrested while counting the 1,084 steps (leading to the 15th foot wall (which surrounded the president's palace))).
 
 ### not only
 
@@ -199,7 +199,7 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 
 The expensive shops in a famous arcade(有拱廊的街道) near Piccadilly were just opening. At this time of the morning, the arcade was almost empty. Mr. Taylor, the owner of a jewellery(珠宝) shop was admiring a new window display. Two of his assistants had been working busily since 8 o'clock and had only just finished. Diamond necklaces and rings had been beautifully arranged on a background of black velvet(天鹅绒). After <u>gazing at</u> the display for several minutes, Mr. Taylor went back into his shop.
 
-The silence was suddenly broken when a large car, with its headlights on and its horn(喇叭) blaring(声音响亮), roared(怒吼) down the arcade. It came to a stop outside the jeweller's. One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed(打碎) the window of the shop with iron bars. While this was going on, Mr. Taylor was upstairs. He and his staff began throwing furniture out of the window. Chairs and tables went flying into the arcade. One of the thieves was struck by a heavy statue, but he was too busy <u>helping himself to</u>(自取) diamonds to notice any pain. The raid(抢劫) was all over in three minutes, for the men scrambled(迅速而吃力地爬) back into the car and it moved off <u>at a fantastic(极高的) speed.</u> Just as it was leaving, Mr.Taylor rushed out and ran after it throwing ashtrays(烟灰缸) and vases, but it was impossible to stop the thieves. They had <u>got away with</u> <u>thousands of pounds worth of diamonds</u>.
+The silence was suddenly broken when a large car, with its headlights on and its horn(喇叭) blaring(声音响亮), roared(怒吼) down the arcade. It came to a stop outside the jeweller's. One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed(打碎) the window of the shop with iron bars. While this was going on, Mr. Taylor was upstairs. He and his staff began throwing furniture out of the window. Chairs and tables went flying into the arcade. One of the thieves was struck by a heavy statue, but he was too busy <u>helping himself to</u>(自取) diamonds to notice any pain. The raid(抢劫) was all over in three minutes, for the men scrambled(迅速而吃力地爬) back into the car and it moved off <u>at a fantastic(极高的) speed.</u> Just as it was leaving, Mr.Taylor rushed out and ran after it throwing ashtrays(烟灰缸) and vases(花瓶), but it was impossible to stop the thieves. They had <u>got away with</u> <u>thousands of pounds worth of diamonds</u>.
 
 ### Expressions
 
@@ -217,7 +217,7 @@ The silence was suddenly broken when a large car, with its headlights on and its
 
 ## 07 Mutilated Ladies
 
-People who live in Britain needn't despair when they make mistakes like this and a lot of people do! Fortunately for them, the Bank of England has a team called Mutilated(残废的) Ladies which <u>deals with</u> claims(索赔) from people (who fed(feed,饲养) their money to a machine or to their dog). Dogs, it seems, love to <u>chew up</u> money!
+Has it ever happened to you? Have you ever put your trousers(裤子) in the washing machine and then remembered there was a large bank note in your back pocket? When you rescued your trousers, did you find the note was whiter than white? People who live in Britain needn't despair(绝望) when they make mistakes like this and a lot of people do! Fortunately for them, the Bank of England has a team called Mutilated Ladies(残钞鉴别组) which <u>deals with</u> claims(索赔) from people (who fed(feed,饲养) their money to a machine or to their dog). Dogs, it seems, love to <u>chew up</u> money!
 
 A recent case concerns Jane Butlin (whose fiance(未婚夫), John, runs a successful furniture business). John had a very good day and put his wallet containing ￡3, 000 into the <u>microwave oven</u>(微波炉) for safekeeping(保管). Then he and Jane went horse-riding. When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well. <u>Imagine their dismay when</u> they found a beautifully-cooked wallet and notes turned to ash(灰)! John went to see his bank manager who <u>sent</u> the remains of wallet and the money <u>to</u> the special department of the Bank of England in Newcastle: the Mutilated Ladies! They examined the remains and John got all his money back. 'So long as there's something to identify, we will give people their money back,' said a spokeswoman(女发言人) for the Bank. 'Last year, we paid ￡1.5 million on 21,000 claims.'
 
@@ -243,16 +243,16 @@ During the summer months, the monastery is very busy, for it is visited by thous
 - Can I get some privacy?
 - connect a to b
 - for hundreds of years
-- Now that + 从句 由于
+- Now that + 从句  由于
 - attempt to do sth.
-- be in difficulty
+- be in difficulty  遇到问题或处于困境
 - receive a warm welcome
 
 ## 09 Flying Cats
 
-Cats never fail to fascinate(吸引) human beings. They can be friendly and affectionate(深情的) towards humans, but they <u>lead mysterious(神秘的) lives</u> of their own as well. They never become submissive(顺从的) like dogs and horses. <u>As a result</u>, humans have learned to respect feline(猫科的) independence. Most cats remain suspicious(猜疑的) of humans all their lives. One of the things (that fascinates us most about cats) is the popular belief [that they have nine lives]. Apparently, there is <u>a good deal of</u> truth in this idea. A cat's ability to survive falls <u>is based on fact</u>.
+Cats never fail to fascinate(吸引) human beings. They can be friendly and affectionate(深情的) towards humans, but they <u>lead mysterious(神秘的) lives</u> of their own as well. They never become submissive(顺从的) like dogs and horses. <u>As a result</u>, humans have learned to respect feline(猫科的) independence. Most cats remain suspicious(猜疑的) of humans all their lives. One of the things (that fascinates us most about cats) is the popular belief [that they have nine lives]. Apparently(显然地), there is <u>a good deal of</u> truth in this idea. A cat's ability to survive(幸免于) falls <u>is based on fact</u>.
 
-Recently the New York Animal Medical Centre <u>made a study</u> of 132 cats over <u>a period of</u> five months. All these cats <u>had one experience in common</u>: they had fallen off high buildings, yet only eight of them <u>died from</u> shock or injuries. Of course, New York is the ideal place for such an interesting study, because there is <u>no shortage(缺少) of</u> tall buildings. There are plenty of high-rise(高楼) windowsills(窗台) to fall from! One cat, Sabrina, fell 32 storeys, yet only <u>suffered from(遭受)</u> a broken tooth. 'Cats behave like well-trained paratroopers(伞兵),' a doctor said. It seems that <u>the further</u>(far) cats fall, <u>the less</u> they <u>are likely to</u> injure themselves. In a long drop, they reach speeds of 60 miles an hour and more. At high speeds, falling cats have time to relax.
+Recently the New York Animal Medical Centre <u>made a study</u> of 132 cats over <u>a period of</u> five months. All these cats <u>had one experience in common</u>: they had fallen off high buildings, yet only eight of them <u>died from</u> shock(休克) or injuries. Of course, New York is the ideal place for such an interesting study, because there is <u>no shortage(缺少) of</u> tall buildings. There are plenty of high-rise(高楼) windowsills(窗台) to fall from! One cat, Sabrina, fell 32 storeys, yet only <u>suffered from(遭受)</u> a broken tooth. 'Cats behave like well-trained paratroopers(伞兵),' a doctor said. It seems that <u>the further</u>(far) cats fall, <u>the less</u> they <u>are likely to</u> injure themselves. In a long drop, they reach speeds of 60 miles an hour and more. At high speeds, falling cats have time to relax.
 They stretch out their legs like flying squirrels(松鼠). This increases their air-resistance(空气阻力) and reduces the shock of impact(撞击) when they hit the ground. 
 
 ### Expressions
@@ -261,7 +261,7 @@ They stretch out their legs like flying squirrels(松鼠). This increases their 
 - have/make an impact on...  对…产生影响
 - lead a adj. life 过着...生活
 - learn to do sth.
-- a good deal of
+- a good deal of  很多
 - be based on
 - make a study of sth...
 - a period of + 时间
@@ -274,23 +274,23 @@ They stretch out their legs like flying squirrels(松鼠). This increases their 
 
 ### the more..., the more...
 
-注意: ⽐较级部分均须在各⾃从句中充当成分；将从句中某个成分变成⽐较级提句首。
+注意: 比较级部分均须在各自从句中充当成分；将从句中某个成分变成比较级提句首。
 
 ## 10 The Loss of the Titanic
 
-The great ship, Titanic sailed for New York from Southampton on April 10th, 1912. She was carrying 1, 316 passengers and <u>a crew of</u> 891. Even by modern standards, the 46, 000 ton Titanic was a colossal(巨大的) ship. At that time, however, she was not only the largest ship (that had ever been built), but <u>was regarded as</u> unsinkable(不易下沉的), for she had sixteen water-tight(防漏水的) compartments(隔层,舱). Even if two of these were flooded, she would still be able to float. The tragic(悲剧的) sinking of this great liner(邮轮) will always be remembered, for she <u>went down</u> on her first voyage(航行) with heavy loss of life.
+The great ship, Titanic <u>sailed for</u> New York from Southampton on April 10th, 1912. She was carrying 1,316 passengers and <u>a crew of</u> 891. Even by modern standards, the 46,000 ton Titanic was a colossal(巨大的) ship. At that time, however, she was not only the largest ship (that had ever been built), but <u>was regarded as</u> unsinkable(不易下沉的), for she had sixteen water-tight(防漏水的) compartments(隔层,舱). Even if two of these were flooded(被水淹的), she would still be able to float. The tragic(悲剧的) sinking of this great liner(邮轮) will always be remembered, for she <u>went down</u> on her first voyage(航行) with heavy loss of life.
 
-Four days after setting out, while the Titanic was sailing across the icy waters(水域) of the North Atlantic, a huge iceberg(冰山) was suddenly spotted(看出) by a lookout(瞭望员). After the alarm had been given, the great ship turned sharply to avoid a direct collision(碰撞). The Titanic turned just in time, narrowly(勉强地) missing the immense(巨大的) wall of ice (which rose over 100 feet out of the water beside her). Suddenly, there was a slight(轻微的) trembling(发抖的) sound from below, and the captain went down to see what had happened. The noise had been so faint(微弱的) that no one thought that the ship had been damaged. Below, the captain realized to his horror(恐惧) that the Titanic was sinking rapidly(迅速地), for five of her sixteen watertight compartments had already been flooded! The order to abandon ship was given and hundreds of people <u>plunged(跳进) into</u> the icy water. As there were not enough life-boats for everybody, 1, 500 lives were lost.
+Four days after setting out, while the Titanic was sailing across the icy waters(水域) of the North Atlantic, a huge iceberg(冰山) was suddenly spotted(看出) by a lookout(瞭望员). After the alarm had been given, the great ship turned sharply to avoid a direct collision(碰撞). The Titanic turned just in time, narrowly(勉强地) missing the immense(巨大的) wall of ice (which rose over 100 feet out of the water beside her). Suddenly, there was a slight(轻微的) trembling(发抖的) sound from below, and the captain went down to see what had happened. The noise had been so faint(微弱的) that no one thought that the ship had been damaged. Below, the captain realized to his horror(恐惧) that the Titanic was sinking rapidly(迅速地), for five of her sixteen watertight compartments had already been flooded! The order to abandon ship was given and hundreds of people <u>plunged(跳进) into</u> the icy water. As there were not enough life-boats for everybody, 1,500 lives were lost.
 
 ### Expressions
 
 - to sb’s horror  使某人惊恐
 - horror movie
-- a crew of
+- a crew of  一组(工作人员)
 - be regarded as
 - give an alarm
 - in time
-- realized to his horror that
+- realized to his horror that  他惊恐地意识到
 - give an order 下命令
 
 ## 11 Not Guilty
