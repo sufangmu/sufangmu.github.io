@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新概念英语 — 学习平台</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <span class="logo">📖</span>
+      <h1>新概念英语</h1>
+      <span class="subtitle">New Concept English</span>
+      <button class="theme-toggle" id="themeToggle" title="切换白天/黑夜主题">🌙</button>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- Level Tabs -->
+        <div class="level-tabs" id="levelTabs">
+          <!-- Dynamically rendered -->
+        </div>
+
+        <!-- Search -->
+        <div class="lesson-search">
+          <input
+            type="text"
+            id="lessonSearch"
+            placeholder="🔍 搜索课程..."
+            autocomplete="off"
+          >
+        </div>
+
+        <!-- Lesson List -->
+        <div class="lesson-list" id="lessonList">
+          <!-- Dynamically rendered -->
+        </div>
+      </aside>
+
+      <!-- Right Panel -->
+      <main class="right-panel">
+        <!-- Player Bar (top: lesson title only, fixed) -->
+        <div class="player-bar">
+          <!-- Lesson info — fixed, non-scrollable -->
+          <div class="lesson-info" id="lessonInfo" style="display:none;">
+            <h2 id="lessonTitle"></h2>
+            <p class="meta" id="lessonMeta"></p>
+          </div>
+        </div>
+
+        <!-- Lyric Display (scrollable) -->
+        <div class="lyric-area" id="lyricArea">
+          <!-- Empty State -->
+          <div class="empty-state" id="emptyState">
+            <span class="empty-icon">🎧</span>
+            <p>从左侧选择一课开始学习</p>
+            <p style="font-size:13px;opacity:0.6">支持键盘快捷键：空格 播放/暂停 · ← → 上/下一句 · ↑ ↓ 上/下一课</p>
+          </div>
+
+          <!-- Lyric Content -->
+          <div id="lyricContent" style="display:none;">
+            <div id="lyricLines">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: Progress Bar + Controls -->
+        <div class="bottom-bar">
+          <!-- Progress Bar -->
+          <div class="progress-container">
+            <div class="progress-bar" id="progressBar">
+              <div class="progress-fill" id="progressFill" style="width: 0%">
+                <div class="progress-thumb"></div>
+              </div>
+            </div>
+            <div class="time-display">
+              <span id="timeCurrent">0:00</span>
+              <span id="timeDuration">0:00</span>
+            </div>
+          </div>
+
+          <!-- Control Bar -->
+          <div class="control-bar">
+            <button class="ctrl-btn" id="btnPrevLesson" title="上一课 (↑)">⏮ 上一课</button>
+            <button class="ctrl-btn" id="btnPrev" title="上一句 (←)">◀ 上一句</button>
+            <button class="btn-play" id="btnPlay" title="播放/暂停 (空格键)">▶</button>
+            <button class="ctrl-btn" id="btnNext" title="下一句 (→)">下一句 ▶</button>
+            <button class="ctrl-btn" id="btnNextLesson" title="下一课 (↓)">下一课 ⏭</button>
+
+            <span class="mode-divider"></span>
+
+            <button class="mode-cycle-btn" id="modeCycleBtn" title="顺序播放当前册所有录音">
+              <span class="mode-cycle-icon" id="modeCycleIcon">▶️</span>
+              <span class="mode-cycle-label" id="modeCycleLabel">顺序播放</span>
+            </button>
+
+            <span class="mode-divider"></span>
+
+            <div class="loop-controls" id="loopControls">
+              <label class="loop-label">循环</label>
+              <select class="loop-select" id="loopCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <label class="loop-label">次 间隔</label>
+              <select class="loop-select" id="loopInterval">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <label class="loop-label">秒</label>
+            </div>
+
+            <span class="mode-divider"></span>
+
+            <label style="font-size:13px;color:var(--text-secondary);">语速</label>
+            <select class="speed-select" id="speedSelect">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+              <option value="2">2x</option>
+            </select>
+
+            <span class="mode-divider"></span>
+            <span style="font-size:12px;color:var(--text-muted);" id="lessonCount">--</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Data -->
+  <script src="data/lessons.js"></script>
+
+  <!-- App Scripts -->
+  <script src="js/player.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

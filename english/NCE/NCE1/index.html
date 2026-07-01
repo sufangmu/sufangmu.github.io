@@ -1,0 +1,9108 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="苏方木的笔记">
+      
+      
+        <meta name="author" content="苏方木">
+      
+      
+        <link rel="canonical" href="https://github.com/sufangmu/english/NCE/NCE1/">
+      
+      
+        <link rel="prev" href="../../../DevOps/Docker/Security/">
+      
+      
+        <link rel="next" href="../NCE2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>NCE1 - 苏方木的笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lesson-1-excuse-me" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="苏方木的笔记" class="md-header__button md-logo" aria-label="苏方木的笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            苏方木的笔记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NCE1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="切换到明亮模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到明亮模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../linux/command-line/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Linux
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../databases/MySQL/%E5%AE%89%E8%A3%85/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Database
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../software/web/Nginx/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Software
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../programming/c/%E6%A6%82%E8%BF%B0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Programming
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../DevOps/Git/Git/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../books/reader/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Book
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="苏方木的笔记" class="md-nav__button md-logo" aria-label="苏方木的笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    苏方木的笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Linux
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/command-line/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    命令行
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/grep_sed_awk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    文本处理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/ShellScript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShellScript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/vim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VIM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    服务
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/network/TCP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TCP/IP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/network/iptables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iptables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../linux/CA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字签名
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Database
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MySQL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MySQL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E5%AE%89%E8%A3%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    用户管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据类型和运算符
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/SQL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BD%E6%95%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    存储过程和函数
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E7%B4%A2%E5%BC%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    索引
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    执行计划
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_8" id="__nav_3_1_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    优化
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    优化
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/SQL%E4%BC%98%E5%8C%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQL优化
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/MySQL/%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    索引优化
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    性能测试
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    性能测试
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/benchmarksql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BenchmarkSQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../databases/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/sysbench/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    sysbench
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/web/Nginx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nginx
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/web/Tomcat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tomcat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中间件
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    中间件
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/middleware/rabbitmq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RabbitMQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Programming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    C
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E6%A6%82%E8%BF%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基本概念
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流程控制
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E6%95%B0%E7%BB%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数组
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E5%87%BD%E6%95%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    函数
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E6%8C%87%E9%92%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    指针
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    动态内存
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E7%BB%93%E6%9E%84%E4%BD%93/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    结构体
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/c/%E6%9E%9A%E4%B8%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    枚举
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Python
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    基础
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/01-python%E7%AE%80%E4%BB%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    python简介
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/02-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基本数据类型
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/03-%E9%80%BB%E8%BE%91%E6%8E%A7%E5%88%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    逻辑控制
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/04-%E5%87%BD%E6%95%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    函数
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/05-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    面向对象
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/06-%E5%8C%85%E5%92%8C%E6%A8%A1%E5%9D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    包和模块
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/07-%E8%BF%AD%E4%BB%A3%E5%92%8C%E6%8E%A8%E5%AF%BC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    迭代和推导
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/08-%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    文件处理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/09-%E5%BC%82%E5%B8%B8%E4%B8%8E%E6%B5%8B%E8%AF%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    异常处理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/01-%E5%86%85%E7%BD%AE%E6%A8%A1%E5%9D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    内置模块
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/02-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    并发编程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/03-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    网络编程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/04-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据库编程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%92%8C%E7%94%9F%E6%88%90%E5%99%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    迭代器和生成器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E5%9F%BA%E7%A1%80/%E5%8D%8F%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    协程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Django
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Django
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/request/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    请求
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    响应三板斧
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/urls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    路由层
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    视图层
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模板层
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模型层
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/middleware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中间件
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    表单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/auth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    auth模块
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/cookie%26session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    cookie和session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Django/admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_3" id="__nav_5_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DRF
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DRF
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E5%BA%8F%E5%88%97%E5%8C%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    序列化
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    请求和响应
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%A7%86%E5%9B%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    视图
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%B7%AF%E7%94%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    路由
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%AE%A4%E8%AF%81%E3%80%81%E6%9D%83%E9%99%90%E5%92%8C%E9%A2%91%E7%8E%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证、权限和频率
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%BF%87%E6%BB%A4%E3%80%81%E6%8E%92%E5%BA%8F%E3%80%81%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    过滤、排序、异常处理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/DRF/%E8%87%AA%E5%AE%9A%E4%B9%89response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自定义response
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4" id="__nav_5_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flask
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Flask
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    简介与安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/configure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    配置
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/request%26response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    请求和响应
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/route/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    路由
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模板
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    视图
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/cookie%26session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    cookie和session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/blueprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    蓝图
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/context/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    上下文
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/flashing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    闪现
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/middleware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中间件
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4_12" id="__nav_5_2_4_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    扩展
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_4_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    扩展
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/extention/flask-session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    flask-session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4_13" id="__nav_5_2_4_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    源码
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_4_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    源码
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/sourcecode/Local/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Local
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/sourcecode/session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Flask/sourcecode/context/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Context
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/Jinja2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jinja2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_7" id="__nav_5_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    测试
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    测试
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/python/%E6%B5%8B%E8%AF%95/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    单元测试
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Java
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1" id="__nav_5_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    基础
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E6%A6%82%E8%BF%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E8%AF%AD%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    语法
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E6%95%B0%E7%BB%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数组
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E4%B8%80%EF%BC%89/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    面向对象（一）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E4%BA%8C%EF%BC%89/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    面向对象（二）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E4%B8%89%EF%BC%89/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    面向对象（三）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/equals%28%29%E5%92%8C%3D%3D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    equals()和==
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E5%9F%BA%E7%A1%80/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    异常处理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_2" id="__nav_5_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    高级
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    高级
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    多线程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E5%B8%B8%E7%94%A8%E7%B1%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常用类
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E6%9E%9A%E4%B8%BE%E7%B1%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    枚举类
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E6%B3%9B%E5%9E%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    泛型
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E9%9B%86%E5%90%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    集合
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E5%8F%8D%E5%B0%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    反射
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E6%B3%A8%E8%A7%A3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    注解
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/IO%E6%B5%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IO流
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/%E9%AB%98%E7%BA%A7/%E6%96%B0%E7%89%B9%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新特性
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/java/JDBC/JDBC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JDBC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/CSS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/JavaScript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JavaScript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据结构与算法
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    数据结构与算法
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../programming/DataStructuresAndAlgorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据结构与算法
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DevOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DevOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Git/Git/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jenkins
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Jenkins
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Jenkins/jenkinsfile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    jenkinsfile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Jenkins/jenkins-pipeline-syntax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pipeline-syntax
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ansible
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ansible
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Ansible/ansible/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ansible基础
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Ansible/AnsibleAPI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AnsibleAPI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Docker
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    架构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/underlyingtechnology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    底层技术
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    镜像
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Container/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    容器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    网络
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Volume/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据卷
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Dockerfile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dockerfile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/system%E5%AD%90%E5%91%BD%E4%BB%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    system子命令
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/%E5%AE%B9%E5%99%A8%E4%B8%8E%E9%95%9C%E5%83%8F%E7%9A%84%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%8C%BA%E5%88%AB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    容器与镜像的导入导出区别
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Networking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    网络原理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/StorageDriver/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    存储驱动
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../DevOps/Docker/Security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    容器安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新概念
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    新概念
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NCE1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NCE1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-1-excuse-me" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 1 Excuse me!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-3-sorry-sir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 3 Sorry sir.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-5-nice-to-meet-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 5 Nice to meet you.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-7-are-you-a-teacher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 7 Are you a teacher?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-9-how-are-you-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 9 How are you today?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-11-is-this-your-shirt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 11 Is this your shirt?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-13-a-new-dress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 13 A new dress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-15-your-passports-please" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 15 Your passports please.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-17-how-do-you-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 17 How do you do?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-19-tired-and-thirsty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 19 Tired and thirsty
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-21-which-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 21 Which book?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-23-which-glasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 23 Which glasses?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-25-mrs-smiths-kitchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 25 Mrs. Smith's Kitchen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-27-mrs-smiths-living-room" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 27 Mrs. Smith's living room
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-29-come-in-amy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 29 Come in, Amy.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-31-wheres-sally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 31 Where's Sally?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-33-a-fine-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 33 A fine day
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-35-our-village" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 35 Our village
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-37-making-a-bookcase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 37 Making a bookcase
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-39-dont-drop-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 39 Don't drop it!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-41-pennys-bag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 41 Penny's bag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-43-hurry-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 43 Hurry up!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-45-the-bosss-letter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 45 The boss's letter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-47-a-cup-of-coffee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 47 A cup of coffee
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-49-at-the-butchers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 49 At the butcher's
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-51-a-pleasant-climate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 51 A pleasant climate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-53-an-interesting-climate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 53 An interesting climate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-55-the-sawyer-family" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 55 The Sawyer family
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-57-an-unusual-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 57 An unusual day
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-59-is-that-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 59 Is that all?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-61-a-bad-cold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 61 A bad cold
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-63-thank-you-doctor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 63 Thank you, doctor.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-65-not-a-baby" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 65 Not a baby
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-67-the-weekend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 67 The weekend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-69-the-car-race" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 69 The car race
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-71-hes-awful" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 71 He's awful!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-73-the-way-to-king-street" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 73 The way to King Street
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-75-uncomfortable-shoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 75 Uncomfortable shoes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-77-terrible-toothache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 77 Terrible toothache
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-79-carols-shopping-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 79 Carol's shopping list
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-81-roast-beef-and-potatoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 81 Roast beef and potatoes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-83-going-on-holiday" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 83 Going on holiday
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-85-paris-in-the-spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 85 'Paris in the Spring'.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-87-a-car-crash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 87 A car crash
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-89-for-sale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 89 For sale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-91-poor-ian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 91 Poor Ian!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-93-our-new-neighbour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 93 Our new neighbour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-95-tickets-please" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 95 Tickets, please.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-97-a-small-blue-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 97 A small blue case
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-99-ow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 99 Ow!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-101-a-card-from-jimmy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 101 A card from Jimmy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-103-the-french-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 103 The French test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-105-full-of-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 105 Full of mistakes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-107-its-too-small" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 107 It's too small.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-109-a-good-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 109 A good idea
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-111-the-most-expensive-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 111 The most expensive model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-113-small-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 113 Small change
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-115-knock-knock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 115 Knock, knock!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-117-tommys-breakfast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 117 Tommy's breakfast
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-119-a-true-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 119 A true story
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-121-the-man-in-a-hat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 121 The man in a hat
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-123-a-trip-to-australia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 123 A trip to Australia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-125-tea-for-two" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 125 Tea for two
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-127-a-famous-actress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 127 A famous actress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-129-seventy-miles-an-hour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 129 Seventy miles an hour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-131-dont-be-so-sure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 131 Don't be so sure!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-133-sensational-news" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 133 Sensational news!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-135-the-latest-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 135 The latest report
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-137-a-pleasant-dream" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 137 A pleasant dream
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-139-is-that-you-john" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 139 Is that you, John?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-141-sallys-first-train-ride" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 141 Sally's first train ride
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-143-a-walk-through-the-woods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 143 A walk through the woods
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NCE2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NCE2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NCE3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NCE3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../player/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    音频
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    语法
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    语法
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E7%BB%BC%E8%BF%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    综述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E8%AF%AD%E6%80%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    语态
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E8%AF%8D%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    词性
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E5%8A%A8%E8%AF%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    动词
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E4%BB%8E%E5%8F%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    从句
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grammar/%E5%80%92%E8%A3%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    倒装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IELTS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    IELTS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../IELTS/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学习方法
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Book
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Book
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../books/reader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-1-excuse-me" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 1 Excuse me!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-3-sorry-sir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 3 Sorry sir.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-5-nice-to-meet-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 5 Nice to meet you.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-7-are-you-a-teacher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 7 Are you a teacher?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-9-how-are-you-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 9 How are you today?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-11-is-this-your-shirt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 11 Is this your shirt?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-13-a-new-dress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 13 A new dress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-15-your-passports-please" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 15 Your passports please.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-17-how-do-you-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 17 How do you do?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-19-tired-and-thirsty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 19 Tired and thirsty
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-21-which-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 21 Which book?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-23-which-glasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 23 Which glasses?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-25-mrs-smiths-kitchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 25 Mrs. Smith's Kitchen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-27-mrs-smiths-living-room" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 27 Mrs. Smith's living room
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-29-come-in-amy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 29 Come in, Amy.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-31-wheres-sally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 31 Where's Sally?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-33-a-fine-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 33 A fine day
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-35-our-village" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 35 Our village
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-37-making-a-bookcase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 37 Making a bookcase
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-39-dont-drop-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 39 Don't drop it!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-41-pennys-bag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 41 Penny's bag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-43-hurry-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 43 Hurry up!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-45-the-bosss-letter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 45 The boss's letter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-47-a-cup-of-coffee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 47 A cup of coffee
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-49-at-the-butchers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 49 At the butcher's
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-51-a-pleasant-climate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 51 A pleasant climate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-53-an-interesting-climate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 53 An interesting climate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-55-the-sawyer-family" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 55 The Sawyer family
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-57-an-unusual-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 57 An unusual day
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-59-is-that-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 59 Is that all?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-61-a-bad-cold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 61 A bad cold
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-63-thank-you-doctor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 63 Thank you, doctor.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-65-not-a-baby" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 65 Not a baby
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-67-the-weekend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 67 The weekend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-69-the-car-race" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 69 The car race
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-71-hes-awful" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 71 He's awful!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-73-the-way-to-king-street" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 73 The way to King Street
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-75-uncomfortable-shoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 75 Uncomfortable shoes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-77-terrible-toothache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 77 Terrible toothache
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-79-carols-shopping-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 79 Carol's shopping list
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-81-roast-beef-and-potatoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 81 Roast beef and potatoes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-83-going-on-holiday" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 83 Going on holiday
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-85-paris-in-the-spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 85 'Paris in the Spring'.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-87-a-car-crash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 87 A car crash
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-89-for-sale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 89 For sale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-91-poor-ian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 91 Poor Ian!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-93-our-new-neighbour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 93 Our new neighbour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-95-tickets-please" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 95 Tickets, please.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-97-a-small-blue-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 97 A small blue case
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-99-ow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 99 Ow!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-101-a-card-from-jimmy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 101 A card from Jimmy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-103-the-french-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 103 The French test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-105-full-of-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 105 Full of mistakes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-107-its-too-small" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 107 It's too small.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-109-a-good-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 109 A good idea
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-111-the-most-expensive-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 111 The most expensive model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-113-small-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 113 Small change
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-115-knock-knock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 115 Knock, knock!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-117-tommys-breakfast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 117 Tommy's breakfast
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-119-a-true-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 119 A true story
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-121-the-man-in-a-hat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 121 The man in a hat
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-123-a-trip-to-australia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 123 A trip to Australia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-125-tea-for-two" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 125 Tea for two
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-127-a-famous-actress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 127 A famous actress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-129-seventy-miles-an-hour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 129 Seventy miles an hour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-131-dont-be-so-sure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 131 Don't be so sure!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-133-sensational-news" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 133 Sensational news!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-135-the-latest-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 135 The latest report
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-137-a-pleasant-dream" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 137 A pleasant dream
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-139-is-that-you-john" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 139 Is that you, John?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-141-sallys-first-train-ride" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 141 Sally's first train ride
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-143-a-walk-through-the-woods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lesson 143 A walk through the woods
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>NCE1</h1>
+
+<h2 id="lesson-1-excuse-me">Lesson 1 Excuse me!<a class="headerlink" href="#lesson-1-excuse-me" title="Permanent link">&para;</a></h2>
+<p>Excuse me!</p>
+<p>Yes?</p>
+<p>Is this your handbag?</p>
+<p>Pardon?</p>
+<p>Is this your handbag?</p>
+<p>Yes it is.</p>
+<p>Thank you very much.</p>
+<h2 id="lesson-3-sorry-sir">Lesson 3 Sorry sir.<a class="headerlink" href="#lesson-3-sorry-sir" title="Permanent link">&para;</a></h2>
+<p>My coat and my umbrella please.</p>
+<p>Here is my ticket.</p>
+<p>Thank you sir.</p>
+<p>Number five.</p>
+<p>Here's your umbrella and your coat.</p>
+<p>This is not my umbrella.</p>
+<p>Sorry sir.</p>
+<p>Is this your umbrella?</p>
+<p>No it isn't.</p>
+<p>Is this it?</p>
+<p>Yes it is.</p>
+<p>Thank you very much.</p>
+<h2 id="lesson-5-nice-to-meet-you">Lesson 5 Nice to meet you.<a class="headerlink" href="#lesson-5-nice-to-meet-you" title="Permanent link">&para;</a></h2>
+<p>Good morning.</p>
+<p>Good morning Mr. Blake.</p>
+<p>This is Miss Sophie Dupont.</p>
+<p>Sophie is a new student.</p>
+<p>She is French.</p>
+<p>Sophie this is Hans.</p>
+<p>He is German.</p>
+<p>Nice to meet you.</p>
+<p>And this is Naoko.</p>
+<p>She's Japanese.</p>
+<p>Nice to meet you.</p>
+<p>And this is Chang-woo.</p>
+<p>He's Korean.</p>
+<p>Nice to meet you.</p>
+<p>And this is Luming.</p>
+<p>He's Chinese.</p>
+<p>Nice to meet you.</p>
+<p>And this is Xiaohui.</p>
+<p>She is Chinese too.</p>
+<p>Nice to meet you.</p>
+<h2 id="lesson-7-are-you-a-teacher">Lesson 7 Are you a teacher?<a class="headerlink" href="#lesson-7-are-you-a-teacher" title="Permanent link">&para;</a></h2>
+<p>I am a new student. My name's Robert.</p>
+<p>Nice to meet you. My name's Sophie.</p>
+<p>Are you French?</p>
+<p>Yes I am.
+Are you French too?</p>
+<p>No I am not.</p>
+<p>What nationality are you?</p>
+<p>I'm Italian.</p>
+<p>Are you a teacher?</p>
+<p>No I'm not.</p>
+<p>What's your job?</p>
+<p>I'm a keyboard operator.</p>
+<p>What's your job?</p>
+<p>I'm an engineer.</p>
+<h2 id="lesson-9-how-are-you-today">Lesson 9 How are you today?<a class="headerlink" href="#lesson-9-how-are-you-today" title="Permanent link">&para;</a></h2>
+<p>Hello Helen.</p>
+<p>Hi Steven.</p>
+<p>How are you today?</p>
+<p>I'm very well thank you. And you?</p>
+<p>I'm fine thanks.</p>
+<p>How is Tony?</p>
+<p>He's fine thanks.  How's Emma?</p>
+<p>She's very well too Helen.</p>
+<p>Goodbye Helen. Nice to see you.</p>
+<p>Nice to see you too Steven. Goodbye.</p>
+<h2 id="lesson-11-is-this-your-shirt">Lesson 11 Is this your shirt?<a class="headerlink" href="#lesson-11-is-this-your-shirt" title="Permanent link">&para;</a></h2>
+<p>Whose shirt is that?</p>
+<p>Is this your shirt Dave?</p>
+<p>No. Sir. It's not my shirt.</p>
+<p>This is my shirt. My shirt's blue.</p>
+<p>Is this shirt Tim's?</p>
+<p>Perhaps it is sir. Tim's shirt's white.</p>
+<p>Tim!</p>
+<p>Yes sir?</p>
+<p>Is this your shirt?</p>
+<p>Yes sir.</p>
+<p>Here you are. Catch!</p>
+<p>Thank you sir.</p>
+<h2 id="lesson-13-a-new-dress">Lesson 13 A new dress<a class="headerlink" href="#lesson-13-a-new-dress" title="Permanent link">&para;</a></h2>
+<p>What colour's your new dress?</p>
+<p>It's green.</p>
+<p>Come upstairs and see it.</p>
+<p>Thank you.</p>
+<p>Look! Here it is!</p>
+<p>That's a nice dress. It's very smart.</p>
+<p>My hat's new too.</p>
+<p>What colour is it?</p>
+<p>It's the same colour. It's green  too.</p>
+<p>That is a lovely hat!</p>
+<h2 id="lesson-15-your-passports-please">Lesson 15 Your passports please.<a class="headerlink" href="#lesson-15-your-passports-please" title="Permanent link">&para;</a></h2>
+<p>Are you Swedish?</p>
+<p>No we are not. We are Danish.</p>
+<p>Are your friends Danish too?</p>
+<p>No  they aren't. They are Norwegian.</p>
+<p>Your passports please.</p>
+<p>Here they are.</p>
+<p>Are these your cases?</p>
+<p>No they aren't.</p>
+<p>Our cases are brown.</p>
+<p>Here they are.</p>
+<p>Are you tourists?</p>
+<p>Yes we are.</p>
+<p>Are your friends tourists too?</p>
+<p>Yes they are.</p>
+<p>That's fine.</p>
+<p>Thank you very much.</p>
+<h2 id="lesson-17-how-do-you-do">Lesson 17 How do you do?<a class="headerlink" href="#lesson-17-how-do-you-do" title="Permanent link">&para;</a></h2>
+<p>Come and meet our employees Mr.Richards.</p>
+<p>Thank you Mr. Jackson.</p>
+<p>This is Nicola Grey and this is Claire Taylor.</p>
+<p>How do you do?</p>
+<p>Those women are very hard-working. What are their jobs?</p>
+<p>They're keyboard operators.</p>
+<p>This is Michael Baker and this is Jeremy Short.</p>
+<p>How do you do?</p>
+<p>They aren't very busy! What are their jobs?</p>
+<p>They're sales reps. They're very lazy.</p>
+<p>Who is this young man?</p>
+<p>This is Jim. He's our office assistant.</p>
+<h2 id="lesson-19-tired-and-thirsty">Lesson 19 Tired and thirsty<a class="headerlink" href="#lesson-19-tired-and-thirsty" title="Permanent link">&para;</a></h2>
+<p>What's the matter children?</p>
+<p>We're tired ...</p>
+<p>... and thirsty  Mum.</p>
+<p>Sit down here.</p>
+<p>Are you all right now?</p>
+<p>No we aren't.</p>
+<p>Look! There's an ice cream man.</p>
+<p>Two ice cream please.</p>
+<p>Here you are children.</p>
+<p>Thanks Mum.</p>
+<p>These ice creams are nice.</p>
+<p>Are you all right now?</p>
+<p>Yes we are thank you!</p>
+<h2 id="lesson-21-which-book">Lesson 21 Which book?<a class="headerlink" href="#lesson-21-which-book" title="Permanent link">&para;</a></h2>
+<p>Give me a book please, Jane.</p>
+<p>Which book?</p>
+<p>This one?</p>
+<p>No, not that one. The red one.</p>
+<p>This one?</p>
+<p>Yes, please.</p>
+<p>Here you are.</p>
+<p>Thank you.</p>
+<h2 id="lesson-23-which-glasses">Lesson 23 Which glasses?<a class="headerlink" href="#lesson-23-which-glasses" title="Permanent link">&para;</a></h2>
+<p>Give me some glasses please, Jane.</p>
+<p>Which glasses?</p>
+<p>These glasses?</p>
+<p>No, not those. The ones on the shelf.</p>
+<p>These?</p>
+<p>Yes, please.</p>
+<p>Here you are.</p>
+<p>Thanks.</p>
+<h2 id="lesson-25-mrs-smiths-kitchen">Lesson 25 Mrs. Smith's Kitchen<a class="headerlink" href="#lesson-25-mrs-smiths-kitchen" title="Permanent link">&para;</a></h2>
+<p>Mrs. Smith's kitchen is small.</p>
+<p>There is a refrigerator in the kitchen.</p>
+<p>The refrigerator is white.</p>
+<p>It is on the right.</p>
+<p>There is an electric cooker in the kitchen.</p>
+<p>The cooker is blue.</p>
+<p>It is on the left.</p>
+<p>There is a table in the middle of the room.</p>
+<p>There is a bottle on the table.</p>
+<p>The bottle is empty.</p>
+<p>There is a cup on the table, too.</p>
+<p>The cup is clean.</p>
+<h2 id="lesson-27-mrs-smiths-living-room">Lesson 27 Mrs. Smith's living room<a class="headerlink" href="#lesson-27-mrs-smiths-living-room" title="Permanent link">&para;</a></h2>
+<p>Mrs. Smith's living room is large.</p>
+<p>There is a television in the room.</p>
+<p>The television is near the window.</p>
+<p>There are some magazines on the television.</p>
+<p>There is a table in the room.</p>
+<p>There are some newspapers on the table.</p>
+<p>There are some armchairs in the room.</p>
+<p>The armchairs are near the table.</p>
+<p>There is a stereo in the room.</p>
+<p>The stereo is near the door.</p>
+<p>There are some books on the stereo.</p>
+<p>There are some pictures in the room.</p>
+<p>The pictures are on the wall.</p>
+<h2 id="lesson-29-come-in-amy">Lesson 29 Come in, Amy.<a class="headerlink" href="#lesson-29-come-in-amy" title="Permanent link">&para;</a></h2>
+<p>Come in, Amy.</p>
+<p>Shut the door, please.</p>
+<p>This bedroom's very untidy.</p>
+<p>What must I do, Mrs. Jones?</p>
+<p>Open the window and air the room.</p>
+<p>Then put these clothes in the wardrobe.</p>
+<p>Then make the bed.</p>
+<p>Dust the dressing table.</p>
+<p>Then sweep the floor.</p>
+<h2 id="lesson-31-wheres-sally">Lesson 31 Where's Sally?<a class="headerlink" href="#lesson-31-wheres-sally" title="Permanent link">&para;</a></h2>
+<p>Where's Sally, Jack?</p>
+<p>She's in the garden, Jean.</p>
+<p>What's she doing?</p>
+<p>She's sitting under the tree.</p>
+<p>Is Tim in the garden, too?</p>
+<p>Yes, he is. He's climbing the tree.</p>
+<p>I beg your pardon? Who's climbing the tree?</p>
+<p>Tim is.</p>
+<p>What about the dog?</p>
+<p>The dog's in the garden, too. It's running across the grass. It's running after a cat.</p>
+<h2 id="lesson-33-a-fine-day">Lesson 33 A fine day<a class="headerlink" href="#lesson-33-a-fine-day" title="Permanent link">&para;</a></h2>
+<p>It is a fine day today.</p>
+<p>There are some clouds in the sky,</p>
+<p>but the sun is shining.</p>
+<p>Mr. Jones is with his family.</p>
+<p>They are walking over the bridge.</p>
+<p>There are some boats on the river.</p>
+<p>Mr. Jones and his wife are looking at them.</p>
+<p>Sally is looking at a big ship.</p>
+<p>The ship is going under the bridge.</p>
+<p>Tim is looking at an aeroplane.</p>
+<p>The aeroplane is flying over the river.</p>
+<h2 id="lesson-35-our-village">Lesson 35 Our village<a class="headerlink" href="#lesson-35-our-village" title="Permanent link">&para;</a></h2>
+<p>This is a photograph of our village.</p>
+<p>Our village is in a valley.</p>
+<p>It is between two hills.</p>
+<p>The village is on a river.</p>
+<p>Here is another photograph of the village.</p>
+<p>My wife and I are walking along the banks of the river.</p>
+<p>We are on the left.</p>
+<p>There is a boy in the water.</p>
+<p>He is swimming across the river.</p>
+<p>Here is another photograph.</p>
+<p>This is the school building.</p>
+<p>It is beside a park.</p>
+<p>The park is on the right.</p>
+<p>Some children are coming out of the building.</p>
+<p>Some of them are going into the park.</p>
+<h2 id="lesson-37-making-a-bookcase">Lesson 37 Making a bookcase<a class="headerlink" href="#lesson-37-making-a-bookcase" title="Permanent link">&para;</a></h2>
+<p>You're working hard, George. What are you doing?</p>
+<p>I'm making a bookcase.</p>
+<p>Give me that hammer please, Dan.</p>
+<p>Which hammer? This one?</p>
+<p>No, not that one. The big one.</p>
+<p>Here you are.</p>
+<p>Thanks, Dan.</p>
+<p>What are you going to do now, George?</p>
+<p>I'm going to paint it.</p>
+<p>What colour are you going to paint it?</p>
+<p>I'm going to paint it pink.</p>
+<p>Pink!</p>
+<p>This bookcase isn't for me. It's for my daughter, Susan. Pink's her favourite colour.</p>
+<h2 id="lesson-39-dont-drop-it">Lesson 39 Don't drop it!<a class="headerlink" href="#lesson-39-dont-drop-it" title="Permanent link">&para;</a></h2>
+<p>What are you going to do with that vase, Penny?</p>
+<p>I'm going to put it on this table, Sam.</p>
+<p>Don't do that.</p>
+<p>Give it to me.</p>
+<p>What are you going to do with it?</p>
+<p>I'm going to put it here, in front of the window.</p>
+<p>Be careful! Don't drop it!</p>
+<p>Don't put it there, Sam. Put it here, on this shelf.</p>
+<p>There we are! It's a lovely vase.</p>
+<p>Those flowers are lovely, too.</p>
+<h2 id="lesson-41-pennys-bag">Lesson 41 Penny's bag<a class="headerlink" href="#lesson-41-pennys-bag" title="Permanent link">&para;</a></h2>
+<p>Is that bag heavy, Penny?</p>
+<p>Not very.</p>
+<p>Here!  Put it on this chair. What's in it?</p>
+<p>A piece of cheese.</p>
+<p>A loaf of bread.</p>
+<p>A bar of soap.</p>
+<p>A bar of chocolate.</p>
+<p>A bottle of milk.</p>
+<p>A pound of sugar.</p>
+<p>Half a pound of coffee.</p>
+<p>A quarter of a pound of tea.</p>
+<p>And a tin of tobacco.</p>
+<p>Is that tin of tobacco for me?</p>
+<p>Well, it's certainly not for me!</p>
+<h2 id="lesson-43-hurry-up">Lesson 43 Hurry up!<a class="headerlink" href="#lesson-43-hurry-up" title="Permanent link">&para;</a></h2>
+<p>Can you make the tea, Sam?</p>
+<p>Yes, of course I can, Penny.</p>
+<p>Is there any water in this kettle?</p>
+<p>Yes, there is.</p>
+<p>Where's the tea?</p>
+<p>It's over there, behind the teapot.</p>
+<p>Can you see it?</p>
+<p>I can see the teapot, but I can't see the tea.</p>
+<p>There it is! It's in front of you!</p>
+<p>Ah yes, I can see it now.</p>
+<p>Where are the cups?</p>
+<p>There are some in the cupboard.</p>
+<p>Can you find them?</p>
+<p>Yes. Here they are.</p>
+<p>Hurry up, Sam! The kettle's boiling!</p>
+<h2 id="lesson-45-the-bosss-letter">Lesson 45 The boss's letter<a class="headerlink" href="#lesson-45-the-bosss-letter" title="Permanent link">&para;</a></h2>
+<p>Can you come here a minute please, Bob?</p>
+<p>Yes, sir?</p>
+<p>Where's Pamela?</p>
+<p>She's next door. She's in her office, sir.</p>
+<p>Can she type this letter for me? Ask her please.</p>
+<p>Yes, sir.</p>
+<p>Can you type this letter for the boss please, Pamela?</p>
+<p>Yes, of course I can.</p>
+<p>Here you are.</p>
+<p>Thank you, Bob.</p>
+<p>Bob!</p>
+<p>Yes? What's the matter?</p>
+<p>I can't type this letter.</p>
+<p>I can't read it! The boss's handwriting is terrible!</p>
+<h2 id="lesson-47-a-cup-of-coffee">Lesson 47 A cup of coffee<a class="headerlink" href="#lesson-47-a-cup-of-coffee" title="Permanent link">&para;</a></h2>
+<p>Do you like coffee, Ann?</p>
+<p>Yes, I do.</p>
+<p>Do you want a cup?</p>
+<p>Yes, please, Christine.</p>
+<p>Do you want any sugar?</p>
+<p>Yes, please.</p>
+<p>Do you want any milk?</p>
+<p>No, thank you. I don't like milk in my coffee. I like black coffee.</p>
+<p>Do you like biscuits?</p>
+<p>Yes, I do.</p>
+<p>Do you want one?</p>
+<p>Yes, please.</p>
+<h2 id="lesson-49-at-the-butchers">Lesson 49 At the butcher's<a class="headerlink" href="#lesson-49-at-the-butchers" title="Permanent link">&para;</a></h2>
+<p>Do you want any meat today, Mrs. Bird?</p>
+<p>Yes, please.</p>
+<p>Do you want beef or lamb?</p>
+<p>Beef, please.</p>
+<p>This lamb's very good.</p>
+<p>I like lamb, but my husband doesn't.</p>
+<p>What about some steak? This is a nice piece.</p>
+<p>Give me that piece, please.</p>
+<p>And a pound of mince, too.</p>
+<p>Do you want a chicken, Mrs. Bird? They're very nice.</p>
+<p>No, thank you.</p>
+<p>My husband likes steak, but he doesn't like chicken.</p>
+<p>To tell you the truth, Mrs. Bird, I don't like chicken either!</p>
+<h2 id="lesson-51-a-pleasant-climate">Lesson 51 A pleasant climate<a class="headerlink" href="#lesson-51-a-pleasant-climate" title="Permanent link">&para;</a></h2>
+<p>Where do you come from?</p>
+<p>I come from Greece.</p>
+<p>What's the climate like in your country?</p>
+<p>It's very pleasant.</p>
+<p>What's the weather like in spring?</p>
+<p>It's often windy in March. It's always warm in April and May, but it rains sometimes.</p>
+<p>What's it like in summer?</p>
+<p>It's always hot in June, July and August. The sun shines every day.</p>
+<p>Is it cold or warm in autumn?</p>
+<p>It's always warm in September and October. It's often cold in November and it rains sometimes.</p>
+<p>Is it very cold in winter?</p>
+<p>It's often cold in December, January and February. It snows sometimes.</p>
+<h2 id="lesson-53-an-interesting-climate">Lesson 53 An interesting climate<a class="headerlink" href="#lesson-53-an-interesting-climate" title="Permanent link">&para;</a></h2>
+<p>Where do you come from?</p>
+<p>I come from England.</p>
+<p>What's the climate like in your country?</p>
+<p>It's mild, but it's not always pleasant.</p>
+<p>The weather's often cold in the North and windy in the East. It's often wet in the West and sometimes warm in the South.</p>
+<p>Which seasons do you like best?</p>
+<p>I like spring and summer. The days are long and the nights are short. The sun rises early and sets late.</p>
+<p>I don't like autumn and winter. The days are short and the nights are long.
+The sun rises late and sets early. Our climate is not very good, but it's certainly interesting. It's our favourite subject of conversation.</p>
+<h2 id="lesson-55-the-sawyer-family">Lesson 55 The Sawyer family<a class="headerlink" href="#lesson-55-the-sawyer-family" title="Permanent link">&para;</a></h2>
+<p>The Sawyers live at 87 King Street. In the morning, Mr. Sawyer goes to work and the children go to school. Their father takes them to school every day.
+Mrs. Sawyer stays at home every day. She does the housework. She always eats her lunch at noon. In the afternoon, she usually sees her friends. They often drink tea together. In the evening, the children come home from school.They arrive home early. Mr. Sawyer comes home from work. He arrives home late. At night, the children always do their homework. Then they go to bed. Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.</p>
+<h2 id="lesson-57-an-unusual-day">Lesson 57 An unusual day<a class="headerlink" href="#lesson-57-an-unusual-day" title="Permanent link">&para;</a></h2>
+<p>It is eight o'clock. The children go to school by car every day, but today, they are going to school on foot. </p>
+<p>It is ten o'clock. Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops. </p>
+<p>It is four o'clock. In the afternoon, Mrs. Sawyer usually drinks tea in the living room. But this afternoon, she is drinking tea in the garden. </p>
+<p>It is six o'clock. In the evening, the children usually do their homework, but this evening, they are not doing their homework. At the moment, they are playing in the garden.</p>
+<p>It is nine o'clock. Mr. Sawyer usually reads his newspaper at night. But he's not reading his newspaper tonight. At the moment, he's reading an interesting book.</p>
+<h2 id="lesson-59-is-that-all">Lesson 59 Is that all?<a class="headerlink" href="#lesson-59-is-that-all" title="Permanent link">&para;</a></h2>
+<p>I want some envelopes, please.</p>
+<p>Do you want the large size or the small size?</p>
+<p>The large size, please.</p>
+<p>Do you have any writing paper?</p>
+<p>Yes, we do.</p>
+<p>I don't have any small pads. I only have large ones. Do you want a pad?</p>
+<p>Yes, please.</p>
+<p>And I want some glue.</p>
+<p>A bottle of glue.</p>
+<p>And I want a large box of chalk, too.</p>
+<p>I only have small boxes. Do you want one?</p>
+<p>No, thank you.</p>
+<p>Is that all?</p>
+<p>That's all, thank you.</p>
+<p>What else do you want?</p>
+<p>I want my change.</p>
+<h2 id="lesson-61-a-bad-cold">Lesson 61 A bad cold<a class="headerlink" href="#lesson-61-a-bad-cold" title="Permanent link">&para;</a></h2>
+<p>Where's Jimmy?</p>
+<p>He's in bed.</p>
+<p>What's the matter with him?</p>
+<p>He feels ill.</p>
+<p>He looks ill.</p>
+<p>We must call the doctor.</p>
+<p>Yes, we must.</p>
+<p>Can you remember the doctor's telephone number?</p>
+<p>Yes. It's 09754.</p>
+<p>Open your mouth, Jimmy. Show me your tongue. Say, 'Ah'.</p>
+<p>What's the matter with him, doctor?</p>
+<p>He has a bad cold, Mr. Williams, so he must stay in bed for a week.</p>
+<p>That's good news for Jimmy.</p>
+<p>Good news? Why?</p>
+<p>Because he doesn't like school!</p>
+<h2 id="lesson-63-thank-you-doctor">Lesson 63 Thank you, doctor.<a class="headerlink" href="#lesson-63-thank-you-doctor" title="Permanent link">&para;</a></h2>
+<p>How's Jimmy today?</p>
+<p>Better. Thank you, doctor.</p>
+<p>Can I see him please, Mrs. Williams?</p>
+<p>Certainly, doctor. Come upstairs.</p>
+<p>You look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.</p>
+<p>The boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.</p>
+<p>Does he have a temperature, doctor?</p>
+<p>No, he doesn't.</p>
+<p>Must he stay in bed?</p>
+<p>Yes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.</p>
+<p>Where's Mr. Williams this evening?</p>
+<p>He's in bed, doctor. Can you see him please? He has a bad cold, too!</p>
+<h2 id="lesson-65-not-a-baby">Lesson 65 Not a baby<a class="headerlink" href="#lesson-65-not-a-baby" title="Permanent link">&para;</a></h2>
+<p>What are you going to do this evening, Jill?</p>
+<p>I'm going to meet some friends, Dad.</p>
+<p>You mustn't come home late. You must be home at half past ten.</p>
+<p>I can't get home so early, Dad!</p>
+<p>Can I have the key to the front door, please?</p>
+<p>No, you can't.</p>
+<p>Jill's eighteen years old, Tom. She's not a baby. Give her the key. She always comes home early.</p>
+<p>Oh, all right!</p>
+<p>Here you are. But you mustn't come home after a quarter past eleven. Do you hear?</p>
+<p>Yes, Dad.</p>
+<p>Thanks, Mum.</p>
+<p>That's all right. Goodbye. Enjoy yourself!</p>
+<p>We always enjoy ourselves, Mum. Bye-bye.</p>
+<h2 id="lesson-67-the-weekend">Lesson 67 The weekend<a class="headerlink" href="#lesson-67-the-weekend" title="Permanent link">&para;</a></h2>
+<p>Hello. Were you at the butcher's?</p>
+<p>Yes, I was. Were you at the butcher's, too?</p>
+<p>No, I wasn't. I was at the greengrocer's(果蔬零售商). How's Jimmy today?</p>
+<p>He's very well, thank you.</p>
+<p>Was he absent from school last week?</p>
+<p>Yes, he was. He was absent on Monday, Tuesday, Wednesday and Thursday.
+How are you all keeping?</p>
+<p>Very well, thank you. We're going to spend three days in the country!
+We're going to stay at my mother's for the weekend.</p>
+<p>Friday, Saturday and Sunday in the country! Aren't you lucky!</p>
+<h2 id="lesson-69-the-car-race">Lesson 69 The car race<a class="headerlink" href="#lesson-69-the-car-race" title="Permanent link">&para;</a></h2>
+<p>There is a car race near our town every year. In 1995, there was a very big race. There were hundreds of people there. My wife and I were at the race.
+Our friends Julie and Jack were there, too. You can see us in the crowd.
+We are standing on the left. There were twenty cars in the race. There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars. It was an exciting finish. The winner was Billy Stewart.
+He was in car number fifteen. Five other cars were just behind him. On the way home, my wife said to me, 'Don't drive so quickly! You're not Billy Stewart!'</p>
+<h2 id="lesson-71-hes-awful">Lesson 71 He's awful!<a class="headerlink" href="#lesson-71-hes-awful" title="Permanent link">&para;</a></h2>
+<p>What's Ron Marston like, Pauline?</p>
+<p>He's awful! He telephoned me four times yesterday and three times the day before yesterday.</p>
+<p>He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone.</p>
+<p>What did your boss say to him?</p>
+<p>He said, 'Pauline is typing letters. She can't speak to you now!'</p>
+<p>Then I arrived home at six o'clock yesterday evening. He telephoned again. But I didn't answer the phone!</p>
+<p>Did he telephone again last night?</p>
+<p>Yes, he did. He telephoned at nine o'clock.</p>
+<p>What did you say to him?</p>
+<p>I said, 'This is Pauline's mother. Please don't telephone my daughter again!'</p>
+<p>Did he telephone again?</p>
+<p>No, he didn't!</p>
+<h2 id="lesson-73-the-way-to-king-street">Lesson 73 The way to King Street<a class="headerlink" href="#lesson-73-the-way-to-king-street" title="Permanent link">&para;</a></h2>
+<p>Last week Mrs. Mills went to London. She does not know London very well, and she lost her way. Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself. 'Excuse me,' she said. 'Can you tell me the way to King Street, please?' The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist. Then he put his hand into his pocket, and took out a phrasebook. He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'</p>
+<h2 id="lesson-75-uncomfortable-shoes">Lesson 75 Uncomfortable shoes<a class="headerlink" href="#lesson-75-uncomfortable-shoes" title="Permanent link">&para;</a></h2>
+<p>Do you have any shoes like these?</p>
+<p>What size?</p>
+<p>Size five.</p>
+<p>What colour?</p>
+<p>Black.</p>
+<p>I'm sorry. We don't have any.</p>
+<p>But my sister bought this pair last month.</p>
+<p>Did she buy them here?</p>
+<p>No, she bought them in the U. S.</p>
+<p>We had some shoes like those a month ago, but we don't have any now.</p>
+<p>Can you get a pair for me, please?</p>
+<p>I'm afraid that I can't. They were in fashion last year and the year before last.
+But they're not in fashion this year.</p>
+<p>These shoes are in fashion now.</p>
+<p>They look very uncomfortable.</p>
+<p>They are very uncomfortable. But women always wear uncomfortable shoes!</p>
+<h2 id="lesson-77-terrible-toothache">Lesson 77 Terrible toothache<a class="headerlink" href="#lesson-77-terrible-toothache" title="Permanent link">&para;</a></h2>
+<p>Good morning, Mr. Croft.</p>
+<p>Good morning, nurse. I want to see the dentist, please.</p>
+<p>Do you have an appointment?</p>
+<p>No, I don't.</p>
+<p>Is it urgent?</p>
+<p>Yes, it is. It's very urgent. I feel awful. I have a terrible toothache.</p>
+<p>Can you come at 10 a.m. on Monday, April 24th?</p>
+<p>I must see the dentist now, nurse.</p>
+<p>The dentist is very busy at the moment. Can you come at 2 p.m. ?</p>
+<p>That's very late. Can the dentist see me now?
+I'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?</p>
+<p>I can wait, but my toothache can't!</p>
+<h2 id="lesson-79-carols-shopping-list">Lesson 79 Carol's shopping list<a class="headerlink" href="#lesson-79-carols-shopping-list" title="Permanent link">&para;</a></h2>
+<p>What are you doing, Carol?</p>
+<p>I'm making a shopping list, Tom.</p>
+<p>What do we need?</p>
+<p>We need a lot of things this week.</p>
+<p>I must go to the grocer's.</p>
+<p>We haven't got much tea or coffee, and we haven't got any sugar or jam.</p>
+<p>What about vegetables?</p>
+<p>I must go to the greengroce's. We haven't got many tomatoes, but we've got a lot of potatoes.</p>
+<p>I must go to the butcher's, too. We need some meat. We haven't got any meat at all.</p>
+<p>Have we got any beer and wine?</p>
+<p>No, we haven't. And I'm not going to get any!</p>
+<p>I hope that you've got some money.</p>
+<p>I haven't got much.</p>
+<p>Well, I haven't got much either!</p>
+<h2 id="lesson-81-roast-beef-and-potatoes">Lesson 81 Roast beef and potatoes<a class="headerlink" href="#lesson-81-roast-beef-and-potatoes" title="Permanent link">&para;</a></h2>
+<p>Hi, Carol! Where's Tom?</p>
+<p>He's upstairs. He's having a bath.</p>
+<p>Tom!</p>
+<p>Yes?</p>
+<p>Sam's here.</p>
+<p>I'm nearly ready.</p>
+<p>Hello, Sam. Have a cigarette.</p>
+<p>No, thanks, Tom.</p>
+<p>Have a glass of whisky then.</p>
+<p>OK. Thanks.</p>
+<p>Is dinnner ready, Carol?</p>
+<p>It's nearly ready. We can have dinner at seven o'clock.</p>
+<p>Sam and I had lunch together today. We went to a restaurant.</p>
+<p>What did you have?</p>
+<p>We had roast beef and potatoes.</p>
+<p>Oh!</p>
+<p>What's the matter, Carol?</p>
+<p>Well, you're going to have roast beef and potatoes again tonight!</p>
+<h2 id="lesson-83-going-on-holiday">Lesson 83 Going on holiday<a class="headerlink" href="#lesson-83-going-on-holiday" title="Permanent link">&para;</a></h2>
+<p>Hello, Sam. Come in.</p>
+<p>Hi, Sam. We're having lunch. Do you want to have lunch with us?</p>
+<p>No, thank you, Tom. I've already had lunch. I had lunch at half past twelve.</p>
+<p>Have a cup of coffee then.</p>
+<p>I've just had a cup, thank you. I had one after my lunch.</p>
+<p>Let's go into the living room, Carol. We can have our coffee there.</p>
+<p>Excuse the mess, Sam. This room's very untidy. We're packing our suitcases.
+We're going to leave tomorrow. Tom and I are going to have a holiday.</p>
+<p>Aren't you lucky!</p>
+<p>When are you going to have a holiday, Sam?</p>
+<p>I don't know.</p>
+<p>I've already had my holiday this year.</p>
+<p>Where did you go?</p>
+<p>I stayed at home!</p>
+<h2 id="lesson-85-paris-in-the-spring">Lesson 85 'Paris in the Spring'.<a class="headerlink" href="#lesson-85-paris-in-the-spring" title="Permanent link">&para;</a></h2>
+<p>Hello, Ken.</p>
+<p>Hi, George.</p>
+<p>Have you just been to the cinema?</p>
+<p>Yes, I have.</p>
+<p>What's on?</p>
+<p>'Paris in the Spring'.</p>
+<p>Oh, I've already seen it. I saw it on television last year. It's an old film, but it's very good.</p>
+<p>Paris is a beautiful city.</p>
+<p>I've never been there. Have you ever been there, Ken?</p>
+<p>Yes, I have. I was there in April.</p>
+<p>Paris in the spring, eh?</p>
+<p>It was spring, but the weather was awful. It rained all the time.</p>
+<p>Just like London!</p>
+<h2 id="lesson-87-a-car-crash">Lesson 87 A car crash<a class="headerlink" href="#lesson-87-a-car-crash" title="Permanent link">&para;</a></h2>
+<p>Is my car ready yet?</p>
+<p>I don't know, sir. What's the number of your car?</p>
+<p>It's LFZ 312 G.
+When did you bring it to us?</p>
+<p>I brought it here three days ago.</p>
+<p>Ah yes, I remember now.</p>
+<p>Have your mechanics finished yet?</p>
+<p>No, they're still working on it. Let's go into the garage and have a look at it.
+Isn't that your car?</p>
+<p>Well, it was my car.</p>
+<p>Didn't you have a crash?
+That's right. I drove it into a lamp-post. Can your mechanics repair it?</p>
+<p>Well, they're trying to repair it, sir. But to tell you the truth, you need a new car!</p>
+<h2 id="lesson-89-for-sale">Lesson 89 For sale<a class="headerlink" href="#lesson-89-for-sale" title="Permanent link">&para;</a></h2>
+<p>Good afternoon. I believe that this house is for sale.</p>
+<p>That's right.</p>
+<p>May I have a look at it, please?</p>
+<p>Yes, of course. Come in.</p>
+<p>How long have you lived here?</p>
+<p>I've lived here for twenty years.</p>
+<p>Twenty years! That's a long time.</p>
+<p>Yes, I've been here since 1976.</p>
+<p>Then why do you want to sell it?</p>
+<p>Because I've just retired. I want to buy a small house in the country.</p>
+<p>How much does this house cost?</p>
+<p>￡68, 500.</p>
+<p>That's a lot of money!</p>
+<p>It's worth every penny of it.</p>
+<p>Well, I like the house, but I can't decide yet. My wife must see it first.</p>
+<p>Women always have the last word.</p>
+<h2 id="lesson-91-poor-ian">Lesson 91 Poor Ian!<a class="headerlink" href="#lesson-91-poor-ian" title="Permanent link">&para;</a></h2>
+<p>Has Ian sold his house yet?</p>
+<p>Yes, he has. He sold it last week.</p>
+<p>Has he moved to his new house yet?</p>
+<p>No, not yet. He's still here. He's going to move tomorrow.</p>
+<p>When? Tomorrow morning?</p>
+<p>No. Tomorrow afternoon. I'll miss him. He has always been a good neighbour.</p>
+<p>He's a very nice person. We'll all miss him.</p>
+<p>When will the new people move into this house?</p>
+<p>I think that they'll move in the day after tomorrow.</p>
+<p>Will you see Ian today, Jenny?</p>
+<p>Yes, I will.</p>
+<p>Please give him my regards.</p>
+<p>Poor Ian! He didn't want to leave this house.</p>
+<p>No, he didn't want to leave, but his wife did!</p>
+<h2 id="lesson-93-our-new-neighbour">Lesson 93 Our new neighbour<a class="headerlink" href="#lesson-93-our-new-neighbour" title="Permanent link">&para;</a></h2>
+<p>Nigel is our new next-door neighbour. He's a pilot. He was in the R.A.F. He will fly to New York next month. The month after next he'll fly to Tokyo. At the moment, he's in Madrid. He flew to Spain a week ago. He'll return to London the week after next. He's only forty-one years old, and he has already been to nearly every country in the world. Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home!</p>
+<h2 id="lesson-95-tickets-please">Lesson 95 Tickets, please.<a class="headerlink" href="#lesson-95-tickets-please" title="Permanent link">&para;</a></h2>
+<p>Two return tickets to London, please. What time will the next train leave?</p>
+<p>At nineteen minutes past eight.</p>
+<p>Which platform?</p>
+<p>Platform Two. Over the bridge.</p>
+<p>What time will the next train leave?</p>
+<p>At eight nineteen.</p>
+<p>We've got plenty of time.</p>
+<p>It's only three minutes to eight.</p>
+<p>Let's go and have a drink. There's a bar next door to the station.</p>
+<p>We had better go back to the station now, Ken.</p>
+<p>Tickets, please.</p>
+<p>We want to catch the eight nineteen to London.</p>
+<p>You've just missed it!</p>
+<p>What! It's only eight fifteen.</p>
+<p>I'm sorry, sir. That clock's ten minutes slow.</p>
+<p>When's the next train?</p>
+<p>In five hours' time!</p>
+<h2 id="lesson-97-a-small-blue-case">Lesson 97 A small blue case<a class="headerlink" href="#lesson-97-a-small-blue-case" title="Permanent link">&para;</a></h2>
+<p>I left a suitcase on the train to London the other day.</p>
+<p>Can you describe it, sir?</p>
+<p>It's a small blue case and it's got a zip. There's a label on the handle with my name and address on it.</p>
+<p>Is this case yours?</p>
+<p>No, that's not mine.</p>
+<p>What about this one? This one's got a label.</p>
+<p>Let me see it.</p>
+<p>What's your name and address?</p>
+<p>David Hall, 83, Bridge Street.</p>
+<p>That's right. D. N. Hall, 83, Bridge Street.</p>
+<p>Three pounds fifty pence, please.</p>
+<p>Here you are.</p>
+<p>Thank you.</p>
+<p>Hey!</p>
+<p>What's the matter?</p>
+<p>This case doesn't belong to me! You've given me the wrong case!</p>
+<h2 id="lesson-99-ow">Lesson 99 Ow!<a class="headerlink" href="#lesson-99-ow" title="Permanent link">&para;</a></h2>
+<p>Ow!</p>
+<p>What's the matter, Andy?</p>
+<p>I slipped and fell downstairs.</p>
+<p>Have you hurt yourself?</p>
+<p>Yes, I have. I think that I've hurt my back.</p>
+<p>Try and stand up. Can you stand up? Here. Let me help you.</p>
+<p>I'm sorry, Lucy. I'm afraid that I can't get up.</p>
+<p>I think that the doctor had better see you. I'll phone Dr. Carter.</p>
+<p>The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.</p>
+<h2 id="lesson-101-a-card-from-jimmy">Lesson 101 A card from Jimmy<a class="headerlink" href="#lesson-101-a-card-from-jimmy" title="Permanent link">&para;</a></h2>
+<p>Read Jimmy's card to me please, Penny.</p>
+<p>'I have just arrived in Scotland and I'm staying at a Youth Hostel.'</p>
+<p>Eh?</p>
+<p>He says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.</p>
+<p>The what?</p>
+<p>The Y.H.A., Mum. The Youth Hostels Association.</p>
+<p>What else does he say?</p>
+<p>'I'll write a letter soon. I hope you are all well.'</p>
+<p>What? Speak up, Penny. I'm afraid I can't hear you.</p>
+<p>He says he'll write a letter soon. He hopes we are all well. 'Love, Jimmy.'</p>
+<p>Is that all? He doesn't say very much, does he?</p>
+<p>He can't write very much on a card, Mum.</p>
+<h2 id="lesson-103-the-french-test">Lesson 103 The French test<a class="headerlink" href="#lesson-103-the-french-test" title="Permanent link">&para;</a></h2>
+<p>How was the exam, Richard?</p>
+<p>Not too bad. I think I passed in English and Mathematics. The questions were very easy. How about you, Gary?</p>
+<p>The English and Maths papers weren't easy enough for me. I hope I haven't failed.</p>
+<p>I think I failed the French paper. I could answer sixteen of the questions. They were very easy. But I couldn't answer the rest. They were too difficult for me.</p>
+<p>French tests are awful, aren't they?</p>
+<p>I hate them. I'm sure I've got a low mark.</p>
+<p>Oh, cheer up! Perhaps we didn't do too badly. The guy next to me wrote his name at the top of the paper.</p>
+<p>Yes?</p>
+<p>Then he sat there and looked at it for three hours! He didn't write a word!</p>
+<h2 id="lesson-105-full-of-mistakes">Lesson 105 Full of mistakes<a class="headerlink" href="#lesson-105-full-of-mistakes" title="Permanent link">&para;</a></h2>
+<p>Where's Sandra, Bob? I want her.</p>
+<p>Do you want to speak to her?</p>
+<p>Yes, I do. I want her to come to my office. Tell her to come at once.</p>
+<p>Did you want to see me?</p>
+<p>Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me?</p>
+<p>I-N-T-E-L-L-I-G-E-N-T.</p>
+<p>That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again.</p>
+<p>Yes, I'll do that. I'm sorry about that.</p>
+<p>And here's a little present for you.</p>
+<p>What is it?</p>
+<p>It's a dictionary. I hope it'll help you.</p>
+<h2 id="lesson-107-its-too-small">Lesson 107 It's too small.<a class="headerlink" href="#lesson-107-its-too-small" title="Permanent link">&para;</a></h2>
+<p>Do you like this dress, madam?</p>
+<p>I like the colour very much. It's a lovely dress, but it's too small for me.</p>
+<p>What about this one? It's a lovely dress. It's very smart. Short skirts are in fashion now. Would you like to try it?</p>
+<p>All right.</p>
+<p>I'm afraid this green dress is too small for me as well. It's smaller than the blue one.</p>
+<p>I don't like the colour either. It doesn't suit me at all. I think the blue dress is prettier.</p>
+<p>Could you show me another blue dress? I want a dress like that one, but it must be my size.</p>
+<p>I'm afraid I haven't got a larger dress. This is the largest dress in the shop.</p>
+<h2 id="lesson-109-a-good-idea">Lesson 109 A good idea<a class="headerlink" href="#lesson-109-a-good-idea" title="Permanent link">&para;</a></h2>
+<p>Shall I make some coffee, Jane?</p>
+<p>That's a good idea, Charlotte.</p>
+<p>It's ready. Do you want any milk?</p>
+<p>Just a little, please.</p>
+<p>What about some sugar? Two teaspoonfuls?</p>
+<p>No, less than that. One and a half teaspoonfuls, please. That's enough for me.</p>
+<p>That was very nice.</p>
+<p>Would you like some more?</p>
+<p>Yes, please.</p>
+<p>I'd like a cigarette, too. May I have one?</p>
+<p>Of course. I think there are a few in that box.</p>
+<p>I'm afraid it's empty.</p>
+<p>What a pity!</p>
+<p>It doesn't matter.</p>
+<p>Have a biscuit instead. Eat more and smoke less!</p>
+<p>That's very good advice!</p>
+<h2 id="lesson-111-the-most-expensive-model">Lesson 111 The most expensive model<a class="headerlink" href="#lesson-111-the-most-expensive-model" title="Permanent link">&para;</a></h2>
+<p>I like this television very much. How much does it cost?</p>
+<p>It's the most expensive model in the shop. It costs five hundred pounds.</p>
+<p>That's too expensive for us. We can't afford all that money.</p>
+<p>This model's less expensive than that one. It's only three hundred pounds. But, of course, it's not as good as the expensive one.</p>
+<p>I don't like this model. The other model's more expensive, but it's worth the money.</p>
+<p>Can we buy it on instalments(分期付款)?</p>
+<p>Of course. You can pay a deposit(定金) of thirty pounds, and then fourteen pounds a month for three years.</p>
+<p>Do you like it, dear?</p>
+<p>I certainly do, but I don't like the price. You always want the best, but we can't afford it. Sometimes you think you're a millionaire!</p>
+<p>Millionaires don't buy things on instalments!</p>
+<h2 id="lesson-113-small-change">Lesson 113 Small change<a class="headerlink" href="#lesson-113-small-change" title="Permanent link">&para;</a></h2>
+<p>Fares, please!</p>
+<p>Trafalgar Square, please.</p>
+<p>I'm sorry, sir. I can't change a ten-pound note. Haven't you got any small change?</p>
+<p>I've got no small change, I am afraid.</p>
+<p>I'll ask some of the passengers.</p>
+<p>Have you any small change, sir?</p>
+<p>I'm sorry. I've got none.</p>
+<p>I haven't got any either.</p>
+<p>Can you change this ten-pound note(纸币), madam?</p>
+<p>I'm afraid I can't.</p>
+<p>Neither can I.</p>
+<p>I'm very sorry, sir. You must get off the bus. None of our passengers can change this note. They're all millionaires!</p>
+<p>Except us.</p>
+<p>I've got some small change.</p>
+<p>So have I.</p>
+<h2 id="lesson-115-knock-knock">Lesson 115 Knock, knock!<a class="headerlink" href="#lesson-115-knock-knock" title="Permanent link">&para;</a></h2>
+<p>Isn't there anyone at home?</p>
+<p>I'll knock again, Helen. Everything's very quiet. I'm sure there's no one at home.</p>
+<p>But that's impossible. Carol and Tom invited us to lunch. Look through the window.</p>
+<p>Can you see anything?</p>
+<p>Nothing at all.</p>
+<p>Let's try the back door.</p>
+<p>Look! Everyone's in the garden.</p>
+<p>Hello, Helen. Hello, Jim.</p>
+<p>Everybody wants to have lunch in the garden. It's nice and warm out here.</p>
+<p>Come and have something to drink.</p>
+<p>Thanks, Carol. May I have a glass of beer please?</p>
+<p>Beer? There's none left. You can have some lemonade.</p>
+<p>Lemonade!</p>
+<p>Don't believe her, Jim. She's only joking. Have some beer!</p>
+<h2 id="lesson-117-tommys-breakfast">Lesson 117 Tommy's breakfast<a class="headerlink" href="#lesson-117-tommys-breakfast" title="Permanent link">&para;</a></h2>
+<p>When my husband was going into the dining room this morning, he dropped some coins on the floor. There were coins everywhere. We looked for them, but we could not find them all. While we were having breakfast, our little boy, Tommy, found two small coins on the floor. He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them! Late that morning, when I was doing the housework, My husband phoned me from the office. 'How's Tommy?' he asked. 'I don't know,' I answered, 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'</p>
+<h2 id="lesson-119-a-true-story">Lesson 119 A true story<a class="headerlink" href="#lesson-119-a-true-story" title="Permanent link">&para;</a></h2>
+<p>Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago. While my friend, George, was reading in bed,
+two thieves climbed into his kitchen.  After they had entered the house,
+they went into the dining room. It was very dark, so they turned on a torch. Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could. George heard the noise and came downstairs quickly. He turned on the light, but he couldn't see anyone. The thieves had already gone. But George's parrot, Henry, was still there. What's up, George? he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'</p>
+<h2 id="lesson-121-the-man-in-a-hat">Lesson 121 The man in a hat<a class="headerlink" href="#lesson-121-the-man-in-a-hat" title="Permanent link">&para;</a></h2>
+<p>I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.</p>
+<p>Who served you, sir?</p>
+<p>The lady who is standing behind the counter.</p>
+<p>Which books did you buy?</p>
+<p>The books which are on the counter.</p>
+<p>Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.</p>
+<p>I can't remember. The man who I served was wearing a hat.</p>
+<p>Have you got a hat, sir?</p>
+<p>Yes, I have.</p>
+<p>Would you put it on, please?</p>
+<p>All right.</p>
+<p>Is this the man that you served, Caroline?</p>
+<p>Yes. I recognize him now.</p>
+<h2 id="lesson-123-a-trip-to-australia">Lesson 123 A trip to Australia<a class="headerlink" href="#lesson-123-a-trip-to-australia" title="Permanent link">&para;</a></h2>
+<p>Look, Scott. This is a photograph I took during my trip to Australia.</p>
+<p>Let me see it, Mike.</p>
+<p>This is a good photograph. Who are these people?</p>
+<p>They're people I met during the trip.</p>
+<p>That's the ship we travelled on.</p>
+<p>What a beautiful ship!</p>
+<p>Who's this?</p>
+<p>That's the man I told you about. Remember?</p>
+<p>Ah yes. The one who offered you a job in Australia.</p>
+<p>That's right.</p>
+<p>Who's this?</p>
+<p>Guess!</p>
+<p>It's not you, is it?</p>
+<p>That's right.</p>
+<p>I grew a beard during the trip, but I shaved it off when I came home.</p>
+<p>Why did you shave it off?</p>
+<p>My wife didn't like it!</p>
+<h2 id="lesson-125-tea-for-two">Lesson 125 Tea for two<a class="headerlink" href="#lesson-125-tea-for-two" title="Permanent link">&para;</a></h2>
+<p>Can't you come in and have tea now, Peter?</p>
+<p>Not yet. I must water the garden first.</p>
+<p>Do you have to water it now?</p>
+<p>I'm afraid I must. Look at it! It's terribly dry.</p>
+<p>What a nuisance!</p>
+<p>Last summer it was very dry, too. Don't you remember? I had to water it every day.</p>
+<p>Well, I'll have tea by myself.</p>
+<p>That was quick! Have you finished already?</p>
+<p>Yes. Look out of the window.</p>
+<p>It's raining! That means you don't need t o water the garden.</p>
+<p>That was a pleasant surprise. It means I can have tea, instead.</p>
+<h2 id="lesson-127-a-famous-actress">Lesson 127 A famous actress<a class="headerlink" href="#lesson-127-a-famous-actress" title="Permanent link">&para;</a></h2>
+<p>Can you recognize that woman, Liz?</p>
+<p>I think I can, Kate. It must be Karen Marsh, the actress.</p>
+<p>I thought so. Who's that beside her?</p>
+<p>That must be Conrad Reeves.</p>
+<p>Conrad Reeves, the actor? It can't be. Let me have another look. I think you're right! Isn't he her third husband?</p>
+<p>No. He must be her fourth or fifth.</p>
+<p>Doesn't Karen Marsh look old!</p>
+<p>She does, doesn't she! I read she's twenty-nine, but she must be at least forty.</p>
+<p>I'm sure she is.</p>
+<p>She was a famous actress when I was still at school.</p>
+<p>That was a long time ago, wasn't it?</p>
+<p>Not that long ago! I'm not more than twenty-nine myself.</p>
+<h2 id="lesson-129-seventy-miles-an-hour">Lesson 129 Seventy miles an hour<a class="headerlink" href="#lesson-129-seventy-miles-an-hour" title="Permanent link">&para;</a></h2>
+<p>Look, Gary!</p>
+<p>That policeman's waving to you. He wants you to stop.</p>
+<p>Where do you think you are? On a race track? You must have been driving at seventy miles an hour.</p>
+<p>I can't have been.</p>
+<p>I was doing eighty when I overtook you.</p>
+<p>Didn't you see the speed limit?</p>
+<p>I'm afraid I didn't, officer. I must have been dreaming.</p>
+<p>He wasn't dreaming, officer. I was telling him to drive slowly.</p>
+<p>That's why I didn't see the sign.</p>
+<p>Let me see your driving licence.</p>
+<p>I won't charge you this time. But you'd better not do it again!</p>
+<p>Thank you. I'll certainly be more careful.</p>
+<p>I told you to drive slowly, Gary.</p>
+<p>You always tell me to drive slowly, darling.</p>
+<p>Well, next time you'd better take my advice!</p>
+<h2 id="lesson-131-dont-be-so-sure">Lesson 131 Don't be so sure!<a class="headerlink" href="#lesson-131-dont-be-so-sure" title="Permanent link">&para;</a></h2>
+<p>Where are you going to spend your holidays this year, Gary?</p>
+<p>We may go abroad. I'm not sure. My wife wants to go to Egypt. I'd like to go there, too. We can't make up our minds.</p>
+<p>Will you travel by sea or by air?</p>
+<p>We may travel by sea.</p>
+<p>It's cheaper, isn't it?</p>
+<p>It may be cheaper, but it takes a long time.</p>
+<p>I'm sure you'll enjoy yourselves.</p>
+<p>Don't be so sure. We might not go anywhere. My wife always worries too much. Who's going to look after the dog? Who's going to look after the house? Who's going to look after the garden? We have this problem every year. In the end, we stay at home and look after everything!</p>
+<h2 id="lesson-133-sensational-news">Lesson 133 Sensational news!<a class="headerlink" href="#lesson-133-sensational-news" title="Permanent link">&para;</a></h2>
+<p>Have you just made a new film, Miss Marsh?</p>
+<p>Yes, I have.</p>
+<p>Are you going to make another?</p>
+<p>No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.</p>
+<p>Let's buy a newspaper, Liz. Listen to this! 'Karen Marsh: Sensational News! By our reporter, Alan Jones. Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. she said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.'</p>
+<p>I wonder why!</p>
+<h2 id="lesson-135-the-latest-report">Lesson 135 The latest report<a class="headerlink" href="#lesson-135-the-latest-report" title="Permanent link">&para;</a></h2>
+<p>Are you really going to retire, Miss Marsh?</p>
+<p>I may. I can't make up my mind. I will have to ask my future husband.
+He won't let me make another film. </p>
+<p>Your future husband, Miss Marsh?</p>
+<p>Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.</p>
+<p>Look, Liz! Here's another report about Karen Marsh. Listen: 'Karen Marsh: The latest. At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.'</p>
+<p>That's sensational news, isn't it, Kate?</p>
+<p>It certainly is.He'll be her sixth husband!</p>
+<h2 id="lesson-137-a-pleasant-dream">Lesson 137 A pleasant dream<a class="headerlink" href="#lesson-137-a-pleasant-dream" title="Permanent link">&para;</a></h2>
+<p>Are you doing the football pools, Brain?</p>
+<p>Yes, I've nearly finished, Julie. I'm sure we'll win something this week.</p>
+<p>You always say that, but we never win anything! What will you do if you win a lot of money?</p>
+<p>If I win a lot of money I'll buy you a mink coat.</p>
+<p>I don't want a mink coat! I want to see the world.</p>
+<p>All right. If we win a lot of money we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country. We'll have a beautiful garden and...</p>
+<p>But if we spend all that money we'll be poor again. What'll we do then?</p>
+<p>If we spend all the money we'll try and win the football pools again.</p>
+<p>It's a pleasant dream but everything depends on 'if' !</p>
+<h2 id="lesson-139-is-that-you-john">Lesson 139 Is that you, John?<a class="headerlink" href="#lesson-139-is-that-you-john" title="Permanent link">&para;</a></h2>
+<p>Is that you, John?</p>
+<p>Yes, speaking.</p>
+<p>Tell Mary we'll be late for dinner this evening.</p>
+<p>I'm afraid I don't understand.</p>
+<p>Hasn't Mary told you? She invited Charlotte and me to dinner this evening. I said I would be at your house at six o'clock, but the boss wants me to do some extra work. I'll have to stay at the office. I don't know when I'll finish. Oh, and by the way, my wife wants to know if Mary needs any help.</p>
+<p>I don't know what you're talking about.</p>
+<p>That is John Smith, isn't it?</p>
+<p>Yes, I'm John Smith.</p>
+<p>You are John Smith, the engineer, aren't you?</p>
+<p>That's right.</p>
+<p>You work for the Overseas Engineering Company, don't you?</p>
+<p>No, I don't. I'm John Smith the telephone engineer and I'm repairing your telephone line.</p>
+<h2 id="lesson-141-sallys-first-train-ride">Lesson 141 Sally's first train ride<a class="headerlink" href="#lesson-141-sallys-first-train-ride" title="Permanent link">&para;</a></h2>
+<p>Last week, my four-year-old daughter, Sally, was invited to a children's party. I decided to take her by train. Sally was very excited because she had never travelled on a train before. She sat near the window and asked questions about everything she saw. Suddenly, a middle-age lady got on the train and sat opposite Sally. 'Hello, little girl,' she said. Sally did not answer, but looked at her curiously. The lady was dressed in a blue coat and a large, funny hat. After the train had left the station, the lady opened her handbag and took out her powder compact. She then began to make up her face. 'Why are you doing that?' Sally asked. 'To make myself beautiful,' the lady answered. She put away her compact and smiled kindly. 'But you are still ugly,' Sally said. Sally was amused, but I was very embarrassed!</p>
+<h2 id="lesson-143-a-walk-through-the-woods">Lesson 143 A walk through the woods<a class="headerlink" href="#lesson-143-a-walk-through-the-woods" title="Permanent link">&para;</a></h2>
+<p>I live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods. Visitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere. Last Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres(轮胎), empty bottles and rusty(生锈地) tins. Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted(依法处置)!'</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/sufangmu" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "search.suggest", "search.highlight", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "header.autohide"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="../../../javascripts/polyfill.min.js"></script>
+      
+        <script src="../../../javascripts/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
