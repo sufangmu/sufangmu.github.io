@@ -83,5 +83,59 @@ window.EBOOK_CATALOG = [
     format: 'epub',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/original_english_textbook/SteveJobs.epub',
     description: 'Steve Jobs'
+  },
+  {
+    id: 'nwpwqjc1',
+    title: '聂卫平围棋教程(从入门到15级)',
+    author: '聂卫平',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从入门到15级).pdf',
+    description: '聂卫平围棋教程(从入门到15级)'
+  },
+  {
+    id: 'nwpwqjc2',
+    title: '聂卫平围棋教程(从15级到10级)',
+    author: '聂卫平',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从15级到10级).pdf',
+    description: '聂卫平围棋教程(从15级到10级)'
+  },
+  {
+    id: 'nwpwqjc3',
+    title: '聂卫平围棋教程(从10级到5级)',
+    author: '聂卫平',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从10级到5级).pdf',
+    description: '聂卫平围棋教程(从10级到5级)'
+  },
+  {
+    id: 'nwpwqjc4',
+    title: '聂卫平围棋教程(从5级到1级)',
+    author: '聂卫平',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从5级到1级).pdf',
+    description: '聂卫平围棋教程(从5级到1级)'
+  },
+  {
+    id: 'nwpwqjc5',
+    title: '聂卫平围棋教程(从1级到1段)',
+    author: '聂卫平',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从1级到1段).pdf',
+    description: '聂卫平围棋教程(从1级到1段)'
+  },
+  {
+    id: 'wqshdq',
+    title: '围棋死活大全',
+    author: '围棋死活大全',
+    category: 'go',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/围棋死活大全.pdf',
+    description: '围棋死活大全'
   }
 ];

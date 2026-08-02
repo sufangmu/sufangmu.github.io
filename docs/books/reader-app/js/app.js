@@ -97,7 +97,7 @@
   }
 
   function categoryLabel(id) {
-    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书'};
+    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书', 'go': '围棋'};
     return labels[id] || id;
   }
 

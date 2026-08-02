@@ -16,7 +16,7 @@
 **Interests**
 
 - **Before**: Xiao flute, bamboo flute, Ocarina, Xun, Harmonica -- Beginner
-- **Now**: Go -- Fox Go 6k
+- **Now**: Go -- Fox Go 8k
 
 **Personal Projects**
 
