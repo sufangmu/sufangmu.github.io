@@ -89,7 +89,7 @@ window.EBOOK_CATALOG = [
     title: '聂卫平围棋教程(从入门到15级)',
     author: '聂卫平',
     category: 'go',
-    format: 'epub',
+    format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从入门到15级).pdf',
     description: '聂卫平围棋教程(从入门到15级)'
   },
@@ -98,7 +98,7 @@ window.EBOOK_CATALOG = [
     title: '聂卫平围棋教程(从15级到10级)',
     author: '聂卫平',
     category: 'go',
-    format: 'epub',
+    format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从15级到10级).pdf',
     description: '聂卫平围棋教程(从15级到10级)'
   },
@@ -107,7 +107,7 @@ window.EBOOK_CATALOG = [
     title: '聂卫平围棋教程(从10级到5级)',
     author: '聂卫平',
     category: 'go',
-    format: 'epub',
+    format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从10级到5级).pdf',
     description: '聂卫平围棋教程(从10级到5级)'
   },
@@ -116,7 +116,7 @@ window.EBOOK_CATALOG = [
     title: '聂卫平围棋教程(从5级到1级)',
     author: '聂卫平',
     category: 'go',
-    format: 'epub',
+    format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从5级到1级).pdf',
     description: '聂卫平围棋教程(从5级到1级)'
   },
@@ -125,17 +125,8 @@ window.EBOOK_CATALOG = [
     title: '聂卫平围棋教程(从1级到1段)',
     author: '聂卫平',
     category: 'go',
-    format: 'epub',
+    format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从1级到1段).pdf',
     description: '聂卫平围棋教程(从1级到1段)'
-  },
-  {
-    id: 'wqshdq',
-    title: '围棋死活大全',
-    author: '围棋死活大全',
-    category: 'go',
-    format: 'epub',
-    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/围棋死活大全.pdf',
-    description: '围棋死活大全'
   }
 ];

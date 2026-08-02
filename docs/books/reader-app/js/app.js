@@ -51,7 +51,6 @@
     tocPanel: $('#tocPanel'),
     tocBody: $('#tocBody'),
     tocClose: $('#tocClose'),
-    themeToggle: $('#themeToggle'),
     sidebarToggle: $('#sidebarToggle'),
     zoomLabel: $('#zoomLabel'),
     bookCount: $('#bookCount'),
@@ -65,7 +64,6 @@
     renderTree();
     bindEvents();
     bindKeyboard();
-    initTheme();
     // 初始状态：不加载任何书，显示空状态说明
     showWelcome();
   }
@@ -377,6 +375,65 @@
   }
 
   // ==========================================================================
+  //  PDF 目录解析
+  // ==========================================================================
+  function parsePdfOutline(outline, pdfDoc) {
+    if (!outline || outline.length === 0) return Promise.resolve([]);
+
+    function walk(items, depth) {
+      return Promise.all(items.map(function (item) {
+        return getPdfOutlinePage(pdfDoc, item).then(function (page) {
+          var tocItem = null;
+          if (page > 0) {
+            tocItem = {
+              label: item.title || '未命名',
+              href: '#page=' + page,
+              page: page,
+              depth: depth
+            };
+          }
+          if (item.items && item.items.length > 0) {
+            return walk(item.items, depth + 1).then(function (children) {
+              return children.length > 0 ? [tocItem].concat(children).filter(Boolean) : (tocItem ? [tocItem] : []);
+            });
+          }
+          return tocItem ? [tocItem] : [];
+        });
+      })).then(function (arrays) {
+        return arrays.reduce(function (acc, arr) { return acc.concat(arr); }, []);
+      });
+    }
+
+    return walk(outline, 0);
+  }
+
+  function getPdfOutlinePage(pdfDoc, item) {
+    if (!item || !item.dest) return Promise.resolve(0);
+    var dest = item.dest;
+    if (typeof dest === 'string') {
+      return pdfDoc.getDestination(dest).then(function (d) {
+        return resolvePdfDestPage(pdfDoc, d);
+      }).catch(function () { return 0; });
+    }
+    return resolvePdfDestPage(pdfDoc, dest);
+  }
+
+  function resolvePdfDestPage(pdfDoc, dest) {
+    if (!dest) return Promise.resolve(0);
+    if (Array.isArray(dest) && dest.length > 0) {
+      return pdfDoc.getPageIndex(dest[0]).then(function (idx) {
+        return idx + 1; // 页码从 1 开始
+      }).catch(function () { return 0; });
+    }
+    if (typeof dest === 'string') {
+      return pdfDoc.getDestination(dest).then(function (d) {
+        return resolvePdfDestPage(pdfDoc, d);
+      }).catch(function () { return 0; });
+    }
+    return Promise.resolve(0);
+  }
+
+  // ==========================================================================
   //  PDF 加载 — XHR 下载（带进度）→ ArrayBuffer → pdf.js
   // ==========================================================================
   function loadPdf(path, loadId) {
@@ -397,6 +454,21 @@
       state.pdfDoc = pdfDoc;
       state.pdfPage = 1;
       state.pdfTotal = pdfDoc.numPages;
+
+      // 解析 PDF 内部目录
+      pdfDoc.getOutline().then(function (outline) {
+        if (isLoadStale(loadId)) return;
+        return parsePdfOutline(outline, pdfDoc);
+      }).then(function (toc) {
+        if (isLoadStale(loadId)) return;
+        state.toc = toc || [];
+        renderToc(state.toc);
+      }).catch(function (err) {
+        console.warn('[PDF] 解析目录失败:', err);
+        state.toc = [];
+        renderToc([]);
+      });
+
       if (!fromCache) setProgressMsg(92, '正在渲染 …');
       dom.progressSlider.max = String(pdfDoc.numPages);
       dom.epubView.style.display = 'none';
@@ -768,6 +840,23 @@
     dom.progressText.textContent = state.pdfPage + ' / ' + state.pdfTotal;
     dom.progressSlider.value = String(state.pdfPage);
     dom.pageInfo.textContent = '共 ' + state.pdfTotal + ' 页';
+
+    // 高亮当前页面对应的目录项
+    if (state.toc && state.toc.length > 0) {
+      var currentPage = state.pdfPage;
+      var activeHref = null;
+      var matchedPage = -1;
+      state.toc.forEach(function (item) {
+        if (item.page && item.page <= currentPage && item.page > matchedPage) {
+          matchedPage = item.page;
+          activeHref = item.href;
+        }
+      });
+      if (activeHref) {
+        dom.tocBody.querySelectorAll('li').forEach(function (li) { li.classList.toggle('active', li.dataset.href === activeHref); });
+      }
+    }
+
     // 保存 PDF 阅读位置（恢复阶段不保存，避免覆盖被恢复的位置）
     if (!state._restoring) {
       saveReadingPosition(state.currentBook ? state.currentBook.id : null, { page: state.pdfPage, zoom: state.zoom });
@@ -786,9 +875,16 @@
       var li = document.createElement('li');
       li.textContent = item.label;
       li.dataset.href = item.href;
+      if (item.depth > 0) {
+        li.style.paddingLeft = (12 + item.depth * 14) + 'px';
+      }
       li.addEventListener('click', function () {
-        if (state.epubRendition) {
+        if (state.currentFormat === 'epub' && state.epubRendition) {
           state.epubRendition.display(item.href).then(function () { updateEpubProgress(); dom.tocPanel.classList.remove('show'); });
+        } else if (state.currentFormat === 'pdf' && state.pdfDoc && item.page) {
+          jumpToPdfPage(item.page).then(function () {
+            dom.tocPanel.classList.remove('show');
+          });
         }
       });
       ul.appendChild(li);
@@ -826,12 +922,9 @@
     dom.btnZoomIn.addEventListener('click', function () { adjustZoom(1); });
     dom.btnZoomOut.addEventListener('click', function () { adjustZoom(-1); });
 
-    dom.themeToggle.addEventListener('click', toggleTheme);
-
     // 侧栏收起/展开
     dom.sidebarToggle.addEventListener('click', function () {
       document.querySelector('.sidebar').classList.toggle('collapsed');
-      document.body.classList.toggle('sidebar-hidden');
       // 收起/展开后通知 epub.js 重绘，并重新装滚轮事件
       // 侧栏 CSS transition 完成后重设 epub 尺寸 + 重绑滚轮
       setTimeout(function () {
@@ -885,28 +978,7 @@
     }
   }
 
-  // ====== 主题 ======
-  function initTheme() {
-    if (localStorage.getItem('reader-theme') === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      dom.themeToggle.textContent = '☀️';
-    }
-  }
-
-  function toggleTheme() {
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    if (isDark) {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('reader-theme', 'light');
-      dom.themeToggle.textContent = '🌙';
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('reader-theme', 'dark');
-      dom.themeToggle.textContent = '☀️';
-    }
-    if (state.epubRendition) setTimeout(function () { state.epubRendition.resize(); }, 100);
-  }
-
+  // ====== 工具 ======
   function escapeHtml(str) {
     if (!str) return '';
     var div = document.createElement('div');
