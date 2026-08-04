@@ -19,10 +19,10 @@ function encodePath(p) {
   // If it's an absolute URL, separate protocol+host from the path
   const match = p.match(/^(https?:\/\/[^\/]+)(\/.*)$/);
   if (match) {
-    return match[1] + match[2].split('/').map(encodeURIComponent).join('/');
+    return match[1] + match[2].split('/').map(encodeURI).join('/');
   }
   // Relative path
-  return p.split('/').map(encodeURIComponent).join('/');
+  return p.split('/').map(encodeURI).join('/');
 }
 
 class NCEPlayer {

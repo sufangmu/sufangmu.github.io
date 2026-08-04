@@ -41,6 +41,16 @@
       </div>
     </aside>
 
+    <!-- 目录侧栏 -->
+    <aside class="toc-sidebar" id="tocSidebar">
+      <div class="toc-sidebar-header">
+        <h3>📑 目录</h3>
+      </div>
+      <div class="toc-tree" id="tocTree">
+        <p class="toc-empty">选择一本书以查看目录</p>
+      </div>
+    </aside>
+
     <!-- 阅读区 -->
     <main class="reader-panel">
       <!-- 空白状态 -->
@@ -76,7 +86,18 @@
       <div class="bottom-bar" id="bottomBar" style="display:none;">
         <div class="control-bar">
           <div class="ctrl-group-left">
-            <button class="ctrl-btn" id="btnToc" title="目录">📑 目录</button>
+              <button class="ctrl-btn" id="btnToc" title="显示/隐藏目录">📑 目录</button>
+            <button class="ctrl-btn" id="btnMarker" title="画笔标记">🖊 标记</button>
+            <span class="pen-tools" id="penTools" style="display:none;">
+              <input type="range" id="penSize" min="2" max="60" value="10" class="pen-size-slider" title="笔刷大小">
+              <span class="pen-size-val" id="penSizeVal">10</span>
+              <span class="pen-color active" data-color="rgba(255,235,59,0.45)" style="background:rgba(255,235,59,0.7)" title="黄色荧光笔"></span>
+              <span class="pen-color" data-color="rgba(76,175,80,0.4)" style="background:rgba(76,175,80,0.65)" title="绿色"></span>
+              <span class="pen-color" data-color="rgba(244,67,54,0.35)" style="background:rgba(244,67,54,0.6)" title="红色"></span>
+              <span class="pen-color" data-color="rgba(33,150,243,0.35)" style="background:rgba(33,150,243,0.6)" title="蓝色"></span>
+              <button class="ctrl-btn pen-undo-btn" id="btnUndoStroke" title="撤销上一笔">↩</button>
+              <button class="ctrl-btn pen-clear-btn" id="btnClearStrokes" title="清除本页标记">✕</button>
+            </span>
             <button class="ctrl-btn" id="btnZoomOut" title="缩小">🔍−</button>
             <span id="zoomLabel" class="zoom-label">100%</span>
             <button class="ctrl-btn" id="btnZoomIn" title="放大">🔍+</button>
@@ -93,15 +114,6 @@
         </div>
       </div>
     </main>
-  </div>
-
-  <!-- 目录面板 -->
-  <div class="toc-panel" id="tocPanel">
-    <div class="toc-header">
-      <span>📑 目录</span>
-      <button class="toc-close" id="tocClose">✕</button>
-    </div>
-    <div class="toc-body" id="tocBody"></div>
   </div>
 
   <script src="js/app.js"></script>

@@ -21,6 +21,12 @@
     _loadId: 0,       // 加载序号，用于避免竞态（快速切换书籍）
     _xhr: null,       // 当前下载中的 XHR（仅允许一个活跃下载）
     _fileCache: {},   // 已下载完成的文件缓存 { path: buffer }
+    _lastTocHref: null, // EPUB 用户最近一次点击的目录项 href
+    markerMode: false, // 画笔标记模式开关
+    pdfStrokes: {},    // 画笔笔迹 { pageNum: [{points:[{x,y},...], color, size}] }
+    currentStroke: null, // 当前正在绘制的笔迹
+    penSize: 10,
+    penColor: 'rgba(255,235,59,0.45)',
   };
 
   var $ = function (s) { return document.querySelector(s); };
@@ -43,14 +49,19 @@
     btnPrev: $('#btnPrev'),
     btnNext: $('#btnNext'),
     btnToc: $('#btnToc'),
+    btnMarker: $('#btnMarker'),
+    penTools: $('#penTools'),
+    penSize: $('#penSize'),
+    penSizeVal: $('#penSizeVal'),
+    btnUndoStroke: $('#btnUndoStroke'),
+    btnClearStrokes: $('#btnClearStrokes'),
     btnZoomIn: $('#btnZoomIn'),
     btnZoomOut: $('#btnZoomOut'),
     progressText: $('#progressText'),
     progressSlider: $('#progressSlider'),
     pageInfo: $('#pageInfo'),
-    tocPanel: $('#tocPanel'),
-    tocBody: $('#tocBody'),
-    tocClose: $('#tocClose'),
+    tocSidebar: $('#tocSidebar'),
+    tocTree: $('#tocTree'),
     sidebarToggle: $('#sidebarToggle'),
     zoomLabel: $('#zoomLabel'),
     bookCount: $('#bookCount'),
@@ -64,6 +75,8 @@
     renderTree();
     bindEvents();
     bindKeyboard();
+    // 初始状态：未打开书籍，目录侧栏收起
+    dom.tocSidebar.classList.add('collapsed');
     // 初始状态：不加载任何书，显示空状态说明
     showWelcome();
   }
@@ -250,6 +263,20 @@
     hideProgress();
     dom.readerContent.style.display = '';
     dom.bottomBar.style.display = '';
+    updateMarkerButton();
+  }
+
+  // PDF 才支持画笔标记，其他格式禁用按钮
+  function updateMarkerButton() {
+    var isPdf = state.currentFormat === 'pdf';
+    dom.btnMarker.disabled = !isPdf;
+    dom.btnMarker.title = isPdf ? '画笔标记（按住 Shift 画直线）' : '标记仅支持 PDF 格式';
+    if (!isPdf && state.markerMode) {
+      state.markerMode = false;
+      dom.btnMarker.classList.remove('active');
+      document.querySelector('.reader-panel').classList.remove('pen-active');
+      if (dom.penTools) dom.penTools.style.display = 'none';
+    }
   }
 
   function showError(msg) {
@@ -314,7 +341,7 @@
       if (isLoadStale(loadId)) { destroyEpubBook(); return; }
       if (!fromCache) setProgressMsg(70, '正在生成目录 …');
       book.loaded.navigation.then(function (nav) {
-        state.toc = nav.toc;
+        state.toc = normalizeEpubToc(nav.toc || []);
         renderToc(state.toc);
       }).catch(function () {});
 
@@ -337,6 +364,12 @@
       rendition.on('rendered', function () {
         if (isLoadStale(loadId)) return;
         setTimeout(function () { installEpubWheelHandler(); }, 200);
+      });
+
+      // 位置变化时同步进度与高亮
+      rendition.on('relocated', function () {
+        if (isLoadStale(loadId)) return;
+        updateEpubProgress();
       });
 
       rendition.display().then(function () {
@@ -375,7 +408,7 @@
   }
 
   // ==========================================================================
-  //  PDF 目录解析
+  //  PDF 目录解析（保持嵌套结构，便于树形展示）
   // ==========================================================================
   function parsePdfOutline(outline, pdfDoc) {
     if (!outline || outline.length === 0) return Promise.resolve([]);
@@ -394,7 +427,11 @@
           }
           if (item.items && item.items.length > 0) {
             return walk(item.items, depth + 1).then(function (children) {
-              return children.length > 0 ? [tocItem].concat(children).filter(Boolean) : (tocItem ? [tocItem] : []);
+              if (tocItem) {
+                tocItem.children = children;
+                return [tocItem];
+              }
+              return children;
             });
           }
           return tocItem ? [tocItem] : [];
@@ -515,19 +552,35 @@
 
       state.pdfDoc.getPage(num).then(function (page) {
         var viewport = page.getViewport({ scale: state.zoom });
+        var wrapper = document.createElement('div');
+        wrapper.className = 'pdf-page-wrapper';
+        wrapper.dataset.page = String(num);
+
         var canvas = document.createElement('canvas');
+        canvas.className = 'pdf-render-canvas';
         canvas.width = viewport.width;
         canvas.height = viewport.height;
+
+        var hCanvas = document.createElement('canvas');
+        hCanvas.className = 'pdf-highlight-canvas';
+        hCanvas.width = viewport.width;
+        hCanvas.height = viewport.height;
+
+        wrapper.appendChild(canvas);
+        wrapper.appendChild(hCanvas);
+
         return page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport }).promise.then(function () {
           var label = document.createElement('div');
           label.className = 'pdf-page-label';
           label.textContent = num + ' / ' + state.pdfTotal;
-          dom.pdfView.appendChild(canvas);
-          dom.pdfView.appendChild(label);
+          wrapper.appendChild(label);
+          dom.pdfView.appendChild(wrapper);
           state.pdfRendered.push(num);
           state.pdfRendered.sort(function (a, b) { return a - b; });
           state.pdfChanging = false;
           state.pdfPage = num;
+          bindPenEvents(hCanvas, num, viewport.width, viewport.height);
+          drawPageStrokes(num, hCanvas, viewport.width, viewport.height);
           updatePdfProgress();
           resolve();
         });
@@ -541,11 +594,9 @@
 
   // 平滑滚动到指定页码
   function smoothScrollToPage(num) {
-    var canvases = dom.pdfView.querySelectorAll('canvas');
-    // 页码从 1 开始，canvas 索引按渲染顺序
-    var idx = state.pdfRendered.indexOf(num);
-    if (idx !== -1 && canvases[idx]) {
-      canvases[idx].scrollIntoView({ behavior: 'smooth', block: 'start' });
+    var wrapper = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
+    if (wrapper) {
+      wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 
@@ -555,36 +606,169 @@
     state.pdfPage = num;
     updatePdfProgress();
 
-    if (state.pdfRendered.indexOf(num) !== -1) {
-      // 已渲染，直接跳到
-      var canvases = dom.pdfView.querySelectorAll('canvas');
-      var idx = state.pdfRendered.indexOf(num);
-      if (idx !== -1 && canvases[idx]) {
-        canvases[idx].scrollIntoView({ behavior: 'instant', block: 'start' });
-      }
+    var wrapper = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
+    if (wrapper) {
+      wrapper.scrollIntoView({ behavior: 'instant', block: 'start' });
       return Promise.resolve();
     }
 
     // 未渲染，先渲染这一页再跳
     return renderPdfPage(num).then(function () {
-      var canvases = dom.pdfView.querySelectorAll('canvas');
-      var idx = state.pdfRendered.indexOf(num);
-      if (idx !== -1 && canvases[idx]) {
-        canvases[idx].scrollIntoView({ behavior: 'instant', block: 'start' });
+      var w = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
+      if (w) {
+        w.scrollIntoView({ behavior: 'instant', block: 'start' });
       }
     });
   }
 
-  // PDF 连续滚动：到底部自动追加下一页
+  // ====== 自由画笔标记 ======
+  function bindPenEvents(canvas, page, width, height) {
+    function toCanvasPos(e) {
+      var rect = canvas.getBoundingClientRect();
+      return {
+        x: (e.clientX - rect.left) * (canvas.width / rect.width),
+        y: (e.clientY - rect.top) * (canvas.height / rect.height)
+      };
+    }
+
+    canvas.addEventListener('mousedown', function (e) {
+      if (!state.markerMode) return;
+      e.preventDefault();
+      var pos = toCanvasPos(e);
+      state.currentStroke = {
+        page: page,
+        points: [{ x: pos.x / width, y: pos.y / height }],
+        color: state.penColor,
+        size: state.penSize,
+        canvas: canvas,
+        width: width,
+        height: height
+      };
+    });
+
+    canvas.addEventListener('mousemove', function (e) {
+      if (!state.markerMode || !state.currentStroke || state.currentStroke.page !== page) return;
+      e.preventDefault();
+      var pos = toCanvasPos(e);
+      state.currentStroke.points.push({ x: pos.x / width, y: pos.y / height });
+      state.currentStroke.shiftKey = e.shiftKey;
+      drawPageStrokes(page, canvas, width, height, state.currentStroke);
+    });
+
+    function endDraw(e) {
+      if (!state.markerMode || !state.currentStroke || state.currentStroke.page !== page) return;
+      var stroke = state.currentStroke;
+      if (stroke.points.length >= 2) {
+        // Shift 直线模式：只保留首尾两点
+        if (stroke.shiftKey && stroke.points.length > 2) {
+          stroke.points = [stroke.points[0], stroke.points[stroke.points.length - 1]];
+        }
+        if (!state.pdfStrokes[page]) state.pdfStrokes[page] = [];
+        state.pdfStrokes[page].push({
+          points: stroke.points,
+          color: stroke.color,
+          size: stroke.size
+        });
+      }
+      state.currentStroke = null;
+      drawPageStrokes(page, canvas, width, height);
+    }
+
+    canvas.addEventListener('mouseup', endDraw);
+    canvas.addEventListener('mouseleave', endDraw);
+  }
+
+  // 绘制页面上的所有笔迹
+  function drawPageStrokes(page, canvas, width, height, activeStroke) {
+    var ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, width, height);
+
+    // 绘制已保存的笔迹
+    var strokes = state.pdfStrokes[page] || [];
+    strokes.forEach(function (s) { drawStroke(ctx, s, width, height); });
+
+    // 绘制正在进行的笔迹
+    if (activeStroke) {
+      drawStroke(ctx, activeStroke, width, height);
+    }
+  }
+
+  // 重绘指定页的笔迹（从当前 DOM 中找到 canvas 并刷新）
+  function redrawPageStrokes(page) {
+    var hCanvas = document.querySelector('.pdf-page-wrapper[data-page="' + page + '"] .pdf-highlight-canvas');
+    if (hCanvas) {
+      drawPageStrokes(page, hCanvas, hCanvas.width, hCanvas.height);
+    }
+  }
+
+  function drawStroke(ctx, stroke, width, height) {
+    if (!stroke.points || stroke.points.length < 2) return;
+    var pts = stroke.points;
+    var size = stroke.size || 10;
+    var color = stroke.color || 'rgba(255,235,59,0.45)';
+
+    ctx.save();
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.strokeStyle = color;
+    ctx.lineWidth = size;
+
+    ctx.beginPath();
+    ctx.moveTo(pts[0].x * width, pts[0].y * height);
+    // 按住 Shift 时只画首尾连线（直线预览），否则跟随所有点（自由曲线）
+    if (stroke.shiftKey && pts.length > 2) {
+      var last = pts.length - 1;
+      ctx.lineTo(pts[last].x * width, pts[last].y * height);
+    } else {
+      for (var i = 1; i < pts.length; i++) {
+        ctx.lineTo(pts[i].x * width, pts[i].y * height);
+      }
+    }
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  // 获取当前视口中最靠上的可见页码
+  function getVisiblePage() {
+    var wrappers = dom.pdfView.querySelectorAll('.pdf-page-wrapper');
+    var bestPage = state.pdfPage || 1;
+    var bestTop = Infinity;
+    var viewTop = dom.pdfView.scrollTop;
+    var viewBot = viewTop + dom.pdfView.clientHeight;
+
+    wrappers.forEach(function (w) {
+      var rect = w.getBoundingClientRect();
+      var containerRect = dom.pdfView.getBoundingClientRect();
+      var relTop = rect.top - containerRect.top;
+      var relBot = rect.bottom - containerRect.top;
+      // 与视口有交集
+      if (relBot > 0 && relTop < containerRect.height) {
+        if (relTop < bestTop && relTop > -rect.height * 0.6) {
+          bestTop = relTop;
+          bestPage = parseInt(w.dataset.page) || bestPage;
+        }
+      }
+    });
+    return bestPage;
+  }
+
+  // PDF 连续滚动：到底部自动追加下一页 + 跟踪当前可见页
   function installPdfScrollDetect() {
     var el = dom.pdfView;
     if (!el) return;
     var lastPdfScrollTop = 0;
+    var scrollTick = null;
     el.addEventListener('scroll', function () {
       if (!state.pdfDoc || state.pdfChanging) return;
       var st = el.scrollTop;
       var sh = el.scrollHeight;
       var ch = el.clientHeight;
+
+      // 更新当前可见页（防抖）
+      if (scrollTick) clearTimeout(scrollTick);
+      scrollTick = setTimeout(function () {
+        state.pdfPage = getVisiblePage();
+      }, 150);
 
       // 往下滚到接近底部 → 自动渲染并加载下一页
       if (st > lastPdfScrollTop && sh - st - ch < 100 && state.pdfRendered.length < state.pdfTotal) {
@@ -664,7 +848,7 @@
         dom.pdfView.style.display = 'none';
         dom.textView.style.display = '';
         dom.textView.innerHTML = extractTextFromMobi(buffer, book.path);
-        dom.tocBody.innerHTML = '<p style="padding:16px;color:var(--text-muted);font-size:13px;">MOBI 暂不支持目录</p>';
+        dom.tocTree.innerHTML = '<p class="toc-empty">MOBI 暂不支持目录</p>';
         dom.btnPrev.disabled = true;
         dom.btnNext.disabled = true;
         dom.progressSlider.disabled = true;
@@ -762,6 +946,10 @@
     state.pdfTotal = 0;
     state.pdfRendered = [];
     state.toc = [];
+    state._lastTocHref = null;
+    state.markerMode = false;
+    state.pdfStrokes = {};
+    state.currentStroke = null;
     state.zoom = 1.0;
     updateZoomLabel();
 
@@ -771,11 +959,14 @@
     dom.btnPrev.disabled = false;
     dom.btnNext.disabled = false;
     dom.progressSlider.disabled = false;
+    dom.btnMarker.classList.remove('active');
+    document.querySelector('.reader-panel').classList.remove('pen-active');
+    if (dom.penTools) dom.penTools.style.display = 'none';
     dom.pageInfo.textContent = '';
     dom.progressText.textContent = '-- / --';
     dom.progressSlider.value = '0';
-    dom.tocPanel.classList.remove('show');
-    dom.tocBody.innerHTML = '';
+    dom.tocTree.innerHTML = '<p class="toc-empty">选择一本书以查看目录</p>';
+    dom.tocSidebar.classList.add('collapsed');
   }
 
   // 销毁过期加载的 epub 资源（不干扰当前 UI）
@@ -826,7 +1017,19 @@
     }
 
     if (loc.start.href) {
-      dom.tocBody.querySelectorAll('li').forEach(function (li) { li.classList.toggle('active', li.dataset.href === loc.start.href); });
+      var activeHref = null;
+      var locBase = stripHash(loc.start.href);
+      // 如果用户最近点击的目录项仍在当前 spine 文件内，优先高亮它
+      // （EPUB.js 当前位置只返回 spine 文件，不返回具体锚点）
+      if (state._lastTocHref && stripHash(state._lastTocHref) === locBase) {
+        activeHref = state._lastTocHref;
+      } else {
+        activeHref = findBestTocHref(loc.start.href);
+        state._lastTocHref = null;
+      }
+      if (activeHref) {
+        updateTocHighlight(activeHref);
+      }
     }
 
     // 保存 EPUB 阅读位置（恢复阶段不保存，避免覆盖被恢复的位置）
@@ -841,19 +1044,12 @@
     dom.progressSlider.value = String(state.pdfPage);
     dom.pageInfo.textContent = '共 ' + state.pdfTotal + ' 页';
 
-    // 高亮当前页面对应的目录项
+    // 高亮当前页面对应的目录项（递归匹配最近的章节）
     if (state.toc && state.toc.length > 0) {
       var currentPage = state.pdfPage;
-      var activeHref = null;
-      var matchedPage = -1;
-      state.toc.forEach(function (item) {
-        if (item.page && item.page <= currentPage && item.page > matchedPage) {
-          matchedPage = item.page;
-          activeHref = item.href;
-        }
-      });
-      if (activeHref) {
-        dom.tocBody.querySelectorAll('li').forEach(function (li) { li.classList.toggle('active', li.dataset.href === activeHref); });
+      var matched = findTocItemByPage(state.toc, currentPage);
+      if (matched) {
+        updateTocHighlight(matched.href);
       }
     }
 
@@ -864,32 +1060,159 @@
   }
 
   // ====== 目录 ======
+  function normalizeEpubToc(items) {
+    if (!items || items.length === 0) return [];
+    return items.map(function (item) {
+      var normalized = {
+        label: item.label || '未命名',
+        href: item.href,
+        children: []
+      };
+      if (item.subitems && item.subitems.length > 0) {
+        normalized.children = normalizeEpubToc(item.subitems);
+      }
+      return normalized;
+    });
+  }
+
   function renderToc(tocItems) {
-    dom.tocBody.innerHTML = '';
+    dom.tocTree.innerHTML = '';
     if (!tocItems || tocItems.length === 0) {
-      dom.tocBody.innerHTML = '<p style="padding:16px;color:var(--text-muted);font-size:13px;">暂无目录</p>';
+      dom.tocTree.innerHTML = '<p class="toc-empty">暂无目录</p>';
       return;
     }
+    dom.tocTree.appendChild(buildTocTree(tocItems, 0));
+  }
+
+  function buildTocTree(items, depth) {
     var ul = document.createElement('ul');
-    tocItems.forEach(function (item) {
+    items.forEach(function (item) {
       var li = document.createElement('li');
-      li.textContent = item.label;
       li.dataset.href = item.href;
-      if (item.depth > 0) {
-        li.style.paddingLeft = (12 + item.depth * 14) + 'px';
+      if (item.page) li.dataset.page = String(item.page);
+
+      var hasChildren = item.children && item.children.length > 0;
+      if (hasChildren) {
+        li.className = 'toc-node collapsed';
+        var header = document.createElement('div');
+        header.className = 'toc-node-header';
+        var arrow = document.createElement('span');
+        arrow.className = 'toc-node-arrow';
+        arrow.textContent = '▼';
+        var label = document.createElement('span');
+        label.className = 'toc-node-label';
+        label.textContent = item.label;
+        header.appendChild(arrow);
+        header.appendChild(label);
+        li.appendChild(header);
+
+        header.addEventListener('click', function (e) {
+          // 点击标签文字导航，点击箭头/空白处展开收起
+          if (e.target === label) {
+            e.stopPropagation();
+            navigateToc(item);
+            return;
+          }
+          li.classList.toggle('collapsed');
+        });
+
+        li.appendChild(buildTocTree(item.children, depth + 1));
+      } else {
+        var label = document.createElement('span');
+        label.className = 'toc-node-label leaf';
+        label.textContent = item.label;
+        li.appendChild(label);
+        label.addEventListener('click', function () { navigateToc(item); });
       }
-      li.addEventListener('click', function () {
-        if (state.currentFormat === 'epub' && state.epubRendition) {
-          state.epubRendition.display(item.href).then(function () { updateEpubProgress(); dom.tocPanel.classList.remove('show'); });
-        } else if (state.currentFormat === 'pdf' && state.pdfDoc && item.page) {
-          jumpToPdfPage(item.page).then(function () {
-            dom.tocPanel.classList.remove('show');
-          });
-        }
-      });
       ul.appendChild(li);
     });
-    dom.tocBody.appendChild(ul);
+    return ul;
+  }
+
+  function navigateToc(item) {
+    // 记录用户点击的目录项，便于 EPUB 同文件内小章节高亮
+    state._lastTocHref = item.href;
+    if (state.currentFormat === 'epub' && state.epubRendition) {
+      state.epubRendition.display(item.href).then(function () { updateEpubProgress(); });
+    } else if (state.currentFormat === 'pdf' && state.pdfDoc && item.page) {
+      jumpToPdfPage(item.page);
+    }
+    // 移动端点击目录项后自动收起目录侧栏
+    if (window.innerWidth <= 768) {
+      dom.tocSidebar.classList.add('collapsed');
+    }
+  }
+
+  function findTocItemByPage(items, page) {
+    var matched = null;
+    items.forEach(function (item) {
+      if (item.page && item.page <= page && (!matched || item.page > matched.page)) {
+        matched = item;
+      }
+      if (item.children && item.children.length > 0) {
+        var childMatched = findTocItemByPage(item.children, page);
+        if (childMatched && (!matched || childMatched.page > matched.page)) {
+          matched = childMatched;
+        }
+      }
+    });
+    return matched;
+  }
+
+  function updateTocHighlight(activeHref) {
+    if (!activeHref || !dom.tocTree) return;
+    var activeLi = null;
+    dom.tocTree.querySelectorAll('li').forEach(function (li) {
+      var isActive = li.dataset.href === activeHref;
+      li.classList.toggle('active', isActive);
+      if (isActive) activeLi = li;
+    });
+    if (!activeLi) return;
+
+    // 展开所有父级节点
+    var parent = activeLi.parentElement;
+    while (parent) {
+      if (parent.tagName === 'UL') {
+        var nodeLi = parent.parentElement;
+        if (nodeLi && nodeLi.classList.contains('toc-node')) {
+          nodeLi.classList.remove('collapsed');
+        }
+      }
+      parent = parent.parentElement;
+    }
+
+    // 滚动到可视区域
+    activeLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function stripHash(href) {
+    if (!href) return '';
+    var idx = href.indexOf('#');
+    return idx === -1 ? href : href.slice(0, idx);
+  }
+
+  function findBestTocHref(locHref) {
+    if (!locHref || !dom.tocTree) return null;
+    var items = Array.prototype.slice.call(dom.tocTree.querySelectorAll('li'));
+    if (items.length === 0) return null;
+
+    // 优先精确匹配
+    var exact = items.filter(function (li) { return li.dataset.href === locHref; });
+    if (exact.length > 0) return exact[0].dataset.href;
+
+    // 其次按去掉锚点后的路径匹配（EPUB 当前位置 href 通常不带锚点）
+    var locBase = stripHash(locHref);
+    var baseMatches = items.filter(function (li) { return stripHash(li.dataset.href) === locBase; });
+    if (baseMatches.length > 0) return baseMatches[0].dataset.href;
+
+    // 再按文件名匹配（处理 EPUB 包内不同基准路径的情况）
+    var locName = locBase.split('/').pop();
+    var nameMatches = items.filter(function (li) {
+      return stripHash(li.dataset.href).split('/').pop() === locName;
+    });
+    if (nameMatches.length > 0) return nameMatches[0].dataset.href;
+
+    return null;
   }
 
   // ====== 事件 ======
@@ -911,11 +1234,67 @@
       }
     });
 
-    dom.btnToc.addEventListener('click', function () { dom.tocPanel.classList.toggle('show'); });
-    dom.tocClose.addEventListener('click', function () { dom.tocPanel.classList.remove('show'); });
+    dom.btnToc.addEventListener('click', function () {
+      dom.tocSidebar.classList.toggle('collapsed');
+      setTimeout(function () {
+        if (state.epubRendition) { state.epubRendition.resize(); }
+        installEpubWheelHandler();
+      }, 400);
+    });
+
+    dom.btnMarker.addEventListener('click', function () {
+      state.markerMode = !state.markerMode;
+      dom.btnMarker.classList.toggle('active', state.markerMode);
+      document.querySelector('.reader-panel').classList.toggle('pen-active', state.markerMode);
+      if (dom.penTools) dom.penTools.style.display = state.markerMode ? '' : 'none';
+    });
+
+    // 画笔大小滑块
+    if (dom.penSize) {
+      dom.penSize.addEventListener('input', function () {
+        state.penSize = parseInt(this.value);
+        if (dom.penSizeVal) dom.penSizeVal.textContent = this.value;
+      });
+    }
+
+    // 画笔颜色选择
+    document.querySelector('.pen-tools').addEventListener('click', function (e) {
+      var colorEl = e.target.closest('.pen-color');
+      if (!colorEl) return;
+      document.querySelectorAll('.pen-color').forEach(function (c) { c.classList.remove('active'); });
+      colorEl.classList.add('active');
+      state.penColor = colorEl.dataset.color;
+    });
+
+    // 撤销上一笔
+    if (dom.btnUndoStroke) {
+      dom.btnUndoStroke.addEventListener('click', function () {
+        if (!state.pdfDoc) return;
+        var page = getVisiblePage();
+        if (state.pdfStrokes[page] && state.pdfStrokes[page].length > 0) {
+          state.pdfStrokes[page].pop();
+          redrawPageStrokes(page);
+        }
+      });
+    }
+
+    // 清除本页所有标记
+    if (dom.btnClearStrokes) {
+      dom.btnClearStrokes.addEventListener('click', function () {
+        if (!state.pdfDoc) return;
+        var page = getVisiblePage();
+        state.pdfStrokes[page] = [];
+        redrawPageStrokes(page);
+      });
+    }
+
+    // 移动端点击目录侧栏外部区域关闭目录
     document.addEventListener('click', function (e) {
-      if (dom.tocPanel.classList.contains('show') && !dom.tocPanel.contains(e.target) && e.target !== dom.btnToc && !dom.btnToc.contains(e.target)) {
-        dom.tocPanel.classList.remove('show');
+      if (window.innerWidth > 768) return;
+      if (!dom.tocSidebar.classList.contains('collapsed') &&
+          !dom.tocSidebar.contains(e.target) &&
+          e.target !== dom.btnToc && !dom.btnToc.contains(e.target)) {
+        dom.tocSidebar.classList.add('collapsed');
       }
     });
 
@@ -956,7 +1335,7 @@
       switch (e.key) {
         case 'ArrowLeft': e.preventDefault(); navigatePage(-1); break;
         case 'ArrowRight': e.preventDefault(); navigatePage(1); break;
-        case 'Escape': dom.tocPanel.classList.remove('show'); break;
+        case 'Escape': dom.tocSidebar.classList.add('collapsed'); break;
       }
     });
   }

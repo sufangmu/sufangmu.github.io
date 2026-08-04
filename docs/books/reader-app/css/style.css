@@ -20,6 +20,7 @@
   --text-muted: #94a3b8;
   --border: #e2e8f0;
   --sidebar-width: 300px;
+  --toc-width: 260px;
   --bottom-bar-height: 52px;
   --radius: 8px;
   --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
@@ -102,6 +103,141 @@ body {
 .sidebar.collapsed .sidebar-footer {
   display: none;
 }
+
+/* ============================================================
+   TOC Sidebar — 目录侧栏（三列布局中间列）
+   ============================================================ */
+.toc-sidebar {
+  width: var(--toc-width);
+  background: var(--bg-card);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: width 0.25s ease, min-width 0.25s ease;
+}
+.toc-sidebar.collapsed {
+  width: 0;
+  min-width: 0;
+  border-right: none;
+}
+
+.toc-sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.toc-sidebar-header h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.toc-tree {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 0;
+}
+.toc-tree ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc-tree li {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.toc-node-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px 7px 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+  border-left: 2px solid transparent;
+}
+.toc-node-header:hover {
+  background: var(--primary-light);
+}
+
+.toc-node-arrow {
+  font-size: 10px;
+  color: var(--text-muted);
+  width: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.toc-node.collapsed > .toc-node-header .toc-node-arrow {
+  transform: rotate(-90deg);
+}
+
+.toc-node-label {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.toc-node-header .toc-node-label {
+  color: var(--text);
+}
+.toc-node-label.leaf {
+  display: block;
+  padding: 7px 12px 7px 36px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-left: 2px solid transparent;
+}
+.toc-node-label.leaf:hover {
+  background: var(--primary-light);
+}
+
+.toc-children {
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+  max-height: 2000px;
+}
+.toc-node.collapsed > .toc-children {
+  max-height: 0 !important;
+}
+.toc-children .toc-node-header {
+  padding-left: 28px;
+}
+.toc-children .toc-node-label.leaf {
+  padding-left: 48px;
+}
+.toc-children .toc-children .toc-node-header {
+  padding-left: 40px;
+}
+.toc-children .toc-children .toc-node-label.leaf {
+  padding-left: 60px;
+}
+
+.toc-tree li.active > .toc-node-header,
+.toc-tree li.active > .toc-node-label.leaf {
+  background: var(--primary-light);
+  border-left-color: var(--primary);
+  color: var(--primary);
+  font-weight: 500;
+}
+.toc-tree li.active > .toc-node-header .toc-node-label {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.toc-empty {
+  padding: 16px;
+  color: var(--text-muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* --- 旧的弹出目录面板，已废弃 --- */
+.toc-panel { display: none !important; }
 
 .sidebar-header {
   display: flex;
@@ -362,10 +498,108 @@ body {
   padding: 10px;
   gap: 10px;
 }
-#pdfView canvas {
+#pdfView .pdf-page-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+#pdfView .pdf-page-wrapper canvas.pdf-render-canvas {
+  display: block;
   max-width: 100%;
   box-shadow: var(--shadow);
   border-radius: 4px;
+}
+#pdfView .pdf-highlight-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-radius: 4px;
+}
+.reader-panel.pen-active #pdfView .pdf-highlight-canvas {
+  pointer-events: auto;
+}
+
+.ctrl-btn.active {
+  background: var(--primary-light);
+  color: var(--primary);
+  border-color: var(--primary);
+  font-weight: 600;
+}
+
+/* ---- 画笔工具栏 ---- */
+.pen-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  height: 32px;
+  background: #fafafa;
+}
+
+.pen-size-slider {
+  width: 60px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--border);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+.pen-size-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.pen-size-val {
+  font-size: 11px;
+  color: var(--text-secondary);
+  min-width: 18px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.pen-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+.pen-color:hover {
+  transform: scale(1.15);
+}
+.pen-color.active {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.25);
+  transform: scale(1.1);
+}
+
+.pen-undo-btn,
+.pen-clear-btn {
+  padding: 4px 8px !important;
+  font-size: 13px !important;
+  line-height: 1;
+  min-width: 28px;
+}
+
+.reader-panel.pen-active,
+.reader-panel.pen-active #pdfView,
+.reader-panel.pen-active .pdf-page-wrapper {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="none" stroke="%232563eb" stroke-width="1.5" opacity="0.7"/><circle cx="12" cy="12" r="1.5" fill="%232563eb" opacity="0.8"/></svg>') 12 12, crosshair;
 }
 #pdfView .pdf-page-label {
   font-size: 12px;
@@ -512,62 +746,6 @@ body {
 .page-info { font-size: 11px; color: var(--text-muted); min-width: 40px; }
 .mode-divider { width: 1px; height: 20px; background: var(--border); flex-shrink: 0; }
 
-/* ============================================================
-   TOC Panel
-   ============================================================ */
-.toc-panel {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: var(--sidebar-width);
-  width: 320px;
-  max-height: 60vh;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 0 0 var(--radius) var(--radius);
-  box-shadow: var(--shadow-lg);
-  z-index: 200;
-  flex-direction: column;
-  overflow: hidden;
-  transition: left 0.25s ease;
-}
-.sidebar.collapsed .toc-panel {
-  left: 52px;
-}
-.toc-panel.show { display: flex; }
-.toc-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 16px;
-  border-bottom: 1px solid var(--border);
-  font-size: 14px;
-  font-weight: 600;
-}
-.toc-close {
-  background: none; border: none;
-  font-size: 18px; cursor: pointer;
-  color: var(--text-muted); padding: 2px 6px; border-radius: 4px;
-}
-.toc-close:hover { background: var(--border); }
-.toc-body { overflow-y: auto; padding: 4px 0; max-height: 50vh; }
-.toc-body ul { list-style: none; padding: 0; margin: 0; }
-.toc-body li {
-  padding: 8px 16px 8px 24px;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--text-secondary);
-  border-left: 2px solid transparent;
-  transition: all 0.15s;
-}
-.toc-body li:hover { background: var(--primary-light); color: var(--text); }
-.toc-body li.active {
-  background: var(--primary-light);
-  color: var(--primary);
-  border-left-color: var(--primary);
-  font-weight: 500;
-}
-
 /* --- Scrollbar --- */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
@@ -578,12 +756,25 @@ body {
 @media (max-width: 768px) {
   #app { flex-direction: column; }
   .sidebar { width: 100%; max-height: 40vh; border-right: none; border-bottom: 1px solid var(--border); }
+  .toc-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 250;
+    box-shadow: var(--shadow-lg);
+    width: 280px;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+  }
+  .toc-sidebar:not(.collapsed) {
+    transform: translateX(0);
+  }
   .reader-panel { flex: 1; }
   #textView { padding: 16px 20px; }
   .book-meta-bar { padding: 6px 12px; flex-wrap: wrap; }
   .book-meta-bar h2 { font-size: 14px; }
   .control-bar { flex-wrap: wrap; height: auto; padding: 6px 8px; gap: 4px; }
   .slider-wrapper { max-width: none; }
-  .toc-panel { left: 0; width: 100%; max-height: 50vh; }
   .tree-item { padding-left: 30px; }
 }

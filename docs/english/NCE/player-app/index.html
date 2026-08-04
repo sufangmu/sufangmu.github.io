@@ -10,9 +10,13 @@
   <div id="app">
     <!-- Header -->
     <header class="header">
-      <span class="logo">📖</span>
-      <h1>新概念英语</h1>
-      <span class="subtitle">New Concept English</span>
+      <div class="header-brand">
+        <span class="logo">📖</span>
+        <div class="header-titles">
+          <h1>新概念英语</h1>
+          <span class="subtitle">New Concept English</span>
+        </div>
+      </div>
       <button class="theme-toggle" id="themeToggle" title="切换白天/黑夜主题">🌙</button>
     </header>
 
@@ -27,10 +31,11 @@
 
         <!-- Search -->
         <div class="lesson-search">
+          <span class="search-icon">🔍</span>
           <input
             type="text"
             id="lessonSearch"
-            placeholder="🔍 搜索课程..."
+            placeholder="搜索课程..."
             autocomplete="off"
           >
         </div>
@@ -74,9 +79,7 @@
           <!-- Progress Bar -->
           <div class="progress-container">
             <div class="progress-bar" id="progressBar">
-              <div class="progress-fill" id="progressFill" style="width: 0%">
-                <div class="progress-thumb"></div>
-              </div>
+              <div class="progress-fill" id="progressFill" style="width: 0%"></div>
             </div>
             <div class="time-display">
               <span id="timeCurrent">0:00</span>
@@ -86,65 +89,78 @@
 
           <!-- Control Bar -->
           <div class="control-bar">
-            <button class="ctrl-btn" id="btnPrevLesson" title="上一课 (↑)">⏮ 上一课</button>
-            <button class="ctrl-btn" id="btnPrev" title="上一句 (←)">◀ 上一句</button>
-            <button class="btn-play" id="btnPlay" title="播放/暂停 (空格键)">▶</button>
-            <button class="ctrl-btn" id="btnNext" title="下一句 (→)">下一句 ▶</button>
-            <button class="ctrl-btn" id="btnNextLesson" title="下一课 (↓)">下一课 ⏭</button>
-
-            <span class="mode-divider"></span>
-
-            <button class="mode-cycle-btn" id="modeCycleBtn" title="顺序播放当前册所有录音">
-              <span class="mode-cycle-icon" id="modeCycleIcon">▶️</span>
-              <span class="mode-cycle-label" id="modeCycleLabel">顺序播放</span>
-            </button>
-
-            <span class="mode-divider"></span>
-
-            <div class="loop-controls" id="loopControls">
-              <label class="loop-label">循环</label>
-              <select class="loop-select" id="loopCount">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3" selected>3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-              </select>
-              <label class="loop-label">次 间隔</label>
-              <select class="loop-select" id="loopInterval">
-                <option value="1">1</option>
-                <option value="2" selected>2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-              </select>
-              <label class="loop-label">秒</label>
+            <!-- Main Playback -->
+            <div class="control-group playback-group">
+              <button class="ctrl-btn icon-only" id="btnPrevLesson" title="上一课 (↑)">⏮</button>
+              <button class="ctrl-btn icon-only" id="btnPrev" title="上一句 (←)">⏪</button>
+              <button class="btn-play" id="btnPlay" title="播放/暂停 (空格键)">▶</button>
+              <button class="ctrl-btn icon-only" id="btnNext" title="下一句 (→)">⏩</button>
+              <button class="ctrl-btn icon-only" id="btnNextLesson" title="下一课 (↓)">⏭</button>
             </div>
 
             <span class="mode-divider"></span>
 
-            <label style="font-size:13px;color:var(--text-secondary);">语速</label>
-            <select class="speed-select" id="speedSelect">
-              <option value="0.5">0.5x</option>
-              <option value="0.75">0.75x</option>
-              <option value="1" selected>1x</option>
-              <option value="1.25">1.25x</option>
-              <option value="1.5">1.5x</option>
-              <option value="2">2x</option>
-            </select>
+            <!-- Mode -->
+            <div class="control-group mode-group">
+              <button class="mode-cycle-btn" id="modeCycleBtn" title="顺序播放当前册所有录音">
+                <span class="mode-cycle-icon" id="modeCycleIcon">▶️</span>
+                <span class="mode-cycle-label" id="modeCycleLabel">顺序播放</span>
+              </button>
+
+              <div class="loop-controls" id="loopControls">
+                <div class="loop-field">
+                  <label class="loop-label" for="loopCount">循环</label>
+                  <select class="loop-select" id="loopCount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  <span class="loop-unit">次</span>
+                </div>
+                <div class="loop-field">
+                  <label class="loop-label" for="loopInterval">间隔</label>
+                  <select class="loop-select" id="loopInterval">
+                    <option value="1">1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  <span class="loop-unit">秒</span>
+                </div>
+              </div>
+            </div>
 
             <span class="mode-divider"></span>
-            <span style="font-size:12px;color:var(--text-muted);" id="lessonCount">--</span>
+
+            <!-- Speed -->
+            <div class="control-group speed-group">
+              <label class="speed-label" for="speedSelect">语速</label>
+              <select class="speed-select" id="speedSelect">
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+              </select>
+            </div>
+
+            <span class="mode-divider"></span>
+
+            <span class="lesson-count" id="lessonCount">--</span>
           </div>
         </div>
       </main>
