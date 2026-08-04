@@ -1,8 +1,11 @@
 /**
  * 个人图书馆 — 支持 EPUB / PDF / MOBI
+ * 核心模块：state, dom, 加载, 渲染, 事件
  */
 (function () {
   'use strict';
+
+  var R = window.ReaderApp = window.ReaderApp || {};
 
   var state = {
     currentBook: null,
@@ -27,6 +30,15 @@
     currentStroke: null, // 当前正在绘制的笔迹
     penSize: 10,
     penColor: 'rgba(255,235,59,0.45)',
+    theme: 'light',          // 'light'|'dark'|'sepia'|'parchment'
+    fontSize: 16,            // EPUB 字体大小 px
+    annotations: {},          // 标记数据缓存 { bookId: {strokes:{}, epubHighlights:[]} }
+    pendingAnnotation: null,  // 等待笔记输入的标记
+    navHistory: [],           // [{page, cfi, bookId, title}]
+    bookmarks: {},            // { bookId: [{id, page, cfi, title, createdAt}] }
+    dualPageMode: false,     // PDF 双页模式
+    annotationsSidebarOpen: false,
+    thumbnailsOpen: false,
   };
 
   var $ = function (s) { return document.querySelector(s); };
@@ -66,6 +78,10 @@
     zoomLabel: $('#zoomLabel'),
     bookCount: $('#bookCount'),
   };
+
+  // 暴露给其他模块
+  R.state = state;
+  R.dom = dom;
 
   // ====== 初始化 ======
   function init() {
@@ -108,7 +124,7 @@
   }
 
   function categoryLabel(id) {
-    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书', 'go': '围棋'};
+    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书', 'go': '围棋', 'local_import': '本地导入'};
     return labels[id] || id;
   }
 
@@ -189,12 +205,37 @@
     cleanupReader();
     updateTreeSelection();
 
+    // 加载标记
+    if (R.loadAnnotations) R.loadAnnotations(book.id);
+    if (R.renderAnnotationsList) R.renderAnnotationsList();
+    // 加载书签
+    if (R.loadBookmarks) R.loadBookmarks();
+    if (R.updateBookmarkButton) R.updateBookmarkButton();
+
     dom.bookTitle.textContent = book.title;
     dom.bookMeta.textContent = (book.author ? book.author + ' · ' : '') + book.format.toUpperCase();
     dom.formatBadge.textContent = book.format.toUpperCase();
 
     var path = book.path;
     if (!path) { showEmpty(); return; }
+
+    // 本地导入书籍：从 IndexedDB 加载
+    if (path.indexOf('__local__:') === 0) {
+      var localId = path.split(':')[1];
+      if (R._getLocalFile) {
+        R._getLocalFile(localId).then(function (buffer) {
+          if (isLoadStale(loadId)) return;
+          if (!buffer) { showError('本地文件数据丢失，请重新导入'); return; }
+          if (book.format === 'epub') loadEpubFromBuffer(buffer, loadId);
+          else if (book.format === 'pdf') loadPdfFromBuffer(buffer, loadId);
+          else if (book.format === 'mobi' || book.format === 'azw3') loadMobi(book, loadId);
+        }).catch(function () {
+          if (isLoadStale(loadId)) return;
+          showError('读取本地文件失败');
+        });
+        return;
+      }
+    }
 
     if (book.format === 'epub') loadEpub(path, loadId);
     else if (book.format === 'pdf') loadPdf(path, loadId);
@@ -222,6 +263,126 @@
       var positions = JSON.parse(localStorage.getItem('reader-positions') || '{}');
       return positions[bookId] || null;
     } catch (e) { return null; }
+  }
+
+  // 从 ArrayBuffer 加载 EPUB（跳过 XHR）
+  function loadEpubFromBuffer(buffer, loadId) {
+    if (typeof ePub === 'undefined') { showError('epub.js 库未加载'); return; }
+    showProgress('正在加载 EPUB …');
+    setProgress(30);
+
+    dom.readerContent.style.display = '';
+    dom.bottomBar.style.display = '';
+    dom.epubView.style.display = '';
+    dom.epubView.innerHTML = '';
+
+    var book = ePub(buffer);
+    state.epubBook = book;
+    book.ready.then(function () {
+      return book;
+    }).then(function (book) {
+      if (isLoadStale(loadId)) { destroyEpubBook(); return; }
+      setProgressMsg(70, '正在生成目录 …');
+      book.loaded.navigation.then(function (nav) {
+        state.toc = normalizeEpubToc(nav.toc || []);
+        renderToc(state.toc);
+      }).catch(function () {});
+
+      setProgressMsg(80, '正在渲染 …');
+      var rendition = book.renderTo('epubView', {
+        width: '100%', height: '100%', spread: 'none', flow: 'paginated', allowScriptedContent: false,
+      });
+      state.epubRendition = rendition;
+
+      rendition.on('rendered', function () {
+        if (isLoadStale(loadId)) return;
+        setTimeout(function () {
+          installEpubWheelHandler();
+          if (R.initEpubHighlight) R.initEpubHighlight();
+          if (R.registerEpubThemes) R.registerEpubThemes();
+          if (R.renderEpubHighlights) R.renderEpubHighlights();
+        }, 200);
+      });
+
+      rendition.on('relocated', function () {
+        if (isLoadStale(loadId)) return;
+        updateEpubProgress();
+      });
+
+      rendition.display().then(function () {
+        if (isLoadStale(loadId)) { destroyEpubBook(); return; }
+        setProgressMsg(100, '加载完成');
+        book.locations.generate(800).then(function () {
+          dom.progressSlider.max = '100';
+        }).catch(function () { dom.progressSlider.max = '100'; });
+        showReader();
+        state._restoring = true;
+        updateEpubProgress();
+        state._restoring = false;
+      }).catch(function (err) {
+        if (isLoadStale(loadId)) { destroyEpubBook(); return; }
+        showError('EPUB 渲染失败: ' + (err.message || err));
+      });
+    }).catch(function (err) {
+      if (isLoadStale(loadId)) return;
+      showError('EPUB 加载失败: ' + (err.message || err));
+    });
+  }
+
+  // 从 ArrayBuffer 加载 PDF（跳过 XHR）
+  function loadPdfFromBuffer(buffer, loadId) {
+    if (typeof pdfjsLib === 'undefined') { showError('PDF.js 库未加载'); return; }
+    showProgress('正在解析 PDF …');
+    setProgress(60);
+
+    pdfjsLib.getDocument(buffer).promise.then(function (pdfDoc) {
+      if (isLoadStale(loadId)) { pdfDoc.destroy(); return; }
+      state.pdfDoc = pdfDoc;
+      state.pdfPage = 1;
+      state.pdfTotal = pdfDoc.numPages;
+
+      pdfDoc.getOutline().then(function (outline) {
+        if (isLoadStale(loadId)) return;
+        return parsePdfOutline(outline, pdfDoc);
+      }).then(function (toc) {
+        if (isLoadStale(loadId)) return;
+        state.toc = toc || [];
+        renderToc(state.toc);
+      }).catch(function () { state.toc = []; renderToc([]); });
+
+      setProgressMsg(90, '正在渲染 …');
+      dom.progressSlider.max = String(pdfDoc.numPages);
+      dom.epubView.style.display = 'none';
+      dom.textView.style.display = 'none';
+      dom.pdfView.style.display = '';
+      dom.pdfView.innerHTML = '';
+      state.pdfRendered = [];
+
+      var savedPos = getReadingPosition(state.currentBook ? state.currentBook.id : null);
+      state._restoring = !!savedPos;
+
+      renderPdfPage(1).then(function () {
+        if (isLoadStale(loadId)) return;
+        setProgressMsg(100, '加载完成');
+        setTimeout(function () {
+          installPdfScrollDetect();
+          installPdfWheelFallback();
+          showReader();
+          updatePdfProgress();
+          if (savedPos && savedPos.page > 1) {
+            jumpToPdfPage(savedPos.page).then(function () {
+              state._restoring = false;
+              updatePdfProgress();
+            });
+          } else {
+            state._restoring = false;
+          }
+        }, 200);
+      });
+    }).catch(function (err) {
+      if (isLoadStale(loadId)) return;
+      showError('PDF 加载失败: ' + (err.message || err));
+    });
   }
 
   function abortDownload() {
@@ -264,19 +425,115 @@
     dom.readerContent.style.display = '';
     dom.bottomBar.style.display = '';
     updateMarkerButton();
+    updateFormatButtons();
   }
 
-  // PDF 才支持画笔标记，其他格式禁用按钮
+  // PDF 画笔 / EPUB 文本高亮 模式
   function updateMarkerButton() {
     var isPdf = state.currentFormat === 'pdf';
-    dom.btnMarker.disabled = !isPdf;
-    dom.btnMarker.title = isPdf ? '画笔标记（按住 Shift 画直线）' : '标记仅支持 PDF 格式';
-    if (!isPdf && state.markerMode) {
+    var isEpub = state.currentFormat === 'epub';
+    var isMobi = state.currentFormat === 'mobi' || state.currentFormat === 'azw3';
+    var canMark = isPdf || isEpub || isMobi;
+    dom.btnMarker.disabled = !canMark;
+    dom.btnMarker.title = isPdf ? '画笔标记（按住 Shift 画直线）' : '文本高亮 — 选中文字即可标记';
+    var label = dom.btnMarker.querySelector('.marker-label');
+    if (label) label.textContent = '🖊';
+    // 非支持格式时退出标记模式
+    if (!isPdf && !isEpub && state.markerMode) {
       state.markerMode = false;
-      dom.btnMarker.classList.remove('active');
-      document.querySelector('.reader-panel').classList.remove('pen-active');
+      state._markerReady = false;
+      dom.btnMarker.classList.remove('active', 'has-config');
+      document.querySelector('.reader-panel').classList.remove('pen-active', 'highlight-mode');
       if (dom.penTools) dom.penTools.style.display = 'none';
+      updateMarkerButtonAppearance();
     }
+    // EPUB 模式下调整画笔工具栏显示
+    if (dom.penTools) updatePenToolsForFormat();
+  }
+
+  // 更新标记按钮外观（显示颜色点 + 大小）
+  function updateMarkerButtonAppearance() {
+    var label = dom.btnMarker.querySelector('.marker-label');
+    var dot = dom.btnMarker.querySelector('.marker-dot');
+    var sizeBadge = dom.btnMarker.querySelector('.marker-size');
+    var isPdf = state.currentFormat === 'pdf';
+
+    if (state.markerMode && state._markerReady) {
+      // 绘制模式：显示颜色点 + 大小
+      if (label) label.textContent = '🖊';
+      if (dot) {
+        dot.style.display = 'inline-block';
+        dot.style.background = extractColorCSS(state.penColor);
+      }
+      if (sizeBadge && isPdf) {
+        sizeBadge.style.display = 'inline';
+        sizeBadge.textContent = state.penSize;
+      } else if (sizeBadge) {
+        sizeBadge.style.display = 'none';
+      }
+    } else {
+      // 配置模式或关闭模式：只显示文字
+      if (label) {
+        label.textContent = state.currentFormat === 'epub' ? '🖊' : '🖊';
+      }
+      if (dot) dot.style.display = 'none';
+      if (sizeBadge) sizeBadge.style.display = 'none';
+    }
+  }
+
+  function extractColorCSS(rgba) {
+    var m = rgba.match(/[\d.]+/g);
+    if (m && m.length >= 3) {
+      return 'rgba(' + m[0] + ',' + m[1] + ',' + m[2] + ',0.8)';
+    }
+    return rgba;
+  }
+
+  // 根据格式调整画笔工具栏
+  function updatePenToolsForFormat() {
+    var isPdf = state.currentFormat === 'pdf';
+    // 非 PDF 隐藏粗细滑块（在 main row 中）
+    var sizeSlider = document.getElementById('penSize');
+    var sizeVal = document.getElementById('penSizeVal');
+    var divider = document.querySelector('.pen-dropdown-divider');
+    if (sizeSlider) sizeSlider.style.display = isPdf ? '' : 'none';
+    if (sizeVal) sizeVal.style.display = isPdf ? '' : 'none';
+    if (divider) divider.style.display = isPdf ? '' : 'none';
+    // 非 PDF 隐藏撤销/清除
+    var actions = document.querySelector('.pen-dropdown-row-actions');
+    if (actions) actions.style.display = isPdf ? '' : 'none';
+  }
+
+  // 根据当前格式启用/禁用相关按钮
+  function updateFormatButtons() {
+    var isPdf = state.currentFormat === 'pdf';
+    var isEpub = state.currentFormat === 'epub';
+    var isMobi = state.currentFormat === 'mobi' || state.currentFormat === 'azw3';
+    var hasBook = !!state.currentBook;
+
+    // PDF 专属：双页、缩略图
+    var btnDual = document.getElementById('btnDualPage');
+    var btnThumb = document.getElementById('btnThumbnails');
+    if (btnDual) btnDual.style.display = isPdf ? '' : 'none';
+    if (btnThumb) btnThumb.style.display = isPdf ? '' : 'none';
+
+    // EPUB 专属：字体大小
+    var btnFontUp = document.getElementById('btnFontUp');
+    var btnFontDown = document.getElementById('btnFontDown');
+    var fontSizeLabel = document.getElementById('fontSizeLabel');
+    if (btnFontUp) btnFontUp.style.display = isEpub ? '' : 'none';
+    if (btnFontDown) btnFontDown.style.display = isEpub ? '' : 'none';
+    if (fontSizeLabel) fontSizeLabel.style.display = isEpub ? '' : 'none';
+
+    // 所有格式通用
+    var btnMarker = document.getElementById('btnMarker');
+    if (btnMarker) { btnMarker.disabled = !isPdf && !isEpub && !isMobi; }
+    var btnAnn = document.getElementById('btnAnnotations');
+    if (btnAnn) btnAnn.disabled = !hasBook;
+    var btnBookmark = document.getElementById('btnBookmark');
+    if (btnBookmark) btnBookmark.disabled = !hasBook;
+
+    updatePenToolsForFormat();
   }
 
   function showError(msg) {
@@ -360,10 +617,15 @@
         }
       }, 200);
 
-      // 每次渲染后重绑滚轮（避免各种场景下的监听丢失）
+      // 每次渲染后重绑滚轮 + 注入高亮 + 注册主题
       rendition.on('rendered', function () {
         if (isLoadStale(loadId)) return;
-        setTimeout(function () { installEpubWheelHandler(); }, 200);
+        setTimeout(function () {
+          installEpubWheelHandler();
+          if (R.initEpubHighlight) R.initEpubHighlight();
+          if (R.registerEpubThemes) R.registerEpubThemes();
+          if (R.renderEpubHighlights) R.renderEpubHighlights();
+        }, 200);
       });
 
       // 位置变化时同步进度与高亮
@@ -658,20 +920,29 @@
     function endDraw(e) {
       if (!state.markerMode || !state.currentStroke || state.currentStroke.page !== page) return;
       var stroke = state.currentStroke;
+      var hasNewStroke = false;
       if (stroke.points.length >= 2) {
         // Shift 直线模式：只保留首尾两点
         if (stroke.shiftKey && stroke.points.length > 2) {
           stroke.points = [stroke.points[0], stroke.points[stroke.points.length - 1]];
         }
         if (!state.pdfStrokes[page]) state.pdfStrokes[page] = [];
-        state.pdfStrokes[page].push({
+        var newStroke = {
           points: stroke.points,
           color: stroke.color,
-          size: stroke.size
-        });
+          size: stroke.size,
+          id: 's_' + Date.now(),
+          note: '',
+          createdAt: Date.now()
+        };
+        state.pdfStrokes[page].push(newStroke);
+        hasNewStroke = true;
       }
       state.currentStroke = null;
       drawPageStrokes(page, canvas, width, height);
+      // 通知外部模块
+      if (hasNewStroke && R.onStrokeCompleted) R.onStrokeCompleted(page);
+      if (hasNewStroke && R.saveAnnotations) R.saveAnnotations(state.currentBook ? state.currentBook.id : null);
     }
 
     canvas.addEventListener('mouseup', endDraw);
@@ -948,8 +1219,13 @@
     state.toc = [];
     state._lastTocHref = null;
     state.markerMode = false;
+    state._markerReady = false;
     state.pdfStrokes = {};
     state.currentStroke = null;
+    state.annotations = {};
+    state.pendingAnnotation = null;
+    state.navHistory = [];
+    state.dualPageMode = false;
     state.zoom = 1.0;
     updateZoomLabel();
 
@@ -959,14 +1235,31 @@
     dom.btnPrev.disabled = false;
     dom.btnNext.disabled = false;
     dom.progressSlider.disabled = false;
-    dom.btnMarker.classList.remove('active');
-    document.querySelector('.reader-panel').classList.remove('pen-active');
+    dom.btnMarker.classList.remove('active', 'has-config');
+    var markerLabel = dom.btnMarker.querySelector('.marker-label');
+    if (markerLabel) markerLabel.textContent = '🖊';
+    var markerDot = dom.btnMarker.querySelector('.marker-dot');
+    if (markerDot) markerDot.style.display = 'none';
+    var markerSize = dom.btnMarker.querySelector('.marker-size');
+    if (markerSize) markerSize.style.display = 'none';
+    document.querySelector('.reader-panel').classList.remove('pen-active', 'highlight-mode');
     if (dom.penTools) dom.penTools.style.display = 'none';
     dom.pageInfo.textContent = '';
     dom.progressText.textContent = '-- / --';
     dom.progressSlider.value = '0';
     dom.tocTree.innerHTML = '<p class="toc-empty">选择一本书以查看目录</p>';
     dom.tocSidebar.classList.add('collapsed');
+    // 关闭标记侧栏、缩略图、清除激活按钮
+    var annSidebar = document.getElementById('annotationsSidebar');
+    if (annSidebar) annSidebar.classList.add('collapsed');
+    var thumbStrip = document.getElementById('thumbnailsStrip');
+    if (thumbStrip) thumbStrip.classList.add('collapsed');
+    if (R.resetActiveButtons) R.resetActiveButtons();
+    // 清空标记面板
+    var annList = document.getElementById('annotationsList');
+    if (annList) annList.innerHTML = '<p class="annotations-empty">暂无标记</p>';
+    // 重置格式相关按钮
+    updateFormatButtons();
   }
 
   // 销毁过期加载的 epub 资源（不干扰当前 UI）
@@ -1052,6 +1345,11 @@
         updateTocHighlight(matched.href);
       }
     }
+
+    // 更新缩略图高亮
+    if (R.updateThumbnailHighlight) R.updateThumbnailHighlight(state.pdfPage);
+    // 更新书签按钮状态
+    if (R.updateBookmarkButton) R.updateBookmarkButton();
 
     // 保存 PDF 阅读位置（恢复阶段不保存，避免覆盖被恢复的位置）
     if (!state._restoring) {
@@ -1242,14 +1540,71 @@
       }, 400);
     });
 
-    dom.btnMarker.addEventListener('click', function () {
-      state.markerMode = !state.markerMode;
-      dom.btnMarker.classList.toggle('active', state.markerMode);
-      document.querySelector('.reader-panel').classList.toggle('pen-active', state.markerMode);
-      if (dom.penTools) dom.penTools.style.display = state.markerMode ? '' : 'none';
+    // 标记按钮 — 三态切换 + 下拉面板
+    dom.btnMarker.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (!state.markerMode) {
+        // 状态 0→1：进入配置模式，展开下拉面板
+        state.markerMode = true;
+        state._markerReady = false;
+        enterConfigMode();
+      } else if (!state._markerReady) {
+        // 状态 1→2：确认配置，收起面板进入绘制模式
+        state._markerReady = true;
+        enterDrawMode();
+      } else {
+        // 状态 2→0：退出标记模式
+        state.markerMode = false;
+        state._markerReady = false;
+        exitMarkerMode();
+      }
     });
 
-    // 画笔大小滑块
+    function enterConfigMode() {
+      dom.btnMarker.classList.add('active');
+      var readerPanel = document.querySelector('.reader-panel');
+      var isPdf = state.currentFormat === 'pdf';
+      if (isPdf) {
+        readerPanel.classList.add('pen-active');
+        readerPanel.classList.remove('highlight-mode');
+      } else {
+        readerPanel.classList.add('highlight-mode');
+        readerPanel.classList.remove('pen-active');
+      }
+      if (dom.penTools) {
+        dom.penTools.style.display = 'flex';
+        updatePenToolsForFormat();
+      }
+      updateMarkerButtonAppearance();
+    }
+
+    function enterDrawMode() {
+      dom.btnMarker.classList.add('active', 'has-config');
+      var readerPanel = document.querySelector('.reader-panel');
+      // 保持 pen-active / highlight-mode（已在 config 模式设置）
+      if (dom.penTools) dom.penTools.style.display = 'none';
+      updateMarkerButtonAppearance();
+    }
+
+    function exitMarkerMode() {
+      dom.btnMarker.classList.remove('active', 'has-config');
+      var readerPanel = document.querySelector('.reader-panel');
+      readerPanel.classList.remove('pen-active', 'highlight-mode');
+      if (dom.penTools) dom.penTools.style.display = 'none';
+      updateMarkerButtonAppearance();
+    }
+
+    // 点击空白区域关闭下拉面板（配置模式下）
+    document.addEventListener('click', function (e) {
+      if (state.markerMode && !state._markerReady) {
+        var wrap = document.getElementById('markerWrap');
+        if (wrap && !wrap.contains(e.target)) {
+          enterDrawMode();
+        }
+      }
+    });
+
+    // 画笔大小变更
     if (dom.penSize) {
       dom.penSize.addEventListener('input', function () {
         state.penSize = parseInt(this.value);
@@ -1365,9 +1720,36 @@
     return div.innerHTML;
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
+  // ====== 导出 API ======
+  R.loadBook = loadBook;
+  R.renderTree = renderTree;
+  R.showReader = showReader;
+  R.getVisiblePage = getVisiblePage;
+  R.drawPageStrokes = drawPageStrokes;
+  R.redrawPageStrokes = redrawPageStrokes;
+  R.jumpToPdfPage = jumpToPdfPage;
+  R.renderPdfPage = renderPdfPage;
+  R.smoothScrollToPage = smoothScrollToPage;
+  R.escapeHtml = escapeHtml;
+  R.updateEpubProgress = updateEpubProgress;
+  R.updatePdfProgress = updatePdfProgress;
+  R.updateMarkerButton = updateMarkerButton;
+  R.renderAnnotationsList = null;  // 由 annotations.js 设置
+  R.renderEpubHighlights = null;   // 由 annotations.js 设置
+
+  function boot() {
     init();
+    // 调用各模块的初始化
+    if (R.initTheme) R.initTheme();
+    if (R.initFontSize) R.initFontSize();
+    if (R.initAnnotations) R.initAnnotations();
+    if (R.initNavigation) R.initNavigation();
+    if (R.initData) R.initData();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
   }
 })();
