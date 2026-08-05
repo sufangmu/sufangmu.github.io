@@ -34,9 +34,14 @@
         <!-- 动态渲染 -->
       </div>
       <div class="sidebar-footer">
-        <button class="ctrl-btn sidebar-import-btn" id="btnImportAll" title="导入数据">📥 导入</button>
-        <button class="ctrl-btn sidebar-export-btn" id="btnExportAll" title="导出数据">📤 导出</button>
-        <button class="ctrl-btn sidebar-clear-btn" id="btnClearAllData" title="清除所有本地数据">🗑 清除数据</button>
+        <div class="sidebar-tools-row">
+          <button class="ctrl-btn sidebar-tool-btn" id="btnImportAll" title="导入数据：导入之前备份的 JSON 数据（阅读进度、标记、书签、设置等）">📥</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnExportAll" title="导出数据：将所有阅读数据导出为 JSON 备份文件">📤</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnImportLocal" title="导入本地书籍：从电脑导入 PDF/EPUB 文件到书架">📂</button>
+          <button class="ctrl-btn sidebar-tool-btn sidebar-clear-btn" id="btnClearAllData" title="清除数据：删除所有本地存储的标记、书签、阅读进度和导入的书籍">🗑</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnThemeCycle" title="切换主题：明亮 / 暗色 / 护眼 / 羊皮纸">☀️</button>
+          <button class="ctrl-btn sidebar-help-btn" id="btnHelp" title="帮助">❓</button>
+        </div>
         <p class="copyright">
           本平台仅用于个人学习与知识管理，所有电子书资源仅供个人阅读使用，不涉及任何商业用途。<br>
           如有侵权，请联系删除。
@@ -81,7 +86,6 @@
             <span class="format-badge" id="formatBadge"></span>
           </div>
           <div class="meta-bar-tools">
-            <button class="ctrl-btn" id="btnToc" title="显示/隐藏目录">📑</button>
             <!-- 标记按钮 + 下拉配置 -->
             <span class="marker-wrap" id="markerWrap">
               <button class="ctrl-btn marker-btn" id="btnMarker" title="画笔标记（Shift+直线）"><span class="marker-label">🖊</span><span class="marker-dot" id="markerDot" style="display:none;"></span><span class="marker-size" id="markerSizeBadge" style="display:none;"></span></button>
@@ -104,7 +108,6 @@
               </span>
             </span>
             <button class="ctrl-btn" id="btnFreeNote" title="添加文本笔记">📝</button>
-            <button class="ctrl-btn" id="btnAnnotations" title="查看所有标记与笔记">📋</button>
             <button class="ctrl-btn" id="btnBookmark" title="添加/移除书签">🔖</button>
             <button class="ctrl-btn" id="btnDualPage" title="双页模式">📖</button>
             <button class="ctrl-btn" id="btnThumbnails" title="缩略图">🗂</button>
@@ -112,12 +115,6 @@
             <button class="ctrl-btn" id="btnFontDown" title="缩小字体">A−</button>
             <span class="font-size-label" id="fontSizeLabel">16</span>
             <button class="ctrl-btn" id="btnFontUp" title="放大字体">A+</button>
-            <select class="theme-select" id="themeSelect" title="主题切换">
-              <option value="light">☀️</option>
-              <option value="dark">🌙</option>
-              <option value="sepia">🍂</option>
-              <option value="parchment">📜</option>
-            </select>
           </div>
         </div>
         <div class="render-area">
@@ -136,6 +133,7 @@
       <div class="bottom-bar" id="bottomBar" style="display:none;">
         <div class="control-bar">
           <div class="ctrl-group-left">
+            <button class="ctrl-btn" id="btnToc" title="显示/隐藏目录">📑</button>
             <button class="ctrl-btn" id="btnZoomOut" title="缩小">🔍−</button>
             <span id="zoomLabel" class="zoom-label">100%</span>
             <button class="ctrl-btn" id="btnZoomIn" title="放大">🔍+</button>
@@ -148,6 +146,7 @@
             <span class="progress-text" id="progressText">-- / --</span>
             <button class="ctrl-btn" id="btnNext" title="下一页 (→)">▶</button>
             <span id="pageInfo" class="page-info"></span>
+            <button class="ctrl-btn" id="btnAnnotations" title="查看所有标记与笔记">📋</button>
           </div>
         </div>
       </div>
@@ -221,6 +220,50 @@
       <div class="confirm-actions">
         <button class="ctrl-btn confirm-cancel" id="confirmCancel">取消</button>
         <button class="ctrl-btn confirm-ok" id="confirmOk">确定</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 帮助面板 -->
+  <div class="help-overlay" id="helpOverlay" style="display:none;">
+    <div class="help-panel">
+      <div class="help-panel-header">
+        <h3>📖 使用帮助</h3>
+        <button class="help-panel-close" id="helpPanelClose">✕</button>
+      </div>
+      <div class="help-panel-body">
+        <div class="help-section">
+          <h4>📚 书架与分类</h4>
+          <p>左侧树形菜单按分类展示所有书籍，点击分类可展开/收起，点击书名即可开始阅读。</p>
+        </div>
+        <div class="help-section">
+          <h4>📥 导入数据</h4>
+          <p>导入之前通过「导出数据」功能备份的 JSON 文件，恢复阅读进度、标记笔记、书签和设置。</p>
+        </div>
+        <div class="help-section">
+          <h4>📤 导出数据</h4>
+          <p>将当前所有阅读数据（阅读进度、标记笔记、书签、主题字体设置）导出为 JSON 文件，可用于备份或迁移。</p>
+        </div>
+        <div class="help-section">
+          <h4>📂 导入本地书籍</h4>
+          <p>从电脑中选择 PDF 或 EPUB 文件导入到书架。支持拖拽文件到页面任意位置快速导入。导入的书籍会出现在「本地导入」分类中。</p>
+        </div>
+        <div class="help-section">
+          <h4>🗑 清除数据</h4>
+          <p>删除浏览器中所有本地存储数据，包括标记笔记、书签、阅读进度、设置以及本地导入的书籍文件。<b>此操作不可撤销！</b></p>
+        </div>
+        <div class="help-section">
+          <h4>🖊 标记与笔记</h4>
+          <p>PDF：点击画笔按钮进入标记模式，可在页面上自由绘制；按住 Shift 可画直线。支持调整颜色和笔刷大小。<br>EPUB：选中文字即可高亮标记，点击高亮区域可添加笔记。</p>
+        </div>
+        <div class="help-section">
+          <h4>⌨️ 快捷键</h4>
+          <p><kbd>←</kbd> <kbd>→</kbd> 翻页 · <kbd>Ctrl</kbd>+滚轮 缩放 · <kbd>Esc</kbd> 关闭目录</p>
+        </div>
+        <div class="help-section">
+          <h4>🎨 主题</h4>
+          <p>支持明亮、暗色、护眼、羊皮纸四种阅读主题，点击顶部工具栏的图标即可切换。</p>
+        </div>
       </div>
     </div>
   </div>

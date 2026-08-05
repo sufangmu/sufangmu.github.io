@@ -62,23 +62,62 @@
     if (!doc.getElementById('reader-highlight-style')) {
       var style = doc.createElement('style');
       style.id = 'reader-highlight-style';
-      style.textContent = '.epub-highlight{background:rgba(255,235,59,0.4);cursor:pointer;border-radius:2px;}' +
+      style.textContent = '.epub-highlight{background:rgba(255,235,59,0.4);cursor:pointer;border-radius:2px;transition:background 0.15s;}' +
+        '.epub-highlight:hover{background:rgba(255,235,59,0.6);}' +
         '.epub-highlight.has-note{border-bottom:2px dotted #f59e0b;}' +
         '.epub-highlight.green{background:rgba(76,175,80,0.35);}' +
+        '.epub-highlight.green:hover{background:rgba(76,175,80,0.55);}' +
         '.epub-highlight.red{background:rgba(244,67,54,0.3);}' +
-        '.epub-highlight.blue{background:rgba(33,150,243,0.3);}';
+        '.epub-highlight.red:hover{background:rgba(244,67,54,0.5);}' +
+        '.epub-highlight.blue{background:rgba(33,150,243,0.3);}' +
+        '.epub-highlight.blue:hover{background:rgba(33,150,243,0.5);}';
       doc.head.appendChild(style);
     }
 
     // 监听选中文本（避免重复绑定）
-    if (doc._highlightListenerBound) return;
-    doc._highlightListenerBound = true;
-    doc.addEventListener('mouseup', function (e) {
-      var evt = e;
-      setTimeout(function () {
-        handleEpubSelection(doc, evt);
-      }, 10);
-    });
+    if (!doc._highlightListenerBound) {
+      doc._highlightListenerBound = true;
+      doc.addEventListener('mouseup', function (e) {
+        var evt = e;
+        setTimeout(function () {
+          handleEpubSelection(doc, evt);
+        }, 10);
+      });
+    }
+
+    // 点击已有高亮 → 编辑笔记（避免重复绑定）
+    if (!doc._highlightClickBound) {
+      doc._highlightClickBound = true;
+      doc.addEventListener('click', function (e) {
+        var target = e.target;
+        // 向上查找 .epub-highlight 元素
+        var hl = target.closest ? target.closest('.epub-highlight') : null;
+        if (!hl) {
+          // closest 可能不存在于 iframe 的 DOM，手动查找
+          while (target && target !== doc.body) {
+            if (target.classList && target.classList.contains('epub-highlight')) { hl = target; break; }
+            target = target.parentElement;
+          }
+        }
+        if (!hl) {
+          // 点击空白区域 → 自动保存并关闭笔记弹窗
+          dismissNotePopup(true);
+          return;
+        }
+        e.stopPropagation();
+        e.preventDefault();
+        handleEpubHighlightClick(hl, doc);
+      });
+    }
+  }
+
+  // 获取颜色对应的 CSS class
+  function getHighlightColorClass(color) {
+    if (!color) return '';
+    if (color.indexOf('76,175,80') !== -1) return 'green';
+    if (color.indexOf('244,67,54') !== -1) return 'red';
+    if (color.indexOf('33,150,243') !== -1) return 'blue';
+    return ''; // 默认黄色，不需要额外 class
   }
 
   function handleEpubSelection(doc, mouseEvent) {
@@ -98,6 +137,9 @@
       }
     } catch (e) { /* CFI 获取失败 */ }
 
+    // 获取选中文字在视口中的位置
+    var selViewportPos = getSelectionViewportPos(doc, sel);
+
     var highlight = {
       id: 'h_' + Date.now(),
       cfi: cfi || '',
@@ -111,13 +153,16 @@
     state.annotations.epubHighlights.push(highlight);
     saveAnnotations(state.currentBook ? state.currentBook.id : null);
 
-    // 渲染高亮
-    renderSingleEpubHighlight(highlight);
+    // 直接在 DOM 中包裹选中文本（不依赖 epub.js annotations API）
+    wrapSelectionInSpan(doc, sel, highlight);
     renderAnnotationsList();
 
-    // 弹出笔记（在鼠标附近）
+    // 弹出笔记（在选中文字下方）
     var mx, my;
-    if (mouseEvent) {
+    if (selViewportPos) {
+      mx = selViewportPos.left + (selViewportPos.right - selViewportPos.left) / 2;
+      my = selViewportPos.bottom;
+    } else if (mouseEvent) {
       mx = mouseEvent.clientX;
       my = mouseEvent.clientY;
     }
@@ -129,31 +174,142 @@
     }, 300);
   }
 
-  function renderSingleEpubHighlight(h) {
-    var iframe = document.querySelector('#epubView iframe');
-    if (!iframe || !h.cfi) return;
+  // 直接在 DOM 中包裹选中文本
+  function wrapSelectionInSpan(doc, sel, highlight) {
     try {
-      if (state.epubRendition && state.epubRendition.annotations) {
-        state.epubRendition.annotations.highlight(h.cfi, {}, function (el) {
-          if (el) {
-            el.classList.add('epub-highlight');
-            el.title = h.note || h.text;
-            if (h.note) el.classList.add('has-note');
-          }
-        });
+      var range = sel.getRangeAt(0);
+      var span = doc.createElement('span');
+      span.classList.add('epub-highlight');
+      var colorClass = getHighlightColorClass(highlight.color);
+      if (colorClass) span.classList.add(colorClass);
+      span.dataset.annId = highlight.id;
+      span.title = highlight.note || highlight.text;
+      if (highlight.note) span.classList.add('has-note');
+
+      try {
+        range.surroundContents(span);
+      } catch (e2) {
+        // surroundContents 跨元素边界时失败，改用 extractContents + insertNode
+        var frag = range.extractContents();
+        span.appendChild(frag);
+        range.insertNode(span);
       }
-    } catch (e) { /* epub.js highlight API 失败，尝试 DOM 方式 */ }
+    } catch (e) { /* DOM 操作失败，静默忽略 */ }
+  }
+
+  // 获取选区相对于视口的坐标
+  function getSelectionViewportPos(doc, sel) {
+    try {
+      var range = sel.getRangeAt(0);
+      var rect = range.getBoundingClientRect();
+      var iframe = document.querySelector('#epubView iframe');
+      if (iframe) {
+        var iframeRect = iframe.getBoundingClientRect();
+        return {
+          left: iframeRect.left + rect.left,
+          top: iframeRect.top + rect.top,
+          right: iframeRect.left + rect.right,
+          bottom: iframeRect.top + rect.bottom
+        };
+      }
+      return rect;
+    } catch (e) { return null; }
+  }
+
+  // 点击已有高亮 → 查找对应批注并弹出笔记
+  function handleEpubHighlightClick(hl, doc) {
+    if (!state.annotations.epubHighlights) return;
+    // 通过 data-id 匹配
+    var annId = hl.dataset.annId;
+    var ann = null;
+    if (annId) {
+      var found = state.annotations.epubHighlights.filter(function (h) { return h.id === annId; });
+      if (found.length > 0) ann = found[0];
+    }
+    // 降级：通过文本匹配
+    if (!ann) {
+      var hlText = (hl.textContent || '').trim();
+      var matches = state.annotations.epubHighlights.filter(function (h) { return h.text === hlText; });
+      if (matches.length > 0) ann = matches[matches.length - 1];
+    }
+    if (!ann) return;
+
+    // 获取高亮元素在视口中的位置
+    var rect = hl.getBoundingClientRect();
+    var iframe = document.querySelector('#epubView iframe');
+    if (iframe) {
+      var ifr = iframe.getBoundingClientRect();
+      rect = {
+        left: ifr.left + rect.left,
+        top: ifr.top + rect.top,
+        right: ifr.left + rect.right,
+        bottom: ifr.top + rect.bottom
+      };
+    }
+    showNotePopupForAnnotation(ann,
+      rect.left + (rect.right - rect.left) / 2,
+      rect.bottom);
+  }
+
+  // 在 iframe 文档中搜索文本并包裹为高亮 span
+  function wrapTextInDoc(doc, highlight) {
+    if (!highlight.text) return;
+    var text = highlight.text;
+    var walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT, null, false);
+    var textNodes = [];
+    while (walker.nextNode()) {
+      var node = walker.currentNode;
+      // 跳过已经在高亮 span 内的文本节点
+      if (node.parentElement && node.parentElement.classList.contains('epub-highlight')) continue;
+      // 跳过脚本和样式
+      if (node.parentElement && (node.parentElement.tagName === 'SCRIPT' || node.parentElement.tagName === 'STYLE')) continue;
+      if (node.nodeValue && node.nodeValue.indexOf(text) !== -1) {
+        textNodes.push(node);
+      }
+    }
+    // 只包裹第一个匹配（避免重复高亮）
+    if (textNodes.length > 0) {
+      var node = textNodes[0];
+      var idx = node.nodeValue.indexOf(text);
+      if (idx !== -1) {
+        var before = node.nodeValue.substring(0, idx);
+        var match = node.nodeValue.substring(idx, idx + text.length);
+        var after = node.nodeValue.substring(idx + text.length);
+        var parent = node.parentNode;
+
+        var span = doc.createElement('span');
+        span.classList.add('epub-highlight');
+        var colorClass = getHighlightColorClass(highlight.color);
+        if (colorClass) span.classList.add(colorClass);
+        span.dataset.annId = highlight.id;
+        span.title = highlight.note || highlight.text;
+        if (highlight.note) span.classList.add('has-note');
+        span.textContent = match;
+
+        var afterNode = doc.createTextNode(after);
+        node.nodeValue = before;
+        parent.insertBefore(span, node.nextSibling);
+        if (after) {
+          parent.insertBefore(afterNode, span.nextSibling);
+        }
+      }
+    }
   }
 
   function renderEpubHighlights() {
     if (state.currentFormat !== 'epub') return;
-    if (!state.annotations.epubHighlights) return;
+    if (!state.annotations.epubHighlights || !state.annotations.epubHighlights.length) return;
     // epub.js 重渲染后需重新注入
     setTimeout(function () {
+      var iframe = document.querySelector('#epubView iframe');
+      if (!iframe) return;
+      var doc;
+      try { doc = iframe.contentDocument || iframe.contentWindow.document; } catch (e) { return; }
+      if (!doc || !doc.body) return;
       state.annotations.epubHighlights.forEach(function (h) {
-        renderSingleEpubHighlight(h);
+        wrapTextInDoc(doc, h);
       });
-    }, 500);
+    }, 600);
   }
 
   R.renderEpubHighlights = renderEpubHighlights;
@@ -221,6 +377,7 @@
     if (bookId) {
       saveAnnotations(bookId);
     }
+    updateHighlightDom(state.pendingAnnotation);
     dismissNotePopup(false); // 已手动保存，不再自动保存
     renderAnnotationsList();
   }
@@ -232,12 +389,33 @@
       if (input && input.value.trim()) {
         state.pendingAnnotation.note = input.value.trim();
         saveAnnotations(state.currentBook ? state.currentBook.id : null);
+        updateHighlightDom(state.pendingAnnotation);
         renderAnnotationsList();
       }
     }
     state.pendingAnnotation = null;
     var popup = document.getElementById('notePopup');
     if (popup) popup.style.display = 'none';
+  }
+
+  // 同步 DOM 高亮元素：添加/移除 has-note class 和 title
+  function updateHighlightDom(ann) {
+    if (!ann || !ann.id) return;
+    if (state.currentFormat !== 'epub') return;
+    var iframe = document.querySelector('#epubView iframe');
+    if (!iframe) return;
+    var doc;
+    try { doc = iframe.contentDocument || iframe.contentWindow.document; } catch (e) { return; }
+    if (!doc) return;
+    var span = doc.querySelector('.epub-highlight[data-ann-id="' + ann.id + '"]');
+    if (span) {
+      span.title = ann.note || ann.text || '';
+      if (ann.note) {
+        span.classList.add('has-note');
+      } else {
+        span.classList.remove('has-note');
+      }
+    }
   }
 
   // ====== 标记列表面板 ======
@@ -663,6 +841,18 @@
           btnAnn.classList.add('active');
           renderAnnotationsList();
         }
+      });
+    }
+
+    // 点击标记面板标题收起
+    var annHeader = document.querySelector('.annotations-sidebar-header h3');
+    if (annHeader) {
+      annHeader.addEventListener('click', function () {
+        var sidebar = document.getElementById('annotationsSidebar');
+        if (!sidebar) return;
+        sidebar.classList.add('collapsed');
+        state.annotationsSidebarOpen = false;
+        if (btnAnn) btnAnn.classList.remove('active');
       });
     }
 

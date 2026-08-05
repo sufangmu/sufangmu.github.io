@@ -124,7 +124,7 @@
   }
 
   function categoryLabel(id) {
-    var labels = { 'leo_nce_notes': 'leo新概念英语笔记', 'novel': '小说', 'original_english_textbook': '英文原版书', 'go': '围棋', 'local_import': '本地导入'};
+    var labels = window.CATEGORY_LABELS || {};
     return labels[id] || id;
   }
 
@@ -154,10 +154,14 @@
 
       books.forEach(function (book) {
         var active = state.currentBook && state.currentBook.id === book.id ? ' active' : '';
+        var isLocal = book.category === 'local_import';
         html += '<div class="tree-item' + active + '" data-id="' + book.id + '">';
         html += '<span class="tree-item-icon">' + getFormatIcon(book.format) + '</span>';
         html += '<span class="tree-item-title">' + escapeHtml(book.title) + '</span>';
         html += '<span class="tree-item-format">' + book.format.toUpperCase() + '</span>';
+        if (isLocal) {
+          html += '<span class="tree-item-delete" data-del-id="' + book.id + '" title="移除此书">✕</span>';
+        }
         html += '</div>';
       });
 
@@ -171,10 +175,21 @@
       });
     });
     dom.treeMenu.querySelectorAll('.tree-item').forEach(function (item) {
-      item.addEventListener('click', function () {
+      item.addEventListener('click', function (e) {
+        // 点击删除按钮不触发书籍加载
+        if (e.target.classList.contains('tree-item-delete')) return;
         var id = this.dataset.id;
         var book = getAllBooks().filter(function (b) { return b.id === id; })[0];
         if (book) loadBook(book);
+      });
+    });
+
+    // 本地导入书籍删除按钮
+    dom.treeMenu.querySelectorAll('.tree-item-delete').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var bookId = this.dataset.delId;
+        if (R.removeLocalBook) R.removeLocalBook(bookId);
       });
     });
   }
@@ -1540,6 +1555,18 @@
       }, 400);
     });
 
+    // 点击目录标题收起目录
+    var tocHeader = document.querySelector('.toc-sidebar-header h3');
+    if (tocHeader) {
+      tocHeader.addEventListener('click', function () {
+        dom.tocSidebar.classList.add('collapsed');
+        setTimeout(function () {
+          if (state.epubRendition) { state.epubRendition.resize(); }
+          installEpubWheelHandler();
+        }, 400);
+      });
+    }
+
     // 标记按钮 — 三态切换 + 下拉面板
     dom.btnMarker.addEventListener('click', function (e) {
       e.stopPropagation();
@@ -1724,6 +1751,7 @@
   R.loadBook = loadBook;
   R.renderTree = renderTree;
   R.showReader = showReader;
+  R.showWelcome = showWelcome;
   R.getVisiblePage = getVisiblePage;
   R.drawPageStrokes = drawPageStrokes;
   R.redrawPageStrokes = redrawPageStrokes;

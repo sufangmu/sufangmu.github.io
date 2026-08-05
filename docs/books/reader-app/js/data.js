@@ -60,7 +60,7 @@
     showConfirm({
       icon: '🗑',
       title: '清除所有本地数据',
-      body: '将删除：<br>• 所有标记与笔记<br>• 所有书签<br>• 阅读进度<br>• 主题和字体设置<br>• 本地导入的书籍<br><br><b style="color:#e53935;">此操作不可撤销！</b>',
+      body: '将删除：<br>• 阅读进度<br>• 所有书签<br>• 主题和字体设置<br>• 本地导入的书籍<br>• 所有标记与笔记<br><br><b style="color:#e53935;">此操作不可撤销！</b>',
       okText: '确认清除',
       danger: true
     }, function () {
@@ -173,6 +173,60 @@
         req.onsuccess = function () { db.close(); resolve(req.result); };
         req.onerror = function () { db.close(); reject(req.error); };
       });
+    });
+  }
+
+  function deleteFileFromDB(id) {
+    return openDB().then(function (db) {
+      return new Promise(function (resolve, reject) {
+        var tx = db.transaction(DB_STORE, 'readwrite');
+        tx.objectStore(DB_STORE).delete(id);
+        tx.oncomplete = function () { db.close(); resolve(); };
+        tx.onerror = function () { db.close(); reject(tx.error); };
+      });
+    });
+  }
+
+  // ====== 移除本地导入的书籍 ======
+  function removeLocalBook(bookId) {
+    if (!bookId) return;
+    var book = (window.EBOOK_CATALOG || []).filter(function (b) { return b.id === bookId; })[0];
+    var title = book ? book.title : bookId;
+
+    showConfirm({
+      icon: '🗑',
+      title: '移除本地书籍',
+      body: '确定要移除 <b>' + (R.escapeHtml ? R.escapeHtml(title) : title) + '</b> 吗？<br><span style="color:var(--text-secondary);">书籍文件将从浏览器中删除。</span>',
+      okText: '确认移除',
+      danger: true
+    }, function () {
+      // 1. 从 IndexedDB 删除文件
+      var localId = book && book.path ? book.path.split(':')[1] : bookId;
+      if (localId) {
+        deleteFileFromDB(localId).catch(function () {});
+      }
+
+      // 2. 从 localStorage 元数据中移除
+      try {
+        var localBooks = JSON.parse(localStorage.getItem('reader-local-books') || '[]');
+        localBooks = localBooks.filter(function (b) { return b.id !== bookId; });
+        localStorage.setItem('reader-local-books', JSON.stringify(localBooks));
+      } catch (e) {}
+
+      // 3. 从全局书单中移除
+      window.EBOOK_CATALOG = (window.EBOOK_CATALOG || []).filter(function (b) { return b.id !== bookId; });
+
+      // 4. 如果当前正在读这本书，清空阅读区
+      if (R.state && R.state.currentBook && R.state.currentBook.id === bookId) {
+        R.state.currentBook = null;
+        R.state.currentFormat = null;
+        if (R.showWelcome) R.showWelcome();
+      }
+
+      // 5. 刷新书架
+      if (R.renderTree) R.renderTree();
+
+      showToast('✅ 已移除「' + title + '」');
     });
   }
 
@@ -304,49 +358,41 @@
       });
     }
 
-    initDropZone();
-
-    // 监听书架更新事件，刷新树形菜单
-    window.addEventListener('reader-books-updated', function () {
-      // 重新渲染树（通过 app.js 的内部函数）
-      // 最简单的方法：reload 当前书的树
-      if (R.state && R.state.currentBook) {
-        var treeMenu = document.getElementById('treeMenu');
-        if (treeMenu && typeof window.dispatchEvent === 'function') {
-          // 触发重新渲染
-          location.reload();
-        }
-      }
-    });
-
-    // 侧栏底部添加导入本地文件按钮
-    addLocalImportButton();
-  }
-
-  function addLocalImportButton() {
-    var footer = document.querySelector('.sidebar-footer');
-    if (!footer) return;
-    var btn = document.createElement('button');
-    btn.className = 'ctrl-btn sidebar-import-btn';
-    btn.textContent = '📂 导入本地书';
-    btn.title = '导入本地 PDF/EPUB 文件';
-    btn.addEventListener('click', function () {
-      var input = document.getElementById('localBookInput');
-      if (input) input.click();
-    });
-    // 插入到版权信息之前
-    var copyright = footer.querySelector('.copyright');
-    if (copyright) {
-      footer.insertBefore(btn, copyright);
-    } else {
-      footer.appendChild(btn);
+    // 侧栏底部「导入本地书」按钮
+    var btnLocal = document.getElementById('btnImportLocal');
+    if (btnLocal) {
+      btnLocal.addEventListener('click', function () {
+        var input = document.getElementById('localBookInput');
+        if (input) input.click();
+      });
     }
+
+    // 帮助面板
+    var btnHelp = document.getElementById('btnHelp');
+    var helpOverlay = document.getElementById('helpOverlay');
+    var helpClose = document.getElementById('helpPanelClose');
+    if (btnHelp && helpOverlay) {
+      btnHelp.addEventListener('click', function () {
+        helpOverlay.style.display = '';
+      });
+      if (helpClose) {
+        helpClose.addEventListener('click', function () {
+          helpOverlay.style.display = 'none';
+        });
+      }
+      helpOverlay.addEventListener('click', function (e) {
+        if (e.target === helpOverlay) helpOverlay.style.display = 'none';
+      });
+    }
+
+    initDropZone();
   }
 
   // ====== 暴露 ======
   R.exportAllData = exportAllData;
   R.importAllData = importAllData;
   R.loadLocalBooks = loadLocalBooks;
+  R.removeLocalBook = removeLocalBook;
 
   function initData() {
     loadLocalBooks();

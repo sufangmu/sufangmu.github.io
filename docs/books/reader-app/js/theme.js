@@ -66,6 +66,18 @@
     document.documentElement.setAttribute('data-theme', themeName);
     try { localStorage.setItem('reader-theme', themeName); } catch (e) {}
     applyEpubTheme(themeName);
+    updateThemeButton();
+  }
+
+  var THEME_ICONS = { light: '☀️', dark: '🌙', sepia: '🍂', parchment: '📜' };
+  var THEME_CYCLE = ['light', 'dark', 'sepia', 'parchment'];
+
+  function updateThemeButton() {
+    var btn = document.getElementById('btnThemeCycle');
+    if (btn) btn.textContent = THEME_ICONS[state.theme] || '☀️';
+    // also update legacy select if it still exists
+    var sel = document.getElementById('themeSelect');
+    if (sel) sel.value = state.theme;
   }
 
   // 初始化主题
@@ -74,8 +86,6 @@
     try { saved = localStorage.getItem('reader-theme'); } catch (e) {}
     var theme = saved || 'light';
     setTheme(theme);
-    var sel = document.getElementById('themeSelect');
-    if (sel) sel.value = theme;
   }
 
   // 字体大小
@@ -115,6 +125,16 @@
 
   // 事件绑定
   function bindThemeEvents() {
+    // 侧栏主题循环按钮
+    var btnCycle = document.getElementById('btnThemeCycle');
+    if (btnCycle) {
+      btnCycle.addEventListener('click', function () {
+        var idx = THEME_CYCLE.indexOf(state.theme);
+        var next = THEME_CYCLE[(idx + 1) % THEME_CYCLE.length];
+        setTheme(next);
+      });
+    }
+    // 旧版 select（如果仍存在）
     var sel = document.getElementById('themeSelect');
     if (sel) {
       sel.addEventListener('change', function () {
