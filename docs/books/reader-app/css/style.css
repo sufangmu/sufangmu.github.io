@@ -542,37 +542,39 @@ body {
 #epubView > * { width: 100% !important; height: 100% !important; }
 #epubView iframe { width: 100% !important; height: 100% !important; }
 
+/* PDFViewer 容器 — 必须 absolute，PDFViewer 强制要求 */
 #pdfView {
-  width: 100%; height: 100%;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-}
-#pdfView .pdf-page-wrapper {
-  position: relative;
-  display: inline-block;
-  max-width: 100%;
-}
-#pdfView .pdf-page-wrapper canvas.pdf-render-canvas {
-  display: block;
-  max-width: 100%;
-  box-shadow: var(--shadow);
-  border-radius: 4px;
-}
-#pdfView .pdf-highlight-canvas {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  border-radius: 4px;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow: auto;
 }
-.reader-panel.pen-active #pdfView .pdf-highlight-canvas {
+
+/* 画笔标注层 — 注入到 PDFViewer 的 .page 内部，叠加在 textLayer 上方 */
+#pdfView .page .pdf-highlight-canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 3;  /* pdf_viewer.css 的 .textLayer z-index: 2 */
+}
+.reader-panel.pen-active #pdfView .page .pdf-highlight-canvas {
   pointer-events: auto;
+}
+
+/* PDFViewer 的 .textLayer 自带选中样式；这里微调选中颜色 */
+#pdfView .textLayer span::selection {
+  background: rgba(0, 100, 255, 0.4);
+}
+#pdfView .textLayer span::-moz-selection {
+  background: rgba(0, 100, 255, 0.4);
+}
+
+/* 页码标签 */
+#pdfView .page .pdf-page-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 4px 0;
 }
 
 /* 标记按钮：配置摘要显示 */
@@ -731,7 +733,7 @@ body {
 
 .reader-panel.pen-active,
 .reader-panel.pen-active #pdfView,
-.reader-panel.pen-active .pdf-page-wrapper {
+.reader-panel.pen-active #pdfView .page {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="none" stroke="%232563eb" stroke-width="1.5" opacity="0.7"/><circle cx="12" cy="12" r="1.5" fill="%232563eb" opacity="0.8"/></svg>') 12 12, crosshair;
 }
 
@@ -744,12 +746,6 @@ body {
 /* 顶部栏高亮指示条 */
 .reader-panel.highlight-mode .book-meta-bar {
   box-shadow: inset 0 -2px 0 rgba(255, 235, 59, 0.8);
-}
-#pdfView .pdf-page-label {
-  font-size: 12px;
-  color: var(--text-muted);
-  text-align: center;
-  padding: 4px 0;
 }
 
 #textView {
@@ -935,7 +931,6 @@ body {
     transition: transform 0.25s ease;
   }
   .annotations-sidebar:not(.collapsed) { transform: translateX(0); }
-  #pdfView.dual-page .pdf-page-wrapper { width: 100%; max-width: 100%; }
 }
 
 /* ============================================================
@@ -1281,26 +1276,64 @@ body {
 }
 
 /* ============================================================
-   PDF 双页模式 — 纯 CSS flexbox，无需修改 DOM
+   搜索栏
    ============================================================ */
-#pdfView.dual-page {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 4px;
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
 }
-#pdfView.dual-page .pdf-page-wrapper {
-  width: calc(50% - 8px);
-  max-width: calc(50% - 8px);
+.search-input {
+  flex: 1;
+  max-width: 360px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  font-family: inherit;
 }
-#pdfView.dual-page .pdf-page-wrapper canvas.pdf-render-canvas {
-  max-width: 100%;
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
 }
-/* 奇数个页面时，最后一页不拉伸 */
-#pdfView.dual-page .pdf-page-wrapper:last-child:nth-child(odd) {
-  width: auto;
-  max-width: calc(50% - 8px);
+.search-count {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-width: 60px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.search-count.no-match {
+  color: #e53935;
+}
+
+/* 双页模式由 PDFViewer 内置 spreadMode 处理，无需自定义 CSS */
+
+/* PDF 页面背景跟随主题 */
+#pdfView .page {
+  background-color: var(--bg-card);
+}
+
+/* 暗色主题：PDF 画布反色（画笔层不参与） */
+[data-theme="dark"] #pdfView .page .canvasWrapper canvas {
+  filter: invert(0.88) hue-rotate(180deg);
+}
+
+/* 护眼主题：PDF 画布微调暖色 */
+[data-theme="sepia"] #pdfView .page .canvasWrapper canvas {
+  filter: sepia(0.3);
+}
+
+/* 羊皮纸主题：PDF 画布纸质感 */
+[data-theme="parchment"] #pdfView .page .canvasWrapper canvas {
+  filter: sepia(0.5) brightness(0.95);
 }
 
 /* ============================================================

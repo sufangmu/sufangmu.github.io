@@ -15,12 +15,14 @@
     pdfDoc: null,
     pdfPage: 1,
     pdfTotal: 0,
+    pdfViewer: null,     // pdfjsViewer.PDFViewer 实例
+    eventBus: null,      // pdfjsViewer.EventBus 实例
+    _penPages: {},       // { pageNum: { hCanvas, width, height } } 已注入画笔层
+    _pendingRestore: null, // 待恢复的阅读位置
     toc: [],
     zoom: 1.0,
     _restoring: false,  // 恢复阅读位置中，跳过保存，防止覆盖
     scrollAccum: 0,
-    pdfChanging: false,
-    pdfRendered: [],  // 已渲染的页码列表
     _loadId: 0,       // 加载序号，用于避免竞态（快速切换书籍）
     _xhr: null,       // 当前下载中的 XHR（仅允许一个活跃下载）
     _fileCache: {},   // 已下载完成的文件缓存 { path: buffer }
@@ -37,6 +39,7 @@
     navHistory: [],           // [{page, cfi, bookId, title}]
     bookmarks: {},            // { bookId: [{id, page, cfi, title, createdAt}] }
     dualPageMode: false,     // PDF 双页模式
+    _sliderDragging: false,  // 进度条拖动中，避免反馈循环
     annotationsSidebarOpen: false,
     thumbnailsOpen: false,
   };
@@ -313,6 +316,7 @@
         if (isLoadStale(loadId)) return;
         setTimeout(function () {
           installEpubWheelHandler();
+          installEpubKeyHandler();
           if (R.initEpubHighlight) R.initEpubHighlight();
           if (R.registerEpubThemes) R.registerEpubThemes();
           if (R.renderEpubHighlights) R.renderEpubHighlights();
@@ -371,29 +375,15 @@
       dom.textView.style.display = 'none';
       dom.pdfView.style.display = '';
       dom.pdfView.innerHTML = '';
-      state.pdfRendered = [];
+      dom.pdfView.classList.remove('pdfViewer', 'dual-page');
 
       var savedPos = getReadingPosition(state.currentBook ? state.currentBook.id : null);
       state._restoring = !!savedPos;
+      state._pendingRestore = savedPos;
 
-      renderPdfPage(1).then(function () {
-        if (isLoadStale(loadId)) return;
-        setProgressMsg(100, '加载完成');
-        setTimeout(function () {
-          installPdfScrollDetect();
-          installPdfWheelFallback();
-          showReader();
-          updatePdfProgress();
-          if (savedPos && savedPos.page > 1) {
-            jumpToPdfPage(savedPos.page).then(function () {
-              state._restoring = false;
-              updatePdfProgress();
-            });
-          } else {
-            state._restoring = false;
-          }
-        }, 200);
-      });
+      // readerContent 必须可见，loading 遮罩覆盖在上层
+      dom.readerContent.style.display = '';
+      setupPdfViewer(pdfDoc, loadId);
     }).catch(function (err) {
       if (isLoadStale(loadId)) return;
       showError('PDF 加载失败: ' + (err.message || err));
@@ -543,6 +533,8 @@
     // 所有格式通用
     var btnMarker = document.getElementById('btnMarker');
     if (btnMarker) { btnMarker.disabled = !isPdf && !isEpub && !isMobi; }
+    var btnSearch = document.getElementById('btnSearch');
+    if (btnSearch) btnSearch.disabled = !(isPdf || isEpub) || !hasBook;
     var btnAnn = document.getElementById('btnAnnotations');
     if (btnAnn) btnAnn.disabled = !hasBook;
     var btnBookmark = document.getElementById('btnBookmark');
@@ -637,6 +629,7 @@
         if (isLoadStale(loadId)) return;
         setTimeout(function () {
           installEpubWheelHandler();
+          installEpubKeyHandler();
           if (R.initEpubHighlight) R.initEpubHighlight();
           if (R.registerEpubThemes) R.registerEpubThemes();
           if (R.renderEpubHighlights) R.renderEpubHighlights();
@@ -748,6 +741,198 @@
   }
 
   // ==========================================================================
+  //  PDFViewer 初始化 — 使用官方 pdf_viewer.js 替代手动渲染
+  // ==========================================================================
+  function setupPdfViewer(pdfDoc, loadId) {
+    // 销毁旧实例
+    if (state.pdfViewer) {
+      try { state.pdfViewer.destroy(); } catch (e) {}
+      state.pdfViewer = null;
+    }
+    state._penPages = {};
+
+    var eventBus = new pdfjsViewer.EventBus();
+    state.eventBus = eventBus;
+
+    dom.pdfView.style.position = 'absolute';
+    dom.pdfView.style.top = '0';
+    dom.pdfView.style.left = '0';
+    dom.pdfView.style.right = '0';
+    dom.pdfView.style.bottom = '0';
+    dom.pdfView.style.display = '';
+    dom.pdfView.style.overflow = 'auto';
+    dom.pdfView.classList.add('pdfViewer');
+
+    var linkService = new pdfjsViewer.PDFLinkService({
+      eventBus: eventBus,
+      externalLinkTarget: 2,
+    });
+
+    var findController = new pdfjsViewer.PDFFindController({
+      eventBus: eventBus,
+      linkService: linkService,
+    });
+
+    var pdfViewer = new pdfjsViewer.PDFViewer({
+      container: dom.pdfView,
+      viewer: dom.pdfView,
+      eventBus: eventBus,
+      linkService: linkService,
+      findController: findController,
+      textLayerMode: 1,
+      annotationMode: 0,
+      renderer: 'canvas',
+      removePageBorders: false,
+      maxCanvasPixels: 16777216,
+    });
+    state.pdfViewer = pdfViewer;
+    linkService.setViewer(pdfViewer);
+
+    // 兜底超时
+    var initTimeout = setTimeout(function () {
+      if (isLoadStale(loadId)) return;
+      if (state.pdfViewer === pdfViewer) {
+        onFirstPageReady();
+      }
+    }, 3000);
+
+    eventBus.on('pagesinit', function () {
+      if (isLoadStale(loadId)) return;
+      clearTimeout(initTimeout);
+      // 初始缩放：自适应宽度，安全钳位 0.1~4.0
+      pdfViewer.currentScaleValue = 'page-width';
+      var s = pdfViewer.currentScale;
+      if (s < 0.1 || s > 4.0) { pdfViewer.currentScale = 1.0; s = 1.0; }
+      state.zoom = s;
+      updateZoomLabel();
+      onFirstPageReady();
+    });
+
+    eventBus.on('pagerendered', function (evt) {
+      if (isLoadStale(loadId)) return;
+      if (!evt || !evt.pageNumber) return;
+      syncHighlightCanvas(evt.pageNumber);
+    });
+
+    eventBus.on('updateviewarea', function (evt) {
+      if (isLoadStale(loadId)) return;
+      if (!evt || !evt.location) return;
+      var loc = evt.location;
+      if (typeof loc.pageNumber === 'number') {
+        state.pdfPage = loc.pageNumber;
+      }
+      if (typeof loc.scale === 'number' && loc.scale > 0 && loc.scale <= 10) {
+        state.zoom = loc.scale;
+        updateZoomLabel();
+      }
+      updatePdfProgress();
+    });
+
+    // 搜索结果计数更新
+    var searchCount = document.getElementById('searchCount');
+    var searchInput = document.getElementById('searchInput');
+    eventBus.on('updatefindmatchescount', function (evt) {
+      if (!searchInput || !searchInput.value.trim()) return;
+      var mc = evt.matchesCount;
+      var total = (mc && typeof mc.total === 'number') ? mc.total : (typeof mc === 'number' ? mc : 0);
+      var cur = (mc && typeof mc.current === 'number') ? mc.current : (evt.current || 0);
+      if (total > 0) {
+        searchCount.textContent = cur + ' / ' + total;
+        searchCount.classList.remove('no-match');
+      } else {
+        searchCount.textContent = '无结果';
+        searchCount.classList.add('no-match');
+      }
+    });
+    eventBus.on('updatefindcontrolstate', function (evt) {
+      if (!searchInput || !searchInput.value.trim()) return;
+      var mc = evt.matchesCount;
+      var total = (mc && typeof mc.total === 'number') ? mc.total : (typeof mc === 'number' ? mc : 0);
+      var cur = (mc && typeof mc.current === 'number') ? mc.current : (evt.current || 0);
+      if (total > 0) {
+        searchCount.textContent = cur + ' / ' + total;
+        searchCount.classList.remove('no-match');
+        // 将选中的搜索结果平滑滚动到视口中央
+        setTimeout(function () {
+          var sel = dom.pdfView.querySelector('.highlight.selected');
+          if (sel) {
+            sel.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+          }
+        }, 150);
+      }
+    });
+
+    pdfViewer.setDocument(pdfDoc);
+    linkService.setDocument(pdfDoc, null);
+
+    return pdfViewer;
+  }
+
+  // 注入/更新页面的画笔层（highlight canvas）
+  function syncHighlightCanvas(pageNum) {
+    if (!dom.pdfView) return;
+    var pageDiv = dom.pdfView.querySelector('.page[data-page-number="' + pageNum + '"]');
+    if (!pageDiv) return;
+
+    var renderCanvas = pageDiv.querySelector('.canvasWrapper canvas');
+    if (!renderCanvas) return;
+
+    var hCanvas = pageDiv.querySelector('.pdf-highlight-canvas');
+    var w = renderCanvas.width;
+    var h = renderCanvas.height;
+
+    if (!hCanvas) {
+      // 首次注入
+      hCanvas = document.createElement('canvas');
+      hCanvas.className = 'pdf-highlight-canvas';
+      hCanvas.width = w;
+      hCanvas.height = h;
+      pageDiv.appendChild(hCanvas);
+      bindPenEvents(hCanvas, pageNum, w, h);
+    } else if (hCanvas.width !== w || hCanvas.height !== h) {
+      // 缩放后更新尺寸
+      hCanvas.width = w;
+      hCanvas.height = h;
+    }
+
+    state._penPages[pageNum] = { canvas: hCanvas, width: w, height: h };
+    drawPageStrokes(pageNum, hCanvas, w, h);
+
+    // 页码标签（PDFViewer 不自带）
+    var existingLabel = pageDiv.querySelector('.pdf-page-label');
+    if (!existingLabel) {
+      var label = document.createElement('div');
+      label.className = 'pdf-page-label';
+      label.textContent = pageNum + ' / ' + state.pdfTotal;
+      pageDiv.appendChild(label);
+    }
+  }
+
+  // 首屏渲染完成后
+  function onFirstPageReady() {
+    showReader();
+    updatePdfProgress();
+
+    // 恢复阅读位置（页码 + 缩放）
+    if (state._restoring && state._pendingRestore) {
+      var pos = state._pendingRestore;
+      if (pos.zoom && pos.zoom > 0.1 && pos.zoom < 5.0) {
+        state.pdfViewer.currentScale = pos.zoom;
+      }
+      if (pos.page > 1) {
+        state.pdfViewer.currentPageNumber = pos.page;
+        // 页面跳转是异步的，延迟清除 _restoring 避免覆盖恢复的位置
+        setTimeout(function () { state._restoring = false; }, 2000);
+      } else {
+        state._restoring = false;
+      }
+    } else {
+      state._restoring = false;
+    }
+    state._pendingRestore = null;
+  }
+
+  // ==========================================================================
   //  PDF 加载 — XHR 下载（带进度）→ ArrayBuffer → pdf.js
   // ==========================================================================
   function loadPdf(path, loadId) {
@@ -789,113 +974,28 @@
       dom.textView.style.display = 'none';
       dom.pdfView.style.display = '';
       dom.pdfView.innerHTML = '';
-      state.pdfRendered = [];
+      dom.pdfView.classList.remove('pdfViewer', 'dual-page');
 
-      // 先读出保存的位置，再设 _restoring，防止 renderPdfPage 内部的 updatePdfProgress 覆盖它
       var savedPos = getReadingPosition(state.currentBook ? state.currentBook.id : null);
-      state._restoring = !!savedPos;  // 有保存位置时才阻止保存，避免覆盖
+      state._restoring = !!savedPos;
+      state._pendingRestore = savedPos;
 
-      renderPdfPage(1).then(function () {
-        if (isLoadStale(loadId)) return;
-        if (!fromCache) setProgressMsg(100, '加载完成');
-        setTimeout(function () {
-          installPdfScrollDetect();
-          installPdfWheelFallback();
-          showReader();
-          updatePdfProgress();  // _restoring=true 时不会保存到 localStorage
-          if (savedPos && savedPos.page > 1) {
-            jumpToPdfPage(savedPos.page).then(function () {
-              // 恢复完成后保存正确的位置，然后解除保护
-              state._restoring = false;
-              updatePdfProgress();
-            });
-          } else {
-            state._restoring = false;
-          }
-        }, 200);
-      });
+      if (!fromCache) setProgressMsg(92, '正在渲染 …');
+      // readerContent 必须可见（PDFViewer 需要有效容器尺寸），loading 遮罩覆盖在上层
+      dom.readerContent.style.display = '';
+      setupPdfViewer(pdfDoc, loadId);
     }).catch(function (err) {
       if (isLoadStale(loadId)) return;
       showError('PDF 加载失败: ' + (err.message || err));
     });
   }
 
-  function renderPdfPage(num) {
-    return new Promise(function (resolve, reject) {
-      if (!state.pdfDoc) { resolve(); return; }
-      // 已渲染过则跳过
-      if (state.pdfRendered.indexOf(num) !== -1) { resolve(); return; }
-      state.pdfChanging = true;
-
-      state.pdfDoc.getPage(num).then(function (page) {
-        var viewport = page.getViewport({ scale: state.zoom });
-        var wrapper = document.createElement('div');
-        wrapper.className = 'pdf-page-wrapper';
-        wrapper.dataset.page = String(num);
-
-        var canvas = document.createElement('canvas');
-        canvas.className = 'pdf-render-canvas';
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-
-        var hCanvas = document.createElement('canvas');
-        hCanvas.className = 'pdf-highlight-canvas';
-        hCanvas.width = viewport.width;
-        hCanvas.height = viewport.height;
-
-        wrapper.appendChild(canvas);
-        wrapper.appendChild(hCanvas);
-
-        return page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport }).promise.then(function () {
-          var label = document.createElement('div');
-          label.className = 'pdf-page-label';
-          label.textContent = num + ' / ' + state.pdfTotal;
-          wrapper.appendChild(label);
-          dom.pdfView.appendChild(wrapper);
-          state.pdfRendered.push(num);
-          state.pdfRendered.sort(function (a, b) { return a - b; });
-          state.pdfChanging = false;
-          state.pdfPage = num;
-          bindPenEvents(hCanvas, num, viewport.width, viewport.height);
-          drawPageStrokes(num, hCanvas, viewport.width, viewport.height);
-          updatePdfProgress();
-          resolve();
-        });
-      }).catch(function (err) {
-        console.warn('[PDF] 渲染页 ' + num + ' 失败:', err);
-        state.pdfChanging = false;
-        resolve();
-      });
-    });
-  }
-
-  // 平滑滚动到指定页码
-  function smoothScrollToPage(num) {
-    var wrapper = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
-    if (wrapper) {
-      wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
-
-  // 跳转到指定页码（直接渲染目标页，不顺序渲染中间页，瞬间定位而非平滑滚动）
+  // 跳转到指定页码（使用 PDFViewer 内置导航）
   function jumpToPdfPage(num) {
+    if (!state.pdfViewer) return Promise.resolve();
     if (num < 1 || num > state.pdfTotal) return Promise.resolve();
-    state.pdfPage = num;
-    updatePdfProgress();
-
-    var wrapper = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
-    if (wrapper) {
-      wrapper.scrollIntoView({ behavior: 'instant', block: 'start' });
-      return Promise.resolve();
-    }
-
-    // 未渲染，先渲染这一页再跳
-    return renderPdfPage(num).then(function () {
-      var w = dom.pdfView.querySelector('.pdf-page-wrapper[data-page="' + num + '"]');
-      if (w) {
-        w.scrollIntoView({ behavior: 'instant', block: 'start' });
-      }
-    });
+    state.pdfViewer.currentPageNumber = num;
+    return Promise.resolve();
   }
 
   // ====== 自由画笔标记 ======
@@ -911,25 +1011,32 @@
     canvas.addEventListener('mousedown', function (e) {
       if (!state.markerMode) return;
       e.preventDefault();
+      // 始终从 _penPages 读取最新尺寸（缩放后会变）
+      var entry = state._penPages[page];
+      var w = entry ? entry.width : width;
+      var h = entry ? entry.height : height;
       var pos = toCanvasPos(e);
       state.currentStroke = {
         page: page,
-        points: [{ x: pos.x / width, y: pos.y / height }],
+        points: [{ x: pos.x / w, y: pos.y / h }],
         color: state.penColor,
         size: state.penSize,
         canvas: canvas,
-        width: width,
-        height: height
+        width: w,
+        height: h
       };
     });
 
     canvas.addEventListener('mousemove', function (e) {
       if (!state.markerMode || !state.currentStroke || state.currentStroke.page !== page) return;
       e.preventDefault();
+      var entry = state._penPages[page];
+      var w = entry ? entry.width : width;
+      var h = entry ? entry.height : height;
       var pos = toCanvasPos(e);
-      state.currentStroke.points.push({ x: pos.x / width, y: pos.y / height });
+      state.currentStroke.points.push({ x: pos.x / w, y: pos.y / h });
       state.currentStroke.shiftKey = e.shiftKey;
-      drawPageStrokes(page, canvas, width, height, state.currentStroke);
+      drawPageStrokes(page, canvas, w, h, state.currentStroke);
     });
 
     function endDraw(e) {
@@ -981,9 +1088,9 @@
 
   // 重绘指定页的笔迹（从当前 DOM 中找到 canvas 并刷新）
   function redrawPageStrokes(page) {
-    var hCanvas = document.querySelector('.pdf-page-wrapper[data-page="' + page + '"] .pdf-highlight-canvas');
-    if (hCanvas) {
-      drawPageStrokes(page, hCanvas, hCanvas.width, hCanvas.height);
+    var entry = state._penPages[page];
+    if (entry && entry.canvas) {
+      drawPageStrokes(page, entry.canvas, entry.width, entry.height);
     }
   }
 
@@ -1014,70 +1121,9 @@
     ctx.restore();
   }
 
-  // 获取当前视口中最靠上的可见页码
+  // PDF 当前可见页 — 由 PDFViewer 的 updateviewarea 事件更新
   function getVisiblePage() {
-    var wrappers = dom.pdfView.querySelectorAll('.pdf-page-wrapper');
-    var bestPage = state.pdfPage || 1;
-    var bestTop = Infinity;
-    var viewTop = dom.pdfView.scrollTop;
-    var viewBot = viewTop + dom.pdfView.clientHeight;
-
-    wrappers.forEach(function (w) {
-      var rect = w.getBoundingClientRect();
-      var containerRect = dom.pdfView.getBoundingClientRect();
-      var relTop = rect.top - containerRect.top;
-      var relBot = rect.bottom - containerRect.top;
-      // 与视口有交集
-      if (relBot > 0 && relTop < containerRect.height) {
-        if (relTop < bestTop && relTop > -rect.height * 0.6) {
-          bestTop = relTop;
-          bestPage = parseInt(w.dataset.page) || bestPage;
-        }
-      }
-    });
-    return bestPage;
-  }
-
-  // PDF 连续滚动：到底部自动追加下一页 + 跟踪当前可见页
-  function installPdfScrollDetect() {
-    var el = dom.pdfView;
-    if (!el) return;
-    var lastPdfScrollTop = 0;
-    var scrollTick = null;
-    el.addEventListener('scroll', function () {
-      if (!state.pdfDoc || state.pdfChanging) return;
-      var st = el.scrollTop;
-      var sh = el.scrollHeight;
-      var ch = el.clientHeight;
-
-      // 更新当前可见页（防抖）
-      if (scrollTick) clearTimeout(scrollTick);
-      scrollTick = setTimeout(function () {
-        state.pdfPage = getVisiblePage();
-      }, 150);
-
-      // 往下滚到接近底部 → 自动渲染并加载下一页
-      if (st > lastPdfScrollTop && sh - st - ch < 100 && state.pdfRendered.length < state.pdfTotal) {
-        var nextPage = state.pdfRendered[state.pdfRendered.length - 1] + 1;
-        if (nextPage <= state.pdfTotal) {
-          renderPdfPage(nextPage);
-        }
-      }
-      lastPdfScrollTop = st;
-    }, { passive: true });
-  }
-
-  // PDF 滚轮兜底（首屏不满一页时直接滚动）
-  function installPdfWheelFallback() {
-    var el = dom.pdfView;
-    if (!el) return;
-    el.addEventListener('wheel', function (e) {
-      if (!state.pdfDoc || e.ctrlKey || e.metaKey) return;
-      if (el.scrollHeight <= el.clientHeight + 1) {
-        e.preventDefault();
-        navigatePage(e.deltaY > 0 ? 1 : -1);
-      }
-    }, { passive: false });
+    return state.pdfPage;
   }
 
   // ==========================================================================
@@ -1112,6 +1158,31 @@
 
     iframe._epubWheelFn = fn;
     win.addEventListener('wheel', fn, { passive: false });
+  }
+
+  // EPUB iframe 内拦截 Ctrl+F，防止触发浏览器搜索
+  function installEpubKeyHandler() {
+    var iframe = dom.epubView.querySelector('iframe');
+    if (!iframe) { setTimeout(installEpubKeyHandler, 500); return; }
+    var win;
+    try { win = iframe.contentWindow; } catch (e) {}
+    if (!win) { setTimeout(installEpubKeyHandler, 500); return; }
+
+    if (iframe._epubKeyFn) {
+      try { win.removeEventListener('keydown', iframe._epubKeyFn); } catch (e) {}
+    }
+
+    var fn = function (e) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'f' || e.key === 'F')) {
+        e.preventDefault();
+        e.stopPropagation();
+        var btn = document.getElementById('btnSearch');
+        if (btn && !btn.disabled) btn.click();
+      }
+    };
+
+    iframe._epubKeyFn = fn;
+    win.addEventListener('keydown', fn, true);
   }
 
   // ==========================================================================
@@ -1227,10 +1298,18 @@
   function cleanupReader() {
     if (state.epubRendition) { try { state.epubRendition.destroy(); } catch (e) {} state.epubRendition = null; }
     state.epubBook = null;
+    // 清理 PDFViewer
+    if (state.pdfViewer) {
+      try { state.pdfViewer.destroy(); } catch (e) {}
+      state.pdfViewer = null;
+    }
+    state.eventBus = null;
+    state._penPages = {};
+    state._restoring = false;
+    state._pendingRestore = null;
     state.pdfDoc = null;
     state.pdfPage = 1;
     state.pdfTotal = 0;
-    state.pdfRendered = [];
     state.toc = [];
     state._lastTocHref = null;
     state.markerMode = false;
@@ -1246,7 +1325,11 @@
 
     dom.epubView.style.display = 'none';
     dom.pdfView.style.display = 'none';
+    dom.pdfView.classList.remove('pdfViewer', 'dual-page');
     dom.textView.style.display = 'none';
+    // 关闭搜索栏
+    var searchBar = document.getElementById('searchBar');
+    if (searchBar) searchBar.style.display = 'none';
     dom.btnPrev.disabled = false;
     dom.btnNext.disabled = false;
     dom.progressSlider.disabled = false;
@@ -1290,17 +1373,17 @@
   }
 
   function adjustZoom(dir) {
-    if (state.currentFormat === 'pdf' && state.pdfDoc) {
-      state.zoom = dir > 0 ? Math.min(state.zoom + 0.25, 4.0) : Math.max(state.zoom - 0.25, 0.5);
-      // 缩放后清空重绘
-      var currentPage = state.pdfPage;
-      dom.pdfView.innerHTML = '';
-      state.pdfRendered = [];
-
-      // 只渲染当前页，立即定位（不顺序渲染中间页）
-      renderPdfPage(currentPage).then(function () {
-        smoothScrollToPage(currentPage);
-      });
+    if (state.currentFormat === 'pdf' && state.pdfViewer) {
+      var cur = state.pdfViewer.currentScale || 1;
+      var step = cur < 1.5 ? 0.1 : 0.25;
+      var newScale = Math.round((dir > 0 ? cur + step : cur - step) * 100) / 100;
+      // 严格限制在 0.1 ~ 4.0 之间
+      if (newScale < 0.1) newScale = 0.1;
+      if (newScale > 4.0) newScale = 4.0;
+      if (newScale > 0 && Math.abs(newScale - cur) > 0.001) {
+        state.pdfViewer.currentScale = newScale;
+        state.zoom = newScale;
+      }
     } else if (state.currentFormat === 'epub' && state.epubRendition) {
       state.zoom = dir > 0 ? Math.min(state.zoom + 0.1, 2.0) : Math.max(state.zoom - 0.1, 0.5);
       state.epubRendition.themes.default({ 'body': { 'font-size': (state.zoom * 100) + '%!important' } });
@@ -1349,7 +1432,7 @@
   function updatePdfProgress() {
     if (!state.pdfDoc) return;
     dom.progressText.textContent = state.pdfPage + ' / ' + state.pdfTotal;
-    dom.progressSlider.value = String(state.pdfPage);
+    if (!state._sliderDragging) dom.progressSlider.value = String(state.pdfPage);
     dom.pageInfo.textContent = '共 ' + state.pdfTotal + ' 页';
 
     // 高亮当前页面对应的目录项（递归匹配最近的章节）
@@ -1534,6 +1617,7 @@
     dom.btnNext.addEventListener('click', function () { navigatePage(1); });
 
     dom.progressSlider.addEventListener('input', function () {
+      state._sliderDragging = true;
       if (state.currentFormat === 'epub' && state.epubRendition && state.epubBook) {
         var pct = parseInt(this.value) / 100;
         if (state.epubBook.locations) {
@@ -1545,6 +1629,9 @@
           jumpToPdfPage(pageNum);
         }
       }
+    });
+    dom.progressSlider.addEventListener('change', function () {
+      state._sliderDragging = false;
     });
 
     dom.btnToc.addEventListener('click', function () {
@@ -1683,6 +1770,306 @@
     dom.btnZoomIn.addEventListener('click', function () { adjustZoom(1); });
     dom.btnZoomOut.addEventListener('click', function () { adjustZoom(-1); });
 
+    // Ctrl+滚轮 → 缩放文档内容，阻止浏览器缩放页面
+    document.addEventListener('wheel', function (e) {
+      if (!e.ctrlKey && !e.metaKey) return;
+      if (!state.currentBook) return;
+      e.preventDefault();
+      if (state.currentFormat === 'pdf' && state.pdfViewer) {
+        adjustZoom(e.deltaY < 0 ? 1 : -1);
+      }
+    }, { passive: false });
+
+    // 搜索功能
+    var searchBar = document.getElementById('searchBar');
+    var searchInput = document.getElementById('searchInput');
+    var searchCount = document.getElementById('searchCount');
+    var btnSearch = document.getElementById('btnSearch');
+    var btnSearchClose = document.getElementById('btnSearchClose');
+    var btnSearchPrev = document.getElementById('btnSearchPrev');
+    var btnSearchNext = document.getElementById('btnSearchNext');
+
+    function showSearchBar() {
+      var isPdf = state.currentFormat === 'pdf' && state.pdfViewer;
+      var isEpub = state.currentFormat === 'epub' && state.epubRendition;
+      if (!isPdf && !isEpub) return;
+      searchBar.style.display = '';
+      searchInput.value = '';
+      searchInput.placeholder = isPdf ? '搜索 PDF 内容…' : '搜索 EPUB 全文…';
+      searchCount.textContent = '';
+      _epubSearchQuery = '';
+      _epubResults = [];
+      _epubResultIdx = 0;
+      setTimeout(function () { searchInput.focus(); }, 50);
+    }
+
+    function hideSearchBar() {
+      searchBar.style.display = 'none';
+      searchInput.value = '';
+      searchCount.textContent = '';
+      _epubSearchQuery = '';
+      _epubResults = [];
+      _epubResultIdx = 0;
+      _epubSearchBusy = false;
+      // 清除搜索高亮
+      if (state.currentFormat === 'pdf' && state.eventBus && state.pdfViewer) {
+        state.eventBus.dispatch('find', {
+          source: window, type: '', query: '',
+          caseSensitive: false, entireWord: false,
+          highlightAll: true, findPrevious: false, matchDiacritics: false,
+        });
+      } else if (state.currentFormat === 'epub') {
+        epubClearMarks();
+      }
+    }
+
+    function escapeRegex(s) {
+      return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    // 平滑滚动到目标元素：始终居中显示
+    function scrollIntoViewIfNeeded(el) {
+      if (!el) return;
+      el.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+    }
+
+    function doSearch() {
+      var query = searchInput.value.trim();
+      if (!query) {
+        searchCount.textContent = '';
+        return;
+      }
+      if (state.currentFormat === 'pdf' && state.eventBus && state.pdfViewer) {
+        state.eventBus.dispatch('find', {
+          source: window, type: '', query: query,
+          caseSensitive: false, entireWord: false,
+          highlightAll: true, findPrevious: false, matchDiacritics: false,
+        });
+      } else if (state.currentFormat === 'epub') {
+        epubDoSearch(query);
+      }
+    }
+
+    // EPUB 全文搜索 — 搜索所有章节，支持跨章节跳转
+    var _epubMarks = [];              // 当前章节 DOM 中的 <mark> 元素
+    var _epubResults = [];           // [{sectionHref, sectionIdx, matchIdxInSection}]
+    var _epubResultIdx = 0;          // 当前结果索引 (0-based)
+    var _epubSearchQuery = '';       // 当前搜索关键词
+    var _epubSearchBusy = false;     // 搜索进行中
+
+    function epubClearMarks() {
+      var ifr = document.querySelector('#epubView iframe');
+      if (!ifr) return;
+      try {
+        var d = ifr.contentDocument || ifr.contentWindow.document;
+        if (!d) return;
+        d.querySelectorAll('mark.search-match').forEach(function (m) {
+          var parent = m.parentNode;
+          parent.replaceChild(document.createTextNode(m.textContent), m);
+          parent.normalize();
+        });
+      } catch (e) {}
+      _epubMarks = [];
+    }
+
+    function epubSearchNode(node, re) {
+      if (node.nodeType === 3) {
+        var text = node.nodeValue;
+        if (!text) return;
+        re.lastIndex = 0;
+        var match = re.exec(text);
+        if (!match) return;
+        var frag = document.createDocumentFragment(), lastIdx = 0;
+        while (match) {
+          if (match.index > lastIdx) frag.appendChild(document.createTextNode(text.slice(lastIdx, match.index)));
+          var mk = document.createElement('mark');
+          mk.className = 'search-match';
+          mk.textContent = match[0];
+          frag.appendChild(mk);
+          _epubMarks.push(mk);
+          lastIdx = match.index + match[0].length;
+          match = re.exec(text);
+        }
+        if (lastIdx < text.length) frag.appendChild(document.createTextNode(text.slice(lastIdx)));
+        node.parentNode.replaceChild(frag, node);
+      } else if (node.nodeType === 1 && !/^(SCRIPT|STYLE|MARK|NOSCRIPT)$/i.test(node.tagName)) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (c) { epubSearchNode(c, re); });
+      }
+    }
+
+    // 在当前章节 DOM 中高亮并滚动到指定匹配项
+    function epubHighlightSection(query, targetMatchIdx) {
+      epubClearMarks();
+      var iframe = document.querySelector('#epubView iframe');
+      if (!iframe) return;
+      try {
+        var doc = iframe.contentDocument || iframe.contentWindow.document;
+        if (!doc || !doc.body) return;
+        var re = new RegExp('(' + escapeRegex(query) + ')', 'gi');
+        epubSearchNode(doc.body, re);
+        var mark = _epubMarks[targetMatchIdx];
+        if (mark) {
+          scrollIntoViewIfNeeded(mark);
+        } else if (_epubMarks.length > 0) {
+          // 找不到精确匹配时回退到第一个
+          scrollIntoViewIfNeeded(_epubMarks[0]);
+        }
+      } catch (e) {}
+    }
+
+    // 跳转到指定结果（跨章节导航）
+    function epubGoToResult(idx) {
+      if (idx < 0 || idx >= _epubResults.length) return;
+      _epubResultIdx = idx;
+      var result = _epubResults[idx];
+      if (state.epubRendition) {
+        state.epubRendition.display(result.sectionHref).then(function () {
+          setTimeout(function () {
+            epubHighlightSection(_epubSearchQuery, result.matchIdxInSection);
+          }, 250);
+        });
+      }
+    }
+
+    function epubDoSearch(query) {
+      if (_epubSearchBusy) return;
+      epubClearMarks();
+      _epubResults = [];
+      _epubResultIdx = 0;
+      _epubSearchQuery = query;
+
+      var book = state.epubBook;
+      if (!book || !book.archive) {
+        searchCount.textContent = '搜索失败';
+        searchCount.classList.add('no-match');
+        return;
+      }
+      var spine = book.spine.spineItems || [];
+      if (!spine.length) {
+        searchCount.textContent = '无结果';
+        searchCount.classList.add('no-match');
+        return;
+      }
+
+      _epubSearchBusy = true;
+      searchCount.textContent = '搜索中…';
+      searchCount.classList.remove('no-match');
+
+      var re = new RegExp(escapeRegex(query), 'gi');
+      var rawResults = [];
+
+      // 并行搜索所有章节的原始文本
+      var promises = spine.map(function (item, idx) {
+        return book.archive.file(item.url).async('string').then(function (html) {
+          // 去除 HTML 标签和实体，保留纯文本
+          var text = html.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ');
+          var count = 0;
+          re.lastIndex = 0;
+          while (re.exec(text) !== null) {
+            rawResults.push({
+              sectionHref: item.href,
+              sectionIdx: idx,
+              matchIdxInSection: count
+            });
+            count++;
+          }
+        }).catch(function () {
+          // 跳过无法读取的章节
+        });
+      });
+
+      Promise.all(promises).then(function () {
+        _epubSearchBusy = false;
+        // 按章节顺序 + 章节内顺序排序
+        rawResults.sort(function (a, b) {
+          if (a.sectionIdx !== b.sectionIdx) return a.sectionIdx - b.sectionIdx;
+          return a.matchIdxInSection - b.matchIdxInSection;
+        });
+
+        _epubResults = rawResults;
+
+        if (_epubResults.length > 0) {
+          _epubResultIdx = 0;
+          searchCount.textContent = '1 / ' + _epubResults.length;
+          searchCount.classList.remove('no-match');
+          epubGoToResult(0);
+        } else {
+          searchCount.textContent = '无结果';
+          searchCount.classList.add('no-match');
+        }
+      }).catch(function () {
+        _epubSearchBusy = false;
+        searchCount.textContent = '搜索失败';
+        searchCount.classList.add('no-match');
+      });
+    }
+
+    function searchNext(prev) {
+      var query = searchInput.value.trim();
+      if (!query) return;
+      if (state.currentFormat === 'pdf' && state.eventBus) {
+        state.eventBus.dispatch('find', {
+          source: window, type: 'again', query: query,
+          caseSensitive: false, entireWord: false,
+          highlightAll: true, findPrevious: !!prev, matchDiacritics: false,
+        });
+      } else if (state.currentFormat === 'epub') {
+        epubSearchNext(!!prev);
+      }
+    }
+
+    function epubSearchNext(backward) {
+      if (_epubResults.length === 0) return;
+      var newIdx;
+      if (backward) {
+        newIdx = _epubResultIdx > 0 ? _epubResultIdx - 1 : _epubResults.length - 1;
+      } else {
+        newIdx = _epubResultIdx < _epubResults.length - 1 ? _epubResultIdx + 1 : 0;
+      }
+
+      var newResult = _epubResults[newIdx];
+      var curResult = _epubResults[_epubResultIdx];
+
+      // 检查是否在同一章节且该章节已完成 DOM 高亮
+      if (curResult && newResult.sectionHref === curResult.sectionHref && _epubMarks.length > 0) {
+        // 同一章节：直接滚动到对应 mark
+        _epubResultIdx = newIdx;
+        var mark = _epubMarks[newResult.matchIdxInSection];
+        if (mark) {
+          scrollIntoViewIfNeeded(mark);
+        } else if (_epubMarks.length > 0) {
+          scrollIntoViewIfNeeded(_epubMarks[0]);
+        }
+        searchCount.textContent = (_epubResultIdx + 1) + ' / ' + _epubResults.length;
+      } else {
+        // 不同章节：导航并等待渲染
+        epubGoToResult(newIdx);
+        searchCount.textContent = (newIdx + 1) + ' / ' + _epubResults.length;
+      }
+    }
+
+    if (btnSearch) btnSearch.addEventListener('click', showSearchBar);
+    if (btnSearchClose) btnSearchClose.addEventListener('click', hideSearchBar);
+    if (btnSearchPrev) btnSearchPrev.addEventListener('click', function () { searchNext(true); });
+    if (btnSearchNext) btnSearchNext.addEventListener('click', function () { searchNext(false); });
+    if (searchInput) {
+      searchInput.addEventListener('input', function () {
+        // 防抖搜索
+        clearTimeout(searchInput._timer);
+        searchInput._timer = setTimeout(doSearch, 300);
+      });
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          searchNext(e.shiftKey);
+        }
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          hideSearchBar();
+        }
+      });
+    }
+
     // 侧栏收起/展开
     dom.sidebarToggle.addEventListener('click', function () {
       document.querySelector('.sidebar').classList.toggle('collapsed');
@@ -1696,23 +2083,22 @@
       }, 400);
     });
 
-    // PDF 滚轮翻页（PDF 视图没有 iframe 遮罩，直接监听）
-    var renderArea = document.querySelector('.render-area');
-    if (renderArea) {
-      renderArea.addEventListener('wheel', function (e) {
-        if (state.currentFormat === 'pdf' && state.pdfDoc) {
-          // Ctrl+滚轮 → 缩放
-          if (e.ctrlKey || e.metaKey) {
-            e.preventDefault();
-            adjustZoom(e.deltaY < 0 ? 1 : -1);
-          }
-        }
-      }, { passive: false });
-    }
   }
 
   function bindKeyboard() {
+    // Ctrl+F 使用 capture 阶段拦截，防止被 iframe 吞掉（EPUB）
+    window.addEventListener('keydown', function (e) {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+        e.preventDefault();
+        e.stopPropagation();
+        var btn = document.getElementById('btnSearch');
+        if (btn && !btn.disabled) btn.click();
+        return;
+      }
+    }, true);
+
     document.addEventListener('keydown', function (e) {
+      // 其他快捷键在输入框中不触发
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       switch (e.key) {
         case 'ArrowLeft': e.preventDefault(); navigatePage(-1); break;
@@ -1725,17 +2111,10 @@
   function navigatePage(dir) {
     if (state.currentFormat === 'epub' && state.epubRendition) {
       (dir < 0 ? state.epubRendition.prev() : state.epubRendition.next()).then(function () { updateEpubProgress(); });
-    } else if (state.currentFormat === 'pdf' && state.pdfDoc) {
+    } else if (state.currentFormat === 'pdf' && state.pdfViewer) {
       var newPage = state.pdfPage + dir;
       if (newPage < 1 || newPage > state.pdfTotal) return;
-      state.pdfPage = newPage;
-      updatePdfProgress();
-
-      if (state.pdfRendered.indexOf(newPage) !== -1) {
-        smoothScrollToPage(newPage);
-      } else {
-        renderPdfPage(newPage).then(function () { smoothScrollToPage(newPage); });
-      }
+      state.pdfViewer.currentPageNumber = newPage;
     }
   }
 
@@ -1756,8 +2135,6 @@
   R.drawPageStrokes = drawPageStrokes;
   R.redrawPageStrokes = redrawPageStrokes;
   R.jumpToPdfPage = jumpToPdfPage;
-  R.renderPdfPage = renderPdfPage;
-  R.smoothScrollToPage = smoothScrollToPage;
   R.escapeHtml = escapeHtml;
   R.updateEpubProgress = updateEpubProgress;
   R.updatePdfProgress = updatePdfProgress;

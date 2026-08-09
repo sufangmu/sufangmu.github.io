@@ -8,6 +8,10 @@
   <!-- PDF.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
+  <!-- PDF.js Viewer (官方文本层 + 页面管理) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.js"></script>
+
   <!-- EPUB.js + JSZip -->
   <script src="../../javascripts/jszip.min.js"></script>
   <script src="../../javascripts/epub.min.js"></script>
@@ -115,7 +119,17 @@
             <button class="ctrl-btn" id="btnFontDown" title="缩小字体">A−</button>
             <span class="font-size-label" id="fontSizeLabel">16</span>
             <button class="ctrl-btn" id="btnFontUp" title="放大字体">A+</button>
+            <span class="tool-divider"></span>
+            <button class="ctrl-btn" id="btnSearch" title="搜索 (Ctrl+F)">🔍</button>
           </div>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="search-bar" id="searchBar" style="display:none;">
+          <input type="text" class="search-input" id="searchInput" placeholder="搜索…" autocomplete="off">
+          <span class="search-count" id="searchCount"></span>
+          <button class="ctrl-btn" id="btnSearchPrev" title="上一个 (Shift+Enter)">▲</button>
+          <button class="ctrl-btn" id="btnSearchNext" title="下一个 (Enter)">▼</button>
+          <button class="ctrl-btn" id="btnSearchClose" title="关闭 (Esc)">✕</button>
         </div>
         <div class="render-area">
           <div id="epubView"></div>
@@ -257,8 +271,11 @@
           <p>PDF：点击画笔按钮进入标记模式，可在页面上自由绘制；按住 Shift 可画直线。支持调整颜色和笔刷大小。<br>EPUB：选中文字即可高亮标记，点击高亮区域可添加笔记。</p>
         </div>
         <div class="help-section">
+          <h4>🔍 搜索</h4>
+          <p>PDF：全文搜索，精确匹配计数。EPUB：浏览器查找，逐项导航。<br>快捷方式：点击工具栏 🔍 按钮或按 <kbd>Ctrl</kbd>+<kbd>F</kbd>。</p>
           <h4>⌨️ 快捷键</h4>
-          <p><kbd>←</kbd> <kbd>→</kbd> 翻页 · <kbd>Ctrl</kbd>+滚轮 缩放 · <kbd>Esc</kbd> 关闭目录</p>
+          <p><kbd>←</kbd> <kbd>→</kbd> 翻页 · <kbd>Ctrl</kbd>+滚轮 缩放 · <kbd>Ctrl</kbd>+<kbd>F</kbd> 搜索</p>
+          <p><kbd>Esc</kbd> 关闭目录 / 关闭搜索 · <kbd>Enter</kbd> 下一个 · <kbd>Shift</kbd>+<kbd>Enter</kbd> 上一个</p>
         </div>
         <div class="help-section">
           <h4>🎨 主题</h4>

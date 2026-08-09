@@ -185,20 +185,15 @@
   }
   R.resetActiveButtons = resetActiveButtons;
 
-  // ====== PDF 双页模式（纯 CSS flexbox，无需 DOM 操作） ======
+  // ====== PDF 双页模式 — 使用 PDFViewer 内置 spreadMode ======
   function toggleDualPageMode() {
-    if (state.currentFormat !== 'pdf') return;
+    if (state.currentFormat !== 'pdf' || !state.pdfViewer) return;
     state.dualPageMode = !state.dualPageMode;
-    var pdfView = document.getElementById('pdfView');
-    if (pdfView) {
-      pdfView.classList.toggle('dual-page', state.dualPageMode);
-    }
+    state.pdfViewer.spreadMode = state.dualPageMode
+      ? pdfjsViewer.SpreadMode.ODD
+      : pdfjsViewer.SpreadMode.NONE;
     var btn = document.getElementById('btnDualPage');
     if (btn) btn.classList.toggle('active', state.dualPageMode);
-    if (!state.dualPageMode) {
-      var wrapper = pdfView.querySelector('.pdf-page-wrapper[data-page="' + state.pdfPage + '"]');
-      if (wrapper) wrapper.scrollIntoView({ behavior: 'instant', block: 'start' });
-    }
   }
 
   // ====== PDF 页面缩略图 ======
