@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 个人图书馆</title>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+  <!-- PDF.js Viewer (官方文本层 + 页面管理) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.js"></script>
+
+  <!-- EPUB.js + JSZip -->
+  <script src="../../javascripts/jszip.min.js"></script>
+  <script src="../../javascripts/epub.min.js"></script>
+
+  <!-- 书库清单 -->
+  <script src="data/books.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 侧边栏 — 树形分类菜单 -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="logo">📚</span>
+        <h1>个人图书馆</h1>
+        <button class="sidebar-toggle" id="sidebarToggle" title="收起/展开侧栏">☰</button>
+      </div>
+      <div class="sidebar-header">
+        <h3>📖 藏书</h3>
+        <span id="bookCount">--</span>
+      </div>
+      <div class="tree-menu" id="treeMenu">
+        <!-- 动态渲染 -->
+      </div>
+      <div class="sidebar-footer">
+        <div class="sidebar-tools-row">
+          <button class="ctrl-btn sidebar-tool-btn" id="btnImportAll" title="导入数据：导入之前备份的 JSON 数据（阅读进度、标记、书签、设置等）">📥</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnExportAll" title="导出数据：将所有阅读数据导出为 JSON 备份文件">📤</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnImportLocal" title="导入本地书籍：从电脑导入 PDF/EPUB 文件到书架">📂</button>
+          <button class="ctrl-btn sidebar-tool-btn sidebar-clear-btn" id="btnClearAllData" title="清除数据：删除所有本地存储的标记、书签、阅读进度和导入的书籍">🗑</button>
+          <button class="ctrl-btn sidebar-tool-btn" id="btnThemeCycle" title="切换主题：明亮 / 暗色 / 护眼 / 羊皮纸">☀️</button>
+          <button class="ctrl-btn sidebar-help-btn" id="btnHelp" title="帮助">❓</button>
+        </div>
+        <p class="copyright">
+          本平台仅用于个人学习与知识管理，所有电子书资源仅供个人阅读使用，不涉及任何商业用途。<br>
+          如有侵权，请联系删除。
+        </p>
+      </div>
+    </aside>
+
+    <!-- 目录侧栏 -->
+    <aside class="toc-sidebar" id="tocSidebar">
+      <div class="toc-sidebar-header">
+        <h3>📑 目录</h3>
+      </div>
+      <div class="toc-tree" id="tocTree">
+        <p class="toc-empty">选择一本书以查看目录</p>
+      </div>
+    </aside>
+
+    <!-- 阅读区 -->
+    <main class="reader-panel">
+      <!-- 空白状态 -->
+      <div class="empty-state" id="emptyState">
+        <span class="empty-icon">📖</span>
+        <p>从左侧选择一本书开始阅读</p>
+      </div>
+
+      <!-- 加载进度 -->
+      <div class="loading-state" id="loadingState">
+        <p id="loadingText">加载中…</p>
+        <div class="loading-bar-track">
+          <div class="loading-bar-fill" id="loadingFill"></div>
+        </div>
+        <span class="loading-pct" id="loadingPct">0%</span>
+      </div>
+
+      <!-- 渲染区 -->
+      <div class="reader-content" id="readerContent" style="display:none;">
+        <!-- 顶部工具栏：标题 + 所有功能按钮 -->
+        <div class="book-meta-bar" id="bookMetaBar">
+          <div class="meta-bar-left">
+            <h2 id="bookTitle"></h2>
+            <span class="meta" id="bookMeta"></span>
+            <span class="format-badge" id="formatBadge"></span>
+          </div>
+          <div class="meta-bar-tools">
+            <!-- 标记按钮 + 下拉配置 -->
+            <span class="marker-wrap" id="markerWrap">
+              <button class="ctrl-btn marker-btn" id="btnMarker" title="画笔标记（Shift+直线）"><span class="marker-label">🖊</span><span class="marker-dot" id="markerDot" style="display:none;"></span><span class="marker-size" id="markerSizeBadge" style="display:none;"></span></button>
+              <span class="pen-tools pen-dropdown" id="penTools" style="display:none;">
+                <div class="pen-dropdown-row-main">
+                  <span class="pen-colors-row">
+                    <span class="pen-color active" data-color="rgba(255,235,59,0.45)" style="background:rgba(255,235,59,0.7)" title="黄色"></span>
+                    <span class="pen-color" data-color="rgba(76,175,80,0.4)" style="background:rgba(76,175,80,0.65)" title="绿色"></span>
+                    <span class="pen-color" data-color="rgba(244,67,54,0.35)" style="background:rgba(244,67,54,0.6)" title="红色"></span>
+                    <span class="pen-color" data-color="rgba(33,150,243,0.35)" style="background:rgba(33,150,243,0.6)" title="蓝色"></span>
+                  </span>
+                  <span class="pen-dropdown-divider">|</span>
+                  <input type="range" id="penSize" min="2" max="60" value="10" class="pen-size-slider" title="笔刷大小">
+                  <span class="pen-size-val" id="penSizeVal">10</span>
+                </div>
+                <div class="pen-dropdown-row-actions">
+                  <button class="ctrl-btn" id="btnUndoStroke" title="撤销上一笔">↩ 撤销</button>
+                  <button class="ctrl-btn" id="btnClearStrokes" title="清除本页标记">✕ 清除</button>
+                </div>
+              </span>
+            </span>
+            <button class="ctrl-btn" id="btnFreeNote" title="添加文本笔记">📝</button>
+            <button class="ctrl-btn" id="btnBookmark" title="添加/移除书签">🔖</button>
+            <button class="ctrl-btn" id="btnDualPage" title="双页模式">📖</button>
+            <button class="ctrl-btn" id="btnThumbnails" title="缩略图">🗂</button>
+            <span class="tool-divider"></span>
+            <button class="ctrl-btn" id="btnFontDown" title="缩小字体">A−</button>
+            <span class="font-size-label" id="fontSizeLabel">16</span>
+            <button class="ctrl-btn" id="btnFontUp" title="放大字体">A+</button>
+            <span class="tool-divider"></span>
+            <button class="ctrl-btn" id="btnSearch" title="搜索 (Ctrl+F)">🔍</button>
+          </div>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="search-bar" id="searchBar" style="display:none;">
+          <input type="text" class="search-input" id="searchInput" placeholder="搜索…" autocomplete="off">
+          <span class="search-count" id="searchCount"></span>
+          <button class="ctrl-btn" id="btnSearchPrev" title="上一个 (Shift+Enter)">▲</button>
+          <button class="ctrl-btn" id="btnSearchNext" title="下一个 (Enter)">▼</button>
+          <button class="ctrl-btn" id="btnSearchClose" title="关闭 (Esc)">✕</button>
+        </div>
+        <div class="render-area">
+          <div id="epubView"></div>
+          <div id="pdfView" style="display:none;"></div>
+          <div id="textView" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- PDF 缩略图导航条 -->
+      <div class="thumbnails-strip collapsed" id="thumbnailsStrip">
+        <div class="thumbnails-strip-inner" id="thumbnailsInner"></div>
+      </div>
+
+      <!-- 底部控制栏（仅保留缩放、进度、翻页） -->
+      <div class="bottom-bar" id="bottomBar" style="display:none;">
+        <div class="control-bar">
+          <div class="ctrl-group-left">
+            <button class="ctrl-btn" id="btnToc" title="显示/隐藏目录">📑</button>
+            <button class="ctrl-btn" id="btnZoomOut" title="缩小">🔍−</button>
+            <span id="zoomLabel" class="zoom-label">100%</span>
+            <button class="ctrl-btn" id="btnZoomIn" title="放大">🔍+</button>
+          </div>
+          <div class="slider-wrapper">
+            <input type="range" id="progressSlider" min="0" max="100" value="0" class="progress-slider">
+          </div>
+          <div class="ctrl-group-right">
+            <button class="ctrl-btn" id="btnPrev" title="上一页 (←)">◀</button>
+            <span class="progress-text" id="progressText">-- / --</span>
+            <button class="ctrl-btn" id="btnNext" title="下一页 (→)">▶</button>
+            <span id="pageInfo" class="page-info"></span>
+            <button class="ctrl-btn" id="btnAnnotations" title="查看所有标记与笔记">📋</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 笔记载入弹窗 -->
+      <div class="note-popup" id="notePopup" style="display:none;">
+        <textarea class="note-popup-input" id="notePopupInput" placeholder="添加批注… (Enter 保存, Esc 跳过)" rows="2"></textarea>
+        <div class="note-popup-actions">
+          <button class="ctrl-btn note-popup-save" id="notePopupSave">保存</button>
+          <button class="ctrl-btn note-popup-dismiss" id="notePopupDismiss">跳过</button>
+        </div>
+      </div>
+
+      <!-- 自由文本笔记弹窗 -->
+      <div class="freetext-dialog" id="freeTextDialog" style="display:none;">
+        <div class="freetext-header">
+          <span>📝 文本笔记</span>
+          <button class="freetext-close" id="freeTextClose">✕</button>
+        </div>
+        <textarea class="freetext-input" id="freeTextInput" placeholder="写点什么… (Ctrl+Enter 保存, Esc 取消)" rows="5"></textarea>
+        <div class="freetext-footer">
+          <span class="freetext-location" id="freeTextLocation"></span>
+          <button class="ctrl-btn freetext-save" id="freeTextSave">保存笔记</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- 标记与笔记侧栏（右侧） -->
+    <aside class="annotations-sidebar collapsed" id="annotationsSidebar">
+      <div class="annotations-sidebar-header">
+        <h3>📝 标记与笔记</h3>
+        <button class="ctrl-btn annotations-export-btn" id="btnExportAnnotations" title="导出标记为 Markdown">⬇</button>
+      </div>
+      <div class="annotations-filter">
+        <button class="annotations-filter-btn active" data-filter="all">全部</button>
+        <button class="annotations-filter-btn" data-filter="stroke">✏️ 笔迹</button>
+        <button class="annotations-filter-btn" data-filter="highlight">📖 高亮</button>
+        <button class="annotations-filter-btn" data-filter="note">📝 笔记</button>
+      </div>
+      <div class="annotations-sort">
+        <select class="annotations-sort-select" id="annotationsSort">
+          <option value="page">按页码</option>
+          <option value="time">按时间</option>
+        </select>
+      </div>
+      <div class="annotations-list" id="annotationsList">
+        <p class="annotations-empty">暂无标记</p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- 书签面板 -->
+  <div class="bookmarks-overlay" id="bookmarksOverlay" style="display:none;">
+    <div class="bookmarks-panel">
+      <div class="bookmarks-panel-header">
+        <h3>🔖 书签</h3>
+        <button class="bookmarks-panel-close" id="bookmarksPanelClose">✕</button>
+      </div>
+      <div class="bookmarks-panel-list" id="bookmarksPanelList">
+        <p class="annotations-empty">暂无书签</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 确认弹窗 -->
+  <div class="confirm-overlay" id="confirmOverlay" style="display:none;">
+    <div class="confirm-dialog">
+      <div class="confirm-icon" id="confirmIcon">⚠️</div>
+      <div class="confirm-title" id="confirmTitle">确认操作</div>
+      <div class="confirm-body" id="confirmBody">确定要执行此操作吗？</div>
+      <div class="confirm-actions">
+        <button class="ctrl-btn confirm-cancel" id="confirmCancel">取消</button>
+        <button class="ctrl-btn confirm-ok" id="confirmOk">确定</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 帮助面板 -->
+  <div class="help-overlay" id="helpOverlay" style="display:none;">
+    <div class="help-panel">
+      <div class="help-panel-header">
+        <h3>📖 使用帮助</h3>
+        <button class="help-panel-close" id="helpPanelClose">✕</button>
+      </div>
+      <div class="help-panel-body">
+        <div class="help-section">
+          <h4>📚 书架与分类</h4>
+          <p>左侧树形菜单按分类展示所有书籍，点击分类可展开/收起，点击书名即可开始阅读。</p>
+        </div>
+        <div class="help-section">
+          <h4>📥 导入数据</h4>
+          <p>导入之前通过「导出数据」功能备份的 JSON 文件，恢复阅读进度、标记笔记、书签和设置。</p>
+        </div>
+        <div class="help-section">
+          <h4>📤 导出数据</h4>
+          <p>将当前所有阅读数据（阅读进度、标记笔记、书签、主题字体设置）导出为 JSON 文件，可用于备份或迁移。</p>
+        </div>
+        <div class="help-section">
+          <h4>📂 导入本地书籍</h4>
+          <p>从电脑中选择 PDF 或 EPUB 文件导入到书架。支持拖拽文件到页面任意位置快速导入。导入的书籍会出现在「本地导入」分类中。</p>
+        </div>
+        <div class="help-section">
+          <h4>🗑 清除数据</h4>
+          <p>删除浏览器中所有本地存储数据，包括标记笔记、书签、阅读进度、设置以及本地导入的书籍文件。<b>此操作不可撤销！</b></p>
+        </div>
+        <div class="help-section">
+          <h4>🖊 标记与笔记</h4>
+          <p>PDF：点击画笔按钮进入标记模式，可在页面上自由绘制；按住 Shift 可画直线。支持调整颜色和笔刷大小。<br>EPUB：选中文字即可高亮标记，点击高亮区域可添加笔记。</p>
+        </div>
+        <div class="help-section">
+          <h4>🔍 搜索</h4>
+          <p>PDF：全文搜索，精确匹配计数。EPUB：浏览器查找，逐项导航。<br>快捷方式：点击工具栏 🔍 按钮或按 <kbd>Ctrl</kbd>+<kbd>F</kbd>。</p>
+          <h4>⌨️ 快捷键</h4>
+          <p><kbd>←</kbd> <kbd>→</kbd> 翻页 · <kbd>Ctrl</kbd>+滚轮 缩放 · <kbd>Ctrl</kbd>+<kbd>F</kbd> 搜索</p>
+          <p><kbd>Esc</kbd> 关闭目录 / 关闭搜索 · <kbd>Enter</kbd> 下一个 · <kbd>Shift</kbd>+<kbd>Enter</kbd> 上一个</p>
+        </div>
+        <div class="help-section">
+          <h4>🎨 主题</h4>
+          <p>支持明亮、暗色、护眼、羊皮纸四种阅读主题，点击顶部工具栏的图标即可切换。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示 -->
+  <div class="toast" id="toast" style="display:none;"></div>
+
+  <!-- 隐藏的文件输入 -->
+  <input type="file" id="importFileInput" accept=".json" style="display:none;">
+  <input type="file" id="localBookInput" accept=".pdf,.epub" multiple style="display:none;">
+
+  <!-- 拖拽导入覆盖层 -->
+  <div class="drop-overlay" id="dropOverlay" style="display:none;">
+    <div class="drop-overlay-content">
+      <span class="drop-icon">📥</span>
+      <p>释放以导入书籍</p>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/annotations.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/data.js"></script>
+</body>
+</html>
