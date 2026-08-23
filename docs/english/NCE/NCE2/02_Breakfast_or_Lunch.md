@@ -1,0 +1,39 @@
+## 02 Breakfast or Lunch
+
+It was Sunday.
+I never get up early on Sundays.
+I sometimes stay in bed until lunchtime.
+Last Sunday I got up very late.
+I looked out of the window.
+It was dark outside.
+'What a day!' I thought.
+'It's raining again.'
+Just then, the telephone rang.
+It was my aunt Lucy.
+'I've just arrived by train,' she said.
+'I'm coming to see you.'
+'But I'm still having breakfast,' I said.
+'What are you doing?' she asked.
+'I'm having breakfast,' I repeated.
+'Dear me,' she said.
+'Do you always get up so late?
+It's one o'clock!'
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/02BreakfastorLunch.mp3"></audio>
+
+### What 感叹句
+
+用法：What + (形容词) + n. + (主语+谓语)
+
+例句：What a beautiful picture this is!
+
+### 频率副词
+
+always & usually & sometimes
+
+一般放在动词前或者be后
+
+### 特殊疑问句
+
+语法：疑问词 + 一般疑问句语序
+

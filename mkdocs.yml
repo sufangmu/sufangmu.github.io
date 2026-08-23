@@ -1,7 +1,10 @@
 site_name: 苏方木的笔记
 site_description: 苏方木的笔记
 site_author: 苏方木
-site_url: https://github.com/sufangmu
+site_url: https://sufangmu.github.io
+repo_url: https://github.com/sufangmu/sufangmu.github.io
+repo_name: sufangmu/sufangmu.github.io
+copyright: Copyright &copy; 2026 苏方木
 
 theme:
   name: 'material'
@@ -30,6 +33,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - header.autohide
+    - content.code.copy  # 代码复制按钮
+    - content.tabs.link  # 标签页同步
+    - navigation.path  # 面包屑
+    - navigation.progress  # 阅读进度条
+    - navigation.footer  # 上/下篇
     
 
 
@@ -51,8 +59,14 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-  - pymdownx.arithmatex:  # 数学表达式 
+  - pymdownx.arithmatex:  # 数学表达式
       generic: true
+  - pymdownx.details  # 可折叠详情
+  - pymdownx.tabbed:  # 标签页
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -62,15 +76,21 @@ extra_javascript:
   - javascripts/mathjax.js
   - javascripts/polyfill.min.js
   - javascripts/tex-mml-chtml.js
+  - javascripts/nce-player.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+  - stylesheets/nce-player.css
 
 
 plugins:
   - search:
-      separator: '[\s\-\.]+'   
-      lang: 
+      separator: '[\s\-\.]+'
+      lang:
         - en
+        - zh
+  - git-revision-date-localized:
+      type: date
+      timezone: Asia/Shanghai
 nav:
   - About: 'index.md'
   - Linux:
@@ -225,9 +245,238 @@ nav:
       - '容器安全': 'DevOps/Docker/Security.md'
   - English:
     - 新概念:
-      - NCE1: 'english/NCE/NCE1.md'
-      - NCE2: 'english/NCE/NCE2.md'
-      - NCE3: 'english/NCE/NCE3.md'
+      - NCE1:
+        - '001_Excuse_me!': 'english/NCE/NCE1/001_Excuse_me!.md'
+        - '003_Sorry_sir': 'english/NCE/NCE1/003_Sorry_sir.md'
+        - '005_Nice_to_meet_you': 'english/NCE/NCE1/005_Nice_to_meet_you.md'
+        - '007_Are_you_a_teacher': 'english/NCE/NCE1/007_Are_you_a_teacher.md'
+        - '009_How_are_you_today': 'english/NCE/NCE1/009_How_are_you_today.md'
+        - '011_Is_this_your_shirt': 'english/NCE/NCE1/011_Is_this_your_shirt.md'
+        - '013_A_new_dress': 'english/NCE/NCE1/013_A_new_dress.md'
+        - '015_Your_passports_please': 'english/NCE/NCE1/015_Your_passports_please.md'
+        - '017_How_do_you_do': 'english/NCE/NCE1/017_How_do_you_do.md'
+        - '019_Tired_and_thirsty': 'english/NCE/NCE1/019_Tired_and_thirsty.md'
+        - '021_Which_book': 'english/NCE/NCE1/021_Which_book.md'
+        - '023_Which_glasses': 'english/NCE/NCE1/023_Which_glasses.md'
+        - '025_Mrs._Smith''s_Kitchen': 'english/NCE/NCE1/025_Mrs._Smith''s_Kitchen.md'
+        - '027_Mrs._Smith''s_living_room': 'english/NCE/NCE1/027_Mrs._Smith''s_living_room.md'
+        - '029_Come_in,_Amy': 'english/NCE/NCE1/029_Come_in,_Amy.md'
+        - '031_Where''s_Sally': 'english/NCE/NCE1/031_Where''s_Sally.md'
+        - '033_A_fine_day': 'english/NCE/NCE1/033_A_fine_day.md'
+        - '035_Our_village': 'english/NCE/NCE1/035_Our_village.md'
+        - '037_Making_a_bookcase': 'english/NCE/NCE1/037_Making_a_bookcase.md'
+        - '039_Don''t_drop_it!': 'english/NCE/NCE1/039_Don''t_drop_it!.md'
+        - '041_Penny''s_bag': 'english/NCE/NCE1/041_Penny''s_bag.md'
+        - '043_Hurry_up!': 'english/NCE/NCE1/043_Hurry_up!.md'
+        - '045_The_boss''s_letter': 'english/NCE/NCE1/045_The_boss''s_letter.md'
+        - '047_A_cup_of_coffee': 'english/NCE/NCE1/047_A_cup_of_coffee.md'
+        - '049_At_the_butcher''s': 'english/NCE/NCE1/049_At_the_butcher''s.md'
+        - '051_A_pleasant_climate': 'english/NCE/NCE1/051_A_pleasant_climate.md'
+        - '053_An_interesting_climate': 'english/NCE/NCE1/053_An_interesting_climate.md'
+        - '055_The_Sawyer_family': 'english/NCE/NCE1/055_The_Sawyer_family.md'
+        - '057_An_unusual_day': 'english/NCE/NCE1/057_An_unusual_day.md'
+        - '059_Is_that_all': 'english/NCE/NCE1/059_Is_that_all.md'
+        - '061_A_bad_cold': 'english/NCE/NCE1/061_A_bad_cold.md'
+        - '063_Thank_you,_doctor': 'english/NCE/NCE1/063_Thank_you,_doctor.md'
+        - '065_Not_a_baby': 'english/NCE/NCE1/065_Not_a_baby.md'
+        - '067_The_weekend': 'english/NCE/NCE1/067_The_weekend.md'
+        - '069_The_car_race': 'english/NCE/NCE1/069_The_car_race.md'
+        - '071_He''s_awful!': 'english/NCE/NCE1/071_He''s_awful!.md'
+        - '073_The_way_to_King_Street': 'english/NCE/NCE1/073_The_way_to_King_Street.md'
+        - '075_Uncomfortable_shoes': 'english/NCE/NCE1/075_Uncomfortable_shoes.md'
+        - '077_Terrible_toothache': 'english/NCE/NCE1/077_Terrible_toothache.md'
+        - '079_Carol''s_shopping_list': 'english/NCE/NCE1/079_Carol''s_shopping_list.md'
+        - '081_Roast_beef_and_potatoes': 'english/NCE/NCE1/081_Roast_beef_and_potatoes.md'
+        - '083_Going_on_holiday': 'english/NCE/NCE1/083_Going_on_holiday.md'
+        - '085_''Paris_in_the_Spring''': 'english/NCE/NCE1/085_''Paris_in_the_Spring''.md'
+        - '087_A_car_crash': 'english/NCE/NCE1/087_A_car_crash.md'
+        - '089_For_sale': 'english/NCE/NCE1/089_For_sale.md'
+        - '091_Poor_Ian!': 'english/NCE/NCE1/091_Poor_Ian!.md'
+        - '093_Our_new_neighbour': 'english/NCE/NCE1/093_Our_new_neighbour.md'
+        - '095_Tickets,_please': 'english/NCE/NCE1/095_Tickets,_please.md'
+        - '097_A_small_blue_case': 'english/NCE/NCE1/097_A_small_blue_case.md'
+        - '099_Ow!': 'english/NCE/NCE1/099_Ow!.md'
+        - '101_A_card_from_Jimmy': 'english/NCE/NCE1/101_A_card_from_Jimmy.md'
+        - '103_The_French_test': 'english/NCE/NCE1/103_The_French_test.md'
+        - '105_Full_of_mistakes': 'english/NCE/NCE1/105_Full_of_mistakes.md'
+        - '107_It''s_too_small': 'english/NCE/NCE1/107_It''s_too_small.md'
+        - '109_A_good_idea': 'english/NCE/NCE1/109_A_good_idea.md'
+        - '111_The_most_expensive_model': 'english/NCE/NCE1/111_The_most_expensive_model.md'
+        - '113_Small_change': 'english/NCE/NCE1/113_Small_change.md'
+        - '115_Knock,_knock!': 'english/NCE/NCE1/115_Knock,_knock!.md'
+        - '117_Tommy''s_breakfast': 'english/NCE/NCE1/117_Tommy''s_breakfast.md'
+        - '119_A_true_story': 'english/NCE/NCE1/119_A_true_story.md'
+        - '121_The_man_in_a_hat': 'english/NCE/NCE1/121_The_man_in_a_hat.md'
+        - '123_A_trip_to_Australia': 'english/NCE/NCE1/123_A_trip_to_Australia.md'
+        - '125_Tea_for_two': 'english/NCE/NCE1/125_Tea_for_two.md'
+        - '127_A_famous_actress': 'english/NCE/NCE1/127_A_famous_actress.md'
+        - '129_Seventy_miles_an_hour': 'english/NCE/NCE1/129_Seventy_miles_an_hour.md'
+        - '131_Don''t_be_so_sure!': 'english/NCE/NCE1/131_Don''t_be_so_sure!.md'
+        - '133_Sensational_news!': 'english/NCE/NCE1/133_Sensational_news!.md'
+        - '135_The_latest_report': 'english/NCE/NCE1/135_The_latest_report.md'
+        - '137_A_pleasant_dream': 'english/NCE/NCE1/137_A_pleasant_dream.md'
+        - '139_Is_that_you,_John': 'english/NCE/NCE1/139_Is_that_you,_John.md'
+        - '141_Sally''s_first_train_ride': 'english/NCE/NCE1/141_Sally''s_first_train_ride.md'
+        - '143_A_walk_through_the_woods': 'english/NCE/NCE1/143_A_walk_through_the_woods.md'
+      - NCE2:
+        - '01_A_Private_Conversation': 'english/NCE/NCE2/01_A_Private_Conversation.md'
+        - '02_Breakfast_or_Lunch': 'english/NCE/NCE2/02_Breakfast_or_Lunch.md'
+        - '03_Please_Send_Me_a_Card': 'english/NCE/NCE2/03_Please_Send_Me_a_Card.md'
+        - '04_An_Exciting_Trip': 'english/NCE/NCE2/04_An_Exciting_Trip.md'
+        - '05_No_Wrong_Numbers': 'english/NCE/NCE2/05_No_Wrong_Numbers.md'
+        - '06_Percy_Buttons': 'english/NCE/NCE2/06_Percy_Buttons.md'
+        - '07_Too_Late': 'english/NCE/NCE2/07_Too_Late.md'
+        - '08_The_Best_and_the_Worst': 'english/NCE/NCE2/08_The_Best_and_the_Worst.md'
+        - '09_A_Cold_Welcome': 'english/NCE/NCE2/09_A_Cold_Welcome.md'
+        - '10_Not_for_Jazz': 'english/NCE/NCE2/10_Not_for_Jazz.md'
+        - '11_One_Good_Turn_Deserves_Another': 'english/NCE/NCE2/11_One_Good_Turn_Deserves_Another.md'
+        - '12_Goodbye_and_Good_Luck': 'english/NCE/NCE2/12_Goodbye_and_Good_Luck.md'
+        - '13_The_Greenwood_Boys': 'english/NCE/NCE2/13_The_Greenwood_Boys.md'
+        - '14_Do_You_Speak_English': 'english/NCE/NCE2/14_Do_You_Speak_English.md'
+        - '15_Good_News': 'english/NCE/NCE2/15_Good_News.md'
+        - '16_A_Polite_Request': 'english/NCE/NCE2/16_A_Polite_Request.md'
+        - '17_Always_Young': 'english/NCE/NCE2/17_Always_Young.md'
+        - '18_He_Often_does_This': 'english/NCE/NCE2/18_He_Often_does_This.md'
+        - '19_Sold_Out': 'english/NCE/NCE2/19_Sold_Out.md'
+        - '20_One_Man_in_a_Boat': 'english/NCE/NCE2/20_One_Man_in_a_Boat.md'
+        - '21_Mad_or_Not': 'english/NCE/NCE2/21_Mad_or_Not.md'
+        - '22_A_Glass_Envelope': 'english/NCE/NCE2/22_A_Glass_Envelope.md'
+        - '23_A_New_House': 'english/NCE/NCE2/23_A_New_House.md'
+        - '24_It_Could_be_Worse': 'english/NCE/NCE2/24_It_Could_be_Worse.md'
+        - '25_Do_the_English_Speak_English': 'english/NCE/NCE2/25_Do_the_English_Speak_English.md'
+        - '26_The_Best_Art_Critics': 'english/NCE/NCE2/26_The_Best_Art_Critics.md'
+        - '27_A_Wet_Night': 'english/NCE/NCE2/27_A_Wet_Night.md'
+        - '28_No_Parking': 'english/NCE/NCE2/28_No_Parking.md'
+        - '29_Taxi': 'english/NCE/NCE2/29_Taxi.md'
+        - '30_Football_or_Polo': 'english/NCE/NCE2/30_Football_or_Polo.md'
+        - '31_Success_Story': 'english/NCE/NCE2/31_Success_Story.md'
+        - '32_Shopping_Made_Easy': 'english/NCE/NCE2/32_Shopping_Made_Easy.md'
+        - '33_Out_of_the_Darkness': 'english/NCE/NCE2/33_Out_of_the_Darkness.md'
+        - '34_Quick_Work': 'english/NCE/NCE2/34_Quick_Work.md'
+        - '35_Stop_Thief': 'english/NCE/NCE2/35_Stop_Thief.md'
+        - '36_Across_the_Channel': 'english/NCE/NCE2/36_Across_the_Channel.md'
+        - '37_The_Olympic_Games': 'english/NCE/NCE2/37_The_Olympic_Games.md'
+        - '38_Everything_Except_the_Weather': 'english/NCE/NCE2/38_Everything_Except_the_Weather.md'
+        - '39_Am_I_All_Right': 'english/NCE/NCE2/39_Am_I_All_Right.md'
+        - '40_Food_and_Talk': 'english/NCE/NCE2/40_Food_and_Talk.md'
+        - '41_Do_You_Call_That_a_Hat': 'english/NCE/NCE2/41_Do_You_Call_That_a_Hat.md'
+        - '42_Not_Very_Musical': 'english/NCE/NCE2/42_Not_Very_Musical.md'
+        - '43_Over_the_South_Pole': 'english/NCE/NCE2/43_Over_the_South_Pole.md'
+        - '44_Through_the_Forest': 'english/NCE/NCE2/44_Through_the_Forest.md'
+        - '45_A_Clear_Conscience': 'english/NCE/NCE2/45_A_Clear_Conscience.md'
+        - '46_Expensive_and_Uncomfortable': 'english/NCE/NCE2/46_Expensive_and_Uncomfortable.md'
+        - '47_A_Thirsty_Ghost': 'english/NCE/NCE2/47_A_Thirsty_Ghost.md'
+        - '48_Did_You_Want_to_Tell_Me_Something': 'english/NCE/NCE2/48_Did_You_Want_to_Tell_Me_Something.md'
+        - '49_The_End_of_a_Dream': 'english/NCE/NCE2/49_The_End_of_a_Dream.md'
+        - '50_Taken_for_a_Ride': 'english/NCE/NCE2/50_Taken_for_a_Ride.md'
+        - '51_Reward_for_Virtue': 'english/NCE/NCE2/51_Reward_for_Virtue.md'
+        - '52_A_Pretty_Carpet': 'english/NCE/NCE2/52_A_Pretty_Carpet.md'
+        - '53_Hot_Snake': 'english/NCE/NCE2/53_Hot_Snake.md'
+        - '54_Sticky_Fingers': 'english/NCE/NCE2/54_Sticky_Fingers.md'
+        - '55_Not_a_Gold_Mine': 'english/NCE/NCE2/55_Not_a_Gold_Mine.md'
+        - '56_Faster_Than_Sound': 'english/NCE/NCE2/56_Faster_Than_Sound.md'
+        - '57_Can_I_Help_You,_Madam': 'english/NCE/NCE2/57_Can_I_Help_You,_Madam.md'
+        - '58_A_Blessing_in_Disguise': 'english/NCE/NCE2/58_A_Blessing_in_Disguise.md'
+        - '59_In_or_Out': 'english/NCE/NCE2/59_In_or_Out.md'
+        - '60_The_Future': 'english/NCE/NCE2/60_The_Future.md'
+        - '61_Trouble_with_the_Hubble': 'english/NCE/NCE2/61_Trouble_with_the_Hubble.md'
+        - '62_After_the_Fire': 'english/NCE/NCE2/62_After_the_Fire.md'
+        - '63_She_Was_Not_Amused': 'english/NCE/NCE2/63_She_Was_Not_Amused.md'
+        - '64_The_Channel_Tunnel': 'english/NCE/NCE2/64_The_Channel_Tunnel.md'
+        - '65_Jumbo_Versus_the_Police': 'english/NCE/NCE2/65_Jumbo_Versus_the_Police.md'
+        - '66_Sweet_as_Honey': 'english/NCE/NCE2/66_Sweet_as_Honey.md'
+        - '67_Volcanoes': 'english/NCE/NCE2/67_Volcanoes.md'
+        - '68_Persistent': 'english/NCE/NCE2/68_Persistent.md'
+        - '69_But_not_Murder': 'english/NCE/NCE2/69_But_not_Murder.md'
+        - '70_Red_for_Danger': 'english/NCE/NCE2/70_Red_for_Danger.md'
+        - '71_A_Famous_Clock': 'english/NCE/NCE2/71_A_Famous_Clock.md'
+        - '72_A_Car_Called_Bluebird': 'english/NCE/NCE2/72_A_Car_Called_Bluebird.md'
+        - '73_The_Record-Holder': 'english/NCE/NCE2/73_The_Record-Holder.md'
+        - '74_Out_of_the_Limelight': 'english/NCE/NCE2/74_Out_of_the_Limelight.md'
+        - '75_SOS': 'english/NCE/NCE2/75_SOS.md'
+        - '76_April_Fools''_Day': 'english/NCE/NCE2/76_April_Fools''_Day.md'
+        - '77_A_Successful_Operation': 'english/NCE/NCE2/77_A_Successful_Operation.md'
+        - '78_The_Last_One': 'english/NCE/NCE2/78_The_Last_One.md'
+        - '79_By_Air': 'english/NCE/NCE2/79_By_Air.md'
+        - '80_The_Crystal_Palace': 'english/NCE/NCE2/80_The_Crystal_Palace.md'
+        - '81_Escape': 'english/NCE/NCE2/81_Escape.md'
+        - '82_Monster_or_Fish': 'english/NCE/NCE2/82_Monster_or_Fish.md'
+        - '83_After_the_Elections': 'english/NCE/NCE2/83_After_the_Elections.md'
+        - '84_On_Strike': 'english/NCE/NCE2/84_On_Strike.md'
+        - '85_Never_Too_Old_To_Learn': 'english/NCE/NCE2/85_Never_Too_Old_To_Learn.md'
+        - '86_Out_of_Control': 'english/NCE/NCE2/86_Out_of_Control.md'
+        - '87_A_Perfect_Alibi': 'english/NCE/NCE2/87_A_Perfect_Alibi.md'
+        - '88_Trapped_in_a_Mine': 'english/NCE/NCE2/88_Trapped_in_a_Mine.md'
+        - '89_A_Slip_of_the_Tongue(口误)': 'english/NCE/NCE2/89_A_Slip_of_the_Tongue(口误).md'
+        - '90_What''s_for_Supper': 'english/NCE/NCE2/90_What''s_for_Supper.md'
+        - '91_Three_Men_in_a_Basket': 'english/NCE/NCE2/91_Three_Men_in_a_Basket.md'
+        - '92_Asking_for_Trouble': 'english/NCE/NCE2/92_Asking_for_Trouble.md'
+        - '93_A_Noble_Gift': 'english/NCE/NCE2/93_A_Noble_Gift.md'
+        - '94_Future_Champions': 'english/NCE/NCE2/94_Future_Champions.md'
+        - '95_A_Fantasy(幻想)': 'english/NCE/NCE2/95_A_Fantasy(幻想).md'
+        - '96_The_Dead_Return': 'english/NCE/NCE2/96_The_Dead_Return.md'
+      - NCE3:
+        - '01_A_Puma_at_Large': 'english/NCE/NCE3/01_A_Puma_at_Large.md'
+        - '02_Thirteen_Equals_One': 'english/NCE/NCE3/02_Thirteen_Equals_One.md'
+        - '03_An_Unknown_Goddess': 'english/NCE/NCE3/03_An_Unknown_Goddess.md'
+        - '04_The_Double_Life_of_Alfred_Bloggs': 'english/NCE/NCE3/04_The_Double_Life_of_Alfred_Bloggs.md'
+        - '05_The_Facts': 'english/NCE/NCE3/05_The_Facts.md'
+        - '06_Smash-and-Grab': 'english/NCE/NCE3/06_Smash-and-Grab.md'
+        - '07_Mutilated_Ladies': 'english/NCE/NCE3/07_Mutilated_Ladies.md'
+        - '08_A_Famous_Monastery': 'english/NCE/NCE3/08_A_Famous_Monastery.md'
+        - '09_Flying_Cats': 'english/NCE/NCE3/09_Flying_Cats.md'
+        - '10_The_Loss_of_the_Titanic': 'english/NCE/NCE3/10_The_Loss_of_the_Titanic.md'
+        - '11_Not_Guilty': 'english/NCE/NCE3/11_Not_Guilty.md'
+        - '12_Life_on_a_Desert_Island': 'english/NCE/NCE3/12_Life_on_a_Desert_Island.md'
+        - '13_It''s_Only_Me': 'english/NCE/NCE3/13_It''s_Only_Me.md'
+        - '14_A_Noble_Gangster': 'english/NCE/NCE3/14_A_Noble_Gangster.md'
+        - '15_Fifty_Pence_Worth_of_Trouble': 'english/NCE/NCE3/15_Fifty_Pence_Worth_of_Trouble.md'
+        - '16_Mary_Had_a_Little_Lamb': 'english/NCE/NCE3/16_Mary_Had_a_Little_Lamb.md'
+        - '17_The_Longest_Suspension_Bridge_in_the_World': 'english/NCE/NCE3/17_The_Longest_Suspension_Bridge_in_the_World.md'
+        - '18_Electric_Currents_in_Modern_Art': 'english/NCE/NCE3/18_Electric_Currents_in_Modern_Art.md'
+        - '19_A_Very_Dear_Cat': 'english/NCE/NCE3/19_A_Very_Dear_Cat.md'
+        - '20_Pioneer_Pilots': 'english/NCE/NCE3/20_Pioneer_Pilots.md'
+        - '21_Daniel_Mendoza': 'english/NCE/NCE3/21_Daniel_Mendoza.md'
+        - '22_By_Heart': 'english/NCE/NCE3/22_By_Heart.md'
+        - '23_One_Man''s_Meat_is_Another_Man''s_Poison': 'english/NCE/NCE3/23_One_Man''s_Meat_is_Another_Man''s_Poison.md'
+        - '24_A_Skeleton_in_the_Cupboard': 'english/NCE/NCE3/24_A_Skeleton_in_the_Cupboard.md'
+        - '25_The_Cutty_Sark': 'english/NCE/NCE3/25_The_Cutty_Sark.md'
+        - '26_Wanted_a_Large_Biscuit_Tin': 'english/NCE/NCE3/26_Wanted_a_Large_Biscuit_Tin.md'
+        - '27_Nothing_to_Sell_and_Nothing_to_Buy': 'english/NCE/NCE3/27_Nothing_to_Sell_and_Nothing_to_Buy.md'
+        - '28_Five_Pounds_Too_Dear': 'english/NCE/NCE3/28_Five_Pounds_Too_Dear.md'
+        - '29_Funny_or_Not': 'english/NCE/NCE3/29_Funny_or_Not.md'
+        - '30_The_Death_of_a_Ghost': 'english/NCE/NCE3/30_The_Death_of_a_Ghost.md'
+        - '31_A_Lovable_Eccentric': 'english/NCE/NCE3/31_A_Lovable_Eccentric.md'
+        - '32_A_Lost_Ship': 'english/NCE/NCE3/32_A_Lost_Ship.md'
+        - '33_A_Day_to_Remember': 'english/NCE/NCE3/33_A_Day_to_Remember.md'
+        - '34_A_Happy_Discovery': 'english/NCE/NCE3/34_A_Happy_Discovery.md'
+        - '35_Justice_was_Done': 'english/NCE/NCE3/35_Justice_was_Done.md'
+        - '36_A_Chance_in_a_Million': 'english/NCE/NCE3/36_A_Chance_in_a_Million.md'
+        - '37_The_Westhaven_Express': 'english/NCE/NCE3/37_The_Westhaven_Express.md'
+        - '38_The_First_Calendar': 'english/NCE/NCE3/38_The_First_Calendar.md'
+        - '39_Nothing_to_Worry_About': 'english/NCE/NCE3/39_Nothing_to_Worry_About.md'
+        - '40_Who''s_Who': 'english/NCE/NCE3/40_Who''s_Who.md'
+        - '41_Illusions_of_Pastoral_Peace': 'english/NCE/NCE3/41_Illusions_of_Pastoral_Peace.md'
+        - '42_Modern_Cavemen': 'english/NCE/NCE3/42_Modern_Cavemen.md'
+        - '43_Fully_Insured': 'english/NCE/NCE3/43_Fully_Insured.md'
+        - '44_Speed_and_Comfort': 'english/NCE/NCE3/44_Speed_and_Comfort.md'
+        - '45_The_Power_of_the_Press': 'english/NCE/NCE3/45_The_Power_of_the_Press.md'
+        - '46_Do_It_Yourself': 'english/NCE/NCE3/46_Do_It_Yourself.md'
+        - '47_Too_High_a_Price': 'english/NCE/NCE3/47_Too_High_a_Price.md'
+        - '48_The_Silent_Village': 'english/NCE/NCE3/48_The_Silent_Village.md'
+        - '49_The_Ideal_Servant': 'english/NCE/NCE3/49_The_Ideal_Servant.md'
+        - '50_New_Year_Resolutions': 'english/NCE/NCE3/50_New_Year_Resolutions.md'
+        - '51_Predicting_the_Future': 'english/NCE/NCE3/51_Predicting_the_Future.md'
+        - '52_Mud_is_Mud': 'english/NCE/NCE3/52_Mud_is_Mud.md'
+        - '53_In_the_Public_Interest': 'english/NCE/NCE3/53_In_the_Public_Interest.md'
+        - '54_Instinct_or_Cleverness': 'english/NCE/NCE3/54_Instinct_or_Cleverness.md'
+        - '55_From_the_Earth_Greetings': 'english/NCE/NCE3/55_From_the_Earth_Greetings.md'
+        - '56_Our_Neighbour,_the_River': 'english/NCE/NCE3/56_Our_Neighbour,_the_River.md'
+        - '57_Back_in_the_Old_Country': 'english/NCE/NCE3/57_Back_in_the_Old_Country.md'
+        - '58_A_Spot_of_Bother': 'english/NCE/NCE3/58_A_Spot_of_Bother.md'
+        - '59_Collecting': 'english/NCE/NCE3/59_Collecting.md'
+        - '60_Too_Early_and_Too_Late': 'english/NCE/NCE3/60_Too_Early_and_Too_Late.md'
+        - '语法标记': 'english/NCE/NCE3/语法标记.md'
       - 音频: 'english/NCE/player.md'
     - 语法:
       - '综述': 'english/grammar/综述.md'

@@ -1,0 +1,26 @@
+## Lesson 33 A fine day
+
+It is a fine day today.
+
+There are some clouds in the sky,
+
+but the sun is shining.
+
+Mr. Jones is with his family.
+
+They are walking over the bridge.
+
+There are some boats on the river.
+
+Mr. Jones and his wife are looking at them.
+
+Sally is looking at a big ship.
+
+The ship is going under the bridge.
+
+Tim is looking at an aeroplane.
+
+The aeroplane is flying over the river.
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/033034AFineDay.mp3"></audio>
+

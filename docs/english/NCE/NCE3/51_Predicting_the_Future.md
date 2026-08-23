@@ -1,0 +1,40 @@
+## 51 Predicting the Future
+
+​	Predicting the future is notoriously difficult. Who could have imagined, in the mid 1970s, for example, that by the end of the 20th century, computers would be as common in people's homes as TV sets? In the 1970s, computers were common enough, but only in big business, government departments and large organizations. These were the so-called mainframe machines. Mainframe computers were very large indeed often occupying whole air-conditioned rooms, employing full-time technicians and run on specially-written software. Though these large machines still exist, many of their functions have been taken over by small powerful personal computers, commonly known as PCs. In 1975, a primitive machine called the Altair, was launched in the USA. It can properly be described as the first 'home computer' and it pointed the way to the future. This was followed, at the end of the 1970s, by a machine called an Apple. In the early 1980s, the computer giant, IBM produced the world's first Personal Computer. This ran on an 'operating system' called DOS, produced by a then small company named Microsoft. The IBM Personal Computer was widely copied. From those humble beginnings, we have seen the development of the user-friendly home computers and multimedia machines which are in common use today.
+
+​	Considering how recent these developments are, it is even more remarkable that as long ago as the 1960s, an Englishman, Leon Bagrit, was able to predict some of the uses of computers which we know today. Bagrit dismissed the idea that computers would learn to 'think' for themselves and would 'rule the world', which people liked to believe in those days. Bagrit foresaw a time when computers would be small enough to hold in the hand, when they would be capable of providing information about traffic jams and suggesting alternative routes, when they would be used in hospitals to help doctors to diagnose illnesses, when they would relieve office workers and accountants of dull, repetitive clerical work. All these computer uses have become commonplace. Of course, Leon Bagrit couldn't possibly have foreseen the development of the Internet, the worldwide system that enables us to communicate instantly with anyone in any part of the world by using computers linked to telephone networks. Nor could he have foreseen how we could use the Internet to obtain information on every known subject, so we can read it on a screen in our homes and even print it as well if we want to. Computers have become smaller and smaller, more and more powerful and cheaper and cheaper. This is what makes Leon Bagrit's predictions particularly remarkable. If he, or someone like him, were alive today, he might be able to tell us what to expect in the next fifty years.
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE3/51PredictingtheFuture.mp3"></audio>
+
+### Words
+
+- notoriously /noˈtɔriəsli/ 众所周知地
+- mainframe /ˈmenˌfrem/ 主机
+- full-time /ˈfʊlˌtaɪm/ 专职的
+- technicians /tɛkˈnɪʃənz/ 技师
+- software /ˈsɔfˌtwɛr/ 软件
+- IBM /ˈaɪˌbiˌɛm/ 美国国际商用机器公司
+- DOS /dɔs/ 磁盘操作系统
+- Microsoft /ˈmaɪˌkroˈsɔft/ 微软公司
+- user-friendly /ˌjuzɚ ˈfrɛndlɪ/ 好用的
+- multimedia /ˌməltiˈmidiə/ 多媒体的
+- alternative /ɔlˈtɝnətɪv/ 替代的
+- diagnose /ˌdaɪəɡˈnos/ 诊断
+- relieve /rɪˈliv/ 减轻
+- accountants /əˈkaʊntənts/ 会计
+- repetitive /rɪˈpɛtɪtɪv/ 重复的
+- clerical /ˈklɛrəkəl/ 文书工作的
+- Internet /ˈɪntɚˌnɛt/ 互联网
+- networks /ˈnɛˌtwɝks/ 网络
+
+### Expressions
+
+- take over by 被……取代
+- commonly known as 通常被称为
+- point the way to 为……指明了方向
+- in common use 普遍使用
+- as long ago as 早在
+- be capable of doing sth. 能够做某事
+- enable sb. to do sth. 使某人能够做某事
+- be linked to 连接到
+

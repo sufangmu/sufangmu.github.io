@@ -1,0 +1,30 @@
+## Lesson 19 Tired and thirsty
+
+What's the matter children?
+
+We're tired ...
+
+... and thirsty Mum.
+
+Sit down here.
+
+Are you all right now?
+
+No we aren't.
+
+Look! There's an ice cream man.
+
+Two ice cream please.
+
+Here you are children.
+
+Thanks Mum.
+
+These ice creams are nice.
+
+Are you all right now?
+
+Yes we are thank you!
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/019020TiredandThirsty.mp3"></audio>
+

@@ -1,0 +1,59 @@
+## 77 A Successful Operation
+
+The mummy of an Egyptian woman (who died in 800 B.C.) has just had an operation.
+The mummy is that of Shepenmut (who was once a singer in the Temple of Thebes).
+As there were strange marks on the X-ray plates (taken of the mummy),
+doctors have been trying to find out whether the woman died of a rare disease.
+The only way to do this was to operate.
+The operation, which lasted for over four hours,
+proved to be very difficult because of the hard resin (which covered the skin).
+The doctors removed a section of the mummy and sent it to a laboratory.
+They also found something (which the X-ray plates did not show: a small wax figure of the god Duamutef).
+This god (which has the head of a cow) was normally placed inside a mummy.
+The doctors have not yet decided how the woman died.
+They feared that the mummy would fall to pieces when they cut it open,
+but fortunately this has not happened.
+The mummy successfully survived the operation.
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/77ASuccessfulOperation.mp3"></audio>
+
+### Words
+
+- Egyptian /ɪˈdʒɪpʃən/ 埃及的
+- Thebes /θibz/ 底比斯神庙
+- marks /mɑrks/ 斑点
+- plates /plets/ 底片
+- a /ə/ rare /rɛr/ disease /dɪˈziz/ 罕见病
+- lasted /ˈlæstəd/ 持续
+- proved /pruvd/ 证明
+- resin /ˈrɛzən/ 树脂
+- wax /wæks/ 蜡
+- figure /ˈfɪɡjɚ/ 人体
+- survived /sɚˈvaɪvd/ 幸存
+
+### 非限定性定语从句
+
+解释，补充，说明
+
+which:
+
+My mother, who is 50 this year, lives with me now.
+
+as:
+
+As they soon learnt, disguises can sometimes be too perfect.
+
+1. 指代整个完整句子
+
+2. 位置灵活: 前中后 (which只能放句尾)
+
+### Expressions
+
+- have a rare disease 得了一种罕见的病
+- a section of ... 一段；一节
+- prove to be adj. 证明是……的
+- have an operation 做手术
+- died of... 死于……
+- fall to pieces 散架；崩溃
+- cut it open 把它切开
+

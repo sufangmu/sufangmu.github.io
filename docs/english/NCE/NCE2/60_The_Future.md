@@ -1,0 +1,29 @@
+## 60 The Future
+
+At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.
+I went into her tent and she told me to sit down.
+After I had given her some money, she looked into a crystal ball and said:
+'A relation of yours is coming to see you.
+She will be arriving this evening and intends to stay for a few days.
+The moment you leave this tent, you will get a big surprise.
+A woman (you know well) will rush towards you.
+She will speak to you and then she will lead you away from this place. That is all.'
+As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.
+'Where have you been hiding?' she asked impatiently.
+'Your sister will be here in less than an hour and we must be at the station to meet her. We are late already.'
+As she walked away, I followed her out of the fair.
+
+<audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/60TheFuture.mp3"></audio>
+
+### Words
+
+- fair /fɛr/ 市集
+- fortune-teller /ˈfɔrtʃən ˌtɛlɚ/ 算命先生
+- tent /tɛnt/ 帐篷
+- crystal /ˈkrɪstəl/ 水晶的
+- impatiently /ˌɪmˈpeʃəntli/ 不耐烦地;
+
+### Expressions
+
+the moment = as soon as 主将从现
+
