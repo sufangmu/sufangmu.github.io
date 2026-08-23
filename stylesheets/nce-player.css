@@ -1,0 +1,81 @@
+/* NCE 嵌入式音频播放器样式 */
+.nce-player {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  margin: 12px 0;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  background: #f7f7f8;
+}
+
+.nce-player .nce-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #444;
+  flex: none;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nce-player .nce-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.nce-player .nce-btn-play {
+  font-size: 20px;
+}
+
+/* 模式按钮：顺序播放 / 循环播放（无特殊背景，与顺序播放一致） */
+.nce-player .nce-btn-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nce-player .nce-progress {
+  flex: 1;
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  min-width: 80px;
+}
+
+.nce-player .nce-progress-fill {
+  height: 100%;
+  width: 0;
+  background: #1a73e8;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.nce-player .nce-time {
+  font-size: 13px;
+  color: #666;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+/* 暗色主题 */
+[data-md-color-scheme="slate"] .nce-player {
+  background: #2a2a2e;
+  border-color: #444;
+}
+[data-md-color-scheme="slate"] .nce-player .nce-btn {
+  color: #ccc;
+}
+[data-md-color-scheme="slate"] .nce-player .nce-progress {
+  background: #555;
+}
+[data-md-color-scheme="slate"] .nce-player .nce-time {
+  color: #aaa;
+}
