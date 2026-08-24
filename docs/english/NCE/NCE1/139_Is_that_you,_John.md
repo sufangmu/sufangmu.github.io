@@ -26,3 +26,11 @@ No, I don't. I'm John Smith the telephone engineer and I'm repairing your teleph
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/139140IsThatYou,John.mp3"></audio>
 
+### Words
+
+- extra /ˈɛkstrə/ 额外的
+- overseas /ˌovɚˈsiz/ 海外的
+- engineering /ˌɛndʒəˈnɪrɪŋ/ 工程
+- company /ˈkʌmpəni/ 公司
+- line /laɪn/ 线路
+

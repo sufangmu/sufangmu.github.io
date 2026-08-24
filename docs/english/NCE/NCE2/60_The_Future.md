@@ -22,6 +22,7 @@ As she walked away, I followed her out of the fair.
 - tent /tɛnt/ 帐篷
 - crystal /ˈkrɪstəl/ 水晶的
 - impatiently /ˌɪmˈpeʃəntli/ 不耐烦地;
+- relation /rɪˈleʃən/ 亲戚
 
 ### Expressions
 

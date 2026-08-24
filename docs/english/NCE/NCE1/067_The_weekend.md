@@ -23,4 +23,20 @@ Friday, Saturday and Sunday in the country! Aren't you lucky!
 ### Words
 
 - greengrocer's /ˈɡrinˌɡrosɚz/ 果蔬零售商
+- absent /ˈæbsənt/ 缺席的
+- spend /spɛnd/ 度过；花费
+- lucky /ˈlʌki/ 幸运的
+- Monday /ˈmʌnde/ 星期一
+- Tuesday /ˈtuzde/ 星期二
+- Wednesday /ˈwɛnzde/ 星期三
+- Thursday /ˈθɝzde/ 星期四
+- Friday /ˈfraɪde/ 星期五
+- Saturday /ˈsætɚde/ 星期六
+- Sunday /ˈsʌnde/ 星期日
+- weekend /ˈwikˌɛnd/ 周末
+- country /ˈkʌntri/ 乡村
+- church /tʃɝtʃ/ 教堂
+- dairy /ˈdɛri/ 乳品店
+- baker /ˈbekɚ/ 面包师
+- grocer /ˈɡrosɚ/ 杂货商
 

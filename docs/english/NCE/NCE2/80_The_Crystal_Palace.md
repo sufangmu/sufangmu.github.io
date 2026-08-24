@@ -29,6 +29,8 @@ It remained one of the most famous buildings in the world until it was burnt dow
 - hammer /ˈhæmɚ/ 铁锤
 - profits /ˈprɑfɪts/ 盈利
 - burnt /bɝnt/ down /daʊn/ 烧成平地
+- display /dɪˈsple/ 展示
+- college /ˈkɑlɪdʒ/ 学院
 
 ### Expressions
 

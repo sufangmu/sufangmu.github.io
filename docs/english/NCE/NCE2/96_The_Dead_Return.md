@@ -20,6 +20,8 @@ stand on the shore watching the lanterns drifting away until they can be seen no
 
 - drift /drɪft/ 漂流
 - moving /ˈmuvɪŋ/ spectacle /ˈspɛktəkəl/ 动人的场面
+- festival /ˈfɛstəvəl/ 节日
+- lantern /ˈlæntɚn/ 灯笼
 
 ### Expressions
 

@@ -37,6 +37,7 @@ Who eats who?
 - plentiful /ˈplɛntəfəl/ 大量的
 - supply /səˈplaɪ/ 供应
 - crews /kruz/ 全体人员
+- chip /tʃɪp/ 炸薯条
 
 ### Expressions
 

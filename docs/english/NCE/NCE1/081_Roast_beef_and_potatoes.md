@@ -38,3 +38,16 @@ Well, you're going to have roast beef and potatoes again tonight!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/081082RoastBeefandPotatoes.mp3"></audio>
 
+### Words
+
+- bath /bæθ/ 洗澡
+- ready /ˈrɛdi/ 准备好的
+- nearly /ˈnɪrli/ 几乎
+- restaurant /ˈrɛstəˌrɑnt/ 餐馆
+- roast /rost/ 烤的
+- dinner /ˈdɪnɚ/ 晚餐
+- breakfast /ˈbrɛkfəst/ 早餐
+- haircut /ˈhɛrˌkʌt/ 理发
+- party /ˈpɑrti/ 聚会
+- holiday /ˈhɑləˌde/ 假期
+

@@ -17,6 +17,8 @@ It was stolen twenty years ago when Dan was a boy of fifteen!
 ### Words
 
 - amused /əˈmjuzd/ 有趣的
+- station /ˈsteʃən/ 警察局
+- most /most/ 非常
 
 ### 过去完成时被动
 

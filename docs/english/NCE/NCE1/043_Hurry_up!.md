@@ -32,3 +32,13 @@ Hurry up, Sam! The kettle's boiling!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/043044HurryUp.mp3"></audio>
 
+### Words
+
+- of course /əv kɔrs/ 当然
+- kettle /ˈkɛtl/ 水壶
+- behind /bɪˈhaɪnd/ 在……后面
+- teapot /ˈtiˌpɑt/ 茶壶
+- now /naʊ/ 现在
+- find /faɪnd/ 找到
+- boil /bɔɪl/ 沸腾
+

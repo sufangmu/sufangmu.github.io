@@ -16,6 +16,24 @@ but I did not write a single card!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/03PleaseSendMeaCard.mp3"></audio>
 
+### Words
+
+- postcard /ˈpostˌkɑrd/ 明信片
+- send /sɛnd/ 寄；送
+- sent /sɛnt/ 寄（过去式）
+- spoil /spɔɪl/ 破坏
+- lend /lɛnd/ 借出
+- lent /lɛnt/ 借出（过去式）
+- borrow /ˈbɑro/ 借入
+- decision /dɪˈsɪʒən/ 决定
+- museum /mjuˈziəm/ 博物馆
+- whole /hol/ 整个的
+- public /ˈpʌblɪk/ 公共的
+- friendly /ˈfrɛndli/ 友好的
+- waiter /ˈwetɚ/ 服务员
+- waitress /ˈwetrəs/ 女服务员
+- single /ˈsɪŋɡl/ 单一的
+
 ### Expressions
 
 - 

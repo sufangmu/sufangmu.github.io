@@ -17,3 +17,10 @@ It certainly is.He'll be her sixth husband!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/135136TheLatestReport.mp3"></audio>
 
+### Words
+
+- future /ˈfjutʃɚ/ 未来的
+- latest /ˈletɪst/ 最新的
+- introduce /ˌɪntrəˈdus/ 介绍
+- hotel /hoˈtɛl/ 旅馆
+

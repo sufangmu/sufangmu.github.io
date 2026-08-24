@@ -34,3 +34,13 @@ I want my change.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/059060IsThatAll.mp3"></audio>
 
+### Words
+
+- envelope /ˈɛnvəˌlop/ 信封
+- writing paper /ˈraɪtɪŋ ˈpepɚ/ 信纸
+- size /saɪz/ 尺寸
+- pad /pæd/ 便签本
+- glue /ɡlu/ 胶水
+- chalk /tʃɔk/ 粉笔
+- change /tʃendʒ/ 零钱
+

@@ -17,6 +17,15 @@ so he is finding this trip very exciting.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/04AnExcitingTrip.mp3"></audio>
 
+### Words
+
+- exciting /ɪkˈsaɪtɪŋ/ 令人兴奋的
+- receive /rɪˈsiv/ 收到
+- firm /fɝm/ 公司
+- different /ˈdɪfərənt/ 不同的
+- centre /ˈsɛntɚ/ 中心
+- abroad /əˈbrɔd/ 在国外
+
 ### Expressions
 
 - have a great trip 旅途愉快

@@ -6,7 +6,21 @@ I live in a very old town which is surrounded by beautiful woods. It is a famous
 
 ### Words
 
-- tyres /ˈtaɪɚz/ 轮胎
-- rusty /ˈrʌsti/ 生锈地
-- prosecuted /ˈprɑsɪˌkjutɪd/ 依法处置
+- surround /səˈraʊnd/ 环绕
+- wood /wʊd/ 树林
+- through /θru/ 穿过
+- beauty spot /ˈbjuti spɑt/ 风景点
+- visitor /ˈvɪzɪtɚ/ 游客
+- tidy /ˈtaɪdi/ 整洁的
+- litter /ˈlɪtɚ/ 垃圾
+- place /ples/ 放置
+- count /kaʊnt/ 数
+- cover /ˈkʌvɚ/ 覆盖
+- tyre /taɪr/ 轮胎
+- throw /θro/ 扔
+- threw /θru/ 扔（过去式）
+- rubbish /ˈrʌbɪʃ/ 垃圾
+- rusty /ˈrʌsti/ 生锈的
+- among /əˈmʌŋ/ 在……之中
+- prosecute /ˈprɑsəˌkjut/ 起诉
 

@@ -29,6 +29,10 @@ patches of green had begun to appear in the blackened soil.
 - In /ɪn/ place /ples/ of /ʌv/ 替代
 - patches /ˈpætʃəz/ 斑块
 - blackened /ˈblækənd/ 变黑
+- surrounding /səˈraʊndɪŋ/ 周围的
+- quantity /ˈkwɑntəti/ 数量
+- root /rut/ 根
+- century /ˈsɛntʃəri/ 世纪
 
 ### 过去完成进行时
 

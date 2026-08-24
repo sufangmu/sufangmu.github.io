@@ -31,4 +31,7 @@ She was right! It was!
 - notice /ˈnotəs/ 注意
 - critically /ˈkrɪtɪkəli/ 批判性地
 - down /daʊn/ 上下颠倒
+- art /ɑrt/ 艺术
+- whether /ˈwɛðɚ/ 是否
+- hang /hæŋ/ 悬挂
 

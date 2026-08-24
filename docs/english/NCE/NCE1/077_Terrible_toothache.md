@@ -25,3 +25,9 @@ I can wait, but my toothache can't!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/077078TerribleToothache.mp3"></audio>
 
+### Words
+
+- appointment /əˈpɔɪntmənt/ 预约
+- urgent /ˈɝdʒənt/ 紧急的
+- till /tɪl/ 直到
+

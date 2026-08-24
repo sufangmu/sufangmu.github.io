@@ -28,3 +28,11 @@ Just like London!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/085086ParisintheSpring.mp3"></audio>
 
+### Words
+
+- Paris /ˈpærɪs/ 巴黎
+- cinema /ˈsɪnəmə/ 电影院
+- film /fɪlm/ 电影
+- beautiful /ˈbjutəfəl/ 美丽的
+- city /ˈsɪti/ 城市
+

@@ -36,3 +36,15 @@ My wife didn't like it!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/123124ATriptoAustralia.mp3"></audio>
 
+### Words
+
+- during /ˈdʊrɪŋ/ 在……期间
+- trip /trɪp/ 旅行
+- travel /ˈtrævəl/ 旅行
+- offer /ˈɔfɚ/ 提供
+- job /dʒɑb/ 工作
+- grow /ɡro/ 生长；留
+- grew /ɡru/ 生长（过去式）
+- beard /bɪrd/ 胡须
+- kitten /ˈkɪtən/ 小猫
+

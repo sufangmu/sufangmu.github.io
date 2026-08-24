@@ -30,6 +30,9 @@ If they knew how difficult it was to drill through the hard rock, they would los
 - capsule /ˈkæpsəl/ 容器
 - beneath /bɪˈniθ/ 在下方
 - smoothly /ˈsmuðli/ 顺利地
+- layer /ˈleɚ/ 层
+- lower /ˈloɚ/ 降低
+- progress /ˈprɑɡrɛs/ 进展
 
 ### Expressions
 

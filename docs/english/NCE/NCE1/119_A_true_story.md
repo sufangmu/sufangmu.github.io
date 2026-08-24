@@ -6,3 +6,14 @@ they went into the dining room. It was very dark, so they turned on a torch. Sud
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/119120ATrueStory.mp3"></audio>
 
+### Words
+
+- story /ˈstɔri/ 故事
+- thief /θif/ 小偷
+- thieves /θivz/ 小偷（复数）
+- enter /ˈɛntɚ/ 进入
+- dark /dɑrk/ 黑暗的
+- torch /tɔrtʃ/ 手电筒
+- voice /vɔɪs/ 声音
+- parrot /ˈpærət/ 鹦鹉
+

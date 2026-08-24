@@ -24,6 +24,9 @@ The last note said: 'I am 100 per cent honest now!'
 - savings /ˈsevɪŋz/ 存款
 - villagers /ˈvɪlɪdʒɚz/ 村民
 - time /taɪm/ 最终
+- wallet /ˈwɑlɪt/ 钱包
+- conscience /ˈkɑnʃəns/ 良心
+- per cent /pɚ ˈsɛnt/ 百分之
 
 ### Expressions
 

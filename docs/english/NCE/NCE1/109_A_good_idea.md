@@ -34,3 +34,11 @@ That's very good advice!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/109110AGoodIdea.mp3"></audio>
 
+### Words
+
+- idea /aɪˈdiə/ 主意
+- teaspoonful /ˈtiˌspunˌfʊl/ 一茶匙的量
+- pity /ˈpɪti/ 遗憾
+- instead /ɪnˈstɛd/ 代替
+- advice /ədˈvaɪs/ 建议
+

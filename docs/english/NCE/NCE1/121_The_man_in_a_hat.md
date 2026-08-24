@@ -28,3 +28,13 @@ Yes. I recognize him now.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/121122TheManinaHat.mp3"></audio>
 
+### Words
+
+- customer /ˈkʌstəmɚ/ 顾客
+- forget /fɚˈɡɛt/ 忘记
+- forgot /fɚˈɡɑt/ 忘记（过去式）
+- manager /ˈmænɪdʒɚ/ 经理
+- serve /sɝv/ 服务；接待
+- counter /ˈkaʊntɚ/ 柜台
+- recognize /ˈrɛkəɡˌnaɪz/ 认出
+

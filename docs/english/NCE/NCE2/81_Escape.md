@@ -34,6 +34,9 @@ Then, jumping into the car, he drove off as quickly as he could.
 - stood /stʊd/ to /tu/ attention /əˈtɛnʃən/ 立正
 - saluted /səˈlutɪd/ 致敬
 - sharp /ʃɑrp/ blow /blo/ 猛击
+- shoulder /ˈʃoldɚ/ 肩膀
+- elderly /ˈɛldɚli/ 年长的
+- grey /ɡre/ 灰色的
 
 ### Expressions
 

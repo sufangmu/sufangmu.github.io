@@ -32,6 +32,7 @@ He himself has done it lots of times!
 - guiltily /ˈɡɪltɪlɪ/ 有罪地
 - satisfaction /ˌsætəsˈfækʃən/ 满意
 - delighted /dɪˈlaɪtəd/ 高兴的
+- entitle /ɪnˈtaɪtl/ 题名
 
 ### Expressions
 

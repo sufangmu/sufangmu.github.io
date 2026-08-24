@@ -28,6 +28,10 @@ This time it was the postman and he wanted me to sign for a registered letter!
 - doorknobs /ˈdurnɑbz/ 球形门拉手
 - loud /laʊd/ 大声的
 - letter /ˈlɛtɚ/ 挂号信
+- flour /flaʊr/ 面粉
+- mix /mɪks/ 混合
+- sign /saɪn/ 签字
+- register /ˈrɛdʒɪstɚ/ 登记
 
 ### Expressions
 

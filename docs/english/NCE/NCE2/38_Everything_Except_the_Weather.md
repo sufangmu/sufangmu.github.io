@@ -18,6 +18,10 @@ Harrison had thought of everything except the weather.
 ### Words
 
 - Mediterranean /ˌmɛdətɚˈeniən/ 地中海
+- complain /kəmˈplen/ 抱怨
+- continually /kənˈtɪnjuəli/ 不断地
+- bitterly /ˈbɪtɚli/ 极其
+- sunshine /ˈsʌnˌʃaɪn/ 阳光
 
 ### 过去完成时
 

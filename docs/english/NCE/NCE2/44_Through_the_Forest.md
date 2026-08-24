@@ -25,6 +25,11 @@ The men got such a fright that they dropped the bag and ran away.
 - strap /stræp/ 带子
 - possession /pəˈzɛʃən/ 拥有
 - mending /ˈmɛndɪŋ/ 修理
+- risk /rɪsk/ 风险
+- picnic /ˈpɪknɪk/ 野餐
+- breath /brɛθ/ 呼吸
+- edge /ɛdʒ/ 边缘
+- contents /ˈkɑntɛnts/ 内容
 
 ### Expressions
 

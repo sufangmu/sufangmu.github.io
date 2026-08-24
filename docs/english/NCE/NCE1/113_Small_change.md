@@ -34,5 +34,11 @@ So have I.
 
 ### Words
 
+- conductor /kənˈdʌktɚ/ 售票员
+- fare /fɛr/ 车费
+- passenger /ˈpæsəndʒɚ/ 乘客
+- change /tʃendʒ/ 零钱；找零
 - note /not/ 纸币
+- tramp /træmp/ 流浪汉
+- except /ɪkˈsɛpt/ 除……之外
 

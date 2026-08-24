@@ -23,4 +23,8 @@ When she woke up a day later, she found herself in hospital.
 - shore /ʃɔr/ 岸
 - cliffs /klɪfs/ 悬崖
 - struggled /ˈstrʌɡəld/ 挣扎
+- explain /ɪkˈsplen/ 解释
+- light /laɪt/ 光
+- ahead /əˈhɛd/ 在前面
+- hospital /ˈhɑspɪtl/ 医院
 

@@ -21,6 +21,10 @@ I am only interested in sitting in a boat and doing nothing at all!
 
 - boots /buts/ 靴子
 - rubbish /ˈrʌbɪʃ/ 垃圾
+- catch /kætʃ/ 捕获
+- fisherman /ˈfɪʃɚmən/ 渔夫
+- waste /west/ 浪费
+- realize /ˈriəˌlaɪz/ 意识到
 
 ### Expressions
 

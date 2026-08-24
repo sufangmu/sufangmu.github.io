@@ -18,6 +18,8 @@ Everybody says I must be mad and they are probably right.
 - mad /mæd/ 疯了
 - Over /ˈovɚ/ 超过
 - determined /dɪˈtɝmənd/ 下决心
+- reason /ˈrizən/ 原因
+- sum /sʌm/ 金额
 
 ### Expressions
 

@@ -28,6 +28,8 @@ He looked very angry.
 - sheriff /ˈʃɛrəf/ 警长
 - notice /ˈnotəs/ 通知
 - sneer /snɪr/ 嘲笑
+- limelight /ˈlaɪmˌlaɪt/ 聚光灯
+- fan /fæn/ 粉丝
 
 ### Expressions
 

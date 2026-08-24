@@ -30,6 +30,9 @@ A colony of( bees had turned the engine into a hive and it was totally preserved
 - hive /haɪv/ 蜂巢
 - preserved /prəˈzɝvd/ 保藏
 - beeswax /ˈbizwæks/ 蜂蜡
+- remote /rɪˈmot/ 遥远的
+- restore /rɪˈstɔr/ 修复
+- colony /ˈkɑləni/ 群体
 
 ### Expressions
 

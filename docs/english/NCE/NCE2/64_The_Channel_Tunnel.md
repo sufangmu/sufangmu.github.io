@@ -27,6 +27,10 @@ It was officially opened on March 7, 1994, finally connecting Britain to the Eur
 - invasion /ˌɪnˈveʒən/ 侵略
 - officially /əˈfɪʃəli/ 正式地
 - continent /ˈkɑntənənt/ 洲, 大陆
+- tunnel /ˈtʌnl/ 隧道
+- port /pɔrt/ 港口
+- double /ˈdʌbl/ 双的
+- connect /kəˈnɛkt/ 连接
 
 ### 虚拟语气
 

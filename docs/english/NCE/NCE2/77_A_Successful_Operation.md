@@ -30,6 +30,10 @@ The mummy successfully survived the operation.
 - wax /wæks/ 蜡
 - figure /ˈfɪɡjɚ/ 人体
 - survived /sɚˈvaɪvd/ 幸存
+- mummy /ˈmʌmi/ 木乃伊
+- temple /ˈtɛmpl/ 神庙
+- skin /skɪn/ 皮肤
+- section /ˈsɛkʃən/ 部分
 
 ### 非限定性定语从句
 

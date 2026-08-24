@@ -15,4 +15,9 @@ v. + of/from/in/on...
 ### Words
 
 - regularly /ˈrɛɡjəlɚli/ 规律地
+- dream /drim/ 梦想
+- age /edʒ/ 年龄
+- channel /ˈtʃænl/ 海峡
+- throw /θro/ 扔
+- threw /θru/ 扔（过去式）
 

@@ -20,6 +20,11 @@ We are all very excited and are looking forward to the Olympic Games because the
 - As /æz/ 因为
 - immense /ˌɪˈmɛns/ 巨大的
 - capital /ˈkæpətəl/ 首都
+- Olympic /oˈlɪmpɪk/ 奥林匹克
+- government /ˈɡʌvɚnmənt/ 政府
+- stadium /ˈstediəm/ 体育场
+- design /dɪˈzaɪn/ 设计
+- standard /ˈstændɚd/ 标准
 
 ### Expressions
 

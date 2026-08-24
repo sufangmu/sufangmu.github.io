@@ -24,6 +24,10 @@ Millionaires don't buy things on instalments!
 
 ### Words
 
+- model /ˈmɑdl/ 型号；样式
 - instalments /ɪnˈstɔlmənts/ 分期付款
+- afford /əˈfɔrd/ 负担得起
+- price /praɪs/ 价格
 - deposit /dəˈpɑzɪt/ 定金
+- millionaire /ˌmɪljəˈnɛr/ 百万富翁
 

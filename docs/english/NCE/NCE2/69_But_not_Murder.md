@@ -25,6 +25,9 @@ The examiner looked at me sadly.
 - react /riˈækt/ 反应
 - pedal /ˈpɛdəl/ 刹车踏板
 - mournful /ˈmɔrnfəl/ 令人伤心的
+- instruct /ɪnˈstrʌkt/ 指示
+- acquire /əˈkwaɪr/ 获得
+- brake /brek/ 刹车
 
 ### having been done
 

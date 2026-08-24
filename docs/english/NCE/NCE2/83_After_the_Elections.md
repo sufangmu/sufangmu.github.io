@@ -26,6 +26,7 @@ He has retired from political life and gone to live abroad!'
 - Radical /ˈrædəkəl/ 激进的
 - Progressive /prəˈɡrɛsɪv/ 进步的
 - suspicious /səˈspɪʃəs/ 表示怀疑的
+- defeat /dɪˈfit/ 击败
 
 ### Expressions
 

@@ -20,6 +20,10 @@ Among them will be Debbie's mother, who swam the Channel herself when she was a 
 - as /æz/ 当
 - intends /ˌɪnˈtɛndz/ 打算
 - Among /əˈmʌŋ/ 在...中间
+- record /ˈrɛkɚd/ 纪录
+- swimmer /ˈswɪmɚ/ 游泳者
+- solid /ˈsɑlɪd/ 固体的
+- succeed /səkˈsid/ 成功
 
 ### Expressions
 

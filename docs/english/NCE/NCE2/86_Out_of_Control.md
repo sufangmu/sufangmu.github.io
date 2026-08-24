@@ -35,6 +35,7 @@ Before long(=soon), the noise dropped completely and the boat began to drift gen
 - been /bɪn/ used /juzd/ up /ʌp/ 用光
 - drift /drɪft/ 漂流
 - gently /ˈdʒɛntli/ 轻轻地
+- companion /kəmˈpænjən/ 同伴
 
 ### Expressions
 

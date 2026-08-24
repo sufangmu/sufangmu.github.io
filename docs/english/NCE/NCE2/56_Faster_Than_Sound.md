@@ -23,6 +23,8 @@ It was very different from modern car races but no less exciting.
 - on /ɑn/ the /ðə/ course /kɔrs/ 道路
 - rivals /ˈraɪvəlz/ 竞争对手
 - downhill /ˈdaʊnˈhɪl/ 下坡
+- wheel /wil/ 车轮
+- speed /spid/ 速度
 
 ### Expressions
 

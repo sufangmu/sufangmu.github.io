@@ -28,6 +28,7 @@ I prefer to stay on the bus,' I answered.
 - went /wɛnt/ on /ɑn/ an /æn/ excursion /ɪkˈskɝʒən/ 远足,短途旅行
 - conductor /kənˈdʌktɚ/ 售票员,指挥
 - shock /ʃɑk/ 震惊
+- view /vju/ 景色
 
 ### Expressions
 

@@ -30,3 +30,15 @@ Well, it's certainly not for me!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/041042Penny'sBag.mp3"></audio>
 
+### Words
+
+- cheese /tʃiz/ 奶酪
+- bread /brɛd/ 面包
+- soap /sop/ 肥皂
+- chocolate /ˈtʃɔklət/ 巧克力
+- sugar /ˈʃʊɡɚ/ 糖
+- coffee /ˈkɔfi/ 咖啡
+- tea /ti/ 茶
+- tobacco /təˈbæko/ 烟草
+- bird /bɝd/ 鸟
+

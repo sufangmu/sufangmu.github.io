@@ -25,6 +25,7 @@ Such creatures have rarely been seen alive by man as they live at a depth of six
 - ordinary /ˈɔrdəˌnɛri/ 普通的
 - shining /ˈʃaɪnɪŋ/ 光亮的
 - silver /ˈsɪlvɚ/ 银
+- oarfish /ˈɔrˌfɪʃ/ 皇带鱼
 
 ### Expressions
 

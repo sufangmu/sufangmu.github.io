@@ -20,6 +20,8 @@ she always answers, 'Darling, it must be terrible to be grown up!'
 - play /ple/ 话剧
 - stockings /ˈstɑkɪŋz/ 长筒袜
 - socks /sɑks/ 短袜
+- stage /stedʒ/ 舞台
+- bright /braɪt/ 鲜艳的
 
 ### 情态动词
 

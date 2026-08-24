@@ -16,4 +16,6 @@ In a few minutes he returned with my bag and gave it back to me.
 
 - As /æz/ 当
 - landlord /ˈlændˌlɔrd/ 店主
+- pub /pʌb/ 酒吧
+- bill /bɪl/ 账单
 

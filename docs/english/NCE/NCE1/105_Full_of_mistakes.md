@@ -24,3 +24,14 @@ It's a dictionary. I hope it'll help you.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/105106FullofMistakes.mp3"></audio>
 
+### Words
+
+- spell /spɛl/ 拼写
+- spelt /spɛlt/ 拼写（过去式）
+- intelligent /ɪnˈtɛlədʒənt/ 聪明的
+- mistake /mɪˈstek/ 错误
+- present /ˈprɛzənt/ 礼物
+- dictionary /ˈdɪkʃəˌnɛri/ 词典
+- carry /ˈkæri/ 携带
+- correct /kəˈrɛkt/ 正确的
+

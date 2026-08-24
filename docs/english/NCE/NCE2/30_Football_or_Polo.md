@@ -19,6 +19,8 @@ He called out to the children and threw the ball back to the bank.
 - rowing /ˈroɪŋ/ 划船
 - kicked /kɪkt/ 踢
 - struck /strʌk/ 打击
+- towards /təˈwɔrdz/ 朝
+- sight /saɪt/ 视线
 
 ### Expressions
 

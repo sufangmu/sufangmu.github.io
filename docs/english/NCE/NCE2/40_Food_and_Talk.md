@@ -26,6 +26,8 @@ In despair, I asked her whether she was enjoying her dinner.
 - fixed /fɪkst/ 凝视
 - plate /plet/ 盘子
 - despair /dɪˈspɛr/ 绝望
+- hostess /ˈhostəs/ 女主人
+- unsmiling /ʌnˈsmaɪlɪŋ/ 不笑的
 
 ### 虚拟语气
 

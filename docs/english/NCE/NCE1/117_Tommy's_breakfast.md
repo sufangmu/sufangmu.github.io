@@ -4,3 +4,11 @@ When my husband was going into the dining room this morning, he dropped some coi
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/117118Tommy'sBreakfast.mp3"></audio>
 
+### Words
+
+- dining room /ˈdaɪnɪŋ rum/ 餐厅
+- coin /kɔɪn/ 硬币
+- mouth /maʊθ/ 嘴
+- swallow /ˈswɑlo/ 吞下
+- toilet /ˈtɔɪlɪt/ 厕所
+

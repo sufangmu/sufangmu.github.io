@@ -19,6 +19,7 @@ But none of them has been turned to stone yet!
 - ancient /ˈentʃənt/ 古代的
 - myths /mɪθs/ 神话
 - effect /ɪˈfɛkt/ 效果
+- trouble /ˈtrʌbl/ 麻烦
 
 ### 定语从句
 

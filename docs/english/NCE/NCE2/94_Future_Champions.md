@@ -27,6 +27,9 @@ Meanwhile, they should encourage those among us (who cannot swim five yards befo
 - champions /ˈtʃæmpiənz/ 冠军
 - among /əˈmʌŋ/ 在…中间
 - gasping /ˈɡæspɪŋ/ 喘气
+- weight /wet/ 重量
+- underwater /ˈʌndɚˌwɔtɚ/ 水下的
+- yard /jɑrd/ 码
 
 ### Expressions
 

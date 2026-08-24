@@ -27,6 +27,10 @@ for the millions of people who have passed through New York Harbour to make thei
 - pedestal /ˈpɛdəstəl/ 基座
 - erected /ɪˈrɛktəd/ 竖立
 - homes /homz/ 安家
+- support /səˈpɔrt/ 支撑
+- framework /ˈfremˌwɝk/ 框架
+- transport /ˈtrænspɔrt/ 运输
+- site /saɪt/ 地点
 
 ### Expressions
 

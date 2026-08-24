@@ -18,3 +18,9 @@ Don't be so sure. We might not go anywhere. My wife always worries too much. Who
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/131132Don'tbeSoSure.mp3"></audio>
 
+### Words
+
+- Egypt /ˈidʒɪpt/ 埃及
+- abroad /əˈbrɔd/ 出国
+- worry /ˈwɝi/ 担心
+

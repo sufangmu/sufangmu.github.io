@@ -26,6 +26,9 @@ It broke down at Ferngreen station and was taken off the line.'
 - employer /ɛmˈplɔɪɚ/ 雇主
 - on /ɑn/ time /taɪm/ 准时
 - suggest /səˈdʒɛst/ 提醒
+- alibi /ˈæləˌbaɪ/ 不在场证明
+- confirm /kənˈfɝm/ 确认
+- truth /truθ/ 真相
 
 ### Expressions
 

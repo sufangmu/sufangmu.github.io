@@ -16,6 +16,11 @@ and always asks for a meal and a glass of beer.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/06PercyButtons.mp3"></audio>
 
+### Words
+
+- beggar /ˈbɛɡɚ/ 乞丐
+- pocket /ˈpɑkɪt/ 口袋
+
 ### Expressions
 
 - pocket money 零用钱

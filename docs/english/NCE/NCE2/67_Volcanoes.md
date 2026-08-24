@@ -25,6 +25,9 @@ He has been able to tell us more about active volcanoes than any man alive.
 - rock /rɑk/ 岩石
 - escape /ɪˈskep/ 逃脱
 - measure /ˈmɛʒɚ/ 测量
+- active /ˈæktɪv/ 活跃的
+- manage /ˈmænɪdʒ/ 设法做到
+- alive /əˈlaɪv/ 活着的
 
 ### managed to do sth.
 

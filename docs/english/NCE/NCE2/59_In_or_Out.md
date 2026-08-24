@@ -20,6 +20,11 @@ Yesterday my husband removed the gate and Rex got so annoyed (that) we have not 
 - paw /pɔ/ 爪子
 - latch /lætʃ/ 门闩
 - annoyed /əˈnɔɪd/ 恼怒的；烦闷的
+- press /prɛs/ 按
+- develop /dɪˈvɛləp/ 养成
+- habit /ˈhæbɪt/ 习惯
+- remove /rɪˈmuv/ 移除
+- expert /ˈɛkspɝt/ 专家
 
 ### 目的状语从句
 

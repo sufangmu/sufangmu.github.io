@@ -4,3 +4,18 @@ Nigel is our new next-door neighbour. He's a pilot. He was in the R.A.F. He will
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/093094OurNewNeighbour.mp3"></audio>
 
+### Words
+
+- pilot /ˈpaɪlət/ 飞行员
+- return /rɪˈtɝn/ 返回
+- New York /ˌnju ˈjɔrk/ 纽约
+- Tokyo /ˈtokiˌo/ 东京
+- Madrid /məˈdrɪd/ 马德里
+- fly /flaɪ/ 飞
+- flew /flu/ 飞（过去式）
+- Athens /ˈæθənz/ 雅典
+- Berlin /bɝˈlɪn/ 柏林
+- Geneva /dʒəˈnivə/ 日内瓦
+- Moscow /ˈmɑsko/ 莫斯科
+- Rome /rom/ 罗马
+

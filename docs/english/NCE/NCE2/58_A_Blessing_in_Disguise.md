@@ -26,6 +26,11 @@ So far, not one of them has been struck down by sudden death!
 - victims /ˈvɪktəmz/ 受害者
 - vicar /ˈvɪkɚ/ 教堂牧师
 - struck /strʌk/ down /daʊn/ 杀死
+- tiny /ˈtaɪni/ 微小的
+- increase /ɪnˈkris/ 增加
+- plant /plænt/ 种植
+- source /sɔrs/ 来源
+- income /ˈɪnˌkʌm/ 收入
 
 ### Expressions
 

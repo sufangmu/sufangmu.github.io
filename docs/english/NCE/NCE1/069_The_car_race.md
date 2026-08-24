@@ -7,3 +7,18 @@ He was in car number fifteen. Five other cars were just behind him. On the way h
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/069070TheCarRace.mp3"></audio>
 
+### Words
+
+- year /jɪr/ 年
+- race /res/ 比赛；赛跑
+- town /taʊn/ 城镇
+- crowd /kraʊd/ 人群
+- stand /stænd/ 站
+- exciting /ɪkˈsaɪtɪŋ/ 令人兴奋的
+- behind /bɪˈhaɪnd/ 在……后面
+- finish /ˈfɪnɪʃ/ 终点
+- winner /ˈwɪnɚ/ 获胜者
+- just /dʒʌst/ 正好；刚刚
+- way /we/ 路
+- stationer /ˈsteʃənɚ/ 文具商
+

@@ -25,6 +25,7 @@ The English understand each other, but I don't understand them!
 - several /ˈsɛvrəl/ 几个
 - foreigner /ˈfɔrənɚ/ 外国人
 - wonder /ˈwʌndɚ/ 惊讶
+- railway /ˈrelˌwe/ 铁路
 
 ### 并列连词
 

@@ -25,6 +25,8 @@ The girl 'gave' her mother a free dress once a week!
 - handed /ˈhændəd/ 递
 - wrapped /ræpt/ 包起来
 - arrested /əˈrɛstɪd/ 逮捕
+- simply /ˈsɪmpli/ 仅仅
+- once /wʌns/ 曾经
 
 ### as…as
 

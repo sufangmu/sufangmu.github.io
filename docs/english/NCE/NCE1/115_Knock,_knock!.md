@@ -30,3 +30,17 @@ Don't believe her, Jim. She's only joking. Have some beer!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/115116Knock,Knock.mp3"></audio>
 
+### Words
+
+- knock /nɑk/ 敲
+- quiet /ˈkwaɪət/ 安静的
+- impossible /ɪmˈpɑsəbl/ 不可能的
+- invite /ɪnˈvaɪt/ 邀请
+- lemonade /ˌlɛməˈned/ 柠檬水
+- joke /dʒok/ 开玩笑
+- anything /ˈɛniˌθɪŋ/ 任何东西
+- nothing /ˈnʌθɪŋ/ 没有东西
+- everything /ˈɛvriˌθɪŋ/ 一切
+- asleep /əˈslip/ 睡着的
+- glasses /ˈɡlæsəz/ 眼镜
+

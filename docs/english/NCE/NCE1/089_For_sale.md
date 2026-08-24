@@ -34,3 +34,17 @@ Women always have the last word.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/089090ForSale.mp3"></audio>
 
+### Words
+
+- believe /bɪˈliv/ 相信
+- may /me/ 可以
+- why /waɪ/ 为什么
+- because /bɪˈkɔz/ 因为
+- sell /sɛl/ 卖
+- sold /sold/ 卖（过去式）
+- retire /rɪˈtaɪr/ 退休
+- cost /kɔst/ 花费
+- pound /paʊnd/ 英镑
+- penny /ˈpɛni/ 便士
+- worth /wɝθ/ 值得
+

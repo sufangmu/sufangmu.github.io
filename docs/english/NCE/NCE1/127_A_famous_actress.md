@@ -26,3 +26,10 @@ Not that long ago! I'm not more than twenty-nine myself.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/127128AFamousActress.mp3"></audio>
 
+### Words
+
+- famous /ˈfeməs/ 著名的
+- actress /ˈæktrəs/ 女演员
+- read /rid/ 读
+- actor /ˈæktɚ/ 男演员
+

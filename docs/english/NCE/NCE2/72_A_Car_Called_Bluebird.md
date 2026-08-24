@@ -20,6 +20,8 @@ Like his father, he was driving a car called Bluebird.
 - tyre /taɪr/ 轮胎
 - burst /bɝst/ 爆炸
 - attempt /əˈtɛmpt/ 尝试
+- horsepower /ˈhɔrsˌpaʊɚ/ 马力
+- average /ˈævərɪdʒ/ 平均的
 
 ### Expressions
 

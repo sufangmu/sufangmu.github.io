@@ -26,6 +26,7 @@ Fortunately, the shouting woke up my wife, who opened the window just as the pol
 - ladder /ˈlædɚ/ 梯子
 - shed /ʃɛd/ 棚
 - sarcastic /sɑrˈkæstɪk/ 讽刺的
+- tone /ton/ 语气
 
 ### Expressions
 

@@ -30,6 +30,11 @@ In spite of this, many people are confident that 'The Revealer' may reveal somet
 - tin /tɪn/ 锡
 - trunk /trʌŋk/ 衣箱
 - fairly /ˈfɛrli/ 相当地
+- invent /ɪnˈvɛnt/ 发明
+- detect /dɪˈtɛkt/ 探测
+- confident /ˈkɑnfədənt/ 自信的
+- value /ˈvælju/ 价值
+- worthless /ˈwɝθləs/ 无价值的
 
 ### would do vs. used to do
 

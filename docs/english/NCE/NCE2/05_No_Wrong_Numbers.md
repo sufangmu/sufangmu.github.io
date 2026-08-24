@@ -17,6 +17,13 @@ In this way, he has begun his own private 'telephone' service.
 
 - garage /ɡəˈrɑʒ/ 车库
 - pigeons /ˈpɪdʒənz/ 鸽子
+- message /ˈmɛsɪdʒ/ 信息
+- cover /ˈkʌvɚ/ 覆盖；走完
+- distance /ˈdɪstəns/ 距离
+- spare /spɛr/ 备用的
+- part /pɑrt/ 零件
+- service /ˈsɝvɪs/ 服务
+- request /rɪˈkwɛst/ 请求
 
 ### Expressions
 

@@ -24,4 +24,9 @@ they will not accept the pub even if he gives it away.
 - blocked /blɑkt/ 阻挡
 - furniture /ˈfɝnɪtʃɚ/ 家具
 - shook /ʃʊk/ shake, 摇
+- thirsty /ˈθɝsti/ 渴的
+- whisky /ˈwɪski/ 威士忌
+- ghost /ɡost/ 鬼
+- suggest /səˈdʒɛst/ 建议
+- accept /əkˈsɛpt/ 接受
 

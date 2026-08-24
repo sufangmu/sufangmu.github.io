@@ -30,3 +30,14 @@ I can't read it! The boss's handwriting is terrible!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/045046TheBoss'sLetter.mp3"></audio>
 
+### Words
+
+- boss /bɔs/ 老板
+- minute /ˈmɪnɪt/ 分钟
+- ask /æsk/ 问
+- handwriting /ˈhændˌraɪtɪŋ/ 笔迹
+- terrible /ˈtɛrəbl/ 糟糕的
+- lift /lɪft/ 提起；举起
+- cake /kek/ 蛋糕
+- biscuit /ˈbɪskɪt/ 饼干
+

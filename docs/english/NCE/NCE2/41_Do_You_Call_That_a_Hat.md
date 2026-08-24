@@ -21,6 +21,10 @@ My wife was wearing a hat that looked like a lighthouse!
 - holes /holz/ 洞
 - regretted /rɪˈɡrɛtɪd/ 后悔
 - lighthouse /ˈlaɪtˌhaʊs/ 灯塔
+- rude /rud/ 粗鲁的
+- mirror /ˈmɪrɚ/ 镜子
+- remind /rɪˈmaɪnd/ 提醒
+- remark /rɪˈmɑrk/ 评论
 
 ### Expressions
 

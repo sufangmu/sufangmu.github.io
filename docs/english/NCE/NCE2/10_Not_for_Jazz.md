@@ -18,6 +18,16 @@ It **is being repaired** by a friend of my father's.
 ### Words
 
 - clavichord /ˈklævəˌkɔrd/ 古钢琴
+- jazz /dʒæz/ 爵士乐
+- musical /ˈmjuzɪkl/ 音乐的
+- instrument /ˈɪnstrəmənt/ 乐器
+- damage /ˈdæmɪdʒ/ 损坏
+- recently /ˈrisəntli/ 最近
+- key /ki/ 琴键
+- string /strɪŋ/ 弦
+- shock /ʃɑk/ 使震惊
+- allow /əˈlaʊ/ 允许
+- touch /tʌtʃ/ 触摸
 
 ### Expressions
 

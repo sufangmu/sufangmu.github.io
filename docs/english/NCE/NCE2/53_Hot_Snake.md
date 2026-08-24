@@ -28,4 +28,7 @@ When it did so, it sent sparks down to the ground and these immediately started 
 - solve /sɑlv/ the /ðə/ mystery /ˈmɪstɚi/ 迷
 - snatched /snætʃt/ 抓
 - sparks /spɑrks/ 火花
+- fireman /ˈfaɪrmən/ 消防员
+- cause /kɔz/ 原因
+- volt /volt/ 伏特
 

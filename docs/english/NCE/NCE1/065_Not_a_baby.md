@@ -28,3 +28,12 @@ We always enjoy ourselves, Mum. Bye-bye.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/065066NotaBaby.mp3"></audio>
 
+### Words
+
+- Dad /dæd/ 爸爸
+- Mum /mʌm/ 妈妈
+- key /ki/ 钥匙
+- baby /ˈbebi/ 婴儿
+- hear /hɪr/ 听见
+- enjoy yourself /ɪnˌdʒɔɪ jɔrˈsɛlf/ 玩得开心
+

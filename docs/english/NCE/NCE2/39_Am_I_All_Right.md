@@ -19,6 +19,10 @@ Then Dr. Millington asked the caller if he was a relative of the patient.
 - day /de/ 第二天
 - certain /ˈsɝtən/ 某个
 - relative /ˈrɛlətɪv/ 亲戚
+- operation /ˌɑpəˈreʃən/ 手术
+- successful /səkˈsɛsfəl/ 成功的
+- patient /ˈpeʃənt/ 病人
+- alone /əˈlon/ 独自
 
 ### Expressions
 

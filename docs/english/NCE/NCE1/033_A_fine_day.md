@@ -24,3 +24,27 @@ The aeroplane is flying over the river.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/033034AFineDay.mp3"></audio>
 
+### Words
+
+- fly /flaɪ/ 飞
+- day /de/ 天
+- sky /skaɪ/ 天空
+- cloud /klaʊd/ 云
+- sun /sʌn/ 太阳
+- shine /ʃaɪn/ 照耀
+- with /wɪð/ 和……一起
+- family /ˈfæməli/ 家庭
+- walk /wɔk/ 走
+- over /ˈovɚ/ 在……上方
+- bridge /brɪdʒ/ 桥
+- boat /bot/ 船
+- river /ˈrɪvɚ/ 河
+- ship /ʃɪp/ 轮船
+- aeroplane /ˈɛrəˌplen/ 飞机
+- sleep /slip/ 睡觉
+- shave /ʃev/ 刮脸
+- cry /kraɪ/ 哭
+- wash /wɑʃ/ 洗
+- wait /wet/ 等
+- jump /dʒʌmp/ 跳
+

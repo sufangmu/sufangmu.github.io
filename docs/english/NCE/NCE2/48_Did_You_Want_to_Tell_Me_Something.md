@@ -20,4 +20,7 @@ I was able to tell him that he had pulled out the wrong tooth.
 - match /mætʃ/ 火柴
 - nodded /ˈnɑdəd/ 点头
 - tongue /tʌŋ/ 舌头
+- pull /pʊl/ 拔
+- meanwhile /ˈminˌwaɪl/ 与此同时
+- collect /kəˈlɛkt/ 收集
 

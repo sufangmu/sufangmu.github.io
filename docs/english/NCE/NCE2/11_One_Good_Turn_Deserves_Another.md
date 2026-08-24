@@ -14,6 +14,15 @@ Tony said, 'so now you can pay for my dinner!'
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/11OneGoodTurnDeservesAnother.mp3"></audio>
 
+### Words
+
+- turn /tɝn/ 轮到
+- deserve /dɪˈzɝv/ 应得
+- lawyer /ˈlɔɪɚ/ 律师
+- salary /ˈsæləri/ 薪水
+- bank /bæŋk/ 银行
+- immediately /ɪˈmidiətli/ 立刻
+
 ###  Expressions
 
 - One Good Turn Deserves Another 礼尚往来

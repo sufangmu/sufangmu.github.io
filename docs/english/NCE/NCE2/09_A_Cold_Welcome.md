@@ -19,6 +19,16 @@ At that moment, everybody began to laugh and sing.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/09AColdWelcome.mp3"></audio>
 
+### Words
+
+- welcome /ˈwɛlkəm/ 欢迎
+- crowd /kraʊd/ 人群
+- gather /ˈɡæðɚ/ 聚集
+- hand /hænd/ 指针
+- refuse /rɪˈfjuz/ 拒绝
+- shout /ʃaʊt/ 喊叫
+- laugh /læf/ 笑
+
 ### Expressions
 
 - second hand; minute hand; hour hand -秒针；分针；时针

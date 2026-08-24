@@ -30,3 +30,13 @@ No, he didn't want to leave, but his wife did!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/091092PoorIan.mp3"></audio>
 
+### Words
+
+- still /stɪl/ 仍然
+- move /muv/ 搬家
+- miss /mɪs/ 想念
+- neighbour /ˈnebɚ/ 邻居
+- person /ˈpɝsən/ 人
+- people /ˈpipl/ 人们
+- poor /pʊr/ 可怜的
+

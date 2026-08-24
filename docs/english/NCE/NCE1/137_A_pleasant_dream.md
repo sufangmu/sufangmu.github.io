@@ -20,3 +20,13 @@ It's a pleasant dream but everything depends on 'if' !
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/137138APleasantDream.mp3"></audio>
 
+### Words
+
+- football /ˈfʊtˌbɔl/ 足球
+- pool /pul/ 赌注；池
+- win /wɪn/ 赢
+- won /wʌn/ 赢（过去式）
+- world /wɝld/ 世界
+- poor /pʊr/ 贫穷的
+- depend /dɪˈpɛnd/ 依赖
+

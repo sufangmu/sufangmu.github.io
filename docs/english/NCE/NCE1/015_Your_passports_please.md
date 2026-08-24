@@ -34,3 +34,27 @@ Thank you very much.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please.mp3"></audio>
 
+### Words
+
+- customs /ˈkʌstəmz/ 海关
+- officer /ˈɔfəsɚ/ 官员；职员
+- Danish /ˈdenɪʃ/ 丹麦的；丹麦语
+- Denmark /ˈdɛnmɑrk/ 丹麦
+- Norwegian /nɔrˈwidʒən/ 挪威的；挪威语
+- Norway /ˈnɔrwe/ 挪威
+- passport /ˈpæsˌpɔrt/ 护照
+- brown /braʊn/ 棕色的
+- tourist /ˈtʊrɪst/ 游客
+- friend /frɛnd/ 朋友
+- Russian /ˈrʌʃən/ 俄罗斯的；俄语
+- Russia /ˈrʌʃə/ 俄罗斯
+- Dutch /dʌtʃ/ 荷兰的；荷兰语
+- Holland /ˈhɑlənd/ 荷兰
+- red /rɛd/ 红色的
+- grey /ɡre/ 灰色的
+- yellow /ˈjɛlo/ 黄色的
+- black /blæk/ 黑色的
+- orange /ˈɔrɪndʒ/ 橙色的
+- these /ðiz/ 这些
+- those /ðoz/ 那些
+

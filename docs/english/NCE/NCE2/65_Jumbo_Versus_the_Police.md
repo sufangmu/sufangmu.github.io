@@ -27,6 +27,7 @@ Of course, we should arrest him, but as he has a good record, we shall let him o
 - amused /əˈmjuzd/ 愉快的
 - fortunate /ˈfɔrtʃənət/ 幸运的
 - arrest /əˈrɛst/ 逮捕
+- weigh /we/ 称重
 
 ### should & ought to
 

@@ -16,6 +16,10 @@ It is always the same on these occasions.
 ### Words
 
 - performances /pɚˈfɔrmənsəz/ 演出
+- group /ɡrup/ 组；群
+- pop singer /ˈpɑp ˈsɪŋɚ/ 流行歌手
+- club /klʌb/ 俱乐部
+- occasion /əˈkeʒən/ 场合
 
 ### Expressions
 

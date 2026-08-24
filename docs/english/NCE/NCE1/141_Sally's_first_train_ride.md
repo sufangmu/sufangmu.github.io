@@ -4,3 +4,17 @@ Last week, my four-year-old daughter, Sally, was invited to a children's party. 
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/141142Sally'sFirstTrainRide.mp3"></audio>
 
+### Words
+
+- excited /ɪkˈsaɪtɪd/ 兴奋的
+- opposite /ˈɑpəzɪt/ 对面的
+- curiously /ˈkjʊriəsli/ 好奇地
+- funny /ˈfʌni/ 滑稽的
+- powder /ˈpaʊdɚ/ 粉
+- compact /kəmˈpækt/ 粉盒
+- ugly /ˈʌɡli/ 丑的
+- amused /əˈmjuzd/ 被逗乐的
+- smile /smaɪl/ 微笑
+- kindly /ˈkaɪndli/ 和蔼地
+- embarrassed /ɪmˈbærəst/ 尴尬的
+

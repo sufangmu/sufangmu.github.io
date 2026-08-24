@@ -31,6 +31,8 @@ for it looked on sympathetically until the drunk was out of the way before once 
 - bowed /baʊd/ 鞠躬
 - sympathetically /ˌsɪmpəˈθɛtɪkəli/ 富有同情心地
 - turning /ˈtɝnɪŋ/ its /ɪts/ attention /əˈtɛnʃən/ to /tu/ 转移注意力
+- bullfight /ˈbʊlˌfaɪt/ 斗牛
+- safety /ˈsefti/ 安全
 
 ### Expressions
 

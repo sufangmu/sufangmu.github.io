@@ -30,3 +30,15 @@ Well, I haven't got much either!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/079080Carol'sShoppingList.mp3"></audio>
 
+### Words
+
+- shopping list /ˈʃɑpɪŋ lɪst/ 购物清单
+- vegetable /ˈvɛdʒtəbl/ 蔬菜
+- need /nid/ 需要
+- money /ˈmʌni/ 钱
+- groceries /ˈɡrosɚiz/ 食品杂货
+- fruit /frut/ 水果
+- stationery /ˈsteʃəˌnɛri/ 文具
+- newsagent /ˈnjuzˌedʒənt/ 报刊商
+- chemist /ˈkɛmɪst/ 药店；药剂师
+

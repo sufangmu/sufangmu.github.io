@@ -36,6 +36,7 @@ We're now going back to the studio.'
 - competition /ˌkɑmpəˈtɪʃən/ 比赛
 - champion /ˈtʃæmpiən/ 冠军
 - studio /ˈstudiˌo/ 工作室
+- process /ˈprɑsɛs/ 加工
 
 ### Expressions
 

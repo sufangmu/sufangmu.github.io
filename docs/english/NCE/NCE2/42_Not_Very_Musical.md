@@ -21,6 +21,13 @@ It obviously could not tell the difference between Indian music and jazz!
 
 - square /skwɛr/ 广场
 - glimpse /ɡlɪmps/ 瞥见
+- market /ˈmɑrkɪt/ 市场
+- pipe /paɪp/ 管子
+- tune /tjun/ 曲调
+- movement /ˈmuvmənt/ 动作
+- continue /kənˈtɪnju/ 继续
+- obviously /ˈɑbviəsli/ 显然地
+- difference /ˈdɪfərəns/ 区别
 
 ### Expressions
 

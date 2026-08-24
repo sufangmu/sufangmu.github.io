@@ -36,3 +36,18 @@ In five hours' time!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/095096Tickets,Please..mp3"></audio>
 
+### Words
+
+- return /rɪˈtɝn/ 往返的；返回
+- train /tren/ 火车
+- station /ˈsteʃən/ 车站
+- platform /ˈplætˌfɔrm/ 站台
+- plenty /ˈplɛnti/ 大量
+- bar /bɑr/ 酒吧
+- porter /ˈpɔrtɚ/ 搬运工
+- catch /kætʃ/ 赶上
+- caught /kɔt/ 赶上（过去式）
+- miss /mɪs/ 错过
+- Stockholm /ˈstɑkˌhom/ 斯德哥尔摩
+- Sydney /ˈsɪdni/ 悉尼
+

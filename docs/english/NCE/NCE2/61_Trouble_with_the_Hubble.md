@@ -27,6 +27,10 @@ By the time you read this, the Hubble's eagle eye will have sent us thousands an
 - galaxies /ˈɡæləksiz/ 星系
 - universe /ˈjunəˌvɝs/ 宇宙
 - eagle /ˈiɡəl/ 鹰
+- launch /lɔntʃ/ 发射
+- billion /ˈbɪljən/ 十亿
+- grab /ɡræb/ 抓
+- distant /ˈdɪstənt/ 遥远的
 
 ### 将来完成进行时
 

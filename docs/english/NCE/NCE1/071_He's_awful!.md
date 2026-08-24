@@ -26,3 +26,13 @@ No, he didn't!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/071072He'sAwful.mp3"></audio>
 
+### Words
+
+- awful /ˈɔfəl/ 糟糕的
+- telephone /ˈtɛləˌfon/ 打电话
+- time /taɪm/ 次数
+- answer /ˈænsɚ/ 回答
+- last /læst/ 上一个；最后的
+- say /se/ 说
+- again /əˈɡɛn/ 再一次
+

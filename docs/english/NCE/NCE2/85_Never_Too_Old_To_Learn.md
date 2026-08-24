@@ -26,6 +26,11 @@ But this does not matter, for, as he has often remarked, one is never too old to
 - curious /ˈkjʊriəs/ 奇妙的
 - coincidence /koˈɪnsɪdəns/ 巧合
 - gardening /ˈɡɑrdənɪŋ/ 园艺
+- contribute /kənˈtrɪbjut/ 贡献
+- album /ˈælbəm/ 相册
+- patience /ˈpeʃəns/ 耐心
+- hobby /ˈhɑbi/ 爱好
+- devote /dɪˈvot/ 致力于
 
 ### Expressions
 

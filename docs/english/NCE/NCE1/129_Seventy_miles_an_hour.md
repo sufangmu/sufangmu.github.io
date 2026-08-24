@@ -32,3 +32,17 @@ Well, next time you'd better take my advice!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/129130SeventyMilesanHour.mp3"></audio>
 
+### Words
+
+- wave /wev/ 挥手
+- track /træk/ 跑道
+- race /res/ 比赛
+- dream /drim/ 做梦
+- sign /saɪn/ 标志
+- mile /maɪl/ 英里
+- overtake /ˌovɚˈtek/ 超车
+- overtook /ˌovɚˈtʊk/ 超车（过去式）
+- speed limit /ˈspid ˌlɪmɪt/ 限速
+- driving licence /ˈdraɪvɪŋ ˌlaɪsəns/ 驾照
+- charge /tʃɑrdʒ/ 罚款
+

@@ -27,6 +27,7 @@ It was not long before a helicopter arrived on the scene to rescue the survivors
 - helicopter /ˈhɛlɪˌkɑptɚ/ 直升机
 - scene /sin/ 现场
 - survivors /sɚˈvaɪvɚz/ 幸存者
+- signal /ˈsɪɡnəl/ 信号
 
 ### Expressions
 

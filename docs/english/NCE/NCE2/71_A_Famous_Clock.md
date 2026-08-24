@@ -23,6 +23,9 @@ A painter (who had been working on the tower) hung a pot of paint on one of the 
 - Officials /əˈfɪʃəlz/ 官员
 - Observatory /əbˈzɝvəˌtɔri/ 格林尼治天文台
 - striking /ˈstraɪkɪŋ/ 敲
+- check /tʃɛk/ 检查
+- microphone /ˈmaɪkrəˌfon/ 麦克风
+- tower /ˈtaʊɚ/ 塔
 
 ### Expressions
 

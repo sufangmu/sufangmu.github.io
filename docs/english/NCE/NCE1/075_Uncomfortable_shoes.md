@@ -33,3 +33,14 @@ They are very uncomfortable. But women always wear uncomfortable shoes!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/075076UncomfortableShoes.mp3"></audio>
 
+### Words
+
+- ago /əˈɡo/ 以前
+- buy /baɪ/ 买
+- bought /bɔt/ 买（过去式）
+- pair /pɛr/ 一双
+- fashion /ˈfæʃən/ 时尚
+- uncomfortable /ʌnˈkʌmfɚtəbl/ 不舒服的
+- wear /wɛr/ 穿
+- wore /wɔr/ 穿（过去式）
+

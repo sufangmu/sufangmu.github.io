@@ -5,3 +5,16 @@ Mrs. Sawyer stays at home every day. She does the housework. She always eats her
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/055056TheSawyerFamily.mp3"></audio>
 
+### Words
+
+- live /lɪv/ 居住
+- stay /ste/ 停留
+- home /hom/ 家
+- usually /ˈjuʒuəli/ 通常
+- housework /ˈhaʊsˌwɝk/ 家务
+- lunch /lʌntʃ/ 午餐
+- together /təˈɡɛðɚ/ 一起
+- arrive /əˈraɪv/ 到达
+- afternoon /ˌæftɚˈnun/ 下午
+- evening /ˈivnɪŋ/ 晚上
+

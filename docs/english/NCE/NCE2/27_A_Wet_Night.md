@@ -26,4 +26,8 @@ The stream wound its way across the field and then flowed right under their tent
 - stream /strim/ 小溪
 - formed /fɔrmd/ 形成
 - wound /waʊnd/ 蜿蜒
+- comfortable /ˈkʌmfɚtəbl/ 舒适的
+- smell /smɛl/ 闻起来
+- wonderful /ˈwʌndɚfəl/ 精彩的
+- heavily /ˈhɛvəli/ 猛烈地
 

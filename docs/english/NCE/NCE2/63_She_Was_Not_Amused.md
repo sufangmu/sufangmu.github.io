@@ -22,6 +22,7 @@ Jeremy asked her (why this was so) and she told him (that she did not like to se
 - wedding /ˈwɛdɪŋ/ 婚礼
 - reception /rɪˈsɛpʃən/ 招待会
 - sort /sɔrt/ 种类
+- circle /ˈsɝkl/ 圈子
 
 ### 方式状语从句
 

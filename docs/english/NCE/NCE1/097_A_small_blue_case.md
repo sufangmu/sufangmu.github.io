@@ -34,3 +34,14 @@ This case doesn't belong to me! You've given me the wrong case!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/097098ASmallBlueCase.mp3"></audio>
 
+### Words
+
+- leave /liv/ 遗留；离开
+- left /lɛft/ 遗留（过去式）
+- describe /dɪˈskraɪb/ 描述
+- zip /zɪp/ 拉链
+- label /ˈlebl/ 标签
+- handle /ˈhændl/ 把手
+- address /əˈdrɛs/ 地址
+- belong /bɪˈlɔŋ/ 属于
+

@@ -26,3 +26,13 @@ He can't write very much on a card, Mum.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/101102ACardFromJimmy.mp3"></audio>
 
+### Words
+
+- Scotland /ˈskɑtlənd/ 苏格兰
+- card /kɑrd/ 明信片；卡片
+- youth hostel /ˈjuθ ˈhɑstl/ 青年旅舍
+- association /əˌsosiˈeʃən/ 协会
+- soon /sun/ 不久
+- write /raɪt/ 写
+- wrote /rot/ 写（过去式）
+

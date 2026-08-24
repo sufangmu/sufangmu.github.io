@@ -20,6 +20,20 @@ the young man said rudely.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/01APrivateConversation.mp3"></audio>
 
+### Words
+
+- private /ˈpraɪvɪt/ 私人的
+- conversation /ˌkɑnvɚˈseʃən/ 谈话
+- theatre /ˈθiətɚ/ 剧院
+- seat /sit/ 座位
+- play /ple/ 戏剧
+- loudly /ˈlaʊdli/ 大声地
+- angry /ˈæŋɡri/ 生气的
+- attention /əˈtɛnʃən/ 注意
+- bear /bɛr/ 忍受
+- business /ˈbɪznəs/ 生意；事
+- rudely /ˈrudli/ 粗鲁地
+
 ### Expressions
 
 - go to the theatre 去看戏

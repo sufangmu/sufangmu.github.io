@@ -18,3 +18,11 @@ I'm afraid I haven't got a larger dress. This is the largest dress in the shop.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/107108It'sTooSmall..mp3"></audio>
 
+### Words
+
+- madam /ˈmædəm/ 夫人；女士
+- smart /smɑrt/ 漂亮的；时髦的
+- pretty /ˈprɪti/ 漂亮的
+- as well /əz wɛl/ 也
+- suit /sut/ 适合
+

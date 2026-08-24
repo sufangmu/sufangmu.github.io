@@ -29,3 +29,12 @@ I stayed at home!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/083084GoingonHoliday.mp3"></audio>
 
+### Words
+
+- mess /mɛs/ 杂乱
+- pack /pæk/ 打包
+- suitcase /ˈsutˌkes/ 手提箱
+- leave /liv/ 离开
+- left /lɛft/ 离开（过去式）
+- already /ɔlˈrɛdi/ 已经
+

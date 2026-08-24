@@ -26,6 +26,10 @@ She wanted him to repair their grandson's bicycle!
 - workshop /ˈwɝkˌʃɑp/ 车间
 - twenties /ˈtwɛntiz/ 二十多
 - helpers /ˈhɛlpɚz/ 助手
+- company /ˈkʌmpəni/ 公司
+- bicycle /ˈbaɪsɪkl/ 自行车
+- employ /ɪmˈplɔɪ/ 雇用
+- grandson /ˈɡrænˌsʌn/ 孙子
 
 ### used to v.
 

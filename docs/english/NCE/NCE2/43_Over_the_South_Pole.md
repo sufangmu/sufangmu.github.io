@@ -25,4 +25,10 @@ The aircraft was able to fly over the endless white plains without difficulty.
 - seemed /simd/ 似乎
 - sacks /sæks/ 袋子
 - cleared /klɪrd/ 越过
+- serious /ˈsɪriəs/ 严重的
+- point /pɔɪnt/ 时刻
+- crash /kræʃ/ 坠毁
+- aircraft /ˈɛrˌkræft/ 飞机
+- endless /ˈɛndləs/ 无尽的
+- plain /plen/ 平原
 

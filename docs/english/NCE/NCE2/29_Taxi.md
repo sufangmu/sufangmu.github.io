@@ -20,6 +20,8 @@ but Captain Fawcett did not take him because the trip was too dangerous.
 - lonely /ˈlonli/ 偏僻的
 - flats /flæts/ 公寓
 - deserted /dɪˈzɝtɪd/ 遗弃的
+- roof /ruf/ 屋顶
+- block /blɑk/ 街区
 
 ### done做定语
 

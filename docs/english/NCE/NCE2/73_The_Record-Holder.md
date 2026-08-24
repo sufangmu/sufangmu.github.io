@@ -28,6 +28,7 @@ He has surely set up a record for the thousands of children (who dream of evadin
 - biscuits /ˈbɪskəts/ 饼干
 - border /ˈbɔrdɚ/ 边境
 - evading /ɪˈvedɪŋ/ 逃避
+- meantime /ˈminˌtaɪm/ 与此同时
 
 ### Expressions
 

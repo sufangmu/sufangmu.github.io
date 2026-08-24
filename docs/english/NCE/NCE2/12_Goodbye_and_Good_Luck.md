@@ -19,6 +19,9 @@ He will take part in an important race across the Atlantic.
 - Captain /ˈkæptən/ 船长
 - sail /sel/ 航行
 - harbour /ˈhɑrbɚ/ 港口
+- luck /lʌk/ 运气
+- proud /praʊd/ 自豪的
+- important /ɪmˈpɔrtənt/ 重要的
 
 ### Expressions
 

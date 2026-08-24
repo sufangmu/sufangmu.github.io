@@ -17,6 +17,14 @@ If you receive a request like this, you cannot fail to obey it!
 
 - polite /pəˈlaɪt/ 有礼貌的
 - obey /oˈbe/ 遵守
+- park /pɑrk/ 停车
+- traffic /ˈtræfɪk/ 交通
+- ticket /ˈtɪkɪt/ 罚单
+- reminder /rɪˈmaɪndɚ/ 提醒
+- fail /fel/ 未能
+- note /not/ 便条
+- area /ˈɛriə/ 区域
+- sign /saɪn/ 标志
 
 ### Expressions
 

@@ -22,3 +22,14 @@ Those flowers are lovely, too.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/039040Don'tDropIt.mp3"></audio>
 
+### Words
+
+- front /frʌnt/ 前面
+- careful /ˈkɛrfəl/ 小心的
+- vase /vɑz/ 花瓶
+- drop /drɑp/ 掉下
+- flower /ˈflaʊɚ/ 花
+- show /ʃo/ 给……看
+- take /tek/ 拿
+- send /sɛnd/ 送
+

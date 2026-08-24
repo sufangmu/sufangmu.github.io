@@ -22,6 +22,12 @@ As I soon learnt, he was English himself!
 - Apart /əˈpɑrt/ from /frʌm/ 除了
 - journey /ˈdʒɝni/ 旅行
 - learnt /lɝnt/ 意识到
+- experience /ɪkˈspɪriəns/ 经历
+- wave /wev/ 挥手
+- lift /lɪft/ 搭便车
+- hitchhike /ˈhɪtʃˌhaɪk/ 搭便车旅行
+- reply /rɪˈplaɪ/ 回答
+- language /ˈlæŋɡwɪdʒ/ 语言
 
 ### Expressions
 

@@ -13,6 +13,14 @@ and I always win a little prize for the worst garden in the town!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/08TheBestandtheWorst.mp3"></audio>
 
+### Words
+
+- competition /ˌkɑmpəˈtɪʃən/ 比赛
+- neat /nit/ 整洁的
+- path /pæθ/ 小路
+- wooden /ˈwʊdən/ 木制的
+- pool /pul/ 水池
+
 ### Expressions
 
 - swimming pool 游泳池

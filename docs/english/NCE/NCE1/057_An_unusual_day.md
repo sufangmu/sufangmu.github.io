@@ -12,3 +12,9 @@ It is nine o'clock. Mr. Sawyer usually reads his newspaper at night. But he's no
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/057058AnUnusualDay.mp3"></audio>
 
+### Words
+
+- o'clock /əˈklɑk/ ……点钟
+- shop /ʃɑp/ 商店
+- moment /ˈmomənt/ 时刻；瞬间
+

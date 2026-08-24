@@ -17,6 +17,11 @@ Then he smiled and told me I would receive an extra thousand pounds a year!
 ### Words
 
 - secretary /ˈsɛkrəˌtɛri/ 秘书
+- nervous /ˈnɝvəs/ 紧张的
+- afford /əˈfɔrd/ 负担得起
+- interrupt /ˌɪntəˈrʌpt/ 打断
+- extra /ˈɛkstrə/ 额外的
+- weak /wik/ 虚弱的
 
 ### Expressions
 

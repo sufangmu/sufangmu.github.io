@@ -21,4 +21,5 @@ It contained ￡50.
 - envelope /ˈɛnvəˌlop/ 信封
 - contained /kənˈtend/ 包含
 - honesty /ˈɑnəsti/ 诚实
+- complain /kəmˈplen/ 抱怨
 

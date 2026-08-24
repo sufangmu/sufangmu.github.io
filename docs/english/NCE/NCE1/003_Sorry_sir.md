@@ -26,3 +26,22 @@ Thank you very much.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir.mp3"></audio>
 
+### Words
+
+- umbrella /ʌmˈbrɛlə/ 雨伞
+- please /pliz/ 请
+- here /hɪr/ 这里
+- my /maɪ/ 我的
+- ticket /ˈtɪkɪt/ 票
+- number /ˈnʌmbɚ/ 号码
+- five /faɪv/ 五
+- sorry /ˈsɑri/ 对不起；抱歉
+- sir /sɝ/ 先生
+- madam /ˈmædəm/ 女士
+- cloakroom /ˈklokˌrum/ 衣帽间
+- suit /sut/ 西装；套装
+- school /skul/ 学校
+- teacher /ˈtitʃɚ/ 老师
+- son /sʌn/ 儿子
+- daughter /ˈdɔtɚ/ 女儿
+

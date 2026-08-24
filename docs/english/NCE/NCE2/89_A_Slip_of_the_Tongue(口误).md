@@ -23,6 +23,8 @@ but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good l
 - advertiser /ˈædvɚˌtaɪzɚ/ 报幕员
 - nervous /ˈnɝvəs/ 胆小的
 - awkwardly /ˈɔkwɚdli/ 尴尬地
+- comedy /ˈkɑmədi/ 喜剧
+- queue /kju/ 排队
 
 ### Expressions
 

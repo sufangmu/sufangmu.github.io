@@ -22,6 +22,11 @@ To their surprise, the precious parcel was full of stones and sand!
 - airfield /ˈɛrˌfild/ 机场
 - guard /ɡɑrd/ 守卫
 - precious /ˈprɛʃəs/ 珍贵的
+- expect /ɪkˈspɛkt/ 期待
+- valuable /ˈvæljuəbl/ 贵重的
+- main /men/ 主要的
+- stone /ston/ 石头
+- sand /sænd/ 沙子
 
 ###  过去进行时 
 

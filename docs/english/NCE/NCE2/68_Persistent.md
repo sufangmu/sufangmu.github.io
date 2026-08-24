@@ -24,6 +24,8 @@ You're not busy doing anything, are you?'
 - preventing /prɪˈvɛntɪŋ/ 阻止
 - dentist /ˈdɛntəst/ 牙科医生
 - plenty /ˈplɛnti/ 大量
+- avoid /əˈvɔɪd/ 避免
+- cross /krɔs/ 穿过
 
 ### Expressions
 

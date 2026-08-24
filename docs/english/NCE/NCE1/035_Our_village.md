@@ -32,3 +32,23 @@ Some of them are going into the park.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/035036OurVillage.mp3"></audio>
 
+### Words
+
+- photograph /ˈfotəˌɡræf/ 照片
+- village /ˈvɪlɪdʒ/ 村庄
+- valley /ˈvæli/ 山谷
+- hill /hɪl/ 小山
+- another /əˈnʌðɚ/ 另一个
+- wife /waɪf/ 妻子
+- husband /ˈhʌzbənd/ 丈夫
+- bank /bæŋk/ 河岸；银行
+- water /ˈwɔtɚ/ 水
+- swim /swɪm/ 游泳
+- building /ˈbɪldɪŋ/ 大楼
+- park /pɑrk/ 公园
+- between /bɪˈtwin/ 在……之间
+- into /ˈɪntu/ 进入
+- along /əˈlɔŋ/ 沿着
+- across /əˈkrɔs/ 穿过
+- beside /bɪˈsaɪd/ 在……旁边
+

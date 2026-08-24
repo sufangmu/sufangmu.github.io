@@ -31,6 +31,7 @@ Only one or two people have objected that the students will drive too fast!
 - gratitude /ˈɡrætəˌtud/ 感激
 - Press /prɛs/ 新闻界
 - objected /əbˈdʒɛktəd/ 反对
+- agreement /əˈɡrimənt/ 协议
 
 ### Expressions
 

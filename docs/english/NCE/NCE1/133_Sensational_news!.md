@@ -14,3 +14,9 @@ I wonder why!
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/133134SensationalNews.mp3"></audio>
 
+### Words
+
+- reporter /rɪˈpɔrtɚ/ 记者
+- sensational /sɛnˈseʃənəl/ 轰动的
+- mink coat /ˌmɪŋk ˈkot/ 貂皮大衣
+

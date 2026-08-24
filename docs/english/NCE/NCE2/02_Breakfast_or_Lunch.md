@@ -21,6 +21,16 @@ It's one o'clock!'
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/02BreakfastorLunch.mp3"></audio>
 
+### Words
+
+- outside /ˌaʊtˈsaɪd/ 外面
+- inside /ˌɪnˈsaɪd/ 里面
+- ring /rɪŋ/ 响铃
+- rang /ræŋ/ 响铃（过去式）
+- aunt /ænt/ 姑妈；阿姨
+- uncle /ˈʌŋkl/ 叔叔
+- repeat /rɪˈpit/ 重复
+
 ### What 感叹句
 
 用法：What + (形容词) + n. + (主语+谓语)

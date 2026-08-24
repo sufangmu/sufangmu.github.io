@@ -28,6 +28,11 @@ The normal price of a ticket is ￡2, 000!
 - arrested /əˈrɛstɪd/ 逮捕
 - admitted /ədˈmɪtɪd/ 承认
 - confined /kənˈfaɪnd/ 限制
+- unload /ʌnˈlod/ 卸下
+- wooden /ˈwʊdən/ 木制的
+- goods /ɡʊdz/ 货物
+- discover /dɪˈskʌvɚ/ 发现
+- normal /ˈnɔrməl/ 正常的
 
 ### 同位语从句
 

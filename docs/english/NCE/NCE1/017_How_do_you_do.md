@@ -26,3 +26,15 @@ This is Jim. He's our office assistant.
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/017018Howdoyoudo.mp3"></audio>
 
+### Words
+
+- employee /ɪmˌplɔɪˈi/ 雇员
+- hard-working /ˌhɑrdˈwɝkɪŋ/ 勤奋的
+- sales /selz/ rep /rɛp/ 销售代表
+- man /mæn/ 男人
+- woman /ˈwʊmən/ 女人
+- men /mɛn/ 男人们
+- women /ˈwɪmɪn/ 女人们
+- office /ˈɔfɪs/ 办公室
+- assistant /əˈsɪstənt/ 助手
+

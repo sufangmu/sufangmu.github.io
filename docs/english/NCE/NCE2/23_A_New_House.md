@@ -20,6 +20,7 @@ It must be the only modern house in the district.
 - modern /ˈmɑdɚn/ 现代的
 - strange /strendʒ/ 奇怪的
 - district /ˈdɪstrɪkt/ 区
+- complete /kəmˈplit/ 完成
 
 ### Expressions
 

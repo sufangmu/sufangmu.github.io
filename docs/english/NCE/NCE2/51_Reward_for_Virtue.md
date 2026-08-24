@@ -29,6 +29,8 @@ It contained five large bars of chocolate and three bags of sweets!
 - strict /strɪkt/ 严格的
 - reward /rɪˈwɔrd/ 奖励
 - occasionally /əˈkeʒənəli/ 偶尔
+- virtue /ˈvɝtʃu/ 美德
+- forbid /fɚˈbɪd/ 禁止
 
 ### Expressions
 

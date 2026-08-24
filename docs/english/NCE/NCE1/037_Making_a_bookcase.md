@@ -28,3 +28,17 @@ This bookcase isn't for me. It's for my daughter, Susan. Pink's her favourite co
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/037038MakingaBookcase.mp3"></audio>
 
+### Words
+
+- work /wɝk/ 工作
+- hard /hɑrd/ 努力地
+- make /mek/ 做
+- bookcase /ˈbʊkˌkes/ 书柜
+- hammer /ˈhæmɚ/ 锤子
+- paint /pent/ 涂漆
+- pink /pɪŋk/ 粉色的
+- favourite /ˈfevərɪt/ 最喜欢的
+- homework /ˈhomˌwɝk/ 家庭作业
+- listen /ˈlɪsən/ 听
+- dish /dɪʃ/ 盘子
+

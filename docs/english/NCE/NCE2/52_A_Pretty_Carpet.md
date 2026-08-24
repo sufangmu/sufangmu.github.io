@@ -22,6 +22,9 @@ You can sit here in your spare time and read the carpet!'
 - carpet /ˈkɑrpət/ 地毯
 - gazed /ɡezd/ 注视
 - spare /spɛr/ 空闲
+- temporarily /ˌtɛmpəˈrɛrəli/ 暂时地
+- inch /ɪntʃ/ 英寸
+- space /spes/ 空间
 
 ### 现在完成进行时
 
