@@ -15,7 +15,7 @@ One night, the gaoler decided to play a joke on his colleague to find out if, af
 - parts /pɑrts/ 角色
 - falter /ˈfɔltɚ/ 结巴地说
 - cast /kæst/ 分配角色
-- aristocrat /ɚˈɪstəˌkræt/ 贵族
+- aristocrat /əˈrɪstəˌkræt/ 贵族
 - imprisoned /ˌɪmˈprɪzənd/ 关押
 - act /ækt/ 一幕
 - gaoler /ˈdʒelɚ/ jailer, 监狱长

@@ -6,7 +6,7 @@ One night, however, our vicar woke up with a start: the clock was striking the h
 
 'Whatever are you doing up here Bill?' asked the vicar in surprise.
 
-'I'm trying to repair the bell, ' answered Bill.'I've been coming up here night after night for weeks now.You see, I was hoping to give you a surprise.'
+'I'm trying to repair the bell, ' answered Bill.'I've been coming up here night after night for weeks now. You see, I was hoping to give you a surprise.'
 
 'You certainly did give me a surprise!' said the vicar. 'You've probably woken up everyone in the village as well. Still, I'm glad the bell is working again.'
 
@@ -51,7 +51,7 @@ ever here is not necessary in the sentence but is added to emphasize the speaker
 
 I was hoping to give you a surprise.
 
-过去时态，⽤于现在/将来，更加有礼貌
+过去时态，用于现在/将来，更加有礼貌
 
-We can use the past continuous to make sentences and requests seem more polite. This is because they sound less de nite, more temporary and more gentle.
+We can use the past continuous to make sentences and requests seem more polite. This is because they sound less definite, more temporary and more gentle.
 

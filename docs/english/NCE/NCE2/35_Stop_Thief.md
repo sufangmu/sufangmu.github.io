@@ -29,7 +29,7 @@ Shortly afterwards, the police stopped the car and both men were arrested.
 - get /ɡɛt/ away /əˈwe/ 离开
 - battered /ˈbætɚd/ 坏的
 - Shortly /ˈʃɔrtli/ afterwards /ˈæftɚwɚdz/ 不久之后
-- arrested /ɚˈɛstɪd/ 逮捕
+- arrested /əˈrɛstɪd/ 逮捕
 
 ### so & such
 

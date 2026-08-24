@@ -15,7 +15,7 @@ The journalist immediately set out to obtain these important facts, but he took 
 - republic /riˈpʌblək/ 共和国
 - fax /fæks/ 传真
 - reluctantly /rɪˈlʌktəntli/ 不情愿地
-- originally /ɚˈɪdʒənəli/ 起初,原来
+- originally /əˈrɪdʒənəli/ 起初,原来
 - poor /pur/ 可怜的
 
 ### not only

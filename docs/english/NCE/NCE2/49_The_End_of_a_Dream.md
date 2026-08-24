@@ -34,7 +34,7 @@ he promptly went to sleep again.
 - courtyard /ˈkɔrˌtjɑrd/ 院子
 - smashed /smæʃt/ 砸碎
 - pieces /ˈpisəz/ 块
-- miraculously /mɚˈækjələsli/ 奇迹般地
+- miraculously /məˈrækjələsli/ 奇迹般地
 - Glancing /ˈɡlænsɪŋ/ 扫视
 - promptly /ˈprɑmptli/ 迅速地
 

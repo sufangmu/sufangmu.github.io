@@ -25,7 +25,7 @@ The normal price of a ticket is ￡2, 000!
 - lying /ˈlaɪɪŋ/ lie, 躺
 - pile /paɪl/ 许多
 - woollen /ˈwʊlən/ 羊毛
-- arrested /ɚˈɛstɪd/ 逮捕
+- arrested /əˈrɛstɪd/ 逮捕
 - admitted /ədˈmɪtɪd/ 承认
 - confined /kənˈfaɪnd/ 限制
 

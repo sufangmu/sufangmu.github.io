@@ -17,7 +17,7 @@ Tramps seem to be the only exception to this general rule. Beggars almost sell t
 - grudge /ɡrʌdʒ/ 不愿给
 - surgeon /ˈsɝdʒən/ 外科医生
 - Tramps /træmpz/ 流浪汉
-- arouse /ɚˈaʊz/ 唤醒
+- arouse /əˈraʊz/ 唤醒
 - pity /ˈpɪti/ 怜悯
 - sacrifice /ˈsækrəˌfaɪs/ 牺牲
 - dignity /ˈdɪɡnəti/ 尊严

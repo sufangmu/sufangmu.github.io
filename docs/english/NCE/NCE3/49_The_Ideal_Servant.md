@@ -18,7 +18,7 @@ Bessie worked for aunt Harriet for three years. During that time she so gained m
 - polished /ˈpɑlɪʃt/ 擦亮的
 - gleaming /ˈɡlimɪŋ/ 发亮
 - cabinets /ˈkæbənəts/ 陈列柜
-- miraculously /mɚˈækjələsli/ 出乎意料地
+- miraculously /məˈrækjələsli/ 出乎意料地
 - presided /prɪˈzaɪdɪd/ 指挥
 - invisible /ˌɪnˈvɪzəbəl/ 看不见地
 - scrubbed /skrʌbd/ 擦拭

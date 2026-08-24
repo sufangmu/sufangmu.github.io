@@ -21,7 +21,7 @@
 - spire /spaɪr/ 塔尖
 - retrace /riˈtres/ 返回，重走
 - stumbled /ˈstʌmbəld/ 趔趄地走
-- horizon /hɚˈaɪzən/ 地平线
+- horizon /həˈraɪzən/ 地平线
 - reservoir /ˈrɛzəvˌwɑr/ 水库
 
 ### Expressions

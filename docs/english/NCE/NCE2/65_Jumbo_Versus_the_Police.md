@@ -26,7 +26,7 @@ Of course, we should arrest him, but as he has a good record, we shall let him o
 - holding /ˈholdɪŋ/ up /ʌp/ the /ðə/ traffic /ˈtræfɪk/ 阻碍交通
 - amused /əˈmjuzd/ 愉快的
 - fortunate /ˈfɔrtʃənət/ 幸运的
-- arrest /ɚˈɛst/ 逮捕
+- arrest /əˈrɛst/ 逮捕
 
 ### should & ought to
 

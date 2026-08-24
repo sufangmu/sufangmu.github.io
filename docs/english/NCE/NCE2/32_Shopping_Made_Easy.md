@@ -24,7 +24,7 @@ The girl 'gave' her mother a free dress once a week!
 - articles /ˈɑrtəkəlz/ 物品
 - handed /ˈhændəd/ 递
 - wrapped /ræpt/ 包起来
-- arrested /ɚˈɛstɪd/ 逮捕
+- arrested /əˈrɛstɪd/ 逮捕
 
 ### as…as
 

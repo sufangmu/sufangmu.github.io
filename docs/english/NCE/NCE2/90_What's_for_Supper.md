@@ -30,7 +30,7 @@ Who eats who?
 - cages /ˈkedʒɪz/ 笼子
 - sharks /ʃɑrks/ 鲨鱼
 - whales /welz/ 鲸鱼
-- varieties /vɚˈaɪətiz/ 种类
+- varieties /vəˈraɪətiz/ 种类
 - cod /kɑd/ 鳕鱼
 - skate /sket/ 鳐鱼
 - factors /ˈfæktɚz/ 因素
