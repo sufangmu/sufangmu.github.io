@@ -37,14 +37,14 @@ Only policemen can come in.
 
 #### Expressions
 
-- feel frightened
+- feel frightened 感到害怕
 - sb. be curious to find out + 句子
-- plant a bomb
-- a great deal
-- take charge of
-- be used to doing...
-- take off ...
-- gain height...
-- touch down...
-- on board...
+- plant a bomb 放置炸弹
+- a great deal 大量
+- take charge of 负责
+- be used to doing... 习惯于做……
+- take off ... 起飞
+- gain height... 爬升
+- touch down... 着陆
+- on board... 在飞机/船上
 

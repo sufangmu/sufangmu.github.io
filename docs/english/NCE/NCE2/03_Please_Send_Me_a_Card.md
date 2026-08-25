@@ -37,7 +37,7 @@ but I did not write a single card!
 ### Expressions
 
 - 
-  buy sb. sth.= buy sth. for sb.
+  buy sb. sth.= buy sth. for sb. 给某人买某物
 
 - send sb. sth.= send sth. to sb. 把某物寄/送给某人
 

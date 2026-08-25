@@ -30,15 +30,15 @@ If you receive a request like this, you cannot fail to obey it!
 
 parking lot 停车场
 
-heavy traffic police/lights/jam 
+heavy traffic police/lights/jam 交通拥堵；交警；交通灯；交通堵塞 
 
-make notes/ make a note 
+make notes/ make a note 记笔记 
 
-leave a note
+leave a note 留便条
 
-remind sb. of sth./sb.
+remind sb. of sth./sb. 使某人想起某事/某人
 
-fail to do sth.
+fail to do sth. 未能做某事
 
 ### if引导的条件从句 
 

@@ -28,7 +28,7 @@ We are all very excited and are looking forward to the Olympic Games because the
 
 ### Expressions
 
-hold a meeting
+hold a meeting 开会
 
 ### 将来完成时
 

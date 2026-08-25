@@ -26,9 +26,9 @@ Tony said, 'so now you can pay for my dinner!'
 ###  Expressions
 
 - One Good Turn Deserves Another 礼尚往来
-- get a good salary 
-- borrow sth. from sb. 
-- pay it back
-- pay for sth. 
-- ask sb. to do sth.
+- get a good salary 领高薪 
+- borrow sth. from sb. 向某人借某物 
+- pay it back 还钱
+- pay for sth. 为某物付款 
+- ask sb. to do sth. 请某人做某事
 

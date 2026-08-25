@@ -29,7 +29,7 @@ be nervous about sth. / doing sth.  紧张
 
 afford sth. 支付
 
-Sorry to interrupt, but ...
+Sorry to interrupt, but ... 抱歉打断一下，但是……
 
 It's my turn 轮到我了
 
