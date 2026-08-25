@@ -12,7 +12,8 @@ window.CATEGORY_LABELS = {
   'novel': '小说',
   'original_english_textbook': '英文原版书',
   'go': '围棋',
-  'local_import': '本地导入'
+  'local_import': '本地导入',
+  'psychology': '心理学'
 };
 
 window.EBOOK_CATALOG = [
@@ -133,5 +134,23 @@ window.EBOOK_CATALOG = [
     format: 'pdf',
     path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/go/聂卫平围棋教程(从1级到1段).pdf',
     description: '聂卫平围棋教程(从1级到1段)'
+  },
+  {
+    id: 'pet',
+    title: 'PET父母效能训练手册',
+    author: '托马斯·戈登',
+    category: 'psychology',
+    format: 'pdf',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/psychology/PET父母效能训练手册.pdf',
+    description: 'PET父母效能训练手册'
+  },
+  {
+    id: 'yebk',
+    title: '美国儿科学会育儿百科(第七版)',
+    author: '儿科学会',
+    category: 'psychology',
+    format: 'epub',
+    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/psychology/美国儿科学会育儿百科(第七版).epub',
+    description: '美国儿科学会育儿百科(第七版)'
   }
 ];
