@@ -33,3 +33,10 @@ Not that long ago! I'm not more than twenty-nine myself.
 - read /rid/ 读
 - actor /ˈæktɚ/ 男演员
 
+### Expressions
+
+- recognize that woman 认出那个女人
+- at least 至少
+- another look 再看一眼
+- a long time ago 很久以前
+

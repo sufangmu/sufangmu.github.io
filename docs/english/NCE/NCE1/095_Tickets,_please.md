@@ -51,3 +51,10 @@ In five hours' time!
 - Stockholm /ˈstɑkˌhom/ 斯德哥尔摩
 - Sydney /ˈsɪdni/ 悉尼
 
+### Expressions
+
+- return tickets 往返票
+- next train 下一班火车
+- plenty of time 充足的时间
+- ten minutes slow 慢了十分钟
+

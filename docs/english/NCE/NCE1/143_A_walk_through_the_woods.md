@@ -24,3 +24,10 @@ I live in a very old town which is surrounded by beautiful woods. It is a famous
 - among /əˈmʌŋ/ 在……之中
 - prosecute /ˈprɑsəˌkjut/ 起诉
 
+### Expressions
+
+- beauty spot 风景点
+- keep the woods clean 保持树林清洁
+- a walk through the woods 穿过树林散步
+- be prosecuted 被起诉
+

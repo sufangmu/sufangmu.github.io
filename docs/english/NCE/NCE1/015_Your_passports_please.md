@@ -58,3 +58,10 @@ Thank you very much.
 - these /ðiz/ 这些
 - those /ðoz/ 那些
 
+### Expressions
+
+- Your passports, please 请出示护照
+- Here they are 给你
+- Are you tourists? 你们是游客吗？
+- That's fine 没关系
+

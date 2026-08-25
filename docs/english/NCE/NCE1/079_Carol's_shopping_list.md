@@ -42,3 +42,9 @@ Well, I haven't got much either!
 - newsagent /ˈnjuzˌedʒənt/ 报刊商
 - chemist /ˈkɛmɪst/ 药店；药剂师
 
+### Expressions
+
+- make a shopping list 列购物清单
+- a lot of things 很多东西
+- go to the grocer's 去杂货店
+

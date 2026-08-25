@@ -31,6 +31,14 @@ It's one o'clock!'
 - uncle /ˈʌŋkl/ 叔叔
 - repeat /rɪˈpit/ 重复
 
+### Expressions
+
+- get up early 早起
+- stay in bed 待在床上
+- look out of the window 向窗外看
+- by train 坐火车
+- have breakfast 吃早饭
+
 ### What 感叹句
 
 用法：What + (形容词) + n. + (主语+谓语)

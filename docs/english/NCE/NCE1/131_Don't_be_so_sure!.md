@@ -24,3 +24,10 @@ Don't be so sure. We might not go anywhere. My wife always worries too much. Who
 - abroad /əˈbrɔd/ 出国
 - worry /ˈwɝi/ 担心
 
+### Expressions
+
+- go abroad 出国
+- make up our minds 下定决心
+- travel by sea 坐船旅行
+- look after 照顾
+

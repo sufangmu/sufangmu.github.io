@@ -48,3 +48,10 @@ The aeroplane is flying over the river.
 - wait /wet/ 等
 - jump /dʒʌmp/ 跳
 
+### Expressions
+
+- It is a fine day today 今天天气好
+- There are some clouds in the sky 天空有些云
+- over the bridge 在桥上方
+- under the bridge 在桥下方
+

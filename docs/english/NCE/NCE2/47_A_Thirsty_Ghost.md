@@ -30,3 +30,12 @@ they will not accept the pub even if he gives it away.
 - suggest /səˈdʒɛst/ 建议
 - accept /əkˈsɛpt/ 接受
 
+### Expressions
+
+- up for sale 待售
+- be haunted 闹鬼
+- go to sleep 入睡
+- hear a strange noise 听到奇怪的声音
+- a free drink 免费的酒
+- give away 白送
+

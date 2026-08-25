@@ -58,3 +58,9 @@ Because he doesn't like school!
 - mumps /mʌmps/ 腮腺炎
 - stomach ache /ˈstʌmək ˌek/ 胃痛
 
+### Expressions
+
+- What's the matter with him? 他怎么了？
+- call the doctor 叫医生
+- stay in bed 卧床休息
+

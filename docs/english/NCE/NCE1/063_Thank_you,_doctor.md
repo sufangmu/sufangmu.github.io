@@ -45,3 +45,9 @@ He's in bed, doctor. Can you see him please? He has a bad cold, too!
 - break /brek/ 打碎
 - noise /nɔɪz/ 噪音
 
+### Expressions
+
+- get up 起床
+- stay in bed 卧床
+- keep the room warm 保持房间温暖
+

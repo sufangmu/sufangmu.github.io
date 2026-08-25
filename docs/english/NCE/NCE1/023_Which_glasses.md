@@ -36,3 +36,9 @@ Thanks.
 - stereo /ˈstɛriˌo/ 立体声音响
 - Mrs. /ˈmɪsɪz/ 夫人；太太
 
+### Expressions
+
+- Give me some... 给我一些……
+- Which glasses? 哪些玻璃杯？
+- The ones on the shelf 架子上的那些
+

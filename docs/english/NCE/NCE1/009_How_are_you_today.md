@@ -45,3 +45,11 @@ Nice to see you too Steven. Goodbye.
 - busy /ˈbɪzi/ 忙的
 - lazy /ˈlezi/ 懒的
 
+### Expressions
+
+- How are you today? 你今天好吗？
+- I'm very well / fine 我很好
+- And you? 你呢？
+- Nice to see you 很高兴见到你
+- Goodbye 再见
+

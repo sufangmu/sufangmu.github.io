@@ -52,3 +52,10 @@ Some of them are going into the park.
 - across /əˈkrɔs/ 穿过
 - beside /bɪˈsaɪd/ 在……旁边
 
+### Expressions
+
+- This is a photograph of... 这是……的照片
+- between two hills 在两座山之间
+- along the banks of... 沿着……的岸边
+- swim across the river 游过河
+

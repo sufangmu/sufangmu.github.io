@@ -28,3 +28,11 @@ When she woke up a day later, she found herself in hospital.
 - ahead /əˈhɛd/ 在前面
 - hospital /ˈhɑspɪtl/ 医院
 
+### Expressions
+
+- set out from 从……出发
+- be caught in a storm 遭遇暴风雨
+- strike a rock 撞上礁石
+- cover a distance 走一段距离
+- wake up 醒来
+

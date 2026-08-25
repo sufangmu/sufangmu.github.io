@@ -24,3 +24,11 @@ I was able to tell him that he had pulled out the wrong tooth.
 - meanwhile /ˈminˌwaɪl/ 与此同时
 - collect /kəˈlɛkt/ 收集
 
+### Expressions
+
+- pull out 拔掉
+- rest for a while 休息一会儿
+- be full of 充满
+- search out 找出
+- remove from 从……移除
+

@@ -21,5 +21,14 @@ But none of them has been turned to stone yet!
 - effect /ɪˈfɛkt/ 效果
 - trouble /ˈtrʌbl/ 麻烦
 
+### Expressions
+
+- believe in 相信
+- ancient myths 古代神话
+- have trouble with 与……有麻烦
+- put up signs 张贴标志
+- have effect 有效果
+- turn to stone 变成石头
+
 ### 定语从句
 

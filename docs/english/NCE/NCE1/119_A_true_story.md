@@ -17,3 +17,10 @@ they went into the dining room. It was very dark, so they turned on a torch. Sud
 - voice /vɔɪs/ 声音
 - parrot /ˈpærət/ 鹦鹉
 
+### Expressions
+
+- tell you a true story 讲个真实的故事
+- in bed 在床上
+- turn on a torch 打开手电筒
+- run away 逃跑
+

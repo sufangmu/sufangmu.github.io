@@ -46,3 +46,10 @@ Well, next time you'd better take my advice!
 - driving licence /ˈdraɪvɪŋ ˌlaɪsəns/ 驾照
 - charge /tʃɑrdʒ/ 罚款
 
+### Expressions
+
+- seventy miles an hour 每小时七十英里
+- race track 赛道
+- speed limit 限速
+- driving licence 驾照
+

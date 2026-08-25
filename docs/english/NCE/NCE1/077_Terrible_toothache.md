@@ -31,3 +31,9 @@ I can wait, but my toothache can't!
 - urgent /ˈɝdʒənt/ 紧急的
 - till /tɪl/ 直到
 
+### Expressions
+
+- have an appointment 有预约
+- see the dentist 看牙医
+- wait till this afternoon 等到今天下午
+

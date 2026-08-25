@@ -36,3 +36,10 @@ No, he didn't!
 - say /se/ 说
 - again /əˈɡɛn/ 再一次
 
+### Expressions
+
+- four times 四次
+- the day before yesterday 前天
+- answer the phone 接电话
+- last night 昨晚
+

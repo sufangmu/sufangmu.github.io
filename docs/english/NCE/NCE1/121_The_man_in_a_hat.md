@@ -38,3 +38,10 @@ Yes. I recognize him now.
 - counter /ˈkaʊntɚ/ 柜台
 - recognize /ˈrɛkəɡˌnaɪz/ 认出
 
+### Expressions
+
+- half an hour ago 半小时前
+- forget to take them 忘记带走
+- behind the counter 在柜台后面
+- recognize him 认出他
+

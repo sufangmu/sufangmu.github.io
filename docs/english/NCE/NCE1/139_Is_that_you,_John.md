@@ -34,3 +34,10 @@ No, I don't. I'm John Smith the telephone engineer and I'm repairing your teleph
 - company /ˈkʌmpəni/ 公司
 - line /laɪn/ 线路
 
+### Expressions
+
+- be late for dinner 吃晚饭迟到
+- extra work 额外工作
+- by the way 顺便说一下
+- repair the telephone line 修电话线
+

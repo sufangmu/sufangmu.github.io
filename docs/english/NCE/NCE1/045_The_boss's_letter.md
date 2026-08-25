@@ -41,3 +41,10 @@ I can't read it! The boss's handwriting is terrible!
 - cake /kek/ 蛋糕
 - biscuit /ˈbɪskɪt/ 饼干
 
+### Expressions
+
+- come here a minute 过来一下
+- next door 隔壁
+- type this letter 打这封信
+- What's the matter? 怎么了？
+

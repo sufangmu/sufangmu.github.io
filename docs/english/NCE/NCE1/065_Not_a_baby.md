@@ -37,3 +37,10 @@ We always enjoy ourselves, Mum. Bye-bye.
 - hear /hɪr/ 听见
 - enjoy yourself /ɪnˌdʒɔɪ jɔrˈsɛlf/ 玩得开心
 
+### Expressions
+
+- come home late 晚回家
+- at half past ten 在十点半
+- front door 前门
+- Enjoy yourself! 玩得开心！
+

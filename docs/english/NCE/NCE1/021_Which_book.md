@@ -38,3 +38,10 @@ Thank you.
 - fork /fɔrk/ 叉子
 - spoon /spun/ 勺子
 
+### Expressions
+
+- Give me... 给我……
+- Which book? 哪本书？
+- This one? 这本吗？
+- The red one 那本红的
+

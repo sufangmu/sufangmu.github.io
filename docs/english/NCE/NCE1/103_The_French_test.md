@@ -49,3 +49,10 @@ Then he sat there and looked at it for three hours! He didn't write a word!
 - sweet /swit/ 甜的
 - sour /saʊr/ 酸的
 
+### Expressions
+
+- Not too bad 不太糟
+- answer the questions 回答问题
+- too difficult for me 对我来说太难
+- got a low mark 得了低分
+

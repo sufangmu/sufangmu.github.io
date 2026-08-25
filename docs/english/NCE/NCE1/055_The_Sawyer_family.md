@@ -18,3 +18,10 @@ Mrs. Sawyer stays at home every day. She does the housework. She always eats her
 - afternoon /ˌæftɚˈnun/ 下午
 - evening /ˈivnɪŋ/ 晚上
 
+### Expressions
+
+- go to work 去上班
+- go to school 去上学
+- stay at home 待在家
+- do the housework 做家务
+

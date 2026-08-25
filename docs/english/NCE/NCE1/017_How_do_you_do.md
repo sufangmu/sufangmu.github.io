@@ -38,3 +38,10 @@ This is Jim. He's our office assistant.
 - office /ˈɔfɪs/ 办公室
 - assistant /əˈsɪstənt/ 助手
 
+### Expressions
+
+- How do you do? 你好（初次见面）
+- Come and meet... 来见见……
+- What are their jobs? 他们是做什么工作的？
+- They're + 职业 他们是……
+

@@ -33,3 +33,10 @@ Last week Mrs. Mills went to London. She does not know London very well, and she
 - met /mɛt/ 遇见（过去式）
 - swam /swæm/ 游泳（过去式）
 
+### Expressions
+
+- lose one's way 迷路
+- ask the way 问路
+- bus stop 公交站
+- speak English 说英语
+

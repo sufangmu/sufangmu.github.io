@@ -51,3 +51,10 @@ Well, you're going to have roast beef and potatoes again tonight!
 - party /ˈpɑrti/ 聚会
 - holiday /ˈhɑləˌde/ 假期
 
+### Expressions
+
+- have a bath 洗澡
+- nearly ready 快好了
+- have dinner 吃晚饭
+- roast beef 烤牛肉
+

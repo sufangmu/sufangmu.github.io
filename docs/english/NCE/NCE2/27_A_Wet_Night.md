@@ -31,3 +31,12 @@ The stream wound its way across the field and then flowed right under their tent
 - wonderful /ˈwʌndɚfəl/ 精彩的
 - heavily /ˈhɛvəli/ 猛烈地
 
+### Expressions
+
+- put up a tent 搭帐篷
+- in the middle of 在……中间
+- as soon as 一……就……
+- tell stories 讲故事
+- sing songs 唱歌
+- put out the fire 灭火
+

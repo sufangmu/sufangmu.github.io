@@ -45,3 +45,10 @@ This case doesn't belong to me! You've given me the wrong case!
 - address /əˈdrɛs/ 地址
 - belong /bɪˈlɔŋ/ 属于
 
+### Expressions
+
+- the other day 前几天
+- a label on the handle 把手上的标签
+- name and address 姓名和地址
+- belong to 属于
+

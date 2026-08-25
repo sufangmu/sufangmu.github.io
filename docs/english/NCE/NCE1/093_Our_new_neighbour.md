@@ -19,3 +19,10 @@ Nigel is our new next-door neighbour. He's a pilot. He was in the R.A.F. He will
 - Moscow /ˈmɑsko/ 莫斯科
 - Rome /rom/ 罗马
 
+### Expressions
+
+- next-door neighbour 隔壁邻居
+- next month 下个月
+- fly to 飞往
+- a week ago 一周前
+

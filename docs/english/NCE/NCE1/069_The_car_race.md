@@ -22,3 +22,10 @@ He was in car number fifteen. Five other cars were just behind him. On the way h
 - way /we/ 路
 - stationer /ˈsteʃənɚ/ 文具商
 
+### Expressions
+
+- car race 汽车赛
+- in the crowd 在人群中
+- on the left 在左边
+- on the way home 在回家路上
+

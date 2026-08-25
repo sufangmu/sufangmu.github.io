@@ -35,3 +35,10 @@ Well, they're trying to repair it, sir. But to tell you the truth, you need a ne
 - repair /rɪˈpɛr/ 修理
 - try /traɪ/ 尝试
 
+### Expressions
+
+- ready yet 准备好了吗
+- three days ago 三天前
+- have a look 看一看
+- to tell you the truth 说实话
+

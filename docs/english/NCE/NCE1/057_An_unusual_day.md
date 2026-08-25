@@ -18,3 +18,9 @@ It is nine o'clock. Mr. Sawyer usually reads his newspaper at night. But he's no
 - shop /ʃɑp/ 商店
 - moment /ˈmomənt/ 时刻；瞬间
 
+### Expressions
+
+- by car 坐车
+- on foot 步行
+- at the moment 此刻
+

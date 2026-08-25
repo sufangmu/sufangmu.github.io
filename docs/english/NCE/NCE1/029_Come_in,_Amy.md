@@ -38,3 +38,10 @@ Then sweep the floor.
 - turn on /ˌtɝn ˈɑn/ 打开
 - turn off /ˌtɝn ˈɔf/ 关掉
 
+### Expressions
+
+- Come in 进来
+- Shut the door 关门
+- Open the window 开窗
+- Make the bed 铺床
+

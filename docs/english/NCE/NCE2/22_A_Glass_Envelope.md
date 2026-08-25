@@ -21,3 +21,11 @@ v. + of/from/in/on...
 - throw /θro/ 扔
 - threw /θru/ 扔（过去式）
 
+### Expressions
+
+- dream of 梦想
+- receive a letter 收到信
+- a girl of her own age 同龄女孩
+- write to each other 互相写信
+- use the post office 用邮局
+

@@ -49,3 +49,10 @@ Yes we are thank you!
 - grandfather /ˈɡrænˌfɑðɚ/ 祖父
 - grandmother /ˈɡrænˌmʌðɚ/ 祖母
 
+### Expressions
+
+- What's the matter? 怎么了？
+- Sit down here 坐在这里
+- Are you all right? 你还好吗？
+- Here you are 给你
+

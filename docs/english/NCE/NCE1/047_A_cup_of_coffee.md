@@ -47,3 +47,10 @@ Yes, please.
 - beer /bɪr/ 啤酒
 - blackboard /ˈblækˌbɔrd/ 黑板
 
+### Expressions
+
+- Do you like...? 你喜欢……吗？
+- Do you want...? 你想要……吗？
+- a cup of coffee 一杯咖啡
+- black coffee 黑咖啡
+

@@ -45,3 +45,11 @@ Thank you very much.
 - son /sʌn/ 儿子
 - daughter /ˈdɔtɚ/ 女儿
 
+### Expressions
+
+- Here is my... 这是我的……
+- Here's your... 这是你的……
+- Sorry, sir 对不起，先生
+- Thank you, sir 谢谢，先生
+- This is not my... 这不是我的……
+

@@ -51,3 +51,9 @@ To tell you the truth, Mrs. Bird, I don't like chicken either!
 - grape /ɡrep/ 葡萄
 - peach /pitʃ/ 桃子
 
+### Expressions
+
+- Do you want any...? 你想要些……吗？
+- What about some...? 来点……怎么样？
+- to tell you the truth 说实话
+

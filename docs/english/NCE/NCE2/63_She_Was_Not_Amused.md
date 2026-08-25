@@ -24,6 +24,15 @@ Jeremy asked her (why this was so) and she told him (that she did not like to se
 - sort /sɔrt/ 种类
 - circle /ˈsɝkl/ 圈子
 
+### Expressions
+
+- a large circle of friends 一大群朋友
+- be popular at 在……受欢迎
+- make a speech 发表演讲
+- a great success 巨大成功
+- on the way home 在回家路上
+- laughing at him 嘲笑他
+
 ### 方式状语从句
 
 as: in the way or manner that

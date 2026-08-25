@@ -44,3 +44,9 @@ They are very uncomfortable. But women always wear uncomfortable shoes!
 - wear /wɛr/ 穿
 - wore /wɔr/ 穿（过去式）
 
+### Expressions
+
+- size five 五号
+- in fashion 时髦
+- last month 上个月
+

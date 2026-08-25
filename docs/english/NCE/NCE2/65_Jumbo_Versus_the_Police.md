@@ -29,6 +29,15 @@ Of course, we should arrest him, but as he has a good record, we shall let him o
 - arrest /əˈrɛst/ 逮捕
 - weigh /we/ 称重
 
+### Expressions
+
+- dress up as 装扮成
+- a guard of honour 仪仗队
+- set off 出发
+- hold up the traffic 阻塞交通
+- have a difficult time 处境困难
+- let him off 放过他
+
 ### should & ought to
 
 shouldn’t & oughtn’t to

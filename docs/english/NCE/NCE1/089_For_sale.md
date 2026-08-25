@@ -48,3 +48,10 @@ Women always have the last word.
 - penny /ˈpɛni/ 便士
 - worth /wɝθ/ 值得
 
+### Expressions
+
+- for sale 出售
+- have a look at it 看一看
+- in the country 在乡下
+- have the last word 说了算
+

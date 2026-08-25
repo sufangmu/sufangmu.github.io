@@ -20,3 +20,10 @@ I wonder why!
 - sensational /sɛnˈseʃənəl/ 轰动的
 - mink coat /ˌmɪŋk ˈkot/ 貂皮大衣
 
+### Expressions
+
+- make a film 拍电影
+- feel tired 感到累
+- by our reporter 由我们的记者
+- a mink coat 一件貂皮大衣
+

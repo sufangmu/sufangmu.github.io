@@ -40,3 +40,10 @@ Thank you sir.
 - blouse /blaʊz/ 女衬衫
 - tie /taɪ/ 领带
 
+### Expressions
+
+- Whose shirt is that? 那是谁的衬衫？
+- Is this your...? 这是你的……吗？
+- Here you are 给你
+- Catch! 接住！
+

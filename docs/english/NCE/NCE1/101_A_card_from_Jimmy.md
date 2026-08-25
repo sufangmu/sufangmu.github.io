@@ -36,3 +36,10 @@ He can't write very much on a card, Mum.
 - write /raɪt/ 写
 - wrote /rot/ 写（过去式）
 
+### Expressions
+
+- read a card 读卡片
+- arrive in 到达
+- write a letter 写信
+- Speak up 大声说
+

@@ -44,3 +44,10 @@ I want my change.
 - chalk /tʃɔk/ 粉笔
 - change /tʃendʒ/ 零钱
 
+### Expressions
+
+- the large size 大号的
+- a bottle of glue 一瓶胶水
+- a large box of chalk 一大盒粉笔
+- Is that all? 就这些吗？
+

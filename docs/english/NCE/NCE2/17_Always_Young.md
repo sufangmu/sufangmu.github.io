@@ -23,6 +23,14 @@ she always answers, 'Darling, it must be terrible to be grown up!'
 - stage /stedʒ/ 舞台
 - bright /braɪt/ 鲜艳的
 
+### Expressions
+
+- at least 至少
+- appear on the stage 登台
+- take part in 参加
+- in spite of 尽管
+- be grown up 长大
+
 ### 情态动词
 
 **对现在很确信的肯定推测。“一定是”** 

@@ -69,3 +69,11 @@ Nice to meet you.
 - Italian /ɪˈtæljən/ 意大利的；意大利语
 - Italy /ˈɪtəli/ 意大利
 
+### Expressions
+
+- Good morning 早上好
+- Nice to meet you 很高兴见到你
+- This is... 这是……
+- He's/She's + 国籍 他/她是……
+- too 也
+

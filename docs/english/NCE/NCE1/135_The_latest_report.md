@@ -24,3 +24,10 @@ It certainly is.He'll be her sixth husband!
 - introduce /ˌɪntrəˈdus/ 介绍
 - hotel /hoˈtɛl/ 旅馆
 
+### Expressions
+
+- make up my mind 下定决心
+- future husband 未来的丈夫
+- introduce him to you 把他介绍给你
+- get married 结婚
+

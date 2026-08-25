@@ -30,3 +30,10 @@ It's a pleasant dream but everything depends on 'if' !
 - poor /pʊr/ 贫穷的
 - depend /dɪˈpɛnd/ 依赖
 
+### Expressions
+
+- do the football pools 买足球彩票
+- win a lot of money 赢很多钱
+- see the world 见见世面
+- travel round the world 环游世界
+

@@ -36,3 +36,9 @@ Just like London!
 - beautiful /ˈbjutəfəl/ 美丽的
 - city /ˈsɪti/ 城市
 
+### Expressions
+
+- been to the cinema 去过电影院
+- see a film 看电影
+- a beautiful city 一座美丽的城市
+

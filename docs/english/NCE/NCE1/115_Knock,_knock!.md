@@ -44,3 +44,10 @@ Don't believe her, Jim. She's only joking. Have some beer!
 - asleep /əˈslip/ 睡着的
 - glasses /ˈɡlæsəz/ 眼镜
 
+### Expressions
+
+- knock at the door 敲门
+- no one at home 家里没人
+- try the back door 试试后门
+- have a glass of beer 喝杯啤酒
+

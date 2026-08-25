@@ -48,3 +48,10 @@ My wife didn't like it!
 - beard /bɪrd/ 胡须
 - kitten /ˈkɪtən/ 小猫
 
+### Expressions
+
+- during my trip 在我的旅途中
+- a beautiful ship 一艘漂亮的船
+- offered you a job 给你一份工作
+- grew a beard 留了胡子
+

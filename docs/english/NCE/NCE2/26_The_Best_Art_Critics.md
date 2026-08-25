@@ -35,3 +35,11 @@ She was right! It was!
 - whether /ˈwɛðɚ/ 是否
 - hang /hæŋ/ 悬挂
 
+### Expressions
+
+- art student 艺术学生
+- paint pictures 画画
+- understand modern art 理解现代艺术
+- pretty patterns 漂亮的图案
+- upside down 上下颠倒
+

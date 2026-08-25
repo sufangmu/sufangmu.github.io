@@ -32,3 +32,11 @@ The aircraft was able to fly over the endless white plains without difficulty.
 - endless /ˈɛndləs/ 无尽的
 - plain /plen/ 平原
 
+### Expressions
+
+- fly over 飞越
+- take photographs 拍照
+- run into trouble 陷入麻烦
+- throw out 扔掉
+- in sight 在视野内
+

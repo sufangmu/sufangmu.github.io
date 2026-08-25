@@ -34,6 +34,15 @@ patches of green had begun to appear in the blackened soil.
 - root /rut/ 根
 - century /ˈsɛntʃəri/ 世纪
 
+### Expressions
+
+- fight the fire 灭火
+- under control 得到控制
+- cover the countryside 覆盖乡村
+- wash away 冲走
+- take root 扎根
+- in place of 代替
+
 ### 过去完成进行时
 
 结构

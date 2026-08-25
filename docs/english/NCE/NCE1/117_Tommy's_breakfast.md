@@ -12,3 +12,10 @@ When my husband was going into the dining room this morning, he dropped some coi
 - swallow /ˈswɑlo/ 吞下
 - toilet /ˈtɔɪlɪt/ 厕所
 
+### Expressions
+
+- drop some coins 掉硬币
+- look for 寻找
+- put them into his mouth 放进嘴里
+- too late 太晚了
+

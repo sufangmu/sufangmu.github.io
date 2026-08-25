@@ -19,3 +19,11 @@ In a few minutes he returned with my bag and gave it back to me.
 - pub /pʌb/ 酒吧
 - bill /bɪl/ 账单
 
+### Expressions
+
+- have lunch 吃午饭
+- look for 寻找
+- pay the bill 付账
+- give it back 还给我
+- take it into the garden 把它带到花园里
+

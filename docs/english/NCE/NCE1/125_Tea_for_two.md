@@ -35,3 +35,10 @@ That was a pleasant surprise. It means I can have tea, instead.
 - nuisance /ˈnusəns/ 讨厌的事
 - immediately /ɪˈmidiətli/ 立刻
 
+### Expressions
+
+- have tea 喝茶
+- water the garden 给花园浇水
+- terribly dry 干得厉害
+- What a nuisance! 真讨厌！
+

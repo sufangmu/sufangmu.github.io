@@ -42,3 +42,10 @@ That's very good advice!
 - instead /ɪnˈstɛd/ 代替
 - advice /ədˈvaɪs/ 建议
 
+### Expressions
+
+- make some coffee 煮点咖啡
+- a good idea 好主意
+- What a pity! 真遗憾！
+- good advice 好建议
+

@@ -31,3 +31,10 @@ Millionaires don't buy things on instalments!
 - deposit /dəˈpɑzɪt/ 定金
 - millionaire /ˌmɪljəˈnɛr/ 百万富翁
 
+### Expressions
+
+- How much does it cost? 它多少钱？
+- too expensive 太贵了
+- on instalments 分期付款
+- pay a deposit 付定金
+

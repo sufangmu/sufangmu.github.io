@@ -32,3 +32,12 @@ When it did so, it sent sparks down to the ground and these immediately started 
 - cause /kɔz/ 原因
 - volt /volt/ 伏特
 
+### Expressions
+
+- put out a fire 灭火
+- find out 查明
+- be caused by 由……引起
+- throw away 扔掉
+- wind round 缠绕
+- send sparks 迸出火花
+

@@ -36,6 +36,15 @@ In spite of this, many people are confident that 'The Revealer' may reveal somet
 - value /ˈvælju/ 价值
 - worthless /ˈwɝθləs/ 无价值的
 
+### Expressions
+
+- come true 实现
+- be used to 被用来
+- fail to collect 未能收集
+- a search party 搜索队
+- in spite of 尽管
+- reveal something of value 揭示有价值的东西
+
 ### would do vs. used to do
 
 used to do: 

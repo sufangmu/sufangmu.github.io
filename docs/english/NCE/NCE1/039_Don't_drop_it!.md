@@ -33,3 +33,9 @@ Those flowers are lovely, too.
 - take /tek/ 拿
 - send /sɛnd/ 送
 
+### Expressions
+
+- Be careful! 小心！
+- Don't drop it! 别摔了！
+- in front of the window 在窗户前面
+

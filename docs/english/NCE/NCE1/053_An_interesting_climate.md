@@ -59,3 +59,9 @@ The sun rises late and sets early. Our climate is not very good, but it's certai
 - Thailand /ˈtaɪlænd/ 泰国
 - Thai /taɪ/ 泰国的
 
+### Expressions
+
+- in the North / South 在北方/南方
+- Which seasons do you like best? 你最喜欢哪个季节？
+- favourite subject of conversation 最喜欢的话题
+

@@ -23,6 +23,14 @@ but Captain Fawcett did not take him because the trip was too dangerous.
 - roof /ruf/ 屋顶
 - block /blɑk/ 街区
 
+### Expressions
+
+- unusual taxi 不寻常的出租车
+- a Swiss aeroplane 一架瑞士飞机
+- land anywhere 随处降落
+- a block of flats 一栋公寓楼
+- refuse a request 拒绝请求
+
 ### done做定语
 
 1. 通常表被动⼀般/被动完成

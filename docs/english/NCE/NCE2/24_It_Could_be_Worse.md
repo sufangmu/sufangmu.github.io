@@ -23,3 +23,11 @@ It contained ￡50.
 - honesty /ˈɑnəsti/ 诚实
 - complain /kəmˈplen/ 抱怨
 
+### Expressions
+
+- lose money 丢钱
+- feel upset 感到不安
+- complain about 抱怨
+- knock at the door 敲门
+- some honesty 一些诚实
+

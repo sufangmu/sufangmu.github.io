@@ -26,3 +26,10 @@ I'm afraid I haven't got a larger dress. This is the largest dress in the shop.
 - as well /əz wɛl/ 也
 - suit /sut/ 适合
 
+### Expressions
+
+- too small for me 对我来说太小
+- try it 试试它
+- in fashion 时髦
+- suit me 适合我
+

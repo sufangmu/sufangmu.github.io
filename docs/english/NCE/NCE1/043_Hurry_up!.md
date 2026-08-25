@@ -42,3 +42,10 @@ Hurry up, Sam! The kettle's boiling!
 - find /faɪnd/ 找到
 - boil /bɔɪl/ 沸腾
 
+### Expressions
+
+- Can you make the tea? 你能沏茶吗？
+- of course 当然
+- behind the teapot 在茶壶后面
+- Hurry up! 快点！
+

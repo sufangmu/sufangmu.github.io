@@ -27,6 +27,14 @@ The English understand each other, but I don't understand them!
 - wonder /ˈwʌndɚ/ 惊讶
 - railway /ˈrelˌwe/ 铁路
 
+### Expressions
+
+- arrive in 到达
+- at last 终于
+- not only... but... as well 不仅……而且……
+- several times 几次
+- each other 互相
+
 ### 并列连词
 
 1. and, but, or, so 同一主语情况下主语不必重复

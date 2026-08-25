@@ -65,3 +65,10 @@ It's often cold in December, January and February. It snows sometimes.
 - Spain /spen/ 西班牙
 - Sweden /ˈswidən/ 瑞典
 
+### Expressions
+
+- Where do you come from? 你来自哪里？
+- I come from... 我来自……
+- What's the climate like? 气候怎么样？
+- What's the weather like? 天气怎么样？
+

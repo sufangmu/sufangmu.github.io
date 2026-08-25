@@ -42,3 +42,11 @@ Well, it's certainly not for me!
 - tobacco /təˈbæko/ 烟草
 - bird /bɝd/ 鸟
 
+### Expressions
+
+- a piece of cheese 一块奶酪
+- a loaf of bread 一条面包
+- a bar of soap / chocolate 一块肥皂/巧克力
+- a bottle of milk 一瓶牛奶
+- a pound of sugar 一磅糖
+

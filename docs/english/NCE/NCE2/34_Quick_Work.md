@@ -20,6 +20,14 @@ It was stolen twenty years ago when Dan was a boy of fifteen!
 - station /ˈsteʃən/ 警察局
 - most /most/ 非常
 
+### Expressions
+
+- be worried 担心
+- call at 拜访
+- be wanted by 被……通缉
+- pick up 捡到
+- be surprised 惊讶
+
 ### 过去完成时被动
 
 ⼀般现在时: am/is/are + done

@@ -46,3 +46,10 @@ The dog's in the garden, too. It's running across the grass. It's running after 
 - milk /mɪlk/ 牛奶
 - tap /tæp/ 水龙头
 
+### Expressions
+
+- Where's Sally? Sally 在哪里？
+- in the garden 在花园里
+- What's she doing? 她在做什么？
+- She's + v-ing 她在……
+

@@ -35,3 +35,10 @@ It's a dictionary. I hope it'll help you.
 - carry /ˈkæri/ 携带
 - correct /kəˈrɛkt/ 正确的
 
+### Expressions
+
+- speak to her 和她说话
+- come at once 立刻来
+- full of mistakes 满是错误
+- type it again 重新打一遍
+

@@ -42,3 +42,10 @@ So have I.
 - tramp /træmp/ 流浪汉
 - except /ɪkˈsɛpt/ 除……之外
 
+### Expressions
+
+- small change 零钱
+- a ten-pound note 一张十英镑的钞票
+- get off the bus 下公交车
+- none of our passengers 没有一个乘客
+

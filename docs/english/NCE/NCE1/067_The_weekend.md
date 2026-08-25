@@ -40,3 +40,10 @@ Friday, Saturday and Sunday in the country! Aren't you lucky!
 - baker /ˈbekɚ/ 面包师
 - grocer /ˈɡrosɚ/ 杂货商
 
+### Expressions
+
+- at the butcher's 在肉店
+- absent from school 缺课
+- spend three days in the country 在乡下度过三天
+- for the weekend 过周末
+

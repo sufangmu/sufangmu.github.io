@@ -33,3 +33,11 @@ Thank you very much.
 - car /kɑr/ 汽车
 - house /haʊs/ 房子
 
+### Expressions
+
+- Excuse me! 打扰一下；借过
+- Yes? 什么事？
+- Is this your...? 这是你的……吗？
+- Pardon? 请再说一遍
+- Thank you very much 非常感谢
+

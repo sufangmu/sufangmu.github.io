@@ -38,3 +38,10 @@ I stayed at home!
 - left /lɛft/ 离开（过去式）
 - already /ɔlˈrɛdi/ 已经
 
+### Expressions
+
+- have lunch 吃午饭
+- have a cup of coffee 喝杯咖啡
+- pack suitcases 打包行李
+- go on holiday 去度假
+

@@ -31,6 +31,14 @@ She wanted him to repair their grandson's bicycle!
 - employ /ɪmˈplɔɪ/ 雇用
 - grandson /ˈɡrænˌsʌn/ 孙子
 
+### Expressions
+
+- as a young man 年轻时
+- repair bicycles 修理自行车
+- save money 存钱
+- a small workshop 小车间
+- spare parts 零件
+
 ### used to v.
 
 过去发生，现在已经不发生了

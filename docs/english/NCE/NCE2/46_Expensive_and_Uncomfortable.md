@@ -34,6 +34,14 @@ The normal price of a ticket is ￡2, 000!
 - discover /dɪˈskʌvɚ/ 发现
 - normal /ˈnɔrməl/ 正常的
 
+### Expressions
+
+- account for 解释
+- open up 打开
+- be astonished at 对……惊讶
+- a pile of 一堆
+- be confined to 被限制在
+
 ### 同位语从句
 
 一个(完整)的句子补充说明一个名词

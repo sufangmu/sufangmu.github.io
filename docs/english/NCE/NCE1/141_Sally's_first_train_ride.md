@@ -18,3 +18,10 @@ Last week, my four-year-old daughter, Sally, was invited to a children's party. 
 - kindly /ˈkaɪndli/ 和蔼地
 - embarrassed /ɪmˈbærəst/ 尴尬的
 
+### Expressions
+
+- a children's party 儿童聚会
+- by train 坐火车
+- sit near the window 坐在窗边
+- ask questions 问问题
+

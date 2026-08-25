@@ -37,3 +37,10 @@ That is a lovely hat!
 - carpet /ˈkɑrpɪt/ 地毯
 - dog /dɔɡ/ 狗
 
+### Expressions
+
+- What colour's your...? 你的……是什么颜色的？
+- What colour is it? 它是什么颜色的？
+- Come upstairs 上楼来
+- the same colour 相同的颜色
+

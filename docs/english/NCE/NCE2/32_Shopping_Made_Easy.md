@@ -28,6 +28,14 @@ The girl 'gave' her mother a free dress once a week!
 - simply /ˈsɪmpli/ 仅仅
 - once /wʌns/ 曾经
 
+### Expressions
+
+- not so honest as 不如……诚实
+- greater than ever 比以往更
+- well-dressed 穿着讲究
+- walk out of 走出
+- once a week 每周一次
+
 ### as…as
 
 as (adv. 同等地/⼀样地) ...  as (conj. 像)

@@ -42,3 +42,10 @@ This bookcase isn't for me. It's for my daughter, Susan. Pink's her favourite co
 - listen /ˈlɪsən/ 听
 - dish /dɪʃ/ 盘子
 
+### Expressions
+
+- work hard 努力工作
+- make a bookcase 做书柜
+- paint it pink 把它涂成粉色
+- favourite colour 最喜欢的颜色
+

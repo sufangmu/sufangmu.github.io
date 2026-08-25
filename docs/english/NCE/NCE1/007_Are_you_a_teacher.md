@@ -49,3 +49,10 @@ I'm an engineer.
 - mechanic /məˈkænɪk/ 机械师
 - hairdresser /ˈhɛrˌdrɛsɚ/ 理发师
 
+### Expressions
+
+- What nationality are you? 你是哪国人？
+- What's your job? 你是做什么工作的？
+- I'm a/an... 我是……
+- Are you a...? 你是……吗？
+

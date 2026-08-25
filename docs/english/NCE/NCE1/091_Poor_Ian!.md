@@ -40,3 +40,10 @@ No, he didn't want to leave, but his wife did!
 - people /ˈpipl/ 人们
 - poor /pʊr/ 可怜的
 
+### Expressions
+
+- sold his house 卖了房子
+- move to 搬到
+- a good neighbour 好邻居
+- give my regards 代我问候
+
