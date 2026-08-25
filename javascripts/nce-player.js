@@ -1,6 +1,6 @@
 /**
  * NCE 嵌入式音频播放器（升级 <audio class="nce-audio">）
- * 提供：播放/暂停、可拖拽进度条、时间显示、播放模式切换（顺序播放 / 循环播放）。
+ * 提供：播放/暂停、可拖拽进度条、时间显示、播放模式切换、播放速度切换（按钮仅图标，说明见悬浮提示）。
  */
 (function () {
   'use strict';
@@ -41,10 +41,16 @@
     modeBtn.className = 'nce-btn nce-btn-mode';
     modeBtn.setAttribute('aria-label', '切换播放模式');
 
+    var speedBtn = document.createElement('button');
+    speedBtn.type = 'button';
+    speedBtn.className = 'nce-btn nce-btn-speed';
+    speedBtn.setAttribute('aria-label', '播放速度');
+
     wrap.appendChild(playBtn);
     wrap.appendChild(progress);
     wrap.appendChild(time);
     wrap.appendChild(modeBtn);
+    wrap.appendChild(speedBtn);
 
     // 将 audio 移入 wrapper 并隐藏原生控件
     audio.parentNode.insertBefore(wrap, audio);
@@ -68,7 +74,7 @@
     var modeIdx = 0;
     function renderMode() {
       var m = modes[modeIdx];
-      modeBtn.textContent = m.icon + ' ' + m.label;
+      modeBtn.textContent = m.icon;
       audio.loop = m.loop;
       modeBtn.title = '当前：' + m.label + '（点击切换）';
     }
@@ -77,6 +83,21 @@
       renderMode();
     });
     renderMode();
+
+    // 播放速度：点击循环切换倍数
+    var speeds = [0.5, 0.75, 1, 1.25, 1.5, 2];
+    var speedIdx = 2;
+    function renderSpeed() {
+      var s = speeds[speedIdx];
+      speedBtn.textContent = s + 'x';
+      audio.playbackRate = s;
+      speedBtn.title = '播放速度 ' + s + 'x（点击切换）';
+    }
+    speedBtn.addEventListener('click', function () {
+      speedIdx = (speedIdx + 1) % speeds.length;
+      renderSpeed();
+    });
+    renderSpeed();
 
     function render() {
       var d = audio.duration || 0;

@@ -14163,7 +14163,62 @@
 
 
 
+<!-- giscus 评论系统 -->
+<script src="https://giscus.app/client.js"
+        data-repo="sufangmu/sufangmu.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyNTU5NTg4MjU="
+        data-category="General"
+        data-category-id="DIC_kwDOD0GfKc4DEKEh"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
 
+<!-- 让 giscus 主题跟随 Material 明暗切换（data-md-color-scheme） -->
+<script>
+  (function () {
+    function applyTheme() {
+      var scheme = document.body.getAttribute('data-md-color-scheme');
+      var theme = scheme === 'slate' ? 'dark' : 'light';
+      var frame = document.querySelector('iframe.giscus-frame');
+      if (frame && frame.contentWindow) {
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: theme } } },
+          'https://giscus.app'
+        );
+      }
+    }
+
+    // giscus 就绪后会给父页面发消息，借此在首次加载时套用主题
+    window.addEventListener('message', function (e) {
+      if (e.origin === 'https://giscus.app' && e.data && e.data.giscus) {
+        applyTheme();
+      }
+    });
+
+    // 监听 Material 明暗切换，实时同步给 giscus
+    function observe() {
+      var observer = new MutationObserver(applyTheme);
+      observer.observe(document.body, {
+        attributes: true,
+        attributeFilter: ['data-md-color-scheme'],
+      });
+      applyTheme();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', observe);
+    } else {
+      observe();
+    }
+  })();
+</script>
                 
               </article>
             </div>
