@@ -8,6 +8,7 @@ copyright: Copyright &copy; 2026 苏方木
 
 theme:
   name: 'material'
+  custom_dir: overrides
   palette:
     - scheme: default
       toggle:

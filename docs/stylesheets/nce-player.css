@@ -39,6 +39,13 @@
   gap: 4px;
 }
 
+/* 播放速度按钮 */
+.nce-player .nce-btn-speed {
+  min-width: 48px;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
 .nce-player .nce-progress {
   flex: 1;
   height: 6px;
