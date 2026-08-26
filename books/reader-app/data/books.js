@@ -136,15 +136,6 @@ window.EBOOK_CATALOG = [
     description: '聂卫平围棋教程(从1级到1段)'
   },
   {
-    id: 'pet',
-    title: 'PET父母效能训练手册',
-    author: '托马斯·戈登',
-    category: 'psychology',
-    format: 'pdf',
-    path: 'https://raw.githubusercontent.com/sufangmu/books/refs/heads/main/psychology/PET父母效能训练手册.pdf',
-    description: 'PET父母效能训练手册'
-  },
-  {
     id: 'yebk',
     title: '美国儿科学会育儿百科(第七版)',
     author: '儿科学会',
