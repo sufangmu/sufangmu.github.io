@@ -14,13 +14,13 @@ If you can do without the few pastoral pleasures of the country, you will find t
 - illusion /ˌɪˈluʒən/ 幻觉
 - superior /suˈpɪriɚ/ 优越的
 - cockcrow /ˈkɑkˌkro/ 鸡叫
-- twittering /ˈtwɪtɚɪŋ/ 鸟叫
+- twittering /ˈtwɪtərɪŋ/ 鸟叫
 - glinting /ˈɡlɪntɪŋ/ 闪烁
 - pastures /ˈpæstʃɚz/ 牧场
 - idyllic /aɪˈdɪlɪk/ 田园诗的
 - virtually /ˈvɝtʃuəli/ 几乎
 - dubious /ˈdubiəs/ 可疑的
-- misery /ˈmɪzɚi/ 苦难
+- misery /ˈmɪzəri/ 苦难
 - acquaintances /əˈkwentənsɪz/ 熟人
 - treat /trit/ 享受
 - dweller /ˈdwɛlɚ/ 居住者

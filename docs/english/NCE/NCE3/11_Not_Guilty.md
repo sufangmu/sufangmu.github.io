@@ -27,7 +27,7 @@ The Officer unscrewed the cap and put the bottle to his nostrils. He was greeted
 ### Words
 
 - Officers /ˈɔfəsɚz/ 海关官员
-- tolerant /ˈtɑlɚənt/ 宽容的
+- tolerant /ˈtɑlərənt/ 宽容的
 - declare /dɪˈklɛr/ 申报
 - guilty /ˈɡɪlti/ 有罪的,内疚的
 - hardened /ˈhɑrdənd/ 老练的

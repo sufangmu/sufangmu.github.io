@@ -21,7 +21,7 @@ After consulting my railway timetable, I noted with satisfaction that there was 
 - chugging /ˈtʃʌɡɪŋ/ 咔擦咔擦地响
 - lodge /lɑdʒ/ 提出
 - triumph /ˈtraɪəmf/ 胜利
-- asterisk /ˈæstɚɪsk/ 星号
+- asterisk /ˈæstərɪsk/ 星号
 
 ### Expressions
 

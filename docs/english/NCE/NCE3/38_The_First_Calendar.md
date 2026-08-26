@@ -14,7 +14,7 @@ Historians have long been puzzled by dots, lines and symbols which have been eng
 - unique /juˈnik/ 无与伦比的
 - steadily /ˈstɛdəli/ 不断地
 - solely /ˈsoəli/ 唯一地
-- bewildering /bɪˈwɪldɚɪŋ/ 令人眼花缭乱的
+- bewildering /bɪˈwɪldərɪŋ/ 令人眼花缭乱的
 - deduce /dɪˈdus/ 推理
 - scanty /ˈskænti/ 贫乏地
 - clues /kluz/ 线索
@@ -23,7 +23,7 @@ Historians have long been puzzled by dots, lines and symbols which have been eng
 - agriculture /ˈæɡrɪˌkəltʃɚ/ 农业
 - assumption /əˈsʌmpʃən/ 假设
 - engraved /ɪnˈɡrevd/ 雕刻
-- ivory /ˈaɪvɚi/ 象牙制品
+- ivory /ˈaɪvəri/ 象牙制品
 - tusks /tʌsks/ 象牙
 - mammoths /ˈmæməθs/ 长毛象
 - nomads /ˈnoˌmædz/ 游牧民

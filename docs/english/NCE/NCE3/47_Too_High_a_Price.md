@@ -12,7 +12,7 @@ However, there is an even more insidious kind of pollution that particularly aff
 
 - Pollution /pəˈluʃən/ 污染
 - overpopulated /ˌovɚˈpɑpjəletɪd/ 人口多的
-- overindustrialized /ˌovɚɪnˈdʌstrɪəˌlaɪzd/ 过度工业化
+- overindustrialized /ˌovərɪnˈdʌstrɪəˌlaɪzd/ 过度工业化
 - sheer /ʃɪr/ 纯粹的
 - overwhelm /ˌovɚˈwɛlm/ 淹没
 - polluting /pəˈlutɪŋ/ 污染

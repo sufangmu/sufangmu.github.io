@@ -15,7 +15,7 @@ Six hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldier
 - hire /ˈhaɪɚ/ 雇用
 - princes /ˈprɪnsəz/ 国君
 - march /mɑrtʃ/ 行军
-- funeral /ˈfjunɚəl/ 葬礼
+- funeral /ˈfjunərəl/ 葬礼
 - dedicated /ˈdɛdəketəd/ 献给
 - valiant /ˈvæljənt/ 英勇的
 - notable /ˈnotəbəl/ 著名的

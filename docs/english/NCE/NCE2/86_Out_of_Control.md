@@ -22,7 +22,7 @@ Before long(=soon), the noise dropped completely and the boat began to drift gen
 - speedboat /ˈspidˌbot/ 快艇
 - steering /ˈstɪrɪŋ/ wheel /wil/ 舵轮
 - came /kem/ away /əˈwe/ 脱落
-- desperately /ˈdɛspɚətli/ 绝望地
+- desperately /ˈdɛspərətli/ 绝望地
 - skiing /ˈskiɪŋ/ 滑雪
 - violently /ˈvaɪələntli/ 猛烈地
 - buoy /ˈbui/ 浮标
@@ -30,7 +30,7 @@ Before long(=soon), the noise dropped completely and the boat began to drift gen
 - dismay /dɪˈsme/ 沮丧
 - tremendous /trəˈmɛndəs/ 极大的
 - roared /rɔrd/ 咆哮
-- considerably /kənˈsɪdɚəbli/ 非常
+- considerably /kənˈsɪdərəbli/ 非常
 - petrol /ˈpɛtrol/ 汽油
 - been /bɪn/ used /juzd/ up /ʌp/ 用光
 - drift /drɪft/ 漂流

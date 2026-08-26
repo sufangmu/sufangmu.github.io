@@ -21,7 +21,7 @@ Only one or two people have objected that the students will drive too fast!
 
 - go /ɡo/ on /ɑn/ strike /straɪk/ 罢工
 - stated /ˈstetɪd/ 声明
-- general /ˈdʒɛnɚəl/ 大体的
+- general /ˈdʒɛnərəl/ 大体的
 - relieve /rɪˈliv/ 减轻
 - pressure /ˈprɛʃɚ/ 压力
 - trains /trenz/ 轨道交通

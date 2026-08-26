@@ -21,7 +21,7 @@
 - diversions /dɪˈvɝʒənz/ 绕道
 - trial /ˈtraɪəl/ 讨厌的事、人
 - fraction /ˈfrækʃən/ 很小一点儿
-- flourish /ˈflɝɪʃ/ 打手势
+- flourish /ˈflərɪʃ/ 打手势
 - microscopic /ˌmaɪkrəˈskɑpɪk/ 微小的
 - adamant /ˈædəmənt/ 坚定的
 

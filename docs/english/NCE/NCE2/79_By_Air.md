@@ -21,7 +21,7 @@ Fortunately, nothing was found and five hours later we were able to take off aga
 - flight /flaɪt/ attendant /əˈtɛndənt/ 空姐
 - curious /ˈkjʊriəs/ 好奇的
 - planted /ˈplæntɪd/ 放
-- thoroughly /ˈθɝoli/ 认真仔细地
+- thoroughly /ˈθəroli/ 认真仔细地
 - bomb /bɑm/ 炸弹
 - frightened /ˈfraɪtənd/ 受惊的
 

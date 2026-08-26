@@ -22,7 +22,7 @@ Don't be so sure. We might not go anywhere. My wife always worries too much. Who
 
 - Egypt /ˈidʒɪpt/ 埃及
 - abroad /əˈbrɔd/ 出国
-- worry /ˈwɝi/ 担心
+- worry /ˈwəri/ 担心
 
 ### Expressions
 

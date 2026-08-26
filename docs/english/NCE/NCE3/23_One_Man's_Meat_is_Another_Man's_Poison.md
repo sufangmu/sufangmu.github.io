@@ -16,7 +16,7 @@ No creature has received more praise and abuse than the common garden snail. Coo
 - frying /ˈfraɪɪŋ/ 油炸
 - abuse /əˈbjus/ 辱骂
 - snail /snel/ 蜗牛
-- luxury /ˈlʌɡʒɚi/ 奢侈品
+- luxury /ˈlʌɡʒəri/ 奢侈品
 - despised /dɪˈspaɪzd/ 鄙视
 - appealed /əˈpild/ 吸引
 - shower /ˈʃaʊɚ/ 阵雨

@@ -11,7 +11,7 @@ Dickie disliked snobs intensely. Though he owned a large car, he hardly ever use
 ### Words
 
 - eccentrics /ɪkˈsɛntrɪks/ 古怪人
-- deliberately /dɪˈlɪbɚətli/ 故意地
+- deliberately /dɪˈlɪbərətli/ 故意地
 - disregard /ˌdɪsrɪˈɡɑrd/ 漠视
 - conventions /kənˈvɛnʃənz/ 习俗
 - conscious /ˈkɑnʃəs/ 意识到的

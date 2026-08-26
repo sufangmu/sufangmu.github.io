@@ -23,7 +23,7 @@ They stretch out their legs like flying squirrels. This increases their air-resi
 - windowsills /ˈwɪndoˌsɪlz/ 窗台
 - from /frʌm/ 遭受
 - paratroopers /ˈpɛrəˌtrupɚz/ 伞兵
-- squirrels /ˈskwɝəlz/ 松鼠
+- squirrels /ˈskwərəlz/ 松鼠
 - air-resistance /ˈɛr rɪˈzɪstəns/ 空气阻力
 - impact /ˌɪmˈpækt/ 撞击
 

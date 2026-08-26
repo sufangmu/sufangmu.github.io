@@ -11,13 +11,13 @@ Last spring my wife suggested that I call in a man to look at our lawn mower. It
 ### Words
 
 - plead /plid/ 辩解
-- ignorance /ˈɪɡnɚəns/ 无知
+- ignorance /ˈɪɡnərəns/ 无知
 - publications /ˌpəblɪˈkeʃənz/ 出版物
 - newlyweds /ˈnuliˌwɛdz/ 新欢夫妇
 - gaily /ˈɡeli/ 愉快地
 - leisure /ˈlɛʒɚ/ 空闲的
 - keen /kin/ 热心的
-- advisory /ædˈvaɪzɚi/ 咨询的
+- advisory /ædˈvaɪzəri/ 咨询的
 - assemble /əˈsɛmbəl/ 装配
 - outlet /ˈaʊtˌlɛt/ 出路
 - handymen /ˈhændiˈmɛn/ 能工巧匠

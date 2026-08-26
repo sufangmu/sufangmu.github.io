@@ -9,7 +9,7 @@ Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous letter
 ### Words
 
 - Kidnappers /ˈkɪdˌnæpɚz/ 绑匪
-- considerable /kənˈsɪdɚəbəl/ 相当大的
+- considerable /kənˈsɪdərəbəl/ 相当大的
 - flat /flæt/ 公寓
 - anonymous /əˈnɑnəməs/ 匿名的
 - ransom /ˈrænsəm/ 赎金

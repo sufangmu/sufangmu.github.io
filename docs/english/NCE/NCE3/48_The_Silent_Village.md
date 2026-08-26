@@ -13,7 +13,7 @@ The path led to a tiny village perched on the steep sides of a mountain. The pla
 - inaccessible /ˌɪnəkˈsɛsəbəl/ 难接近地
 - hospitable /ˈhɑˈspɪtəbəl/ 好客的
 - vicinity /vəˈsɪnəti/ 周围
-- architectural /ˌɑrkəˈtɛktʃɚəl/ 建筑
+- architectural /ˌɑrkəˈtɛktʃərəl/ 建筑
 - frescoes /ˈfrɛskoz/ 壁画
 - abruptly /əˈbrʌptli/ 突然地
 - tramped /træmpt/ 徒步前进

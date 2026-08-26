@@ -10,7 +10,7 @@ The temple (which the archaeologists explored) was used as a place of worship fr
 
 - archaeologists /ˌɑrkiˈɑlədʒɪsts/ 考古学家
 - on /ɑn/ the /ðə/ promontory /ˈprɑmənˌtɔrɪ/ 海角
-- prosperous /ˈprɑspɚəs/ 繁荣的
+- prosperous /ˈprɑspərəs/ 繁荣的
 - civilization /ˌsɪvəlɪˈzeʃən/ 文明
 - stories /ˈstɔriz/ 楼层
 - decorated /ˈdɛkɚˌetɪd/ 装饰的

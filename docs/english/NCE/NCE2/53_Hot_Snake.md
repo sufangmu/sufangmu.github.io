@@ -25,7 +25,7 @@ When it did so, it sent sparks down to the ground and these immediately started 
 - wound /waʊnd/ wind, 缠绕
 - electric /ɪˈlɛktrɪk/ wires /ˈwaɪɚz/ 电线
 - power /ˈpaʊɚ/ line /laɪn/ 电线
-- solve /sɑlv/ the /ðə/ mystery /ˈmɪstɚi/ 迷
+- solve /sɑlv/ the /ðə/ mystery /ˈmɪstəri/ 迷
 - snatched /snætʃt/ 抓
 - sparks /spɑrks/ 火花
 - fireman /ˈfaɪrmən/ 消防员

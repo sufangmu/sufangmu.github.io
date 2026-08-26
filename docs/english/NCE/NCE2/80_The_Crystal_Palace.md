@@ -24,7 +24,7 @@ It remained one of the most famous buildings in the world until it was burnt dow
 - Exhibition /ˌɛksəˈbɪʃən/ 展览
 - iron /ˈaɪɚn/ 铁
 - various /ˈvɛriəs/ 各种各样的
-- machinery /məˈʃinɚi/ 机器
+- machinery /məˈʃinəri/ 机器
 - steam /stim/ 蒸汽
 - hammer /ˈhæmɚ/ 铁锤
 - profits /ˈprɑfɪts/ 盈利

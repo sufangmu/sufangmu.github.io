@@ -17,10 +17,10 @@ A man who had broken his right leg was taken to hospital a few weeks before Chri
 - Comedians /kəˈmidiənz/ 喜剧演员
 - tragic /ˈtrædʒɪk/ 悲剧的
 - distasteful /dɪˈstestfəl/ 讨厌的
-- pestering /ˈpɛstɚɪŋ/ 纠缠
+- pestering /ˈpɛstərɪŋ/ 纠缠
 - dreaded /ˈdrɛdɪd/ 惧怕
 - plaster /ˈplæstɚ/ 熟石膏
-- miserable /ˈmɪzɚəbəl/ 悲惨的
+- miserable /ˈmɪzərəbəl/ 悲惨的
 - consoled /kənˈsold/ 安慰
 - hobble /ˈhɑbəl/ 瘸着腿走
 - compensate /ˈkɑmpənˌset/ 补偿

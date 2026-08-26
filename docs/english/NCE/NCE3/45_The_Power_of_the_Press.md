@@ -18,7 +18,7 @@ The rise to fame was swift. Television cameras and newspapers carried the news t
 - perpetual /pɚˈpɛtʃuəl/ 永久的
 - quintuplets /ˈkwɪnˈtʌpləts/ 五胞胎之一
 - radically /ˈrædɪkli/ 彻底地
-- nursery /ˈnɝsɚi/ 育婴室
+- nursery /ˈnɝsəri/ 育婴室
 - commercialization /kəˌmɝʃəlɪˈzeʃən/ 商品化
 - commodity /kəˈmɑdəti/ 商品
 

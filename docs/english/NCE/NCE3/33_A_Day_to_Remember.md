@@ -11,7 +11,7 @@ Things can go wrong on a big scale as a number of people recently discovered in 
 - prelude /ˈpreˌlud/ 序幕
 - unforeseen /ˌənfɔrˈsin/ 意料之外
 - catastrophes /kəˈtæstrəfiz/ 灾难
-- crockery /ˈkrɑkɚi/ 陶器
+- crockery /ˈkrɑkəri/ 陶器
 - suburb /ˈsʌbɚb/ 郊区
 - rush /rʌʃ/ hour /ˈaʊɚ/ 高峰时间
 - collided /kəˈlaɪdɪd/ 猛撞

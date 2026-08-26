@@ -19,7 +19,7 @@ The pie committee telephoned a local garage owner who arrived in a recovery truc
 - purchased /ˈpɝtʃəst/ 买
 - annual /ˈænjuəl/ 一年一度地
 - capsized /ˈkæpˌsaɪzd/ 翻
-- Shivering /ˈʃɪvɚɪŋ/ 打颤
+- Shivering /ˈʃɪvərɪŋ/ 打颤
 - dived /daɪvd/ 跳水
 - hauling /ˈhɔlɪŋ/ 拖拽
 - hawsers /ˈhɔzɚz/ 粗缆绳

@@ -15,7 +15,7 @@
 - incompetent /ˌɪnˈkɑmpətənt/ 不称职的
 - over-zealously /ˌovɚ ˈzɛləslɪ/ 过分热情地
 - safeguard /ˈsefˌɡɑrd/ 保护
-- parliamentary /ˌpɑrləˈmɛntɚi/ 国会的
+- parliamentary /ˌpɑrləˈmɛntəri/ 国会的
 - qualified /ˈkwɑləˌfaɪd/ 合格的
 - grievances /ˈɡrivənsəz/ 不平，冤屈
 - secretive /ˈsikrətɪv/ 保密的

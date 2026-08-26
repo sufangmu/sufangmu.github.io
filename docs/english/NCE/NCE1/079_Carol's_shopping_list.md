@@ -36,7 +36,7 @@ Well, I haven't got much either!
 - vegetable /ˈvɛdʒtəbl/ 蔬菜
 - need /nid/ 需要
 - money /ˈmʌni/ 钱
-- groceries /ˈɡrosɚiz/ 食品杂货
+- groceries /ˈɡrosəriz/ 食品杂货
 - fruit /frut/ 水果
 - stationery /ˈsteʃəˌnɛri/ 文具
 - newsagent /ˈnjuzˌedʒənt/ 报刊商

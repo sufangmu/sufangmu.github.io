@@ -22,7 +22,7 @@ It contained five large bars of chocolate and three bags of sweets!
 
 - go /ɡo/ on /ɑn/ a /ə/ diet /ˈdaɪət/ 节食
 - led /lɛd/ lead, 引领
-- hurriedly /ˈhɝidli/ 迅速地
+- hurriedly /ˈhəridli/ 迅速地
 - parcel /ˈpɑrsəl/ 包裹
 - embarrassed /ɪmˈbɛrəst/ 尴尬
 - guiltily /ˈɡɪltɪlɪ/ 内疚

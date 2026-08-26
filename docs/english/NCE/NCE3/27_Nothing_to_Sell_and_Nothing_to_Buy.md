@@ -21,7 +21,7 @@ Tramps seem to be the only exception to this general rule. Beggars almost sell t
 - pity /ˈpɪti/ 怜悯
 - sacrifice /ˈsækrəˌfaɪs/ 牺牲
 - dignity /ˈdɪɡnəti/ 尊严
-- deliberately /dɪˈlɪbɚətli/ 故意地
+- deliberately /dɪˈlɪbərətli/ 故意地
 - anxieties /æŋˈzaɪətiz/ 焦虑
 - afflict /əˈflɪkt/ 折磨
 - occasionally /əˈkeʒənəli/ 偶尔

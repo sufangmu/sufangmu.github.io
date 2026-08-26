@@ -31,7 +31,7 @@ We're now going back to the studio.'
 - harvesting /ˈhɑrvəstɪŋ/ 收获
 - cartloads /ˈkɑrt ˌlodz/ 一货车的装载量
 - stalks /stɔks/ 茎秆
-- gathering /ˈɡæðɚɪŋ/ 收集
+- gathering /ˈɡæðərɪŋ/ 收集
 - threshing /ˈθrɛʃɪŋ/ 打谷
 - competition /ˌkɑmpəˈtɪʃən/ 比赛
 - champion /ˈtʃæmpiən/ 冠军

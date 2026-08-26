@@ -9,7 +9,7 @@ In spite of this, some people--including myself--were surprised by a recent exhi
 ### Words
 
 - sculpture /ˈskʌlptʃɚ/ 雕塑
-- gallery /ˈɡælɚi/ 美术馆
+- gallery /ˈɡæləri/ 美术馆
 - spheres /sfɪrz/ 球体
 - magnetized /ˈmæɡnɪˌtaɪzd/ 磁化
 - repelled /rəˈpɛld/ 排斥

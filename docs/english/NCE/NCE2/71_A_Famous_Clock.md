@@ -19,7 +19,7 @@ A painter (who had been working on the tower) hung a pot of paint on one of the 
 - Parliament /ˈpɑrləmənt/ 英国国会大厦
 - erected /ɪˈrɛktəd/ 建立
 - takes /teks/ its /ɪts/ name /nem/ from /frʌm/ 取名于
-- accurate /ˈækjɚət/ 准确的
+- accurate /ˈækjərət/ 准确的
 - Officials /əˈfɪʃəlz/ 官员
 - Observatory /əbˈzɝvəˌtɔri/ 格林尼治天文台
 - striking /ˈstraɪkɪŋ/ 敲

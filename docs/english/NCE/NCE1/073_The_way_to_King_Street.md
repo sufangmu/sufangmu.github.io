@@ -21,7 +21,7 @@ Last week Mrs. Mills went to London. She does not know London very well, and she
 - phrasebook /ˈfrezˌbʊk/ 常用语手册
 - phrase /frez/ 短语
 - slowly /ˈsloli/ 缓慢地
-- hurriedly /ˈhɝidli/ 匆忙地
+- hurriedly /ˈhəridli/ 匆忙地
 - cut /kʌt/ 切
 - thirstily /ˈθɝstəli/ 口渴地
 - greet /ɡrit/ 问候

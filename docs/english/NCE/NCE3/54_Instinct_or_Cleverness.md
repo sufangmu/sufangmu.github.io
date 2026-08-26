@@ -31,7 +31,7 @@
 - underside /ˈʌndɚˌsaɪd/ 底面，下侧
 - colony /ˈkɑləni/ 一群
 - sticky /ˈstɪki/ 粘的
-- scurrying /ˈskɝiɪŋ/ 小步跑
+- scurrying /ˈskəriɪŋ/ 小步跑
 - swarming /ˈswɔrmɪŋ/ 聚集
 - ingenuity /ˌɪndʒəˈnuəˌti/ 机灵
 

@@ -37,7 +37,7 @@ If I had been, I would not have been able to get home for lunch.'
 - basement /ˈbesmənt/ 地下室
 - definitely /ˈdɛfənətli/ 肯定地
 - posted /ˈpostɪd/ 委派
-- Accurate /ˈækjɚət/ 准确的
+- Accurate /ˈækjərət/ 准确的
 - shot /ʃɑt/ 枪击
 
 ### Expressions
