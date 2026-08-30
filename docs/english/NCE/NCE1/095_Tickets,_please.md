@@ -1,38 +1,74 @@
 ## Lesson 95 Tickets, please.
 
-Two return tickets to London, please. What time will the next train leave?
+=== "原文"
+    Two return tickets to London, please. What time will the next train leave?
 
-At nineteen minutes past eight.
+    At nineteen minutes past eight.
 
-Which platform?
+    Which platform?
 
-Platform Two. Over the bridge.
+    Platform Two. Over the bridge.
 
-What time will the next train leave?
+    What time will the next train leave?
 
-At eight nineteen.
+    At eight nineteen.
 
-We've got plenty of time.
+    We've got plenty of time.
 
-It's only three minutes to eight.
+    It's only three minutes to eight.
 
-Let's go and have a drink. There's a bar next door to the station.
+    Let's go and have a drink. There's a bar next door to the station.
 
-We had better go back to the station now, Ken.
+    We had better go back to the station now, Ken.
 
-Tickets, please.
+    Tickets, please.
 
-We want to catch the eight nineteen to London.
+    We want to catch the eight nineteen to London.
 
-You've just missed it!
+    You've just missed it!
 
-What! It's only eight fifteen.
+    What! It's only eight fifteen.
 
-I'm sorry, sir. That clock's ten minutes slow.
+    I'm sorry, sir. That clock's ten minutes slow.
 
-When's the next train?
+    When's the next train?
 
-In five hours' time!
+    In five hours' time!
+
+=== "译文"
+    请来两张去伦敦的往返票。下一班火车什么时候开？
+
+    8点19分。
+
+    在哪个站台？
+
+    二号站台。过桥。
+
+    下一班火车什么时候开？
+
+    8点19分。
+
+    我们时间很充裕。
+
+    现在才差3分8点。
+
+    我们去喝一杯吧。车站隔壁有个酒吧。
+
+    我们现在最好回车站去，肯。
+
+    请出示车票。
+
+    我们想赶8点19分去伦敦的那班车。
+
+    你们刚错过了！
+
+    什么！现在才8点15分。
+
+    对不起，先生。那个钟慢了10分钟。
+
+    下一班车什么时候来？
+
+    5个小时以后！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/095096Tickets,Please..mp3"></audio>
 

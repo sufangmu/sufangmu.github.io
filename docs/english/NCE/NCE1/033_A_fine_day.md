@@ -1,26 +1,50 @@
 ## Lesson 33 A fine day
 
-It is a fine day today.
+=== "原文"
+    It is a fine day today.
 
-There are some clouds in the sky,
+    There are some clouds in the sky,
 
-but the sun is shining.
+    but the sun is shining.
 
-Mr. Jones is with his family.
+    Mr. Jones is with his family.
 
-They are walking over the bridge.
+    They are walking over the bridge.
 
-There are some boats on the river.
+    There are some boats on the river.
 
-Mr. Jones and his wife are looking at them.
+    Mr. Jones and his wife are looking at them.
 
-Sally is looking at a big ship.
+    Sally is looking at a big ship.
 
-The ship is going under the bridge.
+    The ship is going under the bridge.
 
-Tim is looking at an aeroplane.
+    Tim is looking at an aeroplane.
 
-The aeroplane is flying over the river.
+    The aeroplane is flying over the river.
+
+=== "译文"
+    今天天气很好。
+
+    天空中飘着几朵云，
+
+    但阳光灿烂。
+
+    琼斯先生同家人在一起。
+
+    他们正在过桥。
+
+    河上有几艘船。
+
+    琼斯先生和他的妻子正在看着那些船。
+
+    萨莉正在看一艘大船。
+
+    那艘船正从桥下驶过。
+
+    蒂姆正在看一架飞机。
+
+    那架飞机正从河上飞过。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/033034AFineDay.mp3"></audio>
 

@@ -1,22 +1,42 @@
 ## Lesson 29 Come in, Amy.
 
-Come in, Amy.
+=== "原文"
+    Come in, Amy.
 
-Shut the door, please.
+    Shut the door, please.
 
-This bedroom's very untidy.
+    This bedroom's very untidy.
 
-What must I do, Mrs. Jones?
+    What must I do, Mrs. Jones?
 
-Open the window and air the room.
+    Open the window and air the room.
 
-Then put these clothes in the wardrobe.
+    Then put these clothes in the wardrobe.
 
-Then make the bed.
+    Then make the bed.
 
-Dust the dressing table.
+    Dust the dressing table.
 
-Then sweep the floor.
+    Then sweep the floor.
+
+=== "译文"
+    进来，艾米。
+
+    请把门关上。
+
+    这间卧室非常不整洁。
+
+    我应该做些什么呢，琼斯太太？
+
+    打开窗户给房间通通风。
+
+    然后把这些衣服放进衣橱里。
+
+    然后整理床铺。
+
+    掸掉梳妆台上的灰尘。
+
+    然后扫地。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/029030ComeIn,Amy.mp3"></audio>
 

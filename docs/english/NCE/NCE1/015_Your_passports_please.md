@@ -1,36 +1,70 @@
 ## Lesson 15 Your passports please.
 
-Are you Swedish?
+=== "原文"
+    Are you Swedish?
 
-No we are not. We are Danish.
+    No we are not. We are Danish.
 
-Are your friends Danish too?
+    Are your friends Danish too?
 
-No they aren't. They are Norwegian.
+    No they aren't. They are Norwegian.
 
-Your passports please.
+    Your passports please.
 
-Here they are.
+    Here they are.
 
-Are these your cases?
+    Are these your cases?
 
-No they aren't.
+    No they aren't.
 
-Our cases are brown.
+    Our cases are brown.
 
-Here they are.
+    Here they are.
 
-Are you tourists?
+    Are you tourists?
 
-Yes we are.
+    Yes we are.
 
-Are your friends tourists too?
+    Are your friends tourists too?
 
-Yes they are.
+    Yes they are.
 
-That's fine.
+    That's fine.
 
-Thank you very much.
+    Thank you very much.
+
+=== "译文"
+    你们是瑞典人吗？
+
+    不，我们不是。我们是丹麦人。
+
+    你们的朋友也是丹麦人吗？
+
+    不，他们不是。他们是挪威人。
+
+    请出示你们的护照。
+
+    给您。
+
+    这些是你们的箱子吗？
+
+    不，不是。
+
+    我们的箱子是棕色的。
+
+    给您。
+
+    你们是游客吗？
+
+    是的，我们是。
+
+    你们的朋友也是游客吗？
+
+    是的，他们是。
+
+    好了。
+
+    非常感谢。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/015016YourPassports,Please.mp3"></audio>
 

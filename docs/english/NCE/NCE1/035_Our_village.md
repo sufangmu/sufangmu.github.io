@@ -1,34 +1,66 @@
 ## Lesson 35 Our village
 
-This is a photograph of our village.
+=== "原文"
+    This is a photograph of our village.
 
-Our village is in a valley.
+    Our village is in a valley.
 
-It is between two hills.
+    It is between two hills.
 
-The village is on a river.
+    The village is on a river.
 
-Here is another photograph of the village.
+    Here is another photograph of the village.
 
-My wife and I are walking along the banks of the river.
+    My wife and I are walking along the banks of the river.
 
-We are on the left.
+    We are on the left.
 
-There is a boy in the water.
+    There is a boy in the water.
 
-He is swimming across the river.
+    He is swimming across the river.
 
-Here is another photograph.
+    Here is another photograph.
 
-This is the school building.
+    This is the school building.
 
-It is beside a park.
+    It is beside a park.
 
-The park is on the right.
+    The park is on the right.
 
-Some children are coming out of the building.
+    Some children are coming out of the building.
 
-Some of them are going into the park.
+    Some of them are going into the park.
+
+=== "译文"
+    这是我们村庄的一张照片。
+
+    我们的村庄在一个山谷中。
+
+    它位于两座小山之间。
+
+    村庄傍河而建。
+
+    这是村庄的另一张照片。
+
+    我和妻子正沿着河岸散步。
+
+    我们在左边。
+
+    水中有个男孩。
+
+    他正游过河去。
+
+    这是另一张照片。
+
+    这是学校大楼。
+
+    它在公园旁边。
+
+    公园在右边。
+
+    一些孩子正从大楼里出来。
+
+    他们中有一些正走进公园。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/035036OurVillage.mp3"></audio>
 

@@ -1,24 +1,46 @@
 ## Lesson 9 How are you today?
 
-Hello Helen.
+=== "原文"
+    Hello Helen.
 
-Hi Steven.
+    Hi Steven.
 
-How are you today?
+    How are you today?
 
-I'm very well thank you. And you?
+    I'm very well thank you. And you?
 
-I'm fine thanks.
+    I'm fine thanks.
 
-How is Tony?
+    How is Tony?
 
-He's fine thanks. How's Emma?
+    He's fine thanks. How's Emma?
 
-She's very well too Helen.
+    She's very well too Helen.
 
-Goodbye Helen. Nice to see you.
+    Goodbye Helen. Nice to see you.
 
-Nice to see you too Steven. Goodbye.
+    Nice to see you too Steven. Goodbye.
+
+=== "译文"
+    你好，海伦。
+
+    嗨，史蒂文。
+
+    你今天好吗？
+
+    我很好，谢谢你。你呢？
+
+    我很好，谢谢。
+
+    托尼好吗？
+
+    他很好，谢谢。艾玛好吗？
+
+    她也很好，海伦。
+
+    再见，海伦。很高兴见到你。
+
+    也很高兴见到你，史蒂文。再见。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/009010HowAreYouToday.mp3"></audio>
 

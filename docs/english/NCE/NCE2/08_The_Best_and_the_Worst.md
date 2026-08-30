@@ -1,15 +1,22 @@
 ## 08 The Best and the Worst
 
-Joe Sanders has the most beautiful garden in our town.
-Nearly everybody enters for 'The Nicest Garden Competition' each year,
-but Joe wins every time.
-Bill Frith's garden is larger than Joe's.
-Bill works harder than Joe and grows more flowers and vegetables,
-but Joe's garden is more interesting.
-He has made neat paths and has built a wooden bridge over a pool.
-I like gardens too, but I do not like hard work.
-Every year I enter for the garden competition too,
-and I always win a little prize for the worst garden in the town!
+=== "原文"
+    Joe Sanders has the most beautiful garden in our town.
+    Nearly everybody enters for 'The Nicest Garden Competition' each year,
+    but Joe wins every time.
+    Bill Frith's garden is larger than Joe's.
+    Bill works harder than Joe and grows more flowers and vegetables,
+    but Joe's garden is more interesting.
+    He has made neat paths and has built a wooden bridge over a pool.
+    I like gardens too, but I do not like hard work.
+    Every year I enter for the garden competition too,
+    and I always win a little prize for the worst garden in the town!
+
+=== "译文"
+    乔·桑德斯拥有我们镇上最漂亮的花园。几乎每个人都参加每年举办的"最佳花园竞赛"，而每次都是乔获胜。
+    比尔·弗里斯的花园比乔的花园大。他比乔也更为勤奋，种植的花卉和蔬菜也更多，但乔的花园更富有情趣。
+    他修筑了一条条整洁的小路，并在一个池塘上架了一座小木桥。
+    我也喜欢花园，但我却不愿意辛勤劳动。每年的花园竞赛我也参加，但总因是镇上最劣的花园而获得一个小奖！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/08TheBestandtheWorst.mp3"></audio>
 

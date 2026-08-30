@@ -1,20 +1,38 @@
 ## Lesson 21 Which book?
 
-Give me a book please, Jane.
+=== "原文"
+    Give me a book please, Jane.
 
-Which book?
+    Which book?
 
-This one?
+    This one?
 
-No, not that one. The red one.
+    No, not that one. The red one.
 
-This one?
+    This one?
 
-Yes, please.
+    Yes, please.
 
-Here you are.
+    Here you are.
 
-Thank you.
+    Thank you.
+
+=== "译文"
+    请给我一本书，简。
+
+    哪一本？
+
+    这本？
+
+    不，不是那本。那本红色的。
+
+    这本？
+
+    是的，请给我。
+
+    给你。
+
+    谢谢。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/021022WhichBook.mp3"></audio>
 

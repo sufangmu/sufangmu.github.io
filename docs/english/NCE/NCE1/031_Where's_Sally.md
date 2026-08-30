@@ -1,24 +1,46 @@
 ## Lesson 31 Where's Sally?
 
-Where's Sally, Jack?
+=== "原文"
+    Where's Sally, Jack?
 
-She's in the garden, Jean.
+    She's in the garden, Jean.
 
-What's she doing?
+    What's she doing?
 
-She's sitting under the tree.
+    She's sitting under the tree.
 
-Is Tim in the garden, too?
+    Is Tim in the garden, too?
 
-Yes, he is. He's climbing the tree.
+    Yes, he is. He's climbing the tree.
 
-I beg your pardon? Who's climbing the tree?
+    I beg your pardon? Who's climbing the tree?
 
-Tim is.
+    Tim is.
 
-What about the dog?
+    What about the dog?
 
-The dog's in the garden, too. It's running across the grass. It's running after a cat.
+    The dog's in the garden, too. It's running across the grass. It's running after a cat.
+
+=== "译文"
+    萨莉在哪里，杰克？
+
+    她在花园里，简。
+
+    她在做什么？
+
+    她坐在树下。
+
+    蒂姆也在花园里吗？
+
+    是的，他在。他在爬树。
+
+    对不起，您说什么？谁在爬树？
+
+    蒂姆在爬树。
+
+    那狗呢？
+
+    狗也在花园里。它正在草地上跑，正在追赶一只猫。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/031032Where'sSally.mp3"></audio>
 

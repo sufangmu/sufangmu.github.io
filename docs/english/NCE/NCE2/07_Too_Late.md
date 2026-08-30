@@ -1,15 +1,24 @@
 ## 07 Too Late
 
-The plane was late and detectives were waiting at the airport all morning.
-They were expecting a valuable parcel of diamonds from South Africa.
-A few hours earlier, 
-someone had told the police that thieves would try to steal the diamonds.
-When the plane arrived,
-some of the detectives were waiting inside the main building
-while others were waiting on the airfield.
-Two men took the parcel off the plane and carried it into the Customs House.
-While two detectives were keeping guard at the door, two others opened the parcel.
-To their surprise, the precious parcel was full of stones and sand!
+=== "原文"
+    The plane was late and detectives were waiting at the airport all morning.
+    They were expecting a valuable parcel of diamonds from South Africa.
+    A few hours earlier, 
+    someone had told the police that thieves would try to steal the diamonds.
+    When the plane arrived,
+    some of the detectives were waiting inside the main building
+    while others were waiting on the airfield.
+    Two men took the parcel off the plane and carried it into the Customs House.
+    While two detectives were keeping guard at the door, two others opened the parcel.
+    To their surprise, the precious parcel was full of stones and sand!
+
+=== "译文"
+    飞机误点了，侦探们在机场等了整整一上午。他们正期待从南非来的一个装着钻石的贵重包裹。
+    数小时以前，有人向警方报告，说有人企图偷走这些钻石。
+    当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。
+    有两个人把包裹拿下飞机，进了海关。
+    这时两个侦探把住门口，另外两个侦探打开了包裹。
+    令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/07TooLate.mp3"></audio>
 

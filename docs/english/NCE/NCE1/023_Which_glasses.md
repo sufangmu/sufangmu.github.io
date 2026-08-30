@@ -1,20 +1,38 @@
 ## Lesson 23 Which glasses?
 
-Give me some glasses please, Jane.
+=== "原文"
+    Give me some glasses please, Jane.
 
-Which glasses?
+    Which glasses?
 
-These glasses?
+    These glasses?
 
-No, not those. The ones on the shelf.
+    No, not those. The ones on the shelf.
 
-These?
+    These?
 
-Yes, please.
+    Yes, please.
 
-Here you are.
+    Here you are.
 
-Thanks.
+    Thanks.
+
+=== "译文"
+    请给我一些玻璃杯，简。
+
+    哪些玻璃杯？
+
+    这些？
+
+    不，不是那些。架子上的那些。
+
+    这些？
+
+    是的，请给我。
+
+    给你。
+
+    谢谢。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/023024WhichGlasses.mp3"></audio>
 

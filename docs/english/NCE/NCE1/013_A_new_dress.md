@@ -1,24 +1,46 @@
 ## Lesson 13 A new dress
 
-What colour's your new dress?
+=== "原文"
+    What colour's your new dress?
 
-It's green.
+    It's green.
 
-Come upstairs and see it.
+    Come upstairs and see it.
 
-Thank you.
+    Thank you.
 
-Look! Here it is!
+    Look! Here it is!
 
-That's a nice dress. It's very smart.
+    That's a nice dress. It's very smart.
 
-My hat's new too.
+    My hat's new too.
 
-What colour is it?
+    What colour is it?
 
-It's the same colour. It's green too.
+    It's the same colour. It's green too.
 
-That is a lovely hat!
+    That is a lovely hat!
+
+=== "译文"
+    你的新连衣裙是什么颜色的？
+
+    是绿色的。
+
+    上楼来看看吧。
+
+    谢谢。
+
+    看！就在这里！
+
+    那件连衣裙真好看。真时髦。
+
+    我的帽子也是新的。
+
+    是什么颜色的？
+
+    一样的颜色。也是绿色的。
+
+    那顶帽子真可爱！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/013014ANewDress.mp3"></audio>
 

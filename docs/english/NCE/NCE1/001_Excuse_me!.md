@@ -1,18 +1,34 @@
 ## Lesson 1 Excuse me!
 
-Excuse me!
+=== "原文"
+    Excuse me!
 
-Yes?
+    Yes?
 
-Is this your handbag?
+    Is this your handbag?
 
-Pardon?
+    Pardon?
 
-Is this your handbag?
+    Is this your handbag?
 
-Yes it is.
+    Yes it is.
 
-Thank you very much.
+    Thank you very much.
+
+=== "译文"
+    对不起！
+
+    什么事？
+
+    这是您的手提包吗？
+
+    请再说一遍？
+
+    这是您的手提包吗？
+
+    是的，是我的。
+
+    非常感谢！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/001002ExcuseMe.mp3"></audio>
 

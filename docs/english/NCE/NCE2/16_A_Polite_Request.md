@@ -1,15 +1,23 @@
 ## 16 A Polite Request
 
-If you park your car in the wrong place,
-a traffic policeman will soon find it.
-You will be very lucky if he lets you go without a ticket.
-However, this does not always happen.
-Traffic police are sometimes very polite.
-During a holiday in Sweden,
-I found this note on my car:
-'sir, we welcome you to our city. This is a No Parking area.
-You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'
-If you receive a request like this, you cannot fail to obey it!
+=== "原文"
+    If you park your car in the wrong place,
+    a traffic policeman will soon find it.
+    You will be very lucky if he lets you go without a ticket.
+    However, this does not always happen.
+    Traffic police are sometimes very polite.
+    During a holiday in Sweden,
+    I found this note on my car:
+    'sir, we welcome you to our city. This is a No Parking area.
+    You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'
+    If you receive a request like this, you cannot fail to obey it!
+
+=== "译文"
+    一旦你把汽车停错了地方，交通警察很快就会发现。
+    如果他没给你罚款单就放你走了，算你走运。然而，情况并不都是这样。
+    交通警察有时也很客气。有一次在瑞典度假，我发现我的车上有这样一个字条：
+    "先生，欢迎您光临我们的城市。此处是'禁止停车'区。如果您对我们街上的标牌稍加注意，您在此会过得很愉快的。谨此提请注意。"
+    如果你收到这样的恳求，你是不会不遵照执行的！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/16APoliteRequest.mp3"></audio>
 

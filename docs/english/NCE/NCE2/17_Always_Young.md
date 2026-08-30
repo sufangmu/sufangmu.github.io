@@ -1,15 +1,23 @@
 ## 17 Always Young
 
-My aunt Jennifer is an actress.
-She must be at least thirty-five years old.
-In spite of this, she often appears on the stage as a young girl.
-Jennifer will have to take part in a new play soon.
-This time, she will be a girl of seventeen.
-In the play, she must appear in a bright red dress and long black stockings.
-Last year in another play,
-she had to wear short socks and a bright, orange-coloured dress.
-If anyone ever asks her how old she is,
-she always answers, 'Darling, it must be terrible to be grown up!'
+=== "原文"
+    My aunt Jennifer is an actress.
+    She must be at least thirty-five years old.
+    In spite of this, she often appears on the stage as a young girl.
+    Jennifer will have to take part in a new play soon.
+    This time, she will be a girl of seventeen.
+    In the play, she must appear in a bright red dress and long black stockings.
+    Last year in another play,
+    she had to wear short socks and a bright, orange-coloured dress.
+    If anyone ever asks her how old she is,
+    she always answers, 'Darling, it must be terrible to be grown up!'
+
+=== "译文"
+    我的姑姑詹妮弗是位演员，她至少也有35岁了。
+    尽管如此，她却常在舞台上扮演小姑娘。詹妮弗很快又要参加一个新剧的演出。
+    这一次，她将扮演一个17岁的少女。演出时她必须穿一条鲜红色的裙子和黑色的长筒袜。
+    去年在演另一个剧时，她不得不穿短袜和一件鲜艳的橘红色的衣服。
+    一旦有人问起她有多大年纪，她总是回答："亲爱的，长成大人真可怕啊！"
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/17AlwaysYoung.mp3"></audio>
 

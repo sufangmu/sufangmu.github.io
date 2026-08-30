@@ -1,8 +1,12 @@
 ## Lesson 119 A true story
 
-Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago. While my friend, George, was reading in bed,
-two thieves climbed into his kitchen. After they had entered the house,
-they went into the dining room. It was very dark, so they turned on a torch. Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could. George heard the noise and came downstairs quickly. He turned on the light, but he couldn't see anyone. The thieves had already gone. But George's parrot, Henry, was still there. What's up, George? he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'
+=== "原文"
+    Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago. While my friend, George, was reading in bed,
+    two thieves climbed into his kitchen. After they had entered the house,
+    they went into the dining room. It was very dark, so they turned on a torch. Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could. George heard the noise and came downstairs quickly. He turned on the light, but he couldn't see anyone. The thieves had already gone. But George's parrot, Henry, was still there. What's up, George? he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'
+
+=== "译文"
+    你喜欢故事吗？我想告诉你一个真实的故事。这是一年前发生在我一个朋友身上的事。当我的朋友乔治正在床上看书时，两个小偷爬进了他的厨房。他们进屋之后，走进了餐厅。里面很黑，所以他们打开了手电筒。突然，他们听到身后有个声音。"怎么了？怎么了？"有人喊道。小偷扔下手电筒拼命逃跑。乔治听到响声赶紧下了楼。他打开灯，但没看到任何人。小偷已经逃走了。但乔治的鹦鹉亨利还在那里。"怎么了，乔治？"它喊道。"没事，亨利，"乔治笑着说。"回去睡觉吧。"
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/119120ATrueStory.mp3"></audio>
 

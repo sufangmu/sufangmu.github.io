@@ -1,34 +1,66 @@
 ## Lesson 43 Hurry up!
 
-Can you make the tea, Sam?
+=== "原文"
+    Can you make the tea, Sam?
 
-Yes, of course I can, Penny.
+    Yes, of course I can, Penny.
 
-Is there any water in this kettle?
+    Is there any water in this kettle?
 
-Yes, there is.
+    Yes, there is.
 
-Where's the tea?
+    Where's the tea?
 
-It's over there, behind the teapot.
+    It's over there, behind the teapot.
 
-Can you see it?
+    Can you see it?
 
-I can see the teapot, but I can't see the tea.
+    I can see the teapot, but I can't see the tea.
 
-There it is! It's in front of you!
+    There it is! It's in front of you!
 
-Ah yes, I can see it now.
+    Ah yes, I can see it now.
 
-Where are the cups?
+    Where are the cups?
 
-There are some in the cupboard.
+    There are some in the cupboard.
 
-Can you find them?
+    Can you find them?
 
-Yes. Here they are.
+    Yes. Here they are.
 
-Hurry up, Sam! The kettle's boiling!
+    Hurry up, Sam! The kettle's boiling!
+
+=== "译文"
+    你会沏茶吗，萨姆？
+
+    会的，我当然会，彭妮。
+
+    这水壶里有水吗？
+
+    是的，有水。
+
+    茶叶在哪里？
+
+    在那边，在茶壶后面。
+
+    你看见了吗？
+
+    我看见茶壶了，但我没看见茶叶。
+
+    在那儿！就在你面前！
+
+    哦，是的，我现在看见了。
+
+    茶杯在哪里？
+
+    橱柜里有几个。
+
+    你找得到吗？
+
+    找到了。就在这里。
+
+    快点，萨姆！水开了！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/043044HurryUp.mp3"></audio>
 

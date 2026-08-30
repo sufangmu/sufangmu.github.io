@@ -1,44 +1,86 @@
 ## Lesson 5 Nice to meet you.
 
-Good morning.
+=== "原文"
+    Good morning.
 
-Good morning Mr. Blake.
+    Good morning Mr. Blake.
 
-This is Miss Sophie Dupont.
+    This is Miss Sophie Dupont.
 
-Sophie is a new student.
+    Sophie is a new student.
 
-She is French.
+    She is French.
 
-Sophie this is Hans.
+    Sophie this is Hans.
 
-He is German.
+    He is German.
 
-Nice to meet you.
+    Nice to meet you.
 
-And this is Naoko.
+    And this is Naoko.
 
-She's Japanese.
+    She's Japanese.
 
-Nice to meet you.
+    Nice to meet you.
 
-And this is Chang-woo.
+    And this is Chang-woo.
 
-He's Korean.
+    He's Korean.
 
-Nice to meet you.
+    Nice to meet you.
 
-And this is Luming.
+    And this is Luming.
 
-He's Chinese.
+    He's Chinese.
 
-Nice to meet you.
+    Nice to meet you.
 
-And this is Xiaohui.
+    And this is Xiaohui.
 
-She is Chinese too.
+    She is Chinese too.
 
-Nice to meet you.
+    Nice to meet you.
+
+=== "译文"
+    早上好。
+
+    早上好，布莱克先生。
+
+    这位是索菲·杜邦小姐。
+
+    索菲是一名新学生。
+
+    她是法国人。
+
+    索菲，这位是汉斯。
+
+    他是德国人。
+
+    很高兴见到你。
+
+    这位是直子。
+
+    她是日本人。
+
+    很高兴见到你。
+
+    这位是昌宇。
+
+    他是韩国人。
+
+    很高兴见到你。
+
+    这位是鲁明。
+
+    他是中国人。
+
+    很高兴见到你。
+
+    这位是晓惠。
+
+    她也是中国人。
+
+    很高兴见到你。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/005006NicetoMeetYou.mp3"></audio>
 

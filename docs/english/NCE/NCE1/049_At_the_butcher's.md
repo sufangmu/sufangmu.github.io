@@ -1,30 +1,58 @@
 ## Lesson 49 At the butcher's
 
-Do you want any meat today, Mrs. Bird?
+=== "原文"
+    Do you want any meat today, Mrs. Bird?
 
-Yes, please.
+    Yes, please.
 
-Do you want beef or lamb?
+    Do you want beef or lamb?
 
-Beef, please.
+    Beef, please.
 
-This lamb's very good.
+    This lamb's very good.
 
-I like lamb, but my husband doesn't.
+    I like lamb, but my husband doesn't.
 
-What about some steak? This is a nice piece.
+    What about some steak? This is a nice piece.
 
-Give me that piece, please.
+    Give me that piece, please.
 
-And a pound of mince, too.
+    And a pound of mince, too.
 
-Do you want a chicken, Mrs. Bird? They're very nice.
+    Do you want a chicken, Mrs. Bird? They're very nice.
 
-No, thank you.
+    No, thank you.
 
-My husband likes steak, but he doesn't like chicken.
+    My husband likes steak, but he doesn't like chicken.
 
-To tell you the truth, Mrs. Bird, I don't like chicken either!
+    To tell you the truth, Mrs. Bird, I don't like chicken either!
+
+=== "译文"
+    伯德太太，今天您想要些肉吗？
+
+    是的，请来些。
+
+    您想要牛肉还是羔羊肉？
+
+    请给我牛肉。
+
+    这羔羊肉很好。
+
+    我喜欢羔羊肉，但我丈夫不喜欢。
+
+    来点牛排怎么样？这一块很好。
+
+    请给我那一块。
+
+    再来一磅肉馅。
+
+    伯德太太，您想要一只鸡吗？它们很不错。
+
+    不，谢谢。
+
+    我丈夫喜欢牛排，但他不喜欢鸡肉。
+
+    说实话，伯德太太，我也不喜欢鸡肉！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/049050AttheButcher's.mp3"></audio>
 

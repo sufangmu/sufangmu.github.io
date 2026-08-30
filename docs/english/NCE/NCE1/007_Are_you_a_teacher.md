@@ -1,31 +1,60 @@
 ## Lesson 7 Are you a teacher?
 
-I am a new student. My name's Robert.
+=== "原文"
+    I am a new student. My name's Robert.
 
-Nice to meet you. My name's Sophie.
+    Nice to meet you. My name's Sophie.
 
-Are you French?
+    Are you French?
 
-Yes I am.
-Are you French too?
+    Yes I am.
+    Are you French too?
 
-No I am not.
+    No I am not.
 
-What nationality are you?
+    What nationality are you?
 
-I'm Italian.
+    I'm Italian.
 
-Are you a teacher?
+    Are you a teacher?
 
-No I'm not.
+    No I'm not.
 
-What's your job?
+    What's your job?
 
-I'm a keyboard operator.
+    I'm a keyboard operator.
 
-What's your job?
+    What's your job?
 
-I'm an engineer.
+    I'm an engineer.
+
+=== "译文"
+    我是一名新学生。我的名字叫罗伯特。
+
+    很高兴见到你。我的名字叫索菲。
+
+    你是法国人吗？
+
+    是的，我是法国人。
+    你也是法国人吗？
+
+    不，我不是。
+
+    你是哪国人？
+
+    我是意大利人。
+
+    你是教师吗？
+
+    不，我不是。
+
+    你是做什么工作的？
+
+    我是电脑录入员。
+
+    你是做什么工作的？
+
+    我是工程师。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/007008AreYouaTeacher.mp3"></audio>
 

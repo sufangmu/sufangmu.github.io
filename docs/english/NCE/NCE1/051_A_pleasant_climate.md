@@ -1,28 +1,54 @@
 ## Lesson 51 A pleasant climate
 
-Where do you come from?
+=== "原文"
+    Where do you come from?
 
-I come from Greece.
+    I come from Greece.
 
-What's the climate like in your country?
+    What's the climate like in your country?
 
-It's very pleasant.
+    It's very pleasant.
 
-What's the weather like in spring?
+    What's the weather like in spring?
 
-It's often windy in March. It's always warm in April and May, but it rains sometimes.
+    It's often windy in March. It's always warm in April and May, but it rains sometimes.
 
-What's it like in summer?
+    What's it like in summer?
 
-It's always hot in June, July and August. The sun shines every day.
+    It's always hot in June, July and August. The sun shines every day.
 
-Is it cold or warm in autumn?
+    Is it cold or warm in autumn?
 
-It's always warm in September and October. It's often cold in November and it rains sometimes.
+    It's always warm in September and October. It's often cold in November and it rains sometimes.
 
-Is it very cold in winter?
+    Is it very cold in winter?
 
-It's often cold in December, January and February. It snows sometimes.
+    It's often cold in December, January and February. It snows sometimes.
+
+=== "译文"
+    你是哪里人？
+
+    我是希腊人。
+
+    你们国家的气候怎么样？
+
+    气候非常宜人。
+
+    春季的天气怎么样？
+
+    3月里经常刮风。4月和5月总是暖洋洋的，但有时下雨。
+
+    夏季的天气怎么样？
+
+    6月、7月和8月总是很热。每天都出太阳。
+
+    秋季是冷还是暖？
+
+    9月和10月总是暖洋洋的。11月常常很冷，有时下雨。
+
+    冬季很冷吗？
+
+    12月、1月和2月常常很冷。有时下雪。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/051052APleasantClimate.mp3"></audio>
 

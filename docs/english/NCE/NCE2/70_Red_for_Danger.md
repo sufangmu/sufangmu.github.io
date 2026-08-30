@@ -1,18 +1,27 @@
 ## 70 Red for Danger
 
-During a bullfight, a drunk suddenly wandered into the middle of the ring.
-The crowd began to shout , but the drunk was unaware of the danger.
-The bull was busy with the matador at the time,
-but it suddenly caught sight of the drunk (who was shouting rude remarks and waving a red cap).
-Apparently sensitive to criticism,
-the bull forgot all about the matador and charged at the drunk.
-The crowd suddenly grew quiet.
-The drunk, however, seemed quite sure of himself.
-When the bull got close to him, he clumsily stepped aside to let it pass.
-The crowd broke into cheers and the drunk bowed.
-By this time, however three men had come into the ring and they quickly dragged the drunk to safety.
-Even the bull seemed to feel sorry for him,
-for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.
+=== "原文"
+    During a bullfight, a drunk suddenly wandered into the middle of the ring.
+    The crowd began to shout , but the drunk was unaware of the danger.
+    The bull was busy with the matador at the time,
+    but it suddenly caught sight of the drunk (who was shouting rude remarks and waving a red cap).
+    Apparently sensitive to criticism,
+    the bull forgot all about the matador and charged at the drunk.
+    The crowd suddenly grew quiet.
+    The drunk, however, seemed quite sure of himself.
+    When the bull got close to him, he clumsily stepped aside to let it pass.
+    The crowd broke into cheers and the drunk bowed.
+    By this time, however three men had come into the ring and they quickly dragged the drunk to safety.
+    Even the bull seemed to feel sorry for him,
+    for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.
+
+=== "译文"
+    在一次斗牛时，一个醉汉突然溜达到斗牛场中间。人们开始大叫起来，但醉汉却没有意识到危险。
+    当时那公牛正忙着对付斗牛士，但突然它看见了醉汉，只见他正大声说着粗鲁的话，手里挥动着一顶红帽子。
+    对挑衅显然非常敏感，那公牛完全撇开斗牛士，直奔醉汉而来。观众突然静了下来。
+    可这醉汉像是很有把握似的。当公牛逼近他时，他踉跄地往旁边一闪，牛扑空了。
+    观众欢呼起来，醉汉向人们鞠躬致谢。然而，此时已有3个人进入斗牛场，迅速把醉汉拉到安全的地方。
+    好像连牛也在为他感到遗憾，因为它一直同情地看着醉汉，直到他的背影消逝，才重新将注意力转向斗牛士。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/70RedforDanger.mp3"></audio>
 

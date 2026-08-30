@@ -1,22 +1,42 @@
 ## Lesson 67 The weekend
 
-Hello. Were you at the butcher's?
+=== "原文"
+    Hello. Were you at the butcher's?
 
-Yes, I was. Were you at the butcher's, too?
+    Yes, I was. Were you at the butcher's, too?
 
-No, I wasn't. I was at the greengrocer's. How's Jimmy today?
+    No, I wasn't. I was at the greengrocer's. How's Jimmy today?
 
-He's very well, thank you.
+    He's very well, thank you.
 
-Was he absent from school last week?
+    Was he absent from school last week?
 
-Yes, he was. He was absent on Monday, Tuesday, Wednesday and Thursday.
-How are you all keeping?
+    Yes, he was. He was absent on Monday, Tuesday, Wednesday and Thursday.
+    How are you all keeping?
 
-Very well, thank you. We're going to spend three days in the country!
-We're going to stay at my mother's for the weekend.
+    Very well, thank you. We're going to spend three days in the country!
+    We're going to stay at my mother's for the weekend.
 
-Friday, Saturday and Sunday in the country! Aren't you lucky!
+    Friday, Saturday and Sunday in the country! Aren't you lucky!
+
+=== "译文"
+    你好。你刚才在肉店吗？
+
+    是的，我在。你也在肉店吗？
+
+    不，我不在。我在蔬菜水果店。吉米今天怎么样？
+
+    他很好，谢谢。
+
+    他上周缺课了吗？
+
+    是的，缺课了。他星期一、星期二、星期三和星期四都没来。
+    你们身体都好吗？
+
+    很好，谢谢。我们打算在乡下待三天！
+    我们打算在我母亲家过周末。
+
+    星期五、星期六和星期日在乡下！你们真幸运！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/067068TheWeekend.mp3"></audio>
 

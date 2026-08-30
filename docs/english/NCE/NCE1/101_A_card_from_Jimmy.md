@@ -1,28 +1,54 @@
 ## Lesson 101 A card from Jimmy
 
-Read Jimmy's card to me please, Penny.
+=== "原文"
+    Read Jimmy's card to me please, Penny.
 
-'I have just arrived in Scotland and I'm staying at a Youth Hostel.'
+    'I have just arrived in Scotland and I'm staying at a Youth Hostel.'
 
-Eh?
+    Eh?
 
-He says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.
+    He says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.
 
-The what?
+    The what?
 
-The Y.H.A., Mum. The Youth Hostels Association.
+    The Y.H.A., Mum. The Youth Hostels Association.
 
-What else does he say?
+    What else does he say?
 
-'I'll write a letter soon. I hope you are all well.'
+    'I'll write a letter soon. I hope you are all well.'
 
-What? Speak up, Penny. I'm afraid I can't hear you.
+    What? Speak up, Penny. I'm afraid I can't hear you.
 
-He says he'll write a letter soon. He hopes we are all well. 'Love, Jimmy.'
+    He says he'll write a letter soon. He hopes we are all well. 'Love, Jimmy.'
 
-Is that all? He doesn't say very much, does he?
+    Is that all? He doesn't say very much, does he?
 
-He can't write very much on a card, Mum.
+    He can't write very much on a card, Mum.
+
+=== "译文"
+    请把吉明的明信片念给我听听，彭妮。
+
+    "我刚到苏格兰，我住在一家青年旅舍。"
+
+    什么？
+
+    他说他刚到苏格兰。他说他住在一家青年旅舍。你知道他是青年旅舍协会的成员。
+
+    什么协会？
+
+    青年旅舍协会，妈妈。Y.H.A.。
+
+    他还说了什么？
+
+    "我很快会写信的。希望你们都好。"
+
+    什么？大声点，彭妮。我听不清你的话。
+
+    他说他很快会写信。他希望我们都好。"爱你们的，吉明。"
+
+    就这些？他没写多少，是吧？
+
+    在明信片上他写不了多少，妈妈。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/101102ACardFromJimmy.mp3"></audio>
 

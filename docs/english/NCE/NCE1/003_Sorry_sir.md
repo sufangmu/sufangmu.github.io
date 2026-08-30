@@ -1,28 +1,54 @@
 ##  Lesson 3 Sorry sir.
 
-My coat and my umbrella please.
+=== "原文"
+    My coat and my umbrella please.
 
-Here is my ticket.
+    Here is my ticket.
 
-Thank you sir.
+    Thank you sir.
 
-Number five.
+    Number five.
 
-Here's your umbrella and your coat.
+    Here's your umbrella and your coat.
 
-This is not my umbrella.
+    This is not my umbrella.
 
-Sorry sir.
+    Sorry sir.
 
-Is this your umbrella?
+    Is this your umbrella?
 
-No it isn't.
+    No it isn't.
 
-Is this it?
+    Is this it?
 
-Yes it is.
+    Yes it is.
 
-Thank you very much.
+    Thank you very much.
+
+=== "译文"
+    请把我的大衣和雨伞给我。
+
+    这是我的取物牌。
+
+    谢谢您，先生。
+
+    5号。
+
+    这是您的雨伞和大衣。
+
+    这不是我的雨伞。
+
+    对不起，先生。
+
+    这是您的雨伞吗？
+
+    不，不是。
+
+    这把是吗？
+
+    是的，是这把。
+
+    非常感谢！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/003004SorrySir.mp3"></audio>
 

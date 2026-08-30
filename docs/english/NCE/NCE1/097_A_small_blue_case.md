@@ -1,36 +1,70 @@
 ## Lesson 97 A small blue case
 
-I left a suitcase on the train to London the other day.
+=== "原文"
+    I left a suitcase on the train to London the other day.
 
-Can you describe it, sir?
+    Can you describe it, sir?
 
-It's a small blue case and it's got a zip. There's a label on the handle with my name and address on it.
+    It's a small blue case and it's got a zip. There's a label on the handle with my name and address on it.
 
-Is this case yours?
+    Is this case yours?
 
-No, that's not mine.
+    No, that's not mine.
 
-What about this one? This one's got a label.
+    What about this one? This one's got a label.
 
-Let me see it.
+    Let me see it.
 
-What's your name and address?
+    What's your name and address?
 
-David Hall, 83, Bridge Street.
+    David Hall, 83, Bridge Street.
 
-That's right. D. N. Hall, 83, Bridge Street.
+    That's right. D. N. Hall, 83, Bridge Street.
 
-Three pounds fifty pence, please.
+    Three pounds fifty pence, please.
 
-Here you are.
+    Here you are.
 
-Thank you.
+    Thank you.
 
-Hey!
+    Hey!
 
-What's the matter?
+    What's the matter?
 
-This case doesn't belong to me! You've given me the wrong case!
+    This case doesn't belong to me! You've given me the wrong case!
+
+=== "译文"
+    前几天我把一只手提箱忘在去伦敦的火车上了。
+
+    您能描述一下吗，先生？
+
+    是一只蓝色小箱子，上面有拉链。把手上有个标签，上面写着我的姓名和地址。
+
+    这只箱子是您的吗？
+
+    不，那不是我的。
+
+    这只呢？这只上面有标签。
+
+    让我看看。
+
+    您的姓名和地址是什么？
+
+    大卫·霍尔，桥街83号。
+
+    对了。D. N. 霍尔，桥街83号。
+
+    请付3英镑50便士。
+
+    给您。
+
+    谢谢。
+
+    嘿！
+
+    怎么了？
+
+    这只箱子不是我的！您给错了！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/097098ASmallBlueCase.mp3"></audio>
 

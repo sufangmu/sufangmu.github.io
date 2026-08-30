@@ -1,18 +1,27 @@
 ## 14 Do You Speak English
 
-I had an amusing experience last year.
-After I had left a small village in the south of France,
-I drove on to the next town.
-On the way, a young man waved to me.
-I stopped and he asked me for a lift.
-As soon as he had got into the car,
-I said good morning to him in French and he replied in the same language.
-Apart from a few words,
-I do not know any French at all.
-Neither of us spoke during the journey.
-I had nearly reached the town, when the young man suddenly said, very slowly,
-'Do you speak English?'
-As I soon learnt, he was English himself!
+=== "原文"
+    I had an amusing experience last year.
+    After I had left a small village in the south of France,
+    I drove on to the next town.
+    On the way, a young man waved to me.
+    I stopped and he asked me for a lift.
+    As soon as he had got into the car,
+    I said good morning to him in French and he replied in the same language.
+    Apart from a few words,
+    I do not know any French at all.
+    Neither of us spoke during the journey.
+    I had nearly reached the town, when the young man suddenly said, very slowly,
+    'Do you speak English?'
+    As I soon learnt, he was English himself!
+
+=== "译文"
+    去年我有过一次有趣的经历。在离开法国南部的一个小村庄后，我继续驶往下一个城镇。
+    途中，一个青年人向我招手。我把车停下，他向我提出要求搭车。
+    他一上车，我就用法语向他问早上好，他也同样用法语回答我。
+    除了个别几个单词外，我根本不会法语。旅途中我们谁也没讲话。
+    就要到达那个镇时，那青年突然开了口，慢慢地说道："你会讲英语吗？"
+    我很快了解到，他自己就是个英国人！
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE2/14DoYouSpeakEnglish.mp3"></audio>
 

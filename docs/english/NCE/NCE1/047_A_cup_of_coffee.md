@@ -1,28 +1,54 @@
 ## Lesson 47 A cup of coffee
 
-Do you like coffee, Ann?
+=== "原文"
+    Do you like coffee, Ann?
 
-Yes, I do.
+    Yes, I do.
 
-Do you want a cup?
+    Do you want a cup?
 
-Yes, please, Christine.
+    Yes, please, Christine.
 
-Do you want any sugar?
+    Do you want any sugar?
 
-Yes, please.
+    Yes, please.
 
-Do you want any milk?
+    Do you want any milk?
 
-No, thank you. I don't like milk in my coffee. I like black coffee.
+    No, thank you. I don't like milk in my coffee. I like black coffee.
 
-Do you like biscuits?
+    Do you like biscuits?
 
-Yes, I do.
+    Yes, I do.
 
-Do you want one?
+    Do you want one?
 
-Yes, please.
+    Yes, please.
+
+=== "译文"
+    你喜欢咖啡吗，安？
+
+    是的，我喜欢。
+
+    你要一杯吗？
+
+    好的，请来一杯，克里斯汀。
+
+    你要加糖吗？
+
+    好的，请加糖。
+
+    你要加牛奶吗？
+
+    不，谢谢。我不喜欢在咖啡里加牛奶。我喜欢清咖啡。
+
+    你喜欢饼干吗？
+
+    是的，我喜欢。
+
+    你要一块吗？
+
+    好的，请来一块。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/047048ACupofCoffee.mp3"></audio>
 

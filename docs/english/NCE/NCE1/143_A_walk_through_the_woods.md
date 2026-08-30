@@ -1,6 +1,10 @@
 ## Lesson 143 A walk through the woods
 
-I live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods. Visitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere. Last Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins. Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'
+=== "原文"
+    I live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods. Visitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere. Last Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins. Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'
+
+=== "译文"
+    我住在一座被美丽的树林环绕的古镇里。它是一个著名的风景胜地。每逢星期天，成百上千的人从城里来参观我们的镇子，在林中散步。游客被告知要保持树林整洁。树下放置了废物筐，但人们仍然到处扔垃圾。上周三，我去树林里散步。我所见到的使我非常难过。我数了数，有7辆旧汽车和3台旧冰箱。废物筐都空着，地上满是碎纸、烟蒂、旧轮胎、空瓶子和生锈的罐头盒。在垃圾堆中，我发现了一块牌子，上面写着："任何在此树林中丢弃垃圾者将被起诉！"
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/143144AWalkThroughtheWoods.mp3"></audio>
 

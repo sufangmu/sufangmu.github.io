@@ -1,24 +1,46 @@
 ## Lesson 39 Don't drop it!
 
-What are you going to do with that vase, Penny?
+=== "原文"
+    What are you going to do with that vase, Penny?
 
-I'm going to put it on this table, Sam.
+    I'm going to put it on this table, Sam.
 
-Don't do that.
+    Don't do that.
 
-Give it to me.
+    Give it to me.
 
-What are you going to do with it?
+    What are you going to do with it?
 
-I'm going to put it here, in front of the window.
+    I'm going to put it here, in front of the window.
 
-Be careful! Don't drop it!
+    Be careful! Don't drop it!
 
-Don't put it there, Sam. Put it here, on this shelf.
+    Don't put it there, Sam. Put it here, on this shelf.
 
-There we are! It's a lovely vase.
+    There we are! It's a lovely vase.
 
-Those flowers are lovely, too.
+    Those flowers are lovely, too.
+
+=== "译文"
+    你打算把那个花瓶怎么办，彭妮？
+
+    我打算把它放在这张桌子上，萨姆。
+
+    别放在那儿。
+
+    把它给我。
+
+    你打算把它怎么办？
+
+    我打算把它放在这儿，放在窗户前面。
+
+    小心点！别摔了！
+
+    别放在那儿，萨姆。放在这儿，放在这个架子上。
+
+    好了！这个花瓶真漂亮。
+
+    那些花也很漂亮。
 
 <audio class="nce-audio" preload="metadata" src="https://raw.githubusercontent.com/sufangmu/NCE/refs/heads/main/NCE1/039040Don'tDropIt.mp3"></audio>
 
