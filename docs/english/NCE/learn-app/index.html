@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新概念英语 · 学习模式</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 漂浮装饰 -->
+  <div class="bg-decor" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+    <span class="spark s1">✨</span>
+    <span class="spark s2">⭐</span>
+    <span class="spark s3">🎵</span>
+  </div>
+
+  <div id="app">
+    <!-- 顶栏 -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="mascot" title="你好呀～">🐱</span>
+        <div class="brand-txt">
+          <h1>新概念英语 · 学习模式</h1>
+          <span class="sub">单词 → 课文 → 表达</span>
+        </div>
+      </div>
+      <div class="top-tools">
+        <button class="continue-btn" id="continueBtn" style="display:none;">▶ 继续学习</button>
+        <button class="shelf-back-btn" id="shelfBackBtn" style="display:none;">🏠 返回首页</button>
+        <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+      </div>
+    </header>
+
+    <!-- 书架首页 -->
+    <main class="shelf-view" id="shelfView"></main>
+
+    <!-- 学习视图 -->
+    <div class="learn-view" id="learnView" style="display:none;">
+      <div class="book-name" id="bookName"></div>
+      <div class="lesson-strip" id="lessonList"></div>
+      <div class="stepper" id="stepper"></div>
+      <main class="stage" id="stage"></main>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" style="display:none;"></div>
+
+  <script src="data/lessons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

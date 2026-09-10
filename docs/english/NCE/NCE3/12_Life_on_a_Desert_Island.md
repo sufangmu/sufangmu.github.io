@@ -29,7 +29,7 @@
 - a /ə/ spear /spɪr/ gun /ɡʌn/ 捕鱼枪
 - lobster /ˈlɑbstɚ/ 龙虾
 - tanker /ˈtæŋkɚ/ 油轮
-- genuinely /ˈdʒɛnjəwənli/ 真诚地
+- genuinely /'dʒenjuɪnli/ 真诚地
 
 ### Expressions
 

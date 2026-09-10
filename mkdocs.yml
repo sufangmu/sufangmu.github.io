@@ -245,6 +245,13 @@ nav:
       - '存储驱动': 'DevOps/Docker/StorageDriver.md'
       - '容器安全': 'DevOps/Docker/Security.md'
   - English:
+    - 语法:
+      - '综述': 'english/grammar/综述.md'
+      - '语态': 'english/grammar/语态.md'
+      - '词性': 'english/grammar/词性.md'
+      - '动词': 'english/grammar/动词.md'
+      - '从句': 'english/grammar/从句.md'
+      - '倒装': 'english/grammar/倒装.md'
     - 新概念:
       - NCE1:
         - '001_Excuse_me!': 'english/NCE/NCE1/001_Excuse_me!.md'
@@ -479,13 +486,7 @@ nav:
         - '60_Too_Early_and_Too_Late': 'english/NCE/NCE3/60_Too_Early_and_Too_Late.md'
         - '语法标记': 'english/NCE/NCE3/语法标记.md'
       - 音频: 'english/NCE/player.md'
-    - 语法:
-      - '综述': 'english/grammar/综述.md'
-      - '语态': 'english/grammar/语态.md'
-      - '词性': 'english/grammar/词性.md'
-      - '动词': 'english/grammar/动词.md'
-      - '从句': 'english/grammar/从句.md'
-      - '倒装': 'english/grammar/倒装.md'
+      - 学习模式: 'english/NCE/learn.md'
     - IELTS:
       - '学习方法': 'english/IELTS/学习方法.md'
   - Book:
