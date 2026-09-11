@@ -31,6 +31,7 @@
     listMode: false,
     showZh: true,
     loop: false,
+    pickerOpen: false,
   };
 
   let currentLesson = null;
@@ -188,6 +189,7 @@
   function enterBook(level, resume) {
     state.view = 'learn';
     state.level = level;
+    state.pickerOpen = false;
     els.shelfView.style.display = 'none';
     els.learnView.style.display = '';
     els.shelfBackBtn.style.display = '';
@@ -227,23 +229,50 @@
   function renderLessonList() {
     const manifest = DATA.manifest[state.level] || [];
     if (!manifest.length) {
-      els.lessonList.innerHTML = '<div class="lesson-empty">该册内容待完善（demo 仅含第三册第1课）</div>';
+      els.lessonList.innerHTML = '<div class="lesson-empty">该册内容待完善</div>';
       return;
     }
-    els.lessonList.innerHTML = manifest.map((m) => {
-      const id = `${state.level}-${m.n}`;
-      const hasContent = !!DATA.lessons[id];
-      const isCurrent = state.lessonId === id;
-      return `<button class="lesson-chip${isCurrent ? ' active' : ''}${hasContent ? ' has-content' : ''}" data-n="${m.n}">
-        <span class="ln">${String(m.n).padStart(2, '0')}</span>
-        <span>${m.title}</span>
-      </button>`;
-    }).join('');
+    const current = DATA.lessons[state.lessonId];
+
+    if (state.pickerOpen) {
+      const chips = manifest.map((m) => {
+        const id = `${state.level}-${m.n}`;
+        const hasContent = !!DATA.lessons[id];
+        const isCurrent = state.lessonId === id;
+        return `<button class="lesson-chip${isCurrent ? ' active' : ''}${hasContent ? ' has-content' : ''}" data-n="${m.n}">
+          <span class="ln">${String(m.n).padStart(2, '0')}</span>
+          <span>${escapeHtml(m.title)}</span>
+        </button>`;
+      }).join('');
+      els.lessonList.innerHTML = `
+        <div class="picker-head">
+          <span class="picker-hint">选择课文 · 共 ${manifest.length} 课</span>
+          <button class="picker-close" id="pickerClose">✕ 收起</button>
+        </div>
+        <div class="lesson-grid">${chips}</div>`;
+      els.lessonList.querySelector('#pickerClose').addEventListener('click', () => {
+        state.pickerOpen = false;
+        renderLessonList();
+      });
+    } else {
+      els.lessonList.innerHTML = `
+        <div class="cur-lesson" id="curLesson">
+          <span class="cur-num">第 ${current ? String(current.n).padStart(2, '0') : '--'} 课</span>
+          <span class="cur-title">${current ? escapeHtml(current.title) : '请选择课文'}</span>
+          ${current && current.titleZh ? `<span class="cur-zh">${escapeHtml(current.titleZh)}</span>` : ''}
+          <span class="cur-caret">▾</span>
+        </div>`;
+      els.lessonList.querySelector('#curLesson').addEventListener('click', () => {
+        state.pickerOpen = true;
+        renderLessonList();
+      });
+    }
+
     els.lessonList.querySelectorAll('.lesson-chip').forEach((btn) => {
       btn.addEventListener('click', () => {
         const id = `${state.level}-${btn.dataset.n}`;
         if (!DATA.lessons[id]) {
-          toast('内容待完善，demo 仅含第1课');
+          toast('内容待完善');
           return;
         }
         selectLesson(id);
@@ -271,6 +300,7 @@
     if (!currentLesson) return;
     state.lessonId = id;
     state.level = currentLesson.book;
+    state.pickerOpen = false;
 
     if (resume && resume.lessonId === id) {
       state.stage = STAGES.some((s) => s.key === resume.stage) ? resume.stage : 'words';

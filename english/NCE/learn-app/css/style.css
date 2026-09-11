@@ -119,6 +119,12 @@ body {
 .continue-btn { background: linear-gradient(135deg, var(--pink), var(--purple)); color: #fff; box-shadow: 0 6px 16px rgba(255, 111, 159, 0.35); }
 .shelf-back-btn { background: var(--purple); color: #fff; box-shadow: 0 6px 14px rgba(139, 124, 246, 0.4); }
 .continue-btn:hover, .shelf-back-btn:hover { transform: translateY(-2px) scale(1.03); }
+.challenge-link {
+  border: none; font-weight: 600; padding: 9px 16px; border-radius: 999px;
+  cursor: pointer; font-size: 13.5px; transition: all 0.2s; font-family: inherit;
+  background: #0a0e0a; color: #4af626; text-decoration: none; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+.challenge-link:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 8px 18px rgba(74, 246, 38, 0.3); }
 
 /* ============================================================
    书架首页
@@ -176,9 +182,35 @@ body {
 }
 .book-tab:hover { transform: translateY(-2px); }
 .book-tab.active { background: var(--pink); color: #fff; border-color: #fff; }
-.lesson-strip { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 6px; scrollbar-width: thin; width: 100%; }
+.lesson-picker { width: 100%; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; padding: 4px 0 8px; }
+
+.cur-lesson {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 8px 16px; border-radius: 16px; background: var(--card);
+  border: 2px solid var(--card-border); box-shadow: var(--shadow-soft);
+  cursor: pointer; transition: all 0.2s; width: 100%;
+}
+.cur-lesson:hover { border-color: var(--pink); }
+.cur-num { font-weight: 700; color: var(--teal); }
+.cur-title { font-weight: 700; color: var(--ink); }
+.cur-zh { color: var(--ink-soft); font-size: 13px; }
+.cur-caret { margin-left: auto; color: var(--ink-faint); font-size: 14px; }
+
+.picker-head { display: flex; align-items: center; justify-content: space-between; padding: 0 2px; }
+.picker-hint { color: var(--ink-soft); font-size: 13px; }
+.picker-close { border: none; background: transparent; cursor: pointer; color: var(--ink-soft); font-size: 13px; font-family: inherit; padding: 4px 8px; }
+.picker-close:hover { color: var(--pink); }
+
+.lesson-grid {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  max-height: 240px; overflow-y: auto; padding: 4px 2px;
+  scrollbar-width: thin;
+}
+.lesson-grid::-webkit-scrollbar { width: 6px; }
+.lesson-grid::-webkit-scrollbar-thumb { background: var(--ink-faint); border-radius: 6px; }
+
 .lesson-chip {
-  flex: 0 0 auto; display: flex; align-items: center; gap: 7px;
+  display: flex; align-items: center; gap: 7px;
   padding: 6px 13px; border-radius: 999px; border: 2px solid var(--card-border);
   background: var(--card); cursor: pointer; color: var(--ink-soft); font-size: 13.5px;
   transition: all 0.15s; font-family: inherit; white-space: nowrap;
@@ -187,8 +219,6 @@ body {
 .lesson-chip.active { background: var(--teal); color: #fff; border-color: #fff; }
 .lesson-chip:not(.has-content) { opacity: 0.4; }
 .lesson-chip .ln { font-weight: 700; font-variant-numeric: tabular-nums; }
-.lesson-strip::-webkit-scrollbar { height: 6px; }
-.lesson-strip::-webkit-scrollbar-thumb { background: var(--ink-faint); border-radius: 6px; }
 .lesson-empty { text-align: center; color: var(--ink-faint); font-size: 13px; padding: 6px; width: 100%; }
 
 .stepper { display: flex; gap: 8px; justify-content: center; padding: 6px 0; flex-shrink: 0; }
