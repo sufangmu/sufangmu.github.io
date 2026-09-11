@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新概念英语 · 闯关模式</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/challenge.css">
+</head>
+<body>
+  <!-- 地图视图：星阵围棋式全局关卡 -->
+  <div id="mapView">
+    <header class="map-header">
+      <div class="map-brand">
+        <span class="map-logo">🎯</span>
+        <div class="map-brand-txt">
+          <h1>新概念英语 · 闯关</h1>
+          <span class="sub">第一册 → 第二册 → 第三册 · 逐句闯关</span>
+        </div>
+      </div>
+      <div class="map-tools">
+        <span class="map-progress" id="mapProgress"></span>
+        <button class="mp-btn primary" id="btnContinue">▶ 继续闯关</button>
+        <button class="mp-btn" id="btnUnlock" title="输入密码解锁关卡">🔑 解锁</button>
+        <button class="mp-btn" id="themeToggleMap" title="切换到白底">☀</button>
+        <a class="mp-btn" href="index.html">📖 学习模式</a>
+      </div>
+    </header>
+    <div class="map-legend" id="mapLegend"></div>
+    <div class="map-scroll" id="mapScroll">
+      <div class="map" id="map"></div>
+    </div>
+  </div>
+
+  <!-- 终端视图：进入关卡才显示 -->
+  <div id="termView" style="display:none;">
+    <div id="term">
+      <div class="term-titlebar">
+        <span class="term-dot"></span>
+        <span class="term-title" id="termTitle">闯关</span>
+        <div class="term-actions">
+          <button class="tbtn" id="btnBackMap" title="返回关卡地图">🗺</button>
+          <button class="tbtn" id="themeToggle" title="切换到白底">☀</button>
+        </div>
+      </div>
+      <div class="term-body" id="termBody"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" style="display:none;"></div>
+
+  <div class="unlock-panel" id="unlockPanel" style="display:none;">
+    <div class="unlock-card">
+      <div class="unlock-title">🔑 输入句子密码</div>
+      <div class="unlock-desc">每句通关后显示一个「单词密码 + 6 位数字密码」（双重认证，避免单词碰撞），分别输入即可解锁该句之前的所有关卡</div>
+      <input class="unlock-input" id="unlockInputWord" autocomplete="off" placeholder="单词密码">
+      <input class="unlock-input" id="unlockInputNum" autocomplete="off" inputmode="numeric" maxlength="6" placeholder="6位数字密码">
+      <div class="unlock-msg" id="unlockMsg"></div>
+      <div class="unlock-actions">
+        <button class="mp-btn" id="unlockCancel">取消</button>
+        <button class="mp-btn primary" id="unlockConfirm">解锁</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/lessons.js"></script>
+  <script src="js/challenge.js"></script>
+</body>
+</html>
