@@ -2,7 +2,7 @@
  * 新概念英语 · 学习模式 — App 逻辑（卡通书架版）
  * - 书架首页（点书进入）+ 学习视图（单词/课文/表达）
  * - 单词/表达：卡片 / 列表 切换
- * - 课文：逐句（抄写/默写）/ 全文（音频 + 卡拉OK高亮 + 译文开关）
+ * - 课文：逐句 / 全文（音频 + 卡拉OK高亮 + 译文开关）
  * - 记录上次学习位置，一键「继续学习」
  * 注：单句音频因本地 seek 不可靠已移除，改用全文音频跟读。
  */
@@ -27,7 +27,6 @@
     stage: 'words',
     idx: 0,
     textMode: 'line',   // 'line' | 'full'
-    dictMode: 'copy',   // 'copy' | 'write'
     listMode: false,
     showZh: true,
     loop: false,
@@ -313,7 +312,6 @@
       state.textMode = 'line';
       state.listMode = false;
     }
-    state.dictMode = 'copy';
     state.showZh = true;
     lyricsReady = false;
 
@@ -339,23 +337,20 @@
     savePos();
   }
 
-  function advanceStage() {
-    const order = STAGES.map((s) => s.key);
-    const i = order.indexOf(state.stage);
-    if (state.stage === 'expressions') state.stage = 'done';
-    else if (i < order.length - 1) state.stage = order[i + 1];
-    state.idx = 0;
-    renderStepper();
-    renderStage();
-    savePos();
-  }
-
   function prevCard() {
     if (state.idx > 0) { state.idx--; renderStage(); savePos(); }
   }
   function nextCard() {
     if (state.idx < stageTotal() - 1) { state.idx++; renderStage(); savePos(); }
-    else advanceStage();
+    else if (state.stage === 'expressions') {
+      state.stage = 'done';
+      state.idx = 0;
+      renderStepper();
+      renderStage();
+      savePos();
+    } else {
+      toast('本阶段已学完，可通过上方步骤条切换阶段');
+    }
   }
   function stageTotal() {
     if (state.stage === 'words') return currentLesson.words.length;
@@ -402,12 +397,6 @@
       <button class="mode-btn${state.textMode === 'full' ? ' active' : ''}" data-tm="full">全文</button>
     </div>`;
   }
-  function dictToggle() {
-    return `<div class="mode-toggle">
-      <button class="mode-btn${state.dictMode === 'copy' ? ' active' : ''}" data-dm="copy">抄写</button>
-      <button class="mode-btn${state.dictMode === 'write' ? ' active' : ''}" data-dm="write">默写</button>
-    </div>`;
-  }
   function bindNav() {
     const prev = els.stage.querySelector('#navPrev');
     const next = els.stage.querySelector('#navNext');
@@ -452,7 +441,7 @@
       </div>
       <p class="card-hint" style="text-align:center;">点击卡片翻面 · ${state.idx + 1} / ${words.length}</p>`, {
         prev: state.idx > 0,
-        next: true,
+        next: state.idx < words.length - 1,
       });
     els.stage.querySelector('#flashcard').addEventListener('click', function () {
       this.classList.toggle('flipped');
@@ -470,53 +459,30 @@
   function renderTextLine() {
     const sentences = currentLesson.text;
     const s = sentences[state.idx];
-    const isWrite = state.dictMode === 'write';
     const head = stageHead('📝 课文', `${state.idx + 1} / ${sentences.length}`, textToggle());
-
-    const sentenceCard = isWrite
-      ? `<div class="sentence-card zh-only">
-           <div class="sentence-zh">${escapeHtml(s.zh)}</div>
-           <div class="write-hint">✍️ 根据上面中文，默写英文</div>
-         </div>`
-      : `<div class="sentence-card" id="sentenceCard">
-           <div class="sentence-en">${escapeHtml(s.en)}</div>
-           <div class="sentence-zh">${escapeHtml(s.zh)}</div>
-         </div>`;
 
     els.stage.innerHTML = cardShell(`
       ${head}
-      ${sentenceCard}
-      <div class="dictation">
-        <div class="dict-head">
-          <span style="font-weight:700;">✍️ ${isWrite ? '默写' : '抄写'}</span>
-          ${dictToggle()}
-        </div>
-        <textarea class="dict-input" id="dictInput" placeholder="${isWrite ? '凭记忆输入英文…' : '照着上面的英文输入…'}"></textarea>
-        <div class="dict-actions">
-          <span class="dict-score" id="dictScore"></span>
-          <button class="dict-check" id="dictCheck">✅ 检查</button>
-        </div>
-        <div class="dict-result" id="dictResult" style="display:none;"></div>
-      </div>`, {
+      <div class="sentence-card" id="sentenceCard">
+        <div class="sentence-en">${escapeHtml(s.en)}</div>
+        <div class="sentence-zh">${escapeHtml(s.zh)}</div>
+      </div>
+      <p class="card-hint" style="text-align:center;">点击卡片显示译文 · ${state.idx + 1} / ${sentences.length}</p>`, {
         wide: true,
         prev: state.idx > 0,
-        next: true,
+        next: state.idx < sentences.length - 1,
       });
 
-    if (!isWrite) {
-      els.stage.querySelector('#sentenceCard').addEventListener('click', function () {
-        this.classList.toggle('revealed');
-      });
-    }
-    els.stage.querySelector('#dictCheck').addEventListener('click', () => checkDictation(s.en));
+    els.stage.querySelector('#sentenceCard').addEventListener('click', function () {
+      this.classList.toggle('revealed');
+    });
     bindNav();
     bindTextToggle();
-    bindDictToggle();
   }
 
   function renderTextFull() {
     const sentences = currentLesson.text;
-    const head = stageHead('📝 课文全文', `${sentences.length} 句`, textToggle());
+    const head = stageHead('📝 课文', `${sentences.length} 句`, textToggle());
 
     els.stage.innerHTML = cardShell(`
       ${head}
@@ -534,9 +500,6 @@
             <span class="e">${escapeHtml(s.en)}</span>
             <span class="z">${escapeHtml(s.zh)}</span>
           </div>`).join('')}
-      </div>
-      <div style="display:flex;justify-content:flex-end;">
-        <button class="btn btn-primary" id="btnToExpr">进入表达 →</button>
       </div>`, { wide: true });
 
     const audio = els.stage.querySelector('#fullAudio');
@@ -553,13 +516,6 @@
     els.stage.querySelector('#btnZh').addEventListener('click', () => {
       state.showZh = !state.showZh;
       renderStage();
-    });
-    els.stage.querySelector('#btnToExpr').addEventListener('click', () => {
-      state.stage = 'expressions';
-      state.idx = 0;
-      renderStepper();
-      renderStage();
-      savePos();
     });
     bindTextToggle();
   }
@@ -616,7 +572,7 @@
       </div>
       <p class="card-hint" style="text-align:center;">点击卡片查看释义 · ${state.idx + 1} / ${exps.length}</p>`, {
         prev: state.idx > 0,
-        next: true,
+        next: state.idx < exps.length - 1,
       });
     els.stage.querySelector('#exprCard').addEventListener('click', function () {
       this.classList.toggle('revealed');
@@ -644,55 +600,6 @@
   }
 
   /* ============================================================
-     抄写 / 默写 检查
-     ============================================================ */
-  function tokenize(s) { return s.trim().split(/\s+/).filter(Boolean); }
-  function norm(w) { return w.toLowerCase().replace(/[^\w'-]+/g, ''); }
-
-  function orderedDiff(a, b) {
-    const m = a.length, n = b.length;
-    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-    for (let i = m - 1; i >= 0; i--) {
-      for (let j = n - 1; j >= 0; j--) {
-        dp[i][j] = norm(a[i]) === norm(b[j])
-          ? dp[i + 1][j + 1] + 1
-          : Math.max(dp[i + 1][j], dp[i][j + 1]);
-      }
-    }
-    const out = [];
-    let i = 0, j = 0;
-    while (i < m && j < n) {
-      if (norm(a[i]) === norm(b[j])) { out.push({ w: a[i], s: 'ok' }); i++; j++; }
-      else if (dp[i + 1][j] >= dp[i][j + 1]) { out.push({ w: a[i], s: 'missing' }); i++; }
-      else { out.push({ w: b[j], s: 'extra' }); j++; }
-    }
-    while (i < m) out.push({ w: a[i++], s: 'missing' });
-    while (j < n) out.push({ w: b[j++], s: 'extra' });
-    return out;
-  }
-
-  function checkDictation(original) {
-    const inputEl = els.stage.querySelector('#dictInput');
-    const resultEl = els.stage.querySelector('#dictResult');
-    const scoreEl = els.stage.querySelector('#dictScore');
-    if (!inputEl) return;
-
-    const originalWords = tokenize(original);
-    const inputWords = tokenize(inputEl.value);
-    const diff = orderedDiff(originalWords, inputWords);
-
-    const correct = diff.filter((d) => d.s === 'ok').length;
-    resultEl.innerHTML = diff.map((d) => {
-      const cls = d.s === 'ok' ? 'ok' : 'bad';
-      const mark = d.s === 'extra' ? '↩' : (d.s === 'missing' ? '▲' : '');
-      return `<span class="${cls}">${mark}${escapeHtml(d.w)}</span>`;
-    }).join(' ');
-
-    resultEl.style.display = 'block';
-    scoreEl.textContent = `正确 ${correct} / ${originalWords.length}`;
-  }
-
-  /* ============================================================
      切换绑定
      ============================================================ */
   function bindListToggle() {
@@ -715,14 +622,6 @@
       });
     });
   }
-  function bindDictToggle() {
-    els.stage.querySelectorAll('.mode-btn[data-dm]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        state.dictMode = btn.dataset.dm;
-        renderStage();
-      });
-    });
-  }
 
   /* ============================================================
      init
@@ -734,6 +633,18 @@
     els.continueBtn.addEventListener('click', () => {
       const pos = loadPos();
       if (pos) enterBook(pos.level, pos);
+    });
+
+    // 回车进入下一关（单词 / 逐句课文 / 表达卡片阶段）
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter') return;
+      if (state.view !== 'learn' || !currentLesson) return;
+      if (state.stage === 'done' || state.listMode || state.pickerOpen) return;
+      if (state.stage === 'text' && state.textMode === 'full') return;
+      const tag = e.target && e.target.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      e.preventDefault();
+      nextCard();
     });
 
     renderShelf();
