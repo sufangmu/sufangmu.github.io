@@ -657,7 +657,7 @@
     return `<div class="cmd"><span class="prompt">nce@challenge:~$</span> ${inner}</div>`;
   }
   function cmdTitle() {
-    return `<div class="cmd"><span class="prompt">nce@challenge:~$</span> nce --challenge<span class="cursor">▊</span></div>`;
+    return `<div class="cmd"><span class="prompt">nce@challenge:~$</span> nce --challenge</div>`;
   }
   function render() {
     recompute();
@@ -855,13 +855,11 @@
         html += `<div class="ok-line">${lessonDone ? '🎉 本课通关！' : '✔ 闯关成功！'}</div>`;
         html += `<div class="actions">`;
         html += `<button class="btn btn-primary" data-act="next">${nextLabel}</button>`;
-        html += `<button class="btn" data-act="back">返回地图</button>`;
         html += `</div>`;
       } else {
         html += `<div class="bad-line">✘ 还有差异，再试一次</div>`;
         html += `<div class="actions">`;
         html += `<button class="btn btn-primary" data-act="retry">↻ 重试</button>`;
-        html += `<button class="btn" data-act="peek">👁 看答案</button>`;
         html += `<button class="btn" data-act="backPreview">↺ 返回预览</button>`;
         html += `</div>`;
       }
@@ -957,7 +955,6 @@
     act('backPreview', () => { state.phase = 'preview'; state.showZh = true; renderLesson(); });
     act('check', doCheck);
     act('retry', () => { state.phase = 'input'; state.result = null; state.lastInput = ''; renderLesson(); });
-    act('peek', () => { state.phase = 'preview'; state.showZh = true; state.lastInput = ''; renderLesson(); });
     act('next', () => { state.mode === 'review' ? reviewNav(1) : goToFrontier(); });
     act('prev', () => reviewNav(-1));
 
@@ -1017,6 +1014,28 @@
     });
     els.unlockInputNum.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') { e.preventDefault(); confirmUnlock(); }
+    });
+    // 回车快捷操作：预览 → 开始闯关；结果 → 下一关 / 重试
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' || state.view !== 'lesson') return;
+      const tag = e.target && e.target.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (state.mode === 'review') return;
+      e.preventDefault();
+      if (state.phase === 'preview') {
+        state.phase = 'input';
+        state.showZh = false;
+        renderLesson();
+      } else if (state.phase === 'result') {
+        if (state.result && state.result.every((d) => d.s === 'ok')) {
+          goToFrontier();
+        } else {
+          state.phase = 'input';
+          state.result = null;
+          state.lastInput = '';
+          renderLesson();
+        }
+      }
     });
     window.addEventListener('resize', () => { if (state.view === 'map') renderMap(); });
     render();
