@@ -489,5 +489,8 @@ nav:
       - 学习模式: 'english/NCE/learn.md'
     - IELTS:
       - '学习方法': 'english/IELTS/学习方法.md'
+      - 剑桥雅思:
+        - 19:
+          - 'Test1 Reading Passage 1': 'english/IELTS/剑桥雅思/19/Test1_reading_passage_1.md'
   - Book:
     - '阅读器': 'books/reader.md'
