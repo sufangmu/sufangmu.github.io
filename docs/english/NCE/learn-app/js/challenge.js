@@ -4,7 +4,7 @@
  * - 全局黑白主题切换（地图 + 终端统一），白底更白
  * - 严格顺序闯关：第一册通关才能进入下一册，依次往后，不能跳关
  * - 终端视图：进入关卡才显示，Linux 命令行输出流
- * - 每关流程：预览原文 → 开始闯关(隐藏原文，可切换译文) → 输入 → 检查(红标差异)
+ * - 每关流程：预览原文 → 开始闯关(隐藏原文，可切换译文) → 逐词填空 → 检查(红标错误单词)
  * - 进度存 localStorage，支持导出 / 导入(跨浏览器迁移)
  */
 (function () {
@@ -426,7 +426,7 @@
     phase: 'preview',   // 'preview' | 'input' | 'result'
     showZh: false,
     result: null,
-    lastInput: '',
+    blankValues: {},
     progress: loadProgress(),
   };
 
@@ -521,7 +521,7 @@
     state.phase = 'preview';
     state.showZh = false;
     state.result = null;
-    state.lastInput = '';
+    state.blankValues = {};
     render();
     toast('已解锁到该句');
   }
@@ -613,30 +613,122 @@
   }
 
   /* ============================================================
-     文本比较 (词级 diff)
+     逐词填空 (下划线输入)
      ============================================================ */
-  function tokenize(s) { return String(s || '').trim().split(/\s+/).filter(Boolean); }
-  function norm(w) { return w.toLowerCase().replace(/[^\w'-]+/g, ''); }
-  function diff(a, b) {
-    const m = a.length, n = b.length;
-    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-    for (let i = m - 1; i >= 0; i--) {
-      for (let j = n - 1; j >= 0; j--) {
-        dp[i][j] = norm(a[i]) === norm(b[j])
-          ? dp[i + 1][j + 1] + 1
-          : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const TITLES = new Set([
+    'mr', 'mrs', 'ms', 'miss', 'dr', 'doctor', 'sir', 'madam', 'madame',
+    'lord', 'lady', 'prof', 'professor', 'captain', 'capt', 'saint', 'st',
+  ]);
+  // 这些词即使出现在句中大写，也不是专有名词
+  const NON_PROPER = new Set([
+    'i', "i'm", "i've", "i'll", "i'd",
+    'you', "you're", "you've", "you'll", "you'd",
+    'he', "he's", 'she', "she's", 'it', "it's",
+    'we', "we're", "we've", "we'll", "we'd",
+    'they', "they're", "they've", "they'll", "they'd",
+    'that', "that's", 'this', 'these', 'those', 'there', "there's", 'here',
+    'what', "what's", 'when', 'where', 'who', 'why', 'how', 'which',
+    'whatever', 'whoever', 'however', 'yes', 'no', 'oh', 'well', 'now', 'then', 'so',
+    'and', 'but', 'or', 'if', 'because', 'although', 'while', 'before', 'after',
+    'since', 'until', 'unless', 'though', 'even', 'only', 'just', 'still', 'yet',
+    'also', 'too', 'very', 'quite', 'rather', 'such', 'some', 'many', 'much',
+    'more', 'most', 'few', 'little', 'all', 'both', 'each', 'every', 'either',
+    'neither', 'another', 'other', 'others', 'same', 'different', 'first', 'last',
+    'next', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+  ]);
+  let PROPER_NOUNS = null;
+
+  // 按「单词 / 其它字符」切分，标点与空格保持原样
+  function splitWords(en) {
+    const tokens = [];
+    const re = /[A-Za-z]+(?:['’\-][A-Za-z]+)*/g;
+    let last = 0;
+    let m;
+    while ((m = re.exec(en)) !== null) {
+      if (m.index > last) tokens.push({ type: 'plain', text: en.slice(last, m.index) });
+      tokens.push({ type: 'word', text: m[0] });
+      last = m.index + m[0].length;
+    }
+    if (last < en.length) tokens.push({ type: 'plain', text: en.slice(last) });
+    return tokens;
+  }
+
+  // 从全部课文中归纳专有名词（句中大写且不常作普通词使用）
+  function buildProperNouns() {
+    const common = new Set();
+    const sentences = [];
+    for (const key of Object.keys(DATA.lessons)) {
+      const lesson = DATA.lessons[key];
+      for (const s of lesson.text || []) {
+        const tokens = splitWords(s.en);
+        sentences.push(tokens);
+        for (const t of tokens) {
+          if (t.type === 'word' && t.text === t.text.toLowerCase()) {
+            common.add(t.text.toLowerCase().replace(/’/g, "'"));
+          }
+        }
       }
     }
-    const out = [];
-    let i = 0, j = 0;
-    while (i < m && j < n) {
-      if (norm(a[i]) === norm(b[j])) { out.push({ w: a[i], s: 'ok' }); i++; j++; }
-      else if (dp[i + 1][j] >= dp[i][j + 1]) { out.push({ w: a[i], s: 'missing' }); i++; }
-      else { out.push({ w: b[j], s: 'extra' }); j++; }
+    const proper = new Set();
+    for (const tokens of sentences) {
+      let sentenceStart = true;
+      let titlePending = false;
+      for (const t of tokens) {
+        if (t.type === 'plain') {
+          if (titlePending) {
+            titlePending = false;
+            if (t.text.trim() === '.') continue;
+          }
+          if (/[.!?]/.test(t.text)) sentenceStart = true;
+          continue;
+        }
+        if (!sentenceStart && /^[A-Z]/.test(t.text)) {
+          const lower = t.text.toLowerCase().replace(/’/g, "'");
+          if (!common.has(lower) && !NON_PROPER.has(lower)) proper.add(lower);
+        }
+        if (TITLES.has(t.text.toLowerCase())) titlePending = true;
+        sentenceStart = false;
+      }
     }
-    while (i < m) out.push({ w: a[i++], s: 'missing' });
-    while (j < n) out.push({ w: b[j++], s: 'extra' });
-    return out;
+    PROPER_NOUNS = proper;
+  }
+
+  function isInputWord(token, sentenceStart) {
+    const w = token.text;
+    const lower = w.toLowerCase().replace(/’/g, "'");
+    if (TITLES.has(lower)) return false;
+    if (/^[A-Z]{2,}$/.test(w)) return false;
+    if (sentenceStart) return !PROPER_NOUNS.has(lower);
+    if (NON_PROPER.has(lower)) return true;
+    return !/^[A-Z]/.test(w);
+  }
+
+  function clozeTokens(en) {
+    if (!PROPER_NOUNS) buildProperNouns();
+    const tokens = splitWords(en);
+    let sentenceStart = true;
+    let titlePending = false;
+    let blankIdx = 0;
+    for (const t of tokens) {
+      if (t.type === 'plain') {
+        if (titlePending) {
+          titlePending = false;
+          if (t.text.trim() === '.') continue;
+        }
+        if (/[.!?]/.test(t.text)) sentenceStart = true;
+        continue;
+      }
+      t.sentenceStart = sentenceStart;
+      t.input = isInputWord(t, sentenceStart);
+      if (t.input) t.blankIdx = blankIdx++;
+      if (TITLES.has(t.text.toLowerCase())) titlePending = true;
+      sentenceStart = false;
+    }
+    return { tokens, count: blankIdx };
+  }
+
+  function normWord(w) {
+    return String(w || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   }
 
   /* ============================================================
@@ -774,7 +866,7 @@
     state.phase = 'preview';
     state.showZh = true;
     state.result = null;
-    state.lastInput = '';
+    state.blankValues = {};
     render();
   }
 
@@ -794,7 +886,7 @@
     state.phase = 'preview';
     state.showZh = true;
     state.result = null;
-    state.lastInput = '';
+    state.blankValues = {};
     render();
   }
 
@@ -834,18 +926,20 @@
       html += pl(`<span class="dim">译文：</span><span class="dim">${esc(s.zh)}</span>`);
       html += `<div class="actions"><button class="btn btn-primary" data-act="start">▶ 开始闯关</button></div>`;
     } else if (state.phase === 'input') {
-      html += pl(`<span class="dim">原文：</span><span class="dim">[ 已隐藏 · 凭记忆输入 ]</span>`);
+      const cloze = renderClozeInput(s.en);
+      html += pl(`<span class="dim">原文：</span><span class="dim">[ 已隐藏 · 按单词填空 ]</span>`);
       html += pl(`<span class="dim">译文：</span>${state.showZh ? `<span class="dim">${esc(s.zh)}</span>` : `<span class="dim">[ 已隐藏 ]</span>`}`);
-      html += `<div class="input-line"><span class="prompt">nce@challenge:~$</span><textarea class="input" id="input" rows="1" spellcheck="false" placeholder="输入原文，回车检查…">${esc(state.lastInput)}</textarea></div>`;
+      html += `<div class="cloze-line" id="clozeLine">${cloze.html}</div>`;
+      html += `<div class="cloze-hint">下划线处输入单词 · 人名、地名、标点已直接显示 · 空格跳到下一空 · 回车检查</div>`;
       html += `<div class="actions">`;
       html += `<button class="btn btn-primary" data-act="check">✔ 检查</button>`;
       html += `<button class="btn" data-act="toggleZh">${state.showZh ? '隐藏译文' : '显示译文'}</button>`;
       html += `<button class="btn" data-act="backPreview">↺ 返回预览</button>`;
       html += `</div>`;
     } else if (state.phase === 'result') {
-      const pass = state.result && state.result.every((d) => d.s === 'ok');
-      html += pl(`<span class="dim">你的输入：</span>${renderInputDiff()}`);
-      html += pl(`<span class="dim">原文对照：</span>${renderOrigDiff()}`);
+      const pass = !!(state.result && state.result.pass);
+      html += pl(`<span class="dim">你的答案：</span><span class="diff">${renderResultSentence()}</span>`);
+      if (!pass) html += pl(`<span class="dim">正确答案：</span><span class="dim">${esc(s.en)}</span>`);
       if (pass) {
         let nextLabel;
         if (GLOB.frontier === -1) nextLabel = '🎉 全部通关';
@@ -868,19 +962,27 @@
     els.termBody.innerHTML = html;
     bindLessonActions();
 
-    const input = $('input');
-    if (input) {
-      const autosize = () => {
-        input.style.height = 'auto';
-        input.style.height = input.scrollHeight + 'px';
-      };
-      input.addEventListener('input', autosize);
-      input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); doCheck(); }
+    const blanks = Array.from(els.termBody.querySelectorAll('.blank'));
+    if (blanks.length) {
+      blanks.forEach((inp, i) => {
+        inp.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            doCheck();
+          } else if (e.key === ' ') {
+            e.preventDefault();
+            const next = blanks[i + 1];
+            if (next) { next.focus(); next.select(); }
+          } else if (e.key === 'Backspace' && !inp.value && i > 0) {
+            e.preventDefault();
+            const prev = blanks[i - 1];
+            prev.focus();
+            prev.setSelectionRange(prev.value.length, prev.value.length);
+          }
+        });
       });
-      input.focus();
-      input.setSelectionRange(input.value.length, input.value.length);
-      requestAnimationFrame(autosize);
+      blanks[0].focus();
+      blanks[0].setSelectionRange(blanks[0].value.length, blanks[0].value.length);
     }
   }
 
@@ -918,28 +1020,74 @@
     bindLessonActions();
   }
 
-  function renderInputDiff() {
-    if (!state.result) return '';
-    const parts = state.result
-      .filter((d) => d.s !== 'missing')
-      .map((d) => `<span class="w ${d.s === 'ok' ? 'ok' : 'bad'}">${esc(d.w)}</span>`);
-    return parts.join(' ') || '<span class="dim">(空)</span>';
+  function renderClozeInput(en) {
+    const { tokens, count } = clozeTokens(en);
+    let html = '';
+    for (const t of tokens) {
+      if (t.type === 'plain') { html += esc(t.text); continue; }
+      if (!t.input) { html += `<span class="given">${esc(t.text)}</span>`; continue; }
+      const val = state.blankValues[t.blankIdx] || '';
+      const width = Math.max(2, t.text.length) + 1;
+      html += `<input class="blank" data-blank="${t.blankIdx}" value="${esc(val)}" style="width:${width}ch" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="第 ${t.blankIdx + 1} 个空">`;
+    }
+    return { html, count };
   }
-  function renderOrigDiff() {
+
+  function renderResultSentence() {
     if (!state.result) return '';
-    const parts = state.result
-      .filter((d) => d.s !== 'extra')
-      .map((d) => `<span class="w ${d.s === 'ok' ? 'ok' : 'bad'}">${esc(d.w)}</span>`);
-    return parts.join(' ');
+    const { tokens } = state.result;
+    let html = '';
+    for (const t of tokens) {
+      if (t.type === 'plain') { html += esc(t.text); continue; }
+      if (!t.input) { html += `<span class="given">${esc(t.text)}</span>`; continue; }
+      const val = String(t.actual || '').trim();
+      if (!val) {
+        html += `<span class="w bad" title="正确答案：${esc(t.text)}">______</span>`;
+      } else {
+        html += `<span class="w ${t.ok ? 'ok' : 'bad'}"${t.ok ? '' : ` title="正确答案：${esc(t.text)}"`}>${esc(val)}</span>`;
+      }
+    }
+    return html;
+  }
+
+  function captureBlanks() {
+    const inputs = els.termBody.querySelectorAll('.blank');
+    if (!inputs.length) return;
+    const vals = {};
+    inputs.forEach((inp) => { vals[parseInt(inp.dataset.blank, 10)] = inp.value; });
+    state.blankValues = vals;
   }
 
   function doCheck() {
-    const input = $('input');
-    if (!input) return;
-    state.lastInput = input.value;
+    const inputs = els.termBody.querySelectorAll('.blank');
     const orig = DATA.lessons[state.lessonId].text[state.sentenceIdx].en;
-    state.result = diff(tokenize(orig), tokenize(state.lastInput));
-    const pass = state.result.every((d) => d.s === 'ok');
+    if (!inputs.length) {
+      const { tokens } = clozeTokens(orig);
+      state.result = { tokens, pass: true };
+      markDone(state.lessonId, state.sentenceIdx);
+      recompute();
+      state.phase = 'result';
+      renderLesson();
+      return;
+    }
+    const answers = [];
+    inputs.forEach((inp) => answers.push(inp.value));
+
+    const { tokens } = clozeTokens(orig);
+    let bi = 0;
+    let pass = true;
+    for (const t of tokens) {
+      if (t.type !== 'word' || !t.input) continue;
+      const actual = answers[bi] || '';
+      t.actual = actual;
+      t.ok = normWord(actual) === normWord(t.text);
+      if (!t.ok) pass = false;
+      bi++;
+    }
+
+    state.blankValues = {};
+    answers.forEach((v, i) => { state.blankValues[i] = v; });
+    state.result = { tokens, pass };
     if (pass) { markDone(state.lessonId, state.sentenceIdx); recompute(); }
     state.phase = 'result';
     renderLesson();
@@ -950,11 +1098,11 @@
       els.termBody.querySelectorAll(`[data-act="${name}"]`).forEach((el) => el.addEventListener('click', fn));
     };
     act('back', backToMap);
-    act('start', () => { state.phase = 'input'; state.showZh = false; renderLesson(); });
-    act('toggleZh', () => { state.showZh = !state.showZh; renderLesson(); });
-    act('backPreview', () => { state.phase = 'preview'; state.showZh = true; renderLesson(); });
+    act('start', () => { state.phase = 'input'; state.showZh = false; state.result = null; state.blankValues = {}; renderLesson(); });
+    act('toggleZh', () => { captureBlanks(); state.showZh = !state.showZh; renderLesson(); });
+    act('backPreview', () => { state.phase = 'preview'; state.showZh = true; state.result = null; state.blankValues = {}; renderLesson(); });
     act('check', doCheck);
-    act('retry', () => { state.phase = 'input'; state.result = null; state.lastInput = ''; renderLesson(); });
+    act('retry', () => { state.phase = 'input'; state.result = null; state.blankValues = {}; renderLesson(); });
     act('next', () => { state.mode === 'review' ? reviewNav(1) : goToFrontier(); });
     act('prev', () => reviewNav(-1));
 
@@ -967,7 +1115,7 @@
         state.phase = 'preview';
         state.showZh = true;
         state.result = null;
-        state.lastInput = '';
+        state.blankValues = {};
         renderLesson();
       });
     });
@@ -1025,14 +1173,16 @@
       if (state.phase === 'preview') {
         state.phase = 'input';
         state.showZh = false;
+        state.result = null;
+        state.blankValues = {};
         renderLesson();
       } else if (state.phase === 'result') {
-        if (state.result && state.result.every((d) => d.s === 'ok')) {
+        if (state.result && state.result.pass) {
           goToFrontier();
         } else {
           state.phase = 'input';
           state.result = null;
-          state.lastInput = '';
+          state.blankValues = {};
           renderLesson();
         }
       }
