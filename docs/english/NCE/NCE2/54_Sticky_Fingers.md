@@ -36,7 +36,7 @@
 - dismayed /dɪˈsmed/ 失望的
 - persuade /pɚˈswed/ 劝说
 - What /wʌt/ a /ə/ mess /mɛs/ 杂乱
-- doorknobs /ˈdurnɑbz/ 球形门拉手
+- doorknobs /ˈdɔrˌnɑbz/ 球形门拉手
 - loud /laʊd/ 大声的
 - letter /ˈlɛtɚ/ 挂号信
 - flour /flaʊr/ 面粉

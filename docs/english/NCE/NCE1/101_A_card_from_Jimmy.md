@@ -56,7 +56,7 @@
 
 - Scotland /ˈskɑtlənd/ 苏格兰
 - card /kɑrd/ 明信片；卡片
-- youth hostel /ˈjuθ ˈhɑstl/ 青年旅舍
+- youth hostel /ˈjuθ ˌhɑstl/ 青年旅舍
 - association /əˌsosiˈeʃən/ 协会
 - soon /sun/ 不久
 - write /raɪt/ 写

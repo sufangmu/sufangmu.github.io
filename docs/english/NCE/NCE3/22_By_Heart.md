@@ -18,7 +18,7 @@
 
 ### Words
 
-- poor /pur/ 可怜的
+- poor /pʊr/ 可怜的
 - repeating /rɪˈpitɪŋ/ the /ðə/ same /sem/ lines /laɪnz/ 台词
 - parts /pɑrts/ 角色
 - falter /ˈfɔltɚ/ 结巴地说

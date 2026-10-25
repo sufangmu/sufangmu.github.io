@@ -20,7 +20,7 @@
 
 - plead /plid/ 辩解
 - ignorance /ˈɪɡnərəns/ 无知
-- publications /ˌpəblɪˈkeʃənz/ 出版物
+- publications /ˌpʌblɪˈkeʃənz/ 出版物
 - newlyweds /ˈnuliˌwɛdz/ 新欢夫妇
 - gaily /ˈɡeli/ 愉快地
 - leisure /ˈlɛʒɚ/ 空闲的
@@ -28,7 +28,7 @@
 - advisory /ædˈvaɪzəri/ 咨询的
 - assemble /əˈsɛmbəl/ 装配
 - outlet /ˈaʊtˌlɛt/ 出路
-- handymen /ˈhændiˈmɛn/ 能工巧匠
+- handymen /ˈhændiˌmɛn/ 能工巧匠
 - resourceful /riˈsɔrsfəl/ 足智多谋的
 - fuse /fjuz/ 短路
 - rickety /ˈrɪkəti/ 散架

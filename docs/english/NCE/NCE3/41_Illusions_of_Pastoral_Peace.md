@@ -34,7 +34,7 @@
 - exotic /ɪɡˈzɑtɪk/ 外来的
 - glow /ɡlo/ 白炽光
 - tucked /tʌkt/ 隐藏
-- obstinately /ˈɑbstɪnətlɪ/ 固执的
+- obstinately /ˈɑbstɪnətli/ 固执的
 
 ### Expressions
 

@@ -18,7 +18,7 @@
 
 - manual /ˈmænjuəl/ 体力
 - frequently /ˈfrikwəntli/ 频繁地
-- white-collar /ˌhwaɪt ˈkɑlɚ/ 白领
+- white-collar /ˌwaɪt ˈkɑlɚ/ 白领
 - sacrifice /ˈsækrəˌfaɪs/ 牺牲
 - curious /ˈkjʊriəs/ 奇怪的
 - dustman /ˈdʌstmən/ 清洁工

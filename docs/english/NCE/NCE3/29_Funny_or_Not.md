@@ -19,7 +19,7 @@
 ### Words
 
 - mysteriously /ˌmɪˈstɪriəsli/ 神秘的
-- national /ˈnæʃənəl/ characteristics /ˌkɛrəktɚˈɪstɪks/ 民族特色
+- national /ˈnæʃənəl/ characteristics /ˌkærəktəˈrɪstɪks/ 民族特色
 - comic /ˈkɑmɪk/ 喜剧的
 - appeal /əˈpil/ 吸引力
 - Comedians /kəˈmidiənz/ 喜剧演员

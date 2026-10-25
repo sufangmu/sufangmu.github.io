@@ -31,7 +31,7 @@
 - explosions /ɪkˈsploʒənz/ 爆炸
 - on /ɑn/ the /ðə/ course /kɔrs/ 道路
 - rivals /ˈraɪvəlz/ 竞争对手
-- downhill /ˈdaʊnˈhɪl/ 下坡
+- downhill /ˈdaʊnˌhɪl/ 下坡
 - wheel /wil/ 车轮
 - speed /spid/ 速度
 

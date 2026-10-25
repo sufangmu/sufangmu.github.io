@@ -22,9 +22,9 @@
 
 ### Words
 
-- performances /pɚˈfɔrmənsəz/ 演出
+- performances /pɚˈfɔrmənsɪz/ 演出
 - group /ɡrup/ 组；群
-- pop singer /ˈpɑp ˈsɪŋɚ/ 流行歌手
+- pop singer /ˈpɑp ˌsɪŋɚ/ 流行歌手
 - club /klʌb/ 俱乐部
 - occasion /əˈkeʒən/ 场合
 

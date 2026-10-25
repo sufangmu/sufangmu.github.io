@@ -26,7 +26,7 @@
 
 ### Words
 
-- Mediterranean /ˌmɛdətɚˈeniən/ 地中海
+- Mediterranean /ˌmɛdətəˈreniən/ 地中海
 - complain /kəmˈplen/ 抱怨
 - continually /kənˈtɪnjuəli/ 不断地
 - bitterly /ˈbɪtɚli/ 极其

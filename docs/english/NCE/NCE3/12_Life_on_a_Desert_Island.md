@@ -24,12 +24,12 @@
 - coral /ˈkɔrəl/ 珊瑚
 - rubber /ˈrʌbɚ/ 橡胶
 - dinghy /ˈdɪŋi/ 小艇
-- matches /ˈmætʃəz/ 火柴
+- matches /ˈmætʃɪz/ 火柴
 - rowed /rod/ 划船
 - a /ə/ spear /spɪr/ gun /ɡʌn/ 捕鱼枪
 - lobster /ˈlɑbstɚ/ 龙虾
 - tanker /ˈtæŋkɚ/ 油轮
-- genuinely /'dʒenjuɪnli/ 真诚地
+- genuinely /ˈdʒɛnjuɪnli/ 真诚地
 
 ### Expressions
 

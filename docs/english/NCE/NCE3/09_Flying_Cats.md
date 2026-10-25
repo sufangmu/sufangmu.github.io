@@ -26,13 +26,13 @@
 - survive /sɚˈvaɪv/ 幸免于
 - shock /ʃɑk/ 休克
 - shortage /ˈʃɔrtədʒ/ 缺少
-- high-rise /ˌhaɪ ˈraɪz/ 高楼
+- high-rise /ˈhaɪ ˌraɪz/ 高楼
 - windowsills /ˈwɪndoˌsɪlz/ 窗台
 - from /frʌm/ 遭受
 - paratroopers /ˈpɛrəˌtrupɚz/ 伞兵
-- squirrels /ˈskwərəlz/ 松鼠
-- air-resistance /ˈɛr rɪˈzɪstəns/ 空气阻力
-- impact /ˌɪmˈpækt/ 撞击
+- squirrels /ˈskwɝəlz/ 松鼠
+- air-resistance /ˈɛr rɪˌzɪstəns/ 空气阻力
+- impact /ˈɪmpækt/ 撞击
 
 ### Expressions
 

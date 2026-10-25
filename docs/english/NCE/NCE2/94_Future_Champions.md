@@ -38,7 +38,7 @@
 - among /əˈmʌŋ/ 在…中间
 - gasping /ˈɡæspɪŋ/ 喘气
 - weight /wet/ 重量
-- underwater /ˈʌndɚˌwɔtɚ/ 水下的
+- underwater /ˌʌndɚˈwɔtɚ/ 水下的
 - yard /jɑrd/ 码
 
 ### Expressions

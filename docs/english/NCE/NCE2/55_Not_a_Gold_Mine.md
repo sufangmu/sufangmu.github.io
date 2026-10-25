@@ -36,7 +36,7 @@
 - soil /sɔɪl/ 土
 - entrance /ˈɛntrəns/ 入口
 - dug /dʌɡ/ dig, 挖
-- thoroughly /ˈθəroli/ 彻底地
+- thoroughly /ˈθɝoli/ 彻底地
 - tin /tɪn/ 锡
 - trunk /trʌŋk/ 衣箱
 - fairly /ˈfɛrli/ 相当地

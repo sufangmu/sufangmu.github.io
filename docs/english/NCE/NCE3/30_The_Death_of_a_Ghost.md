@@ -25,9 +25,9 @@
 - corn /kɔrn/ 谷物
 - conscientious /ˌkɑnʃiˈɛnʃəs/ 勤奋的
 - suspected /səˈspɛktɪd/ 怀疑
-- desert /ˈdɛzɚt/ 逃亡
+- desert /dɪˈzɝt/ 逃亡
 - regiment /ˈrɛdʒəmənt/ 军团
-- recluse /rɪˈklus/ 隐士
+- recluse /ˈrɛklus/ 隐士
 
 ### Expressions
 

@@ -33,10 +33,10 @@
 
 - go /ɡo/ on /ɑn/ a /ə/ diet /ˈdaɪət/ 节食
 - led /lɛd/ lead, 引领
-- hurriedly /ˈhəridli/ 迅速地
+- hurriedly /ˈhɝɪdli/ 迅速地
 - parcel /ˈpɑrsəl/ 包裹
-- embarrassed /ɪmˈbɛrəst/ 尴尬
-- guiltily /ˈɡɪltɪlɪ/ 内疚
+- embarrassed /ɪmˈbærəst/ 尴尬
+- guiltily /ˈɡɪltɪli/ 内疚
 - strict /strɪkt/ 严格的
 - reward /rɪˈwɔrd/ 奖励
 - occasionally /əˈkeʒənəli/ 偶尔

@@ -65,7 +65,7 @@
 - mum /mʌm/ 妈妈
 - sit down /ˌsɪt ˈdaʊn/ 坐下
 - right /raɪt/ 好的；右边的
-- ice cream /ˌaɪs ˈkrim/ 冰淇淋
+- ice cream /ˈaɪs ˌkrim/ 冰淇淋
 - big /bɪɡ/ 大的
 - small /smɔl/ 小的
 - open /ˈopən/ 开着的

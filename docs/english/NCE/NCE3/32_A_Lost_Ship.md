@@ -30,7 +30,7 @@
 - piece /pis/ 拼成整体
 - convoy /ˈkɑnˌvɔɪ/ 护航
 - torpedoed /tɔrˈpiˌdod/ 用鱼雷攻击
-- submarine /ˈsʌbmɚˌin/ 潜水艇
+- submarine /ˈsʌbməˌrin/ 潜水艇
 - naval /ˈnevəl/ 海军
 
 ### Expressions

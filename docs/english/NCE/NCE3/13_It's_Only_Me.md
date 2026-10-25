@@ -14,8 +14,8 @@
 
 ### Words
 
-- costume /kɑˈstum/ 服装
-- costume /kɑˈstum/ 化妆服
+- costume /ˈkɑstum/ 服装
+- costume /ˈkɑstum/ 化妆服
 - consisted /kənˈsɪstəd/ 由……组成
 - sheet /ʃit/ 床单
 - effective /ɪˈfɛktɪv/ 有效的

@@ -36,7 +36,7 @@
 - sensitive /ˈsɛnsətɪv/ 敏感的
 - criticism /ˈkrɪtɪˌsɪzəm/ 批评
 - charged /tʃɑrdʒd/ at /æt/ 向某人或某物猛冲过去
-- clumsily /ˈklʌmsəli/ 笨拙地
+- clumsily /ˈklʌmzəli/ 笨拙地
 - bowed /baʊd/ 鞠躬
 - sympathetically /ˌsɪmpəˈθɛtɪkəli/ 富有同情心地
 - turning /ˈtɝnɪŋ/ its /ɪts/ attention /əˈtɛnʃən/ to /tu/ 转移注意力

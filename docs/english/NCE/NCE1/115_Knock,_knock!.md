@@ -72,7 +72,7 @@
 - nothing /ˈnʌθɪŋ/ 没有东西
 - everything /ˈɛvriˌθɪŋ/ 一切
 - asleep /əˈslip/ 睡着的
-- glasses /ˈɡlæsəz/ 眼镜
+- glasses /ˈɡlæsɪz/ 眼镜
 
 ### Expressions
 

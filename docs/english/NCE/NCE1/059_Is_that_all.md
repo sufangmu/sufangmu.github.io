@@ -71,7 +71,7 @@
 ### Words
 
 - envelope /ˈɛnvəˌlop/ 信封
-- writing paper /ˈraɪtɪŋ ˈpepɚ/ 信纸
+- writing paper /ˈraɪtɪŋ ˌpepɚ/ 信纸
 - size /saɪz/ 尺寸
 - pad /pæd/ 便签本
 - glue /ɡlu/ 胶水

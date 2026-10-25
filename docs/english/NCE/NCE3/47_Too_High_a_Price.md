@@ -28,7 +28,7 @@
 - fertilizers /ˈfɝtəˌlaɪzɚz/ 肥料
 - salmonella /ˌsælməˈnɛlə/ 沙门氏菌
 - listeria /lɪˈstɪriə/ 李斯特杆菌
-- organically-grown /ɔrˈɡænɪklɪ ˌɡron/ 有机的
+- organically-grown /ɔrˈɡænɪkli ˌɡron/ 有机的
 - insidious /ˌɪnˈsɪˌdiəs/ 暗中为害的
 - urban /ˈɝbən/ 城市的
 - Burglar /ˈbɝɡlɚ/ 窃贼

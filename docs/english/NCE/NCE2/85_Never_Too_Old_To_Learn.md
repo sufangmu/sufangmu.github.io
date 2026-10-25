@@ -26,7 +26,7 @@
 ### Words
 
 - informing /ˌɪnˈfɔrmɪŋ/ 通知
-- headmaster /ˈhɛdˈmæstɚ/ 校长
+- headmaster /ˈhɛdˌmæstɚ/ 校长
 - Pupils /ˈpjupəlz/ 小学生
 - mark /mɑrk/ the /ðə/ occasion /əˈkeʒən/ 纪念时刻
 - understanding /ˌəndɚˈstændɪŋ/ 通情达理的

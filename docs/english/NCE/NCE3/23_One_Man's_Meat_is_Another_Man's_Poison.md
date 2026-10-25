@@ -27,7 +27,7 @@
 - appealed /əˈpild/ 吸引
 - shower /ˈʃaʊɚ/ 阵雨
 - taking /ˈtekɪŋ/ a /ə/ stroll /strol/ 散步
-- impulse /ˈɪmpəls/ 冲动
+- impulse /ˈɪmpʌls/ 冲动
 - fancy /ˈfænsi/ 喜欢
 
 ### Expressions

@@ -32,7 +32,7 @@
 
 - reporter /rɪˈpɔrtɚ/ 记者
 - sensational /sɛnˈseʃənəl/ 轰动的
-- mink coat /ˌmɪŋk ˈkot/ 貂皮大衣
+- mink coat /ˈmɪŋk ˌkot/ 貂皮大衣
 
 ### Expressions
 

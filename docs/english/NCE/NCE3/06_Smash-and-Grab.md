@@ -15,7 +15,7 @@
 ### Words
 
 - arcade /ɑrˈked/ 有拱廊的街道
-- jewellery /ˈdʒuəlrɪ/ 珠宝
+- jewellery /ˈdʒuəlri/ 珠宝
 - velvet /ˈvɛlvət/ 天鹅绒
 - horn /hɔrn/ 喇叭
 - blaring /ˈblɛrɪŋ/ 声音响亮
@@ -26,7 +26,7 @@
 - scrambled /ˈskræmbəld/ 迅速而吃力地爬
 - fantastic /fænˈtæstɪk/ 极高的
 - ashtrays /ˈæʃˌtrez/ 烟灰缸
-- vases /ˈvesəz/ 花瓶
+- vases /ˈvesɪz/ 花瓶
 
 ### Expressions
 

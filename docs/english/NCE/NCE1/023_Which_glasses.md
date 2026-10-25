@@ -47,8 +47,8 @@
 - cigarette /ˌsɪɡəˈrɛt/ 香烟
 - television /ˈtɛləˌvɪʒən/ 电视
 - floor /flɔr/ 地板
-- dressing table /ˈdrɛsɪŋ ˈtebl/ 梳妆台
-- magazine /ˌmæɡəˈzin/ 杂志
+- dressing table /ˈdrɛsɪŋ ˌtebl/ 梳妆台
+- magazine /ˈmæɡəˌzin/ 杂志
 - bed /bɛd/ 床
 - newspaper /ˈnjuzˌpepɚ/ 报纸
 - stereo /ˈstɛriˌo/ 立体声音响

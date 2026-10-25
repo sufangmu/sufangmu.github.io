@@ -22,7 +22,7 @@
 - fax /fæks/ 传真
 - reluctantly /rɪˈlʌktəntli/ 不情愿地
 - originally /əˈrɪdʒənəli/ 起初,原来
-- poor /pur/ 可怜的
+- poor /pʊr/ 可怜的
 
 ### not only
 

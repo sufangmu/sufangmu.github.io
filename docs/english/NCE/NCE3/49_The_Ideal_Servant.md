@@ -15,9 +15,9 @@
 ### Words
 
 - domestic /dəˈmɛstɪk/ servants /ˈsɝvənts/ 仆人
-- leisurely /ˈlizɚli/ 从容的，悠闲的
+- leisurely /ˈliʒɚli/ 从容的，悠闲的
 - rambling /ˈræmblɪŋ/ 杂乱的
-- sentimentally /ˌsɛntɪˈmɛntəlɪ/ 多情地
+- sentimentally /ˌsɛntɪˈmɛntəli/ 多情地
 - lavishly /ˈlævɪʃli/ 丰富地
 - immaculate /ˌɪˈmækjulɪt/ 清洁的
 - parquet /pɑrˈke/ 镶木地板
@@ -31,7 +31,7 @@
 - pursued /pɚˈsud/ 奉行
 - enlightened /ˌɛnˈlaɪtənd/ 开明的
 - fickleness /ˈfɪkəlnəs/ 变化无常
-- unrelenting /ˌənriˈlɛntɪŋ/ 不屈不挠的
+- unrelenting /ˌʌnrɪˈlɛntɪŋ/ 不屈不挠的
 - disillusioned /ˌdɪsɪˈluʒənd/ 使幻想破灭
 - industriousness /ɪnˈdʌstrɪəsnɪs/ 勤奋
 - qualifications /ˌkwɑləfəˈkeʃənz/ 能力

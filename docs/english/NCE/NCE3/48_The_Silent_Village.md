@@ -19,7 +19,7 @@
 ### Words
 
 - inaccessible /ˌɪnəkˈsɛsəbəl/ 难接近地
-- hospitable /ˈhɑˈspɪtəbəl/ 好客的
+- hospitable /ˈhɑspɪtəbəl/ 好客的
 - vicinity /vəˈsɪnəti/ 周围
 - architectural /ˌɑrkəˈtɛktʃərəl/ 建筑
 - frescoes /ˈfrɛskoz/ 壁画

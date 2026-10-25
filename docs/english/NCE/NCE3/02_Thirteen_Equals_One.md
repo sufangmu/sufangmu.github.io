@@ -37,7 +37,7 @@
 - vicar /ˈvɪkɚ/ 牧师
 - raising /ˈrezɪŋ/ money /ˈmʌni/ 筹钱
 - Armed /ɑrmd/ with /wɪð/ a /ə/ torch /tɔrtʃ/ 手电筒
-- caught /kɑt/ sight /saɪt/ of /ʌv/ a /ə/ figure /ˈfɪɡjɚ/ 人影
+- caught /kɔt/ sight /saɪt/ of /ʌv/ a /ə/ figure /ˈfɪɡjɚ/ 人影
 - grocer /ˈɡrosɚ/ 杂货商
 
 ### Expressions

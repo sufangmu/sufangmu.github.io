@@ -17,11 +17,11 @@
 - resolutions /ˌrɛzəˈluʃənz/ 决心
 - compile /kəmˈpaɪl/ formidable /ˈfɔrmədəbəl/ lists /lɪsts/ 列出令人生畏的清单
 - year /jɪr/ in /ɪn/ year /jɪr/ out /aʊt/ 年复一年
-- beyond /bɪˈɑnd/ attainment /əˈtenmənt/ 无法达到
+- beyond /bɪˈjɑnd/ attainment /əˈtenmənt/ 无法达到
 - carry /ˈkæri/ them /ðɛm/ out /aʊt/ 执行
 - slip /slɪp/ back /bæk/ into /ˈɪntu/ 滑回到
 - keep /kip/ my /maɪ/ resolutions /ˌrɛzəˈluʃənz/ to /tu/ myself /ˌmaɪˈsɛlf/ 把决心藏在心里
-- applied /əˈplaɪd/ myself /ˌmaɪˈsɛlf/ assiduously /əˈsɪdwəsli/ to /tu/ 孜孜不倦地致力于
+- applied /əˈplaɪd/ myself /ˌmaɪˈsɛlf/ assiduously /əˈsɪdʒuəsli/ to /tu/ 孜孜不倦地致力于
 - drag /dræɡ/ myself /ˌmaɪˈsɛlf/ out /aʊt/ of /ʌv/ bed /bɛd/ 把自己从床上拖起来
 - creep /krip/ down /daʊn/ 蹑手蹑脚地走下楼
 - betrayed /bɪˈtred/ me /mi/ 出卖了我

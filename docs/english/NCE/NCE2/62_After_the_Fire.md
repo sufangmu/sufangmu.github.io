@@ -35,7 +35,7 @@
 - grass-seed /ˈɡræs ˌsid/ 草种
 - sprayed /spred/ 喷
 - In /ɪn/ place /ples/ of /ʌv/ 替代
-- patches /ˈpætʃəz/ 斑块
+- patches /ˈpætʃɪz/ 斑块
 - blackened /ˈblækənd/ 变黑
 - surrounding /səˈraʊndɪŋ/ 周围的
 - quantity /ˈkwɑntəti/ 数量

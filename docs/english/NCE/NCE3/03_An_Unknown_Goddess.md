@@ -15,7 +15,7 @@
 ### Words
 
 - archaeologists /ˌɑrkiˈɑlədʒɪsts/ 考古学家
-- on /ɑn/ the /ðə/ promontory /ˈprɑmənˌtɔrɪ/ 海角
+- on /ɑn/ the /ðə/ promontory /ˈprɑmənˌtɔri/ 海角
 - prosperous /ˈprɑspərəs/ 繁荣的
 - civilization /ˌsɪvəlɪˈzeʃən/ 文明
 - stories /ˈstɔriz/ 楼层

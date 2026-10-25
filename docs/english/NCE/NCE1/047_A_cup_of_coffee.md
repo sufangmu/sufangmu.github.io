@@ -66,7 +66,7 @@
 - jam /dʒæm/ 果酱
 - sweet /swit/ 甜的
 - orange /ˈɔrɪndʒ/ 橙子
-- Scotch whisky /ˌskɑtʃ ˈwɪski/ 苏格兰威士忌
+- Scotch whisky /ˈskɑtʃ ˌwɪski/ 苏格兰威士忌
 - choice /tʃɔɪs/ 精选的
 - apple /ˈæpl/ 苹果
 - wine /waɪn/ 葡萄酒

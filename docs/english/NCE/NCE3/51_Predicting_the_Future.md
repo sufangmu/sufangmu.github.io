@@ -16,14 +16,14 @@
 
 - notoriously /noˈtɔriəsli/ 众所周知地
 - mainframe /ˈmenˌfrem/ 主机
-- full-time /ˈfʊlˌtaɪm/ 专职的
+- full-time /ˌfʊlˈtaɪm/ 专职的
 - technicians /tɛkˈnɪʃənz/ 技师
 - software /ˈsɔfˌtwɛr/ 软件
 - IBM /ˈaɪˌbiˌɛm/ 美国国际商用机器公司
 - DOS /dɔs/ 磁盘操作系统
-- Microsoft /ˈmaɪˌkroˈsɔft/ 微软公司
-- user-friendly /ˌjuzɚ ˈfrɛndlɪ/ 好用的
-- multimedia /ˌməltiˈmidiə/ 多媒体的
+- Microsoft /ˈmaɪkroˌsɔft/ 微软公司
+- user-friendly /ˌjuzɚ ˈfrɛndli/ 好用的
+- multimedia /ˌmʌltiˈmidiə/ 多媒体的
 - alternative /ɔlˈtɝnətɪv/ 替代的
 - diagnose /ˌdaɪəɡˈnos/ 诊断
 - relieve /rɪˈliv/ 减轻
@@ -31,7 +31,7 @@
 - repetitive /rɪˈpɛtɪtɪv/ 重复的
 - clerical /ˈklɛrəkəl/ 文书工作的
 - Internet /ˈɪntɚˌnɛt/ 互联网
-- networks /ˈnɛˌtwɝks/ 网络
+- networks /ˈnɛtˌwɝks/ 网络
 
 ### Expressions
 

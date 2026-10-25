@@ -17,7 +17,7 @@
 
 - Pass /pæs/ 圣伯纳德山口
 - monastery /ˈmɑnəˌstɛri/ 修道院
-- rashly /ˈræʃlɪ/ 鲁莽地
+- rashly /ˈræʃli/ 鲁莽地
 - about /əˈbaʊt/ 在附近
 - enclosure /ɛnˈkloʒɚ/ 围场
 - monks /mʌŋks/ 僧侣

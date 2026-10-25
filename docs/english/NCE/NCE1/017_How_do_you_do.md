@@ -54,7 +54,7 @@
 
 ### Words
 
-- employee /ɪmˌplɔɪˈi/ 雇员
+- employee /ɪmˈplɔɪi/ 雇员
 - hard-working /ˌhɑrdˈwɝkɪŋ/ 勤奋的
 - sales /selz/ rep /rɛp/ 销售代表
 - man /mæn/ 男人

@@ -48,7 +48,7 @@
 
 - front /frʌnt/ 前面
 - careful /ˈkɛrfəl/ 小心的
-- vase /vɑz/ 花瓶
+- vase /ves/ 花瓶
 - drop /drɑp/ 掉下
 - flower /ˈflaʊɚ/ 花
 - show /ʃo/ 给……看

@@ -16,7 +16,7 @@
 
 - colossal /kəˈlɑsəl/ 巨大的
 - unsinkable /ənˈsɪŋkəbəl/ 不易下沉的
-- water-tight /ˌwɔtɚ ˈtaɪt/ 防漏水的
+- water-tight /ˈwɔtɚˌtaɪt/ 防漏水的
 - compartments /kəmˈpɑrtmənts/ 隔层,舱
 - flooded /ˈflʌdəd/ 被水淹的
 - tragic /ˈtrædʒɪk/ 悲剧的

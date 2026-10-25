@@ -18,7 +18,7 @@
 
 ### Words
 
-- Punctuality /ˌpəŋktʃuˈælɪti/ 准时
+- Punctuality /ˌpʌŋktʃuˈæləti/ 准时
 - rural /ˈrʊrəl/ 农村的
 - disregard /ˌdɪsrɪˈɡɑrd/ 无视
 - intellectual /ˌɪntəˈlɛktʃuəl/ 知识分子
@@ -29,7 +29,7 @@
 - diversions /dɪˈvɝʒənz/ 绕道
 - trial /ˈtraɪəl/ 讨厌的事、人
 - fraction /ˈfrækʃən/ 很小一点儿
-- flourish /ˈflərɪʃ/ 打手势
+- flourish /ˈflɝɪʃ/ 打手势
 - microscopic /ˌmaɪkrəˈskɑpɪk/ 微小的
 - adamant /ˈædəmənt/ 坚定的
 

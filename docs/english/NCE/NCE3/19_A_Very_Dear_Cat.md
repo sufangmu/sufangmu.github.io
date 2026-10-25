@@ -21,7 +21,7 @@
 - ransom /ˈrænsəm/ 赎金
 - cardboard /ˈkɑrdˌbɔrd/ 硬纸板
 - withdrew /wɪθˈdru/ 取钱
-- punctually /ˈpʌŋktʃuəlɪ/ 准时地
+- punctually /ˈpʌŋktʃuəli/ 准时地
 - astounded /əˈstaʊndɪd/ 使震惊
 - dear /dɪr/ 宝贵的
 

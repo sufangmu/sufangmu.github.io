@@ -30,7 +30,7 @@
 - deer /dɪr/ 鹿
 - Paw /pɔ/ prints /prɪnts/ 爪印
 - clinging /ˈklɪŋɪŋ/ 附着
-- bushes /ˈbʊʃəz/ 灌木丛
+- bushes /ˈbʊʃɪz/ 灌木丛
 - convinced /kənˈvɪnst/ 说服
 - in /ɪn/ the /ðə/ possession /pəˈzɛʃən/ of /ʌv/ 拥有
 - escape /ɪˈskep/ 逃脱

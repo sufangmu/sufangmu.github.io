@@ -24,14 +24,14 @@
 
 - boundary /ˈbaʊndəri/ 界线，边界
 - pump /pʌmp/ 用泵抽
-- overtake /ˈovɚˌtek/ 突然降临
+- overtake /ˌovɚˈtek/ 突然降临
 - backwater /ˈbæˌkwɔtɚ/ 回水河汊
 - predecessor /ˈprɛdəˌsɛsɚ/ 前任，前辈
 - meadow /ˈmɛˌdo/ 草地，草场
 - crowning /ˈkraʊnɪŋ/ 给……戴花环
 - holly /ˈhɑli/ 冬青植物
 - wreath /riθ/ 花环
-- occurrence /əˈkərəns/ 偶发事件
+- occurrence /əˈkɝəns/ 偶发事件
 - proportion /prəˈpɔrʃən/ 部分
 - sited /ˈsaɪtɪd/ 使位于
 - spell /spɛl/ 招致，带来

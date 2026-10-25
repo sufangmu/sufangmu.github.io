@@ -21,11 +21,11 @@
 - evolved /ɪˈvɑlvd/ 逐渐形成
 - high-handed /ˌhaɪˈhændɪd/ 高压的，专横的
 - incompetent /ˌɪnˈkɑmpətənt/ 不称职的
-- over-zealously /ˌovɚ ˈzɛləslɪ/ 过分热情地
+- over-zealously /ˌovɚ ˈzɛləsli/ 过分热情地
 - safeguard /ˈsefˌɡɑrd/ 保护
 - parliamentary /ˌpɑrləˈmɛntəri/ 国会的
 - qualified /ˈkwɑləˌfaɪd/ 合格的
-- grievances /ˈɡrivənsəz/ 不平，冤屈
+- grievances /ˈɡrivənsɪz/ 不平，冤屈
 - secretive /ˈsikrətɪv/ 保密的
 - correspondence /ˌkɔrəˈspɑndəns/ 来往信件
 - altered /ˈɔltɚd/ 改变

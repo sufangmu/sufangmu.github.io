@@ -68,7 +68,7 @@
 - unscrewed /ʌnˈskrud/ 拧开
 - nostrils /ˈnɑstrəlz/ 鼻孔
 - convinced /kənˈvɪnst/ 说服
-- chalk /tʃɑk/ 粉笔
+- chalk /tʃɔk/ 粉笔
 - baggage /ˈbæɡədʒ/ 行李
 
 ### Expressions

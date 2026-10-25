@@ -43,7 +43,7 @@
 - pale /pel/ 苍白的
 - frightful /ˈfraɪtfəl/ 可怕的
 - fire /ˈfaɪɚ/ extinguisher /ɪkˈstɪŋɡwɪʃɚ/ 灭火器
-- drily /ˈdraɪlɪ/ 冷淡地
+- drily /ˈdraɪli/ 冷淡地
 - Embassy /ˈɛmbəsi/ 大使馆
 - heavens /ˈhɛvənz/ 天堂
 - basement /ˈbesmənt/ 地下室

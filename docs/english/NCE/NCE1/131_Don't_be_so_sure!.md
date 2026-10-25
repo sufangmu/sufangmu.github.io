@@ -40,7 +40,7 @@
 
 - Egypt /ˈidʒɪpt/ 埃及
 - abroad /əˈbrɔd/ 出国
-- worry /ˈwəri/ 担心
+- worry /ˈwɝi/ 担心
 
 ### Expressions
 

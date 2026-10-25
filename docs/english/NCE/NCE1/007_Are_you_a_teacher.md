@@ -69,8 +69,8 @@
 - engineer /ˌɛndʒəˈnɪr/ 工程师
 - policeman /pəˈlismən/ 男警察
 - policewoman /pəˈlisˌwʊmən/ 女警察
-- taxi driver /ˈtæksi ˈdraɪvɚ/ 出租车司机
-- air hostess /ˈɛr ˈhostəs/ 空中小姐
+- taxi driver /ˈtæksi ˌdraɪvɚ/ 出租车司机
+- air hostess /ˈɛr ˌhostəs/ 空中小姐
 - postman /ˈpostmən/ 邮递员
 - milkman /ˈmɪlkmən/ 送奶工
 - nurse /nɝs/ 护士

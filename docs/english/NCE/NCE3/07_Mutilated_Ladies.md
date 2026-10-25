@@ -19,9 +19,9 @@
 - Ladies /ˈlediz/ 残钞鉴别组
 - claims /klemz/ 索赔
 - fed /fɛd/ feed, 饲养
-- fiance /fiˈɑnˌse/ 未婚夫
+- fiance /ˌfiɑnˈse/ 未婚夫
 - microwave /ˈmaɪkrəˌwev/ oven /ˈʌvən/ 微波炉
-- safekeeping /ˈsefˈkipɪŋ/ 保管
+- safekeeping /ˈsefˌkipɪŋ/ 保管
 - ash /æʃ/ 灰
 - spokeswoman /ˈspokˌswʊmən/ 女发言人
 

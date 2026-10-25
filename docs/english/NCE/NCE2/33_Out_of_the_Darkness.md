@@ -24,7 +24,7 @@
 ### Words
 
 - coast /kost/ 海岸
-- was /wɑz/ caught /kɑt/ in /ɪn/ 遇到
+- was /wʌz/ caught /kɔt/ in /ɪn/ 遇到
 - storm /stɔrm/ 暴风雨
 - struck /strʌk/ 撞
 - rock /rɑk/ 礁石

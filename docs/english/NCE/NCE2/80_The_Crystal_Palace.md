@@ -29,7 +29,7 @@
 
 ### Words
 
-- extraordinary /ˌɛkstrəˈɔrdəˌnɛri/ 非同寻常的
+- extraordinary /ɪkˈstrɔrdəˌnɛri/ 非同寻常的
 - Palace /ˈpæləs/ 水晶宫
 - Exhibition /ˌɛksəˈbɪʃən/ 展览
 - iron /ˈaɪɚn/ 铁

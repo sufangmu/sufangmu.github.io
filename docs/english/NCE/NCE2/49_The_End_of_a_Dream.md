@@ -37,12 +37,12 @@
 - springs /sprɪŋz/ 弹簧
 - mattress /ˈmætrəs/ 床垫
 - storm /stɔrm/ 暴风雨
-- A /ə/ gust /ɡʌst/ of /ʌv/ wind /waɪnd/ 一阵风
+- A /ə/ gust /ɡʌst/ of /ʌv/ wind /wɪnd/ 一阵风
 - swept /swɛpt/ 刮
 - crashing /ˈkræʃɪŋ/ 分词作宾补
 - courtyard /ˈkɔrˌtjɑrd/ 院子
 - smashed /smæʃt/ 砸碎
-- pieces /ˈpisəz/ 块
+- pieces /ˈpisɪz/ 块
 - miraculously /məˈrækjələsli/ 奇迹般地
 - Glancing /ˈɡlænsɪŋ/ 扫视
 - promptly /ˈprɑmptli/ 迅速地
