@@ -48,9 +48,31 @@
 
 - front /frʌnt/ 前面
 - careful /ˈkɛrfəl/ 小心的
-- vase /ves/ 花瓶
-- drop /drɑp/ 掉下
-- flower /ˈflaʊɚ/ 花
+    1. Be careful!
+- vase /ves/ *n.* 花瓶
+    1. What is he going to do with that refrigerator?
+    2. He is going to clean it.
+    3. What are you going to do with that old car?
+    4. I’m going to give Leo the car.
+    5. What are you going to do with those dirty dishes?
+    6. I’m gonna clean them.
+- drop /drɑp/ *v.* 掉下
+    1. I am going to drop that.
+    2. Don’t drop it.
+    3. Don’t cry.
+    4. Don’t eat on the bus.
+    5. Don’t+v.
+- flower /ˈflaʊɚ/ *n.* 花
+    1. v.
+    2. He is going to eat that flower.
+    3. The cat is eating that flower.
+    4. There are some flowers in the park.
+    5. give sb. sth. = give sth. to sb.
+    6. What is Penny going to do with the vase?
+    7. She's going to put it on the table.
+    8. Is Sam going to put the vase on the table?
+    9. No, he isn't.
+    10. What is Sam going to do with the vase?
 - show /ʃo/ 给……看
 - take /tek/ 拿
 - send /sɛnd/ 送
@@ -60,4 +82,3 @@
 - Be careful! 小心！
 - Don't drop it! 别摔了！
 - in front of the window 在窗户前面
-

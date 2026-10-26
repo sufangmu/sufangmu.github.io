@@ -39,18 +39,46 @@
 
 ### Words
 
-- Ambassador /æmˈbæsədɚ/ 大使
+- Ambassador /æmˈbæsədɚ/ *n.* 大使
+    1. The ambassador was reluctant to leave the room.（L94）
+    2. The ambassador is accustomed to working till midnight.（L94）
+    3. When the ambassador heard the news, he burst out laughing.（L89）
 - pale /pel/ 苍白的
-- frightful /ˈfraɪtfəl/ 可怕的
+- frightful /ˈfraɪtfəl/ *adj.* 可怕的
+    1. They're making a frightful noise.
+    2. When you think of it, it must smell
+    3. You should have looked at their face.
 - fire /ˈfaɪɚ/ extinguisher /ɪkˈstɪŋɡwɪʃɚ/ 灭火器
-- drily /ˈdraɪli/ 冷淡地
-- Embassy /ˈɛmbəsi/ 大使馆
-- heavens /ˈhɛvənz/ 天堂
-- basement /ˈbesmənt/ 地下室
-- definitely /ˈdɛfənətli/ 肯定地
-- posted /ˈpostɪd/ 委派
+    1. You’ve proved that you know how to use the fire extinguisher.（L94）
+    2. The fire extinguisher is at the entrance of the building.（L93）
+    3. He doesn’t even have the nerve to use the fire extinguisher.（L78）
+- drily /ˈdraɪli/ *adv.* 冷淡地
+    1. “I’m reluctant to do that.” he said drily.（L94）
+    2. “I’m accustomed to getting up early” he answered drily.（L94）
+- Embassy /ˈɛmbəsi/ *n.* 大使馆
+    1. As soon as I get out（L14）
+    2. Where is the Japanese Embassy?
+- heavens /ˈhɛvənz/ *n.* 天堂
+    1. Good heavens!
+    2. Are you still trying to win?
+    3. How can you hold your breath for ten minutes?（L94）
+- basement /ˈbesmənt/ *n.* 地下室
+    1. We should have checked the basement.（L65）
+    2. They carried the bags to the basement.（L74）
+- definitely /ˈdɛfənətli/ *adv.* 肯定地
+    1. The team will definitely lose if he doesn't play.（L16）
+    2. I can't tell you definitely when I will come.
+    3. I can definitely say that everything is under control.（L62）
+- posted /ˈpostɪd/ *v.* 委派
+    1. I must get that fellow posted…
+    2. He's been posted to Beijing for six months.
+    3. I hope you'll be posted to my department.
 - Accurate /ˈækjərət/ 准确的
-- shot /ʃɑt/ 枪击
+- shot /ʃɑt/ *n.* 枪击
+    1. Someone fired a shot through my office window.
+    2. It comes as a surprise to learn that he didn’t fire a shot.（L90）
+    3. If everything go smoothly, I won’t fire a shot.
+    4. Good heavens!
 
 ### Expressions
 
@@ -58,6 +86,9 @@
 - Good heavens! 天哪！
 - fire a shot 开一枪
 - get into such a mess... 陷入这样的混乱
+    1. don't get into a mess!
+    2. How did you get into a mess with those guys?
+    3. The biggest question is how they got into this mess.
 - set sth. on fire 放火烧某物
+    1. Armed with a torch, he set the whole village on fire.（L55）
 - go on doing sth. 继续做某事
-

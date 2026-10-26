@@ -55,14 +55,22 @@
 ### Words
 
 - employee /ɪmˈplɔɪi/ 雇员
+    1. They are my employees.
 - hard-working /ˌhɑrdˈwɝkɪŋ/ 勤奋的
 - sales /selz/ rep /rɛp/ 销售代表
+    1. What’s her job?
+    2. She is a saleswoman.
 - man /mæn/ 男人
 - woman /ˈwʊmən/ 女人
 - men /mɛn/ 男人们
 - women /ˈwɪmɪn/ 女人们
 - office /ˈɔfɪs/ 办公室
+    1. This is Berlin’s office.
+    2. Is this Berlin’s office?
+    3. Whose office is this?
 - assistant /əˈsɪstənt/ 助手
+    1. What’s her job?
+    2. She is an office assistant.
 
 ### Expressions
 
@@ -70,4 +78,3 @@
 - Come and meet... 来见见……
 - What are their jobs? 他们是做什么工作的？
 - They're + 职业 他们是……
-

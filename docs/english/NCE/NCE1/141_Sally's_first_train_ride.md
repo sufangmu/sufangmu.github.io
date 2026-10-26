@@ -10,17 +10,39 @@
 
 ### Words
 
-- excited /ɪkˈsaɪtɪd/ 兴奋的
-- opposite /ˈɑpəzɪt/ 对面的
-- curiously /ˈkjʊriəsli/ 好奇地
-- funny /ˈfʌni/ 滑稽的
-- powder /ˈpaʊdɚ/ 粉
+- excited /ɪkˈsaɪtɪd/ *adj.* 兴奋的
+    1. They were very excited when they knew that their father would take them to school next week.
+    2. They must have been very excited when they heard the news.（L129）
+- opposite /ˈɑpəzɪt/ *prep.* 对面的
+    1. The middle-aged woman sat opposite the little girl.
+    2. The school is opposite the park.
+- curiously /ˈkjʊriəsli/ *adv.* 好奇地
+    1. She looked at the picture curiously.
+- funny /ˈfʌni/ *adj.* 滑稽的
+    1. He is funny.
+    2. He is the funny guy who I told you about.
+    3. This is the funniest guy I’ve ever seen.
+    4. The funny guy wants to know if you will be free tonight.
+- powder /ˈpaʊdɚ/ *n.* 粉
+    1. I lost my powder compact last night.
+    2. After I had lost my powder compact, my boyfriend bought me a new one.（L119）
 - compact /kəmˈpækt/ 粉盒
-- ugly /ˈʌɡli/ 丑的
+- ugly /ˈʌɡli/ *adj.* 丑的
+    1. The ugly man who is buying a new car sold his old car this morning.
+    2. He is the ugliest man I’ve ever seen.（L111）
+    3. I had to meet that ugly man tonight.（L125）
 - amused /əˈmjuzd/ 被逗乐的
-- smile /smaɪl/ 微笑
+    1. She was amused.
+    2. was/who/why…
+- smile /smaɪl/ *prep.* 微笑
+    1. She smiles everyday.
+    2. The woman who is smiling knows my brother.
+    3. She smiled kindly.
 - kindly /ˈkaɪndli/ 和蔼地
-- embarrassed /ɪmˈbærəst/ 尴尬的
+- embarrassed /ɪmˈbærəst/ *adj.* 尴尬的
+    1. When I met my ex-girlfriend with her new boyfriend yesterday on the street, I was embarrassed.
+    2. The man who was embarrassed is my ex- boyfriend.
+    3. When my girlfriend told me that the man who was embarrassed on the street was my girlfriend’s ex-boyfriend, I was very embarrassed.
 
 ### Expressions
 
@@ -28,4 +50,3 @@
 - by train 坐火车
 - sit near the window 坐在窗边
 - ask questions 问问题
-

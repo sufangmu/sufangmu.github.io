@@ -25,13 +25,27 @@
 ### Words
 
 - country /ˈkʌntri/ 乡下
-- modern /ˈmɑdɚn/ 现代的
-- strange /strendʒ/ 奇怪的
-- district /ˈdɪstrɪkt/ 区
-- complete /kəmˈplit/ 完成
+- modern /ˈmɑdɚn/ *adj.* 现代的
+    1. v.?
+- strange /strendʒ/ *adj.* 奇怪的
+    1. This picture looks so strange.
+    2. Doesn’t this picture look strange?
+    3. Why does this picture look so strange?
+    4. get a surprise have a letter from sb.
+    5. I had a letter from your father last year.
+    6. Did you receive a letter from my father last year? why/who/when…
+- district /ˈdɪstrɪkt/ *n.* 区
+    1. I lived in Haidian District.
+    2. Did you live in Haidian District?
+    3. Where did you live?
+    4. You complete me.
+    5. I got a big surprise from my girlfriend last birthday.
+    6. You will get a surprise when you get there.（L7）
+- complete /kəmˈplit/ *v.* 完成
+    1. The train station will be completed next year.
+    2. When will the train station be completed?
 
 ### Expressions
 
 - have a letter from sb. 收到某人的信
 - get a surprise 感到意外
-

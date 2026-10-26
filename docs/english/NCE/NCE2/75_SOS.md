@@ -31,13 +31,30 @@
 ### Words
 
 - flew /flu/ off /ɔf/ course /kɔrs/ 偏离航线
-- thick /θɪk/ 厚的
+- thick /θɪk/ *adj.* 厚的
+    1. The ice can’t be thick enough for us to walk on.（L17）
+    2. The fog must have been too thick to drive to Beijing.（L17）
 - suitcase /ˈsutˌkes/ 手提箱
-- stamped /stæmpt/ 踩
-- helicopter /ˈhɛlɪˌkɑptɚ/ 直升机
-- scene /sin/ 现场
-- survivors /sɚˈvaɪvɚz/ 幸存者
-- signal /ˈsɪɡnəl/ 信号
+- stamped /stæmpt/ *v.* 踩
+    1. I saw you stamp out the fire.（L35）
+    2. She stamped out the letter “SOS” in the snow.
+    3. As soon as he stamped out of the bedroom, someone rang the bell.（L14 L51）
+- helicopter /ˈhɛlɪˌkɑptɚ/ *n.* 直升机
+    1. She’s been studying helicopter for nearly thirty years.（L52）
+    2. It takes him ten years to learn how to drive a helicopter.（L50）
+    3. He’s fairly confident that he could drive this helicopter.（L55）
+- scene /sin/ *n.* 现场
+    1. Before the police arrived on the scene, they had already escaped.
+    2. The police (who first arrived on the scene) recognized the woman.（L28）
+    3. We should have arrived on the scene early.（L65）
+- survivors /sɚˈvaɪvɚz/ *n.* 幸存者
+    1. The survivors need to stay out of the limelight.
+    2. They talked to the survivors over and over again.
+    3. All the survivors burst into tears when they finally met their family.（L72）
+- signal /ˈsɪɡnəl/ *n.* 信号
+    1. Our captain ordered us to send a signal.（L43）
+    2. It is impossible for us to send a signal in this thick fog day.（L48）
+    3. Why did you inquire about how to send a signal?（L39）
 
 ### Expressions
 
@@ -46,6 +63,7 @@
 - arrive on the scene 到达现场
 - fly off course 偏离航线
 - cover sb./sth. with a. 用……覆盖某人/某物
+    1. blanket, you wouldn’t have got a cold.
+    2. You should have covered yourself with a blanket.（L65）
 - get adj. 变得……
 - It was not long before... 不久之后就……
-

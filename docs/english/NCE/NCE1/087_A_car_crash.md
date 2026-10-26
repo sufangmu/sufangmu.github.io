@@ -52,12 +52,41 @@
 
 ### Words
 
-- bring /brɪŋ/ 带来
+- bring /brɪŋ/ *v.* 带来
+    1. I brought my car here five days ago.
+    2. Did you bring your car here five days ago?
+    3. When did you bring your car here?
 - brought /brɔt/ 带来（过去式）
-- garage /ɡəˈrɑʒ/ 汽车修理厂；车库
-- crash /kræʃ/ 撞车
-- lamp-post /ˈlæmp ˌpost/ 路灯柱
-- repair /rɪˈpɛr/ 修理
+- garage /ɡəˈrɑʒ/ *n.* 汽车修理厂；车库
+    1. There is a cat in the garage.
+    2. They are having dinner in the garage.
+    3. He bought a new garage last year.
+    4. Why did he buy a new garage last year?
+    5. Have you aired the room yet?
+    6. I haven't aired the room yet.
+    7. I'm still airing it.
+    8. Have you cleaned your shoes yet?
+    9. I haven't cleaned my shoes yet.
+    10. I'm still cleaning them.
+- crash /kræʃ/ *n.* 撞车
+    1. I had a car crash last night.
+    2. Did you have a car crash last night?
+    3. Who had a car crash last night?
+- lamp-post /ˈlæmp ˌpost/ *n.* 路灯柱
+    1. I drove into a lamp-post.
+    2. How did you drive into a lamp-post?
+    3. We’re gonna clean all the lamp-posts on this street.
+- repair /rɪˈpɛr/ *v.* 修理
+    1. I am trying to talk to the receptionist.
+    2. Are you trying to repair my computer?
+    3. He tries to repair it every week.
+    4. Have you typed those letters yet?
+    5. I haven't typed those letters yet.
+    6. I'm still typing them.
+    7. Have you washed the dishes yet?
+    8. I haven't washed the dishes yet.
+    9. I'm still washing them.
+    10. Have you dusted the dressing table yet?
 - try /traɪ/ 尝试
 
 ### Expressions
@@ -66,4 +95,3 @@
 - three days ago 三天前
 - have a look 看一看
 - to tell you the truth 说实话
-

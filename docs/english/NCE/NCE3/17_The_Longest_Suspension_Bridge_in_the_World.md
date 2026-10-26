@@ -14,20 +14,42 @@
 
 ### Words
 
-- agreeable /əˈɡriəbəl/ 令人愉快的
-- immortal /ˌɪˈmɔrtəl/ 不朽的
+- agreeable /əˈɡriəbəl/ *adj. n.* 令人愉快的
+    1. You should have met her, for she is very agreeable.
+    2. He is so much more handsome and agreeable than anyone I have ever met before.
+    3. The house is in a charming situation.
+- immortal /ˌɪˈmɔrtəl/ *adj.* 不朽的
+    1. His name will probably remain immortal.
+    2. It is disturbing to think that his name will remain immortal.
 - bridge /brɪdʒ/ 吊桥
-- span /spæn/ 跨度
-- cables /ˈkebəlz/ 电缆
+- span /spæn/ *n.* 跨度
+    1. Leo discovered that the bridge has a span of 100 metres.
+    2. He points out that an animal's life span is linked to its metabolic rate.
+- cables /ˈkebəlz/ *n.* 电缆
+    1. Be careful you don't cut the electric cable.
+    2. Telephone cables were damaged in the storm.
+    3. They tied him to a chair with cable.
 - immense /ˌɪˈmɛns/ 巨大的
-- concrete /ˈkɑnˌkrit/ 混凝土
+- concrete /ˈkɑnˌkrit/ *n.* 混凝土
+    1. He fell and hit his head on the concrete floor.
+    2. Concrete is a mixture of sand and cement.
+    3. This suspension bridge is made of steel and concrete.
 - wire /ˈwaɪɚ/ 金属丝
-- estimated /ˈɛstəˌmetəd/ 估计
-- capacity /kəˈpæsəti/ 容量
-- immensity /ɪˈmɛnsəti/ 巨大
-- elegant /ˈɛləɡənt/ 优雅
+- estimated /ˈɛstəˌmetəd/ *v.* 估计
+    1. I estimated that I should finish in ten days.
+    2. It is estimated that four million viewers watched the programme.
+- capacity /kəˈpæsəti/ *n.* 容量
+    1. The fuel tank has a capacity of 40 litres.
+    2. The stadium has a seating capacity of 50,000.
+- immensity /ɪˈmɛnsəti/ *n.* 巨大
+    1. I didn’t realize the immensity of the universe until I entered school.
+    2. I only realized the immensity of the task when my boss gave it to me.
+- elegant /ˈɛləɡənt/ *adj.* 优雅
+    1. How can I have the privilege of meeting that elegant woman tonight?
 - enormous /ɪˈnɔrməs/ 巨大的
-- faintly /ˈfentli/ 微弱地
+- faintly /ˈfentli/ *adv.* 微弱地
+    1. The sun shone faintly through the clouds.
+    2. John smiled faintly and shook his head.
 
 ### Expressions
 
@@ -39,16 +61,42 @@
 - It is estimated that + 句子 据估计……
 - sb. estimate that + 句子 某人估计……
 - Little / not much/ not everything is known about a. 对……知之甚少
+    1. be suspended from a.
 - describe a. as b. 把 A 描述为 B
 - in the midst of 在……中间
+    1. We were sitting in the midst of elegant young women.
+    2. We were standing in the midst of thousands of people.
+    3. Leo was astonished to find the hut was in the midst of the forest.
+    4. It's by no means certain that she'll get the job.
+    5. She’s not a bad kid, by any means.
+    6. It's difficult, but by no means impossible.
 - by no means  决不
+    1. be considered to be adj./n.
 - be considered to be adj./n. 被认为是……
+    1. James T. Kirk
+    2. You know, Caligari is considered
+    3. She is considered to be one of the finest pianists of her generation.
 - sth. be named after sb. 以…名字命名
 - join a. to b. = connect a. to b. 把 A 与 B 连接起来
 - be taken into account = take sth. into account  将被考虑在内
 - a height of ……的高度
+    1. be suspended from a.
 - be suspended from a. 悬挂在……上
+    1. be suspended from a.
 - be packed with... 挤满了
+    1. The road was packed with volunteers.
+    2. The island was packed with tourists.
+    3. It’s true that the place was packed with football fans, but+句子.
 - a third of sth... 三分之⼀
+    1. A third of accidental deaths occur in the home.
+    2. Over a third of sales were made over the Internet.
+    3. I'll keep a third of the money and the rest is for you.
 - fulfill sb’s dream… 实现某人的梦想
-
+    1. Little is known about a.
+    2. Little is known about the author’s childhood.
+    3. Little is known about the causes of the problem.
+    4. Not much is known about the disease.
+    5. describe a. as b.
+    6. She describes herself as an artist.
+    7. She described her childhood as a time of wonder and discovery.
+    8. Would you describe

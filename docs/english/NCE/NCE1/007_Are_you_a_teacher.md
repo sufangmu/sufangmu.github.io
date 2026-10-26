@@ -63,10 +63,32 @@
 - am /æm/ 是（与 I 连用）
 - are /ɑr/ 是（与 you 连用）
 - nationality /ˌnæʃəˈnæləti/ 国籍
+    1. What nationality are you?
+    2. Where are you from?
+    3. She is from Italy.
+    4. Is she from Italy?
+    5. Where is she from?
+    6. My name is Leo.
+    7. He is from China.
+    8. Is your name Leo?
+    9. Is he from China?
+    10. What is your name?
 - job /dʒɑb/ 工作
-- keyboard /ˈkiˌbɔrd/ 键盘
-- operator /ˈɑpəˌretɚ/ 操作员
+    1. What’s your job?
+- keyboard /ˈkiˌbɔrd/ *n.* 键盘
+    1. This is my keyboard.
+- operator /ˈɑpəˌretɚ/ *n.* 操作员
 - engineer /ˌɛndʒəˈnɪr/ 工程师
+    1. I am from China.
+    2. Are you from China?
+    3. Where are you from?
+    4. He is French.
+    5. Is he French?
+    6. What nationality is he?
+    7. She is German.
+    8. Is she German?
+    9. What nationality is she?
+    10. Is Robert a new student?
 - policeman /pəˈlismən/ 男警察
 - policewoman /pəˈlisˌwʊmən/ 女警察
 - taxi driver /ˈtæksi ˌdraɪvɚ/ 出租车司机
@@ -84,4 +106,3 @@
 - What's your job? 你是做什么工作的？
 - I'm a/an... 我是……
 - Are you a...? 你是……吗？
-

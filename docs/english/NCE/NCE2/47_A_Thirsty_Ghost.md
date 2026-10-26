@@ -30,15 +30,42 @@
 ### Words
 
 - is /ɪz/ up /ʌp/ for /fɔr/ sale /sel/ 待售
-- haunted /ˈhɔntɪd/ 闹鬼
-- blocked /blɑkt/ 阻挡
-- furniture /ˈfɝnɪtʃɚ/ 家具
-- shook /ʃʊk/ shake, 摇
-- thirsty /ˈθɝsti/ 渴的
-- whisky /ˈwɪski/ 威士忌
-- ghost /ɡost/ 鬼
-- suggest /səˈdʒɛst/ 建议
-- accept /əkˈsɛpt/ 接受
+- haunted /ˈhɔntɪd/ *v.* 闹鬼
+    1. This room is haunted.
+    2. This room was haunted years ago.
+    3. This room has been haunted for 5 years.（L10）
+    4. He inquired about the room which has been haunted for 5 years.
+- blocked /blɑkt/ *v.* 阻挡
+    1. The doors is blocked by a chair.
+    2. is/what/why…
+    3. What is blocking the road?
+    4. The road must have been blocked by the tree.
+- furniture /ˈfɝnɪtʃɚ/ *n.* 家具
+    1. By the end of this year, he will have sold the furniture for ten years.（L37）
+    2. This is such nice furniture that we must have it now.（L35）
+    3. He always complains about the furniture which he bought last month.（L24）
+- shook /ʃʊk/ shake, *v.* 摇
+    1. She is shaking her head on the street.
+    2. is/why/who/where…
+    3. A young boy climbed into the apple tree and shook the branches.
+- thirsty /ˈθɝsti/ *adj.* 渴的
+    1. No one could account for the fact that he is extremely thirsty.（L46）
+    2. Everybody was astonished at how thirsty he is.（L46）
+    3. Can’t you tell the difference between thirsty and hungry?（L42）
+- whisky /ˈwɪski/ *n.* 威士忌
+    1. He had a glimpse of whisky on the table.（L42）
+    2. Neither your mom nor your dad likes to drink whisky.（L25）
+    3. You must give up drinking whisky.（L20）
+- ghost /ɡost/ *n.* 鬼
+    1. He is one of those rare people who believes in ghost.（L28）
+    2. He believes in ghost.
+    3. He used to believe in ghost.（L31）
+- suggest /səˈdʒɛst/ *v.* 建议
+    1. What do you suggest?
+- accept /əkˈsɛpt/ *v.* 接受
+    1. If you gave me your pub, I still wouldn’t accept it.（L40）
+    2. You needn’t have accepted his advice.（L41）
+    3. I can’t accept your money.
 
 ### Expressions
 
@@ -48,4 +75,3 @@
 - hear a strange noise 听到奇怪的声音
 - a free drink 免费的酒
 - give away 白送
-

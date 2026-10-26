@@ -14,37 +14,100 @@
 
 ### Words
 
-- positively /ˈpɑzətɪvli/ 完全地
-- cramped /kræmpt/ 窄小的
-- stuffy /ˈstʌfi/ 憋气的
-- monotonous /məˈnɑtənəs/ 枯燥的
-- rhythm /ˈrɪðəm/ 有节奏的运动
-- clicking /ˈklɪkɪŋ/ 发出咔咔声
-- lull /lʌl/ 催人欲睡
-- snatches /ˈsnætʃɪz/ 短时
-- sleeper /ˈslipɚ/ 卧铺
-- fumbling /ˈfʌmbəlɪŋ/ 乱摸
-- inspection /ˌɪnˈspɛkʃən/ 检查
-- Inevitably /ˌɪˈnɛvətəbli/ 必然地
-- exhausted /ɪɡˈzɔstɪd/ 精疲力尽
-- motorways /ˈmotɚˌwez/ 快车道
-- ferry /ˈfɛri/ 渡船
-- cruises /ˈkruzɪz/ 巡游船
-- spacious /ˈspeʃəs/ 宽敞的
-- seasick /ˈsiˌsɪk/ 晕船
-- intimidated /ˌɪnˈtɪmɪˌdetɪd/ 恐吓
-- disadvantage /ˌdɪsədˈvæntɪdʒ/ 缺点
-- exhilarating /ɪɡˈzɪlɚˌetɪŋ/ 令人兴奋的
-- escapist /ɪsˈkepɪst/ 逍遥者
-- sip /sɪp/ 啜
-- champagne /ʃæmˈpen/ 香槟
-- refinements /rɪˈfaɪnmənts/ 精心的安排
-- breathtaking /ˈbrɛθˌtekɪŋ/ 激动人心的
-- soar /sɔr/ 翱翔
-- effortlessly /ˈɛfɚtləsli/ 不费力的
-- landscape /ˈlændˌskep/ 景色
-- fresh /frɛʃ/ 精神饱满的
-- uncrumpled /ʌnˈkrʌmpld/ 没有垮下来
+- positively /ˈpɑzətɪvli/ *adv.* 完全地
+    1. She could positively get into a panic when unforeseen changes happen.
+    2. You can console yourself that you could positively make a quick recovery.
+- cramped /kræmpt/ *adj.* 窄小的
+    1. Taking the cramped living conditions into account, the family decided to find a bigger home.
+    2. It seems that her kitchen was small and cramped.
+    3. It was beyond me how they managed to fit so many people into such a cramped meeting room.（L41）
+- stuffy /ˈstʌfi/ *adj.* 憋气的
+    1. They opened the windows in the stuffy room so that fresh air could come in.
+    2. He went to great lengths to prove that the stuffy office environment was negatively affecting his productivity.
+- monotonous /məˈnɑtənəs/ *adj.* 枯燥的
+    1. At the same time, the monotonous sound of the rain hitting the roof brought a sense of calm.（L43）
+    2. His eyes lit up at the mere mention of a new adventure, as he was so eager to escape the monotonous task.（L11&L41）
+- rhythm /ˈrɪðəm/ *n.* 有节奏的运动
+    1. It has long been known that finding the rhythm in the music and moving accordingly is very important in dancing.
+- clicking /ˈklɪkɪŋ/ *v.* 发出咔咔声
+    1. As the meeting drew to a close, the participants clicked their pens shut and left the room.
+    2. The sound of high heels clicking on the floor woke me up at midnight, which made my hair stand on end.
+- lull /lʌl/ *v.* 催人欲睡
+    1. The sound of the rain lulled me to sleep in the process of reading a monotonous book.
+    2. The calming music in the background was supposed to lull me to sleep, but my mind was still conscious.
+- snatches /ˈsnætʃɪz/ *n.* 短时
+    1. I always sleep in snatches whenever I stay in noisy neighborhood.
+    2. It’s true that sleep came in snatches last night, but I still felt relaxed today.
+- sleeper /ˈslipɚ/ *n.* 卧铺
+    1. It’s silly of me to get a sleeper for such a short trip.
+    2. He had to overcome a lot of obstacles to get a sleeper.
+- fumbling /ˈfʌmbəlɪŋ/ *v.* 乱摸
+    1. He stopped to fumble with the lock on the door, trying to open it in the dark.
+    2. The sad truth is that the student who fumbled through his notes during the exam failed to find the answer he needed.
+- inspection /ˌɪnˈspɛkʃən/ *n.* 检查
+    1. The equipment is being prepared for inspection before it can be used.
+    2. There was a chance that the product would be chosen for inspection.
+- Inevitably /ˌɪˈnɛvətəbli/ *adv.* 必然地
+    1. The strict training program inevitably conditions athletes to push their bodies to the limit.
+    2. It is inevitably important to insure your valuable possessions against theft.
+- exhausted /ɪɡˈzɔstɪd/ *v.* 精疲力尽
+    1. We were exhausted from sweeping up the leaves in the yard.
+    2. He was exhausted from studying for his exams all night.
+- motorways /ˈmotɚˌwez/ *n.* 快车道
+    1. I wish there were more rest areas along the motorway for drivers to take breaks during long journeys.
+    2. The workers had to haul the damaged car out of the motorway after the accident.
+- ferry /ˈfɛri/ *n.* 渡船
+    1. The cat was perched on the edge of the ferry, curiously watching the waves below.
+    2. As the storm approached, the passengers on the ferry looked on anxiously, hoping for a safe journey.
+- cruises /ˈkruzɪz/ *n.* 巡游船
+    1. Let's plan to go on a cruise for our next vacation. It'll be so much fun!
+    2. I can't wait to go on a cruise with my friends and relax on the deck while watching the sunset.
+- spacious /ˈspeʃəs/ *adj.* 宽敞的
+    1. She switched on all the lights in the spacious room.
+    2. The basketball rebounded off the walls of the spacious gym.
+- seasick /ˈsiˌsɪk/ *adj.* 晕船
+    1. It has never been explained why some people are more likely to get seasick than others.（L40&L9）
+    2. The ship swerved to avoid a coming boat, which caused many passengers to feel seasick.（L39）
+- intimidated /ˌɪnˈtɪmɪˌdetɪd/ *v.* 恐吓
+    1. He never seems to be intimidated by anything.
+    2. I can’t conceal the fact that I was intimidated by the big occasion.
+    3. She was intimidated by what she saw on the promontory.
+- disadvantage /ˌdɪsədˈvæntɪdʒ/ *n.* 缺点
+    1. Driving at a fantastic speed has the disadvantage of easily causing accidents.
+    2. It has long been known that working late hours has the disadvantages of affecting your health.
+- exhilarating /ɪɡˈzɪlɚˌetɪŋ/ *adj.* 令人兴奋的
+    1. We’ve just got some exhilarating news that the students would be rewarded with a scholarship.
+    2. My first parachute jump, which I travelled miles to experience, was extremely exhilarating.
+- escapist /ɪsˈkepɪst/ *n.* 逍遥者
+    1. She is staring at an escapist who is reading science fiction novels.（L22&L24）
+    2. It is clear that the beach attracts many escapists who seek relaxation and a break from their daily routine.
+- sip /sɪp/ *v.* 啜
+    1. Sarah insisted that we should sip the wine slowly to fully appreciate its flavor.
+    2. He was anxious to sip the exotic cocktail at the bar.
+- champagne /ʃæmˈpen/ *n.* 香槟
+    1. Her sister reprimanded her for drinking too much champagne.
+    2. He presented me with a bottle of champagne.
+- refinements /rɪˈfaɪnmənts/ *n.* 精心的安排
+    1. The new edition of the book includes a few refinements based on reader feedback.
+    2. There is always hope that unexpected refinement will emerge.
+- breathtaking /ˈbrɛθˌtekɪŋ/ *adj.* 激动人心的
+    1. They were amazed to see the breathtaking view at the bottom of the valley.
+    2. The hikers discovered a breathtaking waterfall by chance.
+- soar /sɔr/ *v.* 翱翔
+    1. As the hot air balloon soared above the city, I presumed that we would have a breathtaking view from up there.
+    2. I often have the impulse to soar high above the city and escape from the world below.
+- effortlessly /ˈɛfɚtləsli/ *adv.* 不费力的
+    1. Towards the end of the race, the runner effortlessly overtakes his competitors to win the marathon.
+    2. It seems odd that he could effortlessly play a complex piece of song on the piano.
+- landscape /ˈlændˌskep/ *n.* 景色
+    1. She took out her camera to capture the breathtaking landscape.
+    2. At the mere mention of the mountain landscape, his eyes light up with excitement.（L41&L11）
+- fresh /frɛʃ/ *adj.* 精神饱满的
+    1. He was under the impression that he could stay up all night and still feel fresh in the morning.
+- uncrumpled /ʌnˈkrʌmpld/ *adj.* 没有垮下来
+    1. She emerged from the long flight looking surprisingly fresh and uncrumpled.
+    2. After taking a short walk in the park, I felt fresh and uncrumpled.
+    3. It is incredible to me that the athlete crossed the finish line, still looking fresh and uncrumpled.
 
 ### Expressions
 
@@ -55,15 +118,37 @@
 - go on a cruise 乘船巡游
 - get/feel/be seasick 晕船
 - be intimidated by 被……吓住
+    1. By comparison, only two of the five men were acquainted with the suspect.
+    2. By comparison, only the newest evidence presented in court will help to prove his innocence.
+    3. By comparison, the first painting bears a stronger resemblance to the original artwork than the second one.
 - have the disadvantage of doing 有做……的缺点
 - take sb’s mind o sth. 让某人不再想某事
 - comes in snatches 断断续续地到来
+    1. It is not uncommon to hear that students’ concentration in class comes in snatches.
+    2. During the camping trip, they had to make do with limited supplies, resulting in sleep coming in snatches.
+    3. There is a definite relation between interrupted sleep and dreams coming in snatches.
 - fumble to do sth. 笨拙地做某事
+    1. She fumbled to answer her phone while waiting for the red light.
+    2. She fumbled to find her notes while giving a presentation, which reduced her to tears in front of her colleagues.
+    3. She fumbled to find her keys at the bottom of her bag.
 - more often than not 往往；多半
+    1. More often than not, I select from a variety of clothes when choosing what to wear in the morning.
+    2. More often than not, I can't help crying when I watch a heartwarming movie.
+    3. More often than not, we learn valuable lessons and gain experience through making mistakes.
 - by comparison 相比之下
+    1. By comparison, only two of the five men were acquainted with the suspect.
+    2. By comparison, only the newest evidence presented in court will help to prove his innocence.
+    3. By comparison, the first painting bears a stronger resemblance to the original artwork than the second one.
 - stretch your legs 活动活动腿脚
 - devise ways of doing sth. 想出做某事的方法
+    1. We need to devise ways of hauling the heavy boxes off the truck.
+    2. We need to devise ways of recovering the cost of the new equipment.
+    3. In order to solve the mystery, the detective had to devise ways of connecting the dots between the seemingly unrelated clues.
 - settle back 舒舒服服地坐好
 - keep sb. occupied 使某人忙于
+    1. With the advent of computer technology, people can easily keep themselves occupied with endless online games and social media platforms.
+    2. He plotted to steal the jewels and keep the detective occupied with false information.
+    3. A series of books kept the children occupied with adventure.
 - recover from 从……恢复
-
+    1. After receiving proper medical care and attention, the stray dogs finally recovered from their illness.
+    2. The therapy served as a prelude to the patient's journey to recover from their painful experience.

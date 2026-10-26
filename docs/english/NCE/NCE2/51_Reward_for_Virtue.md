@@ -31,17 +31,40 @@
 
 ### Words
 
-- go /ɡo/ on /ɑn/ a /ə/ diet /ˈdaɪət/ 节食
+- go /ɡo/ on /ɑn/ a /ə/ diet /ˈdaɪət/ *n.* 节食
+    1. Most people prefer to go on a diet rather than go to a gym.（L50）
+    2. Because he was so fat at that time, he went on a diet.
+    3. She loves going on a diet.（L50）
 - led /lɛd/ lead, 引领
-- hurriedly /ˈhɝɪdli/ 迅速地
+- hurriedly /ˈhɝɪdli/ *v.* 迅速地
+    1. 2…hurriedly shut the door/opened the door…
+    2. 3…he walked hurriedly…
+    3. Hurriedly, he ordered his men to run to the forest.
 - parcel /ˈpɑrsəl/ 包裹
-- embarrassed /ɪmˈbærəst/ 尴尬
-- guiltily /ˈɡɪltɪli/ 内疚
-- strict /strɪkt/ 严格的
-- reward /rɪˈwɔrd/ 奖励
-- occasionally /əˈkeʒənəli/ 偶尔
-- virtue /ˈvɝtʃu/ 美德
-- forbid /fɚˈbɪd/ 禁止
+- embarrassed /ɪmˈbærəst/ *v.* 尴尬
+    1. Don’t embarrass me in front of my friends.
+    2. You are embarrassing me/yourself.
+- guiltily /ˈɡɪltɪli/ *adj.* 内疚
+    1. He looked at his mother guiltily.
+    2. I think my dog regretted doing this and looked at me guiltily.
+    3. She looked up guiltily as I came in.（L15）
+- strict /strɪkt/ *adj.* 严格的
+    1. She's on a very strict diet.
+    2. is/who/why…
+    3. She's very strict with her children.
+    4. Even though his diet is so strict, he was able to resist the temptation.（L43）
+- reward /rɪˈwɔrd/ *v.* 奖励
+    1. sb. expect a nice reward…
+    2. After the kids had worked hard all day, they expected a nice reward from their parents.
+    3. He received the reward yesterday.
+- occasionally /əˈkeʒənəli/ *adv.* 偶尔
+    1. Occasionally, they watched a musical in the theatre.（L42）
+    2. We occasionally meet for a drink after work.
+- virtue /ˈvɝtʃu/ *n.* 美德
+- forbid /fɚˈbɪd/ *v.* 禁止
+    1. They forbid us to talk about it.
+    2. My parents forbid me to come home late.
+    3. You can’t forbid me to go.
 
 ### Expressions
 
@@ -53,4 +76,4 @@
 - pay sb. a visit ring the bell 拜访某人；按门铃
 - was not surprised to see that... 看到……并不惊讶
 - It was obvious that ... 很明显……
-
+    1. It was obvious that…

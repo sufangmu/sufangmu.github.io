@@ -35,13 +35,45 @@
 
 ### Words
 
-- outside /ˌaʊtˈsaɪd/ 外面
+- outside /ˌaʊtˈsaɪd/ *adv.* 外面
+    1. Look, there is a dog outside.
+    2. It was dark, outside.
+    3. Was it dark outside?
 - inside /ˌɪnˈsaɪd/ 里面
-- ring /rɪŋ/ 响铃
-- rang /ræŋ/ 响铃（过去式）
-- aunt /ænt/ 姑妈；阿姨
-- uncle /ˈʌŋkl/ 叔叔
-- repeat /rɪˈpit/ 重复
+- ring /rɪŋ/ *v.* 响铃
+    1. Just then, the telephone rang.
+    2. Did the telephone ring?
+    3. When did the telephone ring?
+    4. The telephone is ringing.
+    5. The phone rings at 8 every night.
+    6. He gets up early everyday.
+    7. Does he get up early everyday?
+    8. Just then, my mom came in.
+    9. Just then, he turned round.
+- rang /ræŋ/ *v.* 响铃（过去式）
+    1. Just then, the telephone rang.
+    2. Did the telephone ring?
+    3. When did the telephone ring?
+    4. The telephone is ringing.
+    5. The phone rings at 8 every night.
+    6. He gets up early everyday.
+    7. Does he get up early everyday?
+    8. Just then, my mom came in.
+    9. Just then, he turned round.
+- aunt /ænt/ *n.* 姑妈；阿姨
+    1. I met her aunt yesterday.
+    2. Did you meet her aunt yesterday?
+    3. Where did you meet her aunt yesterday?
+- uncle /ˈʌŋkl/ *n.* 叔叔
+    1. I met her aunt yesterday.
+    2. Did you meet her aunt yesterday?
+    3. Where did you meet her aunt yesterday?
+- repeat /rɪˈpit/ *v.* 重复
+    1. repeat after me!
+    2. Can you repeat your question?
+    3. Come again? & Pardon? & What?
+    4. I usually have breakfast at 8.
+    5. Do you usually have breakfast at 8?
 
 ### Expressions
 

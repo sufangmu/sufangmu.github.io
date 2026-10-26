@@ -31,27 +31,77 @@
 
 ### Words
 
-- private /ˈpraɪvɪt/ 私人的
-- conversation /ˌkɑnvɚˈseʃən/ 谈话
-- theatre /ˈθiətɚ/ 剧院
-- seat /sit/ 座位
-- play /ple/ 戏剧
-- loudly /ˈlaʊdli/ 大声地
-- angry /ˈæŋɡri/ 生气的
+- private /ˈpraɪvɪt/ *adj.* 私人的
+    1. He goes to a private school.
+    2. Does he go to a private school?
+    3. Why does he go to a private school?
+- conversation /ˌkɑnvɚˈseʃən/ *n.* 谈话
+    1. We are having a conversation.
+    2. I had a conversation with him yesterday.
+    3. When did you have a conversation with him?
+    4. This is a private conversation.
+- theatre /ˈθiətɚ/ *n.* 剧院
+    1. I’ve never been to that theatre.
+    2. Have you ever been to that theatre?
+- seat /sit/ *n.* 座位
+    1. I had a good seat.
+    2. Why did you have a good seat?
+    3. Is the seat taken?
+- play /ple/ *n.* 戏剧
+    1. I am going to watch a play with my Mum. (when)
+- loudly /ˈlaʊdli/ *adv.* 大声地
+    1. You are talking too loudly.
+    2. Why are you talking so loudly?
+    3. Don’t talk so loudly in the theatre.
+- angry /ˈæŋɡri/ *adv.* 生气的
+    1. He was very angry yesterday.
+    2. When was he very angry?
+    3. Why was he very angry yesterday?
+    4. He looked at her angrily this morning.
 - attention /əˈtɛnʃən/ 注意
-- bear /bɛr/ 忍受
+    1. They did not pay any attention.
+    2. Did they pay any attention?
+- bear /bɛr/ *v.* 忍受
+    1. I could not bear it.
+    2. I can’t bear that.
+    3. Can you bear that?
+    4. How can you bear that?
 - business /ˈbɪznəs/ 生意；事
-- rudely /ˈrudli/ 粗鲁地
+    1. It’s none of your business.
+- rudely /ˈrudli/ *adj.* 粗鲁地
+    1. Don’t be rude.
+    2. He was talking to her rudely.
+    3. How was he talking to her?
+    4. Is the seat taken?
+    5. How can you bear that?
 
 ### Expressions
 
 - go to the theatre 去看戏
 - have a good seat 有个好座位
+    1. I had a very good seat.
+    2. Did you have a very good seat?
 - get angry 生气
+    1. I got very angry.
+    2. He got very angry yesterday.
+    3. Did he get very angry yesterday?
+    4. Why did he get very angry yesterday?
+    5. When did he get very angry?
 - turn round 转过身
+    1. I turned round.
+    2. He always turns round in the class.
+    3. Does he always turns round in the class?
 - pay attention 注意
+    1. They did not pay any attention.
+    2. Did they pay any attention?
 - in the end 最后
+    1. In the end, My mum and I went to the theatre.
+    2. Did your mum and you go to the theatre, in the end?
+    3. Where did your mum and you go in the end?
 - couldn’t bear it 无法忍受
+    1. I can’t bear it.
+    2. Can you bear it?
+    3. How can you bear it?
 - It’s none of your business 这不关你的事
 
 ### 现在进行时

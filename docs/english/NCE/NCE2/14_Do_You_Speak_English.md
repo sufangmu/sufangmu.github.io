@@ -27,16 +27,31 @@
 
 ### Words
 
-- amusing /əˈmjuzɪŋ/ 有趣的
+- amusing /əˈmjuzɪŋ/ *adj.* 有趣的
+    1. I find it amusing.
+    2. He took part in an amusing car race last year.（L12）
+    3. She will be taking part in an amusing car race next week.（L13）
 - Apart /əˈpɑrt/ from /frʌm/ 除了
-- journey /ˈdʒɝni/ 旅行
+- journey /ˈdʒɝni/ *n.* 旅行
+    1. We’ll be going on a journey next week.
+    2. We went on a journey yesterday.
+    3. We’re going on a journey tomorrow.
 - learnt /lɝnt/ 意识到
-- experience /ɪkˈspɪriəns/ 经历
-- wave /wev/ 挥手
+- experience /ɪkˈspɪriəns/ *n.* 经历
+    1. I had an amusing experience last year.
+- wave /wev/ *v.* 挥手
+    1. Look, she is waving to you.
+    2. Do you know her?
+    3. Is she waving to me?
+    4. I don’t know her.
+    5. Why is she waving to me?
 - lift /lɪft/ 搭便车
 - hitchhike /ˈhɪtʃˌhaɪk/ 搭便车旅行
-- reply /rɪˈplaɪ/ 回答
-- language /ˈlæŋɡwɪdʒ/ 语言
+- reply /rɪˈplaɪ/ *v.* 回答
+    1. She replied to my letter yesterday.
+    2. Did she reply to your letter yesterday?
+- language /ˈlæŋɡwɪdʒ/ *n.* 语言
+    1. What is your native language?
 
 ### Expressions
 
@@ -47,6 +62,8 @@
 - reply to the email/letter 回复邮件/信件
 - go on a journey 去旅行
 - drive on to sw. 继续开车去某地
+    1. Drive on, we don’t have time to stop.
+    2. After that, we drove on to Beijing.
 - ask sb. for a lift 请某人搭便车
 - apart from 除……之外
 - native language / mother tongue  母语

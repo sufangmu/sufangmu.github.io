@@ -14,22 +14,55 @@
 
 ### Words
 
-- unrealistic /ənˌriˈlɪstɪk/ 不切实际的
+- unrealistic /ənˌriˈlɪstɪk/ *adj.* 不切实际的
+    1. This demand proved unrealistic.
+    2. I don't think anything is unrealistic if you believe you can do it.
+    3. I found it rather unrealistic.
 - desert /ˈdɛzɚt/ island /ˈaɪlənd/ 荒岛
-- paradise /ˈpɛrəˌdaɪs/ 天堂
+    1. If you were on a desert island, what would you miss most?
+    2. He woke up with a start, and realized to his horror that he was on a desert island alone.（L2）
+    3. When he got back from the desert island, he received a warm welcome.
+- paradise /ˈpɛrəˌdaɪs/ *n.* 天堂
+    1. They moved to the countryside hoping to find paradise.
+    2. I'm looking forward to seeing this countryside paradise.
+    3. It seems that this place is a paradise for wildlife.
 - Ripe /raɪp/ 熟的
-- wretched /ˈrɛtʃɪd/ 悲惨的
-- starve /stɑrv/ 饥饿
-- element /ˈɛləmənt/ 要素,元素
-- coral /ˈkɔrəl/ 珊瑚
+- wretched /ˈrɛtʃɪd/ *adj.* 悲惨的
+    1. She finally agreed to have the wretched animal killed.（N2L65&L66）
+    2. They've spent their lives in this wretched place for 10 years. It’s time to move out.
+- starve /stɑrv/ *v.* 饥饿
+    1. Thousands of people will starve if food doesn't reach the city.
+    2. She must be starving, for she looks pale and weak.
+    3. If all men were like you, I'd starve to death.
+- element /ˈɛləmənt/ *n.* 要素,元素
+    1. There's an element of truth in his story / in what you say.
+    2. My boss proved that cost was a key element in our decision.
+    3. There's always an element of danger in mountain climbing.
+- coral /ˈkɔrəl/ *n.* 珊瑚
+    1. It was not long before they found out that she was interested in coral.（N2L20&L75）
 - rubber /ˈrʌbɚ/ 橡胶
-- dinghy /ˈdɪŋi/ 小艇
+- dinghy /ˈdɪŋi/ *n.* 小艇
+    1. I don't know which dinghy he's
+    2. Now that we got a dinghy, we can sail to the other bank of the river.
+    3. Is a dinghy different from a boat?
 - matches /ˈmætʃɪz/ 火柴
 - rowed /rod/ 划船
 - a /ə/ spear /spɪr/ gun /ɡʌn/ 捕鱼枪
-- lobster /ˈlɑbstɚ/ 龙虾
-- tanker /ˈtæŋkɚ/ 油轮
-- genuinely /ˈdʒɛnjuɪnli/ 真诚地
+    1. I don’t know how to use a spear gun.
+    2. You needn’t have used that spear gun.
+    3. If you had used that spear gun, we would have caught that fish.
+- lobster /ˈlɑbstɚ/ *n.* 龙虾
+    1. They caught sight of one small lobster on the beach.
+    2. He managed to get enough money to buy a big lobster, and cooked it for me.（N2L67）
+    3. We should have bought that big lobster.
+- tanker /ˈtæŋkɚ/ *n.* 油轮
+    1. It is fortunate that a passing tanker rescued them.
+    2. He became a captain 5 years ago, and had an opportunity to drive a tanker.
+    3. On the other hand, his family owns two tankers.
+- genuinely /ˈdʒɛnjuɪnli/ *adv.* 真诚地
+    1. I am genuinely sorry about that.
+    2. On the other hand, he genuinely cares about his employees.
+    3. Do you just genuinely dislike me, henry?
 
 ### Expressions
 
@@ -38,10 +71,14 @@
 - starve to death 饿死
 - Sb. be genuinely sorry that+句子 某人由衷地为……感到抱歉
 - formed an unrealistic picture of a. 对……形成了不切实际的印象
+    1. Most of us have formed an unrealistic picture of life abroad.
+    2. People (who do manual work) often form an unrealistic picture of people’s life (who work in offices).
 - imagine sth. to be n./adj. 想象某物是……
 - a sort of 一种；某种
 - quite the opposite  恰恰相反
+    1. Quite the opposite, actually.
+    2. Quite the opposite, we have a great opportunity to make it official.
+    3. Quite the opposite, I need some privacy right now.
 - wish that+句子 希望……
 - load a. with b.  用b装载a。
 - as sb. put it…  如某人所说
-

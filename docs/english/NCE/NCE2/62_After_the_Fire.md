@@ -25,22 +25,70 @@
 
 ### Words
 
-- get /ɡɛt/ it /ɪt/ under /ˈʌndɚ/ control /kənˈtrol/ 控制
-- desolate /ˈdɛsələt/ 荒凉的
-- threatened /ˈθrɛtənd/ 威胁
-- destruction /dɪˈstrʌkʃən/ 毁灭
+- get /ɡɛt/ it /ɪt/ under /ˈʌndɚ/ control /kənˈtrol/ *v.* 控制
+    1. The moment you get it under control, we’ll talk.
+    2. It is said that she can always get everything under control.（L58）
+    3. I’m at the baggage claim, and everything’s under control.（L58）
+- desolate /ˈdɛsələt/ *adj.* 荒凉的
+    1. It’s obvious that there’s no one in this desolate place.（L51）
+    2. I prefer to travel to a desolate place all by myself.（L50）
+    3. I’m tired of living in this desolate place.（L49）
+- threatened /ˈθrɛtənd/ *v.* 威胁
+    1. The man threaten him with a knife.
+    2. It’s said that you threaten him with the police.
+    3. You don't have to threaten me.（L17）
+    4. I have to threaten to call his wife.
+- destruction /dɪˈstrʌkʃən/ *n.* 毁灭
+    1. The hills threatened the surrounding villages with destruction.
+    2. The destruction came from the surrounding hills. did/where/why…
+    3. He told me a story of destruction.（L27）
 - soil /sɔɪl/ 土地
-- floods /flʌdz/ 洪水
-- authorities /əˈθɔrətiz/ 当局, 官方
-- grass-seed /ˈɡræs ˌsid/ 草种
-- sprayed /spred/ 喷
+- floods /flʌdz/ *n.* 洪水
+    1. The rain can cause serious floods.
+    2. It’s you who saved my life from the floods, not him.（L58）
+    3. They trained their kids to survive from the floods.（L59）
+    4. We must learn how to swim so that we could survive from the floods.（L59）
+- authorities /əˈθɔrətiz/ *n.* 当局, 官方
+    1. I don't have the authority to do that.
+    2. I may not have the authority to order you to get out of here.（L19 L43）
+    3. James!
+    4. The authorities won’t allow that to happen.
+- grass-seed /ˈɡræs ˌsid/ *n.* 草种
+    1. The moment you bought these grass seeds, trust me, you’ll regret it.（L60）
+    2. After buying these grass seeds, Leo regretted it.（L49）
+    3. Leo loves collecting all kinds of grass seeds.
+- sprayed /spred/ *v.* 喷
+    1. They sprayed again last night.
+    2. (1993) 2 did/why/when/what…
+    3. The authorities sprayed the grass-seed in the surrounding area.
+    4. They're all sprayed with ice cold water.（L10）
 - In /ɪn/ place /ples/ of /ʌv/ 替代
-- patches /ˈpætʃɪz/ 斑块
-- blackened /ˈblækənd/ 变黑
-- surrounding /səˈraʊndɪŋ/ 周围的
-- quantity /ˈkwɑntəti/ 数量
-- root /rut/ 根
-- century /ˈsɛntʃəri/ 世纪
+- patches /ˈpætʃɪz/ *n.* 斑块
+    1. His car hit a patch of ice and went into a tree.（L25）
+    2. Don’t stand on that little patch of grass so that…（L59）
+    3. They found a patch of grass in the winter.
+    4. How wonderful is that!
+- blackened /ˈblækənd/ *v.* 变黑
+    1. Patches of green had begun to appear in the blackened soil.
+    2. Leo had a blackened finger. did/who/why…
+    3. He was eager to see the blackened soil near the village.（L57）
+- surrounding /səˈraʊndɪŋ/ *adj.* 周围的
+    1. 1 + n. area / villages / towns
+    2. Although this place is completely safe, the surrounding area of London is not.
+    3. I’ve been checking the surrounding area for three hours.（L52）
+    4. If we control this place, we’ll control the whole surrounding area.（L16）
+- quantity /ˈkwɑntəti/ *n.* 数量
+    1. She pointed out that he had a large quantity of gold.（L58）
+    2. He loves buying large quantity of grass seeds.
+    3. They found a small quantity of gold in the cave near the beach last weekend.
+- root /rut/ *n.* 根
+    1. If the seeds are good, they'll take root.
+    2. The grass seeds are not allowed to take root in my garden.（L10）
+    3. We hope that the orange trees will take root.
+- century /ˈsɛntʃəri/ *n.* 世纪
+    1. For centuries, women were not allowed to work outside their home.（L10）
+    2. For centuries, people who works for banks get a good salary.（L11）
+    3. For centuries, these people go on a journey by themselves when they are eighteen.
 
 ### Expressions
 

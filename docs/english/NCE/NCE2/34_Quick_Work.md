@@ -26,12 +26,20 @@
 
 - amused /əˈmjuzd/ 有趣的
 - station /ˈsteʃən/ 警察局
-- most /most/ 非常
+    1. The police station was built years ago.
+    2. They are building the police station.
+    3. They are talking in the police station.
+- most /most/ *adj.* 非常
+    1. She is the most beautiful girl in her class.
+    2. She was most(very) surprised when she heard the news.
+    3. The china had never been used.
 
 ### Expressions
 
 - be worried 担心
 - call at 拜访
+    1. I called at that shop yesterday morning.
+    2. You must call at the police station as quickly as possible.
 - be wanted by 被……通缉
 - pick up 捡到
 - be surprised 惊讶

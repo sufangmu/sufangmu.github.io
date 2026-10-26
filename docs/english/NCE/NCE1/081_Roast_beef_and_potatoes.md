@@ -78,12 +78,35 @@
 
 ### Words
 
-- bath /bæθ/ 洗澡
-- ready /ˈrɛdi/ 准备好的
-- nearly /ˈnɪrli/ 几乎
+- bath /bæθ/ *n.* 洗澡
+    1. Did you have a bath?
+    2. I had a bath 2 hours ago.
+    3. She is having a bath.
+    4. I’m gonna have a bath tonight.
+- ready /ˈrɛdi/ *adv.* 准备好的
+    1. Are you ready?
+    2. I’m nearly ready.
+- nearly /ˈnɪrli/ *adv.* 几乎
+    1. Are you ready?
+    2. I’m nearly ready.
 - restaurant /ˈrɛstəˌrɑnt/ 餐馆
+    1. Last night, we went to a restaurant.
+    2. Did you go to a restaurant last night?
 - roast /rost/ 烤的
-- dinner /ˈdɪnɚ/ 晚餐
+    1. Do you like roast beef?
+    2. Yes, I want some roast beef.
+    3. Is Tom downstairs?
+    4. No, he isn't.
+    5. Where is Tom?
+    6. He's upstairs.
+    7. What is he doing?
+    8. He's having a bath.
+    9. Carol and Tom tonight?
+    10. Is dinner ready?
+- dinner /ˈdɪnɚ/ *n.* 晚餐
+    1. I’m going to have dinner with my husband tonight.
+    2. She had dinner with me last night.
+    3. They’re having dinner together.
 - breakfast /ˈbrɛkfəst/ 早餐
 - haircut /ˈhɛrˌkʌt/ 理发
 - party /ˈpɑrti/ 聚会
@@ -95,4 +118,3 @@
 - nearly ready 快好了
 - have dinner 吃晚饭
 - roast beef 烤牛肉
-

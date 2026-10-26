@@ -18,23 +18,48 @@
 
 ### Words
 
-- eccentrics /ɪkˈsɛntrɪks/ 古怪人
+- eccentrics /ɪkˈsɛntrɪks/ *n.* 古怪人
+    1. The eccentric artist chose to live by painting and selling his artwork.
+    2. The eccentrics are not easily influenced by peer pressure.
 - deliberately /dɪˈlɪbərətli/ 故意地
-- disregard /ˌdɪsrɪˈɡɑrd/ 漠视
-- conventions /kənˈvɛnʃənz/ 习俗
-- conscious /ˈkɑnʃəs/ 意识到的
+- disregard /ˌdɪsrɪˈɡɑrd/ *v.* 漠视
+    1. The officer ordered the soldiers to disregard their fear.
+    2. You cannot disregard the fact that heart disease is the biggest killer in the western world.
+- conventions /kənˈvɛnʃənz/ *n.* 习俗
+    1. Mary felt obliged to wear a formal dress to the wedding because of social convention.（L1）
+    2. Technically speaking, she followed the social convention and wore a formal dress to the wedding.
+- conscious /ˈkɑnʃəs/ *adj.* 意识到的
+    1. They are conscious that they have to sacrifice their personal interests for the success of the team.
+    2. I was very conscious of the fact that I had to make a good impression.
 - extraordinary /ɪkˈstrɔrdəˌnɛri/ 非同寻常的
-- invariably /ˌɪnˈvɛriəbli/ 总是
-- shrewd /ʃrud/ 精明的
-- eccentricity /ˌɛksənˈtrɪsəti/ 怪癖
-- legendary /ˈlɛdʒənˌdɛri/ 传奇般的
-- snobs /snɑbz/ 势利小人
-- bedraggled /bɪˈdræɡəld/ 拖泥带水
+- invariably /ˌɪnˈvɛriəbli/ *adv.* 总是
+    1. It gave me the impression that hard work invariably leads to success.
+    2. The person [who works hard] invariably achieves their goals.
+- shrewd /ʃrud/ *adj.* 精明的
+    1. The shrewd businessman decided to stay for dinner with his potential clients.
+- eccentricity /ˌɛksənˈtrɪsəti/ *n.* 怪癖
+    1. The sad truth is that his eccentricity sometimes causes others to laugh at him. L23（N2L88&L82）
+- legendary /ˈlɛdʒənˌdɛri/ *adj.* 传奇般的
+    1. Visitors to the museum hope to catch sight of the legendary painting.
+    2. The legendary singer should have retired after a long and successful career.
+    3. The legendary detective was able to solve the problem of the missing diamond.
+- snobs /snɑbz/ *n.* 势利小人
+    1. The snob accidentally set the curtains on fire while trying to light a candle.
+- bedraggled /bɪˈdræɡəld/ *adj.* 拖泥带水
+    1. She was bedraggled when she came in because of the rain outside.
+    2. I barely recognized the bedraggled figure who was standing in the rain.
 - cloth /klɔθ/ 布
-- apologetic /əˌpɑləˈdʒɛtɪk/ 道歉
-- reprimanded /ˈrɛprəˌmændɪd/ 训斥
-- stage /stedʒ/ 暗中策划
-- elaborate /ɪˈlæbrət/ 精心构思的
+- apologetic /əˌpɑləˈdʒɛtɪk/ *adj.* 道歉
+    1. She was apologetic about forgetting her friend's birthday on the same day.
+    2. She was apologetic about accidentally breaking the vase, technically speaking.
+- reprimanded /ˈrɛprəˌmændɪd/ *v.* 训斥
+    1. He was reprimanded by a teacher for talking during class.
+    2. The parent reprimanded their child for not doing their homework, I bet.
+- stage /stedʒ/ *v. n.* 暗中策划
+    1. There is no doubt that he staged this whole thing.
+    2. You've staged an elaborate joke to capture my attention.
+- elaborate /ɪˈlæbrət/ *adj.* 精心构思的
+    1. The project manager was quick to make decisions and have an elaborate plan to finish the program on time.（L21）
 
 ### Expressions
 
@@ -47,12 +72,31 @@
 - reprimand sb. for (doing) sth. 因（做）某事训斥某人
 - elaborate plan/design/meal 精心安排的计划/设计/饭菜
 - draw attention to sb.  引起对某人的注意
+    1. The child requested to have ice cream and was impatient to eat it.
+    2. The teacher requested the students to follow her instructions during the science experiment.
+    3. The teacher requested the students to settle the argument by listening to each other's words.
 - win sb. sth.  为某人赢得某物
+    1. Her outstanding performance in the competition won her a gold medal as a result.
+    2. She won her best friend a gift from her trip to Paris and they have kept in touch with each other ever since.
+    3. add a. to b.
+    4. Do you want to add your name to the list?
+    5. The doctor advised her to add exercise to her daily routine for better health.
+    6. You should add sugar to your coffee to make it sweeter, but please don't regard it as a healthy choice.
 - add a. to b. 把 A 加到 B 上
 - up to the time of sth.  到……的时候
+    1. She continued to care for her father up to the time of his death.
+    2. Up to the time of his death, he had dedicated his life to helping others.
+    3. Up to the time of his death, he consistently reminded his children to look both ways before crossing the street for their own protection.
 - go on foot 步行
+    1. After finishing my work, I like to go on foot to the nearby park.
+    2. It is disturbing to think that we have to go on foot.
+    3. We decided to go on foot and give our friend a surprise visit at their workplace.
 - be caught in 被困在……中；遇上
 - sb. request to do sth. 某人请求做某事
+    1. The child requested to have ice cream and was impatient to eat it.
+    2. The teacher requested the students to follow her instructions during the science experiment.
+    3. The teacher requested the students to settle the argument by listening to each other's words.
 - present sb. with sth. 把某物赠送给某人
 - invite sb. to do sth. 邀请某人做某事
-
+    1. I wouldn't invite my boss to talk about my ideas during the meeting, for he tends to lose his temper easily.
+    2. The company invited customers to try their new product in order to make a profit.

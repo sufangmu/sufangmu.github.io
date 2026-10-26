@@ -24,14 +24,31 @@
 ### Words
 
 - garage /ɡəˈrɑʒ/ 车库
-- pigeons /ˈpɪdʒənz/ 鸽子
-- message /ˈmɛsɪdʒ/ 信息
-- cover /ˈkʌvɚ/ 覆盖；走完
+- pigeons /ˈpɪdʒənz/ *n.* 鸽子
+    1. I have just received a pigeon from my brother.
+    2. On the last day, I made a decision and sent the pigeon to my friend, Leo.
+- message /ˈmɛsɪdʒ/ *n.* 信息
+    1. I left him a message.
+    2. Did you leave him a message?
+    3. Why did you leave him a message?
+- cover /ˈkʌvɚ/ *n.* 覆盖；走完
+    1. The bird covered the distance in three minutes.
+    2. Did the bird covered the distance in three minutes?
 - distance /ˈdɪstəns/ 距离
-- spare /spɛr/ 备用的
-- part /pɑrt/ 零件
-- service /ˈsɝvɪs/ 服务
-- request /rɪˈkwɛst/ 请求
+- spare /spɛr/ *n.* 备用的
+    1. I need to buy some spare parts for my car.
+    2. Do you need to buy some spare parts for your car?
+    3. What do you need to buy for your car?
+- part /pɑrt/ *n.* 零件
+    1. I need to buy some spare parts for my car.
+    2. Do you need to buy some spare parts for your car?
+    3. What do you need to buy for your car?
+- service /ˈsɝvɪs/ *n.* 服务
+    1. ‘telephone’ service.
+    2. He began his own private telephone service.
+    3. Did he begin his own private telephone service?
+- request /rɪˈkwɛst/ *n.* 请求
+    1. I have just sent a request for a new computer.
 
 ### Expressions
 
@@ -39,16 +56,28 @@
 - customer service 客户服务
 
 - cover the distance in st. 用……时间走完这段距离
+    1. The bird covered the distance in three minutes.
+    2. Did the bird covered the distance in three minutes?
 
 - A is 5 miles from B A 离 B 有 5 英里
+    1. Beijing is 662 miles from Shanghai.
+    2. Is Beijing 662 miles from Shanghai?
 
 - get sth. for sb. 给某人弄到某物
+    1. I can get that for you.
+    2. Can you get that for me?
+    3. I can’t get that for you.
+    4. Why can’t you get that for me?
 
 - a great many + 可数名词复数
 
 - send a request for sth. 发出对某物的请求
+    1. I sent a request for some paper 10 days ago.
 
 - up to now 直到现在
+    1. I have sent a great number of postcards to him up to now.
+    2. Last night, we said a great many things.
+    3. Did you say a great many things last night?
 
 - in this way 以这种方式
-
+    1. I always have a good seat in the theatre.

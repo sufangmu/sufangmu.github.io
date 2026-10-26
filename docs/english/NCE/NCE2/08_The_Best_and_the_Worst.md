@@ -22,11 +22,35 @@
 
 ### Words
 
-- competition /ˌkɑmpəˈtɪʃən/ 比赛
-- neat /nit/ 整洁的
-- path /pæθ/ 小路
-- wooden /ˈwʊdən/ 木制的
-- pool /pul/ 水池
+- competition /ˌkɑmpəˈtɪʃən/ *n.* 比赛
+    1. I found that competition very interesting, but I don’t now.（L4）
+    2. I entered the competition.
+    3. Did you enter the competition?
+    4. How did you enter the competition?
+- neat /nit/ *adj.* 整洁的
+    1. Her house is always neat and clean.
+    2. He always looks very neat and tidy.
+    3. That’s neat/cool.
+- path /pæθ/ *n.* 小路
+    1. He has made neat paths.
+    2. He made a neat path last month.
+    3. Did he make a neat path last month?
+- wooden /ˈwʊdən/ *adj.* 木制的
+    1. His house is full of wooden chairs.（L7）
+    2. He knocked at the wooden door.（L6）
+    3. She always finds wooden things beautiful.（L4）
+    4. I had breakfast with a wooden spoon.（L2）
+- pool /pul/ *n.* 水池
+    1. He has gone to the swimming pool.（L4）
+    2. Beijing.（L5）
+    3. That’s neat.
+    4. The left one is smaller than the right one.
+    5. The left one is prettier than the right one.
+    6. My father is the coolest guy in the world.
+    7. My mom is the kindest person in the world.
+    8. My neighbor is the nicest guy in the world.
+    9. Mother Teresa is the kindest woman I’ve ever known.
+    10. Yao Ming is the tallest guy I’ve ever seen.
 
 ### Expressions
 
@@ -34,16 +58,31 @@
 - enter the competition  参加比赛
 
 - enter for 参加
+    1. Every year I enter for the garden competition.
+    2. Do you enter for the garden competition every year?
 
 - make a path 修一条小路
+    1. He made a path in his garden.
+    2. He is making a path in his garden.
+    3. He has made a path in his garden.
+    4. He was making a path in his garden.
+    5. He is going to make a path in his garden.
 
 - That’s neat/cool. 那真不错/真酷
 
 - make a path 修一条小路
+    1. He made a path in his garden.
+    2. He is making a path in his garden.
+    3. He has made a path in his garden.
+    4. He was making a path in his garden.
+    5. He is going to make a path in his garden.
 
 - build a bridge 建一座桥
 
 - win a prize 获奖
+    1. He won a big prize last month.
+    2. Did he win a big prize last month?
+    3. How did he win a big prize last month?
 
 ### 形容词比较级、最高级
 

@@ -69,17 +69,57 @@
 ### Words
 
 - ago /əˈɡo/ 以前
+    1. I met your mom 30 years ago.
+    2. I went to Beijing 3 days ago.
 - buy /baɪ/ 买
+    1. My dad bought this TV for us 2 months ago.
+    2. She bought her boyfriend a watch.
 - bought /bɔt/ 买（过去式）
+    1. My dad bought this TV for us 2 months ago.
+    2. She bought her boyfriend a watch.
 - pair /pɛr/ 一双
-- fashion /ˈfæʃən/ 时尚
-- uncomfortable /ʌnˈkʌmfɚtəbl/ 不舒服的
+    1. She cleaned this pair of shoes yesterday.
+    2. He bought a pair of shoes for his girlfriend three days ago.
+    3. What does the lady show to the shop assistant?
+    4. Whose shoes are they?
+    5. Her sister’s.
+    6. Why does she show him those shoes?
+    7. Because she wants a pair of shoes like those.
+    8. What size does she want?
+    9. What colour does she want?
+    10. Black.
+- fashion /ˈfæʃən/ *n.* 时尚
+    1. This is in fashion.
+    2. Is this out of fashion?
+- uncomfortable /ʌnˈkʌmfɚtəbl/ *adj.* 不舒服的
+    1. She feels uncomfortable.
+    2. Does she feel uncomfortable?
+    3. We must call the doctor.
 - wear /wɛr/ 穿
+    1. She wears a pair of black shoes.
+    2. She wore a white dress yesterday.
+    3. Where did her sister buy those shoes?
+    4. When did the shop have some shoes like these?
+    5. Can they get any shoes like those now?
+    6. No, they can’t.
+    7. Why can’t they get any?
+    8. Because they’re not in fashion this year.
+    9. Ask me if I have any size five shoes.
+    10. Do you have any size five shoes?
 - wore /wɔr/ 穿（过去式）
+    1. She wears a pair of black shoes.
+    2. She wore a white dress yesterday.
+    3. Where did her sister buy those shoes?
+    4. When did the shop have some shoes like these?
+    5. Can they get any shoes like those now?
+    6. No, they can’t.
+    7. Why can’t they get any?
+    8. Because they’re not in fashion this year.
+    9. Ask me if I have any size five shoes.
+    10. Do you have any size five shoes?
 
 ### Expressions
 
 - size five 五号
 - in fashion 时髦
 - last month 上个月
-

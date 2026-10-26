@@ -18,25 +18,58 @@
 
 ### Words
 
-- Antique /ænˈtik/ 古玩
-- fascination /ˌfæsəˈneʃən/ 魅力
-- forbidding /fɚˈbɪdɪŋ/ 望而却步的
-- pretentious /priˈtɛnʃəs/ 狂妄的
-- labyrinth /ˈlæbɚˌɪnθ/ 迷宫
-- musty /ˈmʌsti/ 发霉的
-- rarity /ˈrɛrəti/ 稀世珍品
-- assorted /əˈsɔrtɪd/ 各式各样的
-- junk /dʒʌŋk/ 废品
-- litter /ˈlɪtɚ/ 杂乱布满
-- dedicated /ˈdɛdəketəd/ 专心致志地
+- Antique /ænˈtik/ *n.* 古玩
+    1. She visited the antique shop and was impressed by the owner's good taste.
+    2. He decided to sell his antique desk and was willing to bargain with potential buyers.（L4）
+- fascination /ˌfæsəˈneʃən/ *n.* 魅力
+    1. Oddly enough, water holds a fascination for most children.
+    2. He has a fascination for art, but the idea that [everyone can be a great artist] is mistaken.
+- forbidding /fɚˈbɪdɪŋ/ *adj.* 望而却步的
+    1. The dark forest can be a forbidding place, and we should take the warnings about bears seriously.
+    2. The ancient church, a forbidding place, has stood there for hundreds of years.
+- pretentious /priˈtɛnʃəs/ *adj.* 狂妄的
+    1. He is so pretentious that he only drinks expensive coffee and laughs at anyone who enjoys a normal cup.（N2L35&L82）
+    2. I found Susie very pretentious.
+    3. He is so pretentious that he would rather be alone with his thoughts than have conversations with others.
+- labyrinth /ˈlæbɚˌɪnθ/ *n.* 迷宫
+    1. It is easy to get lost in the labyrinth of trees.
+    2. In the labyrinth of traffic, one car [braking suddenly] can set up a chain of reactions that causes a traffic jam.
+    3. Finally, after getting through a labyrinth of corridors, she found his office.
+- musty /ˈmʌsti/ *adj.* 发霉的
+    1. What’s more, the hotel room was dark and musty.
+    2. Leo was astonished to find that all his clothes smelt musty.
+- rarity /ˈrɛrəti/ *n.* 稀世珍品
+    1. It is outrageous that clean water is still a rarity in some parts of the world.
+- assorted /əˈsɔrtɪd/ *adj.* 各式各样的
+    1. They have no intention of sharing the assorted sweets with anyone else.（L28）
+    2. It is clear that she bought a large bag of assorted sweets for the movie night.
+- junk /dʒʌŋk/ *n.* 废品
+    1. She was under the impression that the junk mail was important, so she opened it.
+    2. The company should be apologetic for sending so much junk mail to my mailbox.
+- litter /ˈlɪtɚ/ *v.* 杂乱布满
+    1. The floor was littered with cigarette ends, and I had the impulse to clean up the mess.
+- dedicated /ˈdɛdəketəd/ *adj.* 专心致志地
+    1. She is a dedicated student who spends hours studying every day.
+    2. It is anticipated that a dedicated student [who works very hard] will be very successful.
+    3. The support and encouragement from their family have made it possible for a dedicated student to fulfill his dream.（L26）
 - bargain /ˈbɑrɡən/ hunter /ˈhʌntɚ/ 到处找便宜货的人
-- dealer /ˈdilɚ/ 商人
-- cherish /ˈtʃɛrɪʃ/ 期望
-- amply /ˈæmpli/ 充足的
-- masterpiece /ˈmæstɚˌpis/ 杰作
+    1. It became an accepted fact that he used to be the best bargain hunter in the company.
+- dealer /ˈdilɚ/ *v.* 商人
+    1. She's an art dealer who worked with Alan. 4 The art dealer was surprised when, all of a sudden, a famous artist walked into his gallery.
+- cherish /ˈtʃɛrɪʃ/ *v.* 期望
+    1. You must cherish the hope that he wasn’t killed in action.
+    2. She cherishes the hope that her parents will notice her practicing the piano every day.
+- amply /ˈæmpli/ *adv.* 充足的
+    1. The company amply rewarded its employees with a bonus at the end of the year.（L15）
+    2. The hotel amply provided its guests with breakfast and Wi-Fi during their stay.
+- masterpiece /ˈmæstɚˌpis/ *n.* 杰作
+    1. They’re about to turn that into a masterpiece.（L24）
+    2. Her work is a masterpiece of (= an excellent example of) simplicity.
 - rapidly /ˈræpədli/ 迅速地
 - reluctantly /rɪˈlʌktəntli/ 不情愿
-- prised /praɪzd/ 撬开
+- prised /praɪzd/ *v.* 撬开
+    1. The child attempted to prise open the peanut butter but couldn't do it.
+    2. They found their children trying to prise open the window of the house.
 
 ### Expressions
 
@@ -48,19 +81,46 @@
 - junk mail 垃圾邮件
 - be littered with something 到处散落着某物
 - sb. cherish the hope that + 句子 某人怀有……的希望
+    1. He cherishes the hope that one day they will meet again.
+    2. She cherishes the hope that she will benefit from her hard work.
+    3. He cherishes the hope that, in the process, he will learn valuable lessons.
 - The mere fact 从句 + …
 - prise something open 把某物撬开
 - carve a. from/out of b. = 用 B 雕刻出 A
 - a. be carved from/out of b. A 由 B 雕刻而成
 - There is always hope that+句子 总有……的希望
+    1. There is always hope that the beautiful song will reduce everyone in the room to tears.
+    2. There is always hope that he will not be killed in action and will return safely.
+    3. There is always hope that the teacher will find time to read a story to the students.
 - by chance 偶然
+    1. means happening or occurring unexpectedly or accidentally, without any specific intention or planning 偶然，碰巧; 意外地
+    2. Do you really expect me to believe you chose
+    3. By chance, I saw my neighbor at the grocery store after staying up all night.
+    4. For me, above all, I find it impossible to not eat chocolate whenever it's in front of me.
+    5. Above all, it is clear that chairs should be comfortable.
+    6. Above all, she could give me spiritual comfort.
 - above all 最重要的是
 - be bent on doing sth. 执意要做某事
 - sb. cherish the hope that+句子 某人怀有……的希望
+    1. He cherishes the hope that one day they will meet again.
+    2. She cherishes the hope that she will benefit from her hard work.
+    3. He cherishes the hope that, in the process, he will learn valuable lessons.
 - described to sb. what/how...+宾从
 - describe sth. to sb. 向某人描述某物
+    1. I need you to describe to me what happened.
+    2. Can you describe to me why this is dear to you?
+    3. Please describe to us how you received an electric shock.
 - pick up 捡起；拿起
+    1. 无意获得/买到 to buy something, acquire or obtain something, especially cheaply or by chance — oxford learners dictionaries
+    2. We managed to pick up a few bargains in the end.
+    3. While shopping at that store, I picked up a rare book that turned out to be quite expensive.
 - sb. can’t/couldn’t be bothered to do sth. 某人懒得做某事
+    1. He couldn't be bothered to do his homework, so he spent the evening playing video games instead.
+    2. He couldn't be bothered to fix the broken lock, so he prised it open.
 - beg sb. to do sth. 恳求某人做某事
+    1. I begged Helen to stay, but she wouldn’t listen.
+    2. The child begged his mother to buy him a new toy, but she refused and got rid of his old ones instead.
+    3. She begged her parents to let her stay up late, but they said no.
 - at the bottom of... 在……的底部
-
+    1. At the bottom of his desk, he found his favorite comic book.
+    2. Despite the hurtful words, I choose not to hold a grudge against my friend because at the bottom of my heart I love him.

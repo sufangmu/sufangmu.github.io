@@ -18,22 +18,41 @@
 
 ### Words
 
-- courts /kɔrts/ 法院
-- innocence /ˈɪnəsəns/ 无辜
+- courts /kɔrts/ *n.* 法院
+    1. In the court of law, there is always hope that the truth will be revealed.
+    2. In the court of law, the defendant cherishes the hope that their innocence will be proven beyond doubt.
+- innocence /ˈɪnəsəns/ *n.* 无辜
+    1. They’ve confirmed that he has evidence which could prove his innocence.
 - guilt /ɡɪlt/ 有罪
-- undertake /ˌʌndɚˈtek/ 承担
-- arduous /ˈɑrdʒuəs/ 艰难地
+- undertake /ˌʌndɚˈtek/ *v.* 承担
+    1. She decided to undertake research on climate change.
+- arduous /ˈɑrdʒuəs/ *adj.* 艰难地
+    1. Cleaning the entire house was an arduous task that took me several hours.
+    2. She began her arduous journey to lose weight by changing her diet and exercising regularly.
 - Judges /ˈdʒʌdʒɪz/ 法官
 - ceases /ˈsisɪz/ 停止
 - meted /ˈmitɪd/ out /aʊt/ 处置
-- interference /ˌɪntɚˈfɪrəns/ 干涉
+    1. The teacher meted out extra assignments to the students who didn't complete their homework.
+    2. The teacher meted out punishment to the student who cheated on the test.
+- interference /ˌɪntɚˈfɪrəns/ *n.* 干涉
+    1. I resent his interference in my work.
+    2. Sorry for the interference, but I think you accidentally took my coat instead of yours.
+    3. I hope you don't mind the interference, but I think you left your umbrella at the restaurant.
 - circumstances /ˈsɝkəmˌstænsɪz/ 环境
-- premises /ˈprɛmɪsɪz/ 房屋
-- fireplaces /ˈfaɪɚˌplesɪz/ 壁炉
-- muffled /ˈmʌfəld/ 捂住
+- premises /ˈprɛmɪsɪz/ *n.* 房屋
+    1. Can you describe to me how you caught a thief on the premises of a large jewelry store?
+- fireplaces /ˈfaɪɚˌplesɪz/ *n.* 壁炉
+    1. He’s conscious that the disused fireplace needs to be cleaned.
+    2. Leo found it impossible to clean that fireplace by himself.
+    3. They gathered around the fireplace and watched comic movie all night.
+- muffled /ˈmʌfəld/ *v.* 捂住
+    1. He was amazed to find that he could hear muffled voices in the next room.
+    2. Between you and me, I heard a muffled cry last night.
 - chipping /ˈtʃɪpɪŋ/ 砍
 - narrow /ˈnɛro/ 狭窄
-- emerged /ɪˈmɝdʒd/ 出现
+- emerged /ɪˈmɝdʒd/ *v.* 出现
+    1. Richard was waiting outside the door as she emerged.
+    2. The shy kittens finally emerged from their hiding places and the old lady let out a cry of surprise.
 
 ### Expressions
 
@@ -56,12 +75,24 @@
 - There are rare instances when 很少有……的情况
 - cease to do  停止做某事
 - be independent of  独立于，不依赖于
+    1. It is important for children to be independent of their parents as they grow older and learn to take care of themselves.
+    2. It is important to be independent of others' opinions and make decisions [based on your own beliefs and values].
 - in part 部分地
 - run to tell sb. 跑去告诉某人
+    1. My sister ran to tell me that our favorite band is coming to town.
+    2. The child ran to tell his parents about the funny incident at school and described it to them.
+    3. Sarah ran to tell her brother that she found his lost wallet on the street by chance.
 - ring up 打电话
 - tap at sth. 轻敲某物
+    1. It is illogical to tap at a rock, assuming that it will reveal hidden treasure.
+    2. They were impatient to tap at the traffic light, hoping it would change to green sooner.
 - listen for… 留神听……
+    1. She couldn't be bothered to listen for her phone ringing, so she missed an important call.
+    2. While hiking in the forest, we should listen for the sounds of wildlife.
 - be unable to do sth. 不能做某事
 - break into 闯入；突然开始
 - be handed over to 被移交给
-
+    1. Her house was broken into last week.
+    2. was/
+    3. Someone broke into my car and stole the radio.
+    4. You became a criminal the moment you broke into that store.

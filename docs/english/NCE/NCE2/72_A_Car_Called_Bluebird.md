@@ -28,15 +28,23 @@
 ### Words
 
 - tyre /taɪr/ 轮胎
-- burst /bɝst/ 爆炸
+- burst /bɝst/ *v.* 爆炸
+    1. If you had checked the tyre before leaving home, it wouldn’t have burst.（L64 L49）
+    2. I used to burst into tears for no reason at all.
 - attempt /əˈtɛmpt/ 尝试
-- horsepower /ˈhɔrsˌpaʊɚ/ 马力
-- average /ˈævərɪdʒ/ 平均的
+- horsepower /ˈhɔrsˌpaʊɚ/ *n.* 马力
+    1. I didn’t know anything about horsepower.
+    2. After searching the internet, I learnt a little bit about horsepower.（L49）
+    3. It had a 2,500-horsepower engine.
+- average /ˈævərɪdʒ/ *adj.* 平均的
+    1. The average salary is $39,000 a year.
+    2. I've got two very clever students, but the rest are average.
 
 ### Expressions
 
 - have difficulty in doing sth. 做某事有困难
+    1. I have difficulty in sleeping at night.
+    2. Even if I have difficulty in sleeping at night, I still work very hard during the day.
 - be disappointed to learn that 得知……很失望
 - burst into tears 突然大哭起来
 - follow in sb’s footsteps 效仿某人；步某人后尘
-

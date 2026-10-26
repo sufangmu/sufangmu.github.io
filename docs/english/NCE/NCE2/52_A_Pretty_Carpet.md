@@ -27,13 +27,25 @@
 
 ### Words
 
-- actually /ˈækˌtʃuəli/ 实际上
+- actually /ˈækˌtʃuəli/ *adv.* 实际上
+    1. That's actually a good idea.
+    2. Sir, I have more money actually.
+    3. I prefer to stay here actually.（L50）
 - carpet /ˈkɑrpət/ 地毯
 - gazed /ɡezd/ 注视
 - spare /spɛr/ 空闲
-- temporarily /ˌtɛmpəˈrɛrəli/ 暂时地
-- inch /ɪntʃ/ 英寸
-- space /spes/ 空间
+- temporarily /ˌtɛmpəˈrɛrəli/ *adv.* 暂时地
+    1. I have temporarily put my books on the floor.
+    2. I have temporarily done sth…
+    3. I have temporarily wrapped up these in newspaper.
+- inch /ɪntʃ/ *n.* 英寸
+    1. every inch of sth. (=body / ground / house / wall / car…)
+    2. The doctor examined every inch of his body.
+    3. She cleaned every inch of the house last night.
+    4. Every inch of her bedroom wall is covered with photos of pop stars.
+- space /spes/ *n.* 空间
+    1. At the moment, they cover every inch of floor space.
+    2. I paid him a visit and found out that the books covered every inch of floor space.（L51）
 
 ### 现在完成进行时
 
@@ -54,9 +66,18 @@ What have/has + 主 + been doing?
 ### Expressions
 
 - get sth. in order 把某物整理好
+    1. I haven’t been able to get my new room in order.（L43）
+    2. Why haven’t you been able to get your new room in order?
+    3. Their mom asked them to get their bedroom in order.（L11）
 - To make matters worse... 更糟的是……
 - A short while ago... 不久前……
+    1. he smashed everything in the living room to pieces.（L49）
+    2. they had a picnic at the edge of a forrest.（L44）
 - help sb. to do sth. 帮助某人做某事
 - gaze at sth. 凝视某物
+    1. She was so cute that Leo gazed at her for a long time.（L35）
+    2. Why did you gaze at her?
 - in sb’s spare time... 在某人空闲时间
-
+    1. I prefer swimming to running.（L50）
+    2. I’d prefer to take a walk with my family.（L50）
+    3. I love reading all kinds of books.（L50）

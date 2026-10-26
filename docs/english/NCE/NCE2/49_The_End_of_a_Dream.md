@@ -32,20 +32,53 @@
 
 ### Words
 
-- Tired /ˈtaɪɚd/ 厌倦
+- Tired /ˈtaɪɚd/ *adj.* 厌倦
+    1. She is tired of working late every night.
+    2. is/why/who/…
+    3. I'm a little tired of pizza.
+    4. Can we get something else?
+    5. I’m tired of listening to his complaints.
+    6. We got tired of the country and we moved into town.
 - up /ʌp/ 存钱
-- springs /sprɪŋz/ 弹簧
-- mattress /ˈmætrəs/ 床垫
+- springs /sprɪŋz/ *n.* 弹簧
+    1. If he found all the springs under the bed, I would eat it.（L40）
+    2. I regretted buying all these springs.（L40）
+    3. He was able to find all the springs at last.（L43）
+- mattress /ˈmætrəs/ *n.* 床垫
+    1. I’m look forward to buying a new mattress.（L37）
+    2. She couldn’t resist the temptation and bought the mattress.
+    3. He used to sell mattresses in the shop.（L31）
 - storm /stɔrm/ 暴风雨
-- A /ə/ gust /ɡʌst/ of /ʌv/ wind /wɪnd/ 一阵风
+- A /ə/ gust /ɡʌst/ of /ʌv/ wind /wɪnd/ *v.* 一阵风
+    1. A gust of wind swept the bed off the roof.
+    2. Did a gust of wind sweep the bed off the roof?
+    3. What did a gust of wind sweep off the roof.
 - swept /swɛpt/ 刮
 - crashing /ˈkræʃɪŋ/ 分词作宾补
-- courtyard /ˈkɔrˌtjɑrd/ 院子
-- smashed /smæʃt/ 砸碎
+- courtyard /ˈkɔrˌtjɑrd/ *n.* 院子
+    1. He explained everything to me in the courtyard last night.
+    2. He had trouble parking his car in the courtyard.（L28）
+- smashed /smæʃt/ *v.* 砸碎
+    1. The bed was smashed to pieces.
+    2. was/what/why…
+    3. They had a fight and he smashed the window to pieces.
+    4. Why is he interested in smashing things to pieces?（L20）
 - pieces /ˈpisɪz/ 块
-- miraculously /məˈrækjələsli/ 奇迹般地
-- Glancing /ˈɡlænsɪŋ/ 扫视
-- promptly /ˈprɑmptli/ 迅速地
+- miraculously /məˈrækjələsli/ *v.* 奇迹般地
+    1. He had a car crash yesterday and was miraculously unhurt.
+    2. How was he unhurt?
+    3. Miraculously, he made a big decision on the last day.（L3）
+    4. Miraculously, he didn’t pay any attention.（L1）
+- Glancing /ˈɡlænsɪŋ/ *v.* 扫视
+    1. 1: to take a quick look at something
+    2. glanced at his watch/the menu/the hat…
+    3. He glanced at the woman but quickly looked away.（L25）
+    4. He glanced at his watch.
+- promptly /ˈprɑmptli/ *adv.* 迅速地
+    1. He replied to the email promptly.（L14）
+    2. He must have left the house promptly.（L17）
+    3. He can’t have left the house promptly.（L17）
+    4. He may have left the house promptly.（L19）
 
 ### 分词作状语
 
@@ -60,6 +93,7 @@ When the baby opened his eyes, he began to cry.
 ### Expressions
 
 - save up for years to buy sth. 攒了好几年钱买某物
+    1. sb. saved up for years to buy sth.
 - for the first time in sb.’s life 某人一生中第一次
 - go to sleep 入睡
-
+    1. I went to sleep very early last night.

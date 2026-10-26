@@ -23,18 +23,40 @@
 
 ### Words
 
-- coast /kost/ 海岸
+- coast /kost/ *n.* 海岸
+    1. In contrast to a coast, a shore can border any body of water, while the coast must border an ocean or a sea.
+    2. Therefore, in that sense, a coast is a type of shore.
+    3. One afternoon she set out from the coast in a small boat.
 - was /wʌz/ caught /kɔt/ in /ɪn/ 遇到
-- storm /stɔrm/ 暴风雨
+- storm /stɔrm/ *n.* 暴风雨
+    1. She was/got caught in a storm.
+    2. was/how/who…
 - struck /strʌk/ 撞
-- rock /rɑk/ 礁石
+- rock /rɑk/ *n.* 礁石
+    1. Towards evening, the boat struck a rock.
+    2. Did the boat strike a rock towards evening?
 - shore /ʃɔr/ 岸
-- cliffs /klɪfs/ 悬崖
-- struggled /ˈstrʌɡəld/ 挣扎
-- explain /ɪkˈsplen/ 解释
-- light /laɪt/ 光
-- ahead /əˈhɛd/ 在前面
-- hospital /ˈhɑspɪtl/ 医院
+- cliffs /klɪfs/ *n.* 悬崖
+    1. After they climbed up the cliff, they cooked a mean over an open fire.
+    2. It is easy for him to climb the cliff.
+    3. My father used to take me to the cliff.（L31）
+- struggled /ˈstrʌɡəld/ *v.* 挣扎
+    1. The girl struggled up the cliff towards the light.
+- explain /ɪkˈsplen/ *v.* 解释
+    1. Please explain this to me like I am five years old.
+    2. I don’t know how to explain it.
+    3. She must have explained this to her husband.
+- light /laɪt/ *n.* 光
+    1. Can you see the light there?
+    2. If you can see the light on the coast, just swim towards it.（L16）
+    3. The light went out last night, and the room was in total darkness.
+- ahead /əˈhɛd/ *adv.* 在前面
+    1. Be careful, school ahead.
+    2. Early next morning, she saw a light ahead.
+- hospital /ˈhɑspɪtl/ *n.* 医院
+    1. This hospital was built years ago.（L10）
+    2. This hospital must have been built years ago.（L21）
+    3. This hospital used to be a cinema.（L31）
 
 ### Expressions
 
@@ -43,4 +65,3 @@
 - strike a rock 撞上礁石
 - cover a distance 走一段距离
 - wake up 醒来
-

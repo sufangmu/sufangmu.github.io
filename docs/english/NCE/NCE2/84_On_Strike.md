@@ -29,19 +29,49 @@
 
 ### Words
 
-- go /ɡo/ on /ɑn/ strike /straɪk/ 罢工
-- stated /ˈstetɪd/ 声明
+- go /ɡo/ on /ɑn/ strike /straɪk/ *n.* 罢工
+    1. Are teachers allowed to go on strike?（L10）
+    2. The workers decided to go on strike.
+    3. The workers refused to go on strike.（L9）
+- stated /ˈstetɪd/ *v.* 声明
+    1. He stated that he recognized the voice of Leo.
+    2. He stated that his boss refused to stick to the plan.（L54）
 - general /ˈdʒɛnərəl/ 大体的
-- relieve /rɪˈliv/ 减轻
-- pressure /ˈprɛʃɚ/ 压力
+- relieve /rɪˈliv/ *v.* 减轻
+    1. I’m so relieved to hear that he has won the election.（L83）
+    2. I’m relieved to hear that they finally made a profit last year.（L80）
+    3. I’m relieved to hear that.
+- pressure /ˈprɛʃɚ/ *n.* 压力
+    1. This will relieve pressure on him.
+    2. The kid is under a lot of pressure, for his father has a very bad temper.（L78）
+    3. He noticed that he’d been under a lot of pressure.（L67）
 - trains /trenz/ 轨道交通
-- to /tu/ some /sʌm/ extent /ɪkˈstɛnt/ 某种程度上
-- volunteered /ˌvɑlənˈtɪrd/ 自愿
+- to /tu/ some /sʌm/ extent /ɪkˈstɛnt/ *n.* 某种程度上
+    1. I agree with you to some extent.（L65）
+    2. To some extent, she was responsible for the accident.（L71）
+    3. do/was/who/why…
+- volunteered /ˌvɑlənˈtɪrd/ *n.* 自愿
+    1. They volunteered to teach English.
+    2. Will anyone volunteer to help me to clean up this mess?（L52）
+    3. I need a volunteer to take charge of this place.
 - lasts /læsts/ 持续
-- gratitude /ˈɡrætəˌtud/ 感激
-- Press /prɛs/ 新闻界
-- objected /əbˈdʒɛktəd/ 反对
-- agreement /əˈɡrimənt/ 协议
+- gratitude /ˈɡrætəˌtud/ *n.* 感激
+    1. expressed sb.’s gratitude to sb.…
+    2. I would like to express my gratitude to everyone that helped us.
+    3. I would like to express my gratitude to everyone for their hard work.
+    4. We should have expressed our gratitude to him.
+- Press /prɛs/ *n.* 新闻界
+    1. He gave the news to the press last night.
+    2. You must press this button to start the radio.
+    3. Leo won the election and I read about it in the press.（L83）
+- objected /əbˈdʒɛktəd/ *n.* 反对
+    1. I objected that he was too young for the job.
+    2. The local busmen have objected to the plans.
+- agreement /əˈɡrimənt/ *n.* 协议
+    1. agreement is reached about sth.….
+    2. Again, they failed to reach an agreement.（L16）
+    3. They managed to reach an agreement.（L67）
+    4. They hope to reach an agreement tonight.（L36）
 
 ### Expressions
 
@@ -58,5 +88,6 @@
 - sb. have objected that + 句子 某人反对说……
 - object to sth./sb. 反对某事/某人
 - be due to do... 预计要做……；定于……
+    1. The captain is due to leave in a few hours.
+    2. We are due to receive 2,000 dollars from you in one week.（L4）
 - pass/take the test 通过/参加考试
-

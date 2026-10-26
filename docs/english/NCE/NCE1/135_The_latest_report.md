@@ -36,10 +36,29 @@
 
 ### Words
 
-- future /ˈfjutʃɚ/ 未来的
-- latest /ˈletɪst/ 最新的
-- introduce /ˌɪntrəˈdus/ 介绍
+- future /ˈfjutʃɚ/ *adj.* 未来的
+    1. This is my future husband.
+    2. While my future wife was having a bath, someone knocked on the door.（L117）
+    3. My future husband is taller than your future wife.（L107）
+- latest /ˈletɪst/ *adj.* 最新的
+    1. This is the latest/newest model.
+    2. The model which you saw yesterday is the latest one.
+- introduce /ˌɪntrəˈdus/ *v.* 介绍
+    1. I would like to introduce my boss.（L107）
+    2. I had to introduce it to my boss yesterday.
+    3. Did you have to introduce it to your boss yesterday?
+    4. Does Karen Marsh say she's going to retire?
+    5. She says she might.
+    6. Who does she say she will have to ask?
+    7. She says she will have to ask her future husband.
+    8. When does she say she's going to get married?
+    9. She says she's going to get married next week.
+    10. Did Karen Marsh tell reporters she might retire?
 - hotel /hoˈtɛl/ 旅馆
+    1. This is the hotel which I told you about.（L121）
+    2. This must be a very nice hotel.（L127）
+    3. She can’t have been living in that hotel.（L129）
+    4. They may be sleeping in that hotel.（L131）
 
 ### Expressions
 
@@ -47,4 +66,3 @@
 - future husband 未来的丈夫
 - introduce him to you 把他介绍给你
 - get married 结婚
-

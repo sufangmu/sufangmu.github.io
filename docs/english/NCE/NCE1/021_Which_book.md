@@ -38,9 +38,11 @@
 
 ### Words
 
-- give /ɡɪv/ 给
+- give /ɡɪv/ *v.* 给
 - one /wʌn/ 一个
 - which /wɪtʃ/ 哪一个
+    1. Which one?
+    2. Please!
 - empty /ˈɛmpti/ 空的
 - full /fʊl/ 满的
 - large /lɑrdʒ/ 大的
@@ -62,4 +64,3 @@
 - Which book? 哪本书？
 - This one? 这本吗？
 - The red one 那本红的
-

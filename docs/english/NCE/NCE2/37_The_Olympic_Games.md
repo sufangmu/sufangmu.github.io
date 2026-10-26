@@ -27,17 +27,29 @@
 ### Words
 
 - As /æz/ 因为
-- immense /ˌɪˈmɛns/ 巨大的
+- immense /ˌɪˈmɛns/ *n.* 巨大的
+    1. It is such an immense stadium that…（L35）
+    2. I saw them cleaning the immense stadium.（L35）
+    3. The immense stadium must have been built years ago.（L21）
 - capital /ˈkæpətəl/ 首都
+    1. She intends to go to the capital of China next month.（L36）
+    2. Nanjing used to be the capital of China.（L31）
 - Olympic /oˈlɪmpɪk/ 奥林匹克
 - government /ˈɡʌvɚnmənt/ 政府
+    1. He used to work for the government.（L31）
+    2. He realized that they were working for the government.（L20）
 - stadium /ˈstediəm/ 体育场
 - design /dɪˈzaɪn/ 设计
+    1. This building was designed by a famous guy.（L10）
+    2. This building must have been designed by a famous guy.（L21）
+    3. She has trouble designing the whole building.（L28）
 - standard /ˈstændɚd/ 标准
+    1. The Chinese government succeeded in building an Olympic-standard swimming pool.（L36）
+    2. The Olympic-standard swimming pool was built years ago.（L10）
 
 ### Expressions
 
-hold a meeting 开会
+- hold a meeting 开会
 
 ### 将来完成时
 

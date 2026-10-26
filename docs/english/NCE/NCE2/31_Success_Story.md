@@ -30,15 +30,35 @@
 
 ### Words
 
-- retired /rɪˈtaɪrd/ 退休
-- saved /sevd/ 存钱
-- workshop /ˈwɝkˌʃɑp/ 车间
+- retired /rɪˈtaɪrd/ *v.* 退休
+    1. The man who retired last year likes walking with his wife along the river bank on fine afternoons.（L28）
+    2. The man rowing on the river has just retired.（L30）
+    3. The man putting up the tent retired last summer.（L30）
+- saved /sevd/ *v.* 存钱
+    1. He saved money for years.
+    2. The man who saved money for years had trouble finding his bank card.（L28）
+- workshop /ˈwɝkˌʃɑp/ *n.* 车间
+    1. a room or building where things are made or repaired using machines and/or tools
+    2. The workshop which was stolen last night belongs to Leo.（L28）
+    3. They put out the fire in the workshop in the end.（L27）
 - twenties /ˈtwɛntiz/ 二十多
-- helpers /ˈhɛlpɚz/ 助手
-- company /ˈkʌmpəni/ 公司
-- bicycle /ˈbaɪsɪkl/ 自行车
-- employ /ɪmˈplɔɪ/ 雇用
-- grandson /ˈɡrænˌsʌn/ 孙子
+- helpers /ˈhɛlpɚz/ *n.* 助手
+    1. The helper who I fired last winter works for a big company now.（L28）
+    2. The helper put up the tent and started to tell stories.（L27）
+    3. That guy complains about his helper every day.（L24）
+- company /ˈkʌmpəni/ *n.* 公司
+    1. He has worked for this business company for ten years.（L4）
+    2. When he was still working for that company, he liked walking in the park near his company.（L7）
+    3. This is the biggest company I’ve ever worked for.（L8）
+- bicycle /ˈbaɪsɪkl/ *n.* 自行车
+    1. He might have been riding a bicycle.（L19）
+    2. He is really interested in riding a bicycle.（L20）
+- employ /ɪmˈplɔɪ/ *v.* 雇用
+    1. My boss employed five people.
+    2. My boss employs five people.
+- grandson /ˈɡrænˌsʌn/ *n.* 孙子
+    1. His grandson wakes up at 6 everyday.（L27）
+    2. I had a letter from my grandson yesterday.（L23）
 
 ### Expressions
 

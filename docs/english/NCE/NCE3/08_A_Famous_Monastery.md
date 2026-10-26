@@ -15,16 +15,34 @@
 
 ### Words
 
-- Pass /pæs/ 圣伯纳德山口
-- monastery /ˈmɑnəˌstɛri/ 修道院
-- rashly /ˈræʃli/ 鲁莽地
+- Pass /pæs/ *n.* 圣伯纳德山口
+    1. Tell the women and children to make for the mountain pass. The Lord of the Rings: The Two Towers (2002) N2
+    2. They kept guard near the mountain pass all night last night. N2
+- monastery /ˈmɑnəˌstɛri/ *n.* 修道院
+    1. He lived in a monastery for most of his life.
+    2. Not only did they go to the monastery, but they... as well.
+    3. They are not allowed to enter the monastery for various reasons. N2
+- rashly /ˈræʃli/ *adv.* 鲁莽地
+    1. I may have acted rashly. N2
+    2. I rashly agreed to look after the children. N2
 - about /əˈbaʊt/ 在附近
-- enclosure /ɛnˈkloʒɚ/ 围场
-- monks /mʌŋks/ 僧侣
-- privacy /ˈpraɪvəsi/ 隐私
+- enclosure /ɛnˈkloʒɚ/ *n.* 围场
+    1. Trust me, the watchdog is gonna love his new enclosure.
+    2. We need to get the tiger into the special enclosure.
+    3. She keeps a horse in a special enclosure.
+- monks /mʌŋks/ *n.* 僧侣
+    1. These monks rarely go to extremes.
+    2. The monk (we saw last night) published an article on love.
+    3. The monk provided us with a bed and hot meal last night.
+- privacy /ˈpraɪvəsi/ *n.* 隐私
+    1. Such is human nature, that everyone needs their privacy.
+    2. He was amazed to find that no one has their privacy in the hospital.
 - wander /ˈwɑndɚ/ 溜达
-- skiers /ˈskiɚz/ 滑雪的人
-- Easter /ˈistɚ/ 复活节
+- skiers /ˈskiɚz/ *n.* 滑雪的人
+    1. They spotted two skiers talking to each other last night.
+    2. This convinced the skier that the watchdog was in a special enclosure.
+    3. The skier claimed to have seen the watchdog near the mountain pass.
+- Easter /ˈistɚ/ *n.* 复活节
 - peace /pis/ 平静
 
 ### Expressions
@@ -32,8 +50,24 @@
 - Can I get some privacy? 能让我有点隐私吗？
 - connect a to b 把 A 和 B 连接起来
 - for hundreds of years 数百年
+    1. Our family has lived around here for hundreds of years.
+    2. That is what people have been doing for hundreds of years. The Last Word
+    3. Some families have farmed in this area for hundreds of years.
+    4. Now that + 从句 (原因状语从句)
+    5. Now (that) can be used as a conj. In an informal style, that is often dropped.
+    6. 既然; 由于; because now...
+    7. Now (that) I’m here, I’d better stay.
+    8. We can go swimming every day now that the weather is warm.
 - Now that + 从句  由于
 - attempt to do sth. 试图做某事
+    1. Not only did he attempt to buy the house, but... as well.
+    2. Do not attempt to keep the status quo.
+    3. Despite the fact that he attempted to take a shower, he couldn’t raise his hand.
 - be in difficulty  遇到问题或处于困境
+    1. When you are in difficulty, you may ask for her help.
+    2. She likes to help anyone who is in difficulty.
+    3. If you are in difficulty, just give me a call.
 - receive a warm welcome 受到热烈欢迎
-
+    1. You will receive a warm welcome when you come to Beijing.
+    2. I am sure that you will receive a warm welcome.
+    3. They were amazed to find that they received a warm welcome from the villagers.

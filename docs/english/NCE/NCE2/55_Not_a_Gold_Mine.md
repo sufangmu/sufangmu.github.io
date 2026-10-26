@@ -26,25 +26,74 @@
 
 ### Words
 
-- treasure /ˈtrɛʒɚ/ 宝藏
-- Revealer /rɪˈvilɚ/ 探测器
+- treasure /ˈtrɛʒɚ/ *n.* 宝藏
+    1. a treasure map…
+    2. He drew a treasure
+    3. Let’s stick to the plan and find the treasure.（L54）
+    4. I want to know where the treasure is.（L39）
+- Revealer /rɪˈvilɚ/ *v.* 探测器
+    1. It is called a revealer.（L10）
+    2. Is it called a revealer?
+    3. Leo persuaded me not to buy that revealer.（L54）
+    4. Please, sign for this revealer.（L54）
 - buried /ˈbɛrid/ 埋
-- cave /kev/ 山洞
-- seashore /ˈsiˌʃɔr/ 岸边
-- pirates /ˈpaɪrəts/ 海盗
-- Armed /ɑrmd/ v. /vi/ 武装
-- soil /sɔɪl/ 土
-- entrance /ˈɛntrəns/ 入口
+- cave /kev/ *n.* 山洞
+    1. in a cave…
+    2. There is some buried treasure in that cave.
+    3. We’re gonna live in this cave for a long time, so maybe we should get it in order.（L52）
+    4. It takes him three days to get out of the cave.（L50）
+- seashore /ˈsiˌʃɔr/ *n.* 岸边
+    1. near the seashore…
+    2. There is a cave near the seashore.（L25）
+    3. We used to go to the seashore every summer.（L31）
+    4. Let’s go to the seashore and have a nice weekend.
+- pirates /ˈpaɪrəts/ *n.* 海盗
+    1. I like pirate stories.
+    2. Do you like pirate stories?
+- Armed /ɑrmd/ v. /vi/ *v.* 武装
+    1. arm sb./sth. with sth. = sb. be armed with sth.
+    2. Armed with a bucket and a mop, I started washing the floor.（L49）
+    3. Armed with the new machine, a search party went into the cave…
+    4. He armed the robot with a dagger.
+    5. The government armed the soldiers with the new guns.
+- soil /sɔɪl/ *n.* 土
+    1. There are a lot of worms in the soil.（L25）
+    2. bury + in the soil…
+- entrance /ˈɛntrəns/ *n.* 入口
+    1. I can’t find the entrance.
+    2. Why can’t you find the entrance?
+    3. Where's the entrance?Right here!
+    4. Don’t miss the entrance.
+    5. He was dismayed to find out that they miss the entrance.（L54）
 - dug /dʌɡ/ dig, 挖
-- thoroughly /ˈθɝoli/ 彻底地
+- thoroughly /ˈθɝoli/ *adv.* 彻底地
+    1. The party searched the whole cave thoroughly.
+    2. I searched his room thoroughly last night.
 - tin /tɪn/ 锡
-- trunk /trʌŋk/ 衣箱
+- trunk /trʌŋk/ *n.* 衣箱
+    1. Where do you find this empty tin trunk?
+    2. v. + trunk…
 - fairly /ˈfɛrli/ 相当地
-- invent /ɪnˈvɛnt/ 发明
-- detect /dɪˈtɛkt/ 探测
-- confident /ˈkɑnfədənt/ 自信的
-- value /ˈvælju/ 价值
-- worthless /ˈwɝθləs/ 无价值的
+- invent /ɪnˈvɛnt/ *n.* 发明
+    1. The “Revealer” was invented many years ago.（L10）
+    2. was/how long ago/when/what/how…
+    3. Who invented this?
+- detect /dɪˈtɛkt/ *n.* 探测
+    1. The “Revealer” has been used to detect gold.
+    2. He saved up for years to buy this “Revealer” that can detect gold.（L49）
+- confident /ˈkɑnfədənt/ *adj.* 自信的
+    1. I’m confident that they will stick to the plan.（L54）
+    2. Leo is confident that they will return this to him.（L45）
+- value /ˈvælju/ *n.* 价值
+    1. something of value….
+    2. I have something to give
+    3. It might contain something of value.（L19）
+    4. You’re worthless.
+    5. I’m not worthless.
+- worthless /ˈwɝθləs/ *adj.* 无价值的
+    1. I've never felt so worthless in my entire life.
+    2. You’re worthless.
+    3. I’m not worthless.
 
 ### Expressions
 

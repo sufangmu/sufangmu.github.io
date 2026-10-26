@@ -24,18 +24,34 @@
 
 ### Words
 
-- detectives /dɪˈtɛktɪvz/ 侦探
-- parcel /ˈpɑrsəl/ 包裹
+- detectives /dɪˈtɛktɪvz/ *n.* 侦探
+- parcel /ˈpɑrsəl/ *n.* 包裹
+    1. He asked for some parcels this morning.
+    2. Who asked for some parcels this morning?
 - diamonds /ˈdaɪməndz/ 钻石
-- steal /stil/ 偷
-- airfield /ˈɛrˌfild/ 机场
-- guard /ɡɑrd/ 守卫
-- precious /ˈprɛʃəs/ 珍贵的
-- expect /ɪkˈspɛkt/ 期待
-- valuable /ˈvæljuəbl/ 贵重的
-- main /men/ 主要的
+- steal /stil/ *v.* 偷
+    1. He stole that valuable diamond.
+    2. Did he steal that valuable diamond?
+    3. How did he steal that valuable diamond?
+- airfield /ˈɛrˌfild/ *n.* 机场
+    1. He turned round and found his girlfriend on the airfield.
+- guard /ɡɑrd/ *n.* 守卫
+    1. He is keeping guard at the door.
+- precious /ˈprɛʃəs/ *n.* 珍贵的
+    1. In this way, he got all the precious stones.
+    2. How did he get all the precious stones?
+- expect /ɪkˈspɛkt/ *v.* 期待
+    1. They were expecting a valuable parcel.
+    2. Were they expecting a valuable parcel?
+    3. Why were they expecting a valuable parcel?
+- valuable /ˈvæljuəbl/ *n.* 贵重的
+    1. Carl?
+- main /men/ *adj.* 主要的
+    1. This is the main building of UOA.
+    2. I called at the main building of UOA once a month.
 - stone /ston/ 石头
-- sand /sænd/ 沙子
+- sand /sænd/ *n.* 沙子
+    1. In return for my help, she sent some sand to me.
 
 ###  过去进行时 
 
@@ -58,16 +74,19 @@ was/were+doing 持续时间更⻓的动作
 ### Expressions
 
 - all morning 整个上午
+    1. I think about you all night.
 
 - a parcel of sth. 一包/一箱某物
 
 - A few hours earlier 几小时前
+    1. He asked his wife for some pocket money a few hours earlier.
 
 - keep guard 站岗；守卫
+    1. He kept guard at the door for 2 hours last night.
 
 - to sb.’s surprise 令某人惊讶的是
 
 - try to do sth. 试图做某事
+    1. I tried to pay attention, but I couldn’t bear it.（L1）
 
 - A be full of B A 装满了 B
-

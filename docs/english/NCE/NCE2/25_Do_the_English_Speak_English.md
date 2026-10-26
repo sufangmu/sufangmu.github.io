@@ -31,11 +31,20 @@
 
 ### Words
 
-- porter /ˈpɔrtɚ/ 搬运工
+- porter /ˈpɔrtɚ/ *n.* 搬运工
+    1. The porter complained about his job several times yesterday.（L24）
+    2. The porter will be meeting his girlfriend tonight.（L13）
+    3. The porter will have a difficult time.（L13）
 - several /ˈsɛvrəl/ 几个
-- foreigner /ˈfɔrənɚ/ 外国人
-- wonder /ˈwʌndɚ/ 惊讶
-- railway /ˈrelˌwe/ 铁路
+- foreigner /ˈfɔrənɚ/ *n.* 外国人
+    1. There are foreigners from all parts of the world in Beijing.（L13）
+    2. She had an amusing experience with a foreigner last summer.（L14）
+    3. If you speak French, please talk to that foreigner.（L16）
+- wonder /ˈwʌndɚ/ *v.* 惊讶
+- railway /ˈrelˌwe/ *n.* 铁路
+    1. The railway station must have been built years ago.（L21）
+    2. The railway station was built years ago.（L10）
+    3. Instead of going to the railway station, she went home.（L20）
 
 ### Expressions
 

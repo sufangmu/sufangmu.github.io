@@ -66,17 +66,52 @@
 
 ### Words
 
-- wave /wev/ 挥手
-- track /træk/ 跑道
+- wave /wev/ *v.* 挥手
+    1. Look, they are waving to you.
+    2. The policeman waved to you.
+    3. Did the policeman wave to you?
+- track /træk/ *n.* 跑道
+    1. My brother is driving a car on the race track.
+    2. They must be cleaning the race track now.
+    3. The race track which they cleaned yesterday is full of bottles now.
 - race /res/ 比赛
-- dream /drim/ 做梦
-- sign /saɪn/ 标志
+- dream /drim/ *v.* 做梦
+    1. She waved to you, but you didn’t see her.
+    2. You must have been dreaming.
+    3. I dreamed about you last night.
+    4. She dreamed about some bad things last night.
+- sign /saɪn/ *n.* 标志
+    1. The sign which they put up yesterday was not there this morning.
+    2. She must be cleaning the sign right now.
+    3. When he was cleaning the sign on the street yesterday, I waved to him.
 - mile /maɪl/ 英里
+    1. The railway station is 4 miles away.
+    2. She is driving at seventy miles an hour.
+    3. He must be driving at fifty miles an hour.
 - overtake /ˌovɚˈtek/ 超车
+    1. The white car overtook the red one a minute ago.
+    2. Did the white car overtake the red one a minute ago?
 - overtook /ˌovɚˈtʊk/ 超车（过去式）
+    1. The white car overtook the red one a minute ago.
+    2. Did the white car overtake the red one a minute ago?
 - speed limit /ˈspid ˌlɪmɪt/ 限速
+    1. He can’t have seen the speed limit.
+    2. She saw the speed limit.
+    3. Did she see the speed limit?
 - driving licence /ˈdraɪvɪŋ ˌlaɪsəns/ 驾照
-- charge /tʃɑrdʒ/ 罚款
+    1. I had to give police my driving license yesterday.
+    2. Did you have to give police your driving license yesterday?
+- charge /tʃɑrdʒ/ *v.* 罚款
+    1. The police will charge you this time.
+    2. The police won’t charge you this time.
+    3. Will the police charge me this time?
+    4. Who is waving to Ann and Gary?
+    5. The policeman is.
+    6. Why is the policeman waving?
+    7. How fast must Gary have been driving?
+    8. He must have been driving at seventy miles an hour.
+    9. Why does the policeman say so?
+    10. Because he was driving at eighty when he overtook Gary.
 
 ### Expressions
 
@@ -84,4 +119,3 @@
 - race track 赛道
 - speed limit 限速
 - driving licence 驾照
-

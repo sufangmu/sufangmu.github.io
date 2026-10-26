@@ -34,14 +34,37 @@
 
 ### Words
 
-- precautions /priˈkɔʃənz/ 预防措施
+- precautions /priˈkɔʃənz/ *n.* 预防措施
+    1. We should have taken great precaution.（L65）
+    2. I am ordered to take every precaution.
+    3. Why did you forbid me to take precaution?（L51）
 - picnic /ˈpɪkˌnɪk/ 野餐
-- shady /ˈʃedi/ 树荫
-- sheriff /ˈʃɛrəf/ 警长
-- notice /ˈnotəs/ 通知
-- sneer /snɪr/ 嘲笑
-- limelight /ˈlaɪmˌlaɪt/ 聚光灯
-- fan /fæn/ 粉丝
+- shady /ˈʃedi/ *adj.* 树荫
+    1. … a shady spot under some trees.
+    2. He has been reading a book in that shady spot for a long time.
+    3. It used to be a beautiful, shady spot.
+    4. We were able to/managed to find a shady spot and have a picnic there.（L43 L67）
+- sheriff /ˈʃɛrəf/ *n.* 警长
+    1. The sheriff insisted on our/us leaving the place.（L68）
+    2. It’s no use pretending that you know our sheriff.（L68）
+    3. In the meantime, the sheriff’s son played truant from school.（L73）
+- notice /ˈnotəs/ *v.* 通知
+    1. on such short notice…
+    2. Thank you for coming on such short notice.
+    3. There's a notice on the wall.
+    4. It was you who put the notice on the wall.（L58）
+- sneer /snɪr/ *v.* 嘲笑
+    1. 1 'You probably wouldn't understand,' he said with a sneer.
+    2. He sneered at me like everyone else.
+    3. Why do you sneer at people who write wonderful books?（L28）
+    4. sb.
+- limelight /ˈlaɪmˌlaɪt/ *n.* 聚光灯
+    1. The president's wife wanted to stay out of the limelight.
+    2. For the past three years, Stephen has stayed out of the limelight.
+    3. I want to continue to stay out of the limelight.（L69）
+- fan /fæn/ *n.* 粉丝
+    1. I never did tell you about my son, did I?
+    2. He is such a big fan of all sorts of music that…
 
 ### Expressions
 
@@ -52,8 +75,18 @@
 - with a sneer/sneer at sb. 嘲笑；对某人嗤之以鼻
 - a party of 一队；一群
 - Why don't we... 我们为什么不……
+    1. Why don't we go into the kitchen?
+    2. Why don’t we hitchhike to Beijing?（L73）
+    3. Why don’t we make it official?（L71）
 - carry sth. to sw. 把某物带到某地
+    1. If you can carry it to the top of the mountain, you may find what you were looking for.（L16 L46）
+    2. The man (who carried the bag to our house) lives across the street.（L28）
 - make oneself comfortable... 让自己舒服些
 - don't be too hard on us... 别对我们太苛刻
+    1. Don’t be too hard on yourself.
+    2. If I were you, I wouldn’t be too hard on myself.（L40）
+    3. You needn’t have been too hard on him.（L41）
+    4. Don’t be too hard on them, for they are very young.
 - get out of here... 从这里出去
-
+    1. I get out of here.
+    2. We should have got out of here.（L65）

@@ -33,17 +33,51 @@
 
 - trapped /træpt/ 困住
 - mine /maɪn/ 矿井
-- surface /ˈsɝfəs/ 表面
-- explosives /ɪkˈsplosɪvz/ 炸药
-- vibrations /vaɪˈbreʃənz/ 震动
-- collapse /kəˈlæps/ 倒塌
-- drilling /ˈdrɪlɪŋ/ 钻孔
-- capsule /ˈkæpsəl/ 容器
-- beneath /bɪˈniθ/ 在下方
-- smoothly /ˈsmuðli/ 顺利地
-- layer /ˈleɚ/ 层
-- lower /ˈloɚ/ 降低
-- progress /ˈprɑɡrɛs/ 进展
+- surface /ˈsɝfəs/ *n.* 表面
+    1. Most of the earth's surface is covered by sea.（L10）
+    2. On the surface, she kept on helping him.（L78）
+    3. He followed his father’s footsteps on the surface.（L72）
+- explosives /ɪkˈsplosɪvz/ *n.* 炸药
+    1. These explosives are used to destroy the building.
+    2. The young man is eager to see the explosives.
+    3. They are trying to remove the explosives from the bridge.（L59）
+- vibrations /vaɪˈbreʃənz/ *n.* 震动
+    1. I was woken up by the vibration of the windows last night.（L27）
+    2. was/when/who/why…
+    3. If I turn it up, you can even feel the vibration of music.（L16）
+    4. Some animals can feel vibrations in the sand. can/how/why…
+- collapse /kəˈlæps/ *n.* 倒塌
+    1. The heavy rain caused the collapse of the roof.
+    2. Thousands of buildings collapsed during the floods.
+    3. When the cave collapsed, they were still inside, but managed to get out in the end.（L67）
+- drilling /ˈdrɪlɪŋ/ *n.* 钻孔
+    1. After drilling for several weeks, they finally found the oil.（L49）
+    2. They were dismayed to find that nobody was drilling for them.（L54）
+    3. They noticed with dismay that nobody was drilling for them.（L86）
+- capsule /ˈkæpsəl/ *n.* 容器
+    1. in a special capsule…
+    2. The teacher informed all his students that the gifts were in a special capsule.（L85）
+    3. They volunteered to live in a special capsule for ten days.（L84）
+    4. They were standing in a circle around a special capsule.（L86）
+- beneath /bɪˈniθ/ *prep.* 在下方
+    1. We sat beneath a shady tree.
+    2. The body was hidden beneath a thin layer of soil.
+- smoothly /ˈsmuðli/ *adv.* 顺利地
+    1. I’m sure that everything will go smoothly in the next few weeks.（L78）
+    2. Did everything go smoothly?
+    3. If things go smoothly, we will see each other next week.（L16）
+- layer /ˈleɚ/ *n.* 层
+    1. Glass must be packed in several layers of paper.（L21）
+    2. Although she was wearing layers of clothes, she said she was cold.
+    3. There is a layer of dust on the dressing- table.
+- lower /ˈloɚ/ *adj.* 降低
+    1. You should have lowered your voice in his office.（L65）
+    2. People have a habit of lowering their voice when talking to an elderly.（L59）
+    3. It was obvious that he had hurt his lower back.（L51）
+- progress /ˈprɑɡrɛs/ *n.* 进展
+    1. His boss confirmed that they had made progress.
+    2. We're not finished yet, but we're making progress.
+    3. If everyone contribute to this, we’ll make progress soon.（L16）
 
 ### Expressions
 
@@ -54,10 +88,28 @@
 - make progress 取得进步
 - go/run smoothly 进展顺利
 - lose one’s life... 丧生
+    1. He lost his life in an air crash.
+    2. All the people in the building were saved, but a firefighter lost his life.（L10）
+    3. He failed to get out the building, and lost his life there.（L16）
 - As it is... 实际上；照现状
+    1. Friday, but as it is they'll probably have to come back next week.
+    2. We were hoping to have a holiday next week as it is, we may not be able to get away.（L36 L43）
 - enable sb. to do sth. 使某人能够做某事
+    1. This would enable you to walk again.
+    2. The new test should enable doctors to detect the disease early.（L65）
+    3. This dictionary will enable you to understand English words.
 - keep in touch with ... 与……保持联系
+    1. I'll keep in touch with you.
+    2. I should have kept in touch with him.
+    3. We decided to keep in touch with each other.（L22）
 - run out of ... 用完……
+    1. We've run out of petrol/money/paper.
+    2. They are so poor that they run out of food.（L35）
+    3. I have been doing this for ten hours and I’ve run out of patience.
+    4. We won’t lose heart.
+    5. We shouldn't lose heart.
+    6. Although we have run out of food, we will not lose heart.
 - lose heart… 灰心
 - cause sb./sth. to do sth. 使某人/某物做某事
-
+    1. You've caused me to lose a whole valuable day's work.
+    2. What caused you to change your mind?

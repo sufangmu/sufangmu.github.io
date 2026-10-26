@@ -34,13 +34,33 @@
 ### Words
 
 - committed /kəˈmɪtɪd/ 犯罪
-- inspector /ˌɪnˈspɛktɚ/ 检查员
-- employer /ɛmˈplɔɪɚ/ 雇主
+- inspector /ˌɪnˈspɛktɚ/ *n.* 检查员
+    1. The inspector has lost his patience.（L85）
+    2. The inspector, Leo, has just decided to volunteer to find out who committed the murder.
+    3. The inspector was relieved to hear that the murderer was caught last night.（L84）
+- employer /ɛmˈplɔɪɚ/ *n.* 雇主
+    1. The employer claimed to have fired 500 hundred people last week.（L82）
+    2. Our employer is used to getting up very early in the morning.（L79）
+    3. She is such a huge fan of her employer.（L74）
 - on /ɑn/ time /taɪm/ 准时
-- suggest /səˈdʒɛst/ 提醒
-- alibi /ˈæləˌbaɪ/ 不在场证明
-- confirm /kənˈfɝm/ 确认
-- truth /truθ/ 真相
+- suggest /səˈdʒɛst/ *v.* 提醒
+    1. I'm not suggesting she was responsible for the accident.（L71）
+    2. Are you suggesting I'm lazy?
+    3. I suggest you take a taxi.
+- alibi /ˈæləˌbaɪ/ *n.* 不在场证明
+    1. He had a perfect alibi and the police let him go. did/who…
+    2. If he had had a perfect alibi, the police wouldn’t have continued to search his place.
+    3. His lawyer has stated that he has an alibi.（L84）
+- confirm /kənˈfɝm/ *v.* 确认
+    1. He just confirmed that the volcano was erupting violently.
+    2. Can you confirm that he hitchhike to Paris last week?（L73）
+    3. I can confirm that they have made it official.（L71）
+- truth /truθ/ *n.* 真相
+    1. tell the truth…
+    2. It was Leo who told us the truth, not you.（L58）
+    3. I’m fairly certain that he told the police the truth.（L55）
+    4. Until we discover the cause, we won’t be able to tell the truth.（L53）
+    5. Are you suggesting…
 
 ### Expressions
 
@@ -50,4 +70,6 @@
 - Are you suggesting... 你是在暗示……吗
 - tell the truth 说实话
 - on time 准时
-
+    1. It’s my first day, so I must be on time.
+    2. Tell him that he must be at the meeting
+    3. So you can at least try to be on time.

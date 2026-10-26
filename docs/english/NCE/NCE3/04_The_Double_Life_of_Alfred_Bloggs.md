@@ -16,14 +16,31 @@
 
 ### Words
 
-- manual /ˈmænjuəl/ 体力
+- manual /ˈmænjuəl/ *adj. n.* 体力
+    1. Leo did manual work all day yesterday.
+    2. After doing manual work all day, he could finally have a rest.（NCE2 L49）
+    3. Oh great! I’m not tired at all. Despite the fact that I did manual work all day yesterday.
+    4. Why don’t you read the manual?
 - frequently /ˈfrikwəntli/ 频繁地
-- white-collar /ˌwaɪt ˈkɑlɚ/ 白领
-- sacrifice /ˈsækrəˌfaɪs/ 牺牲
+- white-collar /ˌwaɪt ˈkɑlɚ/ *n.* 白领
+    1. A short while ago, he became a blue-collar worker.
+- sacrifice /ˈsækrəˌfaɪs/ *v. n.* 牺牲
+    1. We must make a sacrifice sometimes.
+    2. Don’t feel obliged to make a sacrifice.
+    3. He sacrificed a lot of opportunities for you.
+    4. How many men would sacrifice their careers
 - curious /ˈkjʊriəs/ 奇怪的
-- dustman /ˈdʌstmən/ 清洁工
-- overalls /ˈovɚˌɔlz/ 工装
-- status /ˈstætəs/ 地位
+- dustman /ˈdʌstmən/ *n.* 清洁工
+    1. This morning, I happened to meet the dustmen who works for our company.
+    2. That dustman has got used to working at night.
+    3. The dustman woke up with a start.
+- overalls /ˈovɚˌɔlz/ *n.* 工装
+    1. He’s always wearing his overalls even after work.
+    2. His wife found him cleaning overalls in the early morning.
+    3. I’m so tired, for I have been washing my overalls.
+- status /ˈstætəs/ *n.* 地位
+    1. After college, she went to work at a high school in Japan, a country where older people are given higher social status. —— Business Insider He enjoys the status quo. We want it changed.
+    2. What's your relationship status? The Intern
 
 ### Expressions
 
@@ -41,16 +58,38 @@
 - keep the status quo 维持现状
 -  These days = nowadays 现在, 目前
 - Far more adj./n. 多得多的……
+    1. So their lives are far more valuable than mine.
+    2. It's far more exciting
 -  a be referred to as...b  称a为b
 -  refer to a as b (被称为)
 - for the simple reason that... + 句子 只是因为……这个简单的理由
+    1. ...for the simple reason that most men are older than their wives. —The Economist We can’t go for the simple reason that we can't afford it.
+    2. We didn't go swimming for the simple reason that the water was too cold.
+    3. Such is human nature, that + 句子 Such is human nature (that we show our appreciation for the most things beyond our understanding but forget to appreciate some of the simplest things of life.)
 -  Such is human nature, that + 句子 人类的本性是...
 -  be willing to do sth. 愿意做
+    1. I’m willing to help you to move this.
+    2. Are you willing to try?
 - give rise to = lead to = cause 引起；导致
+    1. This can give rise to some difficult problems.
+    2. Only hard work leads to true success.
+    3. Forest fires are often caused by broken glass or by cigarette ends...
 - too embarrassed to do sth. 太尴尬而不愿做某事
+    1. I'm too embarrassed to talk
+    2. She was too embarrassed to call.
+    3. And they were too embarrassed to talk about it because they just felt so silly. An American Werewolf in London
 - be dressed in ... 穿着……
+    1. He was dressed in a Santa Claus suit.
+    2. Because the guys we're killing are dressed in expensive suits…
 -  change into + ⾐服
+    1. Why don’t you
+    2. from now on call me/him/her a.
+    3. I want you to use those from now on.
+    4. I want you to have a rest from now on.
+    5. Please, just call me Leo.
 - half as much as ... 只有……的一半
+    1. Looks the same as
+    2. And it looks the same
 - from now on 从现在起
 - call me/him/her a. 叫我/他/她……
-
+    1. At one time, people referred to the city as the Paris of the East. — Webster I love how you refer to him as your husband.

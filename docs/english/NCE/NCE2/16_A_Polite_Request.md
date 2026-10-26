@@ -24,29 +24,55 @@
 ### Words
 
 - polite /pəˈlaɪt/ 有礼貌的
-- obey /oˈbe/ 遵守
-- park /pɑrk/ 停车
-- traffic /ˈtræfɪk/ 交通
+- obey /oˈbe/ *v.* 遵守
+    1. We must obey the traffic rules.
+    2. He refused to obey that stupid rule.（L9）
+    3. Why did he refuse to obey that rule?
+- park /pɑrk/ *v.* 停车
+    1. You can’t park your car here, sir.
+    2. Where can I park my car?
+    3. Is there a parking lot near here, sir?
+    4. Look, we are not allowed to park here.（L10）
+    5. I had an amusing experience last year while I was parking my car.（L14 L7）
+- traffic /ˈtræfɪk/ *n.* 交通
+    1. Our son is a traffic police and we are proud of him.（L12）
+    2. Those traffic lights have been broken by three kids.（L10）
+    3. We are late because there was heavy traffic.
 - ticket /ˈtɪkɪt/ 罚单
-- reminder /rɪˈmaɪndɚ/ 提醒
-- fail /fel/ 未能
-- note /not/ 便条
-- area /ˈɛriə/ 区域
+    1. Don’t park here.
+    2. You’ll get a ticket for that.
+    3. The traffic waved to me and asked me to stop, and then he gave me a ticket.（L14 L11）
+    4. I can’t afford to pay so many traffic tickets.
+- reminder /rɪˈmaɪndɚ/ *n.* 提醒
+    1. This note is only a reminder.
+    2. He reminds me of my father.
+    3. Does he remind you of your father?
+    4. Who does he remind you of?
+- fail /fel/ *v.* 未能
+    1. He failed to pay it back.（L11）
+    2. She failed to borrow the car from her neighbour.（L11）
+- note /not/ *n.* 便条
+    1. I believe you will all make notes in my class.（L15）
+- area /ˈɛriə/ *n.* 区域
+    1. This is a “No Parking” area.
+    2. Is this a “No Parking” area?
+    3. Why is this a “No Parking” area?
+    4. Can you read that sign?
 - sign /saɪn/ 标志
 
 ### Expressions
 
-parking lot 停车场
+- parking lot 停车场
 
-heavy traffic police/lights/jam 交通拥堵；交警；交通灯；交通堵塞 
+- heavy traffic police/lights/jam 交通拥堵；交警；交通灯；交通堵塞
 
-make notes/ make a note 记笔记 
+- make notes/ make a note 记笔记
 
-leave a note 留便条
+- leave a note 留便条
 
-remind sb. of sth./sb. 使某人想起某事/某人
+- remind sb. of sth./sb. 使某人想起某事/某人
 
-fail to do sth. 未能做某事
+- fail to do sth. 未能做某事
 
 ### if引导的条件从句 
 

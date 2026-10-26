@@ -28,16 +28,27 @@
 
 ### Words
 
-- A /ə/ short /ʃɔrt/ while /waɪl/ ago /əˈɡo/ 不久前
+- A /ə/ short /ʃɔrt/ while /waɪl/ ago /əˈɡo/ *n.* 不久前
+    1. A short while ago, he called at the police station.（L34）
+    2. He called out to his friends a short while ago.（L30）
 - regretted /rɪˈɡrɛtɪd/ 后悔
 - along /əˈlɔŋ/ 沿着
-- rush /rʌʃ/ 冲
-- acted /ˈæktɪd/ 行动
-- got /ɡɑt/ such /sʌtʃ/ a /ə/ fright /fraɪt/ 吓一跳
+- rush /rʌʃ/ *v.* 冲
+    1. He rushed out of the building.
+    2. He rushed towards the bus.
+- acted /ˈæktɪd/ *v.* 行动
+- got /ɡɑt/ such /sʌtʃ/ a /ə/ fright /fraɪt/ *n.* 吓一跳
+    1. My son used to rush into the kitchen, and I always got a fright.（L31）
+    2. The dishes must have been broken by the cat, and I got a fright.（L21）
 - As /æz/ 当
 - get /ɡɛt/ away /əˈwe/ 离开
-- battered /ˈbætɚd/ 坏的
-- Shortly /ˈʃɔrtli/ afterwards /ˈæftɚwɚdz/ 不久之后
+- battered /ˈbætɚd/ *adj.* 坏的
+    1. The battered car which was sent here yesterday morning is being repaired now.（L10 L28）
+    2. Look at your battered boots, you need a new pair.
+    3. On throwing the battered boots away, he immediately regretted it.（L33）
+- Shortly /ˈʃɔrtli/ afterwards /ˈæftɚwɚdz/ *adv.* 不久之后
+    1. Shortly afterwards, he started to complain about his wife.（L24）
+    2. Shortly afterwards, they woke up on the coast.
 - arrested /əˈrɛstɪd/ 逮捕
 
 ### so & such
@@ -61,4 +72,3 @@ such ... that
 - give me a fright 吓我一跳
 - get a fright 受惊
 - Shortly afterwards 不久之后
-

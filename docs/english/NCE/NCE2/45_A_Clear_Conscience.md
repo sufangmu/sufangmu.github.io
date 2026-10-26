@@ -32,14 +32,23 @@
 
 - learnt /lɝnt/ 知道
 - butcher /ˈbʊtʃɚ/ 屠夫
-- savings /ˈsevɪŋz/ 存款
-- villagers /ˈvɪlɪdʒɚz/ 村民
+- savings /ˈsevɪŋz/ *v.* 存款
+    1. He took his savings to the post office last week.
+- villagers /ˈvɪlɪdʒɚz/ *n.* 村民
+    1. The villager we met last night is having an operation.（L39）
+    2. The villagers are busy selling things to the tourists.（L40）
+    3. The villager is so angry that…（L35）
 - time /taɪm/ 最终
-- wallet /ˈwɑlɪt/ 钱包
+- wallet /ˈwɑlɪt/ *n.* 钱包
+    1. This wallet needs mending.（L44）
+    2. If I bought that wallet, I wound give it away.（L40）
+    3. He used to sell wallet on the street.（L31）
 - conscience /ˈkɑnʃəns/ 良心
 - per cent /pɚ ˈsɛnt/ 百分之
+    1. I'm 100 percent sure I'm right.
+    2. Are you 100 percent sure about this?
+    3. I have a clear conscience.
 
 ### Expressions
 
 - a clear conscience(良心) 问心无愧
-

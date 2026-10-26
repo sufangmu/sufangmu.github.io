@@ -54,17 +54,29 @@
 
 ### Words
 
-- umbrella /ʌmˈbrɛlə/ 雨伞
+- umbrella /ʌmˈbrɛlə/ *n.* 雨伞
+    1. This is my umbrella.
+    2. Is this your umbrella?
 - please /pliz/ 请
 - here /hɪr/ 这里
+    1. Is Leo here?
 - my /maɪ/ 我的
-- ticket /ˈtɪkɪt/ 票
+    1. my+n.
+- ticket /ˈtɪkɪt/ *n.* 票
+    1. This is my umbrella.
+    2. This is not my umbrella.
+    3. This not is my umbrella.
 - number /ˈnʌmbɚ/ 号码
 - five /faɪv/ 五
 - sorry /ˈsɑri/ 对不起；抱歉
+    1. I am so sorry.
 - sir /sɝ/ 先生
+    1. Thank you, sir (man) / ma’am
 - madam /ˈmædəm/ 女士
+    1. Thank you, sir (man) / ma’am
 - cloakroom /ˈklokˌrum/ 衣帽间
+    1. This is my cloakroom.
+    2. This is my coat.
 - suit /sut/ 西装；套装
 - school /skul/ 学校
 - teacher /ˈtitʃɚ/ 老师
@@ -78,4 +90,3 @@
 - Sorry, sir 对不起，先生
 - Thank you, sir 谢谢，先生
 - This is not my... 这不是我的……
-

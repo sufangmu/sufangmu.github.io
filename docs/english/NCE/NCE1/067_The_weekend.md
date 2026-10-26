@@ -44,17 +44,57 @@
 
 - greengrocer's /ˈɡrinˌɡrosɚz/ 果蔬零售商
 - absent /ˈæbsənt/ 缺席的
-- spend /spɛnd/ 度过；花费
+- spend /spɛnd/ *v.* 度过；花费
+    1. The students spend five days in the school every week.
+    2. I spend 2 hours in the gym every day.
 - lucky /ˈlʌki/ 幸运的
+    1. What’s your lucky number?
+    2. He was very lucky.
 - Monday /ˈmʌnde/ 星期一
 - Tuesday /ˈtuzde/ 星期二
 - Wednesday /ˈwɛnzde/ 星期三
 - Thursday /ˈθɝzde/ 星期四
 - Friday /ˈfraɪde/ 星期五
 - Saturday /ˈsætɚde/ 星期六
+    1. Aren’t you going to help him?
+    2. Don’t you like tea?
+    3. Doesn’t he look ill?
+    4. Johnson at the butcher's?
+    5. No, she wasn't.
+    6. Was she at the greengrocer's?
+    7. Yes, she was.
+    8. Who was at the butcher's?
+    9. Mrs.
+    10. Who was at the greengrocer's?
 - Sunday /ˈsʌnde/ 星期日
+    1. Aren’t you going to help him?
+    2. Don’t you like tea?
+    3. Doesn’t he look ill?
+    4. Johnson at the butcher's?
+    5. No, she wasn't.
+    6. Was she at the greengrocer's?
+    7. Yes, she was.
+    8. Who was at the butcher's?
+    9. Mrs.
+    10. Who was at the greengrocer's?
 - weekend /ˈwikˌɛnd/ 周末
+    1. Aren’t you going to help him?
+    2. Don’t you like tea?
+    3. Doesn’t he look ill?
+    4. Johnson at the butcher's?
+    5. No, she wasn't.
+    6. Was she at the greengrocer's?
+    7. Yes, she was.
+    8. Who was at the butcher's?
+    9. Mrs.
+    10. Who was at the greengrocer's?
 - country /ˈkʌntri/ 乡村
+    1. We’re gonna spend five days in the country.
+    2. Are you gonna spend five days in the country?
+    3. Isn’t he Leo?
+    4. Isn’t there any tea in the kitchen?
+    5. Can’t you see me?
+    6. Isn’t he sleeping?
 - church /tʃɝtʃ/ 教堂
 - dairy /ˈdɛri/ 乳品店
 - baker /ˈbekɚ/ 面包师
@@ -66,4 +106,3 @@
 - absent from school 缺课
 - spend three days in the country 在乡下度过三天
 - for the weekend 过周末
-

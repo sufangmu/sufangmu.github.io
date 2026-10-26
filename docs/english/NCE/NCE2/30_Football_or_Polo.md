@@ -25,15 +25,26 @@
 ### Words
 
 - bank /bæŋk/ 岸
-- rowing /ˈroɪŋ/ 划船
-- kicked /kɪkt/ 踢
+- rowing /ˈroɪŋ/ *v.* 划船
+    1. When they were rowing on the river, it began to rain.（L7）
+    2. Where were they?
+    3. I don’t know.
+    4. They may have been rowing on the river.（L19）
+    5. My brother is keen on rowing on the river.（L20）
+- kicked /kɪkt/ *v.* 踢
+    1. ] One of the children kicked a ball very hard.
 - struck /strʌk/ 打击
-- towards /təˈwɔrdz/ 朝
-- sight /saɪt/ 视线
+- towards /təˈwɔrdz/ *prep.* 朝
+    1. They walked towards that park.
+    2. When I got home last night, my son and my dog ran towards me.
+    3. It feels so good.
+- sight /saɪt/ *n.* 视线
+    1. It’s too late.
+    2. There aren’t any car in sight.
 
 ### Expressions
 
-polo 水球；马球
+- polo 水球；马球
 
 ### doing 现在分词做定语
 

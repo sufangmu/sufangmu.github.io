@@ -63,9 +63,37 @@
 ### Words
 
 - shopping list /ˈʃɑpɪŋ lɪst/ 购物清单
-- vegetable /ˈvɛdʒtəbl/ 蔬菜
-- need /nid/ 需要
-- money /ˈmʌni/ 钱
+    1. He’s gonna make a shopping list.
+    2. He’s making a shopping list.
+    3. He makes a shopping list every Friday.
+    4. He made a shopping list last night.
+    5. I can make a shopping list for you.
+    6. You must make a shopping list.
+- vegetable /ˈvɛdʒtəbl/ *n.* 蔬菜
+    1. I bought some vegetables for my parents yesterday.
+    2. I’m cleaning the vegetables.
+    3. Do you want some vegetable?
+    4. Is Tom making a shopping list?
+    5. No, he isn't.
+    6. Who is making a shopping list?
+    7. What do they need this week?
+    8. They need a lot of things.
+    9. Is she going to the grocer's?
+    10. Yes, she is.
+- need /nid/ *v.* 需要
+    1. I need some help/vegetables.
+    2. Do you need help?
+- money /ˈmʌni/ *n.* 钱
+    1. I need some money.
+    2. Can you give me some money?
+    3. Please, put the money on the desk.
+    4. Is she going to the greengrocer's?
+    5. Yes, she is.
+    6. Why must she go to the greengrocer's?
+    7. Have they got any meat?
+    8. No, they haven't got any at all.
+    9. Is she going to get any beer and wine?
+    10. No, she isn't.
 - groceries /ˈɡrosəriz/ 食品杂货
 - fruit /frut/ 水果
 - stationery /ˈsteʃəˌnɛri/ 文具
@@ -77,4 +105,3 @@
 - make a shopping list 列购物清单
 - a lot of things 很多东西
 - go to the grocer's 去杂货店
-

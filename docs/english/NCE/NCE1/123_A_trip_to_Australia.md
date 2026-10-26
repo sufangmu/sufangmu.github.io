@@ -74,13 +74,42 @@
 
 ### Words
 
-- during /ˈdʊrɪŋ/ 在……期间
-- trip /trɪp/ 旅行
-- travel /ˈtrævəl/ 旅行
-- offer /ˈɔfɚ/ 提供
+- during /ˈdʊrɪŋ/ *n.* 在……期间
+    1. I met him during my trip to New York.
+    2. We didn’t speak during the meal.
+    3. Why didn’t you speak during the meal?
+- trip /trɪp/ *n.* 旅行
+    1. I met him during my trip to New York.
+    2. We didn’t speak during the meal.
+    3. Why didn’t you speak during the meal?
+- travel /ˈtrævəl/ *v.* 旅行
+    1. I would like to travel there.（L107）
+    2. I travelled with my girlfriend last summer.
+- offer /ˈɔfɚ/ *v.* 提供
+    1. She offered me a job last year.
 - job /dʒɑb/ 工作
-- grow /ɡro/ 生长；留
-- grew /ɡru/ 生长（过去式）
+- grow /ɡro/ *v.* 生长；留
+    1. I grew a beard during my trip.
+    2. I grow some vegetables every summer.
+    3. What photographs were these?
+    4. They were the ones Mike took during his trip to Australia.
+    5. Whom did Scott ask about?
+    6. He asked about some people Mike met during the trip.
+    7. What was in the next photograph?
+    8. It was the ship Mike travelled on.
+    9. Did Mike take this photograph?
+    10. When did Mike take this photograph?
+- grew /ɡru/ *v.* 生长（过去式）
+    1. I grew a beard during my trip.
+    2. I grow some vegetables every summer.
+    3. What photographs were these?
+    4. They were the ones Mike took during his trip to Australia.
+    5. Whom did Scott ask about?
+    6. He asked about some people Mike met during the trip.
+    7. What was in the next photograph?
+    8. It was the ship Mike travelled on.
+    9. Did Mike take this photograph?
+    10. When did Mike take this photograph?
 - beard /bɪrd/ 胡须
 - kitten /ˈkɪtən/ 小猫
 
@@ -90,4 +119,3 @@
 - a beautiful ship 一艘漂亮的船
 - offered you a job 给你一份工作
 - grew a beard 留了胡子
-

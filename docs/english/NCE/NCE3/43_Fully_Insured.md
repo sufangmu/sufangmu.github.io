@@ -19,26 +19,63 @@
 ### Words
 
 - Insurance /ˌɪnˈʃʊrəns/ 保险
-- fete /fet/ 游园会
-- premium /ˈprimiəm/ 保险费
+- fete /fet/ *n.* 游园会
+    1. It's beyond me how she managed to squeeze through the tight crowd and make her way to the front of the stage at the fete.（L41&L42）
+- premium /ˈprimiəm/ *n.* 保险费
+    1. If you want all the benefits of full insurance, you need to be prepared to pay the premium.
+    2. Only those who are willing to pay the premium can have the privilege of obtaining full membership benefits.
 - claim /klem/ 索赔
-- recover /rɪˈkʌvɚ/ 弥补
-- Admittedly /ædˈmɪtɪdli/ 公认地
-- purchased /ˈpɝtʃəst/ 买
-- annual /ˈænjuəl/ 一年一度地
-- capsized /ˈkæpˌsaɪzd/ 翻
-- Shivering /ˈʃɪvərɪŋ/ 打颤
-- dived /daɪvd/ 跳水
-- hauling /ˈhɔlɪŋ/ 拖拽
-- hawsers /ˈhɔzɚz/ 粗缆绳
-- rim /rɪm/ 外沿
-- winch /wɪntʃ/ 绞车
-- agonizing /ˈæɡənaɪzɪŋ/ 精神紧张的
-- perched /pɝtʃt/ 处于
-- precariously /prɪˈkɛriəsli/ 危险地
-- vertically /ˈvɝtɪkli/ 垂直的
-- torrents /ˈtɔrənts/ 激流
-- rebound /riˈbaʊnd/ 弹回
+- recover /rɪˈkʌvɚ/ *v.* 弥补
+    1. The contract [that you will help to recover the cost of the stolen properties] is written in black and white.
+    2. The CEO seemed perturbed by the expenses they faced to recover the cost of the project.
+- Admittedly /ædˈmɪtɪdli/ *adv.* 公认地
+    1. Admittedly, I can tolerate a certain level of noise for your convenience, but it becomes unbearable when it’s late at night.
+- purchased /ˈpɝtʃəst/ *v.* 买
+    1. As a special treat, I decided to purchase tickets to a Broadway show for my parents' anniversary.
+    2. I feel bewildered by the number of options available when purchasing a new car.（L38）
+- annual /ˈænjuəl/ *adj.* 一年一度地
+    1. The annual meeting, which was held yesterday, provided an opportunity for the company's executives to discuss future strategies.
+    2. I look forward to attending the annual music festival and going into raptures when my favorite band performs.（N2L37）
+    3. The annual performance review provides an opportunity for employees to reflect on their achievements and set goals for the future.
+- capsized /ˈkæpˌsaɪzd/ *v.* 翻
+    1. To their horror, the boat capsized in the middle of the lake.
+    2. As the boat hit a large wave, the terrified child let out a cry when it began to capsize.
+- Shivering /ˈʃɪvərɪŋ/ *v.* 打颤
+    1. It astounded her that he could stand in the freezing water without shivering.
+    2. It was not until she entered the haunted house that she began to shiver.
+- dived /daɪvd/ *v.* 跳水
+    1. In order to keep his word to his friend, he dove into the deep waters to find the lost treasure.
+    2. She dove into the pool, complaining bitterly about the cold water temperature.
+    3. Born and bred in a family of athletes, he had a natural talent for diving.
+- hauling /ˈhɔlɪŋ/ *v.* 拖拽
+    1. In the dim light, the movers found it hard to haul the piano onto the moving truck.（L22&L29）
+    2. He insisted that we should haul the old sofa out of the living room.
+- hawsers /ˈhɔzɚz/ *n.* 粗缆绳
+    1. As the storm grew stronger, the sailors had the impulse to secure the hawser tightly to prevent the ship from drifting away.（L23）
+    2. The old hawser was replaced by a new one to ensure the safety of the ship.
+    3. The experienced captain took possession of the hawser, skillfully guiding the ship into the harbor.
+- rim /rɪm/ *n.* 外沿
+    1. The initials [engraved on the silver rim of the wine glass] indicated that it belonged to the royal family.（L38&L28）
+- winch /wɪntʃ/ *n.* 绞车
+- agonizing /ˈæɡənaɪzɪŋ/ *adj.* 精神紧张的
+    1. For one agonizing moment, the teacher reprimanded the student for cheating on the test.
+    2. For one agonizing moment, the cyclist lost control and collided with a tree.
+- perched /pɝtʃt/ *v.* 处于
+    1. He is bent on catching the bird which is perched on the lemon tree.
+    2. He described to me how he successfully caught the bird perched on the edge of the roof.
+- precariously /prɪˈkɛriəsli/ *adv.* 危险地
+    1. Only then did she realized that the ladder was placed precariously against the wall.
+    2. It is silly to lean precariously out of the window.
+- vertically /ˈvɝtɪkli/ *adv.* 垂直的
+    1. The students were puzzled by the vertically arranged numbers on the board.
+    2. It's silly of her to think she can balance a cup of coffee vertically on her head without spilling.
+- torrents /ˈtɔrənts/ *n.* 激流
+    1. He attempted to wade through the raging torrent.（L8&L42）
+    2. The suspect was put under arrest after the police discovered a torrent of evidence linking him to the crime.
+    3. It has always been a mystery to me why a torrent of emotions descend upon me whenever I heard that particular song.（L40&L41）
+- rebound /riˈbaʊnd/ *v.* 弹回
+    1. Oddly enough, the ball rebounded off the wall and landed perfectly in the player's hands.
+    2. He received an electric shock, which caused him to rebound off the wire.
 
 ### Expressions
 
@@ -53,15 +90,39 @@
 - rebound off 反弹
 - doing sth…is a standard practice =it’s a standard practice to do sth. 做某事是惯例
 - in the event of  万一
+    1. She underestimated how challenging a marathon can be in the event of extreme weather conditions.
+    2. In the event of heavy rain, the outdoor concert will be moved to an indoor location.
+    3. In the event of a fire, please leave the building immediately.
+    4. It is not uncommon to hear that…
+    5. It is not uncommon to hear that some people condition themselves to wake up early by setting multiple alarms.
+    6. It is not uncommon to hear that customers lodge a complaint when they receive poor service or faulty products.
+    7. It is not uncommon to hear that some people obtain money by deception.
 - It is not uncommon to hear that … 听到这种事并不罕见
 - make a claim for  要求得到...
+    1. They made a claim for compensation and blamed the airline for the delay in their flight.
+    2. The construction workers made a claim for additional funds to tunnel a course through the rocky mountain.
+    3. I had to make a claim for compensation after my luggage was lost during the flight.
 - at the same time 同时
+    1. She was talking to her friends while at the same time switching on the light.
+    2. The carpenter rigged up the shelf and listened to a book at the same time.
+    3. It is outrageous that she was texting her friend while at the same time listening to the lecture in class.
 - look on 旁观
+    1. The children just looked on as their father charged at the shallow pool of water ahead of them.
+    2. We just looked on as the divers plunged into the river in front of us.
+    3. She looked on as the children, who were playing in the park, laughed and ran around.
 - put sth. into operation  使某物投入运行
 - was drawn towards 被吸引到……
 - x a. to b./be fixed to 把 A 固定在 B 上
 - rest against 靠在……上休息
+    1. From the footprints in the sand, we can deduce that someone had stopped to rest against the tree.
+    2. The painting seems to have been carefully placed to rest against the wall.
+    3. I decided to take a video of the beautiful sunset as it seems to rest against the horizon.
 - start up 发动；启动
+    1. Sooner or later, she will start up the computer to begin her work.
+    2. My father had the foresight to start up the engine to check for any issues before going out on the journey.
+    3. He started up his motorcycle and roared down the hill.
 - set up  激起
 - send a. doing 使 A 做……
-
+    1. I’ll never forget the time when the strong wind sent the umbrella flying down the street.
+    2. However carefully he tried, he still made a loud noise which sent the birds flying out of the tree.
+    3. The loud music sent the crowd dancing, as they couldn’t resist it.

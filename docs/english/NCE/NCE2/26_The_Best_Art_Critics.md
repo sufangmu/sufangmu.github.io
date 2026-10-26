@@ -33,18 +33,42 @@
 
 ### Words
 
-- pretend /priˈtɛnd/ 假装
+- pretend /priˈtɛnd/ *v.* 假装
+    1. She pretended that she was interested in fishing.（L20）
+    2. You always pretend that you pay attention to my words.（L16）
 - pretty /ˈprɪti/ 漂亮的
-- patterns /ˈpætɚnz/ 图案
-- curtain /ˈkɝtən/ 窗帘
-- material /məˈtɪriəl/ 材料
-- appreciate /əˈpriʃiˌet/ 欣赏
-- notice /ˈnotəs/ 注意
+- patterns /ˈpætɚnz/ *n.* 图案
+    1. pretty pattern n.+ v.
+    2. She may like this pretty pattern.（L19）
+    3. As soon as she saw the wall, she liked the pretty patterns on it.（L14）
+    4. We will be seeing some pretty patterns tonight.（L13）
+- curtain /ˈkɝtən/ *n.* 窗帘
+    1. Can we afford to pay this curtain?（L15）
+    2. This is the most beautiful curtain I’ve ever seen.（L8）
+    3. While my husband was still sleeping, I got the curtain.（L7）
+- material /məˈtɪriəl/ *n.* 材料
+    1. listening material + v.
+    2. This listening material is harder than that one.（L8）
+    3. What material is this dress?
+- appreciate /əˈpriʃiˌet/ *v.* 欣赏
+    1. I really appreciate your help.
+- notice /ˈnotəs/ *n.* 注意
+    1. They notice more.
+    2. Do they notice more?
+    3. Both my parents and I didn’t see that notice.（L25）
 - critically /ˈkrɪtɪkəli/ 批判性地
 - down /daʊn/ 上下颠倒
-- art /ɑrt/ 艺术
-- whether /ˈwɛðɚ/ 是否
-- hang /hæŋ/ 悬挂
+- art /ɑrt/ *n.* 艺术
+    1. Do you like art?
+    2. art student + v.
+    3. Neither my sister nor my brother is an art student.（L25）
+    4. art museum + v.
+    5. I don’t know the way to the art museum.（L25）
+- whether /ˈwɛðɚ/ *conj.* 是否
+- hang /hæŋ/ *v.* 悬挂
+    1. My mom hung my picture on the wall.
+    2. She is hanging the picture on the wall.
+    3. I really appreciate that.
 
 ### Expressions
 
@@ -53,4 +77,3 @@
 - understand modern art 理解现代艺术
 - pretty patterns 漂亮的图案
 - upside down 上下颠倒
-

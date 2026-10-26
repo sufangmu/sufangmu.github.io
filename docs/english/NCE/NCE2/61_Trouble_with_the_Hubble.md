@@ -29,18 +29,52 @@
 
 - telescope /ˈtɛləˌskop/ 望远镜
 - disappointing /ˌdɪsəˈpɔɪntɪŋ/ 令人失望的
-- faulty /ˈfɔlti/ 有错误的
-- astronauts /ˈæstrəˌnɔts/ 宇航员
-- shuttle /ˈʃʌtəl/ 航天飞机
+- faulty /ˈfɔlti/ *adj.* 有错误的
+    1. Even though I know this is faulty, I still have to use it.
+    2. I told you it was faulty.（L39）
+    3. It is my car that’s faulty, not Leo’s.（L58）
+- astronauts /ˈæstrəˌnɔts/ *n.* 宇航员
+    1. I saw that famous astronaut at the village fair last weekend.（L60）
+    2. The astronaut spent three years training himself to cook.（L59）
+    3. The astronaut was eager to go home.（L57）
+- shuttle /ˈʃʌtəl/ *n.* 航天飞机
+    1. Can you tell me where the shuttle bus is?（L39）
+    2. It is said that there aren’t any shuttle buses here.（L58）
 - Endeavour /ɪnˈdɛvɚ/ 奋进号, 努力
-- atmosphere /ˈætməsˌfɪr/ 大气层
+- atmosphere /ˈætməsˌfɪr/ *n.* 大气层
+    1. The telescope is above the earth’s atmosphere.
+    2. is/where/what/why…
+    3. Do you like the atmosphere here?
+    4. Why don’t you like the atmosphere here?
 - galaxies /ˈɡæləksiz/ 星系
-- universe /ˈjunəˌvɝs/ 宇宙
-- eagle /ˈiɡəl/ 鹰
-- launch /lɔntʃ/ 发射
-- billion /ˈbɪljən/ 十亿
-- grab /ɡræb/ 抓
-- distant /ˈdɪstənt/ 遥远的
+- universe /ˈjunəˌvɝs/ *n.* 宇宙
+    1. What do you know about the universe?
+    2. He spent years learning things about universe.
+    3. I’m fairly certain that he know nothing about the universe.（L55）
+- eagle /ˈiɡəl/ *n.* 鹰
+    1. This eagle eye is worthless.（L55）
+    2. Let’s stick to the plan and fix the eagle eye first.（L54）
+    3. In his spare time, he likes to learn how the eagle eye works.（L52）
+- launch /lɔntʃ/ *v.* 发射
+    1. The Hubble telescope was launched…
+    2. on April 20, 1990.（L10）
+    3. was/what/why/when…
+    4. The telescope has already been launched.
+    5. The telescope will be launched next week.
+- billion /ˈbɪljən/ *n.* 十亿
+    1. a billion dollars…
+    2. It is said that the telescope is worth a billion dollars.（L58）
+    3. The telescope is said to be worth a billion dollars.（L58）
+    4. Are you telling me that a relation of yours has got a billion dollars?（L60）
+- grab /ɡræb/ *v.* 抓
+    1. I was thinking we should go grab a coffee.
+    2. Maybe we can grab a beer next week.
+    3. They've actually got a bar there, so I always
+    4. You're gonna grab the glasses
+- distant /ˈdɪstənt/ *n.* 遥远的
+    1. It occurred to me that we could see the distant galaxy through this telescope.（L46）
+    2. How can we have a glimpse of the distant galaxy?（L42）
+    3. You needn’t have told me that this is a picture of the distant galaxy.（L41）
 
 ### 将来完成进行时
 
@@ -51,5 +85,7 @@ will have been doing
 ### Expressions
 
 - right from the start 从一开始就
+    1. Right from the start, he complained of his work and his boss.（L59）
+    2. My mom forbade me to watch TV from Monday to Friday, right from the start.（L51）
+    3. Right from the start, I can’t tell the difference between these two.（L42）
 - grab a beer/coffee 喝杯啤酒/咖啡
-

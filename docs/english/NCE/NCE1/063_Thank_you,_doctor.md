@@ -55,12 +55,36 @@
 ### Words
 
 - better /ˈbɛtɚ/ 更好的
+    1. I am/feel better.
 - certainly /ˈsɝtənli/ 当然
-- rich /rɪtʃ/ 油腻的；丰富的
+- rich /rɪtʃ/ *adj.* 油腻的；丰富的
+    1. I don’t like rich food.
+    2. My friend likes rich food.
+    3. He is rich.
 - food /fud/ 食物
-- get up /ˌɡɛt ˈʌp/ 起床
+- get up /ˌɡɛt ˈʌp/ *v.* 起床
+    1. I always wake up at 6, but I remain in bed, and get up at 8:30.
+    2. How is Jimmy today?
+    3. He's better.
+    4. Can the doctor see him?
+    5. Yes, he can.
+    6. Does Jimmy look very well today?
+    7. Yes, he does.
+    8. Can Jimmy get up now?
+    9. No, he mustn't get up yet.
+    10. How long must he stay in bed?
 - yet /jɛt/ 还
-- remain /rɪˈmen/ 保持；留下
+- remain /rɪˈmen/ *v.* 保持；留下
+    1. He must remain in bed.
+    2. He mustn’t get up yet.
+    3. Can Jimmy go to school now?
+    4. No, he mustn't go to school yet.
+    5. Can he get up?
+    6. Yes, he can get up for about two hours each day.
+    7. Williams do?
+    8. She must keep the room warm.
+    9. Williams this evening?
+    10. He's in bed.
 - play /ple/ 玩
 - match /mætʃ/ 比赛
 - talk /tɔk/ 谈话
@@ -76,4 +100,3 @@
 - get up 起床
 - stay in bed 卧床
 - keep the room warm 保持房间温暖
-

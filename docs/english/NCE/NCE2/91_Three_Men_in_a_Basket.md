@@ -27,21 +27,47 @@
 ### Words
 
 - pilot /ˈpaɪlət/ 飞行员
-- balloon /bəˈlun/ 气球
+- balloon /bəˈlun/ *n.* 气球
+    1. balloons.（L90 L85）
+    2. The children expressed their gratitude to the man who sent the balloons.（L84）
+    3. It is known that Leo sent these balloons to the children.（L82）
 - for /fɔr/ 走向
-- Royal /ˈrɔɪəl/ Air /ɛr/ Force /fɔrs/ 英国空军
-- spying /ˈspaɪɪŋ/ 监视
-- keep /kip/ track /træk/ of /ʌv/ 跟踪
+- Royal /ˈrɔɪəl/ Air /ɛr/ Force /fɔrs/ *adj.* 英国空军
+    1. Royal Air Force Station…
+    2. It comes as a surprise to learn that the royal palace was burnt down last night.（L90 L71）
+    3. When they saw their kid’s “royal palace”, they all burst out laughing.（L89）
+- spying /ˈspaɪɪŋ/ *v.* 监视
+    1. He changed into all black clothes and spied on Lucy.（L81）
+    2. He has spied on that man for two weeks.
+    3. I need to spy on her, and we’re running out of food.
+    4. Please go and get some.（L88）
+- keep /kip/ track /træk/ of /ʌv/ *n.* 跟踪
+    1. How do you keep track of time if you don't wear a watch?
+    2. As a doctor, Brooks has to keep track of the latest developments in medicine.
+    3. I can keep track of things without using a computer.（L20）
 - make /mek/ out /aʊt/ 辨别
-- binoculars /bəˈnɑkjəlɚz/ 双筒望远镜
+- binoculars /bəˈnɑkjəlɚz/ *n.* 双筒望远镜
+    1. Armed with my binoculars, we went to see a football game.（L55）
+    2. The things that he saw through his binoculars were top secrets.
+    3. Why do you carry your binoculars to a comedy show?（L89）
 
 ### Expressions
 
 - spy on sb./sth. 暗中监视某人/某物
 - keep track of 跟踪；记录
 - seem to be doing ... 似乎正在做……
+    1. The brakes don't seem to be working.
+    2. They seem to be telling a story right now.（L27）
+    3. You seem to be taking a risk.（L44）
 - make for sw. 朝某地前进
+    1. We should have made for the bank of the river.（L65）
+    2. He was able to make for the car in the end.
+    3. I can read most of this, but I can't make out the last part.
+    4. Can you?
+    5. I can't make out your writing.
+    6. If we turn it up, we may be able to make out what they're saying.
 - make out… 辨认出……
 - soon afterwards 不久之后
 - be called in... 被召来……
-
+    1. The FBI has been called in to investigate.
+    2. As the police could not keep order in the city, the military were called in to help.（L13）

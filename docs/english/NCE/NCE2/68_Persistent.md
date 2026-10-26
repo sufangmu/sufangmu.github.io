@@ -31,12 +31,26 @@
 ### Words
 
 - pretending /priˈtɛndɪŋ/ 假装
-- insists /ˌɪnˈsɪsts/ 坚持
+    1. It’s no use pretending that you want to help me.
+    2. It’s no use pretending that you try to cross the street.
+    3. It’s no use pretending that you love me.
+- insists /ˌɪnˈsɪsts/ *v.* 坚持
+    1. Although you know smoking is bad for you, still you insist on doing that.
+    2. Even though he was very sick that winter, he insisted on writing his new book.
+    3. I insist on speaking to you.
 - preventing /prɪˈvɛntɪŋ/ 阻止
+    1. My wife tried to prevent me from drinking every day.
+    2. I don’t know why that prevents you from getting me the remote control.
+    3. Nothing could prevent me from sticking to my plan.（L54）
 - dentist /ˈdɛntəst/ 牙科医生
 - plenty /ˈplɛnti/ 大量
-- avoid /əˈvɔɪd/ 避免
-- cross /krɔs/ 穿过
+- avoid /əˈvɔɪd/ *v.* 避免
+    1. I do try to avoid meeting new people recently.
+    2. I’ve noticed that you tried to avoid meeting me recently.（L67）
+    3. Please do try to avoid helping me in the future.（L60）
+- cross /krɔs/ *prep.* 穿过
+    1. He crossed the street so that he could avoid meeting that man.（L59）
+    2. He lives across the street.
 
 ### Expressions
 
@@ -46,9 +60,23 @@
 - prevent sb. from doing sth. 阻止某人做某事
 - fancy meeting you here 真没想到在这儿见到你
 - enjoy doing sth. 喜欢做某事
+    1. I enjoy reading every night before I go to bed.
+    2. I enjoy drinking tea in the afternoon.
+    3. I’ll love you no matter what you do.
+    4. Call me when you arrive, no matter how late it is.
 - no matter how/what/where 无论怎样/什么/哪里
 - follow sb. around 到处跟着某人
+    1. No matter where you go, I’ll follow you around.
+    2. Please don’t follow me around.
+    3. You should have followed me around.
+    4. She insisted on following me around yesterday.
 - I was wondering ...+句子 我在想……
 - would you mind my doing... 你介意我做……吗
+    1. He insisted on reading the letter.
+    2. He insisted on my/me reading the letter.
+    3. Would you mind telling me the whole story?
+    4. Would you mind Leo’s/Leo telling us the whole story?
 - finish doing sth. 做完某事
-
+    1. (that you borrowed from me last month)?
+    2. When you finish eating your dinner, please wash the dishes.
+    3. Before I finished speaking, she had run away.

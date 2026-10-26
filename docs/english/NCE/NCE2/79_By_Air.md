@@ -29,11 +29,22 @@
 ### Words
 
 - flight /flaɪt/ attendant /əˈtɛndənt/ 空姐
-- curious /ˈkjʊriəs/ 好奇的
+    1. As soon as the he lit a cigarette, the flight attendant asked him not to.（L78）
+    2. In the end, the flight attendant lost her temper.（L78）
+    3. “Please, make yourself comfortable” said the flight attendant.（L74）
+- curious /ˈkjʊriəs/ *adj.* 好奇的
+    1. I was curious to find out what she had said.
+    2. He was curious to find out why she had left her job so suddenly.
+    3. I’m curious to find out why he have such a bad temper.（L78）
 - planted /ˈplæntɪd/ 放
 - thoroughly /ˈθɝoli/ 认真仔细地
-- bomb /bɑm/ 炸弹
-- frightened /ˈfraɪtənd/ 受惊的
+- bomb /bɑm/ *v.* 炸弹
+    1. The police was sure that someone had planted a bomb near the station.（L78）
+    2. He got the nerve to plant a bomb there.（L78）
+    3. They covered the bomb with a blanket.（L75）
+- frightened /ˈfraɪtənd/ *adj.* 受惊的
+    1. It made me feel frightened.（L57）
+    2. I felt frightened by the anger in his voice.（L15）
 
 ### 部分倒装
 
@@ -51,10 +62,23 @@ Only policemen can come in.
 - sb. be curious to find out + 句子
 - plant a bomb 放置炸弹
 - a great deal 大量
+    1. "I feel a lot better"
+    2. "we enjoyed ourselves very much"
+    3. Your words meant a great deal to me.
+    4. This would help a great deal.
+    5. I've read a great deal about you.
 - take charge of 负责
+    1. At first she tried to take charge of the meeting. did/who/why/when…
+    2. John will be taking charge of the next meeting.（L13）
 - be used to doing... 习惯于做……
+    1. It was used to detect gold.
+    2. He used to smoke.
+    3. He is used to asking his parents to help him.（L11）
+    4. He is used to going to sleep very late.（L49）
+    5. When will the plane be taking off?（L13）
+    6. The plane is trying to gain height at the moment.
+    7. When the plane touched down, several detectives were waiting at the airport.
 - take off ... 起飞
 - gain height... 爬升
 - touch down... 着陆
 - on board... 在飞机/船上
-

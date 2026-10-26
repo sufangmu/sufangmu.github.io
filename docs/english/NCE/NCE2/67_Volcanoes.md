@@ -24,19 +24,48 @@
 
 ### Words
 
-- volcanoes /vɑlˈkenoz/ 火山
+- volcanoes /vɑlˈkenoz/ *n.* 火山
+    1. She is eager to see the volcano.（L57）
+    2. If you had gone to the national park, you would have seen the famous volcano.（L64）
 - caves /kevz/ 洞穴
 - set /sɛt/ up /ʌp/ his /hɪz/ camp /kæmp/ 安营扎寨
-- erupting /ˌiˈrʌptɪŋ/ 爆发
-- violently /ˈvaɪələntli/ 猛烈地
-- brilliant /ˈbrɪljənt/ 精彩的
-- liquid /ˈlɪkwəd/ 液态
+- erupting /ˌiˈrʌptɪŋ/ *v.* 爆发
+    1. It was very fortunate that when the volcano erupted, no one was near it.（L65）
+    2. He's like a volcano just waiting to erupt.
+    3. An active volcano may erupt at any time.（L19）
+- violently /ˈvaɪələntli/ *adj.* 猛烈地
+    1. She became so nervous that she shook violently.（L35）
+    2. If you had shaken your head so violently, you would have been in hospital too.（L64）
+    3. He kicked at the door violently.
+- brilliant /ˈbrɪljənt/ *adj.* 精彩的
+    1. What a brilliant idea!
+    2. That's brilliant!
+    3. I had a brilliant plan.
+    4. We can have our house rebuilt.（L66）
+    5. I have all sorts of brilliant plans in my head.
+- liquid /ˈlɪkwəd/ *adj.* 液态
+    1. They have been turned into liquid.（L66）
+    2. You should have stayed away from the liquid rock.（L65）
+    3. If you had stayed away from the liquid rock, you wouldn’t have been hurt.（L64）
 - rock /rɑk/ 岩石
-- escape /ɪˈskep/ 逃脱
+- escape /ɪˈskep/ *n.* 逃脱
+    1. There is no escape from this/here?
+    2. If you try to escape, I will shoot you.（L16）
+    3. The cat (that I bought from the market) always tries to escape.（L28）
 - measure /ˈmɛʒɚ/ 测量
-- active /ˈæktɪv/ 活跃的
-- manage /ˈmænɪdʒ/ 设法做到
-- alive /əˈlaɪv/ 活着的
+- active /ˈæktɪv/ *adj.* 活跃的
+    1. If you had spent more time studying active volcanoes, you should have known this.（L64）
+    2. Two years ago, you were a school prefect and active in the church.
+    3. We ought to have learnt more about active volcanoes.（L65）
+- manage /ˈmænɪdʒ/ *v.* 设法做到
+- alive /əˈlaɪv/ *adj.* 活着的
+    1. He’s alive.
+    2. We need/want him alive.
+    3. There's something alive down there.
+    4. Star Wars: Episode V - The Empire Strikes
+    5. We need him alive so that…（L59）
+    6. What a brilliant idea!
+    7. That's brilliant!
 
 ### managed to do sth.
 
@@ -47,4 +76,6 @@ to succeed in doing or dealing with something, especially something difficult
 ### Expressions
 
 - set up his camp/tent 安营扎寨
-
+    1. We're gonna set up the tent under the trees, and we'll spend the night here.
+    2. If we had set up the tent under the trees, we would have died last night.（L64）
+    3. They had their tent set up under the trees.（L66）

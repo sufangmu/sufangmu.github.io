@@ -25,22 +25,43 @@
 
 ### Words
 
-- clavichord /ˈklævəˌkɔrd/ 古钢琴
-- jazz /dʒæz/ 爵士乐
-- musical /ˈmjuzɪkl/ 音乐的
+- clavichord /ˈklævəˌkɔrd/ *n.* 古钢琴
+    1. Listen, someone is playing the clavichord.
+    2. While I was doing my homework, my sister was playing the clavichord.（L7）
+    3. This is the most beautiful clavichord I’ve ever seen.（L8）
+- jazz /dʒæz/ *n.* 爵士乐
+    1. This is Louis Armstrong.
+    2. He began to play jazz when he was very young.（L9）
+    3. He listens to jazz almost every day.
+- musical /ˈmjuzɪkl/ *n.* 音乐的
+    1. My parents got all these musical instruments for me many years ago.（L5）
+    2. He refused to lend me his musical instruments.
 - instrument /ˈɪnstrəmənt/ 乐器
-- damage /ˈdæmɪdʒ/ 损坏
+- damage /ˈdæmɪdʒ/ *adv.* 损坏
+    1. Recently, a visitor damaged the clavichord.
+    2. Did a visitor damaged the clavichord?
 - recently /ˈrisəntli/ 最近
-- key /ki/ 琴键
-- string /strɪŋ/ 弦
-- shock /ʃɑk/ 使震惊
-- allow /əˈlaʊ/ 允许
-- touch /tʌtʃ/ 触摸
+- key /ki/ *n.* 琴键
+    1. I’ve just sent a request for some keys.（L5）
+    2. He refused to repair the keys for me.（L9）
+- string /strɪŋ/ *n.* 弦
+    1. This is the best string I’ve ever used.（L8）
+    2. This string is better than that one.（L8）
+- shock /ʃɑk/ *adj.* 使震惊
+    1. This shocked my father.
+    2. Did this shock your father?
+- allow /əˈlaʊ/ *v.* 允许
+- touch /tʌtʃ/ *v.* 触摸
+    1. Don’t touch me/that!
+    2. We are not allowed to touch anything in the museums.
+    3. Why aren’t we allowed to touch anything in the museums?
 
 ### Expressions
 
 - musical instrument 乐器
 - be allowed to do sth. 被允许做某事
+    1. Sir, you are not allowed to smoke on the plane.
+    2. You are allowed to use phone on the plane.
 
 - allow sb. to do sth. 允许某人做某事
 - Who was the music composed by? 被动语态疑问句

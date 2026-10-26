@@ -39,10 +39,41 @@
 ### Words
 
 - madam /ˈmædəm/ 夫人；女士
-- smart /smɑrt/ 漂亮的；时髦的
-- pretty /ˈprɪti/ 漂亮的
+    1. Madam, can I help you?
+- smart /smɑrt/ *adj.* 漂亮的；时髦的
+    1. It’s a very smart dress.
+    2. Yes, and that woman is very pretty, too/as well.
+    3. I would like some tea.
+    4. I’d like some tea.
+    5. Would you like some tea?
+    6. Does the lady like the blue dress?
+    7. Yes, she does.
+    8. Does she say the blue dress is lovely?
+    9. So why doesn't she want it?
+    10. It's too small for her.
+- pretty /ˈprɪti/ *adj.* 漂亮的
+    1. It’s a very smart dress.
+    2. Yes, and that woman is very pretty, too/as well.
+    3. I would like some tea.
+    4. I’d like some tea.
+    5. Would you like some tea?
+    6. Does the lady like the blue dress?
+    7. Yes, she does.
+    8. Does she say the blue dress is lovely?
+    9. So why doesn't she want it?
+    10. It's too small for her.
 - as well /əz wɛl/ 也
-- suit /sut/ 适合
+- suit /sut/ *v.* 适合
+    1. It suits you.
+    2. Does it suit me?
+    3. It doesn’t suit you.
+    4. would like+to do sth.
+    5. I would like to help him.
+    6. I’d like to help him.
+    7. Would you like to help him?
+    8. Which dress is smaller, the blue one or the green one?
+    9. The blue one.
+    10. Does the lady think the blue dress is prettier than the green one?
 
 ### Expressions
 
@@ -50,4 +81,3 @@
 - try it 试试它
 - in fashion 时髦
 - suit me 适合我
-

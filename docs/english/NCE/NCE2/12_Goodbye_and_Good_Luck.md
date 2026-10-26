@@ -23,22 +23,51 @@
 
 ### Words
 
-- Captain /ˈkæptən/ 船长
-- sail /sel/ 航行
-- harbour /ˈhɑrbɚ/ 港口
-- luck /lʌk/ 运气
+- Captain /ˈkæptən/ *n.* 船长
+    1. The captain has just asked me to help him.
+    2. I borrowed some money from our captain and he told me not to pay it back.（L11）
+- sail /sel/ *v.* 航行
+    1. Will Charles Alison sail from Portsmouth tomorrow?
+    2. Portsmouth?
+- harbour /ˈhɑrbɚ/ *n.* 港口
+    1. This harbour was built many years ago.
+    2. They built this harbour many years ago.
+    3. I met your mom at the harbour many years ago.
+- luck /lʌk/ *n.* 运气
 - proud /praʊd/ 自豪的
-- important /ɪmˈpɔrtənt/ 重要的
+    1. The captain is very proud of me.
+    2. York and my parents are very proud of me.（L8）
+- important /ɪmˈpɔrtənt/ *adj.* 重要的
+    1. I got a very important question to ask you.
+    2. Last night, I made a very important decision.（L3）
+    3. I find this message very important.（L4）
+    4. Why do you find this message very important?
 
 ### Expressions
 
 - sail from sw. 从某地起航
+    1. Will he sail from Portsmouth tomorrow?
 - set out 出发
+    1. I will set out at 8, and fly to Auckland.（L4）
+    2. When will we set out?
 - have plenty of time 有足够的的时间
+    1. We’ll have plenty of time and we’ll spend three days in Beijing.（L3）
 - will be away 将离开
+    1. He will be away for two months.
+    2. Will he be away for two months?
+    3. How long will he be away?
+    4. Who will be away for two months?
+    5. Why will he be away for two months?
 - A be proud of B A 为 B 感到骄傲
+    1. I am proud of you.
+    2. My parents are proud of me.
 - say goodbye to sb. 向某人告别
+    1. Come here and say goodbye to your aunt.
+    2. My parents asked me to say goodbye to him.（L11）
 - take part in 参加
+    1. He refused to take part in the race.（L9）
+    2. Did he refuse to take part in the race?
+    3. Why did he refuse to take part in the race?
 - You luck dog 你是个幸运儿
 
 ### 一般将来时

@@ -88,18 +88,37 @@
 
 - good morning /ˌɡʊd ˈmɔrnɪŋ/ 早上好
 - Mr. /ˈmɪstɚ/ 先生
+    1. Mr.
+    2. Mrs.
+    3. Ms.
 - Miss /mɪs/ 小姐
+    1. Mr.
+    2. Mrs.
+    3. Ms.
 - Mrs. /ˈmɪsɪz/ 夫人；太太
+    1. Mr.
+    2. Mrs.
+    3. Ms.
 - Ms. /mɪz/ 女士
-- new /nju/ 新的
+- new /nju/ *n.* 新的
+    1. adj. + n.
+    2. She is a new student.
 - student /ˈstjudənt/ 学生
 - French /frɛntʃ/ 法国的；法语
-- German /ˈdʒɝmən/ 德国的；德语
+    1. French fries = chips
+    2. He is French.
+- German /ˈdʒɝmən/ *n.* 德国的；德语
+    1. She is German.
 - nice to meet you /ˌnaɪs tə ˈmit ju/ 很高兴见到你
-- Japanese /ˌdʒæpəˈniz/ 日本的；日语
-- Korean /kəˈriən/ 韩国的；韩语
-- Chinese /ˌtʃaɪˈniz/ 中国的；汉语
+    1. How are you? = Hi
+- Japanese /ˌdʒæpəˈniz/ *n.* 日本的；日语
+    1. They are Japanese.
+    2. Are they Japanese?
+- Korean /kəˈriən/ *n.* 韩国的；韩语
+    1. She is Korean.
+- Chinese /ˌtʃaɪˈniz/ *n.* 中国的；汉语
 - too /tu/ 也
+    1. I like this coat. me too.
 - make /mek/ 牌子
 - brand /brænd/ 品牌
 - Swedish /ˈswidɪʃ/ 瑞典的
@@ -118,4 +137,3 @@
 - This is... 这是……
 - He's/She's + 国籍 他/她是……
 - too 也
-

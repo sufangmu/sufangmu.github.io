@@ -27,19 +27,42 @@
 
 ### Words
 
-- instructed /ˌɪnˈstrʌktəd/ 教授
-- reluctant /rɪˈlʌktənt/ 不情愿的
+- instructed /ˌɪnˈstrʌktəd/ *v.* 教授
+    1. be instructed in doing sth. = instruct sb.
+    2. My job is to instruct her in English.
+    3. He instructed me in building a boat.
+- reluctant /rɪˈlʌktənt/ *adj.* 不情愿的
+    1. He was reluctant to ask for help.（L6）
+    2. My son is reluctant to go to the kindergarten.
+    3. She was very reluctant to tell the truth.（L87）
 - accustomed /əˈkʌstəmd/ 习惯于
-- Tricycles /ˈtraɪsɪklz/ 三轮车
+- Tricycles /ˈtraɪsɪklz/ *n.* 三轮车
+    1. His grandfather seems to be repairing the tricycle.（L91）
+    2. He noticed with dismay that his tricycle wasn’t there any more.（L86）
 - up /ʌp/ 一字排开
-- compete /kəmˈpit/ 竞争
+- compete /kəmˈpit/ *v.* 竞争
+    1. We’re gonna compete against teams that have been doing this for years.（L52 L28）
+    2. I had to compete against 19 other people for the job.
+    3. They made us compete against each other.（L57）
 - pedal /ˈpɛdəl/ 骑
 - champions /ˈtʃæmpiənz/ 冠军
 - among /əˈmʌŋ/ 在…中间
-- gasping /ˈɡæspɪŋ/ 喘气
-- weight /wet/ 重量
-- underwater /ˌʌndɚˈwɔtɚ/ 水下的
-- yard /jɑrd/ 码
+- gasping /ˈɡæspɪŋ/ *v.* 喘气
+    1. "Help me!" he gasped.
+    2. The cold made her gasp.（L57）
+    3. She gasped at the wonderful view.
+- weight /wet/ *n.* 重量
+    1. Please carry these heavy weights to that room.（L74）
+    2. The doctor said he must not lift heavy weights.
+    3. We should have moved these heavy weights.
+- underwater /ˌʌndɚˈwɔtɚ/ *adj.* 水下的
+    1. How long can you hold your breath underwater?
+    2. Take a deep breath and see how long you can stay underwater.
+- yard /jɑrd/ *n.* 码
+    1. The monument is one hundred yards away.
+    2. Where is the house?
+    3. I think that is almost four hundred yards away.
+    4. The nearest toilet is three hundred yards away.
 
 ### Expressions
 
@@ -47,8 +70,16 @@
 - be reluctant to do sth. 不愿意做某事
 - compete against 与……竞争
 - sb./sth. proved that + 句⼦
+    1. He proved that he was right and we were moving in a circle.（L86）
+    2. You’ve proved that you have a perfect alibi.（L87）
 - hold sb’s breath 屏住呼吸
+    1. How long can you hold your breath?
+    2. If you wanna pass the test, just don’t hold your breath.（L84）
 - be accustomed to doing 习惯于做……
+    1. He was accustomed to getting up early.
+    2. I'm not accustomed to drinking alcohol.
+    3. I’m accustomed to changing into uniform before work.（L81）
 - be popular with... 受……欢迎
 - be lined up 排成队
-
+    1. Why are people lined up?
+    2. They were lined up in front of the house.

@@ -14,16 +14,36 @@
 
 ### Words
 
-- costume /ˈkɑstum/ 服装
-- costume /ˈkɑstum/ 化妆服
-- consisted /kənˈsɪstəd/ 由……组成
-- sheet /ʃit/ 床单
-- effective /ɪˈfɛktɪv/ 有效的
+- costume /ˈkɑstum/ *n.* 服装
+    1. You looked really cute in your costume.
+    2. Leo informed me that he could lend you the costume.
+    3. We’ll be going to a costume party tonight.
+- costume /ˈkɑstum/ *n.* 化妆服
+    1. You looked really cute in your costume.
+    2. Leo informed me that he could lend you the costume.
+    3. We’ll be going to a costume party tonight.
+- consisted /kənˈsɪstəd/ *v.* 由……组成
+    1. The crowd consisted mostly of college kids and office workers.
+    2. This thing consists of sugar and water.
+- sheet /ʃit/ *n.* 床单
+    1. She realized to her horror that the sheet was covered with puma fur.
+    2. I should have bought that new sheet.
+    3. Now that you get your new sheet, don’t eat on the bed again.
+- effective /ɪˈfɛktɪv/ *adj.* 有效的
+    1. They find Leo’s English class very effective.
+    2. Imagine Leo’s dismay when he found out that the new plan was not very effective.
+    3. It's not as effective as the new method, but it seems to be working.
 - baker /ˈbekɚ/ 糕点师
 - bread /brɛd/ 面包
 - read /rɛd/ the /ðə/ meter /ˈmitɚ/ 抄表
-- paces /ˈpesɪz/ 步调
-- fled /flɛd/ flee, 逃走
+- paces /ˈpesɪz/ *n.* 步调
+    1. Normally you can let the people
+    2. The man jumped back several paces.
+    3. The pace of life is much slower in New Zealand.
+    4. I'm used to the fast pace of life.
+- fled /flɛd/ flee, *v.* 逃走
+    1. When police arrived on the scene, the two men had fled.
+    2. When John saw the police car, he turned around and fled.
 - slamming /ˈslæmɪŋ/ 砰地关上
 
 ### Expressions
@@ -33,6 +53,11 @@
 - at your own pace 按照自己的节奏
 - The pace of life 生活节奏
 - fancy dress party 化妆舞会
+    1. Nobody told me tonight was fancy dress! Easy Virtue (2008)
+    2. Did you hear about the man who went to the fancy dress party alone last night?
+    3. We’ll all have an opportunity to go to the fancy dress party tonight.
 - be impatient to do sth.  迫不及待地想做某事
 - let out a cry 发出一声呼喊
-
+    1. When she saw him, she let out a cry of horror.
+    2. Letting out a cry, she...
+    3. I wish that she had let out a cry.

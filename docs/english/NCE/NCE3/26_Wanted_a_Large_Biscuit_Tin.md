@@ -18,23 +18,42 @@
 
 ### Words
 
-- pride /praɪd/ 骄傲
-- taste /test/ 鉴赏力
-- exerts /ɪɡˈzɝts/ 施加
-- subtle /ˈsʌtəl/ 微妙的
+- pride /praɪd/ *v.* 骄傲
+    1. Considering what just happened, he clearly prides himself on his course now.
+- taste /test/ *n. v.* 鉴赏力
+    1. There is no doubt that some people have really bad taste in clothes.
+    2. No one would accuse you of having good taste, ok?
+    3. All I know at the moment
+- exerts /ɪɡˈzɝts/ *v.* 施加
+    1. It is impossible for him not to exert some influence on his kids’ behavior.
+    2. Technically speaking, everything can exert some influence on us.
+- subtle /ˈsʌtəl/ *adj.* 微妙的
+    1. The warning signs of the disease are so subtle that they are often ignored.
 - persuade /pɚˈswed/ 首说服
 - classified /ˈklæsəˌfaɪd/ 分类
-- samples /ˈsæmpəlz/ 样品
-- capture /ˈkæptʃɚ/ 吸引
+- samples /ˈsæmpəlz/ *n.* 样品
+    1. They were giving out free samples of ice cream at the store.
+    2. They offer you free samples of products and hope you will buy it at last.
+- capture /ˈkæptʃɚ/ *v.* 吸引
+    1. Her ponytail swayed from side to side and capture my attention.
 - bake /bek/ 烤
-- wheelbarrow /ˈwilˌbɛro/ 独轮手推车
+- wheelbarrow /ˈwilˌbɛro/ *n.* 独轮手推车
+    1. He felt obliged to buy a new wheelbarrow for his father.
 - occupied /ˈɑkjəˌpaɪd/ 占用
-- boot /but/ 行李箱
+- boot /but/ *n.* 行李箱
+    1. British English an enclosed space at the back of a car, used for carrying bags etc SYN trunk American English
+    2. Leo explained that the money was in the boot of his car.
 - lorry /ˈlɔri/ 卡车
 - colossal /kəˈlɑsəl/ 巨大的
 - flour /ˈflaʊɚ/ 面粉
-- crane /kren/ 起重机
-- anticipated /ænˈtɪsəˌpetɪd/ 预期
+- crane /kren/ *n.* 起重机
+    1. My little daughter takes no interest in this toy crane.
+    2. I think we should take that crane into account.
+    3. It is estimated that the crane [that his father bought last month] was over 5 million dollars.
+- anticipated /ænˈtɪsəˌpetɪd/ *v.* 预期
+    1. It is anticipated that the research will have many different practical applications.
+    2. We should have anticipated that.
+    3. We anticipate that sales will rise next year.
 
 ### Expressions
 
@@ -61,4 +80,3 @@
 - a. have made it possible for sb. to do sth. 使某人能够做某事
 - come along 出现；一起来
 - buy sth. from sb. 从某人那里买某物
-

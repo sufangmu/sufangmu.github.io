@@ -25,13 +25,29 @@
 
 ### Words
 
-- upset /əpˈsɛt/ 不安
-- sympathetic /ˌsɪmpəˈθɛtɪk/ 有同情心的
+- upset /əpˈsɛt/ *adj.* 不安
+    1. The manager is upset about that girl.
+    2. Is the manager upset about that girl?
+    3. Why is the manager upset about that girl?
+- sympathetic /ˌsɪmpəˈθɛtɪk/ *adj.* 有同情心的
+    1. I lost my wallet, and my boyfriend was sympathetic, but there is nothing he can do about it.
+    2. We can be more sympathetic about this.
 - wicked /ˈwɪkəd/ 邪恶的
 - envelope /ˈɛnvəˌlop/ 信封
-- contained /kənˈtend/ 包含
-- honesty /ˈɑnəsti/ 诚实
-- complain /kəmˈplen/ 抱怨
+- contained /kənˈtend/ *v.* 包含
+    1. What is a container?
+    2. It contained 50.
+    3. Did it contain 50?
+    4. How much did it contain?
+- honesty /ˈɑnəsti/ *adj.* 诚实
+    1. There is still some honesty in this world.
+    2. Is there any honesty in this world?
+- complain /kəmˈplen/ *adj.* 抱怨
+    1. She complains about the weather all the time.
+    2. Why does she complain about the weather all the time?
+    3. He is complaining about the wicked world.
+    4. He started to yell at the manager.
+    5. They started to play jazz on the street.（L10）
 
 ### Expressions
 
@@ -40,4 +56,3 @@
 - complain about 抱怨
 - knock at the door 敲门
 - some honesty 一些诚实
-

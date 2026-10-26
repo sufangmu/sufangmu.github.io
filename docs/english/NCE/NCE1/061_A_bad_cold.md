@@ -66,18 +66,49 @@
 
 ### Words
 
-- feel /fil/ 感觉
+- feel /fil/ *adj.* 感觉
+    1. She feels great.
+    2. She doesn’t feel bad.
+    3. Does she feel great?
+    4. How does she feel?
 - bad /bæd/ 坏的
-- look /lʊk/ 看起来
-- call /kɔl/ 打电话；叫
+- look /lʊk/ *v.* 看起来
+    1. He looks ill.
+    2. Does he look ill?
+    3. How does he look?
+- call /kɔl/ *v. n.* 打电话；叫
+    1. You look ill.
+    2. I must call the doctor.
+    3. Do you know that doctor?
+    4. I don’t have the doctor’s number.
 - must /mʌst/ 必须
 - doctor /ˈdɑktɚ/ 医生
-- telephone /ˈtɛləˌfon/ 电话
-- remember /rɪˈmɛmbɚ/ 记得
-- mouth /maʊθ/ 嘴
+- telephone /ˈtɛləˌfon/ *n.* 电话
+    1. Where is the phone?
+    2. There is a phone in the living room.
+    3. Can you clean this phone, please?
+    4. I am cleaning the phone now.
+- remember /rɪˈmɛmbɚ/ *v.* 记得
+    1. Can you remember the doctor’s phone number?
+    2. Sorry, I can’t remember that.
+- mouth /maʊθ/ *n.* 嘴
+    1. There is something in my mouth, on the tongue.
 - tongue /tʌŋ/ 舌头
-- cold /kold/ 感冒
+- cold /kold/ *n.* 感冒
+    1. They look ill.
+    2. They have a bad cold.
+    3. Do they have a cold?
 - news /njuz/ 消息
+    1. I have good news for you.
+    2. Do you have any good news for me?
+    3. Where's Jimmy?
+    4. He's in bed.
+    5. What's the matter with Jimmy?
+    6. He feels ill.
+    7. Does he look ill?
+    8. Yes, he does.
+    9. Williams call the doctor?
+    10. Yes, they must.
 - headache /ˈhɛdˌek/ 头痛
 - aspirin /ˈæsprɪn/ 阿司匹林
 - earache /ˈɪrˌek/ 耳痛
@@ -95,4 +126,3 @@
 - What's the matter with him? 他怎么了？
 - call the doctor 叫医生
 - stay in bed 卧床休息
-

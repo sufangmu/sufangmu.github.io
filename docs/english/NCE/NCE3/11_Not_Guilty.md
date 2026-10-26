@@ -51,30 +51,79 @@
 ### Words
 
 - Officers /ˈɔfəsɚz/ 海关官员
-- tolerant /ˈtɑlərənt/ 宽容的
-- declare /dɪˈklɛr/ 申报
-- guilty /ˈɡɪlti/ 有罪的,内疚的
-- hardened /ˈhɑrdənd/ 老练的
-- smuggler /ˈsmʌɡlɚ/ 走私者
-- officious /əˈfɪʃəs/ 爱管闲事的
-- dreadful /ˈdrɛdfəl/ 糟糕的
-- pounced /paʊnst/ 突袭
+- tolerant /ˈtɑlərənt/ *adj.* 宽容的
+    1. He is tolerant of those who don’t agree with him.
+    2. They learn to be tolerant of other people.
+    3. I'm a tolerant man but your behaviour is more than I can bear.
+- declare /dɪˈklɛr/ *v.* 申报
+    1. Do you have anything to declare?
+    2. If you have nothing to declare, go through the green channel.
+    3. He should have declared that new computer.
+- guilty /ˈɡɪlti/ *adj.* 有罪的,内疚的
+    1. Imagine Leo’s dismay when he found that John had a guilty look on his face.
+    2. Leo has proved that he is guilty.
+    3. If I didn't apologize, I'd feel guilty.
+    4. I feel really guilty about forgetting her birthday again.
+- hardened /ˈhɑrdənd/ *adj.* 老练的
+    1. If you describe someone as hardened, you mean that they have had so much experience of something bad or unpleasant that they are no longer affected by it in the way that other people would be.
+    2. We don’t know how he became a hardened criminal.
+    3. It is disturbing to think that a hardened criminal is still at large in the city.
+- smuggler /ˈsmʌɡlɚ/ *n.* 走私者
+    1. If you had hired a real smuggler instead of Andy, we would have got that diamond.
+    2. Mr. Pan is said to be a smuggler.
+    3. The smuggler realized to his horror that the police was waving to him.（L10）
+- officious /əˈfɪʃəs/ *adj.* 爱管闲事的
+    1. No body likes him in the company, for he’s an officious little man.
+    2. I moved because I can't stand the officious landlord any more.
+    3. I’m glad that the officious little man has finally left.
+- dreadful /ˈdrɛdfəl/ *adj.* 糟糕的
+    1. They were reluctant to tell us the dreadful news.
+    2. It was Leo who told me a dreadful story.
+    3. She is such a dreadful woman that no one is willing to help her.（N2L35）
+- pounced /paʊnst/ *v.* 突袭
+    1. She pounced at the phone when it rang because she was worried about her husband.
+    2. We hid behind the bushes, and ready to pounce on the smugglers.
+    3. The puma knows when to pounce.
 - delight /dɪˈlaɪt/ 高兴
-- Perfume /pɚˈfjum/ 香水
-- sarcastically /sɑrˈkæstɪkli/ 讽刺地
-- exempt /ɪɡˈzɛmpt/ 免除
-- duty /ˈduti/ 进口税
-- gel /dʒɛl/ 发胶
-- unscrewed /ʌnˈskrud/ 拧开
-- nostrils /ˈnɑstrəlz/ 鼻孔
+- Perfume /pɚˈfjum/ *n.* 香水
+    1. Can I borrow some of your perfume?
+    2. All these perfume have one thing in common.
+    3. Leo realized to his horror that he had just broken his girlfriend’s favorite perfume.
+- sarcastically /sɑrˈkæstɪkli/ *adv.* 讽刺地
+    1. “Oh great,” he said sarcastically.
+    2. Jane discovered that John was smiling sarcastically at her.
+    3. "Thanks so much for your help, " Tim said sarcastically.
+- exempt /ɪɡˈzɛmpt/ *adj.* 免除
+    1. He was exempted from military service.
+    2. Charities are exempted from paying the tax.
+    3. Some students are exempt from certain exams.
+- duty /ˈduti/ *n.* 进口税
+    1. He bought his wife some duty- free perfume.
+    2. I bought you something in the duty free (shop).
+    3. Jane realized to his horror that all the duty free shops were closed.
+- gel /dʒɛl/ *n.* 发胶
+    1. This kind of hair gel is very popular among young people.
+    2. He was too embarrassed to buy the hair gel.
+- unscrewed /ʌnˈskrud/ *v.* 拧开
+    1. I can't unscrew the top of this jar - it's really tight. - Cambridge He provided me with a bottle of water, but I can't unscrew the cap.
+    2. Leo was relieved to hear that they managed to unscrew the cap.（N2L84&L67）
+- nostrils /ˈnɑstrəlz/ *n.* 鼻孔
+    1. They call me gorilla L, for my nostrils look quite big.
+    2. Your nostrils always move when you lie.
+    3. They were instructed to put the bottle to their nostrils.
 - convinced /kənˈvɪnst/ 说服
-- chalk /tʃɔk/ 粉笔
-- baggage /ˈbæɡədʒ/ 行李
+- chalk /tʃɔk/ *n.* 粉笔
+- baggage /ˈbæɡədʒ/ *n.* 行李
+    1. Leo realized to his horror that he couldn’t find his baggage.
+    2. I'm gonna have the baggage sent out later.
+    3. I'll meet you in baggage claim.
 
 ### Expressions
 
 - be made to do  被迫做某事
+    1. I was made to wait four hours before I was examined by a doctor.
+    2. Jim was made to work all night by his boss.
+    3. We were made to attend meetings every day.
 - on the other hand 另一方面
 - light up 点亮；露出喜色
 - be greeted by something   被某物迎接
-

@@ -27,10 +27,21 @@
 ### Words
 
 - Mediterranean /ˌmɛdətəˈreniən/ 地中海
-- complain /kəmˈplen/ 抱怨
-- continually /kənˈtɪnjuəli/ 不断地
-- bitterly /ˈbɪtɚli/ 极其
-- sunshine /ˈsʌnˌʃaɪn/ 阳光
+- complain /kəmˈplen/ *v.* 抱怨
+    1. It is easy for them to complain about the weather.
+    2. She is keen on complaining about the neighbor.（L20）
+    3. The man who complained about the hotel room lost his wallet this morning.（L28）
+- continually /kənˈtɪnjuəli/ *adv.* 不断地
+    1. The baby cried continually last night.
+    2. It rained continually last summer.
+    3. It snowed continually last winner.
+- bitterly /ˈbɪtɚli/ *adv.* 极其
+    1. It was bitterly cold last night.
+    2. was/when/why/how cold…
+    3. She looks forward to traveling to a bitterly cold city（L37）
+- sunshine /ˈsʌnˌʃaɪn/ *n.* 阳光
+    1. We walked in the warm sunshine.
+    2. Her hair was like the sunshine.
 
 ### 过去完成时
 
@@ -40,7 +51,6 @@ had done
 
 ### Expressions
 
-no sooner ... than  一...就...
+- no sooner ... than  一...就...
 
-hardly ... when 几乎刚..就...
-
+- hardly ... when 几乎刚..就...

@@ -29,15 +29,30 @@
 
 ### Words
 
-- holes /holz/ 洞
+- holes /holz/ *n.* 洞
+    1. There is a hole in the wall.
+    2. She dreamed of buying a modern chair with holes in it for a long time.（L38）
+    3. His eyes were fixed on that hole in the wall.（L40）
 - regretted /rɪˈɡrɛtɪd/ 后悔
-- lighthouse /ˈlaɪtˌhaʊs/ 灯塔
-- rude /rud/ 粗鲁的
-- mirror /ˈmɪrɚ/ 镜子
-- remind /rɪˈmaɪnd/ 提醒
-- remark /rɪˈmɑrk/ 评论
+- lighthouse /ˈlaɪtˌhaʊs/ *n.* 灯塔
+    1. The lighthouse must have been built years ago.（L21）
+    2. If we were on holiday, we would go to that lighthouse.（L40）
+    3. She dreamed of climbing up the lighthouse when she was young.（L38）
+- rude /rud/ *adj.* 粗鲁的
+    1. The hostess who we met last night was very rude.（L28）
+    2. If I were you, I wouldn’t be so rude.（L40）
+    3. He is so rude that they…（L35）
+- mirror /ˈmɪrɚ/ *n.* 镜子
+    1. The mirror was broken by the hostess.（L10）
+    2. They must have bought the mirror last year.（L17）
+    3. She had no sooner taken out the mirror than it fell on the floor.（L38）
+- remind /rɪˈmaɪnd/ *v.* 提醒
+    1. She reminds me of the hostess we met last night.（L28）
+    2. He reminds me of my father.
+- remark /rɪˈmɑrk/ *v.* 评论
+    1. I remarked suddenly/rudely.
+    2. She remarked rudely at the dinner party last night.
 
 ### Expressions
 
 - needn’t have done 本不必如此. 但事情已经发生了,有后悔的语言效果
-

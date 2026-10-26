@@ -26,23 +26,56 @@
 
 ### Words
 
-- excitement /ɪkˈsaɪtmənt/ 兴奋
-- handsome /ˈhænsəm/ 英俊的
+- excitement /ɪkˈsaɪtmənt/ *n.* 兴奋
+    1. There was a great deal of excitement.
+    2. was/why…
+    3. I'm gonna miss the excitement…
+    4. I have had enough excitement.
+- handsome /ˈhænsəm/ *adj.* 英俊的
+    1. We all prefer to have dinner with that handsome captain.（L50）
+    2. I’m fairly confident that I can recognize the voice of that handsome man.（L55 L54）
+    3. I want to pay that handsome man a visit.（L51）
 - explosions /ɪkˈsploʒənz/ 爆炸
-- on /ɑn/ the /ðə/ course /kɔrs/ 道路
-- rivals /ˈraɪvəlz/ 竞争对手
-- downhill /ˈdaʊnˌhɪl/ 下坡
-- wheel /wil/ 车轮
-- speed /spid/ 速度
+- on /ɑn/ the /ðə/ course /kɔrs/ *n.* 道路
+    1. on the course…
+    2. There was an explosion on the course.
+    3. Many of the cars broke down on the course.
+    4. how many/did/where/why….
+    5. He dreamed of driving his own car on that course for years.（L38）
+- rivals /ˈraɪvəlz/ *n.* 竞争对手
+    1. I think he saw us as rivals.
+    2. I have so many rivals.
+    3. India’s biggest rival, China, continues to make… The Economist
+- downhill /ˈdaʊnˌhɪl/ *adv.* 下坡
+    1. It sped downhill at the end of the race.
+    2. After that, things started to go downhill.
+    3. After his wife died, his health started to go downhill.
+- wheel /wil/ *n.* 车轮
+    1. This car has only three wheels.
+    2. Could you sign for the wheels?（L54）
+    3. Come here, help me to repair these wheels.（L52）
+- speed /spid/ *v.* 速度
+    1. And l need you to speed things up.
+    2. There might be a way
 
 ### Expressions
 
 - a great deal of ...+不可数
+    1. He realized that he had lost a great deal of money.（L20）
+    2. It is easy for him to make a great deal of money every day.
+    3. He returned a great deal of money to me last night.（L45）
 - break down 发生故障 My car broke down.
+    1. My car broke down.
+    2. Did your car break down?
+    3. Bagdad
+    4. We wanna drive to London.
+    5. But we can’t.
 - a be di erent from b. A 与 B 不同
+    1. He realized that he had lost a great deal of money.（L20）
+    2. It is easy for him to make a great deal of money every day.
+    3. He returned a great deal of money to me last night.（L45）
 - make a sound 发出声音
 - hear a sound 听到声音
 - on the course 在路上
 - speed it/things/this up 加快速度
 - go downhill 走下坡路；变糟
-

@@ -30,13 +30,27 @@
 
 ### Words
 
-- welcome /ˈwɛlkəm/ 欢迎
-- crowd /kraʊd/ 人群
-- gather /ˈɡæðɚ/ 聚集
-- hand /hænd/ 指针
-- refuse /rɪˈfjuz/ 拒绝
-- shout /ʃaʊt/ 喊叫
-- laugh /læf/ 笑
+- welcome /ˈwɛlkəm/ *v.* 欢迎
+- crowd /kraʊd/ *v.* 人群
+    1. A large crowd of people had gathered under the town hall clock.
+- gather /ˈɡæðɚ/ *v.* 聚集
+    1. A large crowd of people had gathered under the town hall clock.
+- hand /hænd/ *n.* 指针
+    1. They are trying to fix that big minute hand.
+    2. Why are they trying to fix that big minute hand?
+- refuse /rɪˈfjuz/ *v.* 拒绝
+    1. He refused to take the money.
+    2. Did he refuse to take the money?
+    3. Who refused to take the money?
+- shout /ʃaʊt/ *v.* 喊叫
+    1. shout at sb. (This suggests that we’re angry.)
+    2. shout to sb. (When we shout to someone, we want them to hear us.
+    3. They might be on the other side of the street)
+- laugh /læf/ *v.* 笑
+    1. The baby is laughing.
+    2. Is the baby laughing?
+    3. Why is the baby laughing?
+    4. Don’t laugh at me, man!
 
 ### Expressions
 
@@ -46,20 +60,27 @@
 - shout to sb. (When we shout to someone, we want them to hear us. They might be on the other side of the street) 对某人喊（为了让对方听见）
 
 - in+年/季/月
+    1. Where is he moving to in six months?
 
 - on+具体某一天
 
 - at + 时间点
+    1. At that moment, he turned round.（L1）
+    2. Did he turn round at that moment?
 
 - the last day of the year 一年的最后一天
 
 - a large crowd of 一大群
 
 - in twenty minutes' time 二十分钟后
+    1. Where is he moving to in six months?
 
 - refused to do sth. 拒绝做某事
 
 - at that moment 在那一刻
+    1. At that moment, he turned round.（L1）
+    2. Did he turn round at that moment?
 
 - begin to do sth. 开始做某事
-
+    1. Did it begin to rain while you were having breakfast?
+    2. When did it begin to rain?

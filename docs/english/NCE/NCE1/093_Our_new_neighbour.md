@@ -10,12 +10,44 @@
 
 ### Words
 
-- pilot /ˈpaɪlət/ 飞行员
-- return /rɪˈtɝn/ 返回
+- pilot /ˈpaɪlət/ *n.* 飞行员
+    1. What’s your husband’s job?
+    2. He is a pilot.
+- return /rɪˈtɝn/ *v.* 返回
+    1. He will return to Beijing next week.
+    2. Will he return to Beijing next week?
+    3. When will he return to Beijing?
 - New York /ˌnju ˈjɔrk/ 纽约
+    1. Have you ever been to New York?
+    2. Who is our new next-door neighbour?
+    3. Nigel.
+    4. What does Nigel do for a living?
+    5. He's a pilot.
+    6. Will he fly to New York next month?
+    7. Yes, he will.
+    8. Where will he be the month after next?
+    9. He'll be in Tokyo.
+    10. Where is he at the moment?
 - Tokyo /ˈtokiˌo/ 东京
+    1. I’ll fly to Tokyo next month.
+    2. Will you fly to Tokyo next month?
+    3. When will you fly to Tokyo?
 - Madrid /məˈdrɪd/ 马德里
-- fly /flaɪ/ 飞
+    1. They moved to Madrid last year.
+    2. Did they move to Madrid last year?
+    3. Why did they move to Madrid last year?
+    4. When did they move to Madrid?
+- fly /flaɪ/ *v.* 飞
+    1. They flew to New York this morning.
+    2. I will fly to Madrid tonight.
+    3. When did he fly to Spain?
+    4. He flew to Spain a week ago.
+    5. London?
+    6. He'll come back the week after next.
+    7. How old is Nigel?
+    8. He's only forty-one.
+    9. How many countries has Nigel been to?
+    10. He's been to nearly every country in the world.
 - flew /flu/ 飞（过去式）
 - Athens /ˈæθənz/ 雅典
 - Berlin /bɝˈlɪn/ 柏林
@@ -29,4 +61,3 @@
 - next month 下个月
 - fly to 飞往
 - a week ago 一周前
-

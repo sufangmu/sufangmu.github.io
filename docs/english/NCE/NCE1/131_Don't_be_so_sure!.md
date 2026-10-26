@@ -38,9 +38,32 @@
 
 ### Words
 
-- Egypt /ˈidʒɪpt/ 埃及
+- Egypt /ˈidʒɪpt/ *n.* 埃及
+    1. They went to Egypt last week.
+    2. The man who you met in Egypt bought himself a new car.（L121）
+    3. When he was traveling in Egypt, he met his future wife.（L117）
 - abroad /əˈbrɔd/ 出国
-- worry /ˈwɝi/ 担心
+    1. He has lived abroad for 15 years.（L89）
+    2. They went abroad last winter.
+    3. Where does Gary think they may spend their holidays?
+    4. They may go abroad.
+    5. Where does Gary's wife want to go?
+    6. She wants to go to Egypt.
+    7. Would Gary like to go there too?
+    8. Yes, he would.
+    9. Have they made up their minds yet?
+    10. No, they haven't.
+- worry /ˈwɝi/ *v.* 担心
+    1. He worries about his job every day.
+    2. How does Gary think they will travel?
+    3. He thinks they may travel by sea.
+    4. What is Martin sure of?
+    5. He is sure that Gary and his wife will enjoy themselves.
+    6. Why does Gary say that they might not go anywhere?
+    7. What problem do they have every year?
+    8. They don't know who is going to look after everything for them.
+    9. Ask me if Gary's wife wants to go to Egypt.
+    10. Does Gary's wife want to go to Egypt?
 
 ### Expressions
 
@@ -48,4 +71,3 @@
 - make up our minds 下定决心
 - travel by sea 坐船旅行
 - look after 照顾
-

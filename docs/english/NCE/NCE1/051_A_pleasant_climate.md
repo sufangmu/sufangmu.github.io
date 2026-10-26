@@ -55,20 +55,47 @@
 ### Words
 
 - Greece /ɡris/ 希腊
+    1. He comes from Greece.
+    2. Does he come from Greece?
+    3. Where does he come from?
+    4. He is from Greece.
+    5. Is he from Greece?
+    6. Where is he from?
 - Greek /ɡrik/ 希腊的；希腊语
+    1. He comes from Greece.
+    2. Does he come from Greece?
+    3. Where does he come from?
+    4. He is from Greece.
+    5. Is he from Greece?
+    6. Where is he from?
 - climate /ˈklaɪmət/ 气候
+    1. What’s the climate like in Beijing?
 - country /ˈkʌntri/ 国家
-- pleasant /ˈplɛzənt/ 宜人的
+    1. People don’t eat dinner in some countries.
+    2. Why don’t people eat dinner in these countries?
+- pleasant /ˈplɛzənt/ *n.* 宜人的
+    1. The weather is pleasant in Auckland.
 - weather /ˈwɛðɚ/ 天气
 - spring /sprɪŋ/ 春天
 - summer /ˈsʌmɚ/ 夏天
 - autumn /ˈɔtəm/ 秋天
 - winter /ˈwɪntɚ/ 冬天
-- windy /ˈwɪndi/ 多风的
-- warm /wɔrm/ 温暖的
-- rain /ren/ 下雨
+- windy /ˈwɪndi/ *adj.* 多风的
+    1. What’s the weather like today?
+    2. It’s windy.
+- warm /wɔrm/ *adj.* 温暖的
+    1. I like warm tea in winter.
+    2. What’s the weather like in spring?
+    3. It’s warm in spring.
+- rain /ren/ *v.* 下雨
+    1. Sometimes, it rains in spring.
+    2. Does it rain in spring sometimes?
+    3. How often does it rain in spring?
 - sometimes /ˈsʌmˌtaɪmz/ 有时
-- snow /sno/ 下雪
+- snow /sno/ *v.* 下雪
+    1. Sometimes, it snows in winter.
+    2. Does it snow in winter sometimes?
+    3. How often does it snow in winter?
 - March /mɑrtʃ/ 三月
 - April /ˈeprəl/ 四月
 - May /me/ 五月
@@ -79,8 +106,38 @@
 - October /ɑkˈtobɚ/ 十月
 - November /noˈvɛmbɚ/ 十一月
 - December /dɪˈsɛmbɚ/ 十二月
+    1. Does Dimitri come from Germany?
+    2. No, he doesn't.
+    3. Where does Dimitri come from?
+    4. Greece.
+    5. What is the climate like in Greece?
+    6. It's very pleasant.
+    7. What's the weather like in spring?
+    8. It's often windy in March and warm in April and May.
+    9. What's it like in summer?
+    10. Hot.
 - January /ˈdʒænjuˌɛri/ 一月
+    1. Does Dimitri come from Germany?
+    2. No, he doesn't.
+    3. Where does Dimitri come from?
+    4. Greece.
+    5. What is the climate like in Greece?
+    6. It's very pleasant.
+    7. What's the weather like in spring?
+    8. It's often windy in March and warm in April and May.
+    9. What's it like in summer?
+    10. Hot.
 - February /ˈfɛbruˌɛri/ 二月
+    1. Does Dimitri come from Germany?
+    2. No, he doesn't.
+    3. Where does Dimitri come from?
+    4. Greece.
+    5. What is the climate like in Greece?
+    6. It's very pleasant.
+    7. What's the weather like in spring?
+    8. It's often windy in March and warm in April and May.
+    9. What's it like in summer?
+    10. Hot.
 - Brazil /brəˈzɪl/ 巴西
 - Holland /ˈhɑlənd/ 荷兰
 - France /fræns/ 法国
@@ -97,4 +154,3 @@
 - I come from... 我来自……
 - What's the climate like? 气候怎么样？
 - What's the weather like? 天气怎么样？
-

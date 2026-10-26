@@ -30,14 +30,36 @@
 
 ### Words
 
-- former /ˈfɔrmɚ/ 前任的
-- elections /ɪˈlɛkʃənz/ 选举
-- fanatical /fəˈnætɪkəl/ 狂热的
-- opponent /əˈponənt/ 反对者
-- Radical /ˈrædəkəl/ 激进的
-- Progressive /prəˈɡrɛsɪv/ 进步的
-- suspicious /səˈspɪʃəs/ 表示怀疑的
-- defeat /dɪˈfit/ 击败
+- former /ˈfɔrmɚ/ *adj.* 前任的
+    1. This building takes its name from the former president.（L71）
+    2. He noticed that the former president was dressed up as Father Christmas.（L67 L65）
+    3. I saw the former president at a village fair.（L60）
+- elections /ɪˈlɛkʃənz/ *n.* 选举
+    1. If you won the election, I would give you
+    2. 2,000 dollars.（L40）
+    3. She is used to winning the election, for she wins every time.（L79）
+    4. I’m sure that you will win the election.（L78）
+- fanatical /fəˈnætɪkəl/ *adj.* 狂热的
+    1. He is a fanatical football fan.
+    2. He is fanatical about football.
+    3. He is fanatical about watching football games.
+    4. Why are people so fanatical about this place?
+- opponent /əˈponənt/ *n.* 反对者
+    1. He knocked his opponent to the ground.（L81）
+    2. He defeated his opponent in the election.
+- Radical /ˈrædəkəl/ *adj.* 激进的
+    1. His opinions are very radical.
+    2. I was shocked by her radical views.（L10）
+    3. We should make a radical change in our way of learning English.（L65）
+- Progressive /prəˈɡrɛsɪv/ *adj.* 进步的
+- suspicious /səˈspɪʃəs/ *adj.* 表示怀疑的
+    1. He looked suspicious, for he walked up and down the street all night.（L81）
+    2. If you see anything suspicious, just call me.（L16）
+    3. Why do you think that is suspicious?
+- defeat /dɪˈfit/ *v.* 击败
+    1. He has been defeated in the finally election.
+    2. If you can defeat him, we will give you 2,000 dollars.（L16）
+    3. It was Leo who defeated the monster, not you.
 
 ### Expressions
 
@@ -46,4 +68,3 @@
 - on duty 值班
 - On the following day 第二天
 - love to do sth. 喜欢做某事
-

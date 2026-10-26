@@ -14,17 +14,37 @@
 
 ### Words
 
-- sculpture /ˈskʌlptʃɚ/ 雕塑
-- gallery /ˈɡæləri/ 美术馆
-- spheres /sfɪrz/ 球体
-- magnetized /ˈmæɡnɪˌtaɪzd/ 磁化
+- sculpture /ˈskʌlptʃɚ/ *n.* 雕塑
+    1. First of all, what kind of sculpture is this?
+    2. Leo was astonished to find that they wanted to see a new sculpture.
+    3. At that time, I thought you might be interested in sculpture.
+- gallery /ˈɡæləri/ *n.* 美术馆
+    1. When they entered the gallery, they were greeted by a very strong perfume.
+    2. This gallery was named after a very famous artist. Guess who?
+- spheres /sfɪrz/ *n.* 球体
+    1. On the following day, Leo bought 37 metal spheres.
+    2. It is now known that the Earth is not a perfect sphere.
+    3. All these spheres are made of metal.
+- magnetized /ˈmæɡnɪˌtaɪzd/ *v.* 磁化
+    1. The spheres had been magnetized.
+    2. The spheres must/can’t have been magnetized.
+    3. The spheres may have been magnetized.
+    4. The spheres will be magnetized.
 - repelled /rəˈpɛld/ 排斥
-- flickered /ˈflɪkɚd/ 闪烁
+- flickered /ˈflɪkɚd/ *v.* 闪烁
+    1. Looking through the window, I saw the lights flickering.（N2L49&L35）
+    2. Her face lit up when she saw all the candles flickering in the room.
 - emitted /ɪˈmɪtəd/ 发散
 - equipment /ɪˈkwɪpmənt/ 设备
-- peculiar /pəˈkjuljɚ/ 奇怪的
-- shock /ʃɑk/ 电击
-- emotionally /ɪˈmoʃnəli/ 感情上
+- peculiar /pəˈkjuljɚ/ *adj.* 奇怪的
+    1. This cheese has a peculiar smell.
+    2. The wine has a peculiar taste.
+    3. For some peculiar reason, she refused to come inside.（N2L21&L9）
+- shock /ʃɑk/ *v. n.* 电击
+    1. You’ll get an electric shock if you touch that.
+    2. They’ll give you electric shocks if you don’t obey the rules.
+- emotionally /ɪˈmoʃnəli/ *adv. adj. n.* 感情上
+    1. She spoke emotionally about her experiences as a teacher.
 
 ### Expressions
 
@@ -38,11 +58,19 @@
 - not any more = not any longer = no longer 不再
 - The idea that+句子 is mistaken. ……的想法是错误的
 - take no interest in 对……不感兴趣
+    1. In response to local demand, we will be opening this store from nine till seven on Sundays.
+    2. The product was developed in response to demand.
+    3. I'd like to say a few words in response to the recent news.
 - in response to 作为对……的回应
 - be familiar to sb. 为某人所熟悉
 - go mad 发疯
 - on and o 断断续续地
 - It was rather like ... 这颇像……
 - seemed designed ... 似乎是为……而设计
+    1. linking verb 系动词 + adj.
+    2. You seem angry about something.
+    3. No? No, I mean, these walls, they seem designed to keep people in…
 - be designed to do sth. 旨在做某事
-
+    1. This experiment is designed to test the new drug.
+    2. My courses are designed to teach you how to learn English by yourself.
+    3. It was by no means designed to emit sparks, right?

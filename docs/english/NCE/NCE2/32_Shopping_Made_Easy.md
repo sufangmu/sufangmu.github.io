@@ -29,12 +29,22 @@
 
 ### Words
 
-- temptation /tɛmˈteʃən/ 诱惑
-- articles /ˈɑrtəkəlz/ 物品
+- temptation /tɛmˈteʃən/ *n.* 诱惑
+    1. It is my job to resist the temptation.（L31）
+    2. She has trouble resisting the temptation.（L28）
+    3. “I can’t resist the temptation” he said in a weak voice.（L15）
+- articles /ˈɑrtəkəlz/ *n.* 物品
+    1. If you read the article, you will understand my words.（L16）
+    2. The woman first bought a few small articles.
 - handed /ˈhændəd/ 递
 - wrapped /ræpt/ 包起来
-- arrested /əˈrɛstɪd/ 逮捕
-- simply /ˈsɪmpli/ 仅仅
+- arrested /əˈrɛstɪd/ *v.* 逮捕
+    1. He was arrested last night.（L10）
+    2. They must have been arrested last night.（L21）
+    3. The man who was arrested last night has trouble resisting the temptation all his life.（L28）
+- simply /ˈsɪmpli/ *adv.* 仅仅
+    1. The woman simply took the parcel.
+    2. She is simply interested in fishing.（L20）
 - once /wʌns/ 曾经
 
 ### Expressions

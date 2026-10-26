@@ -27,12 +27,25 @@
 
 - anxiously /ˈæŋkʃəsli/ 忧虑地
 - as /æz/ 当
-- intends /ˌɪnˈtɛndz/ 打算
+- intends /ˌɪnˈtɛndz/ *v.* 打算
+    1. For some reason, she intends to learn
+    2. Chinese.（L21）
+    3. She intends to take a taxi.（L29）
 - Among /əˈmʌŋ/ 在...中间
-- record /ˈrɛkɚd/ 纪录
-- swimmer /ˈswɪmɚ/ 游泳者
-- solid /ˈsɑlɪd/ 固体的
-- succeed /səkˈsid/ 成功
+- record /ˈrɛkɚd/ *v.* 纪录
+    1. He was so fast that he set up a new world record last night.（L35）
+    2. The man who broke the record last year set up a new world record yesterday.（L28）
+- swimmer /ˈswɪmɚ/ *n.* 游泳者
+    1. That swimmer never expected his swimming goggles to be found.（L34）
+    2. In his twenties, he is a very strong swimmer.（L31）
+    3. He is such a great swimmer that…（L35）
+- solid /ˈsɑlɪd/ *adj.* 固体的
+    1. That baby can’t eat any solid food.
+    2. Why can’t that baby eat any solid food?
+    3. It is easy for a 8 years old child to eat solid food.
+- succeed /səkˈsid/ *v.* 成功
+    1. She succeeded in resisting the temptation.
+    2. She succeeded in finding a new job.
 
 ### Expressions
 
@@ -45,6 +58,10 @@
 - intend to do sth. 打算做某事
 
 - hope to do sth. 希望做某事
+    1. She hopes to break the record tonight.
+    2. They hope to spend sometime in the country.（L20）
 - be sure to do sth. 一定会做某事
+    1. She is sure to break the record.
+    2. She is sure to wake up early tomorrow morning.（L27）
+    3. They are sure to pay the bill.（L18）
 - take some rests/a rest 休息一下
-

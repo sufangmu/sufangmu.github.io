@@ -42,16 +42,36 @@
 
 ### Words
 
-- shut /ʃʌt/ 关
+- shut /ʃʌt/ *v.* 关
 - bedroom /ˈbɛdˌrum/ 卧室
-- untidy /ʌnˈtaɪdi/ 不整洁的
-- open /ˈopən/ 开
-- air /ɛr/ 通风
+    1. Is this your bedroom?
+    2. Whose bedroom is this?
+- untidy /ʌnˈtaɪdi/ *adj.* 不整洁的
+    1. This room is untidy.
+- open /ˈopən/ *v.* 开
+- air /ɛr/ *v.* 通风
+    1. Jones in the living room?
+    2. No, she isn't.
+    3. Jones in the bedroom?
+    4. Yes, she is.
+    5. Is Amy in the bedroom, too?
+    6. Ask me if the bedroom is very untidy.
+    7. Is the bedroom very untidy?
+    8. Yes, it is.
 - put /pʊt/ 放
 - clothes /kloðz/ 衣服
+    1. Where are my clothes?
 - wardrobe /ˈwɔrˌdrob/ 衣柜
-- dust /dʌst/ 掸灰
-- sweep /swip/ 扫
+    1. There is a wardrobe in the bedroom.
+- dust /dʌst/ *v.* 掸灰
+- sweep /swip/ *v.* 扫
+    1. Is the bedroom tidy?
+    2. No, it isn't.
+    3. It's very untidy.
+    4. Are these clothes in the wardrobe?
+    5. No, they aren't.
+    6. Is the floor clean?
+    7. It's dirty.
 - empty /ˈɛmpti/ 空的
 - read /rid/ 读
 - sharpen /ˈʃɑrpən/ 削尖
@@ -64,4 +84,3 @@
 - Shut the door 关门
 - Open the window 开窗
 - Make the bed 铺床
-

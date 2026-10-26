@@ -14,20 +14,50 @@
 
 ### Words
 
-- punctual /ˈpʌŋktʃuəl/ 准时的
-- conditioning /kənˈdɪʃənɪŋ/ 习惯于
-- unshakable /ənˈʃekəbəl/ 不可动摇的
-- faith /feθ/ 信任
-- exceptionally /ɪkˈsɛpʃənəli/ 例外地
-- dislocate /ˈdɪsloket/ 打乱
-- consulting /kənˈsʌltɪŋ/ 查阅
-- reflected /rɪˈflɛktɪd/ 细想
-- mighty /ˈmaɪti/ 强大地
-- dawdled /ˈdɔdəld/ 慢吞吞地做
+- punctual /ˈpʌŋktʃuəl/ *adj. adv.* 准时的
+    1. She was determined to be punctual for the appointment yesterday.
+    2. There is a danger that I might not be punctual for the lecture.
+- conditioning /kənˈdɪʃənɪŋ/ *v.* 习惯于
+    1. The sad truth is that hate conditioned him to attack others before others could attack him.
+    2. The society conditions us to accept what happened instead of thinking.
+    3. Evidence suggests that he has been conditioned to obey his father.
+- unshakable /ənˈʃekəbəl/ *adj.* 不可动摇的
+    1. There is no doubt that she has developed an unshakable belief in God.
+    2. Despite the challenges, he managed to develop an unshakable faith in his own abilities and achieved success.
+- faith /feθ/ *n.* 信任
+    1. You should always have faith in your dream.
+    2. She began to lose faith in herself.
+- exceptionally /ɪkˈsɛpʃənəli/ *adv.* 例外地
+    1. He confirmed that Tom was an exceptionally talented basketball player.
+    2. Only then did I realize that this year has been exceptionally difficult for me.
+- dislocate /ˈdɪsloket/ *v.* 打乱
+    1. I’m astonished to find that my flight has been dislocated by a heavy fog.
+    2. It’s estimated that traffic will be dislocated by a big snowstorm.
+    3. There is a danger that an earthquake might dislocate the railway service.
+- consulting /kənˈsʌltɪŋ/ *v.* 查阅
+    1. I prefer to consult the manual first rather than start working immediately.
+    2. Whenever I meet a new word, I can’t resist the temptation to consult the dictionary.
+- reflected /rɪˈflɛktɪd/ *v.* 细想
+    1. She took a long walk and reflected on her past.
+    2. After failing the exam, I reflected that I need to study harder.
+- mighty /ˈmaɪti/ *adj.* 强大地
+    1. I caught sight of a mighty puma yesterday.
+    2. The police inquired about the mighty tree you cut down yesterday.
+    3. They plotted to kill the mighty king.
+- dawdled /ˈdɔdəld/ *v.* 慢吞吞地做
+    1. I often find myself dawdling in the park, enjoying the beauty of nature.
+    2. If you continue dawdling, we can’t catch the express train.
 - chugging /ˈtʃʌɡɪŋ/ 咔擦咔擦地响
-- lodge /lɑdʒ/ 提出
-- triumph /ˈtraɪəmf/ 胜利
-- asterisk /ˈæstərɪsk/ 星号
+- lodge /lɑdʒ/ *v.* 提出
+    1. It occurred to me to lodge a complaint with the travel agency.
+    2. It took me a lot of time to lodge a complaint about the poor service in the restaurant.
+- triumph /ˈtraɪəmf/ *n.* 胜利
+    1. She ended her speech with a note of triumph.
+    2. There was a note of triumph in his voice when he expressed his gratitude to teammates.
+- asterisk /ˈæstərɪsk/ *n.* 星号
+    1. Please pay attention to the footnote with asterisks.
+    2. Put an asterisk beside the names of those who died of cancer.
+    3. The most important instructions are marked by asterisks.
 
 ### Expressions
 
@@ -35,9 +65,16 @@
 - condition sb. to (do) sth. 使某人习惯于（做）某事
 - sb. be conditioned to do sth. 某人习惯于做某事
 - develop an unshakable belief/faith in 对……产生不可动摇的信念
+    1. 白纸黑字; 以书面形式 in writing or in print
+    2. Now that the rule has been written in black and white, you have to obey it.
+    3. I prefer to have our agreement in black and white.
+    4. I was wondering if the result of the discussion will be provided in black and white.
 - have/lose faith in sb. /sth. 对某人/某物有/失去信心
 - blame sb./sth. for 因……责备某人/某物
 - blame sth. on sb. 把某事归咎于某人
+    1. I noted with satisfaction that my article captured the attention of many young people.
+    2. She noted with satisfaction that her joke made the audience laugh to tears.
+    3. He noted with satisfaction that the travel agent would compensate him for his loss.
 - consult the map/manual/dictionary 查阅地图/手册/词典
 - go/fly direct 直达
 - It is/seems odd that… ……很奇怪
@@ -47,18 +84,38 @@
 - have/make/receive/lodge a complaint 提出/接到投诉
 - a note of triumph 胜利的语气
 - conduct sb. to 引领某人去
+    1. I decided to take advantage of the discount and bought the laptop I always wanted.
+    2. We planned to take advantage of good weather and go hiking this weekend.
 - It is all too easy to do sth. 做某事太容易了
 - sb. noted with satisfaction that... 某人满意地注意到……
+    1. I noted with satisfaction that my article captured the attention of many young people.
+    2. She noted with satisfaction that her joke made the audience laugh to tears.
+    3. He noted with satisfaction that the travel agent would compensate him for his loss.
 - can’t help doing… 忍不住做……
 - strike sb as… 给某人……的印象
+    1. You don’t strike me as the kind of person who has bad taste in art.
+    2. She strikes me as someone who might be a drama queen.
+    3. He doesn’t strike me as a man who is keen on reading science fiction.
 - take advantage of 利用
 - wish to do 希望做
+    1. Tom wishes to gain some height.
+    2. He wishes to play truant from school.
+    3. She wishes to stay out of the limelight.
 - hold up 耽搁；举着
 - It dawned on me that … 我渐渐明白……
 - roar down 呼啸而过
 - not... but 不是……而是……
+    1. It suddenly dawned on me that he was not a policeman but someone else.
+    2. He is not an artist but just someone enjoys painting.
+    3. I am amazed to find that it’s not a problem, but an opportunity.
 - hear of 听说
 - copy of…  ⼀份，⼀册，⼀张
 - in black and white 白纸黑字; 以书面形式 in writing or in print
+    1. 白纸黑字; 以书面形式 in writing or in print
+    2. Now that the rule has been written in black and white, you have to obey it.
+    3. I prefer to have our agreement in black and white.
+    4. I was wondering if the result of the discussion will be provided in black and white.
 - at the bottom of 在……底部
-
+    1. The result of the survey will be presented at the bottom of the last page.
+    2. He confirmed that the letters written at the bottom of the card is the password.
+    3. It’s fortunate that I finally found her name at the bottom of the list.

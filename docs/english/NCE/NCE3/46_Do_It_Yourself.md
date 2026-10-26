@@ -18,31 +18,72 @@
 
 ### Words
 
-- plead /plid/ 辩解
+- plead /plid/ *v. n.* 辩解
+    1. If I had known the truth, I would not have pleaded ignorance of the matter.
+    2. If someone asks me about the meeting, I’ll just plead ignorance.
 - ignorance /ˈɪɡnərəns/ 无知
-- publications /ˌpʌblɪˈkeʃənz/ 出版物
+- publications /ˌpʌblɪˈkeʃənz/ *n.* 出版物
+    1. I’ve just read a fascinating publication about space exploration.
+    2. This magazine is my favorite publication, so I look forward to it every month.
 - newlyweds /ˈnuliˌwɛdz/ 新欢夫妇
-- gaily /ˈɡeli/ 愉快地
-- leisure /ˈlɛʒɚ/ 空闲的
-- keen /kin/ 热心的
-- advisory /ædˈvaɪzəri/ 咨询的
-- assemble /əˈsɛmbəl/ 装配
-- outlet /ˈaʊtˌlɛt/ 出路
+    1. Born and bred in the same town, the newlyweds have a lot to talk about their hometown.
+- gaily /ˈɡeli/ *adv.* 愉快地
+    1. He gaily laughed with his friends, but he will pay the price for not studying for the test.
+    2. They gaily enjoyed their ice cream, but they might pay the price for eating too much sugar.
+- leisure /ˈlɛʒɚ/ *n.* 空闲的
+- keen /kin/ *adj.* 热心的
+    1. He told me that he was keen to help.
+    2. The explorers were keen on making a descent into the cave.
+    3. She was keen to squeeze through the narrow opening to explore the hidden passage in the ancient ruins.
+- advisory /ædˈvaɪzəri/ *adj.* 咨询的
+    1. It is outrageous that the advisory service does not provide clear information.
+    2. It is outrageous that the advisory service does not help those in need.
+- assemble /əˈsɛmbəl/ *v.* 装配
+    1. He asked for permission to assemble the equipment in the workshop.
+    2. It's silly for them to assemble the product without proper training.
+- outlet /ˈaʊtˌlɛt/ *n.* 出路
+    1. The park provides a fun outlet for kids to play and enjoy nature.
+    2. The garden provides a peaceful outlet for her to relax and think.
 - handymen /ˈhændiˌmɛn/ 能工巧匠
-- resourceful /riˈsɔrsfəl/ 足智多谋的
-- fuse /fjuz/ 短路
-- rickety /ˈrɪkəti/ 散架
+- resourceful /riˈsɔrsfəl/ *adj.* 足智多谋的
+    1. Although he is resourceful, he finds it hard to finish his homework on time.
+    2. Despite the obstacles, the resourceful team managed to complete the project.（L3）
+- fuse /fjuz/ *v.* 短路
+    1. He suggested that the light might have fused again.
+    2. There was a chance that the faulty switch caused the light to fuse.（L36）
+- rickety /ˈrɪkəti/ *adj.* 散架
+    1. She was naive enough to think the rickety ladder could support her weight.
+    2. It is outrageous to risk lives by crossing the rickety bridge.
 - clogged /klɔɡd/ 堵塞
-- delusion /dɪˈluʒən/ 错觉
+- delusion /dɪˈluʒən/ *n.* 错觉
+    1. They were under the delusion that the advent of social media would not impact their business.
+    2. He was under the delusion that his success was strongly correlated with his working skill.
 - mower /ˈmoɚ/ 割草机
-- adjustment /əˈdʒʌstmənt/ 调整
-- screw /skru/ 螺丝
-- dismantle /dɪˈsmæntəl/ 拆卸
+    1. The gardener selected from a variety of lawn mowers available at the store.（L38）
+    2. They relied on the old lawn mower to keep their garden tidy.
+    3. With the passage of time, the old lawn mower started to break down very often.
+- adjustment /əˈdʒʌstmənt/ *n.* 调整
+    1. The project needs a few minor adjustments and is based on the assumption that we will finish on time.
+- screw /skru/ *n.* 螺丝
+    1. There is always hope that the missing screw will be found when cleaning the garage.
+    2. He was bent on fixing the shelf himself using screws.
+    3. The homeowner described to the handyman how the screw came loose.
+- dismantle /dɪˈsmæntəl/ *v.* 拆卸
+    1. He holds a fascination for dismantling old machines to understand how it works.
+    2. Prising the rusty lock open was the first step to dismantling the old chest.
 - snapped /snæpt/ 绷断
-- insurmountable /ˌɪnsɚˈmaʊntəbəl/ 难以对付的
-- jigsaw /ˈdʒɪɡˌsɔ/ 线锯
+- insurmountable /ˌɪnsɚˈmaʊntəbəl/ *adj.* 难以对付的
+    1. It has always been a mystery to me why they made mistakes that seemed insurmountable to correct.
+    2. The company had to ring up emergency services when faced with insurmountable problems.
+- jigsaw /ˈdʒɪɡˌsɔ/ *n.* 线锯
+    1. I can't conceal the fact that completing the jigsaw puzzle is challenging.
+    2. He went to great lengths to prove that he could finish the jigsaw puzzle in just 1 minute.
+    3. She got rid of the jigsaw puzzle after finishing it.
 - nagged /næɡd/ 唠叨
-- rusting /ˈrʌstɪŋ/ 生锈
+- rusting /ˈrʌstɪŋ/ *v.* 生锈
+    1. The rain caused the metal to rust even faster.
+    2. For one agonizing moment, he saw the rusting bicycle.
+    3. They had to haul the rusting old car out of the garage for repairs.
 
 ### Expressions
 
@@ -63,17 +104,43 @@
 - As far as I could see 就我所见
 - as good as 和……一样好；几乎
 - become dependent on 依赖
+    1. Sooner or later, she will become more dependent on social media.
+    2. Despite his talent, he chose to live in obscurity and became dependent on his family for support.
+    3. What a relief it was when she started to become less dependent on others.
 - embark on 着手；开始
+    1. After years of preparation, she finally embarked on the arduous journey of climbing Mount Everest.
+    2. After years of training, she was required to embark on the journey of leading a team to a remote island.
+    3. She insisted that he should embark on the journey to explore his talents in art.
 - lay out 布置；摆放
+    1. I noted with satisfaction that the designer carefully laid out the furniture in the living room.
+    2. There was a note of triumph in her voice after she laid out the tables and decorations for the wedding.
+    3. The way she laid out her bedroom strikes me as odd.
 - go so far as to do sth. 竟然做某事
 - cater for 迎合；满足
 - pent up 被压抑的
 - tend to do 倾向于做
+    1. The sailors tend to relax on the deck after a long day at sea.
+    2. He tends to bargain with man to get the best price.
+    3. Parents tend to keep an eye on their children while they play at the park.
 - put … right 把……修好/纠正
+    1. I need to put the mistake right that I made in my report.
+    2. We should put the problem right that has been bothering us for weeks.
+    3. She wants to put things right that went wrong during the meeting.
 - call in sb. 请某人来
 - promise to do sth. 承诺做某事
+    1. Her husband promised to lull the kids to sleep before she came back from work.
+    2. He promised to get a sleeper for me.
+    3. He promised to give me exclusive access to the computer.
 - get round to 抽出时间做
+    1. The training program is designed to cater for employees at different skill levels within the company.
+    2. The hotel offers a bewildering variety of services to cater for the needs of each guest.
+    3. pent up pent-up: (of feelings, energy, etc.) that cannot be expressed or released〔感情、精力〕被压抑的
+    4. He specializes in helping people solve their pent-up feelings and emotions.
+    5. She decided to tear up the letter to express her pent-up emotions.
+    6. I am grateful to my friend for listening to my pent-up feelings.
 - a drop of 一滴
 - trace the cause of 追查……的原因
+    1. The doctor had the foresight to trace the cause of the illness before it spread further.
+    2. The new AI technology, as it has come to be known, helped researchers trace the cause of the environmental disaster.
+    3. It has never been explained why he didn’t trace the cause of the damage.
 - be left with 剩下；留给
-

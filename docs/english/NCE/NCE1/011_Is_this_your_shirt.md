@@ -54,11 +54,29 @@
 
 ### Words
 
-- blue /blu/ 蓝色的
+- blue /blu/ *adj.* 蓝色的
 - perhaps /pɚˈhæps/ 也许
+    1. Is that your car?
+    2. I don’t know.
 - white /waɪt/ 白色的
-- catch /kætʃ/ 接住；抓住
+    1. This is her watch.
+    2. This is his keyboard.
+    3. Is this her watch?
+    4. Is this his keyboard?
+    5. Whose watch is this?
+    6. Whose keyboard is this?
+- catch /kætʃ/ *v.* 接住；抓住
 - whose /huz/ 谁的
+    1. This is her dress.
+    2. Is this her dress?
+    3. Whose dress is this?
+    4. Whose is this dress?
+    5. This is her ticket.
+    6. Is this her ticket?
+    7. Whose ticket is this?
+    8. Is this Dave's shirt?
+    9. No, it isn't.
+    10. Is Dave's shirt white?
 - father /ˈfɑðɚ/ 父亲
 - mother /ˈmʌðɚ/ 母亲
 - sister /ˈsɪstɚ/ 姐妹
@@ -72,4 +90,3 @@
 - Is this your...? 这是你的……吗？
 - Here you are 给你
 - Catch! 接住！
-

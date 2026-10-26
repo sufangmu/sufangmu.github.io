@@ -50,11 +50,30 @@
 - come /kʌm/ 来
 - upstairs /ˌʌpˈstɛrz/ 楼上
 - downstairs /ˌdaʊnˈstɛrz/ 楼下
-- smart /smɑrt/ 漂亮的；时髦的
-- hat /hæt/ 帽子
+- smart /smɑrt/ *n.* 漂亮的；时髦的
+    1. He is smart.
+    2. Her new dress is green.
+    3. Is her new dress green?
+    4. What colour is her new dress?
+    5. His new umbrella is black.
+    6. Is his new umbrella black?
+    7. What colour is his new umbrella?
+- hat /hæt/ *n.* 帽子
 - same /sem/ 相同的
+    1. They are the same.
 - different /ˈdɪfərənt/ 不同的
+    1. It is different.
 - lovely /ˈlʌvli/ 可爱的；漂亮的
+    1. This cat is so cute
+    2. This is my cat.
+    3. Is this your cat?
+    4. Whose cat is this?
+    5. Her new blouse is blue.
+    6. Is her new blouse blue?
+    7. What colour is her new blouse?
+    8. His new keyboard is white.
+    9. Is his new keyboard white?
+    10. What colour is his new keyboard?
 - case /kes/ 箱子
 - carpet /ˈkɑrpɪt/ 地毯
 - dog /dɔɡ/ 狗
@@ -65,4 +84,3 @@
 - What colour is it? 它是什么颜色的？
 - Come upstairs 上楼来
 - the same colour 相同的颜色
-

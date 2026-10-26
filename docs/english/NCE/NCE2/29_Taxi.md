@@ -24,12 +24,32 @@
 
 ### Words
 
-- land /lænd/ 降落
-- ploughed /plaʊd/ 耕地
-- lonely /ˈlonli/ 偏僻的
-- flats /flæts/ 公寓
-- deserted /dɪˈzɝtɪd/ 遗弃的
-- roof /ruf/ 屋顶
+- land /lænd/ *v.* 降落
+    1. The plane landed in the airfield an hour ago.
+    2. The plane which has just landed in the field belongs to my family.（L28）
+- ploughed /plaʊd/ *v.* 耕地
+    1. When they were ploughing the field, they saw a rare white tiger.（L7）
+    2. After the farmer had ploughed the field, they cooked a meal over an open fire.（L27 L14）
+    3. The farmer who had just ploughed the field is my father.（L28）
+- lonely /ˈlonli/ *adj.* 偏僻的
+    1. When I was in Auckland, I sometimes felt lonely.（L7）
+    2. The man who grew up in a lonely village has lived in the big city for 10 years.（L28）
+    3. They will be driving to a lonely village.（L13）
+- flats /flæts/ *n.* 公寓
+    1. The man who owns ten flats in the city decided to go on trip by himself.（L28 L22）
+    2. This flat must have been cleaned last night.（L21）
+    3. It’s a pity that she sold that apartment.（L19）
+    4. The museum is just six blocks away.
+- deserted /dɪˈzɝtɪd/ *v.* 遗弃的
+    1. It has been deserted for some time.（L10）
+    2. Has it been deserted for some time?
+    3. How long has it been deserted?
+    4. Have you ever been to the desert?
+- roof /ruf/ *n.* 屋顶
+    1. The plane landed on the roof.
+    2. How did the plane land on the roof?
+    3. The man who is repairing the roof is my brother.（L28）
+    4. The children were telling stories on the roof earlier.（L27）
 - block /blɑk/ 街区
 
 ### Expressions

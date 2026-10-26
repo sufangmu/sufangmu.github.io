@@ -46,12 +46,45 @@
 
 ### Words
 
-- model /ˈmɑdl/ 型号；样式
+- model /ˈmɑdl/ *n.* 型号；样式
+    1. This is a car model.
+    2. My car model is bigger than yours.
+    3. My son wants to buy a car model.
+    4. I think that this car model is too expensive.
 - instalments /ɪnˈstɔlmənts/ 分期付款
-- afford /əˈfɔrd/ 负担得起
+    1. He bought this car on instalments.
+    2. Did he buy this car on instalments?
+    3. Why did he buy this car on instalments?
+- afford /əˈfɔrd/ *v.* 负担得起
+    1. It’s too expensive.
+    2. I can’t afford it.
+    3. It’s cheap enough.
+    4. We can afford that.
 - price /praɪs/ 价格
-- deposit /dəˈpɑzɪt/ 定金
+    1. Look at that price, it’s too expensive.
+    2. We can’t afford that.
+- deposit /dəˈpɑzɪt/ *n.* 定金
+    1. You can pay a deposit of thirty pounds.
+    2. Can I pay a deposit of thirty pounds?
+    3. He paid a deposit of thirty pounds.
+    4. Did he pay a deposit of thirty pounds?
+    5. Frith think about the first television?
+    6. He likes it very much.
+    7. Is it one of the cheaper models?
+    8. No, it isn't.
+    9. Is there a more expensive model in the shop?
+    10. No, there isn't.
 - millionaire /ˌmɪljəˈnɛr/ 百万富翁
+    1. I think that he wants to be a millionaire.
+    2. Do you want to be a millionaire?
+    3. This millionaire is richer than that one.
+    4. Is the less expensive model as good as the first one?
+    5. No, it isn't.
+    6. Frith buy the model he wants?
+    7. He can buy it on instalments.
+    8. Will the television be more expensive on instalments?
+    9. Yes, it will.
+    10. How much will it cost?
 
 ### Expressions
 
@@ -59,4 +92,3 @@
 - too expensive 太贵了
 - on instalments 分期付款
 - pay a deposit 付定金
-

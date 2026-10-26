@@ -24,16 +24,30 @@
 ### Words
 
 - Aeroplanes /ˈɛrəˌplenz/ 飞机
-- mad /mæd/ 疯了
+- mad /mæd/ *adj.* 疯了
+    1. He is mad at me.
+    2. Is he mad at you?
+    3. Why is he mad at you?
 - Over /ˈovɚ/ 超过
-- determined /dɪˈtɝmənd/ 下决心
-- reason /ˈrizən/ 原因
-- sum /sʌm/ 金额
+- determined /dɪˈtɝmənd/ *adj.* 下决心
+    1. He is determined to go to the theatre.（L1）
+    2. She is determined to teach me English.（L3）
+    3. They are determined to take part in the new play.（L12）
+- reason /ˈrizən/ *n.* 原因
+    1. For some reason, he hurried to the hospital.（L19）
+    2. For some reason, she is keen on fishing.（L20）
+    3. For some reason, you remind me of my father.（L16）
+- sum /sʌm/ *n.* 金额
+    1. A large sum of money was stolen last night.（L10）
+    2. He must have paid a large sum of money.（L17）
+    3. He borrowed a large sum of money from me.（L11）
 
 ### Expressions
 
 - be mad at sb. 生某人的气
 - for some reason 基于一些原因
+    1. For some reason, instead of spending the whole weekend in the house, he went on a journey by himself.（L14 L20）
+    2. For some reason, he gave up smoking.
 - a large sum of money 一大笔钱
 - be determined to do sth. 决心做某事
 

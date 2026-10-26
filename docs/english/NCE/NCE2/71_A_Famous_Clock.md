@@ -26,16 +26,37 @@
 
 ### Words
 
-- Parliament /ˈpɑrləmənt/ 英国国会大厦
-- erected /ɪˈrɛktəd/ 建立
+- Parliament /ˈpɑrləmənt/ *n.* 英国国会大厦
+- erected /ɪˈrɛktəd/ *v.* 建立
+    1. It took a couple of hours to erect the tent.（L50）
+    2. She insisted on erecting the wall between her yard and mine.（L68）
+    3. I have tried everything to prevent him from erecting a wall.（L68）
 - takes /teks/ its /ɪts/ name /nem/ from /frʌm/ 取名于
-- accurate /ˈækjərət/ 准确的
-- Officials /əˈfɪʃəlz/ 官员
-- Observatory /əbˈzɝvəˌtɔri/ 格林尼治天文台
+- accurate /ˈækjərət/ *adj.* 准确的
+    1. I caught sight of the the reports, and I have to say it’s very accurate.（L70）
+    2. It was you who were trying to be accurate, not him.（L58）
+- Officials /əˈfɪʃəlz/ *adj.* 官员
+    1. I have trouble with the officials.（L28）
+    2. The officials were so nervous that they ran away during the night.（L35）
+    3. I want to make it official so that I hired you.（L59）
+    4. We look forward to making it official.（L37）
+- Observatory /əbˈzɝvəˌtɔri/ *n.* 格林尼治天文台
+    1. He had no sooner gone back home than they asked him to go back to the observatory.（L38）
+    2. He is planning to visit the observatory tonight.
+    3. If you were at the observatory right now, you would understand me.（L40）
 - striking /ˈstraɪkɪŋ/ 敲
-- check /tʃɛk/ 检查
-- microphone /ˈmaɪkrəˌfon/ 麦克风
-- tower /ˈtaʊɚ/ 塔
+- check /tʃɛk/ *n.* 检查
+    1. They had the clock checked last night.（L66）
+    2. I’ll double check that.
+    3. I’ve checked all the windows.
+    4. Don’t worry.
+- microphone /ˈmaɪkrəˌfon/ *n.* 麦克风
+    1. She is busy with the new microphone.（L70）
+    2. You were instructed to buy a new microphone.
+    3. No one can prevent me from buying a new microphone.（L68）
+- tower /ˈtaʊɚ/ *n.* 塔
+    1. The tower will be closed this evening.（L21）
+    2. The authorities had the tower closed.（L66）
 
 ### Expressions
 
@@ -44,16 +65,22 @@
 - double check 再次核对
 
 - all over the world 全世界
+    1. There are people who like fishing all over the world.（L28）
 
 - burn down 烧毁
 
 - take its name from 得名于
+    1. The street takes its name from a captain.
+    2. The house takes its name from a great man.
 
 - be responsible for 对...负责
 
 - be connected to 与……相连
+    1. If the computer is connected to this, then we will all avoid touching that.（L68）
+    2. I’m connected to all of them.
 
 - go wrong 出毛病
+    1. Did something go wrong?
+    2. If you had helped me, nothing would have gone wrong.（L64）
 
-​    
-
+- ​

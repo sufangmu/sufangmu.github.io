@@ -25,23 +25,60 @@
 
 ### Words
 
-- informing /ˌɪnˈfɔrmɪŋ/ 通知
-- headmaster /ˈhɛdˌmæstɚ/ 校长
+- informing /ˌɪnˈfɔrmɪŋ/ *v.* 通知
+    1. The captain informed me that he won the election again.（L83）
+    2. The teacher informed the kid’s parents that he lost his temper in the class.（L78）
+    3. He’s just informed me that he got a rare disease.（L77）
+- headmaster /ˈhɛdˌmæstɚ/ *n.* 校长
+    1. The headmaster has informed every students that the police will take charge of school soon.
+    2. When the headmaster arrived on the scene, no one was there.（L75）
+    3. The school takes its name from the headmaster.（L71）
 - Pupils /ˈpjupəlz/ 小学生
 - mark /mɑrk/ the /ðə/ occasion /əˈkeʒən/ 纪念时刻
 - understanding /ˌəndɚˈstændɪŋ/ 通情达理的
 - kindly /ˈkaɪndli/ 亲切地
 - unwillingly /ənˈwɪlɪŋli/ 不情愿地
-- a /ə/ farewell /ˌfɛrˈwɛl/ dinner /ˈdɪnɚ/ 告别晚宴
-- in /ɪn/ his /hɪz/ honor /ˈɑnɚ/ 对于他的致敬
+- a /ə/ farewell /ˌfɛrˈwɛl/ dinner /ˈdɪnɚ/ *n.* 告别晚宴
+    1. attend a farewell dinner…
+    2. She was relieved to hear that she didn’t have to attend the farewell dinner.（L84）
+    3. She claimed to have attended a farewell dinner last night.（L82）
+    4. He changed into his best suits and attended a farewell dinner.（L81）
+- in /ɪn/ his /hɪz/ honor /ˈɑnɚ/ *n.* 对于他的致敬
+    1. in sb's honor…
+    2. I'm gonna win this game tonight in his honor.
+    3. We'd like to invite you to join
+    4. We're gonna name him Marcus in your honor.
 - curious /ˈkjʊriəs/ 奇妙的
-- coincidence /koˈɪnsɪdəns/ 巧合
-- gardening /ˈɡɑrdənɪŋ/ 园艺
-- contribute /kənˈtrɪbjut/ 贡献
-- album /ˈælbəm/ 相册
-- patience /ˈpeʃəns/ 耐心
-- hobby /ˈhɑbi/ 爱好
-- devote /dɪˈvot/ 致力于
+- coincidence /koˈɪnsɪdəns/ *n.* 巧合
+    1. It can’t be a coincidence that I saw you here this morning.（L17）
+    2. It’s no coincidence that people went on strike on the same day that he won the election.
+- gardening /ˈɡɑrdənɪŋ/ *n.* 园艺
+    1. The headmaster has decided to devote himself to gardening.
+    2. He is busy with the gardening now.（L70）
+    3. I’m just gonna do some gardening this afternoon.
+- contribute /kənˈtrɪbjut/ *v.* 贡献
+    1. make a contribution…
+    2. I'd like to contribute to his college fund.
+    3. It is no use pretending that you haven’t contributed to the business.（L68）
+- album /ˈælbəm/ *n.* 相册
+    1. They were not surprised to see that the headmaster received an album from his students.
+    2. I regretted giving him that album.（L41）
+    3. When he saw the album, he burst into tears.（L72）
+- patience /ˈpeʃəns/ *n.* 耐心
+    1. lose sb’s patience / have a lot of patience…
+    2. He kept on crying and I lost my patience.（L78）
+    3. In the end I lost my patience and shouted at her.
+    4. I ask for your patience and your help.（L6）
+- hobby /ˈhɑbi/ *n.* 爱好
+    1. My hobby is gardening.
+    2. Are you interested in learning that?（L20）
+    3. need/get/have + a hobby…
+    4. Why don’t we talk about your hobby?（L74）
+    5. a total of…
+- devote /dɪˈvot/ *v.* 致力于
+    1. I devote myself to helping the poor.
+    2. After I had graduated, I continued to devote myself to research.（L42）
+    3. I really enjoy learning and reading, so I devote myself to knowledge.（L68）
 
 ### Expressions
 
@@ -56,5 +93,6 @@
 - a total of… 总计……
 - devote oneself to sth. / doing sth. 致力于某事
 - mark the occasion 庆祝这一时刻
+    1. occasion.
+    2. I'd like to say a few words to mark the occasion.
 - remember sb. for sth. 因某事记住某人
-

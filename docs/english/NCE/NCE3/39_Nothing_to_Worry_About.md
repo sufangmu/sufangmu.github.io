@@ -18,32 +18,77 @@
 
 ### Words
 
-- rough /rʌf/ 崎岖的
-- boulders /ˈboldɚz/ 大石块
+- rough /rʌf/ *adj.* 崎岖的
+    1. Seeing the rough mountain path in front of me reduced me to tears.
+- boulders /ˈboldɚz/ *n.* 大石块
+    1. It suddenly dawned on me that there was an old man standing beside that boulder on my way home.
+    2. I should have lodged a complaint to have the large boulder on the road removed.（N2L65&L37）
 - pitted /ˈpɪtɪd/ 坑使洼
-- perturbed /pɚˈtɝbd/ 不安
+- perturbed /pɚˈtɝbd/ *v.* 不安
+    1. Up to the time of my investigation, I discovered that the whole neighborhood was perturbed by the rising crimes.
+    2. It suddenly dawned on me that she seemed perturbed by the name of a man during the inquiry.
 - bumped /bʌmpt/ 颠簸
 - track /træk/ 小道
-- swerved /swɝvd/ 急转变
-- scooped /skupt/ 挖出
-- hammered /ˈhæmɚd/ 击打
-- ominously /ˈɑmənəsli/ 有预兆的
-- rip /rɪp/ 划破
-- petrol /ˈpɛtrol/ 汽油
+- swerved /swɝvd/ *v.* 急转变
+    1. The driver [who was previously looking at his phone] swerved sharply to avoid driving into a tree.
+    2. We can deduce that the driver swerved to avoid hitting the child [who suddenly ran into the street].
+- scooped /skupt/ *v.* 挖出
+    1. When I took a long walk in the forest yesterday, I scooped up some fallen leaves.
+- hammered /ˈhæmɚd/ *v.* 击打
+    1. It seems reasonable to assume that she hammered at the door then because she was frightened.
+- ominously /ˈɑmənəsli/ *adv.* 有预兆的
+    1. He was bewildered by the fact that the streets were ominously quiet.
+    2. As he walk in, he found the woman lying ominously on the floor.
+- rip /rɪp/ *v.* 划破
+    1. It is no use pretending that you are trying to rip off her picture.
+    2. It was the unexpected news that made him want to rip up the newspaper.
+- petrol /ˈpɛtrol/ *n.* 汽油
+    1. Faced with an empty tank, we were relieved to find a petrol station just in time.
+    2. The clues [I found at the petrol station] might shed light on this matter.
+    3. She reprimanded me for stopping for petrol when we were in a hurry.
 - relief /rɪˈlif/ 安慰
-- stretch /strɛtʃ/ 一大片
-- obstacles /ˈɑbstəkəlz/ 障碍
-- clumps /klʌmps/ 丛
-- fissure /ˈfɪʃɚ/ 裂缝
-- renewed /rɪˈnud/ 重复
-- pleadings /ˈplidɪŋz/ 恳求
-- gear /ɡɪr/ 档位
-- astride /əˈstraɪd/ 骑跨
-- crack /kræk/ 缝隙
-- zigzag /ˈzɪɡzæɡ/ 之字形
-- shallow /ˈʃælo/ 浅的
-- grinding /ˈɡraɪndɪŋ/ 摩擦
-- halt /hɔlt/ 停
+- stretch /strɛtʃ/ *n.* 一大片
+    1. We put up our camp along a stretch of the river, where the water flowed gently, and the view was incredible.
+    2. Driving along a stretch of road through the plains, we met a group of nomads.
+- obstacles /ˈɑbstəkəlz/ *n.* 障碍
+    1. There are many obstacles to overcome before one can sing with considerable ease.
+    2. To her dismay, she realized that overcoming the obstacles in front of her was going to be much harder than she had anticipated.
+- clumps /klʌmps/ *n.* 丛
+    1. The ancient ruins, surrounded by clumps of grass and trees, remain connected with the region's history.
+    2. The health of bird populations in the area is strongly correlated with the number of clumps of bushes and trees.
+- fissure /ˈfɪʃɚ/ *n.* 裂缝
+    1. It is all too easy to underestimate the dangers of exploring deep fissures in the earth.
+    2. Having studied them for years, she is well acquainted with the fissures in the region.
+    3. It would be naive to believe that exploring a deep fissure has no significant risks.
+- renewed /rɪˈnud/ *adj.* 重复
+    1. The team's recent success has given them renewed confidence in their abilities.
+    2. The success stories of others who had overcome similar obstacles gave her renewed hope.
+- pleadings /ˈplidɪŋz/ *n.* 恳求
+    1. Despite her constant pleadings, Sarah couldn't convince her parents that she had to attend the concert on a school night.
+- gear /ɡɪr/ *n.* 档位
+    1. The truck went into a low gear and roared down the mountain.
+    2. It seems that whether I go into a low or high gear doesn’t make any difference.（L29&L9）
+- astride /əˈstraɪd/ *prep.* 骑跨
+    1. She mustered up the courage to sit astride the horse.
+    2. I felt puzzled by his action of driving astride the deep fissure.
+- crack /kræk/ *n.* 缝隙
+    1. The symbols depicted on the wall had been damaged by the water that went through a crack.
+    2. I noticed with dismay that there was a small crack in the ceiling.
+    3. The result is based on the assumption that the detectives can see them through a crack in the wall.
+- zigzag /ˈzɪɡzæɡ/ *n.* 之字形
+    1. It’s so odd that the man is walking in a zigzag pattern on the street.
+    2. I’ll never forget the day when I saw you running happily in a zigzag course in the park.（L14）
+- shallow /ˈʃælo/ *adj.* 浅的
+    1. We found scanty clues in the shallow soil.
+    2. The car attempted to drive through the shallow water but got stuck in the mud.（L8&L35）
+    3. The water is too shallow in the pond, which makes it impossible to swim here.
+- grinding /ˈɡraɪndɪŋ/ *v.* 摩擦
+    1. If there had been oil in the engine, the car wouldn’t have come to a grinding halt.
+    2. The overloaded truck had difficulty climbing up the mountain and ground to a halt halfway.
+- halt /hɔlt/ *n.* 停
+    1. The heavy fog brought the air travel to a halt.
+    2. Not only did the accident bring the traffic to a halt, but it also resulted in the death of two men.
+    3. The car came to a halt when the driver noticed the red light.
 
 ### Expressions
 
@@ -64,14 +109,38 @@
 - come to a halt 停下来
 - There was worse to come. 还有更糟糕的
 - get sb. to do  说服某人做某事
+    1. You can get the salesmen to engrave her name on the gift.
+    2. We can deduce that he got someone to fix his car instead of doing it himself.
+    3. She got the fire brigade to chip through a wall and saved the thief.
 - not in the least  一点也不
+    1. He was not in the least sorry for what he said and was bent on winning the argument.
+    2. You don’t seem to be in the least interested in geography, so why are you here for this meeting?
+    3. The boy is not in the least afraid of ghost stories and begged his father to tell him more.
+    4. It was not that...
+    5. It was not that I wanted to get rid of you.
+    6. It is not that I dread going out alone at night.
+    7. It was not that I liked to comment on people’s wearing.
+    8. have a/no sense of
 - it was not that... 不是...
 - have a sense of 有……的感觉
 - sooner or later 迟早
+    1. Sooner or later, you will overcome the obstacles you find bewildering now.
+    2. Sooner or later, you will get back to your family.
+    3. Sooner or later, we will be able to settle the argument.
+    4. what a relief it was when
+    5. What a relief it was when I heard that you are cast in the role you wanted.
+    6. What a relief it was when I succeeded in completing the marathon.
+    7. What a relief it was when I found that the lost girl had been reunited with her family.
 - what a relief it was when 当……时真是松了一口气
 - give way to  被...代替
 - ahead of 在……之前
 - a shallow pool of 一浅滩的……
+    1. a pool of 一池……; 一摊…; 一汪...
+    2. A guard found him lying in a pool of blood, and a doctor saved him.
+    3. After the rain, there was a shallow pool of water in the backyard.
+    4. The hotel manager claimed to have solved the problem, but there was still a pool of water in my room.
 - charge at  冲向
 - sb. announced that 某人宣布……
-
+    1. He announced that their advanced security system would keep the city free from crime.
+    2. The teacher announced that punishments would be meted out to students who broke the school rules.
+    3. He announced that volunteers would attend to the elderly during the heatwave.

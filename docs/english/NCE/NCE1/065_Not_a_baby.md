@@ -59,11 +59,33 @@
 ### Words
 
 - Dad /dæd/ 爸爸
+    1. My dad is driving now.
+    2. My mum is going to call my dad.
 - Mum /mʌm/ 妈妈
-- key /ki/ 钥匙
-- baby /ˈbebi/ 婴儿
-- hear /hɪr/ 听见
+- key /ki/ *n.* 钥匙
+    1. Can you find the key?
+    2. I am cleaning the key now.
+    3. It’s very dirty.
+    4. She is going to give me the key.
+    5. He takes the key to school every day.
+    6. You must take the key with you.
+    7. Is Jill going to stay at home this evening?
+    8. No, she isn’t.
+    9. What is Jill going to do?
+    10. She's going to meet some friends.
+- baby /ˈbebi/ *n.* 婴儿
+    1. This is her baby.
+    2. Is this her baby?
+    3. Whose baby is this?
+    4. The baby looks ill.
+    5. We must call the doctor.
+- hear /hɪr/ *v.* 听见
+    1. Can you hear me?
+    2. Do you hear that?
+    3. I can’t hear it.
+    4. Why can’t you hear it?
 - enjoy yourself /ɪnˌdʒɔɪ jɔrˈsɛlf/ 玩得开心
+    1. We’re gonna have a party tonight.
 
 ### Expressions
 
@@ -71,4 +93,3 @@
 - at half past ten 在十点半
 - front door 前门
 - Enjoy yourself! 玩得开心！
-

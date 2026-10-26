@@ -14,10 +14,11 @@
 
 ### Words
 
-- Lord /lɔrd/ 贵族
+- Lord /lɔrd/ *n.* 贵族
 - coast /kost/ 海岸
 - ship /ʃɪp/ 船
-- overland /ˈovɚˌlænd/ 陆上的
+- overland /ˈovɚˌlænd/ *adj. adv.* 陆上的
+    1. We decided not to travel overland to Beijing.
 
 ### Expressions
 
@@ -30,4 +31,3 @@
 - on the same day 在同一天
 - It looked as if/though  看起来好像
 - pioneer  先驱者
-

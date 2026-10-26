@@ -14,27 +14,69 @@
 
 ### Words
 
-- colossal /kəˈlɑsəl/ 巨大的
+- colossal /kəˈlɑsəl/ *adj.* 巨大的
+    1. They set the colossal ship on fire last night.
+    2. This is a colossal waste of time/money.
+    3. They have proved that the colossal wooden statue was built almost 100 years ago.
 - unsinkable /ənˈsɪŋkəbəl/ 不易下沉的
 - water-tight /ˈwɔtɚˌtaɪt/ 防漏水的
-- compartments /kəmˈpɑrtmənts/ 隔层,舱
-- flooded /ˈflʌdəd/ 被水淹的
-- tragic /ˈtrædʒɪk/ 悲剧的
-- liner /ˈlaɪnɚ/ 邮轮
-- voyage /ˈvɔɪədʒ/ 航行
+- compartments /kəmˈpɑrtmənts/ *n.* 隔层,舱
+    1. It is said that the desk has a secret compartment.
+    2. They are not willing to leave the compartment.
+- flooded /ˈflʌdəd/ *v.* 被水淹的
+    1. Our washing machine broke down yesterday and flooded the kitchen.
+    2. The captain confirmed that all compartments were flooded.
+    3. Dan said the boys flooded the
+- tragic /ˈtrædʒɪk/ *adj.* 悲剧的
+    1. She knocked him to the ground when she heard the tragic news.
+    2. He was killed in a tragic accident at the age of 24.
+    3. Imagine their dismay when they heard the tragic news.
+- liner /ˈlaɪnɚ/ *n.* 邮轮
+    1. They sailed to America in a large liner.
+    2. It's an ocean liner that sails
+    3. The ocean liner set out from Miami.
+    4. He was a waiter working on an ocean liner.
+- voyage /ˈvɔɪədʒ/ *n.* 航行
+    1. I think she was a passenger on our last voyage.
+    2. Hope you have a happy voyage to Hong Kong.
+    3. I thought that you and your friends would be resting after that long voyage.
 - waters /ˈwɔtɚz/ 水域
-- iceberg /ˈaɪsbɚɡ/ 冰山
+- iceberg /ˈaɪsbɚɡ/ *n.* 冰山
+    1. The captain was convinced that the ship hit an iceberg.
+    2. The captain claimed to have seen the iceberg.
+    3. The captain woke up with a start, realizing that the ship hit an iceberg. L2（N2L49&L20）
 - spotted /ˈspɑtɪd/ 看出
-- lookout /ˈlʊˌkaʊt/ 瞭望员
-- collision /kəˈlɪʒən/ 碰撞
-- narrowly /ˈnɛroli/ 勉强地
+- lookout /ˈlʊˌkaʊt/ *n.* 瞭望员
+    1. A lookout spotted a huge iceberg moving in front of the ship.
+    2. One lookout claimed to have seen the iceberg.
+- collision /kəˈlɪʒən/ *n.* 碰撞
+    1. They have one thing in common. They were all injured in a collision.
+    2. It seems that they were all injured in the collision.
+- narrowly /ˈnɛroli/ *adv.* 勉强地
+    1. It is said that Alan narrowly avoided an accident.
+    2. It was Leo that narrowly escaped, not you.
 - immense /ˌɪˈmɛns/ 巨大的
-- slight /slaɪt/ 轻微的
-- trembling /ˈtrɛmbəlɪŋ/ 发抖的
-- faint /fent/ 微弱的
+- slight /slaɪt/ *adj.* 轻微的
+    1. He's got a headache and a slight fever, for he works too hard recently.
+    2. She looked at him with a slight smile.
+    3. I should warn you, Barnabas, there's
+- trembling /ˈtrɛmbəlɪŋ/ *v.* 发抖的
+    1. It seems that his whole body was trembling.
+    2. You needn’t have said that to her, because her whole body is trembling now.
+    3. Trembling with fear, she handed over the money to the him.
+- faint /fent/ *adj.* 微弱的
+    1. We heard a faint noise coming from the room.
+    2. I could see a faint light, and I decided to try to reach it.
+    3. Leo detected a faint smell of perfume as she entered the room.
+    4. To my horror, I discovered that my passport was missing.
+    5. Leo pointed out that they watched a Japanese horror movie last night together.
+    6. People watched in horror as the small plane crashed to the ground.
 - horror /ˈhɔrɚ/ 恐惧
 - rapidly /ˈræpədli/ 迅速地
-- plunged /plʌndʒd/ 跳进
+- plunged /plʌndʒd/ *v.* 跳进
+    1. His parents forbid him to plunge into the cold water.
+    2. Our dog has a habit of plunging into the water.
+    3. Hey, don’t even try to plunge into the river, and make a spectacle of yourself.
 
 ### Expressions
 
@@ -43,7 +85,15 @@
 - a crew of  一组(工作人员)
 - be regarded as 被认为是
 - give an alarm 发出警报
+    1. As soon as the alarm was given, everyone rushed to the lifeboats.
+    2. Now that the alarm is given, ...
+    3. So long as you give an alarm, ...
 - in time 及时
 - realized to his horror that  他惊恐地意识到
+    1. Leo realized to his horror that two of his cats had died from the fire accident.
+    2. Leo realized to his horror that the movie was actually based on his story.
+    3. He suddenly realized to his horror that the brakes weren't working.
 - give an order 下命令
-
+    1. The captain gave the order to abandon ship.
+    2. The order(to build a bridge)was given.
+    3. The captain immediately gave an order to send out a signal for rescue.

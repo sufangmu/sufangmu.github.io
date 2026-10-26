@@ -27,20 +27,51 @@
 ### Words
 
 - account /əˈkaʊnt/ 解释
-- extremely /ɛkˈstrimli/ 非常
+- extremely /ɛkˈstrimli/ *adv.* 非常
+    1. extremely tired/thirsty/heavy…(adj.)
+    2. She is extremely tired/thirsty.
+    3. She inquired about that extremely heavy box last night.（L39）
 - occurred /əˈkɝd/ 发生
-- astonished /əˈstɑnɪʃt/ 惊讶的
+- astonished /əˈstɑnɪʃt/ *v.* 惊讶的
+    1. be astonished at sth/was surprised/was shocked…
+    2. In New York, visitors are astonished at high buildings.
+    3. are/who…
+    4. I was astonished at his stupidity.
 - lying /ˈlaɪɪŋ/ lie, 躺
-- pile /paɪl/ 许多
-- woollen /ˈwʊlən/ 羊毛
+- pile /paɪl/ *n.* 许多
+    1. I’ve got a pile of questions.
+    2. The captain ordered his men to throw a pile of books out of the ship.（L43）
+    3. You have to return this pile of woods to Leo.（L45）
+- woollen /ˈwʊlən/ *n.* 羊毛
+    1. She bought a pile of wollen goods for her mom last month.
 - arrested /əˈrɛstɪd/ 逮捕
 - admitted /ədˈmɪtɪd/ 承认
-- confined /kənˈfaɪnd/ 限制
-- unload /ʌnˈlod/ 卸下
-- wooden /ˈwʊdən/ 木制的
+- confined /kənˈfaɪnd/ *v.* 限制
+    1. He had been confined to the wooden box for over eighteen hours.
+    2. He was confined to the kitchen for an hour.
+- unload /ʌnˈlod/ *v.* 卸下
+    1. They are unloading the boxes.（L2）
+    2. The boxes are being unloaded.（L10）
+    3. These boxes must have been unloaded yesterday afternoon.（L21）
+    4. He used to unload boxes everyday.（L31）
+    5. You needn’t have unloaded all the boxes.（L41）
+- wooden /ˈwʊdən/ *adj.* 木制的
+    1. If they bought that wooden chair, I would give you one too.（L40）
+    2. This wooden bridge needs mending.（L44）
+    3. She finds this wooden chair beautiful.（L41）
 - goods /ɡʊdz/ 货物
-- discover /dɪˈskʌvɚ/ 发现
-- normal /ˈnɔrməl/ 正常的
+- discover /dɪˈskʌvɚ/ *v.* 发现
+    1. Several new species of plants have recently been discovered.（L10）
+    2. They discovered a new plant last month.
+- normal /ˈnɔrməl/ *adj.* 正常的
+    1. I just want to live a normal life.
+    2. He is just a normal guy.
+    3. What’s the normal price?
+    4. This is normal.
+    5. Is this normal?
+    6. It occurred to sb. that…
+    7. It occurred to sb. to do sth.
+    8. sb. admit that…
 
 ### Expressions
 

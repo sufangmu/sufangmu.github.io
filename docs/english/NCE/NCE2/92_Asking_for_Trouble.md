@@ -36,10 +36,23 @@
 ### Words
 
 - asleep /əˈslip/ 熟睡
-- ladder /ˈlædɚ/ 梯子
-- shed /ʃɛd/ 棚
-- sarcastic /sɑrˈkæstɪk/ 讽刺的
-- tone /ton/ 语气
+- ladder /ˈlædɚ/ *n.* 梯子
+    1. The police knocked him to the ground with a ladder.（L81）
+    2. I’m used to climbing the ladder up and down.
+    3. My wife urged me to buy a new ladder.（L78）
+- shed /ʃɛd/ *n.* 棚
+    1. They intended to build a shed in their garden.（L36）
+    2. I look forward to seeing your new shed.（L37）
+    3. He managed to build a shed by himself.（L67）
+- sarcastic /sɑrˈkæstɪk/ *adj.* 讽刺的
+    1. Are you being sarcastic?
+    2. "Oh yes, that would be really easy," she said in a sarcastic voice.（L15）
+    3. Why are you always so sarcastic?
+- tone /ton/ *n.* 语气
+    1. I don’t like your tone.
+    2. 2 'You must be Annie,' he said in a friendly tone.
+    3. Don't take that tone with me!
+    4. Are you being sarcastic?
 
 ### Expressions
 
@@ -47,4 +60,5 @@
 - Are you being sarcastic? 你是在挖苦吗？
 - Don't take that tone with me! 别用那种口气跟我说话！
 - hate to do sth. 讨厌做某事
-
+    1. I hate to see birds in cages.
+    2. I hate to see them laughing at you.

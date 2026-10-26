@@ -27,14 +27,27 @@
 
 ### Words
 
-- fair /fɛr/ 市集
-- fortune-teller /ˈfɔrtʃən ˌtɛlɚ/ 算命先生
+- fair /fɛr/ *adj.* 市集
+    1. at a village fair…
+    2. Can you return this to me at that village fair tomorrow?（L45）
+    3. No one could account for the fact everything at that village fair is much more expensive.（L46）
+    4. I heard him singing at a village fair last week.（L47）
+- fortune-teller /ˈfɔrtʃən ˌtɛlɚ/ *n.* 算命先生
+    1. It is said that the fortune-teller at the village fair can tell you everything you don’t even know about yourself.（L58）
+    2. It was at the village fair that I met the fortune-teller last week.（L58）
+    3. A number of “fortune-tellers” were caught by the police last month.（L58）
 - tent /tɛnt/ 帐篷
-- crystal /ˈkrɪstəl/ 水晶的
-- impatiently /ˌɪmˈpeʃəntli/ 不耐烦地;
-- relation /rɪˈleʃən/ 亲戚
+- crystal /ˈkrɪstəl/ *n.* 水晶的
+    1. I got this crystal ball from a fortune-teller at a village fair.
+    2. I think everything's crystal clear.（L39）
+- impatiently /ˌɪmˈpeʃəntli/ *adv.* 不耐烦地;
+    1. “Can you give me a lift” he asked impatiently.
+    2. He waited impatiently at the village fair.
+    3. You have a habit of asking for help impatiently.
+- relation /rɪˈleʃən/ *n.* 亲戚
+    1. a relation of yours…
+    2. He left work early so that he could pick up a relation of his at the train station.（L60）
 
 ### Expressions
 
-the moment = as soon as 主将从现
-
+- the moment = as soon as 主将从现

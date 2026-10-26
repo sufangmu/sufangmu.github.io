@@ -28,17 +28,44 @@
 
 ### Words
 
-- play /ple/ truant /ˈtruənt/ from /frʌm/ school /skul/ 逃学
-- unimaginative /ənɪˈmæˌdʒɪnətɪv/ 缺乏想象力的
+- play /ple/ truant /ˈtruənt/ from /frʌm/ school /skul/ *n.* 逃学
+    1. play truant from school…
+    2. I saw a truant throwing stones into the river.（L35）
+    3. When I was young, I dreamed of playing truant from school all the time.（L38）
+    4. I used to play truant a lot.（L31）
+- unimaginative /ənɪˈmæˌdʒɪnətɪv/ *adj.* 缺乏想象力的
+    1. He is such an unimaginative young man that…（L35）
+    2. He used to be such an unimaginative young man.（L31）
+    3. Don’t follow in your father’s footsteps, and become an unimaginative man.（L72）
 - as /æz/ far /fɑr/ as /æz/ they /ðe/ get /ɡɛt/ 他们所能做到的
-- been /bɪn/ put /pʊt/ to /tu/ shame /ʃem/ 羞耻
-- hitchhiked /ˈhɪtʃˌhaɪkt/ 搭便车
+- been /bɪn/ put /pʊt/ to /tu/ shame /ʃem/ *n.* 羞耻
+    1. You will be put to shame by this.
+    2. I’m fairly confident that every students were put to shame by this.（L55）
+    3. Your cooking puts me to shame, Leah.
+- hitchhiked /ˈhɪtʃˌhaɪkt/ *v.* 搭便车
+    1. He managed to hitchhike to school every day when he was still a student.（L67）
+    2. He insisted on hitchhiking to his hometown.（L68）
+    3. You should have hitchhiked to this place.（L65）
 - crept /krɛpt/ off /ɔf/ 爬离
-- lorry /ˈlɔri/ 卡车
+- lorry /ˈlɔri/ *n.* 卡车
+    1. He was hit by a lorry last night.（L10）
+    2. It’s easy for him to recognize his father’s lorry.
+    3. Although he knows how to drive a lorry, he doesn’t know the way to New York.（L25）
+    4. The lorry must have been stolen last night.（L21）
 - biscuits /ˈbɪskəts/ 饼干
-- border /ˈbɔrdɚ/ 边境
-- evading /ɪˈvedɪŋ/ 逃避
-- meantime /ˈminˌtaɪm/ 与此同时
+- border /ˈbɔrdɚ/ *n.* 边境
+    1. I have never been to the Russian border.
+    2. They had no sooner reached the border than they saw their father.（L38）
+    3. They succeed in crossing the border last night.
+- evading /ɪˈvedɪŋ/ *v.* 逃避
+    1. He managed to evade the police.（L67）
+    2. You're simply trying to evade the problem.
+    3. You needn't have evaded the question.（L41）
+- meantime /ˈminˌtaɪm/ *n.* 与此同时
+    1. in the meantime…
+    2. In the meantime, he was busy with his homework.（L70）
+    3. In the meantime, he was instructed to help Leo.
+    4. In the meantime, he set up his camp under those trees.（L67）
 
 ### Expressions
 
@@ -48,4 +75,6 @@
 - hitchhike to sw. 搭便车去某地
 - in the meantime 与此同时
 - over and over again... 一遍又一遍
-
+    1. again.
+    2. This place was connected to that island by a bridge.
+    3. Do I really need to say that over and over again?（L71）

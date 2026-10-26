@@ -47,14 +47,45 @@
 ### Words
 
 - garden /ˈɡɑrdən/ 花园
-- under /ˈʌndɚ/ 在……下面
+    1. There are some chairs in the garden.
+    2. Are there any chairs in the garden?
+- under /ˈʌndɚ/ *prep.* 在……下面
+    1. There is a cat under the table.
+    2. What is the cat doing?
+    3. I don’t know.
 - tree /tri/ 树
-- climb /klaɪm/ 爬
+    1. There are some children under the tree.
+    2. What are they doing?
+    3. They are reading books.
+- climb /klaɪm/ *v.* 爬
+    1. The boy is climbing the tree.
+    2. Is the boy climbing the tree?
+    3. What is the boy climbing?
 - who /hu/ 谁
-- run /rʌn/ 跑
-- grass /ɡræs/ 草
-- after /ˈæftɚ/ 在……后面
-- across /əˈkrɔs/ 穿过
+    1. Who am I?
+    2. Who is he?
+    3. Who is climbing the tree?
+- run /rʌn/ *v.* 跑
+    1. The man is running.
+    2. Is the man running?
+- grass /ɡræs/ *n.* 草
+    1. The man is running on the grass.
+    2. Is the man running on the grass?
+    3. Where is the man running?
+- after /ˈæftɚ/ *prep.* 在……后面
+    1. The dog is running after the cat.
+    2. Is the dog running after the cat?
+- across /əˈkrɔs/ *prep.* 穿过
+    1. What are they doing?
+    2. They are walking across the street.
+    3. Are they walking across the street?
+    4. They are climbing the wall.
+    5. Who are climbing the wall?
+    6. He is taking off the coat.
+    7. Who is taking off the coat?
+    8. He is emptying the box.
+    9. Who is emptying the box?
+    10. Are Jack and Jean in the garden?
 - type /taɪp/ 打字
 - letter /ˈlɛtɚ/ 信
 - basket /ˈbæskɪt/ 篮子
@@ -74,4 +105,3 @@
 - in the garden 在花园里
 - What's she doing? 她在做什么？
 - She's + v-ing 她在……
-

@@ -13,15 +13,55 @@
 ### Words
 
 - live /lɪv/ 居住
+    1. She lives in Beijing.
+    2. Does she live in Beijing?
+    3. Where does she live?
 - stay /ste/ 停留
+    1. He usually stays at home with his child at night.
+    2. Does he usually stay at home at night?
+    3. How often does he stay at home at night?
 - home /hom/ 家
+    1. He usually stays at home with his child at night.
+    2. Does he usually stay at home at night?
+    3. How often does he stay at home at night?
 - usually /ˈjuʒuəli/ 通常
-- housework /ˈhaʊsˌwɝk/ 家务
+    1. He usually stays at home with his child at night.
+    2. Does he usually stay at home at night?
+    3. How often does he stay at home at night?
+- housework /ˈhaʊsˌwɝk/ *n.* 家务
+    1. Where do the Sawyers live?
+    2. At 87 King Street.
+    3. Sawyer do in the morning?
+    4. He goes to work.
+    5. What do the children do in the morning?
+    6. They go to School.
+    7. Who takes the children to school every day?
+    8. Mr.
 - lunch /lʌntʃ/ 午餐
+    1. We always have lunch together.
+    2. Do you always have lunch together?
+    3. Why do you always have lunch together?
 - together /təˈɡɛðɚ/ 一起
+    1. We always have lunch together.
+    2. Do you always have lunch together?
+    3. Why do you always have lunch together?
 - arrive /əˈraɪv/ 到达
+    1. He arrives home late every night.
+    2. Does he arrive home late every night?
+    3. Why does he arrive home late every night?
 - afternoon /ˌæftɚˈnun/ 下午
+    1. They are going to do the housework in the afternoon.
 - evening /ˈivnɪŋ/ 晚上
+    1. Can I watch TV this evening?
+    2. Sawyer do every day?
+    3. She stays at home.
+    4. When does she eat her lunch?
+    5. What does she usually do in the afternoon?
+    6. She usually sees her friends.
+    7. When do the children come home from school?
+    8. Ask me if the Sawyers live at 87
+    9. Do the Sawyers live at 87 King
+    10. Street?
 
 ### Expressions
 
@@ -29,4 +69,3 @@
 - go to school 去上学
 - stay at home 待在家
 - do the housework 做家务
-

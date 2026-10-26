@@ -19,17 +19,41 @@
 ### Words
 
 - practical /ˈpræktəkəl/ jokes /dʒoks/ 恶作剧
-- hoax /hoks/ 戏弄
-- deception /dɪˈsɛpʃən/ 欺骗
-- self-respecting /ˌsɛlfrɪˈspɛktɪŋ/ 自重的
-- indulge /ˌɪnˈdʌldʒ/ 沉迷
+- hoax /hoks/ *n.* 戏弄
+    1. There is no doubt that he made a hoax call to his mother.
+    2. Despite the fact that the man made a hoax call to his girlfriend, their wedding was still a success.
+- deception /dɪˈsɛpʃən/ *n.* 欺骗
+    1. It suddenly dawned on me that this might be a form of deception.
+    2. From the evidence we have now, we can certainly deduce that he obtained that large sum of money by deception.（L14&L38）
+- self-respecting /ˌsɛlfrɪˈspɛktɪŋ/ *adj.* 自重的
+    1. Any self-respecting lawyer would take their job seriously.
+    2. No self-respecting student would attempt to obtain money by deception.
+- indulge /ˌɪnˈdʌldʒ/ *v.* 沉迷
+    1. What a relief it was when I found that he had stopped indulging in sweet food.
+    2. Now you are in a unique position to persuade him not to indulge in short videos.
+    3. It was not that you can never indulge in shopping.
 - victims /ˈvɪktəmz/ 受害者
-- pneumatic /nuˈmætɪk/ 气动的
+- pneumatic /nuˈmætɪk/ *adj. n.* 气动的
+    1. It seems that this pneumatic drill is broken.
+    2. There are a bewildering variety of pneumatic drills in the shop.
 - drill /drɪl/ 钻
-- silly /ˈsɪli/ 无聊的
-- archway /ˈɑrtʃˌwe/ 拱门
-- remonstrated /rɪˈmɑnˌstretɪd/ 告诫
-- ironically /aɪˈrɑnɪkli/ 讽刺的
+- silly /ˈsɪli/ *adj.* 无聊的
+    1. It is silly to do.../it’s silly of me to do. /it’s silly for sb. to do.
+    2. It’s silly of me to blame that on you.
+    3. It’s silly to go back to work now.
+    4. It is silly of me to wear that suit to the fancy dress party.
+- archway /ˈɑrtʃˌwe/ *n.* 拱门
+    1. You seem perturbed that he is gazing at the sacred temple which has an ancient archway.
+    2. I recognized the man who was fanatical about ancient archways.
+    3. I saw a boy who was charging at the archway.
+- remonstrated /rɪˈmɑnˌstretɪd/ *v.* 告诫
+    1. The producers who remonstrated against the new rules were put out of business.
+    2. So you are making the assumption that as the employees learned about the sudden changes in company policies, they gathered to remonstrate with the management.
+    3. Rolling up her sleeves, she remonstrated with her husband about the decision.
+- ironically /aɪˈrɑnɪkli/ *adv.* 讽刺的
+    1. Ironically, she managed to connect the dots.（N2L67&38）
+    2. Ironically, the team's efforts to speed up the project were negatively correlated with the number of mistakes they made.（N2L56&L38）
+    3. Ironically, the man takes his job seriously.
 
 ### Expressions
 
@@ -38,29 +62,80 @@
 - a form/kind of deception 一种欺骗
 - obtain money....by deception 靠欺骗获取钱财
 - It is silly to do … 做……很愚蠢
+    1. I am relieved to hear that you didn’t take that money by force.
+    2. The trace on the floor proved that the furniture was removed by force.
+    3. It’s disturbing to think that some children were dragged into strangers’ cars by force.
 - It’s silly of sb. to do 某人做……真傻
+    1. I am relieved to hear that you didn’t take that money by force.
+    2. The trace on the floor proved that the furniture was removed by force.
+    3. It’s disturbing to think that some children were dragged into strangers’ cars by force.
 - It’s silly for sb. to do 某人做……真傻
+    1. I am relieved to hear that you didn’t take that money by force.
+    2. The trace on the floor proved that the furniture was removed by force.
+    3. It’s disturbing to think that some children were dragged into strangers’ cars by force.
 - indulge in… 沉溺于……
 - advance information/planning/warning/booking/reservations/training/notice 预先的信息/计划/警告/预订/培训/通知
 - remonstrate with sb.(about sth. ) （就某事）规劝某人
+    1. Taking a shower now would hardly be necessary as we are going swimming.
+    2. Keeping a secret would hardly be necessary as I already know the truth.
+    3. Making scrambled eggs would hardly be necessary as I already had breakfast.
 - remonstrate against sth. 抗议…
+    1. Taking a shower now would hardly be necessary as we are going swimming.
+    2. Keeping a secret would hardly be necessary as I already know the truth.
+    3. Making scrambled eggs would hardly be necessary as I already had breakfast.
 - ask (for)/need/give permission 请求/需要/给予许可
 - be granted permission to do 获准做
+    1. I am relieved to hear that you didn’t take that money by force.
+    2. The trace on the floor proved that the furniture was removed by force.
+    3. It’s disturbing to think that some children were dragged into strangers’ cars by force.
 - take...for granted 把……视为理所当然
 - It has never been explained why... 从未解释过为什么……
+    1. It has never been explained why he was given a state funeral.
+    2. Despite numerous inquiries, it has never been explained why the project was suddenly canceled.
+    3. It has never been explained why they were keeping track of the ballon.
 - practical jokes 恶作剧
 - specialize in 专攻
 - no self-respecting ... would do... 有自尊心的……不会做……
+    1. No self-respecting student would cheat on an exam to achieve better grades..
+    2. No self-respecting journalist would ever work for that newspaper.
+    3. No self-respecting artist would copy someone else's artwork.
 - be funny to 对……来说好笑
+    1. Everyone was grateful for the contribution you made to our town.
+    2. I am forever grateful for the encouragement you have given me.
+    3. I am grateful for the support of my friends and family, as their encouragement helped me overcome obstacles during challenging times.
 - tear up 撕毁
 - sb. added that 某人补充说……
+    1. He added that practice is necessary for conditioning someone to perform well in sports.
+    2. He added that the suggestion might strike her as surprising but was worth considering.
+    3. &
+    4. He added that he had to live by fishing.
 - be grateful (to sb. ) for sth. （对某人）因某事感激
+    1. Everyone was grateful for the contribution you made to our town.
+    2. I am forever grateful for the encouragement you have given me.
+    3. I am grateful for the support of my friends and family, as their encouragement helped me overcome obstacles during challenging times.
 - do...by force 用武力做……
+    1. I am relieved to hear that you didn’t take that money by force.
+    2. The trace on the floor proved that the furniture was removed by force.
+    3. It’s disturbing to think that some children were dragged into strangers’ cars by force.
 - stop doing 停止做
+    1. Stop spying on him.
+    2. He stopped begging his mother to give him more pocket money.
+    3. Punishments are often meted out to those who don't stop doing illegal activities.
 - sth. would hardly be necessary as... 作为……几乎没有必要
+    1. Taking a shower now would hardly be necessary as we are going swimming.
+    2. Keeping a secret would hardly be necessary as I already know the truth.
+    3. Making scrambled eggs would hardly be necessary as I already had breakfast.
 - be under arrest 被逮捕
 - put sb. under arrest 逮捕某人
 - pretend to do 假装做
+    1. She had no intention of pretending to sleep.
+    2. He pretended to leap out at me.
+    3. There is no doubt that he was just pretending to cry.
 - make a telephone call 打电话
+    1. It’s no use pretending to make a telephone call now.
+    2. He can’t conceal the fact that he wanted to make a telephone call.
+    3. It became impossible to make a telephone call in the basement at that time.
 - Only when... did sb. realize that +句子 只有……某人才意识到……
-
+    1. Only when she saw the final grades did she realize that she had passed the exam.
+    2. Only when they arrived at the party did they realize that it was a surprise for them.
+    3. Only when she lost her job did she realize that she had been taking her financial stability for granted.

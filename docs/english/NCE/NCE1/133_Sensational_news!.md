@@ -30,9 +30,32 @@
 
 ### Words
 
-- reporter /rɪˈpɔrtɚ/ 记者
-- sensational /sɛnˈseʃənəl/ 轰动的
-- mink coat /ˈmɪŋk ˌkot/ 貂皮大衣
+- reporter /rɪˈpɔrtɚ/ *n.* 记者
+    1. She is the best reporter I’ve ever seen.（L111）
+    2. The reporter who was on TV last night went abroad this morning.（L121）
+    3. After the reporter got out of the building, it began to rain.（L119）
+- sensational /sɛnˈseʃənəl/ *adj.* 轰动的
+    1. This is the most sensational news I’ve ever heard.（L111）
+    2. This may be the most sensational news I’ve ever heard.（L131）
+    3. What has Karen Marsh just done?
+    4. She's just made another film.
+    5. Who is interviewing her?
+    6. Does she think she will make another?
+    7. No, she doesn't.
+    8. What does she say she is going to do?
+    9. She says she is going to retire.
+    10. Why does she say she is going to retire?
+- mink coat /ˈmɪŋk ˌkot/ *n.* 貂皮大衣
+    1. This is the mink coat which I bought last winter.
+    2. This mink coat is longer than that one.（L108）
+    3. She must have been wearing that mink coat last night.（L129）
+    4. Marsh arrived at London Airport?
+    5. He said she arrived at London
+    6. 7T:What did he say she was wearing?
+    7. He said she was wearing a blue dress and a mink coat.
+    8. What did she tell the reporter?
+    9. She told the reporter that she had just made a new film.
+    10. Did she say she was going to make another film?
 
 ### Expressions
 
@@ -40,4 +63,3 @@
 - feel tired 感到累
 - by our reporter 由我们的记者
 - a mink coat 一件貂皮大衣
-

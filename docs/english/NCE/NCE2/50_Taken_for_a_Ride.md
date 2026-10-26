@@ -37,10 +37,18 @@
 
 ### Words
 
-- went /wɛnt/ on /ɑn/ an /æn/ excursion /ɪkˈskɝʒən/ 远足,短途旅行
-- conductor /kənˈdʌktɚ/ 售票员,指挥
+- went /wɛnt/ on /ɑn/ an /æn/ excursion /ɪkˈskɝʒən/ *n.* 远足,短途旅行
+    1. Both my father and my brother went on an excursion last month.（L25）
+    2. are/when/who…
+- conductor /kənˈdʌktɚ/ *n.* 售票员,指挥
+    1. As soon as I got on the bus, the conductor asked me to buy a ticket.（L14）
+    2. Although the conductor asked me to buy a ticket, I refused to do so.
+    3. As the conductor got tired of selling tickets, he quitted his job last week.
 - shock /ʃɑk/ 震惊
-- view /vju/ 景色
+- view /vju/ *n.* 景色
+    1. We got a good view of the countryside.(city)
+    2. Did you get a good view of the countryside?
+    3. We will get a good view of the countryside.
 
 ### Expressions
 
@@ -49,9 +57,24 @@
 - go on an excursion 去旅行
 - get a good view of sth. 好好观赏某物
 - prefer to do sth. = prefer doing sth. 更喜欢做某事
+    1. I don’t like cities.
+    2. I prefer to live in the country. = I prefer living in the country.
+    3. I don’t get up on Sundays.
+    4. I prefer staying in bed. = I prefer to stay in bed.
+    5. I prefer this coat to that coat.
+    6. I prefer basketball to football.
+    7. I prefer riding to walking.
+    8. I prefer going to the cinema to watching DVDs at home.
 - I prefer a to b 比起 B 我更喜欢 A
 - I prefer doing a to doing b 比起做 B 我更喜欢做 A
 - I prefer to do a rather than (do) b. 宁愿做 A 也不愿做 B
+    1. Leo prefers to live in the country rather than (live) in a city.
+    2. I prefer to drive rather than travel by train.
 - I’d prefer (= I would prefer) to do sth. 我更愿意做某事
+    1. I’d prefer to drive.
+    2. I’d prefer to have dinner now.
+    3. Would you prefer to have dinner now?
+    4. I'd prefer to go by myself.
+    5. I’d(=would) prefer to do a rather than
+    6. I’d prefer to stay at home tonight rather than go to the cinema.
 - I’d(=would) prefer to do a rather than (do) b. 我宁愿做 A 也不愿做 B
-

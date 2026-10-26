@@ -19,25 +19,48 @@
 ### Words
 
 - poor /pʊr/ 可怜的
-- repeating /rɪˈpitɪŋ/ the /ðə/ same /sem/ lines /laɪnz/ 台词
-- parts /pɑrts/ 角色
-- falter /ˈfɔltɚ/ 结巴地说
-- cast /kæst/ 分配角色
-- aristocrat /əˈrɪstəˌkræt/ 贵族
-- imprisoned /ˌɪmˈprɪzənd/ 关押
+- repeating /rɪˈpitɪŋ/ the /ðə/ same /sem/ lines /laɪnz/ *n.* 台词
+    1. The actors were forced to repeat the same lines over and over again.（L20）
+    2. The actor changed his mind and refused to repeat the same lines.
+    3. It astounded me that he repeat the same lines for 2 hours.
+- parts /pɑrts/ *n.* 角色
+    1. He has a small part in the school play.
+    2. It’s true that he is a very famous actor, but he doesn’t know his parts in the play at all.
+- falter /ˈfɔltɚ/ *v.* 结巴地说
+    1. He attempted to thank him, but his voice began to falter.
+    2. He went to the police, but his voice faltered when he tired to tell them what had happened.
+- cast /kæst/ *v.* 分配角色
+    1. It is said that he cast a young woman in the role of the captain.
+- aristocrat /əˈrɪstəˌkræt/ *n.* 贵族
+    1. It looked as if the aristocrat would be offering a prize of 1000 to him.
+    2. The idea that aristocrat should live a better life is mistaken.
+    3. Little is known about that aristocrat.
+- imprisoned /ˌɪmˈprɪzənd/ *v.* 关押
+    1. He fled to Paris because they
+    2. If you do not allow this, they will imprison him.
 - act /ækt/ 一幕
-- gaoler /ˈdʒelɚ/ jailer, 监狱长
+- gaoler /ˈdʒelɚ/ jailer, *n.* 监狱长
+    1. Imagine the jailer’s dismay when he found no one in the cell.
+    2. The jailer leads an orderly life.
+    3. The jailer was greeted by an awful smell when he entered the cell.
 - noble /ˈnobəl/ 贵族
-- curtain /ˈkɝtən/ 幕布
-- revealed /rɪˈvild/ 露出
+- curtain /ˈkɝtən/ *n.* 幕布
+- revealed /rɪˈvild/ *v.* 露出
+    1. It astounded Leo that the door opened to reveal a nice little room.
 - eagerly /ˈiɡɚli/ 渴望地
 - fellow /ˈfɛlo/ 同事
-- squinting /ˈskwɪntɪŋ/ 眯起眼睛
-- dim /dɪm/ 昏暗的
+- squinting /ˈskwɪntɪŋ/ *v.* 眯起眼睛
+    1. She squinted at the sign but couldn't see what it said.
+    2. Squinting his eyes, Leo let out a cry.
+- dim /dɪm/ *adj.* 昏暗的
+    1. In the dim light, Leo told me about the story.
+    2. Everything looked grey in the dim light of the oil lamp.
 - promptly /ˈprɑmptli/ 迅速地
 - sire /ˈsaɪɚ/ 陛下
 - amusement /əˈmjuzmənt/ 乐趣
-- proceeded /prəˈsidɪd/ 继续
+- proceeded /prəˈsidɪd/ *v.* 继续
+    1. As soon as he came in, he proceeded to tell us all his troubles.
+    2. Having said she wasn't hungry, she then proceeded to order a large pizza.
 
 ### Expressions
 
@@ -46,23 +69,55 @@
 - the curtain goes up / rises / comes down falls 开幕/落幕
 - a blank sheet of paper 一张白纸
 - squinting at 眯着眼看
+    1. At last, they turned against me.
+    2. At last, they told me about that.
+    3. At last, she let out a cry and ran out of the room.
 - In the dim light 在昏暗的灯光下
 - proceed to do sth. 接着做某事
 - on end 连续地；竖着
+    1. Sometimes he would not leave his room for days on end.
+    2. He used to roam the streets for hours on end.
+    3. Leo was astonished to find they had talked with each other for hours on end.
+    4. It is clear that my mother and I are alike in many ways.
+    5. Leo is different from Berlin in many ways.
+    6. In many ways, you can fulfill your dreams in this city.
 - In many ways 在许多方面
 - be required to do sth. 被要求做某事
+    1. You are required by law to wear a seat belt.
+    2. Students are required to bring a blank sheet of paper with them.
 - expect sb. to do sth. 期望某人做某事
+    1. I didn’t expect him to stay so long.
+    2. We didn’t expect him to win a prize of $1000.
+    3. They didn’t expect her to pay a ransom of $1000.
 - be expected to do sth. 被期望做某事
 - learn/know sth. by heart...  牢记...
+    1. After a few days, he still knew her number by heart.
+    2. I made it very clear, and you knew that by heart, but you still change your mind.
 - have cause to do sth.  有理由做某事
+    1. Joe’s father had good cause to be proud of him.
+    2. I've never had any cause to complain about my doctor.
 - sb. insisted that + 句子(should do).  坚持要求...
 - be written out in full 全文写出
 - play a joke on sb. 开某人的玩笑
+    1. A man named Wakefield decides to play a joke on his wife.
+    2. Technically speaking, it was you who played a joke on him, not me.
+    3. Not only did he play a joke on Leo,...
 - present sth. to sb.  把某物送给某人
+    1. Students are expected to be quiet in the classroom.
+    2. He's a former champion and is expected to win the game.
 - look on 旁观
+    1. Only one man tried to help us, the rest just looked on in silence.
+    2. A lot of people just looked on while the robbery happened.
 - at last 最后
+    1. At last, they turned against me.
+    2. At last, they told me about that.
+    3. At last, she let out a cry and ran out of the room.
 - be anxious to do sth.  急于做某事
 - stare at 盯着看
+    1. What are you staring at? Why are you staring at that?
+    2. Susan realized to her horror that Leo was staring at himself in the mirror.
 - read sth. to sb. 把某物读给某人听
+    1. He glanced at the letter and began to read it to his daughter.
+    2. He was genuinely sorry that he couldn’t read the story to his daughter last night.
+    3. To his horror, a stranger is reading a letter to his daughter.
 - much to sb’s sth. 令某人特别...
-

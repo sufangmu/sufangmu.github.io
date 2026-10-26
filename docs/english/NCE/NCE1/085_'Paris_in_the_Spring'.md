@@ -59,14 +59,34 @@
 ### Words
 
 - Paris /ˈpærɪs/ 巴黎
-- cinema /ˈsɪnəmə/ 电影院
+    1. I lived in Paris three years ago.
+    2. I went to Paris five years ago.
+    3. When did you go to Paris?
+- cinema /ˈsɪnəmə/ *n.* 电影院
+    1. Did you go to a cinema last night?
+    2. I saw a film with my girlfriend yesterday.
+    3. When did you see a film with your girlfriend?
+    4. She arrived in Beijing yesterday.
+    5. She is in Paris now.
 - film /fɪlm/ 电影
-- beautiful /ˈbjutəfəl/ 美丽的
-- city /ˈsɪti/ 城市
+- beautiful /ˈbjutəfəl/ *adj.* 美丽的
+    1. It’s beautiful.
+    2. Isn’t it beautiful?
+    3. She’s beautiful.
+- city /ˈsɪti/ *n.* 城市
+    1. I don’t want to live in the city.
+    2. Don’t you want to live in the big city?
+    3. I want to live in the country.
+    4. Hello!
+    5. Alice isn’t here at the moment.
+    6. ‘Are you going to the bank’
+    7. Has Ken been at home all day?
+    8. No, he hasn't.
+    9. Has he just been to the cinema?
+    10. Yes, he has.
 
 ### Expressions
 
 - been to the cinema 去过电影院
 - see a film 看电影
 - a beautiful city 一座美丽的城市
-

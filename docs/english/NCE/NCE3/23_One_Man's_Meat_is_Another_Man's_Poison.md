@@ -14,21 +14,47 @@
 
 ### Words
 
-- illogical /ˌɪˈlɑdʒɪkəl/ 不合逻辑
-- octopus /ˈɑktəˌpʊs/ 章鱼
-- repulsive /riˈpʌlsɪv/ 令人厌恶的
-- stomach /ˈstʌmək/ 胃
+- illogical /ˌɪˈlɑdʒɪkəl/ *adj.* 不合逻辑
+    1. It is illogical to assume you can do the work of three people.
+    2. Because we do not know what death is, it is illogical to fear it.
+    3. It’s illogical to bet all your money on this.
+- octopus /ˈɑktəˌpʊs/ *n.* 章鱼
+    1. On the other hand, no one there likes to eat octopus.
+    2. I’m genuinely sorry that you don’t like octopus.
+- repulsive /riˈpʌlsɪv/ *adj.* 令人厌恶的
+    1. He is so repulsive that no one is interested in him.
+    2. Leo describes snails as very repulsive food.
+- stomach /ˈstʌmək/ *n. v.* 胃
+    1. Much to Leo's surprise, it didn’t turn his stomach at all.
 - turn /tɝn/ 恶心
-- frying /ˈfraɪɪŋ/ 油炸
-- abuse /əˈbjus/ 辱骂
-- snail /snel/ 蜗牛
-- luxury /ˈlʌɡʒəri/ 奢侈品
-- despised /dɪˈspaɪzd/ 鄙视
-- appealed /əˈpild/ 吸引
-- shower /ˈʃaʊɚ/ 阵雨
-- taking /ˈtekɪŋ/ a /ə/ stroll /strol/ 散步
-- impulse /ˈɪmpʌls/ 冲动
-- fancy /ˈfænsi/ 喜欢
+- frying /ˈfraɪɪŋ/ *v.* 油炸
+    1. It seems that they had fried chicken for dinner.
+    2. Leo learnt to fry chicken when he was in Auckland.
+- abuse /əˈbjus/ *n.* 辱骂
+    1. No one has received more abuse than that guy in our company.
+- snail /snel/ *n. v.* 蜗牛
+    1. Leo saw him eat a snail last week.
+    2. For the first time in Leo’s life, he tired to eat a snail.
+    3. Why do people associate snails with food?
+- luxury /ˈlʌɡʒəri/ *n.* 奢侈品
+    1. She got used to a life of great luxury.
+    2. She saw books as a necessity, not a luxury.
+- despised /dɪˈspaɪzd/ *v.* 鄙视
+    1. She despised her neighbor, and tried to put her neighbor’s husband out of business.
+- appealed /əˈpild/ *v.* 吸引
+    1. Leo is anxious to find out if the new book will appeal to young readers.
+- shower /ˈʃaʊɚ/ *n.* 阵雨
+    1. After a heavy shower, he followed his father’s instructions and fixed the front door.
+- taking /ˈtekɪŋ/ a /ə/ stroll /strol/ *n.* 散步
+    1. It is no use pretending that you don’t want to go for a stroll with her.
+    2. I’m glad that we took a stroll together.
+    3. He wished that he had gone for a stroll with her last night.
+- impulse /ˈɪmpʌls/ *n.* 冲动
+    1. Rosa had an impulse to tell Henry the truth.
+    2. Acting on an impulse, he decided to visit his sister.
+- fancy /ˈfænsi/ *v.* 喜欢
+    1. She didn't fancy (= did not like) the idea of going home in the dark.
+    2. She is always doing that, and I don’t fancy the idea of living with her.（L2）
 
 ### Expressions
 
@@ -48,12 +74,26 @@
 - dozens of sth. sb. 几十个……
 - for instance 例如
 - at the idea of... 一想到……
+    1. She was very unhappy at the idea of staying in London.
+    2. Because of this, she was shocked at the idea of flying to Europe.
+    3. Many parents may be shocked at the idea of paying $100 for a pair of shoes.
+    4. The simple truth is that there isn’t enough money to pay for it.
+    5. The sad truth is that he doesn't like you any longer.
+    6. The truth is that anyone [who...] takes no interests in this kind of thing.
 - The sad truth is that+句子 可悲的事实是……
 - be brought up to do sth 被教导要做某事
 - stick to sth. 坚持某事
+    1. Stick to the main roads and you won't get lost.
+    2. Leo was determined to stick to his decision.
 - notice sb. doing sth. 注意到某人正在做某事
+    1. Did you notice him leaving the party early?
+    2. I was going to leave when I noticed someone entering the room.
+    3. He was sure no one had noticed him talking to the journalist.
 - be delighted to do sth. 很高兴做某事
 - stay to dinner = stay for dinner 留下来吃晚饭
+    1. A: "Would you like to stay to dinner, Jeff?"
+    2. B: "Sure! I'll have to ask my parents first."
+    3. I don’t have cause to stay to dinner.
+    4. Not only did he stay to dinner last night, ...
 - to sb’s dismay 令某人沮丧的是
 - take possession of sth. 占有某物
-

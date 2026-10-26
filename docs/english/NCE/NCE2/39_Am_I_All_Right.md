@@ -27,12 +27,26 @@
 ### Words
 
 - day /de/ 第二天
-- certain /ˈsɝtən/ 某个
-- relative /ˈrɛlətɪv/ 亲戚
-- operation /ˌɑpəˈreʃən/ 手术
-- successful /səkˈsɛsfəl/ 成功的
-- patient /ˈpeʃənt/ 病人
-- alone /əˈlon/ 独自
+- certain /ˈsɝtən/ *adj.* 某个
+    1. He was inquiring about a certain patient.
+    2. Was he inquiring about a certain patient?
+- relative /ˈrɛlətɪv/ *n.* 亲戚
+    1. The relative of the patient planed to settle down in the country.（L38）
+    2. You must be the relative of the patient.（L17）
+    3. The doctor realized that he was a relative of the patient.（L20）
+- operation /ˌɑpəˈreʃən/ *n.* 手术
+    1. She will be having an operation tonight.（L13）
+    2. She dreamed of having this operation for many years.（L38）
+    3. In his twenties, he used to have an operation almost every day.（L31）
+- successful /səkˈsɛsfəl/ *adj.* 成功的
+    1. The operation was successful, but the patient died.
+    2. She became successful when she was very young.
+- patient /ˈpeʃənt/ *n.* 病人
+    1. The patient had no sooner entered the room than he fell down on the floor.（L38）
+    2. The patient will have stayed in the hospital for 10 days by the end of this week.（L37）
+    3. The patient used to be strong like a horse.
+- alone /əˈlon/ *adj.* 独自
+    1. He wrapped it up as quickly as possible when he was alone.
 
 ### Expressions
 

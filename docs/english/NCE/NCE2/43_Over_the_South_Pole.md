@@ -27,18 +27,46 @@
 
 ### Words
 
-- flight /flaɪt/ 航班
-- Pole /pol/ 北极
-- explorer /ɪkˈsplɔrɚ/ 探险家
+- flight /flaɪt/ *n.* 航班
+    1. How was your flight?
+    2. I have to catch a flight.（L18）
+    3. Your flight is 8, so you needn’t have come here so early.（L41）
+- Pole /pol/ *n.* 北极
+    1. They have been to the South Pole.
+    2. They have gone to the South Pole.
+    3. If I moved to the South Pole, I could see the penguins everyday.（L40）
+- explorer /ɪkˈsplɔrɚ/ *n.* 探险家
+    1. If I knew that explorer, I would have a drink with him.（L40）
+    2. The explorer had no sooner entered the room than everybody began to sing.（L38）
+    3. You needn’t explain this to that explorer.（L33）
 - Though /ðo/ 尽管
-- seemed /simd/ 似乎
-- sacks /sæks/ 袋子
-- cleared /klɪrd/ 越过
-- serious /ˈsɪriəs/ 严重的
-- point /pɔɪnt/ 时刻
-- crash /kræʃ/ 坠毁
-- aircraft /ˈɛrˌkræft/ 飞机
-- endless /ˈɛndləs/ 无尽的
+- seemed /simd/ *v.* 似乎
+    1. It seems that she is having an operation.（L39）
+    2. It seems that he couldn’t tell the difference between my money and his money.（L42）
+- sacks /sæks/ *n.* 袋子
+    1. food sacks + v.
+    2. He used to carry almost a hundred food sacks everyday.（L31）
+    3. Instead of cleaning all the food sacks, he just threw them away.（L20）
+- cleared /klɪrd/ *v.* 越过
+    1. 400 feet.
+    2. The cat cleared the chair.
+- serious /ˈsɪriəs/ *adj.* 严重的
+    1. If I ran into serious trouble, I would call the police.（L40）
+    2. You must give up that, or you will run into serious trouble.（L20 L25）
+    3. Are you serious? / Are you kidding?
+- point /pɔɪnt/ *n.* 时刻
+    1. At one point in my life, I realized that I had never watched a musical.（L20 L42）
+    2. At one point on my way to the airport, my wallet was stolen.（L10）
+- crash /kræʃ/ *v.* 坠毁
+    1. Her brother borrowed her car and crashed it.
+    2. She saw his car crash into a tree.（L35）
+    3. If he intends to crash his car, you can’t stop that.（L16）
+- aircraft /ˈɛrˌkræft/ *n.* 飞机
+    1. He dreamed of driving a aircraft when he was very young.（L38）
+    2. If you saw that aircraft, you would like it.（L40）
+- endless /ˈɛndləs/ *n.* 无尽的
+    1. The aircraft flew over the endless white plains.
+    2. There is endless work to do in my office.
 - plain /plen/ 平原
 
 ### Expressions
@@ -48,4 +76,3 @@
 - run into trouble 陷入麻烦
 - throw out 扔掉
 - in sight 在视野内
-

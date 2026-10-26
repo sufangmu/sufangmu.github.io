@@ -15,31 +15,67 @@
 ### Words
 
 - sailing /ˈselɪŋ/ ships /ʃɪps/ 帆船
-- impressive /ˌɪmˈprɛsɪv/ 给人印象深刻的
-- vessels /ˈvɛsəlz/ 轮船
-- era /ˈɛrə/ 时代
+- impressive /ˌɪmˈprɛsɪv/ *adj.* 给人印象深刻的
+    1. It is said that there are some very impressive buildings in the town.
+    2. The fact [that he is so young] makes his achievements even more impressive.（N2L46）
+- vessels /ˈvɛsəlz/ *n.* 轮船
+    1. Leo was astonished to find that the man [on the fishing vessel] was his medicine teacher.
+    2. They spotted the vessel floating on the river.
+- era /ˈɛrə/ *n.* 时代
+    1. When he died, it seemed like the end of an era.
+    2. The birth of their first child marked the beginning of a new era.
 - storm /stɔrm/ 暴风雨
-- rudder /ˈrʌdɚ/ 舵
-- rolled /rold/ 摇摆
-- steer /stɪr/ 掌握方向
-- planks /plæŋks/ 木板
-- Equator /ɪˈkwetɚ/ 赤道
+- rudder /ˈrʌdɚ/ *n.* 舵
+    1. We are not allowed to touch the rudders.
+    2. The rudder must have been broken during the storm last night.
+    3. The captain was determined to fix the rudder.
+- rolled /rold/ *v.* 摇摆
+    1. When the ship rolled, Leo woke up with a start.
+    2. I’m glad that the ship stops rolling.
+- steer /stɪr/ *v.* 掌握方向
+    1. He is always steering with only one hand.
+    2. Leo was amazed to find that he was steering with only one hand.
+    3. He was too drunk to steer the boat. N1（L103）
+- planks /plæŋks/ *n.* 木板
+    1. Those planks were used to make a new rudder.
+    2. The captain advised us to fix the rudder with these planks.
+- Equator /ɪˈkwetɚ/ *n.* 赤道
 - remarkable /rɪˈmɑrkəbəl/ 引人注目的
 
 ### Expressions
 
 - a new era / the beginning/end of an era 新时代/一个时代的开始与结束
 - a. be fitted with b. A 装有 B
+    1. Typewriters have basically been replaced by computers.
+    2. The sad truth is that you'll be replaced by someone else in the future.
+    3. Teachers will never be replaced by computers in the classroom. will/why...
 - delay in doing sth. 拖延做某事
 - a. be replaced by b. A 被 B 取代
+    1. Typewriters have basically been replaced by computers.
+    2. The sad truth is that you'll be replaced by someone else in the future.
+    3. Teachers will never be replaced by computers in the classroom. will/why...
 - take the lead (in doing sth.) 领先；带头（做某事）
 - lose one’s lead 失去领先地位
+    1. If we take the lead in this, others may follow.
+    2. They took the lead in solving the problem.
+    3. This thing convinced me that we lost the lead because of you.
 - be struck by 被……打动/击中
+    1. The temple burned down after it was struck by lightning last year.
+    2. A house nearby had been struck by a falling tree.
+    3. He is struck by a car while
 - from side to side  左右(摇摆)
 - it became impossible to do sth. 做某事变得不可能
+    1. It became impossible to load the car with this rudder.
+    2. It became impossible to change into the suits, for he gain weight during the past few years.
+    3. It became impossible to take a short walk in the storm.
 - with great difficulty 极其困难地
+    1. With great difficulty, he followed his father’s instructions.
+    2. I finally found a very agreeable situation for my firm, but with some difficulty.
+    3. With great difficulty, he tied him to the chair.
 - there is a danger that + 句子 有……的危险
+    1. There is a danger that museums will attempt to entertain rather than educate.
+    2. There is always a danger that one can be too busy working to spend time with his family.
+    3. There is a danger that your dog might starve to death.
 - call in on/at 顺路拜访
 - by now 到如今
 - There is no doubt that + 句子 毫无疑问……
-

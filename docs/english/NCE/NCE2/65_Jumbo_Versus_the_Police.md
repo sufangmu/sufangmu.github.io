@@ -25,18 +25,36 @@
 
 ### Words
 
-- circus /ˈsɝkəs/ 马戏团
+- circus /ˈsɝkəs/ *n.* 马戏团
+    1. The circus owner, Leo, is my closest friend.（L63）
+    2. What sort of circus do you have here?（L63）
+    3. Leo points out that she owns a circus.（L58）
+    4. go to the circus…
+    5. If you had gone to the circus, you would have met her.（L64）
 - presents /ˈprɛzənts/ 礼物
 - accompanied /əˈkʌmpənid/ 陪伴
 - honour' /ˈɑnɚ/ 仪仗队
 - set /sɛt/ off /ɔf/ 出发
-- approached /əˈprotʃt/ 接近
+- approached /əˈprotʃt/ *v.* 接近
+    1. If you were here, you would approach the tunnel too.（L40）
+    2. We need to find out who approached our house in the dark last night.（L53）
+    3. It was he who approached us.
 - ought /ɔt/ 应该
 - holding /ˈholdɪŋ/ up /ʌp/ the /ðə/ traffic /ˈtræfɪk/ 阻碍交通
 - amused /əˈmjuzd/ 愉快的
-- fortunate /ˈfɔrtʃənət/ 幸运的
+- fortunate /ˈfɔrtʃənət/ *adj.* 幸运的
+    1. It’s very fortunate that this is a registered letter.（L54）
+    2. It was fortunate that he signed for the registered letter last night.（L54）
+    3. It was fortunate that he didn’t smash the vase to pieces.（L49）
+    4. How much do you weigh?
 - arrest /əˈrɛst/ 逮捕
-- weigh /we/ 称重
+- weigh /we/ *v.* 称重
+    1. How much do you weigh?
+    2. How much money do you have?
+    3. I have to weigh them first.
+    4. It must weigh a few tons.
+    5. It might weigh a few tons.（L19）
+    6. It can’t weigh a few tons.（L17）
 
 ### Expressions
 

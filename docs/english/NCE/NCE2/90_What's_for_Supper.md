@@ -31,24 +31,60 @@
 
 ### Words
 
-- giant /ˈdʒaɪənt/ 巨大的
-- terrifying /ˈtɛrəˌfaɪɪŋ/ 使害怕
-- divers /ˈdaɪvɚz/ 潜水员
+- giant /ˈdʒaɪənt/ *adj.* 巨大的
+    1. The fisher claimed to have caught a giant fish.
+    2. They carried the giant fish to the village fair.
+    3. Where did you get this giant fish?
+- terrifying /ˈtɛrəˌfaɪɪŋ/ *v.* 使害怕
+    1. The giant fish in the kitchen terrified me a great deal.（L79）
+    2. I was so terrified that…（L35）
+    3. was/why/who…
+    4. He had a lot of patience and tried not to terrify the little bird.（L85）
+- divers /ˈdaɪvɚz/ *n.* 潜水员
+    1. As a diver, I am aware of the danger.（L70）
+    2. Everybody was relieved to hear that all the divers were safe.（L84）
+    3. The diver knocked the fisher to the ground.
 - oil /ɔɪl/ rigs /rɪɡz/ 石油钻塔
+    1. You should have accepted the work on the oil rig.（L65）
+    2. If you found a work on the oil rig, we wouldn’t meet each other.（L40）
+    3. It is said that he jumped off the oil rig last month.（L58）
 - frequently /ˈfrikwəntli/ 频繁地
 - been /bɪn/ frightened /ˈfraɪtənd/ out /aʊt/ of /ʌv/ their /ðɛr/ wits /wɪts/ 理智
 - bumping /ˈbʌmpɪŋ/ 撞击
-- cages /ˈkedʒɪz/ 笼子
-- sharks /ʃɑrks/ 鲨鱼
-- whales /welz/ 鲸鱼
-- varieties /vəˈraɪətiz/ 种类
-- cod /kɑd/ 鳕鱼
+- cages /ˈkedʒɪz/ *n.* 笼子
+    1. There is a beautiful bird in the cage.
+    2. The beautiful bird in the cage was bought by my grandfather.（L10）
+    3. The kid noticed with dismay that the birds were not in the cage.（L86）
+- sharks /ʃɑrks/ *n.* 鲨鱼
+    1. When he finally saw a real shark, he felt disappointed.（L89）
+    2. He devoted his life to studying all sorts of sharks.（L85）
+    3. He noticed that the shark was swimming towards him.（L67）
+- whales /welz/ *n.* 鲸鱼
+    1. They saw the whale jumping out of the water yesterday afternoon.（L35）
+    2. What sort of whale did you see yesterday?
+    3. The authorities had the whale killed.（L66）
+- varieties /vəˈraɪətiz/ *n.* 种类
+    1. a variety of…
+    2. He was fired for a variety of reasons.
+    3. This thing can be used in a variety of ways.
+    4. We’ll need to discuss a variety of matters tonight.
+- cod /kɑd/ *n.* 鳕鱼
 - skate /sket/ 鳐鱼
-- factors /ˈfæktɚz/ 因素
+- factors /ˈfæktɚz/ *n.* 因素
+    1. a variety of factors…
+    2. It depends on a variety of factors.
+    3. Before long, they noticed a variety of factors that can destroy the whole building.（L86）
 - plentiful /ˈplɛntəfəl/ 大量的
 - supply /səˈplaɪ/ 供应
-- crews /kruz/ 全体人员
-- chip /tʃɪp/ 炸薯条
+- crews /kruz/ *n.* 全体人员
+    1. When the fire and police crews arrived on the scene, the couple were already dead.（L75）
+    2. Two fire crews managed to put out the fire.
+    3. The whole crews felt disappointed by this last night.（L89）
+- chip /tʃɪp/ *n.* 炸薯条
+    1. The person who ate fish and chips was
+    2. John.（L28）
+    3. Mum, can we have our fish and chips outside?
+    4. We run out of fish and chips.（L88）
 
 ### Expressions
 
@@ -56,7 +92,14 @@
 - a variety of 各种各样的
 - it comes as a surprise to learn that 得知……令人惊讶
 - protect a. from b. 保护 A 免受 B
+    1. I need to protect you from yourself.
+    2. An umbrella will protect you from the rain.
+    3. I would protect you from anyone who tried to hurt you.
+    4. The river is 300 miles in length.
+    5. The movie is nearly two hours in length.
+    6. The whale is said to be over ten meters in length.（L58）
 - in length… 长度为……
 - the total absence of ... 完全没有……
 - as a result... 结果……
-
+    1. As a result, he carried the bed to the roof of his house.（L74）
+    2. As a result, he took charge of the company.（L79）

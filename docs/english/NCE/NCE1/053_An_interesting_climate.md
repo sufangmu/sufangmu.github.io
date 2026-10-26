@@ -41,22 +41,56 @@
 ### Words
 
 - mild /maɪld/ 温和的
+    1. This is a photo of Auckland.
+    2. What’s the climate like in Auckland?
+    3. It’s always mild.
 - always /ˈɔlwez/ 总是
+    1. This is a photo of Auckland.
+    2. What’s the climate like in Auckland?
+    3. It’s always mild.
 - north /nɔrθ/ 北方
 - east /ist/ 东方
 - west /wɛst/ 西方
 - south /saʊθ/ 南方
 - wet /wɛt/ 潮湿的
+    1. The dog is wet.
+    2. Why is the dog wet?
+    3. It swims in that river every day.
+    4. Does it swim in that river every day?
+    5. How often does it swim in that river?
 - season /ˈsizən/ 季节
 - best /bɛst/ 最好的
+    1. He is the best in NBA history.
+    2. You are my best friend.
 - night /naɪt/ 夜晚
+    1. The nights are short in summer.
 - rise /raɪz/ 升起
+    1. The sun rises early in summer.
+    2. The sun rises late in winter.
 - early /ˈɝli/ 早
+    1. The sun rises early in summer.
+    2. The sun rises late in winter.
 - set /sɛt/ 落下
+    1. The sun sets early in winter.
+    2. The sun sets late in summer.
 - late /let/ 晚
+    1. The sun sets early in winter.
+    2. The sun sets late in summer.
 - interesting /ˈɪntrəstɪŋ/ 有趣的
+    1. This book is very interesting.
+    2. He is an interesting man.
 - subject /ˈsʌbdʒɪkt/ 话题
 - conversation /ˌkɑnvɚˈseʃən/ 谈话
+    1. They are having a conversation.
+    2. Does Jim come from Australia?
+    3. No, he doesn't.
+    4. Does he come from England?
+    5. Yes, he does.
+    6. England?
+    7. No, it isn't.
+    8. North?
+    9. It's often cold.
+    10. East?
 - Australia /ɔˈstreljə/ 澳大利亚
 - Australian /ɔˈstreljən/ 澳大利亚的
 - Austria /ˈɔstriə/ 奥地利
@@ -83,4 +117,3 @@
 - in the North / South 在北方/南方
 - Which seasons do you like best? 你最喜欢哪个季节？
 - favourite subject of conversation 最喜欢的话题
-

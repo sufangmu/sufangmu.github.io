@@ -18,20 +18,36 @@
 
 ### Words
 
-- salvage /ˈsælvədʒ/ 打捞
-- sunken /ˈsʌŋkən/ 沉没的
-- cargo /ˈkɑrˌɡo/ 或物
-- gold /ɡold/ bullion /ˈbʊljən/ 金条
-- scoured /ˈskaʊɚd/ 彻底搜索
-- chest /tʃɛst/ 大箱子
+- salvage /ˈsælvədʒ/ *v. n.* 打捞
+    1. Technically speaking, that was not even a salvage operation.
+    2. Sure enough, the salvage operation went on for days.
+- sunken /ˈsʌŋkən/ *adj.* 沉没的
+    1. They happened to discover a sunken ship while conducting underwater research.
+- cargo /ˈkɑrˌɡo/ *n.* 或物
+    1. We have the privilege of unloading a cargo of fresh fruits from the ship.
+    2. The workers get impatient when waiting for a cargo of fresh fruits.
+- gold /ɡold/ bullion /ˈbʊljən/ *n. un.* 金条
+    1. Bullion is gold or silver, usually in the form of bars.
+    2. He was impatient to sell his gold bullion and make a profit before the price dropped.（L13）
+    3. The company decided to reward their top employee with gold bullion.
+- scoured /ˈskaʊɚd/ *v.* 彻底搜索
+    1. Realizing his mistake, John scoured the entire building to find his neighbor and apologize to her.
+- chest /tʃɛst/ *n.* 大箱子
+    1. After years of research, it became an accepted fact that the chest [found in the sunken ship] belonged to a famous explorer from the 18th century.
 - crew /kru/ 全体船员
 - wreck /rɛk/ 沉船
-- cruiser /ˈkruzɚ/ 巡洋舰
-- piece /pis/ 拼成整体
-- convoy /ˈkɑnˌvɔɪ/ 护航
-- torpedoed /tɔrˈpiˌdod/ 用鱼雷攻击
-- submarine /ˈsʌbməˌrin/ 潜水艇
-- naval /ˈnevəl/ 海军
+- cruiser /ˈkruzɚ/ *n.* 巡洋舰
+    1. At last, they managed to fix the cruiser.（N2L67）
+- piece /pis/ *v.* 拼成整体
+    1. Archaeologists have worked for years to piece together the clay fragments of fifteen statues.
+- convoy /ˈkɑnˌvɔɪ/ *n.* 护航
+    1. The boats, in a convoy, sailed across the open sea at a fantastic speed.
+- torpedoed /tɔrˈpiˌdod/ *v. n.* 用鱼雷攻击
+    1. It became an accepted fact that their ship was torpedoed by an enemy submarine.
+- submarine /ˈsʌbməˌrin/ *n.* 潜水艇
+    1. It is now known that the famous submarine was torpedoed by the enemy.
+- naval /ˈnevəl/ *adj. n.* 海军
+    1. The captain asked a naval officer to take charge of the ship while he was away.
 
 ### Expressions
 
@@ -41,6 +57,8 @@
 - in a convoy 在护航队中
 - a naval officer 一名海军军官
 - sb. be under the impression that+句子  某人的印象是
+    1. I was under the impression that the work had already been completed.
+    2. I was under the impression that you weren't coming until tomorrow.
+    3. She was under the impression that her parents would reprimand her for failing her exam.
 - together with 连同；和……一起
 - come to light  显露, 为大家所周知
-

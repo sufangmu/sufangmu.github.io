@@ -14,20 +14,38 @@
 
 ### Words
 
-- archaeologists /ˌɑrkiˈɑlədʒɪsts/ 考古学家
-- on /ɑn/ the /ðə/ promontory /ˈprɑmənˌtɔri/ 海角
-- prosperous /ˈprɑspərəs/ 繁荣的
-- civilization /ˌsɪvəlɪˈzeʃən/ 文明
+- archaeologists /ˌɑrkiˈɑlədʒɪsts/ *n.* 考古学家
+    1. These two archaeologists are always talking about the Greek goddess.
+    2. Armed with the torch, these archaeologists went into the cave.
+    3. These archaeologists are equal to their tasks.
+- on /ɑn/ the /ðə/ promontory /ˈprɑmənˌtɔri/ *n.* 海角
+    1. The police felt obliged to investigate the strange noise from the promontory.
+- prosperous /ˈprɑspərəs/ *adj.* 繁荣的
+    1. [Story:] The city at one time must have been prosperous. NCE2 L17 &
+    2. The city at one time can’t have been prosperous.
+    3. The city at one time may/might have been prosperous.
+    4. It used to be a very prosperous town.
+- civilization /ˌsɪvəlɪˈzeʃən/ *n.* 文明
+    1. [Story:] It enjoyed a high level a civilization.
+    2. Chinese civilization is one of the oldest in the world.
+    3. The archaeologists are interested in ancient civilizations.
 - stories /ˈstɔriz/ 楼层
 - decorated /ˈdɛkɚˌetɪd/ 装饰的
-- drainage /ˈdrenədʒ/ system /ˈsɪstəm/ 排水系统
+- drainage /ˈdrenədʒ/ system /ˈsɪstəm/ *n.* 排水系统
+    1. You are always talking about the drainage system.
 - clay /kle/ 泥土
 - beneath /bɪˈniθ/ 在…之下
 - narrow /ˈnɛro/ 狭窄的
-- worship /ˈwɝʃəp/ 崇拜
-- sacred /ˈsekrəd/ 神圣的
-- fragments /ˈfræɡmənts/ 碎片
-- Classical /ˈklæsɪkəl/ times /taɪmz/ 古典时期
+- worship /ˈwɝʃəp/ *n. v.* 崇拜
+    1. This room was used as a place of worship many years ago.
+    2. On the island the people worshipped different gods or goddesses.
+- sacred /ˈsekrəd/ *adj.* 神圣的
+    1. In India the cow is a sacred animal.
+    2. For one reason or another, the sacred temple was built many years ago.
+- fragments /ˈfræɡmənts/ *n.* 碎片
+    1. Leo did find fragments of a Roman vase in his courtyard.
+- Classical /ˈklæsɪkəl/ times /taɪmz/ *adj.* 古典时期
+    1. I prefer to listen to classical music rather than pop music.
 - hips /hɪps/ 臀部
 - indeed /ˌɪnˈdid/ 确实
 
@@ -48,6 +66,18 @@
 - date back to... 追溯到
 - happen to do 碰巧
 - be amazed to find that + 句子 惊讶地发现……
+    1. They were amazed to find that the vicar got enough money to repair the bell.
+    2. They were amazed to find that the vicar was armed with a gun.
+    3. turn out to be…
+    4. : 结果是; 原来是; 证明是 used to say that something or someone eventually becomes something or is found to have a particular identity, quality, ability, etc.
+    5. — Webster The play turned out to be a success.
+    6. The animal in the bushes turned out to be a puma.
+    7. He was so charming on our first date, but he turned out to be a real jerk.
+    8. despite/ despite the fact that...
 - turn out to be… 结果是，证明是
+    1. ... villagers were used as guinea pigs in chemical experimentation.
+    2. It is known that even soldiers were used as guinea pigs...
+    3. date from... & date back to...
+    4. This vase dates from the Roman times.
+    5. Some of these date back to the sixteen century.
 - despite/ despite the fact that... 尽管……
-

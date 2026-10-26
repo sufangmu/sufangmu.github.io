@@ -25,12 +25,27 @@
 ### Words
 
 - wool /wʊl/ 原棉,棉絮
+    1. She always pretends that she has cotton wool in her hands.（L26）
+    2. In her twenties, she used to sell cotton wool to doctors.（L31）
 - match /mætʃ/ 火柴
 - nodded /ˈnɑdəd/ 点头
 - tongue /tʌŋ/ 舌头
-- pull /pʊl/ 拔
-- meanwhile /ˈminˌwaɪl/ 与此同时
-- collect /kəˈlɛkt/ 收集
+- pull /pʊl/ *v.* 拔
+    1. My dentist has just pulled out one of my teeth.
+    2. My dentist pulled out one of my teeth yesterday.
+    3. Instead of pulling out the right one, my dentist pulled out the wrong tooth.（L20）
+- meanwhile /ˈminˌwaɪl/ *adv.* 与此同时
+    1. He won’t come until ten o’clock.
+    2. You can set the table.
+    3. Meanwhile, I'll start making dinner.
+    4. She spent four years studying for her law degree.
+    5. Meanwhile, she continued to work at the bank.
+- collect /kəˈlɛkt/ *n.* 收集
+    1. He used to collect stamps.（L31）
+    2. After he had collected stamps for ten years, he set up a new world record.（L14 L36）
+    3. She is keen on collecting stamps.（L20）
+    4. He is proud of his collection.（L12）
+    5. He showed me his stamp collection.
 
 ### Expressions
 
@@ -39,4 +54,3 @@
 - be full of 充满
 - search out 找出
 - remove from 从……移除
-

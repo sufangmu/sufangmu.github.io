@@ -29,20 +29,54 @@
 
 ### Words
 
-- sticky /ˈstɪki/ 粘的
-- pastry /ˈpestri/ 面糊,点心
-- Nothing /ˈnʌθɪŋ/ could /kʊd/ have /hæv/ been /bɪn/ more /mɔr/ annoying /əˈnɔɪɪŋ/ 使人烦恼的
-- receiver /rəˈsivɚ/ 电话听筒，接收器
-- dismayed /dɪˈsmed/ 失望的
-- persuade /pɚˈswed/ 劝说
-- What /wʌt/ a /ə/ mess /mɛs/ 杂乱
-- doorknobs /ˈdɔrˌnɑbz/ 球形门拉手
+- sticky /ˈstɪki/ *n.* 粘的
+    1. There's some sticky stuff in your hair.（L25）
+    2. stick to the plan…
+- pastry /ˈpestri/ *n.* 面糊,点心
+    1. My hands were soon covered with sticky pastry.
+    2. were/why/what/how soon…
+    3. There is a pastry shop nearby.
+    4. I need flour.
+    5. We’re never allowed to play with flour in mom's kitchen.（L10）
+- Nothing /ˈnʌθɪŋ/ could /kʊd/ have /hæv/ been /bɪn/ more /mɔr/ annoying /əˈnɔɪɪŋ/ *adj.* 使人烦恼的
+    1. Yeah, that could be annoying.
+    2. I find it annoying when people eat smelly foods on public transport.（L4）
+    3. It was annoying.
+    4. I'm sure that must be very annoying.（L17）
+- receiver /rəˈsivɚ/ *n.* 电话听筒，接收器
+    1. As soon as I picked up the receiver, someone rang the bell.
+    2. Please, don’t hang up the receiver.
+    3. He hung up the receiver and went out.（L25）
+- dismayed /dɪˈsmed/ *v.* 失望的
+    1. I was dismayed to learn that she had failed again.
+    2. They were dismayed to find that the ferry had already left.（L14）
+- persuade /pɚˈswed/ *v.* 劝说
+    1. I don't think I'll persuade you at all.
+    2. He’s trying to persuade him to stay and help him.（L7）
+    3. Do you really think you can persuade him?
+- What /wʌt/ a /ə/ mess /mɛs/ *n.* 杂乱
+    1. What a mess!
+    2. such a mess….
+    3. That's why the company's such a mess.
+    4. I'm sorry I caused such a mess.（L53）
+- doorknobs /ˈdɔrˌnɑbz/ *n.* 球形门拉手
+    1. I hit my head on a doorknob.
+    2. In his spare time, he likes to collect doorknobs.
+    3. I prefer buying this doorknob to using that old one.（L50）
 - loud /laʊd/ 大声的
 - letter /ˈlɛtɚ/ 挂号信
 - flour /flaʊr/ 面粉
-- mix /mɪks/ 混合
-- sign /saɪn/ 签字
-- register /ˈrɛdʒɪstɚ/ 登记
+- mix /mɪks/ *v.* 混合
+    1. Don't mix beer and wine, ever!
+    2. I was busy mixing butter and flour.
+- sign /saɪn/ *v.* 签字
+    1. Will you sign for this?
+    2. He needs you to sign for it.
+    3. The postman asked me to sign for the parcel.
+- register /ˈrɛdʒɪstɚ/ *v.* 登记
+    1. sign for a registered letter….
+    2. He wanted me to sign for a registered letter.
+    3. What a mess!
 
 ### Expressions
 
@@ -63,4 +97,3 @@
 - be covered with sth. 被某物覆盖
 - take sb. st. to do sth. 花某人……时间做某事
 - hang up 挂断（电话）
-

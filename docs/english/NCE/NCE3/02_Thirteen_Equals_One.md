@@ -34,25 +34,56 @@
 
 ### Words
 
-- vicar /ˈvɪkɚ/ 牧师
-- raising /ˈrezɪŋ/ money /ˈmʌni/ 筹钱
+- vicar /ˈvɪkɚ/ *n.* 牧师
+    1. They spotted the vicar picking blackberries.
+    2. This convinced the vicar that he knew nothing about this.
+    3. It is easy for the vicar to explain this to villagers.（NCE2 L32&L33）
+- raising /ˈrezɪŋ/ money /ˈmʌni/ *v.* 筹钱
+    1. The vicar learnt that he had raised enough money.
+    2. It occurred to the vicar that he could raise money from the villagers.
 - Armed /ɑrmd/ with /wɪð/ a /ə/ torch /tɔrtʃ/ 手电筒
 - caught /kɔt/ sight /saɪt/ of /ʌv/ a /ə/ figure /ˈfɪɡjɚ/ 人影
-- grocer /ˈɡrosɚ/ 杂货商
+- grocer /ˈɡrosɚ/ *n.* 杂货商
+    1. The local grocer takes his work seriously.
+    2. The local grocer claimed to have sold out everything in his shop.
+    3. The vicar found the local grocer repairing the bell last night.
 
 ### Expressions
 
 - be equal to sth. 胜任
 - for one cause or another 因为诸多原因
+    1. For one reason or another, she had a very good seat.
 - wake up with a start 惊醒
 - catch sight of sb./sth. 瞥见
 - get enough money to do sth. 有足够的钱做某事
+    1. I couldn’t get enough money to go to the theatre tonight.
+    2. I got enough money to fly to New York.
+    3. Could you get enough money to move to New Zealand?
 - sb. be armed with sth. 某人装备某物
+    1. The vicar was armed with a torch.
+    2. What’s going on?
+    3. What is happening in this place?
+    4. What is the explanation for the strange things that are happening here?
+    5. Mary: What's all the noise? What's going on? Sue: We're just having a little party.
+    6. What’s all this broken glass? What’s going on?
+    7. He immediately recognized the figure as our local grocer.
+    8. did/how
 - recognize A as B 认出 A 是 B
 - give sb. a surprise 给某人一个惊喜
+    1. Leo gave me a surprise yesterday.
+    2. Did Leo give you a surprise yesterday?
+    3. When did Leo give you surprise?
+    4. Let’s give him a surprise.
+    5. I’m glad that + 句子 I’m glad that we got enough money to help him.
+    6. I’m glad that the police felt obliged to investigate.
+    7. I’m glad that you take your job seriously.
 - What’s going on? 发生什么事了？
 - I’m glad that + 句子 我很高兴……
 - get used to sth. 习惯
+    1. This is how we do things here. You'll soon get used to it. — Collins be used to doing sth. / get used to doing sth.
+    2. I am used to traveling by air.
+    3. I’m used to driving in London now.
+    4. You’ll soon get used to living in the country.
 - be always doing sth.  be+doing: 与always连⽤时，表示频率过⾼，令说话者⼼烦，⽣厌(⾮绝地)。常⽤肯定。
 
 ### whatever

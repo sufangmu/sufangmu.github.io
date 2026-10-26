@@ -26,15 +26,38 @@
 
 ### Words
 
-- bark /bɑrk/ 狗叫
-- paw /pɔ/ 爪子
-- latch /lætʃ/ 门闩
+- bark /bɑrk/ *v.* 狗叫
+    1. If the dogs know you, they won’t bark at all.（L16）
+    2. Look, a number of dogs are barking at him.（L58）
+    3. It was Leo that the dog barked at, not you.（L58）
+    4. Don’t bark at me!
+- paw /pɔ/ *n.* 爪子
+    1. I have been thinking about the paw prints all morning.（L52）
+    2. That dog’s paw is so cute that I could hold it all day.（L35）
+    3. When I got home, I was not surprised to see that paw prints were everywhere.（L51）
+- latch /lætʃ/ *n.* 门闩
+    1. The latch is broken.（L10）
+    2. The dog must have opened the latch, but how?（L17）
+    3. The latch must have been opened by someone, for the dog can’t have opened it.（L17 L21）
 - annoyed /əˈnɔɪd/ 恼怒的；烦闷的
-- press /prɛs/ 按
-- develop /dɪˈvɛləp/ 养成
+- press /prɛs/ *v.* 按
+    1. Did you press the button?
+    2. It was Leo that pressed the button.（L58）
+    3. He must have pressed the button.（L17）
+    4. Don’t make me press that.（L57）
+- develop /dɪˈvɛləp/ *n.* 养成
+    1. I have a habit of doing that when I get nervous.
+    2. I have a habit of keeping thing in my car trunk.
+    3. Since then, he has developed another bad habit.
 - habit /ˈhæbɪt/ 习惯
-- remove /rɪˈmuv/ 移除
-- expert /ˈɛkspɝt/ 专家
+- remove /rɪˈmuv/ *v.* 移除
+    1. remove sth. from…
+    2. Will you please remove your handbag from the seat?
+    3. The men came to remove the rubbish from the backyard.
+- expert /ˈɛkspɝt/ *n.* 专家
+    1. He's an expert at this kind of thing.
+    2. I'm an expert at this game.
+    3. I've become an expert at calming down actors.
 
 ### 目的状语从句
 
@@ -56,6 +79,11 @@ so that 以便; 为了
 - have a habit of doing sth. 有做某事的习惯
 - remove sth. from... 从……移除某物
 - complained of ... 抱怨
+    1. Has she complained of a headache?
+    2. He is said to complain of his boss all the time. [It is said that…]（L58）
+    3. It was Lucy that complained of his boss at the party last night.（L58）
 - spend st. doing sth. 花……时间做某事
+    1. He spent three years planting these trees.
+    2. They spent three years looking for that treasure map.（L55）
+    3. Leo spent three years living in a cave.
 - train sb. to do sth. 训练某人做某事
-

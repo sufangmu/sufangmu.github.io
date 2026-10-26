@@ -54,10 +54,33 @@
 
 ### Words
 
-- famous /ˈfeməs/ 著名的
+- famous /ˈfeməs/ *n.* 著名的
+    1. She is a famous actress.
+    2. The famous actress who you saw last night is my sister.
+    3. When the famous actress was having a bath, someone knocked at the door.
 - actress /ˈæktrəs/ 女演员
 - read /rid/ 读
-- actor /ˈæktɚ/ 男演员
+    1. Can’t you read the sign?
+    2. It says “No Parking”.
+    3. I read the actress was here last night.（L99）
+    4. Marsh is?
+    5. She thinks she must be at least forty.
+    6. Why does Liz say Karen Marsh must be at least forty?
+    7. Because Karen Marsh was a famous actress when Liz was still at school.
+    8. Does Kate think that was a long time ago?
+    9. Yes, she does.
+    10. How old is Liz now?
+- actor /ˈæktɚ/ *n.* 男演员
+    1. The actor who you met yesterday is my brother.
+    2. This is the best actor I’ve ever seen.（L111）
+    3. The actor had to get up very early this morning.
+    4. Kate is with Liz, isn't she?
+    5. Yes, she is.
+    6. Can Liz recognize Karen Marsh?
+    7. Yes, she can.
+    8. Who is Karen Marsh?
+    9. She is a famous actress.
+    10. Marsh?
 
 ### Expressions
 
@@ -65,4 +88,3 @@
 - at least 至少
 - another look 再看一眼
 - a long time ago 很久以前
-

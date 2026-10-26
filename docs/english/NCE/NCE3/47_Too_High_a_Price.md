@@ -18,29 +18,85 @@
 
 ### Words
 
-- Pollution /pəˈluʃən/ 污染
-- overpopulated /ˌovɚˈpɑpjəletɪd/ 人口多的
+- Pollution /pəˈluʃən/ *n.* 污染
+    1. Many cities have become dependent on cars, which contributes to air pollution.（L46）
+    2. People tend to do more outdoor activities when the pollution levels are low.
+    3. She was conscious that her actions could contribute to air pollution.
+- overpopulated /ˌovɚˈpɑpjəletɪd/ *adj.* 人口多的
+    1. People are keen to leave overpopulated cities because they want more space and quieter places to live.
+    2. She is keen on solving the problems faced by overpopulated cities.
+    3. Despite the challenges of living in overpopulated cities, some people are keen to experience the vibrant culture..
 - overindustrialized /ˌovərɪnˈdʌstrɪəˌlaɪzd/ 过度工业化
-- sheer /ʃɪr/ 纯粹的
-- overwhelm /ˌovɚˈwɛlm/ 淹没
-- polluting /pəˈlutɪŋ/ 污染
-- pesticides /ˈpɛstəˌsaɪdz/ 杀虫剂
-- fertilizers /ˈfɝtəˌlaɪzɚz/ 肥料
-- salmonella /ˌsælməˈnɛlə/ 沙门氏菌
-- listeria /lɪˈstɪriə/ 李斯特杆菌
-- organically-grown /ɔrˈɡænɪkli ˌɡron/ 有机的
-- insidious /ˌɪnˈsɪˌdiəs/ 暗中为害的
-- urban /ˈɝbən/ 城市的
-- Burglar /ˈbɝɡlɚ/ 窃贼
-- scream /skrim/ 尖叫
-- profound /proˈfaʊnd/ 极度的
-- irritation /ˌɪrɪˈteʃən/ 烦躁
-- incessantly /ˌɪnˈsɛsəntli/ 连续不断地
-- whining /ˈwaɪnɪŋ/ 呜呜声
-- helicopters /ˈhɛlɪˌkɑptɚz/ 直升机
-- maximum /ˈmæksəməm/ 最大地
-- snore /snɔr/ 打鼾
-- staggering /ˈstæɡɚˌɪŋ/ 令人惊愕的
+- sheer /ʃɪr/ *adj.* 纯粹的
+    1. I am impressed by the sheer size of the stadium.
+    2. The mere fact that you can keep up with the sheer volume of new words in this lesson shows how much you've improved.
+- overwhelm /ˌovɚˈwɛlm/ *v.* 淹没
+    1. What invariably happens is that she is overwhelmed with work on her desk.
+    2. I have to remind myself that he may feel overwhelmed by the responsibility of being a leader.
+- polluting /pəˈlutɪŋ/ *v.* 污染
+    1. They seem to have been polluting the area for the past nine years.
+    2. The mere fact that they continued to pollute the area is enough to put them under arrest.（L34&L40）
+    3. They cherish the hope that those who polluted the environment will be punished in the end.
+- pesticides /ˈpɛstəˌsaɪdz/ *n.* 杀虫剂
+    1. It is a chance in a million that the overuse of pesticides will not harm the environment.
+    2. Farmers need to accept the fact that overuse of pesticides can have long-term consequences on soil health.（L36）
+    3. It seems highly improbable that the pesticide did not contribute to the water pollution in the area.（L36）
+- fertilizers /ˈfɝtəˌlaɪzɚz/ *n.* 肥料
+    1. Scientists presume that the overuse of fertilizers is strongly correlated with the damage in soil quality.（L36）
+    2. Farmers often take videos of their fields to record the effects of different fertilizers on plant growth.
+    3. The scientist felt bewildered by the unexpected results of the fertilizer experiment.
+- salmonella /ˌsælməˈnɛlə/ *n.* 沙门氏菌
+    1. He found scanty evidence of salmonella in the restaurant's kitchen.
+    2. I was puzzled by the mysterious disappearance of the salmonella samples.
+- listeria /lɪˈstɪriə/ *n.* 李斯特杆菌
+    1. Scientists deduced from the lab results that the outbreak was caused by listeria.
+    2. With the advent of advanced testing methods, detecting listeria in food products has become easier.
+- organically-grown /ɔrˈɡænɪkli ˌɡron/ *adj.* 有机的
+    1. The store offered a bewildering variety of organically-grown fruits and vegetables.
+    2. Visitors to the farm were often bewildered by the sheer amount of organically-grown products available.
+    3. The new study shed light on the benefits of eating organically-grown foods.
+- insidious /ˌɪnˈsɪˌdiəs/ *adj.* 暗中为害的
+    1. It's all too easy to underestimate the harm of insidious disease.
+    2. She is under the delusion that the most insidious problem of public education will be solved quickly.
+- urban /ˈɝbən/ *adj.* 城市的
+    1. Whether we should recover the cost of urban development projects through taxes is something we need to discuss.（L43&L29）
+    2. Workers had to haul construction materials into the urban area for the building project.
+- Burglar /ˈbɝɡlɚ/ *n.* 窃贼
+    1. She woke up to find that there was a burglar in her house.
+    2. The burglars went direct to the jewelry store.
+    3. He reflected that they needed to take better precautions against burglars.（L37）
+- scream /skrim/ *v.* 尖叫
+    1. It was not that she didn't understand, but his harsh words hurt deeply when he screamed at her.
+    2. He had a sense of guilt after he screamed at her.
+    3. What a relief it was when he finally apologized after screaming at her.
+- profound /proˈfaʊnd/ *adj.* 极度的
+    1. It’s not that she enjoys getting angry, but losing her job had a profound effect on her mental well-being.
+    2. It’s possible that his words had a profound influence on her decision.
+- irritation /ˌɪrɪˈteʃən/ *n.* 烦躁
+    1. A series of mistakes caused irritation among the customers.
+    2. Stray dogs in the neighborhood are a source of irritation for the residents.
+- incessantly /ˌɪnˈsɛsəntli/ *adv.* 连续不断地
+    1. He was on the phone incessantly, discussing the project with his team.
+    2. She hung up on her friend after arguing incessantly about their plans.
+- whining /ˈwaɪnɪŋ/ *v.* 呜呜声
+    1. The computer's fan would whine every time it overheated.
+    2. The air conditioner, which had been running non-stop for days, began to whine loudly.
+- helicopters /ˈhɛlɪˌkɑptɚz/ *n.* 直升机
+    1. The pilot must be punctual for the helicopter flight at sunrise.
+    2. Before taking off, the pilot consulted the helicopter manual for pre-flight checks.
+    3. The helicopter will fly direct to the remote mountain.
+- maximum /ˈmæksəməm/ *adj.* 最大地
+    1. I dread having the math test, but I know I have to complete it at maximum speed.
+    2. She cherishes the hope that her son will run toward the end at maximum speed.
+- snore /snɔr/ *v.* 打鼾
+    1. The hotel room was equipped with special pillows to cater for guests who snore.（L3&L46）
+    2. He tended to snore when he slept on his back.
+    3. He finally put his snoring problem right with a new breathing technique.
+- staggering /ˈstæɡɚˌɪŋ/ *adj.* 令人惊愕的
+    1. The nursery school teacher's dedication to early childhood education had a staggering impact on her students' development.（L45&L9）
+    2. It is extremely doubtful whether the project will succeed because of the staggering challenges it faces.
+    3. Sleep always comes in snatches because my partner makes trumpeting noises during the night.
+    4. The trumpeting noise from the construction site kept the neighbors awake all night.
 - trumpeting /ˈtrʌmpətɪŋ/ 吹号
 
 ### Expressions
@@ -54,13 +110,33 @@
 - make … contribution to 为……做贡献
 - the worst o ender 最恶劣的违规者
 - have the choice of a or b 在 A 和 B 之间选择
+    1. As far as I could see, we have the choice of taking the bus or taking a taxi to get to the airport.
+    2. As far as I could see, we have the choice of staying in this hotel or finding another one nearby.
 - go off 响起；爆炸
+    1. Whether you like it or not, the alarm clock will go off at 6 a.m. tomorrow.
+    2. She failed to give a satisfactory explanation for why the smoke alarm went off suddenly during the day.
 - serve to do sth. 起……的作用
+    1. Practical jokes often serve to entertain people.
+    2. It's time to stop doing activities that serve only to harm our environment.
+    3. As it has come to be known, challenges could serve to help us improve and grow.
 - assist sb. to do sth. 帮助某人做某事
+    1. She promised to assist her friend to lay out the decorations for the party.
+    2. She pleaded ignorance of the rules and asked me to assist her to complete the task.
+    3. He nagged his brother to assist him to build the lego castle.
 - a source of ……的来源
+    1. Exercise has proven to be a source of energy.
+    2. The support group acts as a source of comfort for people going through difficult times.
+    3. Much as I want to pay attention to the book, the constant noise from the construction site next door is a source of irritation.
+    4. range from …to …
+    5. It is not uncommon to hear that the prices of the things in a store range from affordable to quite expensive.
+    6. She added that the sizes of this dress range from extra small to extra large.
+    7. it was revealed that…
+    8. It was revealed that she was a victim of a hoax.
 - range from…to … 范围从……到……
 - it was revealed that… 据透露……
 - in one’s+年龄段（twenties/thirties… )
 - it was found that… 发现……
 - keep sb. awake/be kept awake… 使某人保持清醒
-
+    1. The bright streetlight that was switched on outside my window kept me awake all night.
+    2. The painting depicted on the wall kept him awake these nights.
+    3. How a simple love story kept her awake all night is beyond me.

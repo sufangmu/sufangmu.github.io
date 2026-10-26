@@ -19,15 +19,29 @@
 ### Words
 
 - haunted /ˈhɔntɪd/ 闹鬼的
-- labourers /ˈlebərɚz/ 劳动者
-- Hay /he/ 干草
+- labourers /ˈlebərɚz/ *n.* 劳动者
+    1. He could give these farmer laborers spiritual comfort.
+    2. Why did that farmer laborer hold a grudge against you?
+- Hay /he/ *n.* 干草
+    1. It seems that the children were playing in the hay.
+    2. After a heavy shower, no one wants to sit in the hay.
 - cowsheds /ˈkaʊʃɛdz/ 牛棚
-- corn /kɔrn/ 谷物
-- conscientious /ˌkɑnʃiˈɛnʃəs/ 勤奋的
-- suspected /səˈspɛktɪd/ 怀疑
-- desert /dɪˈzɝt/ 逃亡
-- regiment /ˈrɛdʒəmənt/ 军团
-- recluse /ˈrɛklus/ 隐士
+- corn /kɔrn/ *n.* 谷物
+    1. After he had taken a shower, he got some corn bread for breakfast.
+    2. I think corn bread is good for you.
+- conscientious /ˌkɑnʃiˈɛnʃəs/ *adj.* 勤奋的
+- suspected /səˈspɛktɪd/ *v.* 怀疑
+    1. I began to suspect (that) they were trying to get rid of me.
+    2. I suspect (that) she might be lying.
+- desert /dɪˈzɝt/ *v.* 逃亡
+    1. John decided to desert the army because he took no interest in war.
+    2. He deserted the army and now is being judged by a military court.
+    3. Helen was deserted by her husband.
+- regiment /ˈrɛdʒəmənt/ *n.* 军团
+    1. A large number of people, animals, or things:
+- recluse /ˈrɛklus/ *n.* 隐士
+    1. If you don't get out more, you're going to turn into a recluse.
+    2. I find it hard to talk to that recluse.
 
 ### Expressions
 
@@ -37,11 +51,18 @@
 - be killed in action 阵亡
 - for years 多年来
 - stay up 熬夜
+    1. I used to stay up late with my mom and watch movies.
+    2. The kids were allowed to stay up till midnight on New Year's Eve.
 - it became an accepted fact that ……成为公认的事实
 - be supposed to 应该
 - remain in doing 坚持做
 - be none other than 正是；不是别人正是
 - think it one’s duty to do sth. 认为做某事是自己的责任
 - keep sb. in hiding 把某人藏起来
+    1. The detective decided to keep the key witness in hiding until they could write an article on this case.
+    2. Not only did the police keep the witness in hiding, but also provided protection.
+    3. The family kept their pet in hiding so that they could have an opportunity to surprise their child on their birthday.
 - find it impossible to do sth. 发现不可能做某事
-
+    1. The small country found it impossible to gain its independence from the powerful empire.
+    2. Now that the store is closed, we find it impossible to buy groceries.
+    3. He finds it impossible to sleep so long as the lights are on in his bedroom.

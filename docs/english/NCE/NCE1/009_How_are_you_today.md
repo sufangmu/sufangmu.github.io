@@ -50,10 +50,30 @@
 - hi /haɪ/ 嗨
 - how /haʊ/ 怎样；如何
 - fine /faɪn/ 好的；健康的
+    1. How are you?
+    2. I am fine.
 - today /təˈde/ 今天
+    1. How are you doing, today?
+    2. How are you?
+    3. What's her name?
+    4. What's his name?
+    5. Steven.
+    6. How is Helen today?
+    7. She's very well.
 - well /wɛl/ 好
+    1. How are you?
 - thanks /θæŋks/ 谢谢
 - goodbye /ˌɡʊdˈbaɪ/ 再见
+    1. She is ok.
+    2. Is she ok?
+    3. How is she?
+    4. How is Steven today?
+    5. He's fine.
+    6. Is Tony well, too?
+    7. Yes, he is.
+    8. How is Emma?
+    9. She's fine, too.
+    10. Is Helen well today?
 - fat /fæt/ 胖的
 - thin /θɪn/ 瘦的
 - tall /tɔl/ 高的
@@ -74,4 +94,3 @@
 - And you? 你呢？
 - Nice to see you 很高兴见到你
 - Goodbye 再见
-

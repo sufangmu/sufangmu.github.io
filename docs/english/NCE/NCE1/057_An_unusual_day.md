@@ -27,12 +27,34 @@
 ### Words
 
 - o'clock /əˈklɑk/ ……点钟
+    1. What time is it?
+    2. What’s the time.
+    3. It’s 3 o’clock.
+    4. Is it 3 o’clock?
 - shop /ʃɑp/ 商店
+    1. There are many shops in this street.
+    2. What's the time?
+    3. It's eight o'clock.
+    4. Do the children usually go to school by car every day?
+    5. Yes, they do.
+    6. What are they doing today?
+    7. They are going to school on foot.
+    8. She usually stays at home.
+    9. What is she doing this morning?
+    10. She's going to the shops.
 - moment /ˈmomənt/ 时刻；瞬间
+    1. She is doing the housework at the moment.
+    2. Does she do the housework every day?
+    3. Who usually drinks tea in the living room?
+    4. Mrs.
+    5. Where is she drinking tea this afternoon?
+    6. What are they doing at the moment?
+    7. They're playing in the garden.
+    8. Sawyer doing tonight?
+    9. He's reading an interesting book.
 
 ### Expressions
 
 - by car 坐车
 - on foot 步行
 - at the moment 此刻
-

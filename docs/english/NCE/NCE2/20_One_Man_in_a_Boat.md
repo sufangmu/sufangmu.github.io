@@ -28,12 +28,35 @@
 
 ### Words
 
-- boots /buts/ 靴子
-- rubbish /ˈrʌbɪʃ/ 垃圾
-- catch /kætʃ/ 捕获
-- fisherman /ˈfɪʃɚmən/ 渔夫
-- waste /west/ 浪费
-- realize /ˈriəˌlaɪz/ 意识到
+- boots /buts/ *n.* 靴子
+    1. She can’t have cleaned her boots.（L17）
+    2. She must be cleaning the boots.（L17）
+    3. I can’t afford to pay that boots.（L15）
+    4. I will be buying a new pair of boots.（L13）
+    5. You might as well wear these boots.（L19）
+- rubbish /ˈrʌbɪʃ/ *n.* 垃圾
+    1. They must have thrown away all the rubbish.
+    2. That’s rubbish.
+- catch /kætʃ/ *v.* 捕获
+    1. The police have caught the thief.
+    2. The thief has been caught by the police.（L10）
+    3. Did you catch anything?
+    4. You can catch a bus if there is no taxi.（L16）
+- fisherman /ˈfɪʃɚmən/ *n.* 渔夫
+    1. The fisherman has to get up very early in the morning.（L17）
+    2. “It must be terrible to be a fisherman” said the little girl in a weak voice.（L15 L17）
+    3. As soon as the fisherman had got off the boat, it began to rain.（L14）
+- waste /west/ *v.* 浪费
+    1. It’s a waste of time/money.
+    2. You’re wasting time.
+    3. We may be wasting our time.（L19）
+- realize /ˈriəˌlaɪz/ *v.* 意识到
+    1. sb. realized that…
+    2. He realized that she had paid the bill.（L18）
+    3. She realized that they had gone on a journey.（L14）
+    4. They realized that Leo might be sleeping.（L19）
+    5. That’s rubbish.
+    6. You’re wasting time.
 
 ### Expressions
 

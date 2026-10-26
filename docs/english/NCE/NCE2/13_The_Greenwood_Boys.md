@@ -22,21 +22,45 @@
 
 ### Words
 
-- performances /pɚˈfɔrmənsɪz/ 演出
-- group /ɡrup/ 组；群
-- pop singer /ˈpɑp ˌsɪŋɚ/ 流行歌手
-- club /klʌb/ 俱乐部
-- occasion /əˈkeʒən/ 场合
+- performances /pɚˈfɔrmənsɪz/ *n.* 演出
+    1. They are giving a performance.
+    2. They give a performance every weekend.
+    3. They were giving a performance while the police came in.
+- group /ɡrup/ *n.* 组；群
+    1. Look, a group of students are playing jazz there.（L10）
+    2. A group of detectives are keeping guard at the door.（L7）
+    3. A group of captains will spend three days here.（L3）
+- pop singer /ˈpɑp ˌsɪŋɚ/ *n.* 流行歌手
+    1. The famous pop singer moved to our street yesterday.（L6）
+    2. Did the famous pop singer move to your street yesterday?
+- club /klʌb/ *n.* 俱乐部
+    1. I’ve just joined the tennis club.
+    2. She refused to go to the night club with him.（L9）
+    3. This night club has been cleaned.（L10）
+- occasion /əˈkeʒən/ *adv.* 场合
+    1. On this occasion, I always get very angry.（L1）
+    2. They only meet occasionally.
 
 ### Expressions
 
 - a group of 一组；一群
+    1. A group of pop singers will be arriving here tomorrow.
+    2. Will a group of pop singers be arriving here tomorrow?
 - at present 现在
+    1. At present, a large crowd of people is gathering in front of the theatre.（L9）
+    2. At present, two detectives is keeping guard at the door.（L7）
 - all parts of the country 全国各地
+    1. We’ll have plenty of time and travel all parts of China.
 - as usual 像往常一样
+    1. As usual, the room is being cleaned by two people.（L10）
+    2. As usual, we will set out at 6 in the morning.（L12）
 - have a difficult time 过得艰难
+    1. I’m having a difficult time these days, but it’ll pass.（L2）
+    2. I had a very difficult time last year.（L3）
 - give five performances 演出五场
 - keep order 维持秩序
+    1. They will be trying to keep order.
+    2. Will they be trying to keep order?
 - on these occasions 在这个场合
 
 ### 将来进行时

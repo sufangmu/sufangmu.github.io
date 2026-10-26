@@ -18,25 +18,44 @@
 
 ### Words
 
-- wares /wɛrz/ 货物
-- anchored /ˈæŋkɚd/ 停航下锚
-- decks /dɛks/ 甲板
+- wares /wɛrz/ *n.* 货物
+    1. At least, 30 craftsman will be selling their wares at the village fair tonight.
+- anchored /ˈæŋkɚd/ *v. n.* 停航下锚
+    1. After they anchored the boat, they paid money to the captain.
+- decks /dɛks/ *n.* 甲板
+    1. He's been working on the deck all afternoon.
 - rugs /rʌɡz/ 地毯
 - silks /sɪlks/ 丝绸
 - copper /ˈkɑpɚ/ 铜
 - silverware /ˈsɪlvɚˌwɛr/ 银器
-- bargaining /ˈbɑrɡɪnɪŋ/ 讨价还价
-- disembarked /ˌdɪsɛmˈbɑrkt/ 下船上岸
-- assailed /əˈseld/ 纠缠
+- bargaining /ˈbɑrɡɪnɪŋ/ *v. n.* 讨价还价
+    1. If you bargain with them, they might reduce the price.
+    2. I also know how to bargain with customers and always make a profit.
+- disembarked /ˌdɪsɛmˈbɑrkt/ *v.* 下船上岸
+    1. We weren't allowed to disembark until an hour after the ship had anchored.
+    2. If you had listened to me, we would have disembarked already.
+    3. The captain ordered us to disembark as soon as possible.
+- assailed /əˈseld/ *v.* 纠缠
 - conceal /kənˈsil/ 隐瞒
-- marbles /ˈmɑrbəlz/ 玻璃球
+- marbles /ˈmɑrbəlz/ *n.* 玻璃球
+    1. He used to live by selling marbles.
+    2. It is difficult to win marbles from these children.
+    3. When I was still a little kid, I used to play marble with my friends in the open air almost everyday.
 - genuine /ˈdʒɛnjəwən/ 真实的
-- inscribed /ˌɪnˈskraɪbd/ 雕刻
-- favour /ˈfevɚ/ 优惠
-- Gesticulating /dʒɛˈstɪkjəˌletɪŋ/ 打手势
-- outrageous /aʊˈtredʒəs/ 出乎意料的
+- inscribed /ˌɪnˈskraɪbd/ *v.* 雕刻
+    1. Leo was amazed to find that his name was inscribed on the watch which his father gave to him last year.
+- favour /ˈfevɚ/ *n.* 优惠
+    1. And as a special favor, she believed, they were allowed to leave room now.
+- Gesticulating /dʒɛˈstɪkjəˌletɪŋ/ *v.* 打手势
+    1. As soon as he spotted her, he began gesticulating wildly.
+    2. He was gesticulating wildly at me, but I could not understand what he was trying to tell me.
+- outrageous /aʊˈtredʒəs/ *adj.* 出乎意料的
+    1. No matter how outrageous we think it is, it happened right in front of everyone.
 - eventually /ɪˈvɛntʃəwəli/ 最终
-- thrust /θrʌst/ 硬塞
+- thrust /θrʌst/ *v.* 硬塞
+    1. She thrust a letter into my hand.
+    2. He nervously thrust his hands into his pockets.
+    3. He thrust some money into my hand and told me to drive him to the airport.
 
 ### Expressions
 
@@ -45,28 +64,81 @@
 - tempt somebody to do something  引诱某人做某事
 - be tempted to do something 忍不住做某事
 - bargain with sb. 与某人讨价还价
+    1. I have no intention of going to the wedding.
+    2. She told him that she had no intention of marrying him.
+    3. I have no intention of taking a shower right now.
+    4. I can’t conceal the fact that + 句子
+    5. She tried to conceal the fact that she was pregnant.
+    6. I can’t conceal the fact that I like her.
+    7. He managed to conceal the fact that he was a medical student.
 - make a bargain with... 达成协议
 - be assailed by sb. 被某人纠缠/攻击
+    1. I have no intention of going to the wedding.
+    2. She told him that she had no intention of marrying him.
+    3. I have no intention of taking a shower right now.
+    4. I can’t conceal the fact that + 句子
+    5. She tried to conceal the fact that she was pregnant.
+    6. I can’t conceal the fact that I like her.
+    7. He managed to conceal the fact that he was a medical student.
 - be inscribed on something 刻在某物上
 - as a special/personal favor (to sb.) 作为（给某人的）特别恩惠
+    1. I have no intention of going to the wedding.
+    2. She told him that she had no intention of marrying him.
+    3. I have no intention of taking a shower right now.
+    4. I can’t conceal the fact that + 句子
+    5. She tried to conceal the fact that she was pregnant.
+    6. I can’t conceal the fact that I like her.
+    7. He managed to conceal the fact that he was a medical student.
 - do me a favor 帮我一个忙
 - it is outrageous (that) 太离谱了 太不像话了
 - thrust sth. into sw. (my hands) 把某物塞进（我手里）
 - speed to sw. 快速前往某地
 - sb. have no intention of doing sth. 某人无意做某事
+    1. I have no intention of going to the wedding.
+    2. She told him that she had no intention of marrying him.
+    3. I have no intention of taking a shower right now.
+    4. I can’t conceal the fact that + 句子
+    5. She tried to conceal the fact that she was pregnant.
+    6. I can’t conceal the fact that I like her.
+    7. He managed to conceal the fact that he was a medical student.
 - I can’t conceal the fact that + 句子  我不能隐瞒这个事实
 - sb. be impressed by sth. 某人对某物印象深刻
+    1. I am very impressed by your husband’s business, and he seems to be the exception to the rule.
+    2. I'm impressed by the fact that he runs a successful business.
+    3. It’s said that our boss was impressed by your work.
 - go to great lengths to do sth.  竭尽全力做某事
+    1. Jane goes to great lengths to explain that this is not the whole story.
 - prove that + 句子 证明……
+    1. He wanted to prove that he was just as clever as his sister.
 - get rid of sb.  摆脱某人
+    1. I have no intention of going to the wedding.
+    2. She told him that she had no intention of marrying him.
+    3. I have no intention of taking a shower right now.
+    4. I can’t conceal the fact that + 句子
+    5. She tried to conceal the fact that she was pregnant.
+    6. I can’t conceal the fact that I like her.
+    7. He managed to conceal the fact that he was a medical student.
 - at the base of sth. 在某物的底部
+    1. Much to our surprise, there is a door at the base of the tower.
+    2. You could find my name at the base of that statue.
+    3. The squirrel disappeared into a hole at the base of the tree.
 - let me have it 把它给我吧
 - indicate that + 句子 表明……
 - reduce the price to $ 把价格降到……美元
+    1. It is difficult to reduce the price to
+    2. $100.
+    3. If you can reduce the price to $50, I will try to persuade him to buy it from you.
+    4. He was influenced by my words and reduce the price to $60.
+    5. get back to sw.
+    6. I was eager to get back to work as soon as possible.
+    7. She managed to get back to Germany.
+    8. Are you ready to get back to work?
 - keep doing sth. 一直做某事
 - keep on doing sth. 继续做某事
 - throw up one’s arms ... 举起双臂
 - get back to sw. 回到某地
 - fill a. with b. 用 B 装满 A
 - to this day  至今
-
+    1. up to now: even now: continuing until today; : up to the present time 至今; 直到现在
+    2. To this day, I still don't know what happened.
+    3. To this day, I still don't understand why he did it.

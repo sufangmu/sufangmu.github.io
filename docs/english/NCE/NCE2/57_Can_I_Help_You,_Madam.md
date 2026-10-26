@@ -30,14 +30,33 @@
 
 ### Words
 
-- jeans /dʒinz/ 牛仔裤
-- hesitated /ˈhɛzɪˌtetɪd/ 犹豫
-- served /sɝvd/ 服务
-- scornfully /ˈskɔrnfəli/ 轻蔑地
-- punish /ˈpʌnɪʃ/ 惩罚
+- jeans /dʒinz/ *n.* 牛仔裤
+    1. The man who’s wearing jeans is our captain.
+    2. Sir, you can’t wear jeans here.
+    3. They bought jeans last week.
+    4. He’s selling jeans in that market.
+    5. is/who/where…
+- hesitated /ˈhɛzɪˌtetɪd/ *v.* 犹豫
+    1. hesitate for a moment / second…
+    2. She hesitated for a second before opening the door.
+    3. Well, listen, if there's anything
+- served /sɝvd/ *v.* 服务
+    1. Why don’t you serve biscuits?
+    2. The man who served her didn’t like her.
+    3. why didn’t / who…
+- scornfully /ˈskɔrnfəli/ *adv.* 轻蔑地
+    1. “Oh, great” he said scornfully.
+    2. They looked at each other scornfully.
+    3. “Can he do that?” he asked scornfully.
+- punish /ˈpʌnɪʃ/ *v.* 惩罚
+    1. He's just trying to punish me.
+    2. You can't punish me for something I did years before we even met.
 - coat /kot/ 皮毛大衣
 - seeking /ˈsikɪŋ/ 寻找
-- eager /ˈiɡɚ/ 渴望的
+- eager /ˈiɡɚ/ *adj.* 渴望的
+    1. He’s eager to help me to move into my new house.（L52）
+    2. My car broke down yesterday and he is eager to repair it for me.（L56）
+    3. I’m fairly confident that he’s eager to do that.（L55）
 - climbed /klaɪmd/ 爬
 
 ### the way (that) ...
@@ -49,7 +68,15 @@
 ### Expressions
 
 - ask to do sth. 要求做某事
+    1. They asked to see my records.
+    2. He just
+    3. She asked
 - be dressed in ... 穿着……
+    1. The woman was dressed in a fur coat.
+    2. The man is dressed in blue.
 - seek out 找出；搜寻
 - make sb. do sth. 让某人做某事
-
+    1. Don’t make me do this.
+    2. You can’t make me speed this up.（L56）
+    3. My son makes me tell him a pirate story every night.（L55）
+    4. My mom made me get my new room in order yesterday.（L52）

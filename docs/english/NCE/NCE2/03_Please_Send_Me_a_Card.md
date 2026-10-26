@@ -28,25 +28,70 @@
 
 ### Words
 
-- postcard /ˈpostˌkɑrd/ 明信片
-- send /sɛnd/ 寄；送
-- sent /sɛnt/ 寄（过去式）
-- spoil /spɔɪl/ 破坏
+- postcard /ˈpostˌkɑrd/ *n.* 明信片
+    1. buy sb. sth.= buy sth. for sb.
+    2. I bought a postcard for him this morning.
+    3. Did you buy a postcard for him this morning?
+    4. Where did you buy a postcard for him this morning?
+    5. Where can I buy a postcard?
+- send /sɛnd/ *v.* 寄；送
+    1. send sb. sth.= send sth. to sb.
+    2. My aunt has already sent me a postcard.
+- sent /sɛnt/ *v.* 寄（过去式）
+    1. send sb. sth.= send sth. to sb.
+    2. My aunt has already sent me a postcard.
+- spoil /spɔɪl/ *v.* 破坏
+    1. The cook spoilt the soup.
+    2. Did the cook spoilt the soup?
+    3. How did the cook spoil the soup?
 - lend /lɛnd/ 借出
+    1. lend sb. sth. = lend sth. to sb.
+    2. I lent my CD player to Dave and I haven’t got it back yet.
+    3. Could you lend me 20$?
+    4. I borrowed this book from the public library last week.
 - lent /lɛnt/ 借出（过去式）
+    1. lend sb. sth. = lend sth. to sb.
+    2. I lent my CD player to Dave and I haven’t got it back yet.
+    3. Could you lend me 20$?
+    4. I borrowed this book from the public library last week.
 - borrow /ˈbɑro/ 借入
-- decision /dɪˈsɪʒən/ 决定
-- museum /mjuˈziəm/ 博物馆
-- whole /hol/ 整个的
-- public /ˈpʌblɪk/ 公共的
-- friendly /ˈfrɛndli/ 友好的
-- waiter /ˈwetɚ/ 服务员
+    1. lend sb. sth. = lend sth. to sb.
+    2. I lent my CD player to Dave and I haven’t got it back yet.
+    3. Could you lend me 20$?
+    4. I borrowed this book from the public library last week.
+- decision /dɪˈsɪʒən/ *n.* 决定
+    1. I made a big decision last night.
+    2. Did you make a decision?
+    3. When did you make this decision?
+- museum /mjuˈziəm/ *n.* 博物馆
+    1. I visited museums.
+    2. Did you visit that museum in 2018?
+    3. When did you visit that museum?
+- whole /hol/ *adj.* 整个的
+    1. I like to eat whole grain bread.
+    2. I want to buy some whole grain bread.
+    3. I spent the whole day in my room.
+    4. Did you spent the whole day in your room?
+- public /ˈpʌblɪk/ *adj.* 公共的
+    1. I go to that public garden every Sundays.
+    2. Do you go to that public garden every Sundays?
+- friendly /ˈfrɛndli/ *adj.* 友好的
+    1. He is very friendly.
+- waiter /ˈwetɚ/ *n.* 服务员
+    1. a friendly waiter + v.?
 - waitress /ˈwetrəs/ 女服务员
 - single /ˈsɪŋɡl/ 单一的
+    1. I did not write a single card.
+    2. Why didn’t you write a single card.
+    3. I am not going to write a single card.
+    4. She’s single.
+    5. buy sb. sth.= buy sth. for sb.
+    6. send sb. sth.= send sth. to sb.
+    7. lend sb. sth. = lend sth. to sb.
 
 ### Expressions
 
-- 
+- -
   buy sb. sth.= buy sth. for sb. 给某人买某物
 
 - send sb. sth.= send sth. to sb. 把某物寄/送给某人

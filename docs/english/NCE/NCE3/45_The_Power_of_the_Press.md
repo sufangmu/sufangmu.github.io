@@ -18,17 +18,40 @@
 
 ### Words
 
-- democratic /ˌdɛməˈkrætɪk/ 民主的
-- restrict /riˈstrɪkt/ 限制
-- abused /əˈbjuzd/ 滥用
-- contention /kənˈtɛnʃən/ 论点
-- untold /ənˈtold/ 无限的
-- perpetual /pɚˈpɛtʃuəl/ 永久的
-- quintuplets /ˈkwɪntjəpləts/ 五胞胎之一
-- radically /ˈrædɪkli/ 彻底地
-- nursery /ˈnɝsəri/ 育婴室
-- commercialization /kəˌmɝʃəlɪˈzeʃən/ 商品化
-- commodity /kəˈmɑdəti/ 商品
+- democratic /ˌdɛməˈkrætɪk/ *adj.* 民主的
+    1. It is necessary for governments to give a satisfactory explanation for their decisions in a democratic society.
+    2. It has long been known that a democratic government allows its citizens to participate in decision-making processes.
+- restrict /riˈstrɪkt/ *v.* 限制
+    1. She seems perturbed by small children, as they are likely to restrict her freedom.（L39&L9）
+    2. The agreement will restrict competition to varying degrees.
+    3. It was not until 2014 that we restricted class sizes to 20 students.
+- abused /əˈbjuzd/ *v.* 滥用
+    1. More often than not, they abused their positions of power.
+    2. He abused his power by devising ways of giving jobs to his friends.
+    3. He has been abusing his authority to recover the cost of the project.（N2L52）
+- contention /kənˈtɛnʃən/ *n.* 论点
+    1. There is a definite relation between the new project and her main contention that healthy eating should be encouraged.
+    2. Columbus's contention that the earth was round turned out to be correct.
+- untold /ənˈtold/ *adj.* 无限的
+    1. Much as I try to avoid it, this might cause untold damage to her health.
+    2. It is anticipated that this might do untold harm to the environment.
+- perpetual /pɚˈpɛtʃuəl/ *adj.* 永久的
+    1. He suggested that the cycle of poverty can feel perpetual.
+    2. The mere fact that the struggle for equality seems perpetual reduces her to tears.
+- quintuplets /ˈkwɪntjəpləts/ *n.* 五胞胎之一
+    1. She made a bargain with one of her quintuplets.
+    2. It’s difficult to lull one of her quintuplets to sleep.（L27&L44）
+- radically /ˈrædɪkli/ *adv.* 彻底地
+    1. It astounded me that the new methods are radically different from the old.
+    2. It looked as if the two artists had radically different styles.
+- nursery /ˈnɝsəri/ *n.* 育婴室
+    1. I am under the impression that it took the nursery teachers months to bring their class of boys under control.
+    2. What a relief it was when I found that a new nursery school is being built in the village.
+- commercialization /kəˌmɝʃəlɪˈzeʃən/ *n.* 商品化
+    1. He added that the commercialization of education leads to inequality.
+- commodity /kəˈmɑdəti/ *n.* 商品
+    1. There is a definite relation between the rise in demand for oil and an increase in the price of this commodity.
+    2. He deduced that the black market depends on the illegal trade of rare commodities.
 
 ### Expressions
 
@@ -38,11 +61,25 @@
 - exclusive access/right/use 独家的接触/权利/使用
 - nursery school/teacher/education 幼儿园/幼儿教师/幼儿教育
 - it is extremely doubtful whether… ……非常值得怀疑
+    1. It is extremely doubtful whether he will lull her to sleep.
+    2. It is extremely doubtful whether he could get a sleeper during the spring festival.
+    3. It is extremely doubtful whether he will muster up the courage to explore the antique shop.
 - act on… 按照……行事
 - pour in 涌来
+    1. It is not uncommon to hear that people pour in from different parts of the world to watch the world cup.
+    2. Because of the positive influence [the charity had on the community], donations poured in.
+    3. I can’t conceal the fact that customers poured in after hearing the magic word “discount.”
 - press for 敦促；争取
 - act as 充当
 - press conference 记者招待会
+    1. The press conference was a prelude to unforeseen changes in the suburbs.
+    2. There is some confusion about problems discussed at the press conference.
+    3. The organizers had to devise ways of keeping the audience's attention during the press conference.
 - oxygen tent 氧气帐
+    1. The patient spent the night in an oxygen tent and felt exhausted from the treatment.
+    2. The hospital hoped to recover the cost of the oxygen tent.
+    3. He informed me that we are unable to use the oxygen tent now.
 - pay the price for 为……付出代价
-
+    1. She paid the price for neglecting her health and now is afflicted by serious illness.
+    2. He paid the price for living by doing extreme sports.
+    3. They paid the price for prising open the antique jewelry box.

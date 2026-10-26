@@ -14,14 +14,26 @@
 
 ### Words
 
-- statistics /stəˈtɪstɪks/ 统计学
-- journalist /ˈdʒɝnələst/ 记者
+- statistics /stəˈtɪstɪks/ *n.* 统计学
+    1. Statistics show/suggest that women live longer than men.
+    2. The statistics show that, in general, women live longer than men.
+- journalist /ˈdʒɝnələst/ *n.* 记者
+    1. Leo spotted that journalist running across the street.
+    2. We all know that this journalist takes her job very seriously.
+    3. The journalist refused to tell me the truth.
 - instructed /ˌɪnˈstrʌktəd/ 委派
-- palace /ˈpæləs/ 宫殿
+- palace /ˈpæləs/ *n.* 宫殿
+    1. There is a palace in the middle of a lake.
+    2. This palace was built years ago.
+    3. Last Tuesday we went to the Summer Palace.
 - republic /riˈpʌblək/ 共和国
-- fax /fæks/ 传真
+- fax /fæks/ *n. v.* 传真
+    1. You needn’t have sent me this fax.
+    2. I received this fax this morning.
 - reluctantly /rɪˈlʌktəntli/ 不情愿地
-- originally /əˈrɪdʒənəli/ 起初,原来
+- originally /əˈrɪdʒənəli/ *adv.* 起初,原来
+    1. So where's your family from originally?
+    2. I live here now, but I wonder who lived here originally.
 - poor /pʊr/ 可怜的
 
 ### not only
@@ -71,11 +83,32 @@ Well, the good news is not only do I know men, but straight guys are my specialt
 - get impatient 变得不耐烦
 - get/be fired 被解雇
 - provide sb. with sth. 给某人提供某物
+    1. He provided them with a bed for the night.
+    2. Perhaps you can provide me with an answer. Darkest Hour (2017)
+    3. The police felt obliged to provide the public with information.
+    4. This will provide you with two things.
+    5. How many times have you found yourself in the awkward position of having to ask a complete stranger in a public restroom to
 -  sb. be instructed to do sth. 某人被指示做某事
 - instruct sb. to do sth. 指示某人做某事
+    1. I’m instructed to tell you this.
+    2. We’re instructed to change into this.
+    3. You were instructed to go to Russia.
+    4. They instructed me to left the money over there.
 -  write an article on/about sth. 写一篇关于/关于某事的文章
+    1. I’m writing an article on Art.
+    2. I had no idea he was writing an article about me.
 - find out sth. 查明某事
+    1. They were now fully convinced that she found out about the truth.
+    2. I did find out why he was here.
+    3. I can't find out anything about him.
 - sb. take a long time to do sth. 某人花很长时间做某事
+    1. He took a long time to send them.
+    2. He took a long time to learn how to swim last summer.
+    3. She always takes a long time to take a shower.
+    4. When do we go to press?
+    5. Larry, we're going to press in six hours.
+    6. inform sb. that + 句子 I'm instructed to inform you that you’re fired.
+    7. I must inform you that you need to keep a secret.
+    8. The company asked me to inform you that you must keep the status quo.
 -  go to press  送印
 -  inform sb. that + 句子  通知
-

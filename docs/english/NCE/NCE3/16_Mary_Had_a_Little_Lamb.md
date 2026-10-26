@@ -14,13 +14,27 @@
 
 ### Words
 
-- prize /praɪz/ 珍贵的
+- prize /praɪz/ *adj.* 珍贵的
+    1. If you want, you can keep the prize money.
+    2. Leo realized to his horror that he had lost all the prize money.
 - lamb /læm/ 小羊
-- theft /θɛft/ 盗窃
-- accused /əˈkjuzd/ 指责
-- Ashamed /əˈʃemd/ 惭愧的
-- apologized /əˈpɑləˌdʒaɪzd/ 道歉
-- dyed /daɪd/ 染色
+- theft /θɛft/ *n.* 盗窃
+    1. He was accused of theft and murder.
+    2. They are accused of theft from a small shop.
+    3. The movie is based on a true story, and it is about theft.
+- accused /əˈkjuzd/ *v.* 指责
+    1. We do have one thing in common, for Smith accused us of lying.（L2&L9）
+    2. Are you accusing her of lying?
+    3. It seems that you are accusing me of stealing.
+- Ashamed /əˈʃemd/ *adj.* 惭愧的
+    1. I'm not ashamed of having a good job,
+- apologized /əˈpɑləˌdʒaɪzd/ *v.* 道歉
+    1. I think you should apologize to your brother.
+    2. I don't know how to apologize to you.
+- dyed /daɪd/ *v.* 染色
+    1. She dyed her hair blonde.
+    2. I would dye my hair red, if you did that.
+    3. You needn’t have dyed your hair red. You father will be so angry.
 
 ### Expressions
 
@@ -28,11 +42,26 @@
 - tie sb. to sth. = sb. be tied to sth. 把某人绑在某物上
 - accuse sb. of doing sth. 指控某人做某事
 - deny doing ... / sb. deny that + 句子 否认做过……
+    1. We were astonished to find the temple still in its original condition.
+    2. They were astonished to find that the driver was a six-year-old boy.
+    3. I was astonished to find that these monks led a meaningful life.
 - be ashamed of sth. /doing sth. / having done sth. 为某事感到羞愧
 - apologize to sb. 向某人道歉
 - apologize for (doing) something 为（做）某事道歉
 - dye something + adj. 把某物染成……色
 - tell sb. about sth. 告诉某人某事
+    1. I’m not gonna tell you about it.
+    2. It’s obvious that he’s not gonna tell you about it.
+    3. Unfortunately, they forgot to tell me about it until we arrived there.
+    4. It’s true that+句子, but+句子
+    5. It’s true that my father was very strict with me, but he also love me.
+    6. It’s true that he could keep a secret, but I don’t trust him.
+    7. It’s true that they made a study of him, but still they know very little about him.
 - It’s true that+句子, but+句子 ……是真的，但是……
+    1. We were astonished to find the temple still in its original condition.
+    2. They were astonished to find that the driver was a six-year-old boy.
+    3. I was astonished to find that these monks led a meaningful life.
 - be astonished to find (that) + 句子 惊讶地发现……
-
+    1. We were astonished to find the temple still in its original condition.
+    2. They were astonished to find that the driver was a six-year-old boy.
+    3. I was astonished to find that these monks led a meaningful life.

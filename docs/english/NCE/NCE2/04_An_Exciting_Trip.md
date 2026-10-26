@@ -27,11 +27,21 @@
 
 ### Words
 
-- exciting /ɪkˈsaɪtɪŋ/ 令人兴奋的
-- receive /rɪˈsiv/ 收到
-- firm /fɝm/ 公司
-- different /ˈdɪfərənt/ 不同的
-- centre /ˈsɛntɚ/ 中心
+- exciting /ɪkˈsaɪtɪŋ/ *adj.* 令人兴奋的
+    1. I had an exciting trip last summer.
+- receive /rɪˈsiv/ *v.* 收到
+    1. I receive a postcard from Zen every year.
+    2. I received a postcard from Zen last year.
+- firm /fɝm/ *n.* 公司
+    1. He is working for a big firm.
+    2. He has worked for this firm for 3 years.
+    3. Has he worked for this firm for 3 years?
+    4. How long has he worked for this firm?
+- different /ˈdɪfərənt/ *adj.* 不同的
+    1. different places+v.
+    2. I like to go to different places.
+- centre /ˈsɛntɚ/ *n.* 中心
+    1. China is in the centre of this map.
 - abroad /əˈbrɔd/ 在国外
 
 ### Expressions
@@ -58,6 +68,9 @@
 - have been to sw. 去过已经回来了
 
 - fly to sw. 飞往某地
+    1. He flew to New York last week.
+    2. He had a very good seat.
+    3. A young man and…
 
 - find n. adj.  -- Men usually find women very beautiful in the bar at night. 觉得某人/某物……
 

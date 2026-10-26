@@ -52,13 +52,33 @@
 
 ### Words
 
-- appointment /əˈpɔɪntmənt/ 预约
-- urgent /ˈɝdʒənt/ 紧急的
+- appointment /əˈpɔɪntmənt/ *n.* 预约
+    1. Do you have an appointment?
+    2. No, I don’t have an appointment.
+- urgent /ˈɝdʒənt/ *adj.* 紧急的
+    1. Croft at the doctor's or at the dentist's?
+    2. He's at the dentist's.
+    3. Croft talking to?
+    4. He's talking to a nurse.
+    5. Croft want to do?
+    6. He wants to see the dentist.
+    7. Does he have an appointment?
+    8. No, he doesn't.
+    9. Why does he want to see the dentist?
 - till /tɪl/ 直到
+    1. How urgent is it?
+    2. It's very urgent.
+    3. Can the dentist see him now?
+    4. No, he can't.
+    5. Why can't the dentist see him now?
+    6. What time can the dentist see him today?
+    7. At 2.0 p.m.
+    8. Croft wait till this afternoon?
+    9. Yes, he can, but his toothache can't.
+    10. Croft want to see the dentist?
 
 ### Expressions
 
 - have an appointment 有预约
 - see the dentist 看牙医
 - wait till this afternoon 等到今天下午
-

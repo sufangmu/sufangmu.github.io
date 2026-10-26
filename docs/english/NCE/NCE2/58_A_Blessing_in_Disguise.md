@@ -27,19 +27,47 @@
 
 ### Words
 
-- possess /pəˈzɛs/ 拥有
-- cursed /kɝst/ 被诅咒的
+- possess /pəˈzɛs/ *v.* 拥有
+    1. The tiny village possesses a “cursed tree”.
+- cursed /kɝst/ *n.* 被诅咒的
+    1. My grandfather thinks this town is cursed.
+    2. It’s a curse.
 - mentioned /ˈmɛnʃənd/ 提及
-- church /tʃɝtʃ/ 教堂
-- evil /ˈivəl/ reputation /ˌrɛpjəˈteʃən/ 恶名
-- claimed /klemd/ 使失踪或死亡
+- church /tʃɝtʃ/ *n.* 教堂
+    1. I prefer to go to church alone.（L50）
+    2. When I was young, my dad forbade me to go to church, for he didn’t believe in God.
+    3. They went to the church together last Monday.
+- evil /ˈivəl/ reputation /ˌrɛpjəˈteʃən/ *n.* 恶名
+    1. have a good/ bad reputation…
+    2. They said that Leo had a good reputation.
+    3. The new owner has a reputation for honesty.
+    4. The tree has gained an evil reputation.
+- claimed /klemd/ *n.* 使失踪或死亡
+    1. Is it possible you left it in baggage claim?
+    2. claim one’s life…
+    3. The tree has already claimed a number of victims.
+    4. I refuse to live my life as a victim.
+    5. It is a blessing that…
+    6. Have a reputation for…
 - victims /ˈvɪktəmz/ 受害者
-- vicar /ˈvɪkɚ/ 教堂牧师
+- vicar /ˈvɪkɚ/ *n.* 教堂牧师
+    1. The vicar took a taxi to work everyday.（L29）
+    2. The vicar is different from a monk.（L56）
+    3. I’m fairly certain that the new vicar is that man.（L55）
 - struck /strʌk/ down /daʊn/ 杀死
-- tiny /ˈtaɪni/ 微小的
-- increase /ɪnˈkris/ 增加
-- plant /plænt/ 种植
-- source /sɔrs/ 来源
+- tiny /ˈtaɪni/ *adj.* 微小的
+    1. I persuaded my girlfriend not to buy that tiny cat last week.（L54）
+    2. This tiny little thing solved all my problems.
+- increase /ɪnˈkris/ *v.* 增加
+    1. This can increase the risks.
+    2. Smoking can increase the risk of developing heart disease.（L20）
+    3. Soon Ann asked me if she could increase the lessons to twice a week.
+- plant /plænt/ *v.* 种植
+    1. plant + tree /…
+    2. My grandfather used to plant potatoes in his courtyard.（L31）
+    3. We were eager to plant vegetables this spring.（L57）
+    4. Don’t make me plant anything next year.（L57）
+- source /sɔrs/ *n.* 来源
 - income /ˈɪnˌkʌm/ 收入
 
 ### Expressions

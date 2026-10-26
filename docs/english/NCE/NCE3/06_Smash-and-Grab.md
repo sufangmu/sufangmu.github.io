@@ -14,18 +14,40 @@
 
 ### Words
 
-- arcade /ɑrˈked/ 有拱廊的街道
-- jewellery /ˈdʒuəlri/ 珠宝
-- velvet /ˈvɛlvət/ 天鹅绒
+- arcade /ɑrˈked/ *n.* 有拱廊的街道
+    1. We must go to the arcade now so that we could buy that cake.
+    2. On Sundays, I often go to the arcade with my girlfriend.
+    3. When I was young, mom would take me to the arcade, and buy me a nice ice cream.
+- jewellery /ˈdʒuəlri/ *n.* 珠宝
+    1. That lovely lady in the jewelery shop waited at least 15 minutes.
+    2. Your wife had taken all your mother’s jewelry before she died.
+    3. I made some jewelry for you last night.
+- velvet /ˈvɛlvət/ *n.* 天鹅绒
+    1. I stand in front of a black velvet curtain.
+    2. She is willing to give you a free black velvet curtain.
+    3. They happen to sell all kinds of velvet curtain.
 - horn /hɔrn/ 喇叭
-- blaring /ˈblɛrɪŋ/ 声音响亮
+- blaring /ˈblɛrɪŋ/ *v.* 声音响亮
+    1. The music was blaring and everyone at the party were dancing.
 - roared /rɔrd/ 怒吼
 - smashed /smæʃt/ 打碎
+    1. They had a fight and he smashed the window to pieces.
+    2. Why is he interested in smashing things to pieces?
 - helping /ˈhɛlpɪŋ/ himself /hɪmˈsɛlf/ to /tu/ 自取
-- raid /red/ 抢劫
-- scrambled /ˈskræmbəld/ 迅速而吃力地爬
-- fantastic /fænˈtæstɪk/ 极高的
-- ashtrays /ˈæʃˌtrez/ 烟灰缸
+- raid /red/ *n. v.* 抢劫
+    1. The raid was all over in three minutes.
+    2. Did you raid Mickey Pearson's farm? No.
+    3. They were planning a raid when we came into the room.
+- scrambled /ˈskræmbəld/ *v.* 迅速而吃力地爬
+- fantastic /fænˈtæstɪk/ *adj.* 极高的
+    1. They drove away at a fantastic speed.
+    2. You look fantastic. I didn’t recognise you.
+    3. That’s fantastic.
+    4. I mean, some of the stories are really fantastic.
+- ashtrays /ˈæʃˌtrez/ *n.* 烟灰缸
+    1. He have been collecting all kinds of ashtrays for years.
+    2. You’re always smoking, so please use the ashtray.
+    3. You should smoke less, for you smell like an ashtray.
 - vases /ˈvesɪz/ 花瓶
 
 ### Expressions
@@ -40,5 +62,9 @@
 - only just… 勉强……；刚刚……
 -  come to a stop… 停下
 - be too busy doing sth. to do sth. 太忙于做某事而无暇做另一件事
+    1. I was just too busy to planning everything to notice you.
+    2. She was too busy reading her books to listen to your story.
+    3. I was too busy talking to other people to notice her, and she left by herself.
+    4. money + worth of + n.
+    5. How do you sell millions of pounds worth of diamonds?
 - money + worth of + n. 价值……钱的东西
-

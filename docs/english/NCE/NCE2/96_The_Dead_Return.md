@@ -30,20 +30,28 @@
 ### Words
 
 - drift /drɪft/ 漂流
-- moving /ˈmuvɪŋ/ spectacle /ˈspɛktəkəl/ 动人的场面
-- festival /ˈfɛstəvəl/ 节日
-- lantern /ˈlæntɚn/ 灯笼
+- moving /ˈmuvɪŋ/ spectacle /ˈspɛktəkəl/ *adj.* 动人的场面
+    1. I find that music very moving.（L4）
+    2. Only then did I hear a very moving story from him.（L79）
+    3. People from all over the world know this moving story.（L71）
+- festival /ˈfɛstəvəl/ *n.* 节日
+    1. The Spring Festival lasted for 15 days last year.
+    2. I saw her talking to Leo at the festival.（L35）
+- lantern /ˈlæntɚn/ *n.* 灯笼
+    1. They tried to set all the lanterns on fire last night.（L95）
+    2. This kind of lantern is very popular with little kids.（L94）
+    3. He claimed to have seen lots of lanterns in the sky.（L82）
 
 ### Expressions
 
 - make a spectacle of oneself 出洋相
 
-练习方法：
+- 练习方法：
 
 1. 习惯用法造句、对话（5句）
 2. 文章跟读至熟读成诵
 
-单词造句指南：
+- 单词造句指南：
 
 1. v. + v变化
 2. 四句型转换

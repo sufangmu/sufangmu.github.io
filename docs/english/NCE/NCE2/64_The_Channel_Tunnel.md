@@ -29,18 +29,46 @@
 
 - Channel /ˈtʃænəl/ 海峡
 - serve /sɝv/ as /æz/ 充当
-- well-ventilated /ˌwɛl ˈvɛntlˌetɪd/ 通风
-- chimneys /ˈtʃɪmniz/ 烟囱
+- well-ventilated /ˌwɛl ˈvɛntlˌetɪd/ *n.* 通风
+    1. What sort of ventilation system do you have here?（L63）
+    2. I have been selling ventilation system to government for ten years.（L52）
+- chimneys /ˈtʃɪmniz/ *n.* 烟囱
+    1. I have been cleaning the chimney since 9.（L52）
+    2. He must have been cleaning the chimney yesterday afternoon.（L17）
+    3. We need to build a chimney so that the smoke can go out.（L59）
+    4. We must remove the chimney from your house.
 - level /ˈlɛvəl/ 海平面
+    1. The village is 1,000 meters above sea level.
+    2. It is said that most of the great cities are near sea level.（L58）
 - draw /drɔ/ 吸入
 - had /hæd/ not /nɑt/ feared /fɪrd/ 害怕
-- invasion /ˌɪnˈveʒən/ 侵略
-- officially /əˈfɪʃəli/ 正式地
+- invasion /ˌɪnˈveʒən/ *n.* 侵略
+    1. They had been preparing all night before the invasion started.（L62）
+    2. He was killed in the invasion.（L10）
+    3. Why are they talking about the invasion?
+    4. A short time before, the invasion began.（L62）
+- officially /əˈfɪʃəli/ *adv.* 正式地
+    1. There's nothing officially wrong with it.
+    2. The park will be officially opened next weekend.
 - continent /ˈkɑntənənt/ 洲, 大陆
-- tunnel /ˈtʌnl/ 隧道
-- port /pɔrt/ 港口
-- double /ˈdʌbl/ 双的
-- connect /kəˈnɛkt/ 连接
+- tunnel /ˈtʌnl/ *n.* 隧道
+    1. in the tunnel…
+    2. It got colder when we were in the tunnel.
+    3. I just saw something moving in that tunnel.（L35）
+    4. When he was young, he used to live in the tunnel.（L31）
+- port /pɔrt/ *n.* 港口
+    1. Leo will be waiting for you at the port.（L31）
+    2. The man who works at the port has a large circle of friends.（L28 L63）
+    3. One of my closest friends had been working at the port for ten years before he met his wife.（L62）
+- double /ˈdʌbl/ *v.* 双的
+    1. We could double our money.
+    2. I am going to double your salary.
+    3. They make all sorts of good double meat burgers.（L63）
+    4. We need to double check all his work.
+- connect /kəˈnɛkt/ *v.* 连接
+    1. Can I connect my printer to your computer?
+    2. I know this is all connected to you.（L15）
+    3. Leo has a large circle of friends and they are all connected with each other.（L63）
 
 ### 虚拟语气
 
@@ -53,4 +81,3 @@
 - a serve as b A 充当 B
 - put forward a plan... 提出计划
 - solve the problem of a... 解决……的问题
-

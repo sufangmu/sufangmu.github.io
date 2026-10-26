@@ -14,16 +14,37 @@
 
 ### Words
 
-- gangsters /ˈɡæŋstɚz/ 歹徒
-- promptly /ˈprɑmptli/ 准时地
-- remarkable /rɪˈmɑrkəbəl/ 不寻常的
+- gangsters /ˈɡæŋstɚz/ *n.* 歹徒
+    1. The gangster movies have a great impact on him.
+    2. The movie is based on the true story of a London gangster.
+    3. All these gangsters have one thing in common.
+- promptly /ˈprɑmptli/ *adv.* 准时地
+    1. He paid the money back promptly.
+    2. She always pays her bills on time (promptly).
+    3. We'll have to leave promptly (= on time) if we want to catch that train.
+- remarkable /rɪˈmɑrkəbəl/ *adj.* 不寻常的
+    1. My daughter's quite a remarkable woman.
+    2. You must told me how you met these remarkable people in India.
 - settled /ˈsɛtəld/ 定居
-- hire /ˈhaɪɚ/ 雇用
-- princes /ˈprɪnsɪz/ 国君
+- hire /ˈhaɪɚ/ *v.* 雇用
+    1. I was hired by one of the biggest company in the world.
+    2. We should have hired(rented) a car last night.
+    3. Imagine their surprise when they find out that the company has just hired 250 new staff.
+- princes /ˈprɪnsɪz/ *n.* 国君
+    1. A prince is the son of a king.
+    2. A prince is a male ruler of a small country or state.
+    3. The prince realized to his horror that a band of soldiers were right in front of him.
+    4. I wish I knew an ancient Italian prince.
 - march /mɑrtʃ/ 行军
-- funeral /ˈfjunərəl/ 葬礼
-- dedicated /ˈdɛdəketəd/ 献给
-- valiant /ˈvæljənt/ 英勇的
+- funeral /ˈfjunərəl/ *n.* 葬礼
+    1. The funeral will be held at St. Martin’s Church next Friday.
+    2. He asked him to make a speech at the funeral.
+    3. He got so drunk that he even missed the funeral.
+- dedicated /ˈdɛdəketəd/ *v.* 献给
+    1. Leo dedicates his life to education.
+- valiant /ˈvæljənt/ *adj.* 英勇的
+    1. This convinced him that he was the valiant soldier who saved his life.（L1）
+    2. The valiant soldier has an opportunity to meet the President.
 - notable /ˈnotəbəl/ 著名的
 
 ### Expressions

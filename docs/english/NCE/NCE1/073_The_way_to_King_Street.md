@@ -11,20 +11,57 @@
 ### Words
 
 - week /wik/ 星期
+    1. You called me last week.
+    2. Did you call me last week?
+    3. Why did you call me last week?
 - London /ˈlʌndən/ 伦敦
+    1. She went to London last weekend.
+    2. Did she go to London last weekend?
+    3. When did she go to London?
 - way /we/ 路；方式
-- suddenly /ˈsʌdənli/ 突然地
-- bus stop /ˈbʌs stɑp/ 公共汽车站
-- smile /smaɪl/ 微笑
+- suddenly /ˈsʌdənli/ *adv.* 突然地
+    1. Suddenly, the car stopped near the bus stop.
+    2. Why did the car stop near the bus stop, suddenly?
+- bus stop /ˈbʌs stɑp/ *adv.* 公共汽车站
+    1. Suddenly, the car stopped near the bus stop.
+    2. Why did the car stop near the bus stop, suddenly?
+- smile /smaɪl/ *adv.* 微笑
+    1. Look, the little girl is smiling pleasantly.
+    2. She always smiles pleasantly.
 - pleasantly /ˈplɛzəntli/ 愉快地
-- understand /ˌʌndɚˈstænd/ 理解
-- speak /spik/ 说
+- understand /ˌʌndɚˈstænd/ *v.* 理解
+    1. I didn’t understand it at first.
+    2. I understand.
+    3. I don’t understand.
+    4. Do you understand?
+- speak /spik/ *v.* 说
+    1. Do you speak English/Chinese?
+    2. She spoke so quickly.
+    3. I didn’t understand.
 - spoke /spok/ 说（过去式）
-- hand /hænd/ 手
-- pocket /ˈpɑkɪt/ 口袋
+- hand /hænd/ *n.* 手
+    1. I cleaned my hands.
+    2. Did you clean your hands?
+    3. Why didn’t you clean your hands?
+- pocket /ˈpɑkɪt/ *n.* 口袋
+    1. He always puts his phone in the pocket.
+    2. He put his phone in the pocket.
 - phrasebook /ˈfrezˌbʊk/ 常用语手册
-- phrase /frez/ 短语
-- slowly /ˈsloli/ 缓慢地
+- phrase /frez/ *n.* 短语
+    1. I have a phrasebook.
+    2. I must buy a phrasebook.
+    3. I buy a phrasebook yesterday.
+- slowly /ˈsloli/ *adv.* 缓慢地
+    1. He is old, and he is walking slowly.
+    2. Mills do last week?
+    3. She went to London.
+    4. Does she know London well?
+    5. No, she doesn't.
+    6. Did she lose her way?
+    7. Yes, she did.
+    8. Where did she see a man?
+    9. What did she say to him?
+    10. She said, ‘Excuse me.
 - hurriedly /ˈhɝɪdli/ 匆忙地
 - cut /kʌt/ 切
 - thirstily /ˈθɝstəli/ 口渴地
@@ -43,4 +80,3 @@
 - ask the way 问路
 - bus stop 公交站
 - speak English 说英语
-

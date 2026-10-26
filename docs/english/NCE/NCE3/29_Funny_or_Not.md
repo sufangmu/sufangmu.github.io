@@ -20,19 +20,36 @@
 
 - mysteriously /ˌmɪˈstɪriəsli/ 神秘的
 - national /ˈnæʃənəl/ characteristics /ˌkærəktəˈrɪstɪks/ 民族特色
-- comic /ˈkɑmɪk/ 喜剧的
+- comic /ˈkɑmɪk/ *adj. n.* 喜剧的
+    1. He lived by writing and selling comic books.
 - appeal /əˈpil/ 吸引力
-- Comedians /kəˈmidiənz/ 喜剧演员
+- Comedians /kəˈmidiənz/ *n.* 喜剧演员
+    1. You will have an opportunity to meet our best comedian tonight.
+    2. They accused that comedian of stealing the car.
 - tragic /ˈtrædʒɪk/ 悲剧的
-- distasteful /dɪˈstestfəl/ 讨厌的
-- pestering /ˈpɛstərɪŋ/ 纠缠
-- dreaded /ˈdrɛdɪd/ 惧怕
-- plaster /ˈplæstɚ/ 熟石膏
+- distasteful /dɪˈstestfəl/ *adj.* 讨厌的
+    1. The bad language in the film was distasteful, and the director apologize to the public.
+    2. If you find this very distasteful, please tell me.
+- pestering /ˈpɛstərɪŋ/ *v.* 纠缠
+    1. The kids kept pestering me to read stories to them.
+- dreaded /ˈdrɛdɪd/ *v.* 惧怕
+    1. You've dreaded talking about him since we met.
+    2. Technically speaking, Tim dreaded his parents finding out.
+- plaster /ˈplæstɚ/ *n.* 熟石膏
+    1. My left leg has been in plaster for about six weeks.
+    2. The doctor went to great lengths to prove that his hand must remain in plaster.
 - miserable /ˈmɪzərəbəl/ 悲惨的
-- consoled /kənˈsold/ 安慰
-- hobble /ˈhɑbəl/ 瘸着腿走
-- compensate /ˈkɑmpənˌset/ 补偿
-- mumbling /ˈmʌmbəlɪŋ/ 喃喃而语
+- consoled /kənˈsold/ *v.* 安慰
+    1. He consoled himself that [Tim looked like a nice boy, who could be a good playmate for his daughter].
+- hobble /ˈhɑbəl/ *v.* 瘸着腿走
+    1. Aunt Sophy hobbled slowly across the room.
+    2. I am going to stop and hobble very
+- compensate /ˈkɑmpənˌset/ *v.* 补偿
+    1. I should be compensated for that.
+    2. I don’t eat breakfast but I make up for it at lunch.
+- mumbling /ˈmʌmbəlɪŋ/ *v.* 喃喃而语
+    1. A woman over there was mumbling to herself, and made a spectacle of herself.
+    2. He mumbled something, but I didn't hear. 4 What else did I mumble in my sleep?
 
 ### Expressions
 
@@ -46,13 +63,29 @@
 - compensate (for something) = make up for 弥补
 - be bound up with  与……密切相关
 - find it hard to do sth. 觉得做某事很难
+    1. I find it hard to tell the difference.
+    2. I find it hard to believe that you are interested in fishing.
+    3. I find it hard to accept the fact that she's left me.
 - make sb. laugh to tears... 让某人笑出眼泪
 - stem from…  起源于
 - come into fashion 开始流行
+    1. It is long skirts that have come into fashion again.
+    2. This sort of clothes seem to be coming into fashion again.
+    3. base a. on b.
+    4. The director based his movie on a real story.
+    5. He based his conclusions on the evidence given by Leo.
 - base a. on b. 把 A 建立在 B 基础上
 - judge for yourself 自己判断
+    1. I'll give you all the facts so that you can judge for yourself.
+    2. I should have let you judge for yourself.
+    3. Whether the director based his movie on a real story or not is something you can judge for yourself.
 - do one’s best...(to do sth.) 尽力（做某事）
+    1. It doesn't matter if you fail, just do your best.
+    2. He was doing his best to avoid situations that stressed him.
+    3. I did my best to take care of Leo.
 - take heart …  振作；鼓起勇气
 - be good for sb. 对某人有好处
+    1. Watching too much TV isn’t good for you.
+    2. My mom went to great lengths to prove that fresh fruit and vegetables are good for you.
+    3. A bowl of hot chicken soup will be good for you.
 - in the process 在这个过程中
-

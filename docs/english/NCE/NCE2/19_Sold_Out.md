@@ -29,10 +29,27 @@
 
 ### Words
 
-- What /wʌt/ a /ə/ pity /ˈpɪti/ 遗憾
-- exclaimed /ɪksˈklemd/ 喊叫
-- return /rɪˈtɝn/ 退
-- sadly /ˈsædli/ 悲伤地
+- What /wʌt/ a /ə/ pity /ˈpɪti/ *n.* 遗憾
+    1. What a pity!
+    2. It’s a pity that…
+    3. we can’t afford that.（L15）
+    4. he didn’t pay any attention.（L1）
+    5. he didn’t reply to the letter.（L14）
+    6. you’ll be away for two months.（L12）
+- exclaimed /ɪksˈklemd/ *v.* 喊叫
+    1. "You can't do that!” she suddenly exclaimed.
+    2. Don’t yell at me.
+- return /rɪˈtɝn/ *n.* 退
+    1. Can I return these tickets?
+    2. I want to return these socks.
+    3. They must have returned the musical instrument.（L17）
+- sadly /ˈsædli/ *adv.* 悲伤地
+    1. Sadly, I couldn’t afford to pay it.（L15）
+    2. Sadly, she must have gone home.（L17）
+    3. Sadly, he won’t take part in the new play.（L17）
+    4. What a pity!
+    5. It’s a pity that…
+    6. Don’t yell at me.
 
 ### Expressions
 

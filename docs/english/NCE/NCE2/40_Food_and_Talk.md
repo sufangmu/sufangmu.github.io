@@ -33,12 +33,25 @@
 
 ### Words
 
-- tight /taɪt/ 紧的
-- fixed /fɪkst/ 凝视
+- tight /taɪt/ *adj.* 紧的
+    1. She never expected her black tight dress to be found.（L34）
+    2. The black tight dress which was bought years ago is being washed right now.（L10 L28）
+    3. It’s too tight.
+- fixed /fɪkst/ *v.* 凝视
+    1. He can fix almost everything in the house.
+    2. I saw him fixing the cooker last night.（L35）
+    3. His eyes were fixed on the hostess.
 - plate /plet/ 盘子
-- despair /dɪˈspɛr/ 绝望
-- hostess /ˈhostəs/ 女主人
-- unsmiling /ʌnˈsmaɪlɪŋ/ 不笑的
+- despair /dɪˈspɛr/ *n.* 绝望
+    1. In despair, he started to run as quickly as possible.（L24）
+    2. Instead of calling the police, in despair, he ran away.（L20）
+- hostess /ˈhostəs/ *n.* 女主人
+    1. The hostess asked if they would arrive at 6.（L39）
+    2. The hostess had no sooner entered the kitchen than there was a knock at the door.（L38）
+    3. The kitchen must have been cleaned by the hostess.（L21）
+- unsmiling /ʌnˈsmaɪlɪŋ/ *adj.* 不笑的
+    1. The police inquired about the unsmiling lady last night.（L39）
+    2. The unsmiling lady is as strong as a horse.（L36）
 
 ### 虚拟语气
 
@@ -61,6 +74,9 @@ It’s cold. If I were you, I would put my coat on.
 ### Expressions
 
 - take my seat 就座；坐到我的座位
+    1. You can take my seat.
 - be busy doing sth. 忙于做某事
+    1. She is busy having an operation.（L39）
+    2. I was busy finishing my homework.
+    3. They were busy wrapping it up.
 - Will you be doing sth? 你（到时候）会在做某事吗？
-

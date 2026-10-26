@@ -25,26 +25,56 @@
 
 ### Words
 
-- sailors /ˈselɚz/ 水手
-- monsters /ˈmɑnstɚz/ 怪物
+- sailors /ˈselɚz/ *n.* 水手
+    1. Tired of working on a ship, the sailor fired his boss.（L49）
+    2. The sailor decided to go on a diet.（L51）
+    3. The sailor’s brother went to college last year.
+- monsters /ˈmɑnstɚz/ *n.* 怪物
+    1. You are such a monster that no one wants to play with you.（L35）
+    2. This little monster here is my private collection.
 - Occasionally /əˈkeʒənəli/ 偶尔
-- creatures /ˈkritʃɚz/ 生物
+- creatures /ˈkritʃɚz/ *n.* 生物
+    1. This was such an unusual creature that he decided not to touch it.（L35）
+    2. The owner of the unusual creature wants to make a profit.（L80）
+    3. Surprisingly, the creature has a very good temper.（L78）
 - shore /ʃɔr/ 岸
-- peculiar /pəˈkjuljɚ/ 奇怪的
+- peculiar /pəˈkjuljɚ/ *adj.* 奇怪的
+    1. Leo is such a big fan of various peculiar monsters.（L74）
+    2. This peculiar fish takes its name from the finder.（L71）
+    3. Seeing the peculiar fish, everyone broke into cheers.（L70）
 - ordinary /ˈɔrdəˌnɛri/ 普通的
-- shining /ˈʃaɪnɪŋ/ 光亮的
+- shining /ˈʃaɪnɪŋ/ *adj.* 光亮的
+    1. I think we should turn our attention to him, for he is a shining example to us.（L70）
+    2. It is no use pretending that you are not a shining example to us.（L68）
+    3. I will turn you into a shining example for all of us.（L66）
 - silver /ˈsɪlvɚ/ 银
-- oarfish /ˈɔrˌfɪʃ/ 皇带鱼
+- oarfish /ˈɔrˌfɪʃ/ *n.* 皇带鱼
 
 ### Expressions
 
 - shining example 光辉榜样
 - claim to have done sth. 声称做过某事
 - laugh at... 嘲笑……
+    1. If they were your friends, they wouldn't laugh at you.
+    2. You're gonna laugh at what I'm gonna say, but go ahead, I don't care.
+    3. It is known that he knocked her to the ground with a sharp blow last night.（L81）
+    4. It is known that he is the man who planted a bomb at the station.（L79 L28）
+    5. It is well known that cats feel frightened when strangers enter the room.（L79）
 - it is now known that... 现在人们知道……
 - at times... 有时
 - out at sea... 在海上
+    1. The boats are all out at sea.
+    2. The fishing boats have been out at sea for three days.
+    3. After the fishing boats had been out at sea for three days, they finally came back.
 - in any way 以任何方式
+    1. I’m not trying to hurt you in any way.
+    2. I’m not trying to avoid meeting you in any way.
+    3. sth./sb. was found to be…（L68）
+    4. He was found to be a bad parent.
+    5. If you are found to be worthless in a company, you will be fired.
+    6. But the next day his body was found to be missing.
+    7. House of 1000 Corpses
 - it was found to be... 发现是……
 - a depth of... ……的深度
-
+    1. Water was found at a depth of 30 metres.（L10）
+    2. The grass seeds should be planted at a depth of 10 feet.

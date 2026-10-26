@@ -25,21 +25,45 @@
 
 ### Words
 
-- admires /ædˈmaɪrz/ 欣赏
+- admires /ædˈmaɪrz/ *v.* 欣赏
+    1. admire sb. for sth/doing sth…
+    2. I really admire you for the work (you do).
+    3. I admire you for caring so much.
 - sense /sɛns/ of /ʌv/ humour /ˈhjumɚ/ 幽默感
 - closest /ˈklosəst/ 亲密的
-- wedding /ˈwɛdɪŋ/ 婚礼
-- reception /rɪˈsɛpʃən/ 招待会
-- sort /sɔrt/ 种类
-- circle /ˈsɝkl/ 圈子
+- wedding /ˈwɛdɪŋ/ *n.* 婚礼
+    1. It was a wonderful wedding, wasn’t it?
+    2. It's too late to ask her for help with my wedding.
+    3. I’ll buy you a wedding present.
+    4. Don’t you threaten me with my wedding ring.
+- reception /rɪˈsɛpʃən/ *n.* 招待会
+    1. I will see you at the reception.
+    2. Excuse me, where is the reception?
+    3. I saw them fighting at the reception last night.
+- sort /sɔrt/ *n.* 种类
+    1. What sort of questions will they ask?
+    2. What sort of a life would I have without you?
+    3. I tell him all sorts of things about you.
+- circle /ˈsɝkl/ *n.* 圈子
+    1. a large circle of friends…
+    2. When I was young, my parents would invite their small circle of friends.（L55）
+    3. We don’t have the same circle of friends.
+    4. Why don’t you have the same circle of friends?
+    5. You stay together all the time.
 
 ### Expressions
 
 - a large circle of friends 一大群朋友
 - be popular at 在……受欢迎
 - make a speech 发表演讲
+    1. I want to make a speech at your wedding.
+    2. He succeeded in making a speech at that wedding.（L36）
+    3. He was so nervous that he didn’t even make a speech at his own wedding.（L35）
 - a great success 巨大成功
 - on the way home 在回家路上
+    1. On the way home, he was still busy working.（L40）
+    2. On the way home, they went through the park.（L44）
+    3. On the way home, it occurred to him that he didn’t close the office door.（L46）
 - laughing at him 嘲笑他
 
 ### 方式状语从句

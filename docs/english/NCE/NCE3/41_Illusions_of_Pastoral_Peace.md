@@ -14,27 +14,68 @@
 
 ### Words
 
-- City /ˈsɪti/ born /bɔrn/ and /ənd/ city /ˈsɪti/ bred /brɛd/ 培育
-- raptures /ˈræptʃɚz/ 欣喜
-- extol /ɪkˈstol/ 赞美
-- illusion /ˌɪˈluʒən/ 幻觉
-- superior /suˈpɪriɚ/ 优越的
-- cockcrow /ˈkɑkˌkro/ 鸡叫
-- twittering /ˈtwɪtərɪŋ/ 鸟叫
-- glinting /ˈɡlɪntɪŋ/ 闪烁
-- pastures /ˈpæstʃɚz/ 牧场
+- City /ˈsɪti/ born /bɔrn/ and /ənd/ city /ˈsɪti/ bred /brɛd/ *v.* 培育
+    1. There is a chance in a million that they were actually born and bred in the same environment.
+    2. Evidence suggests that he was born and bred in London.
+- raptures /ˈræptʃɚz/ *n.* 欣喜
+    1. After overcoming all sorts of obstacles, she went into raptures at the news of her success.（L39）
+- extol /ɪkˈstol/ *v.* 赞美
+    1. It has long been known that doctors extol the virtues of eating less fat.
+    2. In the speech, he extolled the benefits of filling cities with trees.
+- illusion /ˌɪˈluʒən/ *n.* 幻觉
+    1. Needless to say, she was under the illusion that he was honest until he was caught stealing some money.
+    2. It’s possible that she's under the illusion that she'll get the job.
+- superior /suˈpɪriɚ/ *adj.* 优越的
+    1. A closed mind is when you believe that your way of making a profit is superior to everyone else’s.
+    2. The manager pointed out that his products were far superior to others.
+- cockcrow /ˈkɑkˌkro/ *n.* 鸡叫
+    1. As soon as they heard the first cockcrow, they quickly got back to the box as if they had never left.
+    2. I am accustomed to getting up as soon as I hear the first cockcrow.
+- twittering /ˈtwɪtərɪŋ/ *v.* 鸟叫
+    1. Birds twitter outside the open window as she starts to depict pictures on the wall.
+    2. In the video, which was taken by investigators in the spring, birds twitter.
+- glinting /ˈɡlɪntɪŋ/ *v.* 闪烁
+    1. I found it hard to tell who he was because of the sun glinting on his glasses.
+    2. It was not until she saw something glinting on the carpet that she realized the diamond wasn’t lost.（N2L35）
+- pastures /ˈpæstʃɚz/ *n.* 牧场
+    1. With the passage of time, the deserted village became surrounded by fields and pasture land.
+    2. It seems that this pasture can no longer carry such a large number of cattle and sheep.（L9&L18）
 - idyllic /aɪˈdɪlɪk/ 田园诗的
-- virtually /ˈvɝtʃuəli/ 几乎
-- dubious /ˈdubiəs/ 可疑的
-- misery /ˈmɪzəri/ 苦难
-- acquaintances /əˈkwentənsɪz/ 熟人
-- treat /trit/ 享受
-- dweller /ˈdwɛlɚ/ 居住者
-- stagger /ˈstæɡɚ/ 摇晃
-- exotic /ɪɡˈzɑtɪk/ 外来的
-- glow /ɡlo/ 白炽光
-- tucked /tʌkt/ 隐藏
-- obstinately /ˈɑbstɪnətli/ 固执的
+- virtually /ˈvɝtʃuəli/ *adv.* 几乎
+    1. It’s virtually impossible to get advance information without any efforts.
+    2. It’s virtually impossible to be exempted from military service when going to high school.
+- dubious /ˈdubiəs/ *adj.* 可疑的
+    1. I hope you don't mind the interference, but he has been associated with some dubious characters.（L35&L23）
+    2. I presume that the results of this policy will remain dubious for some time.
+- misery /ˈmɪzəri/ *n.* 苦难
+    1. She is not in the least grateful for your help, as all that money brought nothing but sadness and misery.（L39&L40）
+    2. Everything conspired to make her life a misery.
+- acquaintances /əˈkwentənsɪz/ *n.* 熟人
+    1. Someone who is not a close friend
+    2. After seeing the way Mr. Wyatt behaved at the party, I had little desire to make his acquaintance.
+    3. I am delighted to make your acquaintance.
+- treat /trit/ *n.* 享受
+    1. We took the kids to the zoo as a special treat.
+    2. Emily, as a special treat, was granted permission to stay over at a school-friend’s.
+- dweller /ˈdwɛlɚ/ *n.* 居住者
+    1. There is no doubt that city dwellers have a higher death rate than country people do.
+    2. He pretended to be an urban dweller.
+- stagger /ˈstæɡɚ/ *v.* 摇晃
+    1. After he was attacked, he managed to stagger to the phone and call for help.
+    2. However painful it was, I managed to stagger the last few steps.
+- exotic /ɪɡˈzɑtɪk/ *adj.* 外来的
+    1. She seems perturbed by the exotic clothes on the floor.
+    2. His ideas shed light on why exotic foods are available in supermarkets.
+    3. He obtained the money to go on all these exotic journeys by deception.
+- glow /ɡlo/ *n.* 白炽光
+    1. The candles shed a soft glow on her face, which captured the attention of all the men in the room.
+- tucked /tʌkt/ *v.* 隐藏
+    1. A sum of money was always tucked away in case there was an emergency.
+    2. It looked as if there were thousands of pounds tucked away in another saving account.
+    3. In the dim light, I discovered a box which had been tucked away in an odd corner of the house.（L22）
+- obstinately /ˈɑbstɪnətli/ *adv.* 固执的
+    1. He obstinately denied that he had stolen anything.
+    2. He obstinately thrusted a pile of money into her hands.
 
 ### Expressions
 
@@ -51,17 +92,45 @@
 - descend on/upon/over 降临；突然来到
 - be tucked away… 被藏起来
 - at the mere mention of 一提到……
+    1. At the mere mention of the haunted house, my daughter leapt out at me.
+    2. His face turned red at the mere mention of the embarrassing practical jokes he experienced last year.
+    3. At the mere mention of the girl’s name, he got angry and charged at the shallow pool of water.
 - be compared with 与……相比
+    1. I am under the impression that her talent in painting cannot be easily compared with others.
+    2. Whether you agree or not, the idyllic pastoral scene can hardly be compared with anything else.
 - be prepared to 准备；愿意
+    1. You have to be prepared to take a risk in this kind of work.
+    2. Neither side seems to be prepared to get the traffic on the move.
+    3. You have to be prepared to start at the bottom of your life and work your way up.
 - tolerate for 忍受
+    1. It is naive to believe she can tolerate criticism for the benefit of personal growth.
+    2. I suspect that he won’t be able to tolerate long hours of work for the dubious benefit of achieving his career goals.
+    3. It seems highly improbable that they can tolerate inconvenience for the privilege of living in a big house.
 - beyond me  超出我的理解范围
 - do without 没有……也行
 - travel miles to do sth. 长途跋涉去做某事
+    1. My mother reprimanded me for traveling miles just to eat a bowl of dumplings.
+    2. We were willing to travel miles to see the breathtaking sunset at the beach.
+    3. The mere fact [that she would travel miles to visit you during the holidays] means she likes you.
 - be available for 可用于……；有空
+    1. Unable to find his preferred ingredients, the chef had to make do with what was available for the dinner.
+    2. I was wondering if there a room available for you tonight.
+    3. There is a considerable number of books available for you to choose from.
 - come up to 走到……跟前；达到
 - draw to a close  即将结束
+    1. The festival drew to a close with the fantastic fireworks that lit up the night sky.
+    2. What invariably happens is that as the semester drew to a close, students began making great efforts to prepare for their final exams.
 - make do with  凑合着用
+    1. She had to make do with the old computer.
+    2. We ran out of milk, so we had to make do with black coffee for breakfast.
+    3. As the accident brought the traffic to a grinding halt, I had to make do with the subway.
 - run wild 放肆；撒野
+    1. If someone, often a child, runs wild, that person behaves as they want to without being controlled by anyone.
+    2. After being kept in the house all day, the children were allowed to run wild in the backyard.
+    3. The imagination of the author seemed to run wild, creating fascinating worlds in each novel.
+    4. They insist that all parents not let their children run wild.
+    5. Few things could be more impressive than....
+    6. Few things could be more impressive than seeing the mountain view while the curtain goes up.
+    7. Few things could be more impressive than the beauty of the ocean that consists of a bewildering variety of sea life.
 - few things could be more impressive than… 很少有比……更令人印象深刻的
 - it has always been a mystery to me why... 我一直不明白为什么……
-

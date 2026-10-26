@@ -14,34 +14,93 @@
 
 ### Words
 
-- appreciate /əˈpriʃiˌet/ 感谢
+- appreciate /əˈpriʃiˌet/ *v.* 感谢
+    1. I appreciate your honesty. Dallas Buyers Club
 - money /ˈmʌni/ 零钱
+    1. Leo asked for pocket money from his mom every Friday when he was young.
+    2. How much pocket money do you get?
+    3. To the little child’s horror, he found that he had lost all his pocket money.
+    4. There was no shortage of pocket money when he was a little boy.
 - With /wɪð/ 对于
-- rattle /ˈrætəl/ 使咯咯作响
-- thrifty /ˈθrɪfti/ 节约的
-- nephew /ˈnɛfju/ 侄子
-- bounced /baʊnst/ 弹起
-- pavement /ˈpevmənt/ 人行道
+- rattle /ˈrætəl/ *v.* 使咯咯作响
+    1. All the windows rattled in the wind last night.
+    2. Keys rattled in his pocket as he walked.
+    3. There's something rattling inside the washing machine.
+- thrifty /ˈθrɪfti/ *adj.* 节约的
+    1. Mrs Jones was a very thrifty woman who never wasted anything.
+    2. They have plenty of money now, but they are still very thrifty.
+- nephew /ˈnɛfju/ *n.* 侄子
+    1. My nephew and Leo have a lot in common.
+    2. Her nephew died from a car accident last year.
+    3. He always regards you as his nephew.
+- bounced /baʊnst/ *v.* 弹起
+    1. The coin bounced along the road.
+    2. Her hair bounced when she walked.
+    3. The children were bouncing a ball in the garden when they walked in.
+- pavement /ˈpevmənt/ *n.* 人行道
+    1. British English a hard level surface or path at the side of a road for people to walk on. sidewalk American English.
+    2. A small group of journalists waited on the pavement outside her house.
+    3. As she fell off the bike, her head hit the pavement.
+    4. We should have sat down on the pavement.
 - firmly /ˈfɝmli/ 牢固地
 - stuck /stʌk/ 卡住的
-- fire /ˈfaɪɚ/ brigade /brəˈɡed/ 消防队
-- grease /ɡris/ 润滑油
+    1. Leo realized to his horror that the wheels were stuck in the mud.
+    2. The little boy’s arm was stuck in the mud.
+- fire /ˈfaɪɚ/ brigade /brəˈɡed/ *n.* 消防队
+    1. When the police arrived on the scene, took one look and called the fire brigade.
+    2. They had to call the fire brigade, for the house was full of smoke.（N2L7&L17）
+    3. We don't want to call the fire brigade until we have to.
+- grease /ɡris/ *n.* 润滑油
+    1. This cup is full of grease.
+    2. It was my right hand that was covered with oil and grease.（N2L75&L58）
+    3. You have a grease spot on your shirt.
 
 ### Expressions
 
 - I appreciate your honesty. 我很欣赏你的诚实
 - supply of 供应
+    1. There was a plentiful supply of books and magazines to read.
+    2. The hospital keeps a large supply of blood. ▪Whenever she goes out with her baby, she always takes a large supply of baby food with her.
 - go a long way 大有帮助；走很长的路
+    1. All parents hope that their children will go a long way in their lives.
+    2. The moment I met him I knew he would go a long way.
 - be exchanged for sth. 被换成某物
 - exchange a. for b. 用 A 换 B
 - fill up sth. 装满某物
+    1. I need to fill up with petrol before we go.
+    2. It seems that they have filled up the gas tank.
+    3. Not only did they fill up the glasses,...
 - find one’s way… 找到路
 - advise sb. to do sth. 建议某人做某事
+    1. He happened to meet Evans last night and advised him to leave London.
+    2. The doctor advised him to lose weight and exercise more.
+    3. Leo advised me to turn off the background music last night.
+    4. On one’s way to sw.
+    5. On my way to your house, I grabbed a coffee for both of us.
+    6. I saw Leo teaching English on my way to school.
+    7. On my way to school, Leo explained everything to me.
 - On one’s way to sw. 在去某地的路上
 - roll up one’s sleeves 卷起袖子
+    1. He would take off his jacket, roll up his sleeves, and play Ping-Pong with the kids.
+    2. She rolled up her sleeves, and realized to her horror that her arms were covered with blood.
+    3. She rolled up her sleeves and started washing.
+    4. What is more=what’s more used to add something surprising or interesting to what you have just said used to add a point that is even more important 而且; 另外; 更重要的是
+    5. What’s more, he will be coming with you tonight.
+    6. And what's more, you need to explain that to me.
+    7. rub a. with b.
+    8. She began rubbing her hair with a towel.
 - What is more=what’s more 而且；更重要的是
 - rub a. with b.  用b擦a。
 - a special type of sth. 一种特殊类型的……
+    1. He became an expert at making this special type of butter.
+    2. This special type of butter was used to make something that you never eat before.
+    3. He was accustomed to eating a special type of butter.
 - hear about sth. 听说某事
+    1. I'd heard about your injury from your mom, but I didn't realize it was so bad.
+    2. Instead of knowing that immediately.
+    3. Teresa heard about the decision later.
+    4. It seems that people want to write and hear about bad, negative news.
 - reward sb. with sth. 用某物奖励某人
-
+    1. The captain rewarded him with a free ticket.
+    2. The captain advised me to reward him with more money.
+    3. We would like to reward you with a free seat in first class.

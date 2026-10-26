@@ -19,11 +19,22 @@
 - Ladies /ˈlediz/ 残钞鉴别组
 - claims /klemz/ 索赔
 - fed /fɛd/ feed, 饲养
-- fiance /ˌfiɑnˈse/ 未婚夫
-- microwave /ˈmaɪkrəˌwev/ oven /ˈʌvən/ 微波炉
-- safekeeping /ˈsefˌkipɪŋ/ 保管
+- fiance /ˌfiɑnˈse/ *n.* 未婚夫
+    1. Her fiancé happened to be around the market last night.
+    2. Her fiancé woke up with a start last night, realizing that the door was open.（L2）
+    3. My fiancé is always talking about his work.
+- microwave /ˈmaɪkrəˌwev/ oven /ˈʌvən/ *n.* 微波炉
+    1. He sells microwave, and he takes his job very seriously.
+    2. It is disturbing to think that there is a snake in my microwave.
+    3. He managed to get a free microwave from the market.
+    4. You should have bought a new microwave.
+- safekeeping /ˈsefˌkipɪŋ/ *n.* 保管
+    1. I left my watch with Helen for safekeeping while I swam.
+    2. Hampton had been given the money for safekeeping by a business partner.
+    3. He was instructed to give all the money to Leo for safekeeping.
 - ash /æʃ/ 灰
-- spokeswoman /ˈspokˌswʊmən/ 女发言人
+- spokeswoman /ˈspokˌswʊmən/ *n.* 女发言人
+    1. They recognized her as the spokeswoman for the bank.
 
 ### Expressions
 
@@ -32,5 +43,11 @@
 - deal with 处理
 - go doing… 去做……
 - Imagine sb’s dismay when 想象一下某人……时的沮丧
+    1. Imagine his dismay when he couldn’t get enough money to buy the ticket.
+    2. Imagine my dismay when I found out that there was no hot water, and I couldn’t take a shower.
 - so long as... 只要
-
+    1. so long as = as long as…
+    2. You’re welcome to stay with us so
+    3. (as) long as you share the expenses.
+    4. We’ll provide you with bed and food as (so) long as you stay with us.
+    5. You will be ok so long as you follow my advice.

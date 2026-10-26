@@ -58,17 +58,50 @@
 
 ### Words
 
-- butcher /ˈbʊtʃɚ/ 屠夫
-- meat /mit/ 肉
+- butcher /ˈbʊtʃɚ/ *n.* 屠夫
+    1. Where are you?
+    2. I’m at the butcher’s.
+- meat /mit/ *n.* 肉
+    1. Can you wash these meat, please?
+    2. I am going to cook some meat for you.
 - beef /bif/ 牛肉
+    1. Do you like beef?
+    2. I like beef.
+    3. But I don’t want any beef now.
 - lamb /læm/ 羔羊肉
+    1. I don’t drink sheep milk.
 - pork /pɔrk/ 猪肉
+    1. Can you cook pork?
+    2. Do you want any pork?
+    3. I want this job.
+    4. I love Beijing.
+    5. I like tea.
+    6. He wants this job, too.
 - husband /ˈhʌzbənd/ 丈夫
+    1. This is my husband.
+    2. He is going to cook some lamb.
 - steak /stek/ 牛排
+    1. How do you like your steak?
 - mince /mɪns/ 肉馅
+    1. Can you give me some mince, please?
 - chicken /ˈtʃɪkɪn/ 鸡肉；鸡
+    1. I am going to cook some chicken.
+    2. Do you want some?
 - tell /tɛl/ 告诉
+    1. You can tell me.
+    2. Can you tell me?
+    3. I am going to tell you.
 - truth /truθ/ 真相
+    1. He does want this job.
+    2. He loves Beijing, too.
+    3. She likes tea, too.
+    4. They want some money.
+    5. He likes coffee.
+    6. He washes dishes every day.
+    7. He wants this job.
+    8. He doesn’t want this job.
+    9. She likes tea.
+    10. She doesn’t like tea.
 - tomato /təˈmeto/ 西红柿
 - potato /pəˈteto/ 土豆
 - cabbage /ˈkæbɪdʒ/ 卷心菜
@@ -84,4 +117,3 @@
 - Do you want any...? 你想要些……吗？
 - What about some...? 来点……怎么样？
 - to tell you the truth 说实话
-

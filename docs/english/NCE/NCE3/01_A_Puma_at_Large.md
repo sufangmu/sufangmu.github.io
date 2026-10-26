@@ -14,45 +14,92 @@
 
 ### Words
 
-- Pumas /ˈpjuməz/ 美洲豹
+- Pumas /ˈpjuməz/ *n.* 美洲豹
+    1. The puma I saw last night belongs to the London Zoo.
+    2. This is such a beautiful puma that I want to see it everyday.
+    3. If you saw a puma in London, I would give you 2,000.
 - wild /waɪld/ 野生的
 - spotted /ˈspɑtɪd/ 注意到
 - taken /ˈtekən/ seriously /ˈsɪriəsli/ 严肃地
-- evidence /ˈɛvədəns/ 证据
-- accumulate /əˈkjumjəˌlet/ 积累
+- evidence /ˈɛvədəns/ *n.* 证据
+    1. He was trying to find evidence.
+    2. The evidence was found by the police last month.
+    3. I’ve got evidence.
+    4. Do you have any evidence?
+- accumulate /əˈkjumjəˌlet/ *v.* 积累
+    1. The evidence began to accumulate.
+    2. They were able to accumulate enough evidence.
+    3. They hoped to accumulate enough money.
+    4. My dream is to accumulate enough wealth.
 - felt /fɛlt/ obliged /əˈblaɪdʒd/ to /tu/ 有义务做
 - investigate /ˌɪnˈvɛstəˌɡet/ 调查
-- hunt /hʌnt/ 搜寻
-- blackberries /ˈblækˌbɛriz/ 黑莓
+- hunt /hʌnt/ *n. v.* 搜寻
+    1. The hunt for the puma began in a small village.
+    2. Now, they feel obliged to hunt for the puma in London.
+- blackberries /ˈblækˌbɛriz/ *n.* 黑莓
+    1. I can’t tell the difference between blackberry and other berries.
+    2. I regretted buying all these blackberries.
 - human /ˈhjumən/ being /ˈbiɪŋ/ 人类
-- cornered /ˈkɔrnɚd/ 被困得走投无路的
-- a /ə/ trail /trel/ of /ʌv/ 一连串
+    1. A puma will not attack a human being.
+    2. A puma attacked a human being last night.
+    3. A puma has attacked several human beings so far.
+    4. Look, that puma is attacking a human being.
+- cornered /ˈkɔrnɚd/ *v.* 被困得走投无路的
+    1. A human being was cornered by a puma in London last night.
+    2. A rabbit was cornered by a puma in London Zoo.
+    3. It is the most basic human reaction that if you are cornered, your instinct is flight or fight.
+- a /ə/ trail /trel/ of /ʌv/ *n.* 一连串
+    1. The captain was followed by a trail of detectives.
 - deer /dɪr/ 鹿
 - Paw /pɔ/ prints /prɪnts/ 爪印
-- clinging /ˈklɪŋɪŋ/ 附着
+- clinging /ˈklɪŋɪŋ/ *v.* 附着
+    1. Puma fur was found clinging to bushes.
+    2. We got so wet that our clothes clung to us.
+    3. She began to cry and clung to me.
 - bushes /ˈbʊʃɪz/ 灌木丛
-- convinced /kənˈvɪnst/ 说服
+- convinced /kənˈvɪnst/ *v.* 说服
+    1. This convinced me that he had bought a new car.
+    2. How can I convince you?
 - in /ɪn/ the /ðə/ possession /pəˈzɛʃən/ of /ʌv/ 拥有
 - escape /ɪˈskep/ 逃脱
 - went /wɛnt/ on /ɑn/ 继续进行
-- disturbing /dɪˈstɝbɪŋ/ 烦扰的
+- disturbing /dɪˈstɝbɪŋ/ *v.* 烦扰的
 - at /æt/ large /lɑrdʒ/ 在逃的
 
 ### Expressions
 
 - spot sb. doing sth. 发现某人正在做某事
+    1. You have proved yourself.
 - feel obliged to do sth. 感到不得不做某事
+    1. You have proved yourself.
 - a trail of 一连串；一系列
 - cling to sb./sth. 紧紧抓住/依附于某人/某物
+    1. You have proved yourself.
 - sth. convinced sb. that + 句子 某事使某人相信……
 - sb. was/were convinced that + 句子 某人相信……
 - It is disturbing to think that + 句子 一想到……就令人不安
 - at large 在逃的；逍遥法外
+    1. (especially of a criminal or dangerous animal) at liberty; escaped or not yet captured.
+    2. The man who killed the young man is still at large.
+    3. Why is the puma still at large?
 - be found in 被发现于；存在于
+    1. The largest of these deserts are found in Central Asia.
+    2. Antioxidants are found in certain foods.
 - take sth. seriously 认真对待某事
 - sth. proved adj. 某物被证明是……的
+    1. You have proved yourself.
 - sb. confirmed that + 句子 某人确认……
+    1. He confirmed that ...
+    2. the puma was still at large.
+    3. its fur was clung to bushes.
+    4. she was busy cooking.
 - claim to have done sth. 声称做过某事
+    1. She claimed to have seen paw prints of a puma in London.
+    2. She claimed to have set up a new world record.
+    3. She claimed to have returned the book to Leo.
 - find sb. doing sth. 发现某人正在做某事
+    1. I found her drinking my whisky.
+    2. I found her watching a musical.
+    3. I found her putting out the fire.
+    4. Leo went on working after he had had dinner.
 - go on 继续
-

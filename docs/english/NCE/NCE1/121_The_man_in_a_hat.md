@@ -59,12 +59,43 @@
 ### Words
 
 - customer /ˈkʌstəmɚ/ 顾客
+    1. The customer is always right.
+    2. This customer is rich enough to buy everything in the shop.
 - forget /fɚˈɡɛt/ 忘记
+    1. Oh, No.
+    2. I forgot to take my pills.
+    3. I forgot to take an umbrella with me.
+    4. I forgot to cook dinner for him.
 - forgot /fɚˈɡɑt/ 忘记（过去式）
-- manager /ˈmænɪdʒɚ/ 经理
-- serve /sɝv/ 服务；接待
-- counter /ˈkaʊntɚ/ 柜台
-- recognize /ˈrɛkəɡˌnaɪz/ 认出
+    1. Oh, No.
+    2. I forgot to take my pills.
+    3. I forgot to take an umbrella with me.
+    4. I forgot to cook dinner for him.
+- manager /ˈmænɪdʒɚ/ *n.* 经理
+    1. He is the hotel manager.
+    2. The hotel manager cleaned every room yesterday.
+    3. The manager has lived in New York for 2 years.（L89）
+    4. The bread on the table
+    5. The guy next to me
+- serve /sɝv/ *v.* 服务；接待
+    1. After he had served us some food, he went back home.
+    2. I served him an hour ago.
+    3. Did you serve him an hour ago?
+- counter /ˈkaʊntɚ/ *n.* 柜台
+    1. The lady is standing behind the counter.
+    2. After she had cleaned the counter, she closed the store.（L119）
+    3. This counter is higher than the old one.
+- recognize /ˈrɛkəɡˌnaɪz/ *v.* 认出
+    1. I can recognize him.
+    2. Can you recognize him?
+    3. Can’t you recognize him?（L67）
+    4. You can recognize him, can’t you?（L103）
+    5. He is the man.
+    6. The man met me yesterday.
+    7. He is the man who met me yesterday.
+    8. I met the man yesterday.
+    9. He is the man who (whom) I met yesterday.
+    10. He is the friend.
 
 ### Expressions
 
@@ -72,4 +103,3 @@
 - forget to take them 忘记带走
 - behind the counter 在柜台后面
 - recognize him 认出他
-

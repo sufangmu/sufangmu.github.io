@@ -24,22 +24,44 @@
 
 ### Words
 
-- secretary /ˈsɛkrəˌtɛri/ 秘书
-- nervous /ˈnɝvəs/ 紧张的
-- afford /əˈfɔrd/ 负担得起
-- interrupt /ˌɪntəˈrʌpt/ 打断
+- secretary /ˈsɛkrəˌtɛri/ *n.* 秘书
+    1. As soon as the secretary had entered the room, the boss waved to her.（L14）
+    2. After the secretary had got off the car, she drove on to the next meeting.
+    3. Before the secretary tried to pay for the dinner, he had already done that.（L11）
+- nervous /ˈnɝvəs/ *adj.* 紧张的
+    1. He is nervous about the exam.
+    2. She is nervous about asking for a lift.（L14）
+    3. Are you nervous about going on a journey alone?（L14）
+- afford /əˈfɔrd/ *v.* 负担得起
+    1. The book is too expensive.
+    2. I can’t afford it.
+    3. Can we afford that?
+    4. can’t afford to pay sth.
+    5. We can’t afford to pay that car right now.
+- interrupt /ˌɪntəˈrʌpt/ *v.* 打断
+    1. I’m replying a letter.
+    2. Don’t interrupt me please.
+    3. Sorry to interrupt, but… Can I play jazz here?（L10）
+    4. That girl is waving to us.
+    5. Maybe she needs help.（L14）
+    6. You’re not allowed to smoke here.（L10）
 - extra /ˈɛkstrə/ 额外的
-- weak /wik/ 虚弱的
+    1. I could use some extra sleep/time/money/ hand/help.
+    2. Sorry to interrupt, but…
+- weak /wik/ *adj.* 虚弱的
+    1. You are so weak.
+    2. I feel weak.
+    3. I think I’m ill.
 
 ### Expressions
 
-be nervous about sth. / doing sth.  紧张
+- be nervous about sth. / doing sth.  紧张
 
-afford sth. 支付
+- afford sth. 支付
 
-Sorry to interrupt, but ... 抱歉打断一下，但是……
+- Sorry to interrupt, but ... 抱歉打断一下，但是……
 
-It's my turn 轮到我了
+- It's my turn 轮到我了
 
 ### 宾语从句
 

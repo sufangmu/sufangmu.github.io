@@ -24,11 +24,22 @@
 
 ### Words
 
-- rare /rɛr/ 罕见
-- ancient /ˈentʃənt/ 古代的
-- myths /mɪθs/ 神话
-- effect /ɪˈfɛkt/ 效果
-- trouble /ˈtrʌbl/ 麻烦
+- rare /rɛr/ *adj.* 罕见
+    1. The white tiger is rare.
+    2. Why is the white tiger rare?
+    3. To my surprise, I saw a rare white tiger yesterday in the field.（L7）
+- ancient /ˈentʃənt/ *adj.* 古代的
+    1. Rome, they went to see the ancient ones.（L20）
+    2. This ancient building must have been built thousands of years ago.（L21）
+- myths /mɪθs/ *n.* 神话
+    1. When I was still a kid, my father told me stories about ancient myth.（L7 L27）
+    2. You always pretend that you know every ancient myth.（L26）
+- effect /ɪˈfɛkt/ *n.* 效果
+    1. This doesn’t have any effect.
+    2. Why doesn’t this have any effect?
+- trouble /ˈtrʌbl/ *n.* 麻烦
+    1. When I was still in school, I always had trouble with math.（L7）
+    2. I have trouble with my parents.
 
 ### Expressions
 

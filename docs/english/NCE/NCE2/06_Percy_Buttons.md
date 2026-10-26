@@ -26,8 +26,18 @@
 
 ### Words
 
-- beggar /ˈbɛɡɚ/ 乞丐
-- pocket /ˈpɑkɪt/ 口袋
+- beggar /ˈbɛɡɚ/ *n.* 乞丐
+    1. Can we get some food for that beggar?
+    2. I find that beggar interesting.
+- pocket /ˈpɑkɪt/ *n.* 口袋
+    1. There is some money in my pocket.
+    2. The money is in my pocket.
+    3. My pocket is too small.
+    4. pocket money a/an/the/some/any + n.
+    5. There is a pen on the table.
+    6. The pen is Leo’s.
+    7. I’m not a big fat panda.
+    8. I’m the big fat panda.
 
 ### Expressions
 
@@ -35,16 +45,28 @@
 - call at = visit 拜访（某地）
 
 - move to sw. 搬到某地
+    1. have done: He has just moved to Hainan.
 
 - knock at the door 敲门
+    1. Is someone knocking at the door?
+    2. Who is knocking at the door?
 
 - ask sb. for sth. 向某人要某物
+    1. When I was young, I always asked my mom for pocket money.
+    2. I have just asked my brother for some food.
 
 - stand on sb’s head 倒立
+    1. Look, he is standing on his head.
+    2. Why is standing on his head?
 
 - in return for this 作为对此的回报
+    1. In return for this, I made that decision.
+    2. I am going to give him some money every year.
+    3. The farmer gave us food in return for our work.
 
 - once a st. 每……一次
+    1. Once a year, my brother sends a postcard to me.
+    2. Does your brother send you a postcard once a year?
+    3. How often does your brother send you a postcard?
 
 - mineral water 矿泉水
-

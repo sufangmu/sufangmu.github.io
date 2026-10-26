@@ -30,23 +30,61 @@
 ### Words
 
 - guard /ɡɑrd/ 守卫
-- prisoner /ˈprɪzənɚ/ 囚徒
+- prisoner /ˈprɪzənɚ/ *n.* 囚徒
+    1. When he realized that the prisoner was standing in front of him, he felt frightened.
+    2. He spent ten years studying these prisoners.
+    3. He agreed to meet the prisoner tonight.（L65）
 - dragged /dræɡd/ 拉
-- bushes /ˈbʊʃɪz/ 灌木丛
-- rapidly /ˈræpədli/ 迅速地
-- uniform /ˈjunəˌfɔrm/ 制服
-- rifle /ˈraɪfəl/ 步枪
-- marched /mɑrtʃt/ 行军
-- boldly /ˈboldli/ 大胆地
+- bushes /ˈbʊʃɪz/ *n.* 灌木丛
+    1. Before planting the bushes, we should water the ground first.（L49）
+    2. As soon as we planted the bushes in our garden, it started to rain.（L14）
+    3. The children enjoy hiding in the bushes.（L68）
+- rapidly /ˈræpədli/ *adv.* 迅速地
+    1. No matter what you do, children will grow up rapidly and leave you someday in the future.
+    2. I’m fairly confident that they are moving rapidly right now.（L55）
+- uniform /ˈjunəˌfɔrm/ *n.* 制服
+    1. I don't like the color of our school uniform.
+    2. Why don’t you like your school uniform?
+    3. If you saw the uniform, you wouldn’t like that, either.（L40）
+    4. York.（L49 L73）
+- rifle /ˈraɪfəl/ *n.* 步枪
+    1. They armed him with a rifle.（L55）
+    2. He succeed in buying a rifle.（L36）
+    3. I look forward to seeing your new rifle.（L37）
+- marched /mɑrtʃt/ *v.* 行军
+    1. The soldiers marched along the street.
+    2. She was very angry and marched out of the door.
+    3. was/why/who/where…
+- boldly /ˈboldli/ *adv.* 大胆地
+    1. She marched/walked boldly out of the house.
+    2. The prisoner marched boldly up and down in front of the camp.
+    3. He went there boldly and knocked on the door.
 - up /ʌp/ and /ənd/ down /daʊn/ 来回
-- blazing /ˈblezɪŋ/ 闪耀的
+- blazing /ˈblezɪŋ/ *v.* 闪耀的
+    1. Lights were blazing in every room last night.
+    2. If the lights in his room were blazing, he would feel frightened.（L79 L40）
+    3. The sun were blazing, and everyone in the garden had a great appetite.（L78）
 - escaped /ɪˈskept/ 逃跑
 - stood /stʊd/ to /tu/ attention /əˈtɛnʃən/ 立正
-- saluted /səˈlutɪd/ 致敬
-- sharp /ʃɑrp/ blow /blo/ 猛击
-- shoulder /ˈʃoldɚ/ 肩膀
-- elderly /ˈɛldɚli/ 年长的
-- grey /ɡre/ 灰色的
+- saluted /səˈlutɪd/ *v.* 致敬
+    1. If I could raise my hand, I would salute you.（L40）
+    2. The captain had no sooner got out of the ship than everyone at the harbor saluted him.（L38）
+    3. He was dismayed to find out that no one saluted him.（L54）
+- sharp /ʃɑrp/ blow /blo/ *n.* 猛击
+    1. The prisoner knocked him to the ground with a sharp blow.
+    2. He was knocked down by a sharp blow on the shoulder.
+    3. was/what/who/when…
+- shoulder /ˈʃoldɚ/ *n.* 肩膀
+    1. When I asked him if he wanted any lamb shoulder, he shook his head.（L47）
+    2. We should pay him a visit, for he hurt his shoulder last week.（L51）
+    3. If you touch my shoulder one more time, I will break your leg.（L16）
+- elderly /ˈɛldɚli/ *n.* 年长的
+    1. I can always learn something new when I went out with the elderly (people).
+    2. The elderly man (who persuaded you not to smoke) is actually my father.（L28 L54）
+    3. “The windows need cleaning” said the elderly man.（L44）
+- grey /ɡre/ *adj.* 灰色的
+    1. a grey sky…
+    2. a grey cat…
 
 ### Expressions
 
@@ -54,7 +92,11 @@
 - with a sharp blow 猛地一击
 - change into… 变成……
 - up and down... 上上下下
+    1. They are still marching up and down the street.
+    2. His wife is having an operation right now, and he is walking up and down inside the waiting room.（L77）
 - sb. discovered that 某人发现……
 - stand to attention 立正
 - knock him to the ground 把他打倒在地
-
+    1. Did you knock him to the ground?
+    2. You needn’t have knocked him to the ground.（L41）
+    3. He hit me so hard that he almost knocked me to the ground.（L35）

@@ -55,10 +55,28 @@
 ### Words
 
 - extra /ˈɛkstrə/ 额外的
+    1. I need some extra money/time.
+    2. After my mom had given me some extra money, I took a taxi to school.
 - overseas /ˌovɚˈsiz/ 海外的
+    1. They went overseas 5 days ago.
+    2. The man who went overseas 5 days ago works for a big bank now.
 - engineering /ˌɛndʒəˈnɪrɪŋ/ 工程
+    1. My father has worked for an engineering company for 30 years.
+    2. My grandfather worked for an engineering company for 30 years.
 - company /ˈkʌmpəni/ 公司
+    1. My father has worked for an engineering company for 30 years.
+    2. My grandfather worked for an engineering company for 30 years.
 - line /laɪn/ 线路
+    1. After he had repaired the telephone line, he went home.
+    2. The man who has just repaired the telephone line is having a bath.
+    3. John Smith?
+    4. Yes, he is.
+    5. John Smith to tell Mary?
+    6. He asks John Smith to tell Mary they will be late for dinner this evening.
+    7. What time did he say he would be at their house?
+    8. He said he'd be there at six.
+    9. Does John understand?
+    10. Why doesn't John understand?
 
 ### Expressions
 
@@ -66,4 +84,3 @@
 - extra work 额外工作
 - by the way 顺便说一下
 - repair the telephone line 修电话线
-

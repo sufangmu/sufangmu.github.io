@@ -34,22 +34,48 @@
 
 ### Words
 
-- bulletin /ˈbʊlɪtən/ 公告
-- announcer /əˈnaʊnsɚ/ 播音员
-- macaroni /ˌmækɚˈoni/ 通心粉
-- leading /ˈlidɪŋ/ 主要的
-- growers /ˈɡroɚz/ 栽培者
-- splendid /ˈsplɛndɪd/ 极好的
+- bulletin /ˈbʊlɪtən/ *n.* 公告
+    1. We’ve just read the notice on the bulletin board.
+    2. The bulletin board was covered with messages.
+    3. Let’s make it official, and put it on the bulletin board.（L71）
+- announcer /əˈnaʊnsɚ/ *n.* 播音员
+    1. It was not long before the announcer told us that the plane had flown off course.（L75）
+    2. The announcer tired to stay out of the limelight after work.（L74）
+- macaroni /ˌmækɚˈoni/ *n.* 通心粉
+    1. If you were here, you wouldn’t eat the macaroni too.（L40）
+    2. Please make yourself comfortable, and I will cook some macaroni for you.（L74）
+    3. The macaroni (my mom cooked last night) was brilliant and put every macaroni to shame.
+- leading /ˈlidɪŋ/ *adj.* 主要的
+    1. Smoking is one of the leading causes of lung cancer.（L20）
+    2. Breast cancer is the leading cause of death for American women in their forties.
+    3. My father became a leading authority on volcanoes.
+- growers /ˈɡroɚz/ *n.* 栽培者
+    1. As a vegetable grower, he is busy with his land all the time.（L70）
+    2. My father would do anything to prevent me from becoming a vegetable grower.（L68）
+    3. The vegetable grower managed to set up his camp under the tree.（L67）
+- splendid /ˈsplɛndɪd/ *adj.* 极好的
 - crop /krɑp/ 庄稼
 - harvesting /ˈhɑrvəstɪŋ/ 收获
 - cartloads /ˈkɑrt ˌlodz/ 一货车的装载量
-- stalks /stɔks/ 茎秆
-- gathering /ˈɡæðərɪŋ/ 收集
+- stalks /stɔks/ *n.* 茎秆
+    1. There are many baby corns on one corn stalk.
+    2. We should have cut down all the corn stalks.（L67）
+- gathering /ˈɡæðərɪŋ/ *v.* 收集
 - threshing /ˈθrɛʃɪŋ/ 打谷
 - competition /ˌkɑmpəˈtɪʃən/ 比赛
-- champion /ˈtʃæmpiən/ 冠军
-- studio /ˈstudiˌo/ 工作室
-- process /ˈprɑsɛs/ 加工
+- champion /ˈtʃæmpiən/ *n.* 冠军
+    1. the present champion…
+    2. I am a huge fan of the present champion.（L74）
+    3. “Oh, you can do that too.” said the present champion with a sneer.（L74）
+    4. They are all put to shame by the present champion.（L73）
+- studio /ˈstudiˌo/ *n.* 工作室
+    1. Most of the scenes were filmed in a studio.（L10）
+    2. It was not long before they could buy a new studio.（L75）
+    3. What a splendid/brilliant idea!
+- process /ˈprɑsɛs/ *v.* 加工
+    1. The crop is being processed at the factory right now.（L10）
+    2. Remember, processed food is usually full of salt and sugar.（L7）
+    3. We should be responsible for our own health and eat less processed food.（L71）
 
 ### Expressions
 
@@ -57,4 +83,3 @@
 - leading cause of ……的主要原因
 - What a splendid/brilliant idea! 多棒的主意啊！
 - at the end of... 在……末尾
-

@@ -26,14 +26,30 @@
 
 ### Words
 
-- presented /priˈzɛntɪd/ 演出
+- presented /priˈzɛntɪd/ *adj.* 演出
+    1. They will be presenting a comedy show tonight.（L13）
+    2. A comedy show had been presented before…
 - dullest /ˈdʌləst/ 无聊的
-- artistes /ɑrˈtists/ 艺人
-- advertiser /ˈædvɚˌtaɪzɚ/ 报幕员
+- artistes /ɑrˈtists/ *n.* 艺人
+    1. We should keep in touch with the artiste we met last night.
+    2. The artiste had a perfect alibi, so he couldn’t commit the murder.（L87）
+    3. The artiste devoted his life to comedy show.（L85）
+- advertiser /ˈædvɚˌtaɪzɚ/ *n.* 报幕员
+    1. On the surface, Leo and the advertiser are good friends.（L88）
+    2. They kept in touch with the old advertiser for a long time.（L88）
+    3. The advertiser had a perfect alibi.（L87）
+    4. hold up the queue…
 - nervous /ˈnɝvəs/ 胆小的
 - awkwardly /ˈɔkwɚdli/ 尴尬地
-- comedy /ˈkɑmədi/ 喜剧
-- queue /kju/ 排队
+- comedy /ˈkɑmədi/ *n.* 喜剧
+    1. a comedy show…
+    2. They watched a comedy show together last night. did/what/who/why/where/when…
+    3. I looked at the paper, and realized that a new comedy show was coming soon.（L20）
+    4. To tell you the truth, this is actually a comedy show.（L87）
+- queue /kju/ *n.* 排队
+    1. Don’t hold up the queue, man!
+    2. We stood in a queue for half an hour.
+    3. We had to queue for hours.
 
 ### Expressions
 
@@ -41,8 +57,14 @@
 - a comedy show 喜剧表演
 - hold up the queue... 堵住队伍
 - do anything to do sth. 想尽办法做某事
+    1. I’ll do anything to help you.
+    2. I’ll do anything to keep in touch with the artist.（L88）
+    3. He’ll do anything to win the election.（L83）
 - the news get around ... 消息传开
+    1. When the news got around, the bus driver went on strike.（L84）
+    2. When the news got around, the students volunteered to drive the buses.（L84）
 - feel disappointed 感到失望
 - at the beginning of a 在……的开头
 - burst out laughing 突然大笑起来
-
+    1. The moment I walked into the room, everyone burst out laughing.（L60）
+    2. When I had finished my story, everyone burst out laughing.（L7）
